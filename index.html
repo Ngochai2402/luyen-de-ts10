@@ -337,20 +337,30 @@
 
   .figure-wrap {
     margin-top: 18px;
-    padding: 16px;
+    padding: 14px;
     background: #fafafa;
     border: 1px solid var(--line-soft);
     border-radius: 10px;
     text-align: center;
   }
   .figure-img {
-    max-width: 100%;
+    max-width: min(100%, 500px);
+    max-height: 380px;
+    width: auto;
     height: auto;
     border-radius: 6px;
     background: white;
     display: block;
     margin: 0 auto;
     box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    cursor: zoom-in;
+    transition: transform 0.2s;
+  }
+  .figure-img:hover { transform: scale(1.02); }
+  .figure-img.zoomed {
+    max-width: 100%;
+    max-height: none;
+    cursor: zoom-out;
   }
   .figure-caption {
     margin-top: 10px;
@@ -366,6 +376,10 @@
     border-radius: 14px;
     padding: 16px 18px;
     margin-bottom: 14px;
+    position: sticky;
+    bottom: 12px;
+    z-index: 15;
+    box-shadow: 0 -4px 20px rgba(74, 66, 60, 0.08), 0 2px 8px rgba(74, 66, 60, 0.04);
   }
   .cau-dan-bar-title {
     font-size: 12px;
@@ -693,11 +707,6 @@
   <div id="deContent">Đang tải...</div>
 </main>
 
-<button class="scroll-to-conv" id="scrollToConv" onclick="document.getElementById('conversation').scrollIntoView({behavior:'smooth'})">
-  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 12 15 18 9"/></svg>
-  Xem trả lời
-</button>
-
 <div class="footer-note">
   Bản demo · Thầy Hải · Hưng Phương · Tháng 4/2026
 </div>
@@ -801,8 +810,8 @@ function renderDe() {
       <div class="de-bai-content">${renderMarkdown(bai.de_bai)}</div>
       ${bai.hinh_anh ? `
         <div class="figure-wrap">
-          <img src="${bai.hinh_anh}" alt="${bai.ghi_chu_hinh || 'Hình vẽ bài ' + bai.bai_so}" class="figure-img" />
-          ${bai.ghi_chu_hinh ? `<div class="figure-caption">${bai.ghi_chu_hinh}</div>` : ''}
+          <img src="${bai.hinh_anh}" alt="${bai.ghi_chu_hinh || 'Hình vẽ bài ' + bai.bai_so}" class="figure-img" onclick="this.classList.toggle('zoomed')" title="Bấm để phóng to/thu nhỏ" />
+          ${bai.ghi_chu_hinh ? `<div class="figure-caption">${bai.ghi_chu_hinh} · Bấm ảnh để phóng to</div>` : ''}
         </div>
       ` : (bai.co_hinh_ve ? `
         <div class="figure-note">
@@ -810,6 +819,10 @@ function renderDe() {
           <span>Bài có hình vẽ: <em>${bai.ghi_chu_hinh}</em>. (Hình sẽ được cập nhật sau.)</span>
         </div>
       ` : '')}
+    </div>
+
+    <div class="conversation" id="conversation">
+      ${renderConversation()}
     </div>
 
     <div class="cau-dan-bar">
@@ -832,10 +845,6 @@ function renderDe() {
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
         </button>
       </div>
-    </div>
-
-    <div class="conversation" id="conversation">
-      ${renderConversation()}
     </div>
   `;
   document.getElementById('deContent').innerHTML = html;
@@ -911,9 +920,18 @@ function updateConversationOnly() {
   if (!el) return;
   el.innerHTML = renderConversation();
   renderKatex(el);  // Render KaTeX trong khu chat
-  // Cuộn xuống
+  // Cuộn đến bubble mới nhất
   const lastBubble = el.querySelector('.bubble:last-child');
-  if (lastBubble) lastBubble.scrollIntoView({ behavior: 'smooth', block: 'end' });
+  if (lastBubble) {
+    lastBubble.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }
+  // Sau khi scroll đến bubble, focus ô input để HS gõ tiếp luôn
+  setTimeout(() => {
+    const input = document.getElementById('chatInput');
+    if (input && !input._touchedRecently) {
+      input.focus({ preventScroll: true });
+    }
+  }, 500);
 }
 
 function updateCauDanDetailOnly() {
@@ -1141,23 +1159,6 @@ function attachInputHandlers() {
     input.style.height = Math.min(input.scrollHeight, 140) + 'px';
   };
 }
-
-// Hiện nút "Xem trả lời" khi có hội thoại nhưng đang cuộn ở trên
-const scrollBtn = document.getElementById('scrollToConv');
-window.addEventListener('scroll', () => {
-  if (chatHistory.length === 0) {
-    scrollBtn.classList.remove('show');
-    return;
-  }
-  const conv = document.getElementById('conversation');
-  if (!conv) return;
-  const rect = conv.getBoundingClientRect();
-  if (rect.top > window.innerHeight - 100) {
-    scrollBtn.classList.add('show');
-  } else {
-    scrollBtn.classList.remove('show');
-  }
-});
 
 // ============ INIT ============
 window.addEventListener('load', () => {
