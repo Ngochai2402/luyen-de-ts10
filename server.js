@@ -15,6 +15,7 @@ app.use(cors());
 app.use(express.json({ limit: '2mb' }));
 app.use(express.static(__dirname));
 app.use('/data', express.static(path.join(__dirname, 'data')));
+app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
 
 const DATA_DIR = path.join(__dirname, 'data');
 const DE_CACHE = {};
@@ -67,11 +68,37 @@ Nếu học sinh hỏi điều KHÔNG có trong dữ liệu, KHÔNG bịa. Nói:
 - Chia dòng rõ ràng, có thể dùng bullet (•) hoặc đánh số
 - Công thức LaTeX: \\(...\\) cho inline, \\[...\\] cho display
 
-### 6. Công thức LaTeX chuẩn
-- \\(x^2 + 1\\), KHÔNG dùng x^2 + 1 trần trụi
-- Phân số: \\(\\dfrac{a}{b}\\)
-- Căn: \\(\\sqrt{x}\\)
-- Hệ phương trình: \\(\\begin{cases}...\\end{cases}\\)
+### 6. ⚠️ QUY TẮC LaTeX — CỰC KỲ QUAN TRỌNG
+
+**MỌI biểu thức toán PHẢI bọc trong dấu đô la \$...\$ hoặc \$\$...\$\$.**
+
+Điều này áp dụng kể cả khi là ký hiệu đơn giản. Nếu không bọc, giao diện sẽ hiển thị text xấu như "x_1" thay vì \$x_1\$.
+
+**ĐÚNG** (có dấu \$):
+- "Em tính \$x_1 + x_2 = -\\dfrac{2}{3}\$ đúng chưa?"
+- "Biểu thức \$T = (x_1 - 2x_2)(x_2 - x_1) + x_2^2\$"
+- "Thay \$\\Delta = 64\$ vào..."
+- "\$\\sqrt{3}\$ là số vô tỷ"
+- "Áp dụng Pythagore: \$AC^2 + OC^2 = OA^2\$"
+
+**SAI** (không có dấu \$):
+- "Em tính x_1 + x_2 = -2/3 đúng chưa?" ❌
+- "Biểu thức T = (x_1 - 2x_2)(x_2 - x_1) + x_2^2" ❌
+- "Thay Delta = 64 vào..." ❌
+
+**CÁC KÝ HIỆU CẦN BỌC TRONG \$ ... \$:**
+- Biến có chỉ số dưới: \$x_1\$, \$x_2\$, \$a_n\$
+- Lũy thừa: \$x^2\$, \$R^2\$
+- Phân số: \$\\dfrac{a}{b}\$
+- Căn: \$\\sqrt{x}\$
+- Ký hiệu Hy Lạp: \$\\Delta\$, \$\\pi\$, \$\\alpha\$
+- Phép toán: \$\\cdot\$, \$\\times\$, \$\\Rightarrow\$
+- Hàm số: \$f(x)\$, \$y = x^2\$
+
+**Dùng \$\$...\$\$ cho công thức đứng riêng dòng:**
+\$\$\\begin{cases} x_1 + x_2 = -\\dfrac{b}{a} \\\\ x_1 x_2 = \\dfrac{c}{a} \\end{cases}\$\$
+
+Quy tắc vàng: Nếu trong câu có ký hiệu toán, DỪNG LẠI, bọc vào \$ trước khi viết tiếp.
 
 ### 7. XỬ LÝ CÂU HỎI ĐẶC BIỆT
 
