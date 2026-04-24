@@ -23,320 +23,325 @@
     --accent-soft: #b84362;
     --accent-pale: #fce8ef;
     --gold: #c08a2b;
-    --green: #2d5f3f;
     --amber: #a85a00;
-    --blue: #1e4a7a;
     --line: #d9ccb4;
     --line-soft: #ebe2d0;
     --shadow-sm: 0 1px 3px rgba(74, 66, 60, 0.08);
     --shadow-md: 0 4px 12px rgba(74, 66, 60, 0.12);
-    --sidebar-w: 280px;
+    --header-h: 58px;
+    --sidebar-l: 180px;
+    --sidebar-r: 300px;
   }
   *, *::before, *::after { box-sizing: border-box; }
-  html { scroll-behavior: smooth; }
+  html, body { margin: 0; padding: 0; height: 100vh; overflow: hidden; }
   body {
-    margin: 0;
-    padding: 0;
     background: var(--paper);
     color: var(--ink);
     font-family: 'Inter', -apple-system, sans-serif;
     font-size: 15px;
     line-height: 1.65;
-    min-height: 100vh;
   }
-  h1, h2, h3, h4, .display { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; letter-spacing: -0.01em; }
+  h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, serif; font-weight: 600; letter-spacing: -0.01em; }
 
   /* ======= HEADER ======= */
   .app-header {
     background: linear-gradient(135deg, #fff 0%, var(--paper-soft) 100%);
     border-bottom: 1px solid var(--line);
-    padding: 14px 24px;
-    position: sticky;
-    top: 0;
-    z-index: 30;
-    backdrop-filter: blur(8px);
-  }
-  .app-header-inner {
-    max-width: 1400px;
-    margin: 0 auto;
+    padding: 10px 18px;
+    height: var(--header-h);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 16px;
   }
-  .header-left { display: flex; align-items: center; gap: 14px; }
-  .toggle-drawer {
-    width: 40px;
-    height: 40px;
-    border-radius: 10px;
-    background: transparent;
-    border: 1px solid var(--line);
-    cursor: pointer;
-    display: grid;
-    place-items: center;
-    color: var(--ink-soft);
-    transition: all 0.15s;
-  }
-  .toggle-drawer:hover { background: white; color: var(--accent); }
-  .brand { display: flex; align-items: center; gap: 12px; }
+  .brand { display: flex; align-items: center; gap: 10px; }
   .brand-mark {
-    width: 42px; height: 42px;
-    border-radius: 10px;
+    width: 36px; height: 36px;
+    border-radius: 8px;
     background: linear-gradient(135deg, var(--accent), var(--accent-soft));
     display: grid;
     place-items: center;
     color: white;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
-    font-size: 22px;
-    box-shadow: 0 4px 12px rgba(139, 21, 56, 0.25);
+    font-size: 19px;
+    box-shadow: 0 2px 8px rgba(139, 21, 56, 0.25);
   }
-  .brand-text h1 {
-    font-size: 22px;
-    margin: 0;
-    line-height: 1.1;
-    color: var(--accent);
-  }
-  .brand-text p {
-    margin: 0;
-    font-size: 11px;
-    color: var(--ink-muted);
-    font-weight: 500;
-    letter-spacing: 0.05em;
-    text-transform: uppercase;
-  }
+  .brand-text h1 { font-size: 19px; margin: 0; line-height: 1.1; color: var(--accent); }
+  .brand-text p { margin: 0; font-size: 10.5px; color: var(--ink-muted); font-weight: 500; letter-spacing: 0.04em; text-transform: uppercase; }
   .user-chip {
     display: flex;
     align-items: center;
-    gap: 10px;
-    padding: 8px 14px;
+    gap: 8px;
+    padding: 6px 12px;
     background: white;
     border: 1px solid var(--line);
     border-radius: 999px;
-    font-size: 13px;
+    font-size: 12.5px;
     color: var(--ink-soft);
   }
-  .user-chip strong { color: var(--ink); }
   .user-avatar {
-    width: 26px; height: 26px;
+    width: 22px; height: 22px;
     border-radius: 50%;
     background: var(--paper-deep);
     display: grid;
     place-items: center;
     font-weight: 700;
-    font-size: 11px;
+    font-size: 10px;
     color: var(--accent);
   }
 
-  /* ======= DRAWER (danh sách đề) ======= */
-  .drawer {
-    position: fixed;
-    top: 69px;
-    left: 0;
-    width: var(--sidebar-w);
-    bottom: 0;
-    background: white;
+  /* ======= 3-COLUMN LAYOUT ======= */
+  .app-shell {
+    display: grid;
+    grid-template-columns: var(--sidebar-l) 1fr var(--sidebar-r);
+    height: calc(100vh - var(--header-h));
+    overflow: hidden;
+  }
+
+  /* ======= CỘT TRÁI: DS ĐỀ + BÀI ======= */
+  .col-left {
+    background: #fff;
     border-right: 1px solid var(--line);
-    transform: translateX(-100%);
-    transition: transform 0.25s ease;
-    z-index: 25;
     display: flex;
     flex-direction: column;
     overflow: hidden;
   }
-  .drawer.open { transform: translateX(0); box-shadow: var(--shadow-md); }
-  .drawer-header {
-    padding: 16px 18px;
-    border-bottom: 1px solid var(--line);
-    background: var(--paper-soft);
+  .col-section-title {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--ink-muted);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 12px 14px 6px;
   }
-  .drawer-header h2 {
-    font-size: 18px;
-    margin: 0 0 2px 0;
-    color: var(--ink);
+  /* DS đề (thu gọn) */
+  .de-selector {
+    padding: 0 10px 10px;
+    border-bottom: 1px solid var(--line-soft);
   }
-  .drawer-header p { margin: 0; font-size: 12px; color: var(--ink-muted); }
-  .de-list {
-    overflow-y: auto;
-    padding: 8px;
-    flex: 1;
-  }
-  .de-item {
-    padding: 12px 14px;
-    border-radius: 10px;
-    cursor: pointer;
-    margin-bottom: 3px;
-    transition: all 0.15s;
+  .de-select-wrap {
     display: flex;
     align-items: center;
-    gap: 12px;
-    border: 1px solid transparent;
-  }
-  .de-item:hover { background: var(--paper-soft); }
-  .de-item.active {
-    background: linear-gradient(to right, var(--accent-pale), transparent);
-    border-color: rgba(139, 21, 56, 0.2);
-  }
-  .de-num {
-    width: 34px; height: 34px;
+    gap: 8px;
+    padding: 8px 10px;
+    background: var(--paper-soft);
+    border: 1px solid var(--line);
     border-radius: 8px;
-    background: var(--paper-deep);
+    cursor: pointer;
+    font-size: 13px;
+    color: var(--ink);
+    transition: all 0.15s;
+  }
+  .de-select-wrap:hover { border-color: var(--accent-soft); }
+  .de-select-num {
+    width: 26px; height: 26px;
+    border-radius: 6px;
+    background: var(--accent);
+    color: white;
     display: grid;
     place-items: center;
     font-family: 'Cormorant Garamond', serif;
     font-weight: 700;
-    font-size: 17px;
+    font-size: 14px;
+  }
+  .de-select-info { flex: 1; min-width: 0; }
+  .de-select-label { font-weight: 600; font-size: 12px; }
+  .de-select-meta { font-size: 10.5px; color: var(--ink-muted); }
+  .chev { color: var(--ink-muted); font-size: 10px; transition: transform 0.2s; }
+  .de-dropdown-open .chev { transform: rotate(180deg); }
+
+  /* DS bài (chính) */
+  .bai-list {
+    flex: 1;
+    overflow-y: auto;
+    padding: 6px;
+  }
+  .bai-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    transition: all 0.15s;
+    border: 1px solid transparent;
+  }
+  .bai-item:hover { background: var(--paper-soft); }
+  .bai-item.active {
+    background: linear-gradient(to right, var(--accent-pale), transparent);
+    border-color: rgba(139, 21, 56, 0.2);
+  }
+  .bai-item-num {
+    width: 30px; height: 30px;
+    border-radius: 7px;
+    background: var(--paper-deep);
     color: var(--accent);
+    display: grid;
+    place-items: center;
+    font-weight: 700;
+    font-size: 13px;
+    font-family: 'Cormorant Garamond', serif;
     flex-shrink: 0;
   }
-  .de-item.active .de-num { background: var(--accent); color: white; }
-  .de-info { flex: 1; min-width: 0; }
-  .de-title { font-weight: 600; font-size: 13px; color: var(--ink); margin: 0; }
-  .de-meta { font-size: 11px; color: var(--ink-muted); margin: 2px 0 0; }
-  .de-item.locked { opacity: 0.4; cursor: not-allowed; }
-  .de-item.locked:hover { background: transparent; }
+  .bai-item.active .bai-item-num { background: var(--accent); color: white; }
+  .bai-item-info { flex: 1; min-width: 0; }
+  .bai-item-label { font-weight: 600; font-size: 12.5px; line-height: 1.2; }
+  .bai-item-meta { font-size: 10.5px; color: var(--ink-muted); margin-top: 1px; }
 
-  /* ======= MAIN CONTENT - FULL WIDTH ======= */
-  .main-shell {
-    max-width: 1050px;
-    margin: 0 auto;
-    padding: 20px;
-  }
-
-  /* ĐỀ HEADER */
-  .de-header-card {
+  /* Drawer chọn đề (overlay) */
+  .de-drawer {
+    position: fixed;
+    top: var(--header-h);
+    left: 0;
+    width: 280px;
+    bottom: 0;
     background: white;
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    padding: 20px 26px;
+    border-right: 1px solid var(--line);
+    transform: translateX(-100%);
+    transition: transform 0.25s;
+    z-index: 30;
+    display: flex;
+    flex-direction: column;
+    box-shadow: var(--shadow-md);
+  }
+  .de-drawer.open { transform: translateX(0); }
+  .de-drawer-header {
+    padding: 16px 18px;
+    border-bottom: 1px solid var(--line);
+    background: var(--paper-soft);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .de-drawer-header h3 { margin: 0; font-size: 16px; color: var(--ink); }
+  .close-drawer {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    color: var(--ink-muted);
+    padding: 0;
+    width: 28px;
+    height: 28px;
+  }
+  .de-drawer-list { flex: 1; overflow-y: auto; padding: 8px; }
+  .de-drawer-item {
+    padding: 10px 12px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 3px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.15s;
+    border: 1px solid transparent;
+  }
+  .de-drawer-item:hover { background: var(--paper-soft); }
+  .de-drawer-item.active {
+    background: var(--accent-pale);
+    border-color: rgba(139, 21, 56, 0.2);
+  }
+  .de-drawer-item.locked { opacity: 0.4; cursor: not-allowed; }
+  .de-drawer-item.locked:hover { background: transparent; }
+  .de-drawer-num {
+    width: 32px; height: 32px;
+    border-radius: 7px;
+    background: var(--paper-deep);
+    color: var(--accent);
+    display: grid;
+    place-items: center;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 700;
+    font-size: 15px;
+  }
+  .de-drawer-item.active .de-drawer-num { background: var(--accent); color: white; }
+  .overlay {
+    position: fixed;
+    inset: var(--header-h) 0 0 0;
+    background: rgba(0,0,0,0.3);
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.2s;
+    z-index: 25;
+  }
+  .overlay.show { opacity: 1; pointer-events: auto; }
+
+  /* ======= CỘT GIỮA: NỘI DUNG CHÍNH ======= */
+  .col-center {
+    overflow-y: auto;
+    padding: 20px 28px;
+    background: var(--paper);
+  }
+  .de-header-card {
     margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
   }
   .de-chip {
     display: inline-flex;
     align-items: center;
-    gap: 6px;
-    padding: 3px 10px;
+    padding: 2px 10px;
     background: var(--paper-soft);
     border-radius: 999px;
-    font-size: 10.5px;
+    font-size: 10px;
     font-weight: 600;
     color: var(--ink-muted);
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    margin-bottom: 6px;
+    margin-bottom: 4px;
   }
   .de-header-card h2 {
-    font-size: 26px;
-    margin: 0 0 4px 0;
+    font-size: 24px;
+    margin: 0 0 2px;
     color: var(--accent);
   }
-  .de-header-card p { margin: 0; color: var(--ink-muted); font-size: 13px; }
+  .de-header-card p { margin: 0; color: var(--ink-muted); font-size: 12.5px; }
 
-  /* BÀI NAV */
-  .bai-nav-wrap {
+  /* Bài */
+  .de-bai-block {
     background: white;
     border: 1px solid var(--line);
-    border-radius: 14px;
-    padding: 14px 18px;
-    margin-bottom: 14px;
-    position: sticky;
-    top: 80px;
-    z-index: 10;
-    box-shadow: var(--shadow-sm);
-  }
-  .bai-nav-label {
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--ink-muted);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 8px;
-  }
-  .bai-nav {
-    display: flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-  .bai-tab {
-    padding: 8px 14px;
-    background: var(--paper-soft);
-    border: 1px solid var(--line);
-    border-radius: 8px;
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
-    color: var(--ink-soft);
-    transition: all 0.15s;
-    display: flex;
-    align-items: center;
-    gap: 6px;
-    font-family: inherit;
-  }
-  .bai-tab:hover { border-color: var(--accent-soft); color: var(--accent); }
-  .bai-tab.active { background: var(--accent); color: white; border-color: var(--accent); }
-  .bai-tab .diem {
-    font-size: 10.5px;
-    padding: 1px 6px;
-    border-radius: 999px;
-    background: rgba(255,255,255,0.2);
-  }
-  .bai-tab:not(.active) .diem { background: white; color: var(--ink-muted); }
-
-  /* KHU ĐỀ BÀI */
-  .de-bai-card {
-    background: white;
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    padding: 24px 28px;
+    border-radius: 12px;
+    padding: 20px 24px;
     margin-bottom: 14px;
   }
   .de-bai-header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 8px;
-    padding-bottom: 12px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
     border-bottom: 1px solid var(--line-soft);
   }
-  .de-bai-header-left { display: flex; align-items: baseline; gap: 12px; }
-  .de-bai-header h3 { font-size: 24px; margin: 0; color: var(--ink); }
+  .de-bai-header-left { display: flex; align-items: baseline; gap: 10px; }
+  .de-bai-header h3 { font-size: 22px; margin: 0; color: var(--ink); }
   .de-bai-diem {
-    font-size: 13px;
+    font-size: 12px;
     color: var(--accent);
     font-weight: 600;
-    padding: 3px 10px;
+    padding: 2px 9px;
     background: var(--accent-pale);
     border-radius: 999px;
   }
   .chu-de-chip {
     display: inline-block;
-    font-size: 11px;
+    font-size: 10.5px;
     color: var(--gold);
     font-weight: 600;
     letter-spacing: 0.05em;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
   }
   .de-bai-content {
-    font-size: 16px;
-    line-height: 1.8;
+    font-size: 15px;
+    line-height: 1.75;
   }
-  .de-bai-content p { margin: 10px 0; }
-  .figure-note {
-    margin-top: 14px;
-    padding: 10px 14px;
-    background: rgba(192, 138, 43, 0.08);
-    border: 1px dashed var(--gold);
-    border-radius: 8px;
-    font-size: 13px;
-    color: var(--amber);
-    display: flex;
-    align-items: center;
-    gap: 8px;
-  }
+  .de-bai-content p { margin: 8px 0; }
 
+  /* Hình vẽ */
   .figure-wrap {
-    margin-top: 18px;
+    margin-top: 16px;
     padding: 14px;
     background: #fafafa;
     border: 1px solid var(--line-soft);
@@ -344,8 +349,8 @@
     text-align: center;
   }
   .figure-img {
-    max-width: min(100%, 500px);
-    max-height: 380px;
+    max-width: min(100%, 460px);
+    max-height: 340px;
     width: auto;
     height: auto;
     border-radius: 6px;
@@ -363,95 +368,233 @@
     cursor: zoom-out;
   }
   .figure-caption {
-    margin-top: 10px;
-    font-size: 12.5px;
+    margin-top: 8px;
+    font-size: 12px;
     color: var(--ink-muted);
     font-style: italic;
   }
-
-  /* ======= THANH CÂU DẪN NGANG ======= */
-  .cau-dan-bar {
-    background: white;
-    border: 1px solid var(--line);
-    border-radius: 14px;
-    padding: 16px 18px;
-    margin-bottom: 14px;
-    position: sticky;
-    bottom: 12px;
-    z-index: 15;
-    box-shadow: 0 -4px 20px rgba(74, 66, 60, 0.08), 0 2px 8px rgba(74, 66, 60, 0.04);
+  .figure-note {
+    margin-top: 14px;
+    padding: 10px 14px;
+    background: rgba(192, 138, 43, 0.08);
+    border: 1px dashed var(--gold);
+    border-radius: 8px;
+    font-size: 12.5px;
+    color: var(--amber);
+    display: flex;
+    align-items: center;
+    gap: 8px;
   }
-  .cau-dan-bar-title {
-    font-size: 12px;
+
+  /* Khu hội thoại — ngay trong cột giữa */
+  .conversation-section {
+    margin-top: 24px;
+    padding-top: 16px;
+    border-top: 2px dashed var(--line);
+  }
+  .conv-title {
+    font-size: 11px;
     font-weight: 700;
     color: var(--ink-muted);
     letter-spacing: 0.08em;
     text-transform: uppercase;
-    margin-bottom: 10px;
+    margin-bottom: 12px;
     display: flex;
     align-items: center;
     gap: 6px;
   }
-  .cau-dan-groups {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 8px;
-    margin-bottom: 12px;
-  }
-  @media (max-width: 720px) {
-    .cau-dan-groups { grid-template-columns: repeat(2, 1fr); }
-  }
-  .group-btn {
-    padding: 10px 10px;
-    background: var(--paper-soft);
-    border: 1px solid var(--line);
-    border-radius: 10px;
-    font-size: 13px;
-    font-weight: 600;
-    cursor: pointer;
-    color: var(--ink);
-    transition: all 0.15s;
+  .conversation {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 4px;
-    font-family: inherit;
+    gap: 12px;
+  }
+  .empty-conversation {
+    padding: 30px 20px;
     text-align: center;
+    color: var(--ink-muted);
+    background: white;
+    border: 1px dashed var(--line);
+    border-radius: 12px;
   }
-  .group-btn:hover { border-color: var(--accent-soft); transform: translateY(-1px); background: white; }
-  .group-btn.active { border-color: var(--accent); background: var(--accent-pale); }
-  .group-btn .ico { font-size: 22px; }
-  .group-btn .lbl { font-size: 12px; }
-
-  /* Popup câu dẫn chi tiết */
-  .cau-dan-detail {
-    padding: 10px 0 0;
-    border-top: 1px solid var(--line-soft);
-    margin-top: 8px;
-    display: none;
+  .empty-conversation .emoji { font-size: 36px; display: block; margin-bottom: 8px; }
+  .empty-conversation h4 { font-size: 17px; margin: 0 0 4px; color: var(--ink); }
+  .empty-conversation p { margin: 0; font-size: 13px; }
+  .bubble {
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-size: 14.5px;
+    line-height: 1.7;
+    animation: fadeIn 0.3s;
   }
-  .cau-dan-detail.open { display: block; }
-  .cau-dan-detail-title {
-    font-size: 11px;
+  @keyframes fadeIn {
+    from { opacity: 0; transform: translateY(4px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+  .bubble.user {
+    background: var(--accent);
+    color: white;
+    align-self: flex-end;
+    max-width: 80%;
+    padding: 11px 16px;
+    font-size: 14px;
+    border-radius: 12px 12px 4px 12px;
+  }
+  .bubble.ai {
+    background: white;
+    border: 1px solid var(--line);
+    color: var(--ink);
+    position: relative;
+    padding-top: 20px;
+  }
+  .bubble.ai::before {
+    content: '';
+    position: absolute;
+    left: -1px; top: -1px;
+    width: 5px;
+    height: calc(100% + 2px);
+    background: linear-gradient(to bottom, var(--accent), var(--accent-soft));
+    border-radius: 12px 0 0 12px;
+  }
+  .bubble.ai .ai-label {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 10.5px;
     font-weight: 700;
     color: var(--accent);
-    letter-spacing: 0.06em;
+    letter-spacing: 0.08em;
     text-transform: uppercase;
     margin-bottom: 8px;
   }
-  .cau-dan-list { display: grid; gap: 6px; }
+  .bubble.ai .ai-label::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: var(--accent);
+    box-shadow: 0 0 0 3px var(--accent-pale);
+  }
+  .bubble.ai p { margin: 8px 0; }
+  .bubble.ai p:first-child { margin-top: 0; }
+  .bubble.ai p:last-child { margin-bottom: 0; }
+  .bubble.ai h1, .bubble.ai h2, .bubble.ai h3, .bubble.ai h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    margin: 14px 0 6px;
+    color: var(--accent);
+  }
+  .bubble.ai ul, .bubble.ai ol { margin: 8px 0; padding-left: 22px; }
+  .bubble.ai li { margin: 4px 0; }
+  .bubble.ai hr { border: none; border-top: 1px dashed var(--line); margin: 14px 0; }
+  .bubble.ai code { background: var(--paper-soft); padding: 1px 6px; border-radius: 4px; font-size: 0.92em; }
+  .bubble.ai strong { color: var(--ink); }
+  .bubble.system {
+    background: rgba(192, 138, 43, 0.1);
+    color: var(--amber);
+    border: 1px dashed var(--gold);
+    padding: 8px 14px;
+    font-size: 12px;
+    align-self: center;
+    border-radius: 999px;
+  }
+
+  /* KaTeX */
+  .katex { font-size: 1.05em !important; }
+  .katex-display { margin: 12px 0 !important; }
+
+  /* ======= CỘT PHẢI: CÂU HỎI + INPUT ======= */
+  .col-right {
+    background: white;
+    border-left: 1px solid var(--line);
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+  .col-right-header {
+    padding: 14px 16px;
+    background: linear-gradient(135deg, var(--accent) 0%, var(--accent-soft) 100%);
+    color: white;
+  }
+  .col-right-header h3 {
+    margin: 0;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+  }
+  .col-right-header p {
+    margin: 2px 0 0;
+    font-size: 11px;
+    opacity: 0.9;
+  }
+
+  /* Nhóm câu dẫn dọc */
+  .cau-dan-wrap {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  .group-block {
+    margin-bottom: 6px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  .group-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 12px;
+    cursor: pointer;
+    font-size: 13px;
+    font-weight: 600;
+    user-select: none;
+    transition: background 0.12s;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    color: var(--ink);
+  }
+  .group-header:hover { background: var(--paper-soft); }
+  .group-block.open .group-header {
+    background: var(--accent-pale);
+    border-color: rgba(139, 21, 56, 0.15);
+  }
+  .group-icon {
+    font-size: 20px;
+    width: 28px;
+    text-align: center;
+  }
+  .group-title-text { flex: 1; }
+  .group-chev {
+    color: var(--ink-muted);
+    font-size: 10px;
+    transition: transform 0.2s;
+  }
+  .group-block.open .group-chev { transform: rotate(90deg); }
+
+  .group-body {
+    display: none;
+    padding: 6px 6px 8px;
+  }
+  .group-block.open .group-body { display: block; }
+
   .cau-dan-item {
-    padding: 10px 14px;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 9px 11px;
     background: var(--paper-soft);
     border: 1px solid var(--line-soft);
     border-radius: 8px;
-    font-size: 13.5px;
+    font-size: 12.5px;
     color: var(--ink);
     cursor: pointer;
-    transition: all 0.12s;
-    text-align: left;
+    margin: 3px 0;
+    line-height: 1.45;
     font-family: inherit;
-    line-height: 1.5;
+    transition: all 0.12s;
   }
   .cau-dan-item:hover {
     border-color: var(--accent-soft);
@@ -459,30 +602,42 @@
     transform: translateX(2px);
   }
 
-  /* Thanh ô gõ tự do */
+  /* Input ở đáy cột phải */
+  .input-section {
+    border-top: 1px solid var(--line);
+    padding: 12px;
+    background: var(--paper-soft);
+  }
+  .input-section-title {
+    font-size: 10.5px;
+    font-weight: 700;
+    color: var(--ink-muted);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    margin-bottom: 8px;
+  }
   .input-wrap {
     display: flex;
-    gap: 8px;
+    gap: 6px;
     align-items: flex-end;
-    margin-top: 6px;
   }
   .chat-input {
     flex: 1;
-    padding: 11px 16px;
+    padding: 10px 12px;
     border: 1px solid var(--line);
     border-radius: 10px;
-    font-size: 14px;
+    font-size: 13px;
     font-family: inherit;
     resize: none;
     color: var(--ink);
-    background: var(--paper);
-    min-height: 44px;
-    max-height: 140px;
+    background: white;
+    min-height: 40px;
+    max-height: 120px;
     line-height: 1.5;
   }
-  .chat-input:focus { outline: none; border-color: var(--accent-soft); background: white; }
+  .chat-input:focus { outline: none; border-color: var(--accent-soft); box-shadow: 0 0 0 3px var(--accent-pale); }
   .btn-send {
-    width: 44px; height: 44px;
+    width: 40px; height: 40px;
     border-radius: 10px;
     background: var(--accent);
     color: white;
@@ -494,221 +649,122 @@
     flex-shrink: 0;
   }
   .btn-send:hover { background: var(--accent-soft); }
-  .btn-send:disabled { opacity: 0.4; cursor: not-allowed; }
 
-  /* ======= KHU HỘI THOẠI / LỜI GIẢI - TO RỘNG ======= */
-  .conversation {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-  }
-  .empty-conversation {
-    background: white;
-    border: 1px dashed var(--line);
-    border-radius: 14px;
-    padding: 50px 30px;
-    text-align: center;
-    color: var(--ink-muted);
-  }
-  .empty-conversation .emoji {
-    font-size: 44px;
-    margin-bottom: 12px;
-    display: block;
-  }
-  .empty-conversation h4 {
-    font-size: 20px;
-    margin: 0 0 6px;
-    color: var(--ink);
-  }
-  .empty-conversation p { margin: 0; font-size: 14px; }
-
-  .bubble {
-    padding: 20px 26px;
-    border-radius: 14px;
-    font-size: 15.5px;
-    line-height: 1.75;
-    animation: fadeIn 0.3s;
-  }
-  @keyframes fadeIn {
-    from { opacity: 0; transform: translateY(6px); }
-    to { opacity: 1; transform: translateY(0); }
-  }
-  .bubble.user {
-    background: var(--accent);
-    color: white;
-    align-self: flex-end;
-    max-width: 75%;
-    padding: 14px 20px;
-    font-size: 14.5px;
-    border-radius: 14px 14px 4px 14px;
-    box-shadow: var(--shadow-sm);
-  }
-  .bubble.ai {
-    background: white;
-    border: 1px solid var(--line);
-    color: var(--ink);
-    position: relative;
-    padding-top: 24px;
-  }
-  .bubble.ai::before {
-    content: '';
-    position: absolute;
-    left: -1px; top: -1px;
-    width: 6px;
-    height: calc(100% + 2px);
-    background: linear-gradient(to bottom, var(--accent), var(--accent-soft));
-    border-radius: 14px 0 0 14px;
-  }
-  .bubble.ai .ai-label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-    font-size: 11px;
-    font-weight: 700;
-    color: var(--accent);
-    letter-spacing: 0.08em;
-    text-transform: uppercase;
-    margin-bottom: 10px;
-  }
-  .bubble.ai .ai-label::before {
-    content: '';
-    width: 6px;
-    height: 6px;
-    border-radius: 50%;
-    background: var(--accent);
-    box-shadow: 0 0 0 3px var(--accent-pale);
-  }
-  .bubble.ai p { margin: 10px 0; }
-  .bubble.ai p:first-child { margin-top: 0; }
-  .bubble.ai p:last-child { margin-bottom: 0; }
-  .bubble.ai h1, .bubble.ai h2, .bubble.ai h3, .bubble.ai h4 {
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
-    font-size: 16px;
-    margin: 16px 0 8px;
-    color: var(--accent);
-  }
-  .bubble.ai ul, .bubble.ai ol { margin: 10px 0; padding-left: 22px; }
-  .bubble.ai li { margin: 6px 0; }
-  .bubble.ai blockquote {
-    border-left: 3px solid var(--line);
-    padding-left: 14px;
-    margin: 12px 0;
-    color: var(--ink-muted);
-    font-style: italic;
-  }
-  .bubble.ai hr {
-    border: none;
-    border-top: 1px dashed var(--line);
-    margin: 16px 0;
-  }
-  .bubble.ai code {
-    background: var(--paper-soft);
-    padding: 1px 6px;
-    border-radius: 4px;
-    font-size: 0.92em;
-  }
-  .bubble.ai strong { color: var(--ink); }
-  .bubble.system {
-    background: rgba(192, 138, 43, 0.1);
-    color: var(--amber);
-    border: 1px dashed var(--gold);
-    padding: 10px 16px;
-    font-size: 13px;
-    align-self: center;
-    border-radius: 999px;
-  }
-  .bubble.typing { color: var(--ink-muted); font-style: italic; padding-top: 20px; }
-
-  /* Katex - to rõ */
-  .katex { font-size: 1.08em !important; }
-  .bubble .katex { font-size: 1.08em !important; }
-  .katex-display { margin: 16px 0 !important; }
-
-  /* Footer */
-  .footer-note {
-    margin: 50px auto 20px;
-    text-align: center;
-    padding: 16px;
-    font-size: 11px;
-    color: var(--ink-muted);
-  }
-
-  /* Overlay khi mở drawer */
-  .overlay {
-    position: fixed;
-    inset: 69px 0 0 0;
-    background: rgba(0,0,0,0.3);
-    opacity: 0;
-    pointer-events: none;
-    transition: opacity 0.2s;
-    z-index: 24;
-  }
-  .overlay.show { opacity: 1; pointer-events: auto; }
-
-  /* Nút khung hiện hội thoại: nhảy xuống dưới */
-  .scroll-to-conv {
-    position: fixed;
-    bottom: 24px;
-    right: 24px;
-    background: var(--accent);
-    color: white;
-    padding: 10px 18px;
-    border-radius: 999px;
-    border: none;
-    font-weight: 600;
-    font-size: 13px;
-    cursor: pointer;
-    box-shadow: var(--shadow-md);
-    font-family: inherit;
+  /* Mobile */
+  .mobile-toggle {
     display: none;
+    width: 36px;
+    height: 36px;
+    border-radius: 8px;
+    background: transparent;
+    border: 1px solid var(--line);
+    cursor: pointer;
     align-items: center;
-    gap: 6px;
-    z-index: 15;
+    justify-content: center;
+    color: var(--ink-soft);
   }
-  .scroll-to-conv.show { display: flex; }
+  @media (max-width: 1100px) {
+    :root { --sidebar-l: 0; --sidebar-r: 0; }
+    .app-shell { grid-template-columns: 1fr; }
+    .col-left, .col-right { display: none; }
+    .col-left.mobile-show, .col-right.mobile-show {
+      display: flex;
+      position: fixed;
+      top: var(--header-h);
+      bottom: 0;
+      z-index: 30;
+      width: 88%;
+      max-width: 340px;
+    }
+    .col-left.mobile-show { left: 0; }
+    .col-right.mobile-show { right: 0; border-left: 1px solid var(--line); border-right: none; }
+    .mobile-toggle { display: flex; }
+  }
+
+  /* Scrollbar styling */
+  ::-webkit-scrollbar { width: 8px; height: 8px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+  ::-webkit-scrollbar-thumb:hover { background: var(--ink-muted); }
 </style>
 </head>
 <body>
 
 <header class="app-header">
-  <div class="app-header-inner">
-    <div class="header-left">
-      <button class="toggle-drawer" id="btnDrawer" aria-label="Mở danh sách đề">
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
-      </button>
-      <div class="brand">
-        <div class="brand-mark">H</div>
-        <div class="brand-text">
-          <h1>Luyện Đề TS10</h1>
-          <p>Trung Tâm Hưng Phương · Thầy Toán AI</p>
-        </div>
+  <div style="display: flex; align-items: center; gap: 12px;">
+    <button class="mobile-toggle" id="btnLeft" title="Danh sách bài">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+    </button>
+    <div class="brand">
+      <div class="brand-mark">H</div>
+      <div class="brand-text">
+        <h1>Luyện Đề TS10</h1>
+        <p>Trung Tâm Hưng Phương · Thầy Toán AI</p>
       </div>
     </div>
+  </div>
+  <div style="display: flex; align-items: center; gap: 10px;">
     <div class="user-chip">
       <div class="user-avatar">M</div>
-      <span>Xin chào, <strong>em Minh (9A)</strong></span>
+      <span>em Minh (9A)</span>
     </div>
+    <button class="mobile-toggle" id="btnRight" title="Thầy AI">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+    </button>
   </div>
 </header>
 
-<!-- Drawer danh sách đề -->
 <div class="overlay" id="overlay"></div>
-<aside class="drawer" id="drawer">
-  <div class="drawer-header">
-    <h2>Bộ đề TS10</h2>
-    <p>48 đề · Năm học 2026–2027</p>
+<aside class="de-drawer" id="deDrawer">
+  <div class="de-drawer-header">
+    <h3>Chọn đề</h3>
+    <button class="close-drawer" onclick="closeDeDrawer()">✕</button>
   </div>
-  <div class="de-list" id="deList"></div>
+  <div class="de-drawer-list" id="deDrawerList"></div>
 </aside>
 
-<!-- Main content -->
-<main class="main-shell" id="mainShell">
-  <div id="deContent">Đang tải...</div>
-</main>
+<div class="app-shell">
 
-<div class="footer-note">
-  Bản demo · Thầy Hải · Hưng Phương · Tháng 4/2026
+  <!-- CỘT TRÁI: đề + bài -->
+  <aside class="col-left" id="colLeft">
+    <div class="de-selector">
+      <div class="col-section-title">Đề đang làm</div>
+      <div class="de-select-wrap" onclick="openDeDrawer()">
+        <div class="de-select-num" id="curDeNum">1</div>
+        <div class="de-select-info">
+          <div class="de-select-label" id="curDeLabel">Đề Số 1</div>
+          <div class="de-select-meta" id="curDeMeta">7 bài · 10đ</div>
+        </div>
+        <span class="chev">▼</span>
+      </div>
+    </div>
+    <div class="col-section-title">Các bài</div>
+    <div class="bai-list" id="baiList"></div>
+  </aside>
+
+  <!-- CỘT GIỮA: nội dung -->
+  <main class="col-center" id="colCenter">
+    <div id="deContent">Đang tải...</div>
+  </main>
+
+  <!-- CỘT PHẢI: câu hỏi + input -->
+  <aside class="col-right" id="colRight">
+    <div class="col-right-header">
+      <h3>💬 Thầy Toán AI</h3>
+      <p>Bám đáp án chuẩn · Lớp 9 KNTT</p>
+    </div>
+    <div class="cau-dan-wrap" id="cauDanWrap"></div>
+    <div class="input-section">
+      <div class="input-section-title">✏️ Hỏi tự do</div>
+      <div class="input-wrap">
+        <textarea class="chat-input" id="chatInput" placeholder="Em hỏi thầy..." rows="1"></textarea>
+        <button class="btn-send" id="btnSend" aria-label="Gửi">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
+        </button>
+      </div>
+    </div>
+  </aside>
+
 </div>
 
 <script>
@@ -720,21 +776,19 @@ for (let i = 1; i <= 48; i++) {
   DE_LIST.push({
     de_so: i,
     available: i === 1,
-    label: `Đề Tham Khảo Số ${i}`,
-    meta: i === 1 ? '7 bài · 10,0đ · Có dữ liệu demo' : 'Chưa cập nhật'
+    label: `Đề Số ${i}`,
+    meta: i === 1 ? '7 bài · Demo' : 'Chưa cập nhật'
   });
 }
 
-// Metadata các nhóm (icon, tên, mô tả) — items lấy từ JSON của từng bài
 const CAU_DAN_GROUPS = [
-  { id: 'khoi-dong', jsonKey: 'khoi_dong', icon: '🌱', title: 'Khởi động', desc: 'Khi em chưa biết bắt đầu từ đâu' },
-  { id: 'dinh-huong', jsonKey: 'dinh_huong', icon: '🟡', title: 'Định hướng', desc: 'Khi em có ý nhưng chưa chắc' },
-  { id: 'kiem-tra', jsonKey: 'kiem_tra', icon: '🔵', title: 'Kiểm tra', desc: 'Khi em đã làm, muốn đối chiếu' },
-  { id: 'go-bi', jsonKey: 'go_bi', icon: '🟠', title: 'Gỡ bí', desc: 'Khi em tắc 1 chỗ' },
-  { id: 'loi-giai', jsonKey: 'loi_giai', icon: '🔴', title: 'Lời giải', desc: 'Khi em cần hiểu trọn' }
+  { id: 'khoi-dong', jsonKey: 'khoi_dong', icon: '🌱', title: 'Khởi động', desc: 'Chưa biết bắt đầu' },
+  { id: 'dinh-huong', jsonKey: 'dinh_huong', icon: '🟡', title: 'Định hướng', desc: 'Có ý nhưng chưa chắc' },
+  { id: 'kiem-tra', jsonKey: 'kiem_tra', icon: '🔵', title: 'Kiểm tra', desc: 'Đã làm, muốn đối chiếu' },
+  { id: 'go-bi', jsonKey: 'go_bi', icon: '🟠', title: 'Gỡ bí', desc: 'Tắc 1 chỗ cụ thể' },
+  { id: 'loi-giai', jsonKey: 'loi_giai', icon: '🔴', title: 'Lời giải', desc: 'Cần hiểu trọn' }
 ];
 
-// Lấy danh sách câu dẫn theo bài hiện tại + nhóm
 function getCauDanItems(groupId) {
   const bai = DE_1_DATA.bai.find(b => b.bai_so === currentBai);
   const group = CAU_DAN_GROUPS.find(g => g.id === groupId);
@@ -745,134 +799,131 @@ function getCauDanItems(groupId) {
 // ============ STATE ============
 let currentDe = 1;
 let currentBai = 1;
-let activeGroup = null;
+let openGroups = new Set(); // nhiều nhóm có thể mở cùng lúc
 let chatHistory = [];
 
-// ============ DRAWER ============
-const drawer = document.getElementById('drawer');
-const overlay = document.getElementById('overlay');
-document.getElementById('btnDrawer').onclick = () => {
-  drawer.classList.toggle('open');
-  overlay.classList.toggle('show');
+// ============ DRAWER CHỌN ĐỀ ============
+function openDeDrawer() {
+  document.getElementById('deDrawer').classList.add('open');
+  document.getElementById('overlay').classList.add('show');
+}
+function closeDeDrawer() {
+  document.getElementById('deDrawer').classList.remove('open');
+  document.getElementById('overlay').classList.remove('show');
+}
+document.getElementById('overlay').onclick = closeDeDrawer;
+
+// Mobile toggle
+document.getElementById('btnLeft').onclick = () => {
+  document.getElementById('colLeft').classList.toggle('mobile-show');
+  document.getElementById('overlay').classList.toggle('show');
 };
-overlay.onclick = () => {
-  drawer.classList.remove('open');
-  overlay.classList.remove('show');
+document.getElementById('btnRight').onclick = () => {
+  document.getElementById('colRight').classList.toggle('mobile-show');
+  document.getElementById('overlay').classList.toggle('show');
 };
 
 // ============ RENDER ============
-function renderDeList() {
-  const el = document.getElementById('deList');
+function renderDeDrawer() {
+  const el = document.getElementById('deDrawerList');
   el.innerHTML = DE_LIST.map(d => `
-    <div class="de-item ${d.available ? '' : 'locked'} ${d.de_so === currentDe ? 'active' : ''}"
+    <div class="de-drawer-item ${d.available ? '' : 'locked'} ${d.de_so === currentDe ? 'active' : ''}"
          ${d.available ? `onclick="selectDe(${d.de_so})"` : ''}>
-      <div class="de-num">${d.de_so}</div>
-      <div class="de-info">
-        <div class="de-title">${d.label}</div>
-        <div class="de-meta">${d.meta}</div>
+      <div class="de-drawer-num">${d.de_so}</div>
+      <div style="flex:1;">
+        <div style="font-weight: 600; font-size: 13px;">${d.label}</div>
+        <div style="font-size: 11px; color: var(--ink-muted);">${d.meta}</div>
       </div>
     </div>
   `).join('');
 }
 
-function renderDe() {
+function renderBaiList() {
+  if (currentDe !== 1) return;
+  const el = document.getElementById('baiList');
+  el.innerHTML = DE_1_DATA.bai.map(b => `
+    <div class="bai-item ${b.bai_so === currentBai ? 'active' : ''}"
+         onclick="selectBai(${b.bai_so})">
+      <div class="bai-item-num">${b.bai_so}</div>
+      <div class="bai-item-info">
+        <div class="bai-item-label">Bài ${b.bai_so}</div>
+        <div class="bai-item-meta">${b.diem}đ · ${b.chu_de.split(' - ')[0]}</div>
+      </div>
+    </div>
+  `).join('');
+
+  // Cập nhật header cột trái
+  document.getElementById('curDeNum').textContent = currentDe;
+  document.getElementById('curDeLabel').textContent = `Đề Số ${currentDe}`;
+  const totalDiem = DE_1_DATA.bai.reduce((s, b) => s + b.diem, 0);
+  document.getElementById('curDeMeta').textContent = `${DE_1_DATA.bai.length} bài · ${totalDiem}đ`;
+}
+
+function renderMainContent() {
   if (currentDe !== 1) return;
   const de = DE_1_DATA;
   const bai = de.bai.find(b => b.bai_so === currentBai);
 
   const html = `
     <div class="de-header-card">
-      <span class="de-chip">Đề Tham Khảo · Cụm ${de.cum}</span>
-      <h2>Đề Tuyển Sinh 10 Số ${de.de_so}</h2>
-      <p>${de.nguon} · Năm học ${de.nam_hoc}</p>
+      <span class="de-chip">Đề Số ${de.de_so} · Cụm ${de.cum}</span>
+      <h2>Bài ${bai.bai_so}: ${bai.chu_de}</h2>
+      <p>${de.nguon} · ${de.nam_hoc}</p>
     </div>
 
-    <div class="bai-nav-wrap">
-      <div class="bai-nav-label">Chọn bài</div>
-      <div class="bai-nav">
-        ${de.bai.map(b => `
-          <button class="bai-tab ${b.bai_so === currentBai ? 'active' : ''}"
-                  onclick="selectBai(${b.bai_so})">
-            Bài ${b.bai_so} <span class="diem">${b.diem}đ</span>
-          </button>
-        `).join('')}
-      </div>
-    </div>
-
-    <div class="de-bai-card">
-      <span class="chu-de-chip">${bai.chu_de}</span>
+    <div class="de-bai-block">
       <div class="de-bai-header">
         <div class="de-bai-header-left">
-          <h3>Bài ${bai.bai_so}</h3>
+          <h3>Đề bài</h3>
           <span class="de-bai-diem">${bai.diem} điểm</span>
         </div>
       </div>
       <div class="de-bai-content">${renderMarkdown(bai.de_bai)}</div>
       ${bai.hinh_anh ? `
         <div class="figure-wrap">
-          <img src="${bai.hinh_anh}" alt="${bai.ghi_chu_hinh || 'Hình vẽ bài ' + bai.bai_so}" class="figure-img" onclick="this.classList.toggle('zoomed')" title="Bấm để phóng to/thu nhỏ" />
+          <img src="${bai.hinh_anh}" alt="${bai.ghi_chu_hinh || 'Hình bài ' + bai.bai_so}" class="figure-img" onclick="this.classList.toggle('zoomed')" title="Bấm để phóng to/thu nhỏ" />
           ${bai.ghi_chu_hinh ? `<div class="figure-caption">${bai.ghi_chu_hinh} · Bấm ảnh để phóng to</div>` : ''}
         </div>
       ` : (bai.co_hinh_ve ? `
         <div class="figure-note">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
-          <span>Bài có hình vẽ: <em>${bai.ghi_chu_hinh}</em>. (Hình sẽ được cập nhật sau.)</span>
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><polyline points="21 15 16 10 5 21"/></svg>
+          <span>Bài có hình vẽ: <em>${bai.ghi_chu_hinh}</em></span>
         </div>
       ` : '')}
     </div>
 
-    <div class="conversation" id="conversation">
-      ${renderConversation()}
-    </div>
-
-    <div class="cau-dan-bar">
-      <div class="cau-dan-bar-title">💬 Em cần gì cho bài này?</div>
-      <div class="cau-dan-groups">
-        ${CAU_DAN_GROUPS.map(g => `
-          <button class="group-btn ${activeGroup === g.id ? 'active' : ''}" onclick="toggleGroup('${g.id}')">
-            <span class="ico">${g.icon}</span>
-            <span class="lbl">${g.title}</span>
-          </button>
-        `).join('')}
-      </div>
-      <div class="cau-dan-detail ${activeGroup ? 'open' : ''}" id="cauDanDetail">
-        ${renderCauDanDetail()}
-      </div>
-      <div class="input-wrap">
-        <textarea class="chat-input" id="chatInput"
-          placeholder="Hoặc em hỏi thầy điều gì khác..." rows="1"></textarea>
-        <button class="btn-send" id="btnSend" aria-label="Gửi">
-          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
-        </button>
-      </div>
+    <div class="conversation-section">
+      <div class="conv-title">💬 Hội thoại với thầy AI</div>
+      <div class="conversation" id="conversation">${renderConversation()}</div>
     </div>
   `;
   document.getElementById('deContent').innerHTML = html;
-  renderKatex();
-  attachInputHandlers();
+  renderKatex(document.getElementById('deContent'));
 }
 
-function renderCauDanDetail() {
-  if (!activeGroup) return '';
-  const g = CAU_DAN_GROUPS.find(x => x.id === activeGroup);
-  if (!g) return '';
-  const items = getCauDanItems(activeGroup);
-  if (items.length === 0) {
+function renderCauDanPanel() {
+  const el = document.getElementById('cauDanWrap');
+  el.innerHTML = CAU_DAN_GROUPS.map(g => {
+    const items = getCauDanItems(g.id);
+    const isOpen = openGroups.has(g.id);
     return `
-      <div class="cau-dan-detail-title">${g.icon} ${g.title} · ${g.desc}</div>
-      <div style="padding: 12px; color: var(--ink-muted); font-size: 13px; font-style: italic;">
-        Bài này chưa có câu dẫn. Em gõ câu hỏi tự do bên dưới nhé.
+      <div class="group-block ${isOpen ? 'open' : ''}" id="group-${g.id}">
+        <div class="group-header" onclick="toggleGroup('${g.id}')">
+          <span class="group-icon">${g.icon}</span>
+          <span class="group-title-text">${g.title}</span>
+          <span class="group-chev">▶</span>
+        </div>
+        <div class="group-body">
+          ${items.length === 0
+            ? `<div style="padding: 8px 12px; font-size: 12px; color: var(--ink-muted); font-style: italic;">Bài này chưa có câu dẫn.</div>`
+            : items.map((item, idx) => `
+              <button class="cau-dan-item" onclick="askCauDan('${g.id}', ${idx})">${item}</button>
+            `).join('')
+          }
+        </div>
       </div>
     `;
-  }
-  return `
-    <div class="cau-dan-detail-title">${g.icon} ${g.title} · ${g.desc}</div>
-    <div class="cau-dan-list">
-      ${items.map((item, idx) => `
-        <button class="cau-dan-item" onclick="askCauDan('${g.id}', ${idx})">${item}</button>
-      `).join('')}
-    </div>
-  `;
+  }).join('');
 }
 
 function renderConversation() {
@@ -880,8 +931,8 @@ function renderConversation() {
     return `
       <div class="empty-conversation">
         <span class="emoji">📘</span>
-        <h4>Sẵn sàng học bài rồi đấy!</h4>
-        <p>Em chọn câu hỏi ở trên hoặc gõ câu hỏi tự do.<br>Thầy sẽ trả lời ở đây.</p>
+        <h4>Sẵn sàng học bài!</h4>
+        <p>Chọn câu hỏi bên phải hoặc gõ tự do để bắt đầu.</p>
       </div>
     `;
   }
@@ -891,8 +942,7 @@ function renderConversation() {
     } else if (m.role === 'user') {
       return `<div class="bubble user">${escapeHtml(m.content)}</div>`;
     } else {
-      const cls = m._typing ? 'typing' : '';
-      return `<div class="bubble ai ${cls}">
+      return `<div class="bubble ai">
         <div class="ai-label">Thầy Toán AI</div>
         ${renderMarkdown(m.content)}
       </div>`;
@@ -919,59 +969,48 @@ function updateConversationOnly() {
   const el = document.getElementById('conversation');
   if (!el) return;
   el.innerHTML = renderConversation();
-  renderKatex(el);  // Render KaTeX trong khu chat
-  // Cuộn đến bubble mới nhất
-  const lastBubble = el.querySelector('.bubble:last-child');
-  if (lastBubble) {
-    lastBubble.scrollIntoView({ behavior: 'smooth', block: 'center' });
-  }
-  // Sau khi scroll đến bubble, focus ô input để HS gõ tiếp luôn
+  renderKatex(el);
+  // Scroll đến bubble mới nhất
   setTimeout(() => {
-    const input = document.getElementById('chatInput');
-    if (input && !input._touchedRecently) {
-      input.focus({ preventScroll: true });
-    }
-  }, 500);
-}
-
-function updateCauDanDetailOnly() {
-  document.getElementById('cauDanDetail').innerHTML = renderCauDanDetail();
-  document.getElementById('cauDanDetail').classList.toggle('open', !!activeGroup);
-  // Update active state trên nhóm
-  document.querySelectorAll('.group-btn').forEach(btn => {
-    btn.classList.remove('active');
-  });
-  if (activeGroup) {
-    const btns = document.querySelectorAll('.group-btn');
-    const idx = CAU_DAN_GROUPS.findIndex(g => g.id === activeGroup);
-    if (btns[idx]) btns[idx].classList.add('active');
-  }
+    const last = el.querySelector('.bubble:last-child');
+    if (last) last.scrollIntoView({ behavior: 'smooth', block: 'center' });
+  }, 50);
 }
 
 // ============ LOGIC ============
 function selectDe(n) {
   currentDe = n;
   currentBai = 1;
-  activeGroup = null;
+  openGroups.clear();
   chatHistory = [];
-  drawer.classList.remove('open');
-  overlay.classList.remove('show');
-  renderDeList();
-  renderDe();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  closeDeDrawer();
+  renderDeDrawer();
+  renderBaiList();
+  renderMainContent();
+  renderCauDanPanel();
 }
 
 function selectBai(n) {
   currentBai = n;
-  activeGroup = null;
   chatHistory = [];
-  renderDe();
-  window.scrollTo({ top: 0, behavior: 'smooth' });
+  renderBaiList();
+  renderMainContent();
+  renderCauDanPanel();
+  // Cuộn cột giữa lên đầu
+  document.getElementById('colCenter').scrollTop = 0;
+  // Đóng drawer trên mobile
+  document.getElementById('colLeft').classList.remove('mobile-show');
+  document.getElementById('overlay').classList.remove('show');
 }
 
 function toggleGroup(id) {
-  activeGroup = activeGroup === id ? null : id;
-  updateCauDanDetailOnly();
+  if (openGroups.has(id)) {
+    openGroups.delete(id);
+    document.getElementById(`group-${id}`).classList.remove('open');
+  } else {
+    openGroups.add(id);
+    document.getElementById(`group-${id}`).classList.add('open');
+  }
 }
 
 function askCauDan(groupId, idx) {
@@ -980,7 +1019,7 @@ function askCauDan(groupId, idx) {
   const cauDan = items[idx];
   if (!cauDan) return;
 
-  // Xem lời giải — trả về trực tiếp từ JSON
+  // Lời giải - trả về từ JSON trực tiếp
   if (groupId === 'loi-giai') {
     chatHistory.push({ role: 'user', content: cauDan });
     let content = '';
@@ -988,15 +1027,11 @@ function askCauDan(groupId, idx) {
     else if (idx === 1) content = `**Gợi ý cấp 2 cho Bài ${bai.bai_so}:**\n\n${bai.goi_y_cap_2}`;
     else content = `**Lời giải đầy đủ cho Bài ${bai.bai_so}:**\n\n${bai.loi_giai_day_du}\n\n---\n\n**Đáp số:** ${bai.dap_so}`;
     chatHistory.push({ role: 'assistant', content });
-    activeGroup = null;
-    updateCauDanDetailOnly();
     updateConversationOnly();
     return;
   }
 
   sendToAI(cauDan);
-  activeGroup = null;
-  updateCauDanDetailOnly();
 }
 
 async function sendToAI(userMsg) {
@@ -1005,13 +1040,11 @@ async function sendToAI(userMsg) {
   updateConversationOnly();
 
   try {
-    // Gọi backend thật (phải chạy `node server.js` để dùng)
     const useRealAPI = window.location.protocol !== 'file:';
     let response;
     if (useRealAPI) {
-      // Chuẩn bị history: loại bỏ typing + tin nhắn user cuối (sẽ gửi qua user_message)
       const historyForAPI = chatHistory
-        .slice(0, -2)  // bỏ typing và tin nhắn user vừa push
+        .slice(0, -2)
         .filter(m => !m._typing)
         .map(m => ({ role: m.role, content: m.content }));
 
@@ -1029,8 +1062,7 @@ async function sendToAI(userMsg) {
       const data = await res.json();
       response = data.response;
     } else {
-      // Mở file HTML trực tiếp (file://) → dùng mock
-      response = await mockAIResponse(userMsg);
+      response = 'Mở trang qua server để dùng AI thật. Mở qua file:// chỉ là demo tĩnh.';
     }
     chatHistory.pop();
     chatHistory.push({ role: 'assistant', content: response });
@@ -1039,89 +1071,10 @@ async function sendToAI(userMsg) {
     chatHistory.pop();
     chatHistory.push({
       role: 'system',
-      content: 'Không kết nối được thầy AI. Kiểm tra server đang chạy và API key đã cấu hình chưa. (' + e.message + ')'
+      content: 'Không kết nối được thầy AI: ' + e.message
     });
     updateConversationOnly();
   }
-}
-
-// Mock AI (bản thật gọi /api/chat)
-async function mockAIResponse(userMsg) {
-  await new Promise(r => setTimeout(r, 600 + Math.random() * 500));
-  const bai = DE_1_DATA.bai.find(b => b.bai_so === currentBai);
-  const msgLower = userMsg.toLowerCase();
-
-  // Kiến thức ngoài chương trình → từ chối
-  if (msgLower.includes('đạo hàm') || msgLower.includes('lớp 11') || msgLower.includes('tích phân') || msgLower.includes('số phức')) {
-    return `Kiến thức này chưa học ở lớp 9 đâu em. Thầy chỉ hướng dẫn em dùng các phương pháp đã học trong chương trình lớp 9:\n\n${bai.phuong_phap_duoc_dung.map(p => `✓ ${p}`).join('\n')}\n\nEm dùng các cách này thôi nhé, sẽ đúng với barem chấm thi TS10.`;
-  }
-
-  // Kiểm tra đáp số (HS đã tính ra kết quả)
-  if (msgLower.includes('có đúng không') || msgLower.includes('có phải') || msgLower.includes('có chính xác') || msgLower.includes('đáp án') || msgLower.includes('đúng chưa')) {
-    return `**Đáp số chuẩn của bài ${bai.bai_so}:** ${bai.dap_so}\n\nEm đối chiếu với kết quả em tính ra nhé. Nếu trùng → em làm đúng rồi. Nếu khác → em kể cho thầy các bước em đã làm, thầy xem giúp sai ở đâu.`;
-  }
-
-  // Em đã có đáp số / em tính ra
-  if (msgLower.includes('em ra ') || msgLower.includes('em tính') || msgLower.includes('em đã có')) {
-    return `Để thầy kiểm tra giúp em. **Đáp số chuẩn:** ${bai.dap_so}\n\nNếu kết quả em trùng → tốt lắm! Nếu khác → em cho thầy biết em làm đến bước nào, thầy gỡ cho. Thầy không giải thẳng đáp, chỉ chỉ chỗ sai thôi.`;
-  }
-
-  // Hỏi hướng làm / cách bắt đầu
-  if (msgLower.includes('bắt đầu') || msgLower.includes('hướng') || msgLower.includes('nên nghĩ') || msgLower.includes('làm thế nào')) {
-    return `Thầy gợi ý hướng làm cho bài ${bai.bai_so}:\n\n${bai.goi_y_cap_1}\n\nEm thử làm theo hướng này xem. Nếu vẫn bí, bấm "🔴 Lời giải → Xem gợi ý cấp 2" để có chi tiết hơn.`;
-  }
-
-  // Không biết công thức, không nhớ định lý
-  if (msgLower.includes('quên công thức') || msgLower.includes('quên') || msgLower.includes('nhắc lại') || msgLower.includes('công thức')) {
-    return `Để làm bài này em cần nhớ:\n\n${bai.kien_thuc_lien_quan.map((k,i) => `**${i+1}.** ${k}`).join('\n\n')}\n\nCác phương pháp áp dụng: ${bai.phuong_phap_duoc_dung.join(', ')}.`;
-  }
-
-  // Không hiểu đề / không biết yêu cầu
-  if (msgLower.includes('chưa hiểu đề') || msgLower.includes('không hiểu đề') || msgLower.includes('yêu cầu gì') || msgLower.includes('chưa biết')) {
-    return `Bài ${bai.bai_so} thuộc chủ đề **${bai.chu_de}**.\n\nĐề yêu cầu em **${bai.dap_so.includes('đồng') ? 'tính chi phí' : bai.dap_so.includes('=') ? 'tính và chứng minh theo yêu cầu' : 'tìm kết quả theo yêu cầu'}**.\n\nEm đọc lại đề chậm và cho thầy biết chính xác chỗ nào chưa rõ — thầy giải thích cụ thể nhé.`;
-  }
-
-  // Không biết làm phần cụ thể nào (câu a, câu b)
-  if ((msgLower.includes('câu a') || msgLower.includes('câu b') || msgLower.includes('câu c')) && msgLower.includes('không')) {
-    return `Em đang bí ở phần nào cụ thể vậy? Em cho thầy biết:\n\n1. Em đã hiểu đề chưa?\n2. Em có hình dung được phải làm gì chưa?\n3. Em đã thử và gặp khó khăn ở bước nào?\n\nHoặc nếu em muốn xem gợi ý có sẵn, bấm nút **🔴 Lời giải → Xem gợi ý cấp 1**.`;
-  }
-
-  // Em không biết / em bị sai / em làm sai
-  if (msgLower.includes('không biết') || msgLower.includes('bị sai') || msgLower.includes('làm sai') || msgLower.includes('không chứng minh') || msgLower.includes('không giải')) {
-    return `Không sao em, thầy gợi ý từng chút để em tự làm lại nhé:\n\n${bai.goi_y_cap_1}\n\nEm thử theo gợi ý này xem. Vẫn chưa ra thì cho thầy biết bước cụ thể em đang kẹt, thầy gỡ tiếp.`;
-  }
-
-  // Phân biệt "lớn hơn" / "không quá"
-  if (msgLower.includes('lớn hơn') && msgLower.includes('không') && msgLower.includes('nhỏ')) {
-    return `**"Lớn hơn x"** = nghiêm ngặt lớn hơn x (tức là > x, KHÔNG bao gồm x).\n**"Không nhỏ hơn x"** = ≥ x (có thể bằng x).\n**"Không quá x"** = ≤ x (có thể bằng x).\n\nEm đọc kỹ đề nhé. Trong bài ${bai.bai_so} thầy đã soạn sẵn gợi ý, em bấm "🔴 Lời giải → Xem gợi ý cấp 2" để thấy chi tiết.`;
-  }
-  if (msgLower.includes('không quá')) {
-    return `**"Không quá 160"** nghĩa là ≤ 160 (**có tính cả 160**). Ngược lại **"dưới 160"** mới là < 160 (không tính 160).\n\nEm áp dụng cách hiểu này vào bài nhé.`;
-  }
-
-  // Định nghĩa các khái niệm
-  if (msgLower.includes('là gì')) {
-    return `Em hỏi về khái niệm trong bài ${bai.bai_so}. Trong lời giải chuẩn thầy đã soạn có giải thích chi tiết. Em bấm "🔴 Lời giải → Xem gợi ý cấp 2" để thấy cách vận dụng khái niệm vào bài này.`;
-  }
-
-  // Hỏi về điều kiện
-  if (msgLower.includes('điều kiện')) {
-    return `Điều kiện quan trọng trong bài ${bai.bai_so}:\n\n- Chú ý điều kiện cho ẩn khi lập phương trình (ẩn dương, ẩn khác 0, căn không âm, ...).\n- Sau khi giải, **phải đối chiếu** nghiệm với điều kiện để **nhận/loại** nghiệm.\n\nTrong lời giải chuẩn của bài có ghi rõ điều kiện ở bước nào. Em bấm "🔴 Lời giải → Xem gợi ý cấp 2" nhé.`;
-  }
-
-  // Chia trường hợp
-  if (msgLower.includes('chia trường hợp')) {
-    const hasTruongHop = bai.phuong_phap_duoc_dung.some(p => p.toLowerCase().includes('trường hợp'));
-    return `Bài ${bai.bai_so} theo lời giải chuẩn **${hasTruongHop ? 'có cần' : 'không cần'} chia trường hợp**. Em làm theo trình tự các bước trong gợi ý cấp 2 nhé.`;
-  }
-
-  // Liên quan giữa câu a và b
-  if (msgLower.includes('liên quan nhau')) {
-    return `Trong bài thi TS10, câu a thường là **bước đệm** cho câu b. Ví dụ ở bài ${bai.bai_so}: kết quả câu a sẽ được dùng lại trong câu b.\n\nEm làm câu a xong, lưu kết quả, rồi áp dụng vào câu b. Bấm "🔴 Lời giải → Xem gợi ý cấp 2" để thấy mối liên hệ cụ thể.`;
-  }
-
-  // Mặc định: hỏi cụ thể
-  return `Thầy hiểu em đang cần giúp đỡ ở bài ${bai.bai_so} (${bai.chu_de}). Em kể thêm cho thầy:\n\n1. Em đã làm đến bước nào?\n2. Em gặp khó ở chỗ nào cụ thể?\n\nHoặc nếu em cần gợi ý sẵn, bấm **🔴 Lời giải** → chọn mức độ gợi ý em muốn.`;
 }
 
 // ============ UTILS ============
@@ -1135,35 +1088,32 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
-function attachInputHandlers() {
+// Input handlers
+document.getElementById('btnSend').onclick = () => {
   const input = document.getElementById('chatInput');
-  const btn = document.getElementById('btnSend');
-  if (!input || !btn) return;
-
-  btn.onclick = () => {
-    const msg = input.value.trim();
-    if (!msg) return;
-    input.value = '';
-    input.style.height = 'auto';
-    sendToAI(msg);
-  };
-  input.onkeydown = (e) => {
-    if (e.key === 'Enter' && !e.shiftKey) {
-      e.preventDefault();
-      btn.click();
-    }
-  };
-  // Auto resize
-  input.oninput = () => {
-    input.style.height = 'auto';
-    input.style.height = Math.min(input.scrollHeight, 140) + 'px';
-  };
-}
+  const msg = input.value.trim();
+  if (!msg) return;
+  input.value = '';
+  input.style.height = 'auto';
+  sendToAI(msg);
+};
+document.getElementById('chatInput').addEventListener('keydown', (e) => {
+  if (e.key === 'Enter' && !e.shiftKey) {
+    e.preventDefault();
+    document.getElementById('btnSend').click();
+  }
+});
+document.getElementById('chatInput').addEventListener('input', (e) => {
+  e.target.style.height = 'auto';
+  e.target.style.height = Math.min(e.target.scrollHeight, 120) + 'px';
+});
 
 // ============ INIT ============
 window.addEventListener('load', () => {
-  renderDeList();
-  renderDe();
+  renderDeDrawer();
+  renderBaiList();
+  renderMainContent();
+  renderCauDanPanel();
 });
 </script>
 
