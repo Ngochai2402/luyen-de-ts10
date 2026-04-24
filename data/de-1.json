@@ -1,0 +1,351 @@
+{
+  "de_so": 1,
+  "cum": 1,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $(P): y = \\dfrac{x^2}{4}$.\n\na) Vẽ đồ thị $(P)$.\n\nb) Tìm điểm $K$ thuộc $(P)$ có tung độ nhỏ hơn hoành độ 1 đơn vị.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol",
+        "Thay tọa độ điểm vào phương trình (P)",
+        "Giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² (a ≠ 0)",
+        "Điểm thuộc đồ thị thì tọa độ thỏa mãn phương trình"
+      ],
+      "dap_so": "Điểm K có tọa độ $(2; 1)$.",
+      "goi_y_cap_1": "Câu a: Em lập bảng giá trị với các giá trị x = -4, -2, 0, 2, 4 rồi vẽ parabol đi qua các điểm đó. Nhớ đỉnh parabol là O(0;0).\n\nCâu b: 'Tung độ nhỏ hơn hoành độ 1 đơn vị' nghĩa là $y = x - 1$. Kết hợp với phương trình (P) để tìm x.",
+      "goi_y_cap_2": "Câu a:\n- Lập bảng: $x = -4 \\to y = 4$; $x = -2 \\to y = 1$; $x = 0 \\to y = 0$; $x = 2 \\to y = 1$; $x = 4 \\to y = 4$\n- Vẽ parabol đi qua 5 điểm trên, đỉnh tại O.\n\nCâu b:\n- Điểm K ∈ (P) và có y = x - 1\n- Thay vào (P): $x - 1 = \\dfrac{x^2}{4}$\n- Đưa về phương trình: $\\dfrac{x^2}{4} - x + 1 = 0$\n- Giải tìm x, rồi tính y tương ứng.",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{4}$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol đi qua các điểm $(-4; 4), (-2; 1), (0; 0), (2; 1), (4; 4)$.\n\n**Câu b) Tìm điểm K:**\n\nVì điểm $K$ có tung độ nhỏ hơn hoành độ 1 đơn vị nên $y = x - 1$.\n\nTa có phương trình: $x - 1 = \\dfrac{x^2}{4}$\n\n$\\Leftrightarrow \\dfrac{x^2}{4} - x + 1 = 0$\n\n$\\Leftrightarrow x^2 - 4x + 4 = 0$\n\n$\\Leftrightarrow (x - 2)^2 = 0$\n\n$\\Rightarrow x = 2$.\n\nVới $x = 2$ suy ra $y = 1$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{K(2; 1)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = x²/4 trên hệ trục tọa độ Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết parabol y = x²/4 vẽ thế nào.",
+          "'Tung độ nhỏ hơn hoành độ 1 đơn vị' nghĩa là gì thầy?",
+          "Để vẽ (P) em cần làm những bước nào?"
+        ],
+        "dinh_huong": [
+          "Em định lập bảng giá trị với x = -4, -2, 0, 2, 4 — có đúng không?",
+          "Câu b em định thay y = x - 1 vào (P) — có đúng hướng không?",
+          "Em có cần xét điều kiện gì cho điểm K không?"
+        ],
+        "kiem_tra": [
+          "Em vẽ parabol với đỉnh O, đi qua (±2, 1), (±4, 4) — đúng chưa?",
+          "Em ra K(2; 1) — đáp án này có đúng không thầy?",
+          "Phương trình x²/4 - x + 1 = 0 em giải ra x = 2 — có phải chỉ 1 nghiệm?"
+        ],
+        "go_bi": [
+          "Em không biết thay y = x - 1 vào (P) thế nào.",
+          "Em giải phương trình x² - 4x + 4 = 0 không ra.",
+          "Em lập bảng giá trị nhưng vẽ parabol sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète",
+      "de_bai": "Cho phương trình $3x^2 + 2x - 5 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, tính giá trị của biểu thức:\n$$T = (x_1 - 2x_2)(x_2 - x_1) + x_2^2$$",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Biến đổi biểu thức đối xứng về tổng và tích hai nghiệm"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète: x₁ + x₂ = -b/a, x₁x₂ = c/a",
+        "Hằng đẳng thức: x₁² + x₂² = (x₁+x₂)² - 2x₁x₂"
+      ],
+      "dap_so": "$T = -\\dfrac{79}{9}$",
+      "goi_y_cap_1": "Câu a: Tính Δ = b² - 4ac. Nếu Δ > 0 thì có 2 nghiệm phân biệt.\n\nCâu b: Khai triển biểu thức T, rồi dùng Viète để tính tổng và tích. Chú ý $x_1^2 + x_2^2$ biến đổi được về dạng chứa tổng và tích.",
+      "goi_y_cap_2": "Câu a:\n- $a = 3, b = 2, c = -5$\n- Tính $\\Delta = 2^2 - 4 \\cdot 3 \\cdot (-5) = 64 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = -\\dfrac{2}{3}$, $x_1 x_2 = -\\dfrac{5}{3}$\n- Tính $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = \\dfrac{34}{9}$\n- Khai triển T = $x_1x_2 - x_1^2 - 2x_2^2 + 2x_1x_2 + x_2^2 = 3x_1x_2 - (x_1^2 + x_2^2)$\n- Thay số để tính ra T.",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $3x^2 + 2x - 5 = 0$ với $a = 3; b = 2; c = -5$.\n\nTính $\\Delta = b^2 - 4ac = 2^2 - 4 \\cdot 3 \\cdot (-5) = 4 + 60 = 64 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính T:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = -\\dfrac{b}{a} = -\\dfrac{2}{3} \\\\ x_1 x_2 = \\dfrac{c}{a} = -\\dfrac{5}{3} \\end{cases}$$\n\nTa có:\n$$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\left(-\\dfrac{2}{3}\\right)^2 - 2 \\cdot \\left(-\\dfrac{5}{3}\\right) = \\dfrac{4}{9} + \\dfrac{10}{3} = \\dfrac{34}{9}$$\n\nKhai triển T:\n$$T = (x_1 - 2x_2)(x_2 - x_1) + x_2^2$$\n$$= x_1 x_2 - x_1^2 - 2x_2^2 + 2x_1 x_2 + x_2^2$$\n$$= 3x_1 x_2 - (x_1^2 + x_2^2)$$\n$$= 3 \\cdot \\left(-\\dfrac{5}{3}\\right) - \\dfrac{34}{9}$$\n$$= -5 - \\dfrac{34}{9} = -\\dfrac{45 + 34}{9}$$\n\n$$\\boxed{T = -\\dfrac{79}{9}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa hiểu 'chứng minh 2 nghiệm phân biệt' là làm gì?",
+          "Em quên công thức tính Δ rồi thầy.",
+          "Định lý Viète là gì vậy thầy?"
+        ],
+        "dinh_huong": [
+          "Em định tính Δ = b² - 4ac rồi so sánh với 0 — đúng hướng không?",
+          "Câu b em định khai triển biểu thức T trước — có đúng không?",
+          "Em thấy có x₁² + x₂² nên cần biến đổi về (x₁+x₂)² - 2x₁x₂ — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em tính Δ = 64 — có đúng không thầy?",
+          "Em ra x₁ + x₂ = -2/3 và x₁x₂ = -5/3 — Viète em dùng đúng chưa?",
+          "Em ra T = -79/9 — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em khai triển T ra không đúng.",
+          "Em tính x₁² + x₂² bằng (x₁+x₂)² - 2x₁x₂ nhưng ra sai.",
+          "Em không biết tại sao Δ > 0 thì có 2 nghiệm phân biệt."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Xác suất",
+      "de_bai": "Thời gian tự học tại nhà của bạn Tú trong một tuần (đơn vị: phút) được cho trong bảng:\n\n| Thứ | Hai | Ba | Tư | Năm | Sáu | Bảy | CN |\n|---|---|---|---|---|---|---|---|\n| Phút | 162 | 135 | 170 | 150 | 180 | 175 | 190 |\n\na) Tính thời gian trung bình bạn Tú tự học tại nhà mỗi ngày trong một tuần.\n\nb) Chọn ngẫu nhiên một ngày trong tuần, tính xác suất của các biến cố sau:\n- $A$: \"Ngày được chọn có thời gian tự học tại nhà của bạn Tú lớn hơn 170 phút\"\n- $B$: \"Ngày được chọn có thời gian tự học tại nhà của bạn Tú không quá 160 phút\"",
+      "phuong_phap_duoc_dung": [
+        "Tính trung bình cộng",
+        "Liệt kê không gian mẫu và biến cố",
+        "Công thức xác suất cổ điển P(A) = n(A)/n(Ω)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Trung bình cộng",
+        "Xác suất của biến cố",
+        "Không gian mẫu"
+      ],
+      "dap_so": "a) Trung bình 166 phút/ngày. b) $P(A) = \\dfrac{3}{7}$, $P(B) = \\dfrac{2}{7}$.",
+      "goi_y_cap_1": "Câu a: Cộng 7 ngày rồi chia cho 7.\n\nCâu b: Liệt kê các ngày thuận lợi cho mỗi biến cố (cẩn thận chữ 'lớn hơn 170' và 'không quá 160' nghĩa là gì). Áp dụng công thức P = số trường hợp thuận lợi / tổng số trường hợp.",
+      "goi_y_cap_2": "Câu a:\n- Tổng = 162 + 135 + 170 + 150 + 180 + 175 + 190 = 1162\n- Trung bình = 1162 / 7 = 166 phút\n\nCâu b:\n- Không gian mẫu Ω = {Thứ 2, 3, 4, 5, 6, 7, CN}, n(Ω) = 7\n- Biến cố A: 'lớn hơn 170' → các ngày có > 170: Thứ 6 (180), Thứ 7 (175), CN (190) → n(A) = 3\n- Biến cố B: 'không quá 160' tức là ≤ 160 → các ngày ≤ 160: Thứ 3 (135), Thứ 5 (150) → n(B) = 2\n- P(A) = 3/7, P(B) = 2/7",
+      "loi_giai_day_du": "**Câu a) Trung bình mỗi ngày:**\n\nTổng thời gian tự học của Tú trong tuần là:\n$$162 + 135 + 170 + 150 + 180 + 175 + 190 = 1162 \\text{ (phút)}$$\n\nThời gian trung bình bạn Tú tự học tại nhà mỗi ngày là:\n$$\\dfrac{1162}{7} = \\boxed{166 \\text{ (phút)}}$$\n\n**Câu b) Tính xác suất:**\n\nGọi không gian mẫu là $\\Omega$.\n\nTập hợp các ngày trong tuần là: $\\Omega = \\{\\text{Thứ 2; Thứ 3; Thứ 4; Thứ 5; Thứ 6; Thứ 7; CN}\\}$.\n\nSuy ra $n(\\Omega) = 7$.\n\n**Biến cố A** (lớn hơn 170 phút):\n\nCác ngày thuận lợi cho $A$: Thứ 6 (180), Thứ 7 (175), Chủ nhật (190). Suy ra $n(A) = 3$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\boxed{\\dfrac{3}{7}}$$\n\n**Biến cố B** (không quá 160 phút, tức là ≤ 160):\n\nCác ngày thuận lợi cho $B$: Thứ 3 (135), Thứ 5 (150). Suy ra $n(B) = 2$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\boxed{\\dfrac{2}{7}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột thời gian tự học của Tú trong 7 ngày.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc số liệu từ biểu đồ cột.",
+          "Trung bình cộng là gì thầy nhắc lại với?",
+          "Công thức P(A) = n(A)/n(Ω) nghĩa là gì?"
+        ],
+        "dinh_huong": [
+          "Em định cộng 7 số rồi chia 7 — câu a đúng hướng không?",
+          "'Ngày lớn hơn 170 phút' — em phải tìm các ngày có số phút > 170 đúng không?",
+          "'Không quá 160' nghĩa là ≤ 160 hay < 160 thầy?"
+        ],
+        "kiem_tra": [
+          "Em tính tổng = 1162, trung bình = 166 — có đúng không?",
+          "Em liệt kê biến cố A được 3 ngày (Thứ 6, 7, CN) — đúng chưa?",
+          "Em ra P(A) = 3/7 và P(B) = 2/7 — đáp án chính xác không?"
+        ],
+        "go_bi": [
+          "Em không biết phân biệt 'lớn hơn' và 'không nhỏ hơn'.",
+          "Em liệt kê biến cố A và B bị nhầm.",
+          "Em ngại không gian mẫu — không biết viết thế nào."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Phương trình bậc hai",
+      "de_bai": "Trên một miếng đất hình chữ nhật có chiều rộng là $x$ (m) ($x > 0$), chiều dài là $2x + 10$ (m), người ta làm một lối đi hình bình hành có bề rộng là 2 m. Phần còn lại là hai miếng đất hình thang vuông có diện tích bằng nhau, người ta dự kiến trồng hoa hồng và hoa cúc.\n\na) Viết biểu thức $A$ biểu diễn diện tích trồng hoa hồng theo $x$.\n\nb) Người ta dự kiến lát sỏi lối đi, chi phí cho mỗi mét vuông lát sỏi hết 120 nghìn đồng. Hỏi chi phí để làm lối đi là bao nhiêu? Biết diện tích miếng đất trồng hoa hồng là 45 m².",
+      "phuong_phap_duoc_dung": [
+        "Biểu diễn diện tích bằng biểu thức chứa ẩn",
+        "Lập và giải phương trình bậc hai",
+        "Chọn nghiệm theo điều kiện của ẩn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Diện tích hình bình hành",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $A = x^2 + 4x$ (m²). b) Chi phí: 1 200 000 đồng.",
+      "goi_y_cap_1": "Câu a: Diện tích trồng hoa hồng = (Diện tích cả miếng đất - Diện tích lối đi) / 2 (vì 2 phần bằng nhau).\n\nCâu b: Cho $A = 45$, giải phương trình bậc hai tìm x. Chọn nghiệm dương. Tính diện tích lối đi rồi nhân với 120 000 đồng.",
+      "goi_y_cap_2": "Câu a:\n- Diện tích lối đi hình bình hành = bề rộng × chiều rộng miếng đất = $2 \\cdot x = 2x$ (m²)\n- Diện tích cả miếng đất = $x(2x+10) = 2x^2 + 10x$ (m²)\n- Diện tích trồng hoa = $2x^2 + 10x - 2x = 2x^2 + 8x$ (m²)\n- Diện tích trồng hoa hồng = nửa của diện tích trồng hoa = $x^2 + 4x$ (m²)\n\nCâu b:\n- Phương trình: $x^2 + 4x = 45$ → $x^2 + 4x - 45 = 0$\n- Giải: $x_1 = 5$ (nhận), $x_2 = -9$ (loại)\n- Diện tích lối đi = $2 \\cdot 5 = 10$ (m²)\n- Chi phí = $10 \\cdot 120\\,000 = 1\\,200\\,000$ đồng",
+      "loi_giai_day_du": "**Câu a) Lập biểu thức A:**\n\nDiện tích của lối đi hình bình hành là $2 \\cdot x = 2x$ (m²).\n\nDiện tích của cả miếng đất hình chữ nhật là $x(2x+10) = 2x^2 + 10x$ (m²).\n\nDiện tích phần đất còn lại để trồng hoa là:\n$$2x^2 + 10x - 2x = 2x^2 + 8x \\text{ (m}^2\\text{)}$$\n\nVì hai miếng đất trồng hoa có diện tích bằng nhau nên diện tích trồng hoa hồng là:\n$$A = \\dfrac{2x^2 + 8x}{2} = x^2 + 4x$$\n\nVậy biểu thức cần tìm là $\\boxed{A = x^2 + 4x}$.\n\n**Câu b) Tính chi phí:**\n\nTheo đề bài, diện tích trồng hoa hồng là 45 m² nên ta có phương trình:\n$$x^2 + 4x = 45$$\n$$x^2 + 4x - 45 = 0$$\n\nGiải phương trình: $x_1 = 5$ (nhận vì $x > 0$); $x_2 = -9$ (loại).\n\nVới $x = 5$, diện tích của lối đi là:\n$$S = 2 \\cdot 5 = 10 \\text{ (m}^2\\text{)}$$\n\nChi phí để làm lối đi là:\n$$10 \\cdot 120\\,000 = \\boxed{1\\,200\\,000 \\text{ (đồng)}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình chữ nhật có lối đi hình bình hành ở giữa, hai bên trồng hoa hồng và hoa cúc.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hình dung được 'lối đi hình bình hành' trong miếng đất.",
+          "Diện tích trồng hoa hồng tính thế nào thầy?",
+          "Em không biết bắt đầu câu a từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định tính DT cả đất - DT lối đi rồi chia 2 — đúng hướng không?",
+          "Câu b em định cho x² + 4x = 45 — đúng không?",
+          "Điều kiện x > 0 có quan trọng trong câu b không?"
+        ],
+        "kiem_tra": [
+          "Em ra A = x² + 4x — biểu thức này có đúng không?",
+          "Em giải x² + 4x - 45 = 0 ra x = 5 và x = -9 — đúng chưa?",
+          "Chi phí em tính 1 200 000 đồng — có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết diện tích lối đi hình bình hành là 2x.",
+          "Em giải phương trình x² + 4x - 45 = 0 bị sai.",
+          "Em không biết loại nghiệm x = -9 như thế nào."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Hình trụ và hình hộp",
+      "de_bai": "Trong hình vẽ, 6 lon nước ngọt hình trụ được đặt sát nhau trong thùng carton có dạng hình hộp chữ nhật. Mỗi lon có đường kính 7 cm và chiều cao 11 cm.\n\na) Tính thể tích thùng carton.\n\nb) Tính thể tích phần còn trống trong thùng carton khi đựng 6 lon nước ngọt. (Các kết quả làm tròn đến hàng đơn vị.) Biết công thức tính thể tích khối trụ là $V = \\pi R^2 h$ ($R$ là bán kính đáy, $h$ là chiều cao).",
+      "phuong_phap_duoc_dung": [
+        "Tính thể tích hình hộp chữ nhật V = D × R × C",
+        "Tính thể tích hình trụ V = πR²h",
+        "Tính thể tích phần trống = thể tích thùng - tổng thể tích các lon"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình hộp chữ nhật",
+        "Thể tích hình trụ",
+        "Quan hệ giữa đường kính và bán kính"
+      ],
+      "dap_so": "a) $V_{thùng} = 3234$ cm³. b) Thể tích phần còn trống ≈ $694$ cm³.",
+      "goi_y_cap_1": "Câu a: 6 lon xếp 2 hàng × 3 lon. Em hãy tính chiều dài, chiều rộng thùng dựa theo đường kính lon. Chiều cao thùng = chiều cao lon.\n\nCâu b: Tính thể tích 1 lon, rồi nhân 6. Lấy thể tích thùng trừ đi.",
+      "goi_y_cap_2": "Câu a:\n- Thùng chứa 6 lon xếp 2 hàng, mỗi hàng 3 lon\n- Chiều dài thùng = 3 × đường kính lon = 3 × 7 = 21 cm\n- Chiều rộng thùng = 2 × 7 = 14 cm\n- Chiều cao thùng = chiều cao lon = 11 cm\n- Thể tích thùng = 21 × 14 × 11 = 3234 cm³\n\nCâu b:\n- Bán kính đáy lon R = 7/2 = 3,5 cm\n- Thể tích 1 lon = π × 3,5² × 11 = 134,75π cm³\n- Tổng thể tích 6 lon = 6 × 134,75π = 808,5π cm³\n- Thể tích còn trống = 3234 - 808,5π ≈ 694 cm³",
+      "loi_giai_day_du": "**Câu a) Thể tích thùng carton:**\n\nVì thùng carton đựng vừa khít 6 lon nước ngọt (xếp thành 2 hàng, mỗi hàng 3 lon hoặc ngược lại) nên kích thước của thùng là:\n- Chiều dài của thùng là: $7 \\cdot 3 = 21$ (cm)\n- Chiều rộng của thùng là: $7 \\cdot 2 = 14$ (cm)\n- Chiều cao của thùng bằng chiều cao của lon nước: $11$ (cm)\n\nThể tích thùng carton là:\n$$V_{\\text{thùng}} = 21 \\cdot 14 \\cdot 11 = 3234 \\text{ (cm}^3\\text{)}$$\n\nVậy thể tích thùng carton là $\\boxed{3234 \\text{ cm}^3}$.\n\n**Câu b) Thể tích phần còn trống:**\n\nBán kính đáy của một lon nước ngọt là:\n$$R = \\dfrac{7}{2} = 3{,}5 \\text{ (cm)}$$\n\nThể tích của một lon nước ngọt là:\n$$V_{\\text{lon}} = \\pi R^2 h = \\pi \\cdot 3{,}5^2 \\cdot 11 = 134{,}75\\pi \\text{ cm}^3$$\n\nTổng thể tích của 6 lon nước ngọt là:\n$$V_{6\\text{ lon}} = 6 \\cdot 134{,}75\\pi = 808{,}5\\pi \\text{ cm}^3$$\n\nThể tích phần còn trống trong thùng carton là:\n$$V_{\\text{trống}} = V_{\\text{thùng}} - V_{6\\text{ lon}} = 3234 - 808{,}5\\pi \\approx \\boxed{694 \\text{ cm}^3}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình 6 lon nước ngọt xếp trong thùng carton (2 hàng × 3 lon).",
+      "cau_dan": {
+        "khoi_dong": [
+          "6 lon xếp trong thùng thì kích thước thùng thế nào thầy?",
+          "Công thức thể tích hình trụ V = πR²h em quên rồi.",
+          "Em không biết bắt đầu câu a từ đâu."
+        ],
+        "dinh_huong": [
+          "Em nghĩ 6 lon xếp 2 hàng × 3 lon — đúng hướng không?",
+          "Thể tích thùng = dài × rộng × cao — em định tính vậy đúng chưa?",
+          "Câu b em định lấy V thùng - V của 6 lon — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra V thùng = 3234 cm³ — có đúng không?",
+          "Em tính V 1 lon = 134,75π cm³ — có đúng không?",
+          "Em ra V trống ≈ 694 cm³ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết tính chiều dài/rộng thùng từ đường kính lon.",
+          "Em không biết R = đường kính / 2 = 3,5 cm.",
+          "Em ra π quá lớn hay quá nhỏ — tính thể tích bị sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Hệ phương trình bậc nhất hai ẩn - Toán thực tế",
+      "de_bai": "Để đảm bảo dinh dưỡng trong bữa ăn hằng ngày thì mỗi gia đình 4 thành viên cần 900 đơn vị protein và 400 đơn vị Lipit trong thức ăn hằng ngày. Mỗi kilôgam thịt bò chứa 800 đơn vị protein và 200 đơn vị Lipit, còn mỗi kilôgam thịt heo chứa 600 đơn vị protein và 400 đơn vị Lipit. Biết giá thịt bò là 100 000 đồng/kg và thịt heo là 70 000 đồng/kg. Tính tổng số tiền mua thịt bò và thịt heo để đảm bảo dinh dưỡng hằng ngày cho 4 người?",
+      "phuong_phap_duoc_dung": [
+        "Đặt ẩn phụ cho đại lượng cần tìm",
+        "Lập hệ phương trình bậc nhất 2 ẩn từ các điều kiện",
+        "Giải hệ phương trình"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất hai ẩn",
+        "Phương pháp cộng đại số / phương pháp thế"
+      ],
+      "dap_so": "Tổng số tiền: 109 000 đồng.",
+      "goi_y_cap_1": "Gọi x (kg) là lượng thịt bò, y (kg) là lượng thịt heo (x, y > 0). Lập 2 phương trình: 1 cho protein, 1 cho Lipit. Giải hệ rồi tính tiền.",
+      "goi_y_cap_2": "- Gọi $x$ (kg) là khối lượng thịt bò, $y$ (kg) là thịt heo ($x, y > 0$)\n- Protein: $800x + 600y = 900$\n- Lipit: $200x + 400y = 400$\n- Giải hệ: $x = 0{,}6$; $y = 0{,}7$\n- Tiền = $100\\,000 \\cdot 0{,}6 + 70\\,000 \\cdot 0{,}7 = 109\\,000$ đồng",
+      "loi_giai_day_du": "Gọi $x$ (kg) là khối lượng thịt bò cần mua, $y$ (kg) là khối lượng thịt heo cần mua ($x, y > 0$).\n\nVì tổng lượng protein cần thiết cho gia đình là 900 đơn vị nên ta có phương trình:\n$$800x + 600y = 900 \\quad (1)$$\n\nVì tổng lượng Lipit cần thiết cho gia đình là 400 đơn vị nên ta có phương trình:\n$$200x + 400y = 400 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} 800x + 600y = 900 \\\\ 200x + 400y = 400 \\end{cases} \\Rightarrow \\begin{cases} x = 0{,}6 \\\\ y = 0{,}7 \\end{cases}$$\n\nTổng số tiền cần để mua thịt bò và thịt heo là:\n$$100\\,000 \\cdot 0{,}6 + 70\\,000 \\cdot 0{,}7 = 109\\,000 \\text{ (đồng)}$$\n\nVậy tổng số tiền cần mua là $\\boxed{109\\,000 \\text{ đồng}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đặt ẩn cho bài toán này.",
+          "Em không hiểu 'đơn vị protein', 'đơn vị Lipit' là gì.",
+          "Lập hệ phương trình từ bài toán thế nào thầy?"
+        ],
+        "dinh_huong": [
+          "Em định gọi x là thịt bò, y là thịt heo — đúng không?",
+          "Em lập 2 phương trình: 1 cho protein, 1 cho Lipit — đúng hướng chứ?",
+          "Em định dùng phương pháp cộng đại số để giải hệ — có ổn không?"
+        ],
+        "kiem_tra": [
+          "Em lập được hệ 800x + 600y = 900 và 200x + 400y = 400 — đúng chưa?",
+          "Em ra x = 0,6 và y = 0,7 — đáp án có đúng không?",
+          "Tổng tiền em tính 109 000 đồng — có chính xác không?"
+        ],
+        "go_bi": [
+          "Em giải hệ phương trình ra x, y sai.",
+          "Em nhân nhầm 100 000 × 0,6 + 70 000 × 0,7.",
+          "Em không biết bắt đầu lập phương trình từ đâu."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn và tiếp tuyến",
+      "de_bai": "Từ điểm $A$ nằm ngoài đường tròn $(O; R)$ vẽ hai tiếp tuyến $AB, AC$ ($B, C$ là tiếp điểm). Vẽ đường kính $BD$ của đường tròn $(O)$. Gọi $K$ là hình chiếu của $C$ trên $BD$, $CK$ cắt $AD$ tại $I$. Gọi $H$ là giao điểm của $OA$ và $BC$.\n\na) Chứng minh: Tứ giác $ABOC$ nội tiếp và $AO \\perp BC$.\n\nb) Chứng minh: $I$ là trung điểm của $CK$.\n\nc) Đường thẳng $BD$ và đường thẳng $AC$ cắt nhau tại $S$. Tia $SI$ cắt $AB$ tại $M$. Giả sử $OA = 2R$. Hãy tính diện tích của tứ giác $AMOC$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "Tứ giác nội tiếp (4 điểm cùng nằm trên đường tròn đường kính)",
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Hệ quả định lý Thales",
+        "Tam giác đồng dạng",
+        "Định lý Pythagore"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tiếp tuyến của đường tròn vuông góc với bán kính tại tiếp điểm",
+        "Góc nội tiếp chắn nửa đường tròn là góc vuông",
+        "Tính chất 2 tiếp tuyến: AB = AC, OA là trung trực BC",
+        "Định lý Thales, hệ quả Thales",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "c) $S_{AMOC} = \\dfrac{3R^2\\sqrt{3}}{4}$",
+      "goi_y_cap_1": "Câu a: Chứng minh 4 điểm A, B, O, C cùng nằm trên đường tròn đường kính AO (dùng góc vuông 90°). Phần AO ⊥ BC dùng tính chất 2 tiếp tuyến.\n\nCâu b: Chứng minh CK // AB, rồi dùng hệ quả Thales trong tam giác DAB và tam giác đồng dạng DKC ~ OBA để được IK = (1/2)CK.\n\nCâu c: Tính AC dùng Pythagore (tam giác ACO vuông). Dùng Thales để chứng minh M là trung điểm AB. Rồi tính $S_{ABO}$, $S_{AMO}$, $S_{ACO}$, cộng lại.",
+      "goi_y_cap_2": "Câu a:\n- Xét tam giác ABO vuông tại B (do AB ⊥ OB - tiếp tuyến) → ABO nội tiếp đường tròn đường kính AO\n- Tương tự ACO nội tiếp đường tròn đường kính AO\n- Vậy A, B, O, C cùng nằm trên đường tròn đường kính AO → ABOC nội tiếp\n- AB = AC (2 tiếp tuyến), OB = OC = R → OA là trung trực BC → OA ⊥ BC\n\nCâu b:\n- AB ⊥ BD (tiếp tuyến tại B), CK ⊥ BD (gt) → CK // AB\n- Tam giác DAB có CK // AB, theo hệ quả Thales: IK/AB = DK/DB = DK/(2R) (3)\n- Góc BCD = 90° (nội tiếp chắn nửa đường tròn) → BC ⊥ CD → CD // OA (vì OA ⊥ BC)\n- Tam giác DKC ~ tam giác OBA (g-g) → CK/BA = DK/R (4)\n- Từ (3) và (4): IK = (1/2)CK\n\nCâu c:\n- Pythagore trong tam giác ACO vuông tại C: AC² = OA² - OC² = 4R² - R² = 3R² → AC = R√3\n- $S_{ACO} = \\frac{1}{2} \\cdot OC \\cdot AC = \\frac{R^2\\sqrt{3}}{2}$\n- Chứng minh M là trung điểm AB (dùng Thales 2 lần + IC = IK)\n- Tam giác ABO vuông tại B: AB = R√3 → $S_{ABO} = \\frac{R^2\\sqrt{3}}{2}$\n- $S_{AMO} = \\frac{1}{2} S_{ABO} = \\frac{R^2\\sqrt{3}}{4}$\n- $S_{AMOC} = S_{AMO} + S_{ACO} = \\frac{R^2\\sqrt{3}}{4} + \\frac{R^2\\sqrt{3}}{2} = \\frac{3R^2\\sqrt{3}}{4}$",
+      "loi_giai_day_du": "**Câu a) Tứ giác ABOC nội tiếp và AO ⊥ BC:**\n\n- Xét $\\triangle ABO$ vuông tại $B$ (do $AB \\perp OB$).\n\nSuy ra $\\triangle ABO$ nội tiếp đường tròn đường kính $AO$ (1).\n\n- Xét $\\triangle ACO$ vuông tại $C$ (do $AC \\perp OC$).\n\nSuy ra $\\triangle ACO$ nội tiếp đường tròn đường kính $AO$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $A, B, O, C$ cùng thuộc một đường tròn đường kính $AO$.\n\nSuy ra **tứ giác ABOC nội tiếp**.\n\nTa có:\n$$\\begin{cases} AB = AC \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OB = OC = R \\end{cases}$$\n$\\Rightarrow OA$ là trung trực của $BC$ $\\Rightarrow$ **$OA \\perp BC$ tại $H$**. □\n\n**Câu b) I là trung điểm của CK:**\n\nTa có $AB \\perp BD$ ($AB$ là tiếp tuyến tại $B$ của đường kính $BD$).\n\nMà $CK \\perp BD$ (giả thiết).\n\n$\\Rightarrow CK \\parallel AB$.\n\nXét $\\triangle DAB$ có $CK \\parallel AB$. Theo hệ quả định lý Thales:\n$$\\dfrac{IK}{AB} = \\dfrac{DK}{DB} = \\dfrac{DK}{2R} \\quad (3)$$\n\n$\\widehat{BCD} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $BD$)\n\n$\\Rightarrow BC \\perp CD$ và $OA \\perp BC$\n\n$\\Rightarrow OA \\parallel CD$.\n\nXét $\\triangle DKC$ và $\\triangle OBA$ có:\n$$\\begin{cases} \\widehat{CKD} = \\widehat{OBA} = 90° \\\\ \\widehat{KDC} = \\widehat{BOA} \\text{ (2 góc đồng vị)} \\end{cases}$$\n$\\Rightarrow \\triangle DKC \\sim \\triangle OBA$ (g-g)\n$\\Rightarrow \\dfrac{CK}{BA} = \\dfrac{DK}{BO} = \\dfrac{DK}{R} \\quad (4)$\n\nTừ (3) và (4) suy ra $IK = \\dfrac{1}{2}CK$.\n\nVậy **$I$ là trung điểm của $CK$**. □\n\n**Câu c) Tính diện tích tứ giác AMOC theo R:**\n\nXét $\\triangle ACO$ vuông tại $C$ (định lý Pythagore):\n$$AC^2 + OC^2 = OA^2 \\Rightarrow AC^2 + R^2 = (2R)^2 \\Rightarrow AC^2 = 3R^2 \\Rightarrow AC = R\\sqrt{3}$$\n\nDiện tích $\\triangle ACO$ là:\n$$S_{ACO} = \\dfrac{1}{2} \\cdot OC \\cdot AC = \\dfrac{1}{2} \\cdot R \\cdot R\\sqrt{3} = \\dfrac{R^2\\sqrt{3}}{2}$$\n\nVì $CK \\parallel AB$ (cmt), theo định lý Thales:\n- $\\dfrac{IC}{MA} = \\dfrac{SI}{SM}$ (áp dụng cho $\\triangle SMA$ và $\\triangle SIC$)\n- $\\dfrac{IK}{MB} = \\dfrac{SI}{SM}$ (áp dụng cho $\\triangle SMB$ và $\\triangle SIK$)\n\nSuy ra $\\dfrac{IC}{MA} = \\dfrac{IK}{MB}$.\n\nMà $IC = IK$ (cmt) nên $MA = MB$.\n\nSuy ra $M$ là trung điểm của $AB$.\n\n$\\triangle ABO$ vuông tại $B$: $AB^2 + OB^2 = OA^2 \\Rightarrow AB^2 = (2R)^2 - R^2 = 3R^2 \\Rightarrow AB = R\\sqrt{3}$.\n\nDiện tích $\\triangle ABO$:\n$$S_{ABO} = \\dfrac{1}{2} \\cdot OB \\cdot AB = \\dfrac{R^2\\sqrt{3}}{2}$$\n\nVì $M$ là trung điểm $AB$: $S_{AMO} = \\dfrac{1}{2} S_{ABO} = \\dfrac{R^2\\sqrt{3}}{4}$.\n\nDiện tích tứ giác $AMOC$:\n$$S_{AMOC} = S_{AMO} + S_{ACO} = \\dfrac{R^2\\sqrt{3}}{4} + \\dfrac{R^2\\sqrt{3}}{2} = \\boxed{\\dfrac{3R^2\\sqrt{3}}{4}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ đường tròn (O;R) với tiếp tuyến AB, AC; đường kính BD; các điểm K, I, H, M, S.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa hiểu đề lắm — 'hình chiếu của C trên BD' là gì?",
+          "Em cần nhắc kiến thức về tiếp tuyến và tứ giác nội tiếp.",
+          "Câu a chứng minh tứ giác nội tiếp em không biết bắt đầu thế nào."
+        ],
+        "dinh_huong": [
+          "Em định chứng minh 4 điểm A, B, O, C cùng thuộc đường tròn đường kính AO — đúng hướng chứ?",
+          "Câu b em định chứng minh CK // AB rồi dùng Thales — có đúng không?",
+          "Câu c em định dùng Pythagore cho tam giác ACO — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em chứng minh AO ⊥ BC qua tính chất 2 tiếp tuyến — đúng chưa?",
+          "Em ra IK = (1/2)CK — có đúng không?",
+          "Em ra AC = R√3 và S_AMOC = 3R²√3/4 — có đúng không?"
+        ],
+        "go_bi": [
+          "Em không chứng minh được CK // AB.",
+          "Em không biết áp dụng định lý Thales vào 2 tam giác nào.",
+          "Em không biết M là trung điểm của AB."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    }
+  ]
+}
