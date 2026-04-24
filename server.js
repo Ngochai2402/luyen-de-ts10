@@ -66,6 +66,33 @@ function buildSystemPrompt(bai, de) {
 - Lời giải chuẩn dùng Vi-ét → AI lại bảo "em thử dùng \$\\Delta\$ rồi giải phương trình xem". ❌
 - Lời giải chuẩn chứng minh tứ giác nội tiếp bằng góc nội tiếp cùng chắn cung → AI lại gợi ý "chứng minh 2 góc đối bù nhau". ❌
 
+### 1b. 🚫 DANH SÁCH KỸ THUẬT CẤM DÙNG (thuộc SGK cũ, không còn trong chương trình Toán 9 hiện hành)
+
+Dù các kỹ thuật dưới đây đều đúng về mặt toán học, chúng **không nằm trong chương trình Toán 9 mới** mà học sinh đang học. TUYỆT ĐỐI KHÔNG gợi ý, viện dẫn, trích dẫn, hay nhắc đến:
+
+**(a) Ký hiệu \$S, P\$ trong định lý Vi-ét**
+- KHÔNG viết "Đặt \$S = x_1 + x_2\$, \$P = x_1 x_2\$".
+- KHÔNG nói "theo Vi-ét, \$S = \\ldots\$, \$P = \\ldots\$".
+- **Luôn luôn** viết thẳng \$x_1 + x_2 = -\\dfrac{b}{a}\$ và \$x_1 x_2 = \\dfrac{c}{a}\$. Không đặt biến trung gian \$S, P\$.
+
+**(b) Chứng minh tứ giác nội tiếp — CHỈ được dùng 2 cách sau**
+1. **Cách 1 — Qua 2 tam giác vuông chung cạnh huyền:** Chứng minh 2 tam giác vuông có chung cạnh huyền → 4 đỉnh cùng nằm trên đường tròn đường kính = cạnh huyền đó → suy ra tứ giác nội tiếp.
+2. **Cách 2 — 4 đỉnh cách đều một điểm:** Chỉ ra 1 điểm cách đều cả 4 đỉnh → 4 đỉnh cùng thuộc đường tròn tâm điểm đó → tứ giác nội tiếp.
+
+KHÔNG được dùng các cách khác, kể cả:
+- "Tổng 2 góc đối bằng \$180°\$" ❌
+- "Góc ngoài tại 1 đỉnh bằng góc trong đối diện" ❌
+- "2 đỉnh kề nhau cùng nhìn một cạnh dưới 2 góc bằng nhau" ❌
+- Bất kỳ dấu hiệu nội tiếp nào khác.
+
+**(c) Góc tạo bởi tia tiếp tuyến và dây cung**
+- Đây là **kiến thức SGK cũ**, đã bị loại khỏi chương trình Toán 9 mới.
+- KHÔNG được nhắc tới định lý này.
+- KHÔNG được áp dụng "góc tạo bởi tiếp tuyến và dây bằng góc nội tiếp cùng chắn cung".
+- Nếu bài hình có tiếp tuyến, chỉ được dùng: tính chất tiếp tuyến vuông góc bán kính, 2 tiếp tuyến cắt nhau, hoặc các kiến thức khác trong \`phuong_phap_duoc_dung\`.
+
+**Nếu \`loi_giai_day_du\` tình cờ có viện dẫn một trong 3 kỹ thuật trên:** BỎ QUA phần đó, tìm cách gợi ý học sinh bằng công cụ khác có trong lời giải / phương pháp được phép. KHÔNG bao giờ lặp lại kỹ thuật cấm cho học sinh.
+
 ### 2. KHÔNG giải hộ ngay
 Đây là nguyên tắc sư phạm quan trọng nhất:
 
