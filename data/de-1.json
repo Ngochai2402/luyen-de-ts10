@@ -24,6 +24,7 @@
       "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{4}$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol đi qua các điểm $(-4; 4), (-2; 1), (0; 0), (2; 1), (4; 4)$.\n\n**Câu b) Tìm điểm K:**\n\nVì điểm $K$ có tung độ nhỏ hơn hoành độ 1 đơn vị nên $y = x - 1$.\n\nTa có phương trình: $x - 1 = \\dfrac{x^2}{4}$\n\n$\\Leftrightarrow \\dfrac{x^2}{4} - x + 1 = 0$\n\n$\\Leftrightarrow x^2 - 4x + 4 = 0$\n\n$\\Leftrightarrow (x - 2)^2 = 0$\n\n$\\Rightarrow x = 2$.\n\nVới $x = 2$ suy ra $y = 1$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{K(2; 1)}$.",
       "co_hinh_ve": true,
       "ghi_chu_hinh": "Hình vẽ parabol (P): y = x²/4 trên hệ trục tọa độ Oxy.",
+      "hinh_anh": "/images/de-01/bai1-parabol.png",
       "cau_dan": {
         "khoi_dong": [
           "Em chưa biết parabol y = x²/4 vẽ thế nào.",
@@ -121,6 +122,7 @@
       "loi_giai_day_du": "**Câu a) Trung bình mỗi ngày:**\n\nTổng thời gian tự học của Tú trong tuần là:\n$$162 + 135 + 170 + 150 + 180 + 175 + 190 = 1162 \\text{ (phút)}$$\n\nThời gian trung bình bạn Tú tự học tại nhà mỗi ngày là:\n$$\\dfrac{1162}{7} = \\boxed{166 \\text{ (phút)}}$$\n\n**Câu b) Tính xác suất:**\n\nGọi không gian mẫu là $\\Omega$.\n\nTập hợp các ngày trong tuần là: $\\Omega = \\{\\text{Thứ 2; Thứ 3; Thứ 4; Thứ 5; Thứ 6; Thứ 7; CN}\\}$.\n\nSuy ra $n(\\Omega) = 7$.\n\n**Biến cố A** (lớn hơn 170 phút):\n\nCác ngày thuận lợi cho $A$: Thứ 6 (180), Thứ 7 (175), Chủ nhật (190). Suy ra $n(A) = 3$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\boxed{\\dfrac{3}{7}}$$\n\n**Biến cố B** (không quá 160 phút, tức là ≤ 160):\n\nCác ngày thuận lợi cho $B$: Thứ 3 (135), Thứ 5 (150). Suy ra $n(B) = 2$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\boxed{\\dfrac{2}{7}}$$",
       "co_hinh_ve": true,
       "ghi_chu_hinh": "Biểu đồ cột thời gian tự học của Tú trong 7 ngày.",
+      "hinh_anh": "/images/de-01/bai3-bieudocot.png",
       "cau_dan": {
         "khoi_dong": [
           "Em không biết đọc số liệu từ biểu đồ cột.",
@@ -170,6 +172,7 @@
       "loi_giai_day_du": "**Câu a) Lập biểu thức A:**\n\nDiện tích của lối đi hình bình hành là $2 \\cdot x = 2x$ (m²).\n\nDiện tích của cả miếng đất hình chữ nhật là $x(2x+10) = 2x^2 + 10x$ (m²).\n\nDiện tích phần đất còn lại để trồng hoa là:\n$$2x^2 + 10x - 2x = 2x^2 + 8x \\text{ (m}^2\\text{)}$$\n\nVì hai miếng đất trồng hoa có diện tích bằng nhau nên diện tích trồng hoa hồng là:\n$$A = \\dfrac{2x^2 + 8x}{2} = x^2 + 4x$$\n\nVậy biểu thức cần tìm là $\\boxed{A = x^2 + 4x}$.\n\n**Câu b) Tính chi phí:**\n\nTheo đề bài, diện tích trồng hoa hồng là 45 m² nên ta có phương trình:\n$$x^2 + 4x = 45$$\n$$x^2 + 4x - 45 = 0$$\n\nGiải phương trình: $x_1 = 5$ (nhận vì $x > 0$); $x_2 = -9$ (loại).\n\nVới $x = 5$, diện tích của lối đi là:\n$$S = 2 \\cdot 5 = 10 \\text{ (m}^2\\text{)}$$\n\nChi phí để làm lối đi là:\n$$10 \\cdot 120\\,000 = \\boxed{1\\,200\\,000 \\text{ (đồng)}}$$",
       "co_hinh_ve": true,
       "ghi_chu_hinh": "Hình chữ nhật có lối đi hình bình hành ở giữa, hai bên trồng hoa hồng và hoa cúc.",
+      "hinh_anh": "/images/de-01/bai4-miengdat.png",
       "cau_dan": {
         "khoi_dong": [
           "Em không hình dung được 'lối đi hình bình hành' trong miếng đất.",
@@ -219,6 +222,7 @@
       "loi_giai_day_du": "**Câu a) Thể tích thùng carton:**\n\nVì thùng carton đựng vừa khít 6 lon nước ngọt (xếp thành 2 hàng, mỗi hàng 3 lon hoặc ngược lại) nên kích thước của thùng là:\n- Chiều dài của thùng là: $7 \\cdot 3 = 21$ (cm)\n- Chiều rộng của thùng là: $7 \\cdot 2 = 14$ (cm)\n- Chiều cao của thùng bằng chiều cao của lon nước: $11$ (cm)\n\nThể tích thùng carton là:\n$$V_{\\text{thùng}} = 21 \\cdot 14 \\cdot 11 = 3234 \\text{ (cm}^3\\text{)}$$\n\nVậy thể tích thùng carton là $\\boxed{3234 \\text{ cm}^3}$.\n\n**Câu b) Thể tích phần còn trống:**\n\nBán kính đáy của một lon nước ngọt là:\n$$R = \\dfrac{7}{2} = 3{,}5 \\text{ (cm)}$$\n\nThể tích của một lon nước ngọt là:\n$$V_{\\text{lon}} = \\pi R^2 h = \\pi \\cdot 3{,}5^2 \\cdot 11 = 134{,}75\\pi \\text{ cm}^3$$\n\nTổng thể tích của 6 lon nước ngọt là:\n$$V_{6\\text{ lon}} = 6 \\cdot 134{,}75\\pi = 808{,}5\\pi \\text{ cm}^3$$\n\nThể tích phần còn trống trong thùng carton là:\n$$V_{\\text{trống}} = V_{\\text{thùng}} - V_{6\\text{ lon}} = 3234 - 808{,}5\\pi \\approx \\boxed{694 \\text{ cm}^3}$$",
       "co_hinh_ve": true,
       "ghi_chu_hinh": "Hình 6 lon nước ngọt xếp trong thùng carton (2 hàng × 3 lon).",
+      "hinh_anh": "/images/de-01/bai5-lonuocngot.png",
       "cau_dan": {
         "khoi_dong": [
           "6 lon xếp trong thùng thì kích thước thùng thế nào thầy?",
@@ -319,6 +323,7 @@
       "loi_giai_day_du": "**Câu a) Tứ giác ABOC nội tiếp và AO ⊥ BC:**\n\n- Xét $\\triangle ABO$ vuông tại $B$ (do $AB \\perp OB$).\n\nSuy ra $\\triangle ABO$ nội tiếp đường tròn đường kính $AO$ (1).\n\n- Xét $\\triangle ACO$ vuông tại $C$ (do $AC \\perp OC$).\n\nSuy ra $\\triangle ACO$ nội tiếp đường tròn đường kính $AO$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $A, B, O, C$ cùng thuộc một đường tròn đường kính $AO$.\n\nSuy ra **tứ giác ABOC nội tiếp**.\n\nTa có:\n$$\\begin{cases} AB = AC \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OB = OC = R \\end{cases}$$\n$\\Rightarrow OA$ là trung trực của $BC$ $\\Rightarrow$ **$OA \\perp BC$ tại $H$**. □\n\n**Câu b) I là trung điểm của CK:**\n\nTa có $AB \\perp BD$ ($AB$ là tiếp tuyến tại $B$ của đường kính $BD$).\n\nMà $CK \\perp BD$ (giả thiết).\n\n$\\Rightarrow CK \\parallel AB$.\n\nXét $\\triangle DAB$ có $CK \\parallel AB$. Theo hệ quả định lý Thales:\n$$\\dfrac{IK}{AB} = \\dfrac{DK}{DB} = \\dfrac{DK}{2R} \\quad (3)$$\n\n$\\widehat{BCD} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $BD$)\n\n$\\Rightarrow BC \\perp CD$ và $OA \\perp BC$\n\n$\\Rightarrow OA \\parallel CD$.\n\nXét $\\triangle DKC$ và $\\triangle OBA$ có:\n$$\\begin{cases} \\widehat{CKD} = \\widehat{OBA} = 90° \\\\ \\widehat{KDC} = \\widehat{BOA} \\text{ (2 góc đồng vị)} \\end{cases}$$\n$\\Rightarrow \\triangle DKC \\sim \\triangle OBA$ (g-g)\n$\\Rightarrow \\dfrac{CK}{BA} = \\dfrac{DK}{BO} = \\dfrac{DK}{R} \\quad (4)$\n\nTừ (3) và (4) suy ra $IK = \\dfrac{1}{2}CK$.\n\nVậy **$I$ là trung điểm của $CK$**. □\n\n**Câu c) Tính diện tích tứ giác AMOC theo R:**\n\nXét $\\triangle ACO$ vuông tại $C$ (định lý Pythagore):\n$$AC^2 + OC^2 = OA^2 \\Rightarrow AC^2 + R^2 = (2R)^2 \\Rightarrow AC^2 = 3R^2 \\Rightarrow AC = R\\sqrt{3}$$\n\nDiện tích $\\triangle ACO$ là:\n$$S_{ACO} = \\dfrac{1}{2} \\cdot OC \\cdot AC = \\dfrac{1}{2} \\cdot R \\cdot R\\sqrt{3} = \\dfrac{R^2\\sqrt{3}}{2}$$\n\nVì $CK \\parallel AB$ (cmt), theo định lý Thales:\n- $\\dfrac{IC}{MA} = \\dfrac{SI}{SM}$ (áp dụng cho $\\triangle SMA$ và $\\triangle SIC$)\n- $\\dfrac{IK}{MB} = \\dfrac{SI}{SM}$ (áp dụng cho $\\triangle SMB$ và $\\triangle SIK$)\n\nSuy ra $\\dfrac{IC}{MA} = \\dfrac{IK}{MB}$.\n\nMà $IC = IK$ (cmt) nên $MA = MB$.\n\nSuy ra $M$ là trung điểm của $AB$.\n\n$\\triangle ABO$ vuông tại $B$: $AB^2 + OB^2 = OA^2 \\Rightarrow AB^2 = (2R)^2 - R^2 = 3R^2 \\Rightarrow AB = R\\sqrt{3}$.\n\nDiện tích $\\triangle ABO$:\n$$S_{ABO} = \\dfrac{1}{2} \\cdot OB \\cdot AB = \\dfrac{R^2\\sqrt{3}}{2}$$\n\nVì $M$ là trung điểm $AB$: $S_{AMO} = \\dfrac{1}{2} S_{ABO} = \\dfrac{R^2\\sqrt{3}}{4}$.\n\nDiện tích tứ giác $AMOC$:\n$$S_{AMOC} = S_{AMO} + S_{ACO} = \\dfrac{R^2\\sqrt{3}}{4} + \\dfrac{R^2\\sqrt{3}}{2} = \\boxed{\\dfrac{3R^2\\sqrt{3}}{4}}$$",
       "co_hinh_ve": true,
       "ghi_chu_hinh": "Hình vẽ đường tròn (O;R) với tiếp tuyến AB, AC; đường kính BD; các điểm K, I, H, M, S.",
+      "hinh_anh": "/images/de-01/bai7-duongtron.png",
       "cau_dan": {
         "khoi_dong": [
           "Em chưa hiểu đề lắm — 'hình chiếu của C trên BD' là gì?",
