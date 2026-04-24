@@ -1049,15 +1049,23 @@ async function selectDe(n) {
       </div>
     `;
     try {
-      const res = await fetch(`/api/de/${n}`);
+      const res = await fetch(`/api/de/${n}`, { cache: 'no-cache' });
+      console.log(`[selectDe] Đề ${n} → HTTP ${res.status}`);
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
-      DE_CACHE[n] = await res.json();
+      const text = await res.text();
+      console.log(`[selectDe] Đề ${n} → nhận được ${text.length} ký tự`);
+      if (!text || text.length < 100) {
+        throw new Error(`Response rỗng hoặc quá ngắn: ${text}`);
+      }
+      DE_CACHE[n] = JSON.parse(text);
     } catch (e) {
+      console.error(`[selectDe] Đề ${n} lỗi:`, e);
       document.getElementById('deContent').innerHTML = `
         <div style="padding: 40px; text-align: center; color: var(--amber);">
           <div style="font-size: 40px; margin-bottom: 12px;">🚧</div>
           <div style="font-size: 15px;">Đề ${n} chưa có sẵn.</div>
           <div style="font-size: 13px; margin-top: 6px; color: var(--ink-muted);">Vui lòng chọn đề khác hoặc quay lại sau.</div>
+          <div style="font-size: 11px; margin-top: 10px; color: var(--ink-muted); font-family: monospace;">Lỗi: ${e.message}</div>
         </div>
       `;
       // Không đổi currentDe, để user thấy state rỗng rồi chọn lại
