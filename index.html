@@ -892,7 +892,6 @@ function renderDeDrawer() {
 }
 
 function renderBaiList() {
-  if (currentDe !== 1) return;
   const el = document.getElementById('baiList');
   el.innerHTML = CURRENT_DE_DATA.bai.map(b => `
     <div class="bai-item ${b.bai_so === currentBai ? 'active' : ''}"
@@ -913,7 +912,6 @@ function renderBaiList() {
 }
 
 function renderMainContent() {
-  if (currentDe !== 1) return;
   const de = CURRENT_DE_DATA;
   const bai = de.bai.find(b => b.bai_so === currentBai);
 
