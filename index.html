@@ -775,9 +775,9 @@ const DE_LIST = [];
 for (let i = 1; i <= 48; i++) {
   DE_LIST.push({
     de_so: i,
-    available: i === 1,
+    available: true,   // sẽ check thực tế qua API
     label: `Đề Số ${i}`,
-    meta: i === 1 ? '7 bài · Demo' : 'Chưa cập nhật'
+    meta: 'Đề tham khảo TS10'
   });
 }
 
@@ -790,7 +790,7 @@ const CAU_DAN_GROUPS = [
 ];
 
 function getCauDanItems(groupId) {
-  const bai = DE_1_DATA.bai.find(b => b.bai_so === currentBai);
+  const bai = CURRENT_DE_DATA.bai.find(b => b.bai_so === currentBai);
   const group = CAU_DAN_GROUPS.find(g => g.id === groupId);
   if (!bai || !group || !bai.cau_dan) return [];
   return bai.cau_dan[group.jsonKey] || [];
@@ -894,7 +894,7 @@ function renderDeDrawer() {
 function renderBaiList() {
   if (currentDe !== 1) return;
   const el = document.getElementById('baiList');
-  el.innerHTML = DE_1_DATA.bai.map(b => `
+  el.innerHTML = CURRENT_DE_DATA.bai.map(b => `
     <div class="bai-item ${b.bai_so === currentBai ? 'active' : ''}"
          onclick="selectBai(${b.bai_so})">
       <div class="bai-item-num">${b.bai_so}</div>
@@ -908,13 +908,13 @@ function renderBaiList() {
   // Cập nhật header cột trái
   document.getElementById('curDeNum').textContent = currentDe;
   document.getElementById('curDeLabel').textContent = `Đề Số ${currentDe}`;
-  const totalDiem = DE_1_DATA.bai.reduce((s, b) => s + b.diem, 0);
-  document.getElementById('curDeMeta').textContent = `${DE_1_DATA.bai.length} bài · ${totalDiem}đ`;
+  const totalDiem = CURRENT_DE_DATA.bai.reduce((s, b) => s + b.diem, 0);
+  document.getElementById('curDeMeta').textContent = `${CURRENT_DE_DATA.bai.length} bài · ${totalDiem}đ`;
 }
 
 function renderMainContent() {
   if (currentDe !== 1) return;
-  const de = DE_1_DATA;
+  const de = CURRENT_DE_DATA;
   const bai = de.bai.find(b => b.bai_so === currentBai);
 
   const html = `
@@ -1031,12 +1031,46 @@ function updateConversationOnly() {
 }
 
 // ============ LOGIC ============
-function selectDe(n) {
+// Cache các đề đã load, tránh fetch lại
+const DE_CACHE = { 1: DE_1_DATA };  // đề 1 đã nhúng sẵn
+// Biến đề hiện tại (alias cho code hiện hành)
+let CURRENT_DE_DATA = DE_1_DATA;
+
+async function selectDe(n) {
+  closeDeDrawer();
+
+  // Nếu chưa có trong cache → fetch từ server
+  if (!DE_CACHE[n]) {
+    // Hiển thị loading state
+    document.getElementById('deContent').innerHTML = `
+      <div style="padding: 40px; text-align: center; color: var(--ink-muted);">
+        <div style="font-size: 40px; margin-bottom: 12px;">⏳</div>
+        <div style="font-size: 15px;">Đang tải Đề ${n}...</div>
+      </div>
+    `;
+    try {
+      const res = await fetch(`/api/de/${n}`);
+      if (!res.ok) throw new Error(`HTTP ${res.status}`);
+      DE_CACHE[n] = await res.json();
+    } catch (e) {
+      document.getElementById('deContent').innerHTML = `
+        <div style="padding: 40px; text-align: center; color: var(--amber);">
+          <div style="font-size: 40px; margin-bottom: 12px;">🚧</div>
+          <div style="font-size: 15px;">Đề ${n} chưa có sẵn.</div>
+          <div style="font-size: 13px; margin-top: 6px; color: var(--ink-muted);">Vui lòng chọn đề khác hoặc quay lại sau.</div>
+        </div>
+      `;
+      // Không đổi currentDe, để user thấy state rỗng rồi chọn lại
+      return;
+    }
+  }
+
   currentDe = n;
   currentBai = 1;
   openGroups.clear();
   chatHistory = [];
-  closeDeDrawer();
+  CURRENT_DE_DATA = DE_CACHE[n];
+
   renderDeDrawer();
   renderBaiList();
   renderMainContent();
@@ -1066,7 +1100,7 @@ function toggleGroup(id) {
 }
 
 function askCauDan(groupId, idx) {
-  const bai = DE_1_DATA.bai.find(b => b.bai_so === currentBai);
+  const bai = CURRENT_DE_DATA.bai.find(b => b.bai_so === currentBai);
   const items = getCauDanItems(groupId);
   const cauDan = items[idx];
   if (!cauDan) return;
