@@ -1,0 +1,361 @@
+{
+  "de_so": 2,
+  "cum": 1,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho parabol $(P): y = -\\dfrac{1}{2}x^2$.\n\na) Vẽ đồ thị $(P)$.\n\nb) Tìm tọa độ điểm $M$ thuộc $(P)$ (khác gốc tọa độ) có hoành độ bằng 2 lần tung độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol",
+        "Biểu diễn tọa độ điểm theo điều kiện đề cho",
+        "Thay vào phương trình (P) và giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² (a ≠ 0)",
+        "Parabol có hệ số a < 0 thì quay bề lõm xuống dưới",
+        "Điểm thuộc đồ thị thì tọa độ thỏa mãn phương trình"
+      ],
+      "dap_so": "Điểm M có tọa độ $M\\left(-1; -\\dfrac{1}{2}\\right)$.",
+      "goi_y_cap_1": "Câu a: Em lập bảng giá trị với x = -4, -2, 0, 2, 4 rồi vẽ parabol đi qua các điểm đó. Chú ý hệ số a = -1/2 < 0 nên parabol quay bề lõm xuống dưới, đỉnh O(0;0).\n\nCâu b: 'Hoành độ bằng 2 lần tung độ' nghĩa là $x = 2y$, suy ra $y = \\dfrac{x}{2}$. Kết hợp với (P) để tìm x.",
+      "goi_y_cap_2": "Câu a:\n- Bảng: $x = -4 \\to y = -8$; $x = -2 \\to y = -2$; $x = 0 \\to y = 0$; $x = 2 \\to y = -2$; $x = 4 \\to y = -8$\n- Vẽ parabol bề lõm xuống, đỉnh O.\n\nCâu b:\n- Điểm M có $x = 2y \\Rightarrow y = \\dfrac{x}{2}$\n- Thay vào (P): $\\dfrac{x}{2} = -\\dfrac{1}{2}x^2$\n- Đưa về: $\\dfrac{1}{2}x^2 + \\dfrac{1}{2}x = 0$\n- Giải: $x_1 = 0$ (loại vì khác O); $x_2 = -1$ (nhận)\n- Với $x = -1 \\Rightarrow y = -\\dfrac{1}{2}$.",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{1}{2}x^2$ | $-8$ | $-2$ | $0$ | $-2$ | $-8$ |\n\nVẽ parabol đi qua các điểm $(-4; -8), (-2; -2), (0; 0), (2; -2), (4; -8)$. Vì $a = -\\dfrac{1}{2} < 0$ nên parabol quay bề lõm xuống dưới.\n\n**Câu b) Tìm điểm M:**\n\nVì điểm $M$ có hoành độ bằng 2 lần tung độ nên $x = 2y \\Rightarrow y = \\dfrac{x}{2}$.\n\nTa có phương trình: $\\dfrac{x}{2} = -\\dfrac{1}{2}x^2$\n\n$\\Leftrightarrow \\dfrac{1}{2}x^2 + \\dfrac{1}{2}x = 0$\n\n$\\Leftrightarrow x(x + 1) = 0$\n\n$\\Rightarrow x_1 = 0$ (loại vì $M$ khác gốc tọa độ); $x_2 = -1$ (nhận).\n\nVới $x_2 = -1 \\Rightarrow y_2 = -\\dfrac{1}{2}$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{M\\left(-1; -\\dfrac{1}{2}\\right)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = -x²/2 bề lõm quay xuống dưới trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol $y = -x^2/2$ thế nào.",
+          "'Hoành độ bằng 2 lần tung độ' nghĩa là gì thầy?",
+          "Parabol với hệ số a âm có gì khác a dương?"
+        ],
+        "dinh_huong": [
+          "Em định lập bảng giá trị với x = -4, -2, 0, 2, 4 — có đúng không?",
+          "Câu b em định đặt $x = 2y$ rồi thay vào (P) — đúng hướng chứ?",
+          "Em có cần loại điểm O(0;0) khi giải không?"
+        ],
+        "kiem_tra": [
+          "Em vẽ parabol bề lõm xuống, đỉnh O, đi qua (±2; -2), (±4; -8) — đúng chưa?",
+          "Em ra $M(-1; -\\dfrac{1}{2})$ — đáp án có đúng không thầy?",
+          "Phương trình em giải ra $x_1 = 0$ và $x_2 = -1$ — có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết cách đặt x theo y trong câu b.",
+          "Em giải phương trình $\\dfrac{1}{2}x^2 + \\dfrac{1}{2}x = 0$ ra kết quả lạ.",
+          "Em quên loại nghiệm x = 0 vì sao."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-2/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète",
+      "de_bai": "Cho phương trình $x^2 - 5x + 1 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, tính giá trị của biểu thức:\n$$A = \\dfrac{x_1^2 - 5}{x_2} + \\dfrac{x_2^2 - 5}{x_1}$$",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Biến đổi biểu thức đối xứng về tổng và tích hai nghiệm",
+        "Dùng hằng đẳng thức: $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 - x_1 x_2 + x_2^2)$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète: x₁ + x₂ = -b/a, x₁x₂ = c/a",
+        "Hằng đẳng thức: x₁² + x₂² = (x₁+x₂)² - 2x₁x₂"
+      ],
+      "dap_so": "$A = 85$.",
+      "goi_y_cap_1": "Câu a: Tính Δ = b² - 4ac. Nếu Δ > 0 thì có 2 nghiệm phân biệt.\n\nCâu b: Quy đồng biểu thức A về dạng có $x_1^3 + x_2^3$ ở tử, rồi dùng hằng đẳng thức + Viète.",
+      "goi_y_cap_2": "Câu a:\n- $a = 1, b = -5, c = 1$\n- Tính $\\Delta = (-5)^2 - 4 \\cdot 1 \\cdot 1 = 21 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = 5$, $x_1 x_2 = 1$\n- Quy đồng A: $A = \\dfrac{x_1(x_1^2 - 5) + x_2(x_2^2 - 5)}{x_1 x_2} = \\dfrac{(x_1^3 + x_2^3) - 5(x_1 + x_2)}{x_1 x_2}$\n- Tính $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1x_2 = 25 - 2 = 23$\n- Tính $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 - x_1x_2 + x_2^2) = 5 \\cdot (23-1) = 110$\n- Thay số: $A = \\dfrac{110 - 5 \\cdot 5}{1} = 85$.",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $x^2 - 5x + 1 = 0$ với $a = 1; b = -5; c = 1$.\n\nTính $\\Delta = b^2 - 4ac = (-5)^2 - 4 \\cdot 1 \\cdot 1 = 25 - 4 = 21 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = -\\dfrac{b}{a} = 5 \\\\ x_1 x_2 = \\dfrac{c}{a} = 1 \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 5^2 - 2 \\cdot 1 = 23$.\n\nBiến đổi biểu thức A:\n$$A = \\dfrac{x_1(x_1^2 - 5) + x_2(x_2^2 - 5)}{x_1 x_2} = \\dfrac{x_1^3 - 5x_1 + x_2^3 - 5x_2}{x_1 x_2} = \\dfrac{(x_1^3 + x_2^3) - 5(x_1 + x_2)}{x_1 x_2}$$\n\nTa tính $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 - x_1x_2 + x_2^2) = 5 \\cdot (23 - 1) = 110$.\n\nThế giá trị vào biểu thức A:\n$$A = \\dfrac{110 - 5 \\cdot 5}{1} = \\boxed{85}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em quên công thức tính Δ rồi thầy.",
+          "Định lý Viète cho em công thức $x_1 + x_2$ và $x_1 x_2$ thế nào?",
+          "Em không biết biến đổi biểu thức A phức tạp này thế nào."
+        ],
+        "dinh_huong": [
+          "Em định tính Δ = b² - 4ac rồi so với 0 — đúng hướng không?",
+          "Em định quy đồng A thành 1 phân số — có đúng không?",
+          "Em thấy có $x_1^3 + x_2^3$ nên cần hằng đẳng thức — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em tính Δ = 21 — có đúng không thầy?",
+          "Em ra $x_1 + x_2 = 5$ và $x_1 x_2 = 1$ — Viète em dùng đúng chưa?",
+          "Em ra A = 85 — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết quy đồng biểu thức A thế nào.",
+          "Em tính $x_1^3 + x_2^3$ bằng hằng đẳng thức nhưng ra sai.",
+          "Em tính $x_1^2 + x_2^2 = 23$ nhưng không biết dùng tiếp."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép - Xác suất",
+      "de_bai": "Biểu đồ cột kép bên dưới biểu diễn số học sinh khối 6 của trường THCS A trên địa bàn Thành phố Hồ Chí Minh tham gia các câu lạc bộ do nhà trường tổ chức. Biết rằng mỗi bạn chỉ tham gia đúng một câu lạc bộ.\n\n| Câu lạc bộ | Nam | Nữ |\n|---|---|---|\n| Cờ vua | 28 | 15 |\n| Dân ca | 17 | 24 |\n| Khiêu vũ | 24 | 35 |\n| Bơi lội | 45 | 40 |\n\na) Câu lạc bộ nào có sự chênh lệch nhiều nhất giữa số nam sinh và nữ sinh?\n\nb) Chọn ngẫu nhiên một học sinh khối 6. Tính xác suất của biến cố:\n- $A$: \"Học sinh được chọn là nữ\"\n- $B$: \"Học sinh được chọn không tham gia câu lạc bộ bơi lội và câu lạc bộ khiêu vũ\".",
+      "phuong_phap_duoc_dung": [
+        "Đọc số liệu từ biểu đồ cột kép",
+        "Tính giá trị tuyệt đối của hiệu số",
+        "Liệt kê không gian mẫu và biến cố",
+        "Công thức xác suất cổ điển P(A) = n(A)/n(Ω)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Giá trị tuyệt đối",
+        "Xác suất của biến cố",
+        "Không gian mẫu"
+      ],
+      "dap_so": "a) Cờ vua có chênh lệch nhiều nhất (13 học sinh). b) $P(A) = \\dfrac{1}{2}$, $P(B) = \\dfrac{7}{19}$.",
+      "goi_y_cap_1": "Câu a: Với mỗi câu lạc bộ, tính |Nam - Nữ| rồi so sánh.\n\nCâu b: Không gian mẫu là tổng tất cả học sinh. Biến cố A: đếm số nữ. Biến cố B: đếm số HS tham gia Cờ vua + Dân ca (tức là KHÔNG phải bơi lội và KHÔNG phải khiêu vũ).",
+      "goi_y_cap_2": "Câu a:\n- Cờ vua: |28-15| = 13\n- Dân ca: |17-24| = 7\n- Khiêu vũ: |24-35| = 11\n- Bơi lội: |45-40| = 5\n- Lớn nhất là Cờ vua (13)\n\nCâu b:\n- $n(\\Omega) = (28+15) + (17+24) + (24+35) + (45+40) = 228$\n- A: nữ → $n(A) = 15+24+35+40 = 114$; $P(A) = \\dfrac{114}{228} = \\dfrac{1}{2}$\n- B: không ở bơi lội và khiêu vũ, tức là ở Cờ vua HOẶC Dân ca → $n(B) = (28+15) + (17+24) = 84$; $P(B) = \\dfrac{84}{228} = \\dfrac{7}{19}$",
+      "loi_giai_day_du": "**Câu a) Tìm CLB chênh lệch nhiều nhất:**\n\nTa có sự chênh lệch số nam sinh và nữ sinh ở từng câu lạc bộ là:\n- Cờ vua: $|28 - 15| = 13$ (học sinh)\n- Dân ca: $|17 - 24| = 7$ (học sinh)\n- Khiêu vũ: $|24 - 35| = 11$ (học sinh)\n- Bơi lội: $|45 - 40| = 5$ (học sinh)\n\nVậy câu lạc bộ **Cờ vua** có sự chênh lệch nhiều nhất.\n\n**Câu b) Tính xác suất:**\n\nSố phần tử của không gian mẫu là tổng số học sinh khối 6:\n$$n(\\Omega) = (28+15) + (17+24) + (24+35) + (45+40) = 228$$\n\n**Xét biến cố A** \"Học sinh được chọn là nữ\":\n\nSố kết quả thuận lợi cho biến cố A là tổng số học sinh nữ:\n$$n(A) = 15 + 24 + 35 + 40 = 114$$\n\nXác suất của biến cố A là:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{114}{228} = \\boxed{\\dfrac{1}{2}}$$\n\n**Xét biến cố B** \"Học sinh không tham gia bơi lội và khiêu vũ\":\n\nTức là học sinh đó tham gia CLB Cờ vua hoặc Dân ca.\n\nSố kết quả thuận lợi cho B là:\n$$n(B) = (28+15) + (17+24) = 84$$\n\nXác suất của biến cố B là:\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{84}{228} = \\boxed{\\dfrac{7}{19}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số học sinh nam/nữ tham gia 4 câu lạc bộ: Cờ vua, Dân ca, Khiêu vũ, Bơi lội.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc số liệu từ biểu đồ cột kép.",
+          "'Chênh lệch nhiều nhất' nghĩa là em phải tính gì thầy?",
+          "Em không biết bắt đầu câu b từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định tính |Nam - Nữ| cho từng CLB rồi so — đúng hướng không?",
+          "Không gian mẫu là tổng tất cả học sinh — có đúng không thầy?",
+          "Biến cố B là HS ở Cờ vua hoặc Dân ca — em hiểu vậy đúng chưa?"
+        ],
+        "kiem_tra": [
+          "Em tính chênh lệch Cờ vua = 13 là lớn nhất — đúng chưa?",
+          "Em ra $n(\\Omega) = 228$ và $n(A) = 114$ — có đúng không?",
+          "Em ra P(A) = 1/2 và P(B) = 7/19 — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em cộng nhầm tổng số học sinh.",
+          "Em nhầm biến cố B thành HS bơi lội hoặc khiêu vũ.",
+          "Em rút gọn 114/228 và 84/228 chưa đúng."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-2/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hình tròn nội tiếp hình chữ nhật",
+      "de_bai": "Một khu vườn hình chữ nhật có chiều rộng là $x$ (mét), chiều dài là $y$ (mét) ($x, y > 0$). Bác Cường dự định xây một cái hồ hình tròn tiếp xúc với các cạnh của khu vườn như hình vẽ.\n\na) Viết biểu thức tính diện tích phần còn lại của khu vườn sau khi xây hồ theo $x$ và $y$.\n\nb) Biết rằng khu vườn hình chữ nhật có chiều dài gấp ba lần chiều rộng và diện tích phần còn lại của khu vườn là 141,76 m². Tìm các kích thước ban đầu của khu vườn. (Lấy $\\pi = 3{,}14$)",
+      "phuong_phap_duoc_dung": [
+        "Diện tích hình chữ nhật = dài × rộng",
+        "Diện tích hình tròn = πR²",
+        "Hồ tròn tiếp xúc các cạnh chiều rộng → đường kính hồ = chiều rộng",
+        "Lập và giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Diện tích hình tròn",
+        "Quan hệ giữa đường kính và bán kính"
+      ],
+      "dap_so": "a) $S_{cl} = xy - \\dfrac{\\pi x^2}{4}$ (m²). b) Chiều rộng 8m, chiều dài 24m.",
+      "goi_y_cap_1": "Câu a: Diện tích khu vườn = $xy$. Hồ tròn tiếp xúc các cạnh chiều rộng → đường kính hồ = x → bán kính R = x/2. Diện tích hồ = $\\pi R^2$.\n\nCâu b: Dùng $y = 3x$ thế vào biểu thức câu a, cho bằng 141,76 rồi giải phương trình bậc hai.",
+      "goi_y_cap_2": "Câu a:\n- Diện tích hình chữ nhật: $S_{hcn} = xy$ (m²)\n- Vì hồ tròn tiếp xúc các cạnh chiều rộng → đường kính hồ = chiều rộng $x$\n- Bán kính hồ: $R = \\dfrac{x}{2}$\n- Diện tích hồ: $S_{h\\hat{o}} = \\pi \\cdot \\left(\\dfrac{x}{2}\\right)^2 = \\dfrac{\\pi x^2}{4}$ (m²)\n- Diện tích còn lại: $S_{cl} = xy - \\dfrac{\\pi x^2}{4}$\n\nCâu b:\n- Thay $y = 3x$ và $\\pi = 3{,}14$ vào: $S_{cl} = x(3x) - \\dfrac{3{,}14 x^2}{4} = 3x^2 - 0{,}785x^2 = 2{,}215x^2$\n- Phương trình: $2{,}215x^2 = 141{,}76$ → $x^2 = 64$ → $x = 8$ (nhận), $x = -8$ (loại)\n- Với $x = 8 \\Rightarrow y = 24$\n- Kết luận: rộng 8m, dài 24m.",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích phần còn lại:**\n\nDiện tích hình chữ nhật là $xy$ (m²).\n\nVì hồ hình tròn tiếp xúc với các cạnh chiều rộng của khu vườn nên đường kính của hồ bằng chiều rộng hình chữ nhật.\n\nBán kính của hồ hình tròn là $R = \\dfrac{x}{2}$ (m).\n\nDiện tích hồ hình tròn là:\n$$S_{\\text{hồ}} = \\pi \\left(\\dfrac{x}{2}\\right)^2 = \\dfrac{\\pi x^2}{4} \\text{ (m}^2\\text{)}$$\n\nDiện tích phần còn lại của khu vườn là:\n$$\\boxed{S_{cl} = xy - \\dfrac{\\pi x^2}{4} \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tìm kích thước khu vườn:**\n\nVì chiều dài gấp ba lần chiều rộng nên $y = 3x$.\n\nThay $y = 3x$ và $\\pi = 3{,}14$ vào biểu thức diện tích phần còn lại:\n$$S_{cl} = x(3x) - \\dfrac{3{,}14 \\cdot x^2}{4} = 3x^2 - 0{,}785x^2 = 2{,}215x^2$$\n\nTheo đề bài, diện tích phần còn lại là 141,76 m² nên:\n$$2{,}215x^2 = 141{,}76$$\n$$2{,}215x^2 - 141{,}76 = 0$$\n\nSuy ra $x_1 = 8$ (nhận), $x_2 = -8$ (loại vì $x > 0$).\n\nVới $x = 8 \\Rightarrow y = 3 \\cdot 8 = 24$.\n\nVậy chiều rộng khu vườn là $\\boxed{8\\text{ m}}$ và chiều dài khu vườn là $\\boxed{24\\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình chữ nhật có hồ tròn bên trong, hồ tiếp xúc với 2 cạnh chiều rộng.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hình dung được 'hồ tròn tiếp xúc các cạnh khu vườn'.",
+          "Vì sao bán kính hồ lại bằng x/2 thầy?",
+          "Em không biết bắt đầu câu a từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định lấy DT hình chữ nhật - DT hồ tròn — đúng hướng không?",
+          "Câu b em định thay y = 3x vào biểu thức câu a — đúng không?",
+          "Em định giải phương trình $2{,}215x^2 = 141{,}76$ — có đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S_{cl} = xy - \\dfrac{\\pi x^2}{4}$ — biểu thức này có đúng không?",
+          "Em ra $x = 8$ và $x = -8$ — đúng chưa?",
+          "Em ra chiều rộng 8m, chiều dài 24m — có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết bán kính hồ bằng nửa chiều rộng.",
+          "Em thay π = 3,14 nhưng tính ra số lẻ lạ.",
+          "Em giải $x^2 = 64$ không ra được nghiệm dương."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-2/bai4-hotron.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Hình trụ và hình cầu",
+      "de_bai": "Một ống đựng các viên Sô-cô-la có dạng hình trụ với đường kính đáy là 4 cm và chiều cao là 12 cm. Mỗi viên sô-cô-la hình cầu với bán kính là 0,5 cm.\n\na) Tính thể tích của ống sô-cô-la và thể tích của một viên sô-cô-la (tính theo đơn vị cm³ và làm tròn đến hàng phần trăm). Biết công thức thể tích hình trụ là $V = \\pi R^2 h$ ($R$ là bán kính đáy, $h$ là đường cao của hình trụ). Thể tích hình cầu là $V = \\dfrac{4}{3}\\pi R^3$ ($R$ là bán kính của hình cầu).\n\nb) Biết rằng trong ống có một lớp không khí chiếm 10% thể tích của ống. Tính số viên sô-cô-la tối đa có thể chứa trong ống.",
+      "phuong_phap_duoc_dung": [
+        "Công thức thể tích hình trụ V = πR²h",
+        "Công thức thể tích hình cầu V = (4/3)πR³",
+        "Tính phần trăm thể tích",
+        "Phép chia và làm tròn số nguyên"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ",
+        "Thể tích hình cầu",
+        "Quan hệ giữa đường kính và bán kính"
+      ],
+      "dap_so": "a) $V_{trụ} \\approx 150{,}80$ cm³; $V_{cầu} \\approx 0{,}52$ cm³. b) Tối đa 259 viên.",
+      "goi_y_cap_1": "Câu a: Bán kính đáy ống = đường kính/2 = 2 cm. Áp dụng trực tiếp 2 công thức cho sẵn.\n\nCâu b: Thể tích dành cho sô-cô-la = 90% thể tích ống. Chia cho thể tích 1 viên để ra số viên. Nhớ làm tròn xuống (vì viên phải nguyên).",
+      "goi_y_cap_2": "Câu a:\n- Bán kính đáy ống: $R = 4 \\div 2 = 2$ cm\n- $V_{trụ} = \\pi \\cdot 2^2 \\cdot 12 = 48\\pi \\approx 150{,}80$ cm³\n- $V_{cầu} = \\dfrac{4}{3}\\pi \\cdot (0{,}5)^3 = \\dfrac{\\pi}{6} \\approx 0{,}52$ cm³\n\nCâu b:\n- $V_{không khí} = 10\\% \\cdot V_{trụ}$\n- $V_{chứa} = V_{trụ} - 10\\% V_{trụ} = 90\\% V_{trụ} = 0{,}9 \\cdot 48\\pi = 43{,}2\\pi$ cm³\n- Số viên tối đa: $n = \\dfrac{43{,}2\\pi}{\\pi/6} = 43{,}2 \\cdot 6 = 259{,}2$\n- Vì số viên phải nguyên → tối đa **259** viên.",
+      "loi_giai_day_du": "**Câu a) Thể tích ống và viên sô-cô-la:**\n\nBán kính đáy của ống hình trụ là $R = 4 \\div 2 = 2$ (cm).\n\nThể tích của ống sô-cô-la hình trụ là:\n$$V_{\\text{trụ}} = \\pi R^2 h = \\pi \\cdot 2^2 \\cdot 12 = 48\\pi \\approx \\boxed{150{,}80 \\text{ cm}^3}$$\n\nThể tích của một viên sô-cô-la hình cầu là:\n$$V_{\\text{cầu}} = \\dfrac{4}{3}\\pi r^3 = \\dfrac{4}{3}\\pi (0{,}5)^3 = \\dfrac{\\pi}{6} \\approx \\boxed{0{,}52 \\text{ cm}^3}$$\n\n**Câu b) Số viên tối đa:**\n\nThể tích phần không khí trong ống là $10\\% \\cdot V_{\\text{trụ}}$.\n\nThể tích dành cho các viên sô-cô-la là:\n$$V_{\\text{chứa}} = V_{\\text{trụ}} - 10\\% V_{\\text{trụ}} = 90\\% V_{\\text{trụ}} = 0{,}9 \\cdot 48\\pi = 43{,}2\\pi \\text{ (cm}^3\\text{)}$$\n\nSố viên sô-cô-la tối đa có thể chứa trong ống là:\n$$n = \\dfrac{V_{\\text{chứa}}}{V_{\\text{cầu}}} = \\dfrac{43{,}2\\pi}{\\dfrac{\\pi}{6}} = 43{,}2 \\cdot 6 = 259{,}2$$\n\nVì số viên sô-cô-la phải là số nguyên nên số viên tối đa là **259 viên**.\n\nVậy ống có thể chứa tối đa $\\boxed{259}$ viên sô-cô-la.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình lọ thủy tinh hình trụ đựng các viên kẹo sô-cô-la hình cầu nhiều màu.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em quên công thức thể tích hình trụ và hình cầu rồi.",
+          "Đường kính là 4 cm thì bán kính là bao nhiêu thầy?",
+          "Em không biết '10% không khí' nghĩa là gì."
+        ],
+        "dinh_huong": [
+          "Em định tính V trụ rồi nhân 90% — đúng hướng không?",
+          "Em định chia V chứa cho V viên để ra số viên — đúng không?",
+          "Em nghĩ có nên làm tròn lên hay tròn xuống thầy?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_{trụ} = 48\\pi \\approx 150{,}80$ cm³ — đúng không?",
+          "Em ra $V_{cầu} = \\pi/6 \\approx 0{,}52$ cm³ — có đúng không?",
+          "Em ra 259,2 và làm tròn xuống 259 viên — có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính V cầu với R = 0,5 nhưng ra kết quả lạ.",
+          "Em không biết 259,2 phải làm tròn thế nào.",
+          "Em cộng/nhân sai ở bước tính V chứa."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-2/bai5-ongsocola.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Toán thực tế - Hệ phương trình (bài toán vận tốc)",
+      "de_bai": "Hai bạn Hùng và Dũng cùng xuất phát từ trường đạp xe đến sân vận động để xem bóng đá. Biết rằng nếu cả hai cùng đạp xe bình thường thì vận tốc của Hùng gấp 2 lần vận tốc của Dũng. Khi bắt đầu đi, cả hai cùng xuất phát bằng xe đạp. Nhưng sau khi đi được 30 phút, xe của Hùng bị hỏng nên bạn ấy phải gửi xe lại và đi bộ nốt quãng đường còn lại đến sân vận động. Biết rằng cả hai bạn đến sân vận động cùng một lúc, vận tốc đạp xe của Dũng lại gấp 4 lần vận tốc đi bộ của Hùng. Hỏi thời gian hai bạn đi từ trường đến sân vận động là bao nhiêu phút? (Giả sử vận tốc đạp xe của hai bạn và vận tốc đi bộ của Hùng không đổi trong suốt quá trình di chuyển, và thời gian bạn Hùng gửi xe là không đáng kể).",
+      "phuong_phap_duoc_dung": [
+        "Đặt ẩn phụ cho đại lượng cần tìm",
+        "Lập phương trình từ điều kiện 'cùng đến nơi cùng lúc'",
+        "Giải phương trình"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức: Quãng đường = Vận tốc × Thời gian",
+        "Đổi đơn vị thời gian"
+      ],
+      "dap_so": "Thời gian 70 phút.",
+      "goi_y_cap_1": "Gọi $x$ (km/h) là vận tốc đạp xe của Dũng. Gọi $y$ (giờ) là thời gian từ lúc Hùng gửi xe đến khi tới sân.\n\nBiểu diễn quãng đường Dũng đi và quãng đường Hùng đi theo x, y. Vì 2 quãng đường bằng nhau nên lập được phương trình.",
+      "goi_y_cap_2": "- Đổi 30 phút = 1/2 giờ\n- Gọi $x$ (km/h) là vận tốc đạp xe của Dũng ($x > 0$)\n- Gọi $y$ (giờ) là thời gian hai bạn đi tiếp từ lúc xe Hùng hỏng đến khi tới sân vận động ($y > 0$)\n- Vận tốc đạp xe của Hùng là $2x$ (km/h)\n- Vận tốc đi bộ của Hùng là $\\dfrac{x}{4}$ (km/h)\n- Quãng đường Dũng: $S_{Dũng} = x(\\dfrac{1}{2} + y)$ (km)\n- Quãng đường Hùng: $S_{Hùng} = 2x \\cdot \\dfrac{1}{2} + \\dfrac{x}{4} \\cdot y = x + \\dfrac{xy}{4}$ (km)\n- Vì hai quãng đường bằng nhau: $x(\\dfrac{1}{2} + y) = x + \\dfrac{xy}{4}$\n- Chia hai vế cho $x$: $\\dfrac{1}{2} + y = 1 + \\dfrac{y}{4}$\n- $\\dfrac{3y}{4} = \\dfrac{1}{2}$ → $y = \\dfrac{2}{3}$ giờ\n- Tổng thời gian: $t = \\dfrac{1}{2} + \\dfrac{2}{3} = \\dfrac{7}{6}$ giờ = **70 phút**",
+      "loi_giai_day_du": "Đổi 30 phút $= \\dfrac{1}{2}$ giờ.\n\nGọi $x$ (km/h) là vận tốc đạp xe của bạn Dũng ($x > 0$).\n\nGọi $y$ (giờ) là thời gian hai bạn đi tiếp từ lúc xe Hùng hỏng đến khi tới sân vận động ($y > 0$).\n\nVận tốc đạp xe của Hùng là $2x$ (km/h).\n\nVận tốc đi bộ của Hùng là $\\dfrac{x}{4}$ (km/h).\n\nQuãng đường Dũng đi được trong toàn bộ thời gian là:\n$$S_{\\text{Dũng}} = x \\left(\\dfrac{1}{2} + y\\right) \\text{ (km)}$$\n\nQuãng đường Hùng đi được gồm quãng đường đạp xe (trong 30 phút đầu) và đi bộ (trong thời gian $y$):\n$$S_{\\text{Hùng}} = 2x \\cdot \\dfrac{1}{2} + \\dfrac{x}{4} \\cdot y = x + \\dfrac{xy}{4} \\text{ (km)}$$\n\nVì hai bạn cùng đi từ trường đến sân vận động nên quãng đường bằng nhau:\n$$x\\left(\\dfrac{1}{2} + y\\right) = x + \\dfrac{xy}{4}$$\n$$\\dfrac{1}{2}x + xy = x + \\dfrac{1}{4}xy$$\n$$\\dfrac{3}{4}xy = \\dfrac{1}{2}x$$\n\nVì $x > 0$ nên chia hai vế cho $x$:\n$$\\dfrac{3}{4}y = \\dfrac{1}{2}$$\n$$y = \\dfrac{1}{2} : \\dfrac{3}{4} = \\dfrac{2}{3} \\text{ (giờ)}$$\n\nTổng thời gian hai bạn đi từ trường đến sân vận động là:\n$$t = \\dfrac{1}{2} + y = \\dfrac{1}{2} + \\dfrac{2}{3} = \\dfrac{7}{6} \\text{ (giờ)}$$\n\nĐổi $\\dfrac{7}{6}$ giờ $= 70$ phút.\n\nVậy thời gian hai bạn đi từ trường đến sân vận động là $\\boxed{70\\text{ phút}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đặt ẩn cho bài này thế nào.",
+          "Bài có quá nhiều điều kiện, em rối luôn.",
+          "Em chưa hiểu 'vận tốc đạp xe của Dũng gấp 4 lần vận tốc đi bộ của Hùng'."
+        ],
+        "dinh_huong": [
+          "Em định gọi x là vận tốc Dũng, y là thời gian đi tiếp — đúng hướng không?",
+          "Em định lập phương trình 'quãng đường Dũng = quãng đường Hùng' — đúng không?",
+          "Em định đổi 30 phút thành 1/2 giờ — có ổn không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{3}{4}xy = \\dfrac{1}{2}x$ — đúng chưa?",
+          "Em ra $y = \\dfrac{2}{3}$ giờ — có đúng không thầy?",
+          "Em ra tổng thời gian 70 phút — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết viết vận tốc đi bộ của Hùng thế nào.",
+          "Em lập phương trình nhưng không rút gọn được.",
+          "Em ra y = 2/3 giờ nhưng không biết đổi sang phút."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn và tiếp tuyến",
+      "de_bai": "Từ điểm $M$ nằm ngoài đường tròn $(O; R)$ kẻ 2 tiếp tuyến $MA, MB$ đến $(O)$ ($A, B$ là các tiếp điểm). Kẻ đường kính $AC$ của $(O)$, $MC$ cắt $(O)$ tại $D$. Gọi $H$ là giao điểm của $AB$ và $MO$.\n\na) Chứng minh $\\widehat{MDA} = \\widehat{MHA}$, từ đó suy ra tứ giác $MDHA$ nội tiếp.\n\nb) Chứng minh $MD \\cdot MC = MH \\cdot MO$ và $\\widehat{MHD} = \\widehat{DBA}$.\n\nc) Chứng minh $\\widehat{HDB} = 90°$ và tính theo $R$ diện tích $\\triangle ABD$ trong trường hợp $MA = 2R$.",
+      "phuong_phap_duoc_dung": [
+        "Tính chất 2 tiếp tuyến cắt nhau: MA = MB, MO là trung trực AB",
+        "Góc nội tiếp chắn nửa đường tròn = 90°",
+        "Tam giác đồng dạng (g-g), (c-g-c)",
+        "Tứ giác nội tiếp",
+        "Định lý Pythagore"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tiếp tuyến vuông góc với bán kính tại tiếp điểm",
+        "Góc nội tiếp chắn nửa đường tròn là góc vuông",
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Hệ thức lượng trong tam giác vuông",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "c) $S_{ABD} = \\dfrac{2R^2}{5}$",
+      "goi_y_cap_1": "Câu a: Chứng minh MO ⊥ AB (tính chất 2 tiếp tuyến) → $\\widehat{MHA} = 90°$. Chứng minh $\\widehat{ADC} = 90°$ (góc nội tiếp chắn nửa đường tròn) → $\\widehat{MDA} = 90°$. Vậy $\\widehat{MDA} = \\widehat{MHA} = 90°$ → MDHA nội tiếp.\n\nCâu b: Dùng 2 cặp tam giác đồng dạng $\\triangle MHA \\sim \\triangle MAO$ và $\\triangle MAD \\sim \\triangle MCA$ để được $MA^2 = MH \\cdot MO = MD \\cdot MC$. Sau đó chứng minh $\\triangle MHD \\sim \\triangle MCO$ (c-g-c) để ra $\\widehat{MHD} = \\widehat{ACD} = \\widehat{ABD}$.\n\nCâu c: Chứng minh $\\triangle MAC$ vuông cân tại A (MA = AC = 2R), rồi tìm $\\widehat{HBD} = 45°$ → $\\triangle HBD$ vuông cân tại D. Dùng Pythagore tính MO, AH, rồi tính DQ = (1/2)HB, AB và diện tích tam giác ABD.",
+      "goi_y_cap_2": "Câu a:\n- MA = MB (2 tiếp tuyến) và OA = OB = R → MO là trung trực AB → MO ⊥ AB tại H → $\\widehat{MHA} = 90°$\n- $\\widehat{ADC} = 90°$ (góc nội tiếp chắn nửa đường tròn AC) → AD ⊥ MC tại D → $\\widehat{MDA} = 90°$\n- Vậy $\\widehat{MDA} = \\widehat{MHA}$. Đồng thời, $\\triangle MHA$ và $\\triangle MDA$ đều vuông → nội tiếp đường tròn đường kính MA → 4 điểm M, D, H, A cùng nằm trên đường tròn → tứ giác MDHA nội tiếp.\n\nCâu b:\n- $\\triangle MHA \\sim \\triangle MAO$ (g-g, chung $\\widehat{OMA}$ và 2 góc vuông) → $\\dfrac{MH}{MA} = \\dfrac{MA}{MO}$ → $MA^2 = MH \\cdot MO$\n- $\\triangle MAD \\sim \\triangle MCA$ (g-g) → $\\dfrac{MA}{MC} = \\dfrac{MD}{MA}$ → $MA^2 = MD \\cdot MC$\n- Kết hợp: $MD \\cdot MC = MH \\cdot MO$\n- $\\triangle MHD \\sim \\triangle MCO$ (c-g-c, chung $\\widehat{OMC}$ và $\\dfrac{MD}{MO} = \\dfrac{MH}{MC}$) → $\\widehat{MHD} = \\widehat{ACD} = \\widehat{ABD}$ (2 góc nội tiếp cùng chắn cung AD)\n\nCâu c:\n- $\\widehat{MHD} + \\widehat{BHD} = 90°$ (do MO ⊥ AB) → $\\widehat{DBA} + \\widehat{BHD} = 90°$ → $\\widehat{HDB} = 90°$\n- $\\triangle MAC$ vuông tại A có MA = AC = 2R → vuông cân tại A → $\\widehat{ACM} = 45°$ → $\\widehat{HBD} = \\widehat{ACD} = 45°$\n- $\\triangle HBD$ vuông cân tại D → DQ = (1/2)HB (đường cao = trung tuyến cạnh huyền)\n- $\\triangle MAO$ vuông tại A: $MO^2 = MA^2 + OA^2 = 4R^2 + R^2 = 5R^2$ → $MO = R\\sqrt{5}$\n- $AH \\cdot MO = MA \\cdot AO$ (hệ thức lượng) → $AH = \\dfrac{MA \\cdot AO}{MO} = \\dfrac{2R^2}{R\\sqrt{5}} = \\dfrac{2R}{\\sqrt{5}}$\n- $HB = AH = \\dfrac{2R}{\\sqrt{5}}$ và $AB = 2AH = \\dfrac{4R}{\\sqrt{5}}$\n- $DQ = \\dfrac{1}{2}HB = \\dfrac{R}{\\sqrt{5}}$\n- $S_{ABD} = \\dfrac{1}{2} \\cdot DQ \\cdot AB = \\dfrac{1}{2} \\cdot \\dfrac{R}{\\sqrt{5}} \\cdot \\dfrac{4R}{\\sqrt{5}} = \\dfrac{2R^2}{5}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh tứ giác MDHA nội tiếp:**\n\nTa có $\\begin{cases} MA = MB \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OA = OB = R \\end{cases}$\n\n$\\Rightarrow MO$ là trung trực của $AB \\Rightarrow MO \\perp AB$ tại $H \\Rightarrow \\widehat{MHA} = 90°$.\n\nTa có $\\widehat{ADC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AC$).\n\n$\\Rightarrow AD \\perp MC$ tại $D \\Rightarrow \\widehat{MDA} = 90°$.\n\nVậy $\\widehat{MDA} = \\widehat{MHA} (= 90°)$.\n\n$\\triangle MHA$ vuông tại $H$ (do $MO \\perp AB$) $\\Rightarrow \\triangle MHA$ nội tiếp đường tròn đường kính $MA$ (1).\n\n$\\triangle MDA$ vuông tại $D$ (do $AD \\perp MC$) $\\Rightarrow \\triangle MDA$ nội tiếp đường tròn đường kính $MA$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $M, D, H, A$ cùng thuộc một đường tròn đường kính $MA$.\n\nSuy ra **tứ giác MDHA nội tiếp**. □\n\n**Câu b) Chứng minh $MD \\cdot MC = MH \\cdot MO$ và $\\widehat{MHD} = \\widehat{DBA}$:**\n\nXét $\\triangle MHA$ và $\\triangle MAO$:\n$\\begin{cases} \\widehat{OMA} \\text{ (góc chung)} \\\\ \\widehat{MHA} = \\widehat{MAO} = 90° \\end{cases}$\n$\\Rightarrow \\triangle MHA \\sim \\triangle MAO$ (g-g)\n$\\Rightarrow \\dfrac{MH}{MA} = \\dfrac{MA}{MO} \\Rightarrow MA^2 = MH \\cdot MO$ (3)\n\nXét $\\triangle MAD$ và $\\triangle MCA$:\n$\\begin{cases} \\widehat{AMC} \\text{ (góc chung)} \\\\ \\widehat{MDA} = \\widehat{MAC} = 90° \\end{cases}$\n$\\Rightarrow \\triangle MAD \\sim \\triangle MCA$ (g-g)\n$\\Rightarrow \\dfrac{MA}{MC} = \\dfrac{MD}{MA} \\Rightarrow MA^2 = MD \\cdot MC$ (4)\n\nTừ (3) và (4) suy ra **$MD \\cdot MC = MH \\cdot MO$**.\n\nXét $\\triangle MHD$ và $\\triangle MCO$:\n$\\begin{cases} \\widehat{OMC} \\text{ (góc chung)} \\\\ \\dfrac{MD}{MO} = \\dfrac{MH}{MC} \\end{cases}$\n$\\Rightarrow \\triangle MHD \\sim \\triangle MCO$ (c-g-c)\n$\\Rightarrow \\widehat{MHD} = \\widehat{ACD}$.\n\nXét $(O)$, ta có $\\widehat{ACD} = \\widehat{ABD}$ (hai góc nội tiếp cùng chắn cung $AD$).\n\nSuy ra **$\\widehat{MHD} = \\widehat{DBA}$**. □\n\n**Câu c) Chứng minh $\\widehat{HDB} = 90°$ và tính diện tích $\\triangle ABD$ khi $MA = 2R$:**\n\nTa có $\\widehat{MHD} + \\widehat{BHD} = 90°$ ($OM \\perp AB$ tại $H$).\n\n$\\Rightarrow \\widehat{DBA} + \\widehat{BHD} = 90°$ (vì $\\widehat{MHD} = \\widehat{DBA}$).\n\nXét $\\triangle HBD$ có $\\widehat{DBA} + \\widehat{BHD} = 90° \\Rightarrow \\widehat{HDB} = 90°$. □\n\n**Tính diện tích $\\triangle ABD$ theo $R$:**\n\n$\\triangle MAC$ vuông tại $A$ có $MA = AC = 2R$ $\\Rightarrow \\triangle MAC$ vuông cân tại $A \\Rightarrow \\widehat{ACM} = 45°$.\n\nXét $(O)$ có $\\widehat{HBD} = \\widehat{ACD}$ (hai góc nội tiếp cùng chắn cung $AD$).\n\nSuy ra $\\widehat{HBD} = 45°$.\n\nXét $\\triangle HBD$ vuông tại $D$ có $\\widehat{HBD} = 45° \\Rightarrow \\triangle HBD$ vuông cân tại $D$.\n\nKẻ $DQ \\perp AB$ tại $Q$. Vì $\\triangle HBD$ vuông cân tại $D$ nên đường cao $DQ$ đồng thời là đường trung tuyến ứng với cạnh huyền.\n\nSuy ra $DQ = \\dfrac{1}{2}HB$.\n\nXét $\\triangle MAO$ vuông tại $A$: $MO^2 = MA^2 + OA^2 = (2R)^2 + R^2 = 5R^2 \\Rightarrow MO = R\\sqrt{5}$.\n\nTa có $AH \\cdot MO = MA \\cdot AO = 2S_{AMO}$.\n\n$\\Rightarrow AH = \\dfrac{MA \\cdot AO}{MO} = \\dfrac{2R \\cdot R}{R\\sqrt{5}} = \\dfrac{2R}{\\sqrt{5}}$.\n\n$H$ là trung điểm của $AB$ ($OM$ là trung trực của $AB$).\n\n$\\Rightarrow HB = AH = \\dfrac{2R}{\\sqrt{5}}$ và $AB = 2AH = \\dfrac{4R}{\\sqrt{5}}$.\n\n$DQ = \\dfrac{1}{2}HB = \\dfrac{1}{2} \\cdot \\dfrac{2R}{\\sqrt{5}} = \\dfrac{R}{\\sqrt{5}}$.\n\nDiện tích $\\triangle ABD$ là:\n$$S_{ABD} = \\dfrac{1}{2} \\cdot DQ \\cdot AB = \\dfrac{1}{2} \\cdot \\dfrac{R}{\\sqrt{5}} \\cdot \\dfrac{4R}{\\sqrt{5}} = \\boxed{\\dfrac{2R^2}{5}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) với 2 tiếp tuyến MA, MB; đường kính AC; các điểm D, H, Q.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa hiểu 'MC cắt (O) tại D' nghĩa là gì.",
+          "Em cần nhắc kiến thức về góc nội tiếp chắn nửa đường tròn.",
+          "Câu a chứng minh 2 góc bằng nhau em không biết bắt đầu thế nào."
+        ],
+        "dinh_huong": [
+          "Em định chứng minh cả 2 góc đều bằng 90° — đúng hướng không?",
+          "Câu b em định dùng 2 cặp tam giác đồng dạng — có đúng không?",
+          "Câu c em định chứng minh tam giác HBD vuông cân — đúng hướng chứ?"
+        ],
+        "kiem_tra": [
+          "Em ra $MA^2 = MH \\cdot MO = MD \\cdot MC$ — có đúng không?",
+          "Em tính $MO = R\\sqrt{5}$ — có đúng không?",
+          "Em ra $S_{ABD} = \\dfrac{2R^2}{5}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không chứng minh được 2 tam giác đồng dạng ở câu b.",
+          "Em không biết MA² tại sao bằng cả 2 tích MH·MO và MD·MC.",
+          "Em không biết góc HBD bằng 45° từ đâu."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-2/bai7-duongtron.png"
+    }
+  ]
+}

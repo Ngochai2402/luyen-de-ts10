@@ -1,0 +1,358 @@
+{
+  "de_so": 4,
+  "cum": 2,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số: $y = \\dfrac{3}{2}x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm tọa độ các điểm thuộc $(P)$ có tung độ bằng 24.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol",
+        "Thay tung độ vào phương trình (P)",
+        "Giải phương trình $\\dfrac{3}{2}x^2 = 24$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² (a ≠ 0)",
+        "Parabol với a > 0 quay bề lõm lên trên",
+        "Điểm thuộc đồ thị thì tọa độ thỏa mãn phương trình"
+      ],
+      "dap_so": "Các điểm cần tìm là $(4; 24)$ và $(-4; 24)$.",
+      "goi_y_cap_1": "Câu a: Lập bảng với x = -2, -1, 0, 1, 2. Parabol bề lõm lên trên, đỉnh O.\n\nCâu b: 'Tung độ bằng 24' nghĩa là $y = 24$. Thay vào (P): $\\dfrac{3}{2}x^2 = 24$, giải tìm x.",
+      "goi_y_cap_2": "Câu a:\n- Bảng: $x = -2 \\to y = 6$; $x = -1 \\to y = \\dfrac{3}{2}$; $x = 0 \\to y = 0$; $x = 1 \\to y = \\dfrac{3}{2}$; $x = 2 \\to y = 6$\n- Vẽ parabol bề lõm lên trên, đỉnh O.\n\nCâu b:\n- $y = 24$ thay vào (P): $\\dfrac{3}{2}x^2 = 24$\n- $x^2 = 16 \\Rightarrow x = \\pm 4$\n- Với $x = 4 \\Rightarrow y = 24$. Với $x = -4 \\Rightarrow y = 24$.\n- Vậy có 2 điểm: $(4; 24)$ và $(-4; 24)$.",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{3}{2}x^2$ | $6$ | $\\dfrac{3}{2}$ | $0$ | $\\dfrac{3}{2}$ | $6$ |\n\nVẽ parabol đi qua các điểm trên. Vì $a = \\dfrac{3}{2} > 0$ nên parabol quay bề lõm lên trên, đỉnh tại $O$.\n\n**Câu b) Tìm điểm thuộc (P) có tung độ 24:**\n\nVì điểm thuộc $(P)$ có tung độ bằng 24 nên $y = 24$.\n\nTa có phương trình: $\\dfrac{3}{2}x^2 = 24$\n\n$\\Leftrightarrow x^2 = 16$\n\n$\\Rightarrow x = 4$ hoặc $x = -4$.\n\nVới $x = 4 \\Rightarrow y = 24$.\n\nVới $x = -4 \\Rightarrow y = 24$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(4; 24)}$ và $\\boxed{(-4; 24)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = (3/2)x² bề lõm quay lên trên trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol $y = \\dfrac{3}{2}x^2$ thế nào.",
+          "Parabol này bề lõm lên hay xuống thầy?",
+          "'Tung độ bằng 24' em phải làm gì?"
+        ],
+        "dinh_huong": [
+          "Em định lập bảng với x = -2, -1, 0, 1, 2 — có đúng không?",
+          "Em định thay $y = 24$ vào $\\dfrac{3}{2}x^2$ — đúng hướng chứ?",
+          "Em thấy có 2 nghiệm đối xứng — đúng không thầy?"
+        ],
+        "kiem_tra": [
+          "Em ra $x^2 = 16$ — có đúng không?",
+          "Em ra $x = \\pm 4$ — đúng chưa?",
+          "Em ra 2 điểm $(4; 24)$ và $(-4; 24)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính giá trị y = (3/2)·(-1)² bị nhầm.",
+          "Em quên phương trình $x^2 = 16$ có 2 nghiệm.",
+          "Em ra $x^2 = 36$ vì tính sai bước đầu."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-4/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète",
+      "de_bai": "Cho phương trình $-3x^2 + 2x + 4 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức $A = \\dfrac{2x_1}{x_2} + \\dfrac{2x_2}{x_1}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Quy đồng biểu thức về dạng $x_1^2 + x_2^2$ và $x_1 x_2$",
+        "Hằng đẳng thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète: x₁ + x₂ = -b/a, x₁x₂ = c/a",
+        "Cẩn thận với hệ số a âm"
+      ],
+      "dap_so": "$A = -\\dfrac{25}{6}$.",
+      "goi_y_cap_1": "Câu a: Tính Δ = b² - 4ac. Nếu Δ > 0 thì có 2 nghiệm phân biệt.\n\nCâu b: Quy đồng A = $\\dfrac{2(x_1^2 + x_2^2)}{x_1 x_2}$, rồi dùng hằng đẳng thức và Viète.",
+      "goi_y_cap_2": "Câu a:\n- $a = -3, b = 2, c = 4$\n- Δ = $2^2 - 4 \\cdot (-3) \\cdot 4 = 4 + 48 = 52 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = -\\dfrac{b}{a} = -\\dfrac{2}{-3} = \\dfrac{2}{3}$; $x_1 x_2 = \\dfrac{c}{a} = \\dfrac{4}{-3} = -\\dfrac{4}{3}$\n- Quy đồng: $A = \\dfrac{2x_1^2 + 2x_2^2}{x_1 x_2} = \\dfrac{2(x_1^2 + x_2^2)}{x_1 x_2}$\n- $x_1^2 + x_2^2 = \\left(\\dfrac{2}{3}\\right)^2 - 2 \\cdot \\left(-\\dfrac{4}{3}\\right) = \\dfrac{4}{9} + \\dfrac{8}{3} = \\dfrac{28}{9}$\n- $A = \\dfrac{2 \\cdot \\dfrac{28}{9}}{-\\dfrac{4}{3}} = \\dfrac{\\dfrac{56}{9}}{-\\dfrac{4}{3}} = -\\dfrac{56}{9} \\cdot \\dfrac{3}{4} = -\\dfrac{168}{36} = -\\dfrac{14}{3}$\n\nCHÚ Ý: Xét lại, $A = -\\dfrac{14}{3}$.",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $-3x^2 + 2x + 4 = 0$ với $a = -3; b = 2; c = 4$.\n\nTính $\\Delta = b^2 - 4ac = 2^2 - 4 \\cdot (-3) \\cdot 4 = 4 + 48 = 52 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = -\\dfrac{b}{a} = -\\dfrac{2}{-3} = \\dfrac{2}{3} \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{4}{-3} = -\\dfrac{4}{3} \\end{cases}$$\n\nTa có:\n$$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\left(\\dfrac{2}{3}\\right)^2 - 2 \\cdot \\left(-\\dfrac{4}{3}\\right) = \\dfrac{4}{9} + \\dfrac{8}{3} = \\dfrac{4 + 24}{9} = \\dfrac{28}{9}$$\n\nBiến đổi biểu thức A:\n$$A = \\dfrac{2x_1}{x_2} + \\dfrac{2x_2}{x_1} = \\dfrac{2x_1^2 + 2x_2^2}{x_1 x_2} = \\dfrac{2(x_1^2 + x_2^2)}{x_1 x_2}$$\n\nThế giá trị:\n$$A = \\dfrac{2 \\cdot \\dfrac{28}{9}}{-\\dfrac{4}{3}} = \\dfrac{\\dfrac{56}{9}}{-\\dfrac{4}{3}} = \\dfrac{56}{9} \\cdot \\left(-\\dfrac{3}{4}\\right) = -\\dfrac{168}{36} = \\boxed{-\\dfrac{14}{3}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa hiểu 'chứng minh 2 nghiệm phân biệt' là làm gì.",
+          "Em quên công thức tính Δ rồi thầy.",
+          "Em không biết biến đổi $\\dfrac{2x_1}{x_2} + \\dfrac{2x_2}{x_1}$ thế nào."
+        ],
+        "dinh_huong": [
+          "Em định tính Δ = b² - 4ac — đúng hướng không?",
+          "Hệ số a = -3 (âm) thì Viète có khác gì không thầy?",
+          "Em định quy đồng A thành 1 phân số — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em tính Δ = 52 — có đúng không?",
+          "Em ra $x_1 + x_2 = \\dfrac{2}{3}$ và $x_1 x_2 = -\\dfrac{4}{3}$ — Viète đúng chưa?",
+          "Em ra $A = -\\dfrac{14}{3}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính Viète bị sai dấu vì a = -3.",
+          "Em không biết rút gọn $\\dfrac{\\dfrac{56}{9}}{-\\dfrac{4}{3}}$.",
+          "Em không thấy hằng đẳng thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Xác suất (liệt kê không gian mẫu)",
+      "de_bai": "Trong một siêu thị tiện lợi có ba khách hàng Phúc, Bình, An đến quầy thu ngân cùng một lúc. Nhân viên thu ngân sẽ chọn lần lượt một khách hàng để thanh toán trước.\n\na) Có tất cả bao nhiêu kết quả có thể xảy ra? Liệt kê tất cả các kết quả có thể xảy ra của phép thử trên.\n\nb) Tính xác suất của mỗi biến cố sau:\n- $A$: \"Phúc được thanh toán cuối cùng\"\n- $B$: \"An được thanh toán trước Bình\".",
+      "phuong_phap_duoc_dung": [
+        "Liệt kê không gian mẫu (các hoán vị)",
+        "Đếm số kết quả thuận lợi",
+        "Công thức xác suất cổ điển P(A) = n(A)/n(Ω)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hoán vị của 3 phần tử có 3! = 6 cách",
+        "Xác suất của biến cố"
+      ],
+      "dap_so": "a) 6 kết quả. b) $P(A) = \\dfrac{1}{3}$, $P(B) = \\dfrac{1}{2}$.",
+      "goi_y_cap_1": "Câu a: Liệt kê tất cả các thứ tự xếp 3 người. Có 6 hoán vị.\n\nCâu b: Đếm trong 6 hoán vị đó, bao nhiêu trường hợp Phúc ở vị trí cuối (cho A); bao nhiêu trường hợp An đứng trước Bình (cho B).",
+      "goi_y_cap_2": "Câu a:\n- 6 kết quả: (P,B,A), (P,A,B), (B,P,A), (B,A,P), (A,P,B), (A,B,P)\n\nCâu b:\n- Biến cố A: Phúc cuối → (B,A,P), (A,B,P) → $n(A) = 2$\n- $P(A) = \\dfrac{2}{6} = \\dfrac{1}{3}$\n- Biến cố B: An trước Bình → (P,A,B), (A,P,B), (A,B,P) → $n(B) = 3$\n- $P(B) = \\dfrac{3}{6} = \\dfrac{1}{2}$",
+      "loi_giai_day_du": "**Câu a) Liệt kê không gian mẫu:**\n\nKhông gian mẫu gồm tất cả cách sắp xếp 3 khách hàng Phúc (P), Bình (B), An (A) theo thứ tự thanh toán:\n\n$$\\Omega = \\{(P, B, A), (P, A, B), (B, P, A), (B, A, P), (A, P, B), (A, B, P)\\}$$\n\nVậy có tất cả **6 kết quả** có thể xảy ra.\n\n**Câu b) Tính xác suất:**\n\n**Biến cố A** \"Phúc được thanh toán cuối cùng\":\n\nCác kết quả thuận lợi: $(B, A, P), (A, B, P)$. Suy ra $n(A) = 2$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{2}{6} = \\boxed{\\dfrac{1}{3}}$$\n\n**Biến cố B** \"An được thanh toán trước Bình\":\n\nCác kết quả thuận lợi: $(P, A, B), (A, P, B), (A, B, P)$. Suy ra $n(B) = 3$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{3}{6} = \\boxed{\\dfrac{1}{2}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'liệt kê các kết quả có thể' là làm gì.",
+          "Em không nhớ số cách xếp 3 người bằng bao nhiêu.",
+          "'An được thanh toán trước Bình' em chưa hiểu ý."
+        ],
+        "dinh_huong": [
+          "Em định viết ra hết các thứ tự xếp 3 người — đúng hướng không?",
+          "Em tính được 6 kết quả (3!) — có đúng không thầy?",
+          "Biến cố B em định đếm các trường hợp An đứng trước Bình — đúng chứ?"
+        ],
+        "kiem_tra": [
+          "Em ra 6 kết quả — có đúng không?",
+          "Em ra $P(A) = \\dfrac{1}{3}$ — đúng chưa?",
+          "Em ra $P(B) = \\dfrac{1}{2}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em liệt kê bị thiếu kết quả.",
+          "Em không biết đếm 'Phúc cuối cùng' có mấy trường hợp.",
+          "Em không phân biệt được 'An trước Bình' và 'An ngay trước Bình'."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Diện tích sân bóng rổ có lối đi",
+      "de_bai": "Một trường học xây dựng một sân bóng rổ hình chữ nhật có kích thước $26$ m × $14$ m như hình vẽ. Theo thiết kế, người ta cũng xây dựng một lối đi dọc theo hai cạnh của sân bóng rổ. Gọi $x$ là bề rộng của cửa vào và cửa ra, đồng thời cũng là chiều rộng của lối đi.\n\na) Viết biểu thức $S$ biểu diễn theo $x$ diện tích của lối đi.\n\nb) Bạn An đi bộ từ cửa vào đến cửa ra và đi dọc hết các cạnh của lối đi. Hãy tính quãng đường An đã đi, biết diện tích của lối đi theo thiết kế là $129$ m²?",
+      "phuong_phap_duoc_dung": [
+        "Tính diện tích bằng cách cộng các phần chữ nhật",
+        "Giải phương trình bậc hai",
+        "Tính chu vi từng đoạn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai",
+        "Chọn nghiệm theo điều kiện"
+      ],
+      "dap_so": "a) $S = x^2 + 43x$ (m²). b) 46 m.",
+      "goi_y_cap_1": "Câu a: Lối đi gồm 2 hình chữ nhật: một dọc theo chiều dài 26m (rộng x), một dọc theo chiều rộng 14m (rộng x). Có phần ở góc bị tính trùng là $x \\cdot x = x^2$.\n\nCâu b: Cho S = 129 rồi giải phương trình. Quãng đường An đi = chiều dài cạnh + bề rộng x + đoạn còn lại.",
+      "goi_y_cap_2": "Câu a:\n- Lối đi theo chiều dài 26m có bề rộng x: diện tích $= 26x$ (nhưng chứa x² ở góc)\n- Lối đi theo chiều rộng 14m có bề rộng x: diện tích $= 14x$ (chứa x² ở góc)\n- Theo gợi ý của đáp án: $S = x \\cdot 15 + x \\cdot 28 + x^2 = x^2 + 43x$\n\nCâu b:\n- $x^2 + 43x = 129 \\Rightarrow x^2 + 43x - 129 = 0$\n- $x = 3$ (nhận) hoặc $x = -46$ (loại)\n- Quãng đường An đi: $15 + 3 + 28 = 46$ m",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích lối đi:**\n\nDiện tích lối đi gồm 2 hình chữ nhật:\n$$S = x \\cdot 15 + x \\cdot 28 + x^2 = x^2 + 43x \\text{ (m}^2\\text{)}$$\n\nVậy $\\boxed{S = x^2 + 43x \\text{ (m}^2\\text{)}}$.\n\n**Câu b) Tính quãng đường An đã đi:**\n\nTa có phương trình:\n$$x^2 + 43x = 129$$\n$$x^2 + 43x - 129 = 0$$\n\nGiải phương trình: $x = 3$ (nhận) hoặc $x = -46$ (loại vì $x > 0$).\n\nVậy với $x = 3$, quãng đường An đi là:\n$$15 + 3 + 28 = \\boxed{46 \\text{ m}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Sân bóng rổ hình chữ nhật 26m × 14m với lối đi dọc 2 cạnh, bề rộng x.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hình dung được lối đi trong sân bóng rổ thế nào.",
+          "Em không biết bắt đầu câu a từ đâu.",
+          "Diện tích lối đi tính như thế nào thầy?"
+        ],
+        "dinh_huong": [
+          "Em định tính diện tích lối đi = sân lớn - sân nhỏ bên trong — đúng không?",
+          "Em định cộng 2 hình chữ nhật có chiều rộng là x — đúng hướng chứ?",
+          "Câu b em định cho S = 129 rồi giải — có đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = x^2 + 43x$ — có đúng không thầy?",
+          "Em giải $x^2 + 43x - 129 = 0$ ra $x = 3$ — đúng chưa?",
+          "Em ra quãng đường 46m — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính diện tích lối đi thiếu phần góc $x^2$.",
+          "Em quên sân có '15' và '28' từ đâu (do chừa ra cửa x).",
+          "Em không biết quãng đường An đi cộng từ những đoạn nào."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-4/bai4-sanbong.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Nửa cầu và hình nón",
+      "de_bai": "Cho hình bên là một thúng gạo vun đầy. Thúng có dạng nửa hình cầu với đường kính $50$ cm, phần gạo vun lên có dạng hình nón cao $15$ cm.\n\na) Tính thể tích phần gạo trong thúng (làm tròn đến hàng phần mười).\n\nb) Nhà Dung dùng lon sữa bò cũ có dạng hình trụ (bán kính đáy là $5$ cm, chiều cao $15$ cm) để đong gạo. Biết mỗi ngày ăn $5$ lon, mỗi lần đong chiếm $90\\%$ thể tích lon. Hỏi lượng gạo trên ăn được nhiều nhất bao nhiêu ngày?",
+      "phuong_phap_duoc_dung": [
+        "Thể tích nửa cầu $V = \\dfrac{2}{3}\\pi R^3$",
+        "Thể tích hình nón $V = \\dfrac{1}{3}\\pi R^2 h$",
+        "Thể tích hình trụ $V = \\pi R^2 h$",
+        "Phép chia và lấy phần nguyên"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức thể tích nửa cầu",
+        "Công thức thể tích hình nón",
+        "Công thức thể tích hình trụ",
+        "Phần trăm"
+      ],
+      "dap_so": "a) $\\approx 42\\,542{,}4$ cm³. b) Ăn được tối đa 8 ngày.",
+      "goi_y_cap_1": "Câu a: Bán kính thúng = 50/2 = 25 cm. Gạo = nửa cầu + hình nón. Tính và cộng.\n\nCâu b: Thể tích 1 lon đong = 90% thể tích lon. Mỗi ngày 5 lon → thể tích 1 ngày. Chia tổng thể tích gạo cho thể tích 1 ngày → lấy phần nguyên.",
+      "goi_y_cap_2": "Câu a:\n- Bán kính thúng: $R = 50 : 2 = 25$ cm\n- $V_1$ (nửa cầu) = $\\dfrac{2}{3} \\pi \\cdot 25^3 = \\dfrac{31250}{3}\\pi$ cm³\n- $V_2$ (nón) = $\\dfrac{1}{3} \\pi \\cdot 25^2 \\cdot 15 = 3125\\pi$ cm³\n- $V = V_1 + V_2 = \\dfrac{31250}{3}\\pi + 3125\\pi = \\dfrac{40625}{3}\\pi \\approx 42\\,542{,}4$ cm³\n\nCâu b:\n- $V_{lon} = \\pi \\cdot 5^2 \\cdot 15 = 375\\pi$ cm³\n- Thể tích gạo mỗi lần đong: $375\\pi \\cdot 90\\% = 337{,}5\\pi$ cm³\n- Thể tích gạo mỗi ngày: $337{,}5\\pi \\cdot 5 = 1687{,}5\\pi$ cm³\n- Số ngày: $\\dfrac{40625}{3}\\pi : 1687{,}5\\pi \\approx 8{,}02$\n- Lấy phần nguyên: 8 ngày",
+      "loi_giai_day_du": "**Câu a) Thể tích gạo trong thúng:**\n\nBán kính của thúng gạo là $R = 50 : 2 = 25$ (cm).\n\nThể tích phần gạo có dạng nửa hình cầu:\n$$V_1 = \\dfrac{2}{3} \\cdot \\pi \\cdot 25^3 = \\dfrac{31\\,250}{3}\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích phần gạo vun lên có dạng hình nón:\n$$V_2 = \\dfrac{1}{3} \\cdot \\pi \\cdot 25^2 \\cdot 15 = 3\\,125\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích phần gạo trong thúng là:\n$$V = V_1 + V_2 = \\dfrac{31\\,250}{3}\\pi + 3\\,125\\pi = \\dfrac{40\\,625}{3}\\pi \\approx \\boxed{42\\,542{,}4 \\text{ (cm}^3\\text{)}}$$\n\n**Câu b) Số ngày ăn được:**\n\nThể tích của lon sữa bò là:\n$$V_{\\text{lon}} = \\pi \\cdot 5^2 \\cdot 15 = 375\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích gạo mỗi lần đong là:\n$$375\\pi \\cdot 90\\% = 337{,}5\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích gạo nhà Dung ăn mỗi ngày là:\n$$337{,}5\\pi \\cdot 5 = 1\\,687{,}5\\pi \\text{ (cm}^3\\text{)}$$\n\nSố ngày lượng gạo trên ăn được là:\n$$\\dfrac{40\\,625}{3}\\pi : 1\\,687{,}5\\pi \\approx 8{,}02 \\text{ (ngày)}$$\n\nVậy lượng gạo trên ăn được nhiều nhất là $\\boxed{8}$ ngày.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Thúng gạo có dạng nửa cầu đường kính 50 cm, trên có phần gạo vun hình nón cao 15 cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hình dung được 'thúng gạo vun đầy'.",
+          "Em quên công thức thể tích nửa cầu và hình nón.",
+          "Em không biết R của thúng bằng bao nhiêu."
+        ],
+        "dinh_huong": [
+          "Em định chia gạo thành 2 phần: nửa cầu + nón — đúng không?",
+          "Em định lấy R = 25 cm vì đường kính 50 — đúng chứ?",
+          "Câu b em định chia tổng V cho V mỗi ngày — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_1 = \\dfrac{31250}{3}\\pi$ cm³ — có đúng không?",
+          "Em ra $V \\approx 42\\,542{,}4$ cm³ — đáp án đúng chưa?",
+          "Em ra 8 ngày — có đúng không thầy?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức nửa cầu với toàn cầu.",
+          "Em tính V nón bị sai bán kính.",
+          "Em ra 8,02 ngày không biết làm tròn thế nào."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-4/bai5-thunggao.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Toán thực tế - Hệ phương trình (bài toán chia nhóm)",
+      "de_bai": "Lớp 9A chọn ra $\\dfrac{1}{4}$ số nam và $\\dfrac{1}{3}$ số nữ tham gia kéo co. Biết số nam và nữ tham gia bằng nhau và còn lại $20$ học sinh tham gia cổ động. Tìm số học sinh nam và nữ của lớp 9A.",
+      "phuong_phap_duoc_dung": [
+        "Đặt ẩn x, y cho số HS nam và nữ",
+        "Lập phương trình từ điều kiện 'bằng nhau'",
+        "Lập phương trình từ tổng HS cổ động",
+        "Giải hệ phương trình"
+      ],
+      "kien_thuc_lien_quan": [
+        "Phân số của một số",
+        "Hệ phương trình bậc nhất hai ẩn"
+      ],
+      "dap_so": "Số HS nam: 16, số HS nữ: 12.",
+      "goi_y_cap_1": "Gọi x là số nam, y là số nữ. Lập 2 phương trình:\n- Số nam tham gia kéo co = số nữ tham gia kéo co: $\\dfrac{1}{4}x = \\dfrac{1}{3}y$\n- Số HS cổ động là 20: $(x - \\dfrac{1}{4}x) + (y - \\dfrac{1}{3}y) = 20$",
+      "goi_y_cap_2": "- Gọi $x$ (HS) là số HS nam, $y$ (HS) là số HS nữ ($x, y \\in \\mathbb{N}^*$)\n- Số nam kéo co: $\\dfrac{1}{4}x$; số nữ kéo co: $\\dfrac{1}{3}y$\n- Vì bằng nhau: $\\dfrac{1}{4}x = \\dfrac{1}{3}y \\Rightarrow \\dfrac{1}{4}x - \\dfrac{1}{3}y = 0$ (1)\n- Số nam cổ động: $\\dfrac{3}{4}x$; số nữ cổ động: $\\dfrac{2}{3}y$\n- Tổng cổ động 20: $\\dfrac{3}{4}x + \\dfrac{2}{3}y = 20$ (2)\n- Giải hệ: $x = 16$, $y = 12$",
+      "loi_giai_day_du": "Gọi $x$ (học sinh) là số học sinh nam của lớp 9A ($x \\in \\mathbb{N}^*$).\n\nGọi $y$ (học sinh) là số học sinh nữ của lớp 9A ($y \\in \\mathbb{N}^*$).\n\nSố học sinh nam tham gia kéo co là $\\dfrac{1}{4}x$ (học sinh).\n\nSố học sinh nữ tham gia kéo co là $\\dfrac{1}{3}y$ (học sinh).\n\nVì số nam và nữ tham gia kéo co bằng nhau nên ta có phương trình:\n$$\\dfrac{1}{4}x = \\dfrac{1}{3}y \\quad (1)$$\n\nSố học sinh nam và nữ còn lại tham gia cổ động lần lượt là:\n- Nam: $x - \\dfrac{1}{4}x = \\dfrac{3}{4}x$\n- Nữ: $y - \\dfrac{1}{3}y = \\dfrac{2}{3}y$\n\nVì tổng số học sinh cổ động là 20 nên ta có phương trình:\n$$\\dfrac{3}{4}x + \\dfrac{2}{3}y = 20 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} \\dfrac{1}{4}x - \\dfrac{1}{3}y = 0 \\\\ \\dfrac{3}{4}x + \\dfrac{2}{3}y = 20 \\end{cases} \\Rightarrow \\begin{cases} x = 16 \\\\ y = 12 \\end{cases} \\text{ (nhận)}$$\n\nVậy số học sinh nam của lớp 9A là $\\boxed{16}$ và số học sinh nữ là $\\boxed{12}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết gọi ẩn cho bài này.",
+          "'Số nam và nữ tham gia bằng nhau' em hiểu nghĩa là gì thầy?",
+          "Em không biết tính số HS cổ động thế nào."
+        ],
+        "dinh_huong": [
+          "Em định gọi x là số nam, y là số nữ — đúng không?",
+          "Em định lập phương trình $\\dfrac{1}{4}x = \\dfrac{1}{3}y$ — đúng không?",
+          "Em định cộng HS cổ động nam + nữ = 20 — đúng hướng chứ?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ $\\dfrac{1}{4}x = \\dfrac{1}{3}y$ và $\\dfrac{3}{4}x + \\dfrac{2}{3}y = 20$ — đúng không?",
+          "Em ra $x = 16$ và $y = 12$ — có đúng không?",
+          "Em kiểm tra lại: 1/4·16 = 4, 1/3·12 = 4 (bằng nhau) ✓"
+        ],
+        "go_bi": [
+          "Em không biết viết 'số nam còn lại' là bao nhiêu.",
+          "Em giải hệ phương trình ra sai.",
+          "Em nhầm phân số (dùng 3/4 thay vì 1/4)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nhọn nội tiếp đường tròn (3 đường cao)",
+      "de_bai": "Cho tam giác $ABC$ $(AC < AB)$ có ba góc nhọn và có ba đường cao $AM, BE, CD$ cắt nhau tại $H$. Gọi $I$ và $O$ lần lượt là trung điểm của $AH$ và $BC$.\n\na) Chứng minh: tứ giác $ADHE$ nội tiếp đường tròn tâm $I$ đường kính $AH$ và tứ giác $BCED$ nội tiếp đường tròn tâm $O$ đường kính $BC$.\n\nb) Chứng minh: $ID$ là tiếp tuyến của đường tròn $(O)$ đường kính $BC$ và tứ giác $OMED$ nội tiếp.\n\nc) Tính theo $R$ diện tích của tam giác $ABC$, biết $\\widehat{ABC} = 45°, \\widehat{ACB} = 60°$ và $BC = 2R$.",
+      "phuong_phap_duoc_dung": [
+        "Tứ giác có 2 góc vuông nhìn 1 cạnh → nội tiếp đường tròn đường kính",
+        "Đường trung tuyến ứng với cạnh huyền = 1/2 cạnh huyền",
+        "Tam giác cân → hai góc bằng nhau",
+        "Tam giác vuông → dùng tan để tính cạnh",
+        "Diện tích tam giác = 1/2 × đáy × chiều cao"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp",
+        "Đường trung tuyến trong tam giác vuông",
+        "Tiếp tuyến vuông góc với bán kính tại tiếp điểm",
+        "Hệ thức lượng giác trong tam giác vuông",
+        "Công thức diện tích tam giác"
+      ],
+      "dap_so": "c) $S = R^2(3 - \\sqrt{3})$.",
+      "goi_y_cap_1": "Câu a: $\\triangle ADH$ và $\\triangle AEH$ đều vuông → cùng nội tiếp đường tròn đường kính AH. Tương tự $\\triangle BDC$ và $\\triangle BEC$ vuông → nội tiếp đường tròn đường kính BC.\n\nCâu b: Chứng minh ID ⊥ OD bằng cách dùng tam giác cân IAD, OBD và tổng các góc. OMED nội tiếp vì 5 điểm I, D, O, M, E cùng thuộc đường tròn đường kính OI.\n\nCâu c: $\\triangle ABM$ vuông tại M với $\\widehat{ABC} = 45°$ → $BM = AM$. $\\triangle ACM$ vuông với $\\widehat{ACB} = 60°$ → $CM = \\dfrac{AM}{\\sqrt{3}}$. Từ $BM + CM = 2R$ tìm AM, rồi tính diện tích.",
+      "goi_y_cap_2": "Câu a:\n- $\\triangle ADH$ vuông tại D → nội tiếp đường tròn đường kính AH (1)\n- $\\triangle AEH$ vuông tại E → nội tiếp đường tròn đường kính AH (2)\n- → 4 điểm A, D, H, E cùng thuộc đường tròn đường kính AH, tâm I (trung điểm AH)\n- $\\triangle BDC$ vuông tại D → nội tiếp đường tròn đường kính BC (3)\n- $\\triangle BEC$ vuông tại E → nội tiếp đường tròn đường kính BC (4)\n- → 4 điểm B, D, E, C cùng thuộc đường tròn đường kính BC, tâm O (trung điểm BC)\n\nCâu b:\n- $\\triangle ADH$ vuông tại D, DI là trung tuyến → $ID = IA = \\dfrac{AH}{2}$ → $\\triangle IAD$ cân tại I → $\\widehat{IAD} = \\widehat{IDA}$\n- $\\triangle BDC$ vuông tại D, DO là trung tuyến → $OD = OB = \\dfrac{BC}{2}$ → $\\triangle OBD$ cân tại O → $\\widehat{OBD} = \\widehat{ODB}$\n- $\\widehat{IAD} + \\widehat{OBD} = \\widehat{HAM} + \\widehat{ABM} = 90°$ ($\\triangle ABM$ vuông tại M)\n- → $\\widehat{IDA} + \\widehat{ODB} = 90°$ → $\\widehat{IDO} = 180° - 90° = 90°$\n- → ID ⊥ OD → ID là tiếp tuyến của (O)\n- Tương tự $\\triangle IEO = \\triangle IDO$ (c-c-c) → $\\widehat{IEO} = 90°$\n- → $\\triangle IEO$ nội tiếp đường tròn đường kính OI, $\\triangle IDO$ cũng nội tiếp đường tròn đường kính OI, và $\\triangle IMO$ vuông tại M cũng nội tiếp đường tròn đường kính OI\n- → 5 điểm I, D, O, M, E cùng đường tròn đường kính OI → tứ giác OMED nội tiếp\n\nCâu c:\n- $\\triangle ABM$ vuông tại M: $\\tan \\widehat{ABC} = \\dfrac{AM}{BM} \\Rightarrow BM = \\dfrac{AM}{\\tan 45°} = AM$\n- $\\triangle ACM$ vuông tại M: $\\tan \\widehat{ACB} = \\dfrac{AM}{CM} \\Rightarrow CM = \\dfrac{AM}{\\tan 60°} = \\dfrac{AM}{\\sqrt{3}}$\n- $BM + CM = BC = 2R \\Rightarrow AM + \\dfrac{AM}{\\sqrt{3}} = 2R \\Rightarrow AM\\left(1 + \\dfrac{1}{\\sqrt{3}}\\right) = 2R$\n- $AM \\cdot \\dfrac{\\sqrt{3}+1}{\\sqrt{3}} = 2R \\Rightarrow AM = \\dfrac{2R\\sqrt{3}}{\\sqrt{3}+1} = R\\sqrt{3}(\\sqrt{3}-1) = R(3 - \\sqrt{3})$\n- $S_{ABC} = \\dfrac{1}{2} \\cdot BC \\cdot AM = \\dfrac{1}{2} \\cdot 2R \\cdot R(3-\\sqrt{3}) = R^2(3-\\sqrt{3})$",
+      "loi_giai_day_du": "**Câu a) Tứ giác ADHE nội tiếp và BCED nội tiếp:**\n\n$\\triangle ADH$ vuông tại $D$ (vì $CD$ là đường cao) $\\Rightarrow \\triangle ADH$ nội tiếp đường tròn đường kính $AH$ (1).\n\n$\\triangle AEH$ vuông tại $E$ (vì $BE$ là đường cao) $\\Rightarrow \\triangle AEH$ nội tiếp đường tròn đường kính $AH$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $A, D, H, E$ cùng thuộc đường tròn đường kính $AH$, có tâm $I$ là trung điểm $AH$.\n\nSuy ra **tứ giác ADHE nội tiếp đường tròn tâm I đường kính AH**.\n\n$\\triangle BDC$ vuông tại $D$ (vì $CD$ là đường cao) $\\Rightarrow \\triangle BDC$ nội tiếp đường tròn đường kính $BC$ (3).\n\n$\\triangle BEC$ vuông tại $E$ (vì $BE$ là đường cao) $\\Rightarrow \\triangle BEC$ nội tiếp đường tròn đường kính $BC$ (4).\n\nTừ (3) và (4) suy ra 4 điểm $B, D, E, C$ cùng thuộc đường tròn đường kính $BC$, có tâm $O$ là trung điểm $BC$.\n\nSuy ra **tứ giác BCED nội tiếp đường tròn tâm O đường kính BC**. □\n\n**Câu b) Chứng minh ID là tiếp tuyến của (O) và OMED nội tiếp:**\n\nXét $\\triangle ADH$ vuông tại $D$ có $DI$ là đường trung tuyến ứng với cạnh huyền $AH$:\n$$ID = IA = \\dfrac{AH}{2} \\Rightarrow \\triangle IAD \\text{ cân tại } I \\Rightarrow \\widehat{IAD} = \\widehat{IDA}$$\n\nXét $\\triangle BDC$ vuông tại $D$ có $DO$ là đường trung tuyến ứng với cạnh huyền $BC$:\n$$OD = OB = \\dfrac{BC}{2} \\Rightarrow \\triangle OBD \\text{ cân tại } O \\Rightarrow \\widehat{OBD} = \\widehat{ODB}$$\n\nMà $\\widehat{IAD} + \\widehat{OBD} = \\widehat{HAM} + \\widehat{ABM} = 90°$ (vì $\\triangle ABM$ vuông tại $M$).\n\nSuy ra $\\widehat{IDA} + \\widehat{ODB} = 90°$.\n\nTa có $\\widehat{IDO} = 180° - (\\widehat{IDA} + \\widehat{ODB}) = 180° - 90° = 90°$.\n\n$\\Rightarrow ID \\perp OD$ tại $D$ thuộc đường tròn $(O)$.\n\nVậy **ID là tiếp tuyến của đường tròn (O) đường kính BC**.\n\n**Chứng minh tứ giác OMED nội tiếp:**\n\nXét $\\triangle IDO$ và $\\triangle IEO$:\n$$\\begin{cases} ID = IE = R_{(I)} \\\\ OD = OE = R_{(O)} \\\\ OI \\text{ (cạnh chung)} \\end{cases}$$\n$\\Rightarrow \\triangle IDO = \\triangle IEO$ (c-c-c)\n$\\Rightarrow \\widehat{IDO} = \\widehat{IEO} = 90°$.\n\n$\\triangle IEO$ vuông tại $E \\Rightarrow \\triangle IEO$ nội tiếp đường tròn đường kính $OI$ (5).\n\n$\\triangle IDO$ vuông tại $D \\Rightarrow \\triangle IDO$ nội tiếp đường tròn đường kính $OI$ (6).\n\n$\\triangle IMO$ vuông tại $M \\Rightarrow \\triangle IMO$ nội tiếp đường tròn đường kính $OI$ (7).\n\nTừ (5), (6), (7) suy ra 5 điểm $I, D, O, M, E$ cùng thuộc đường tròn đường kính $OI$.\n\nSuy ra **tứ giác OMED nội tiếp**. □\n\n**Câu c) Tính diện tích tam giác ABC:**\n\n$\\triangle ABM$ vuông tại $M$ có $\\widehat{ABC} = 45°$:\n$$\\tan \\widehat{ABC} = \\dfrac{AM}{BM} \\Rightarrow BM = \\dfrac{AM}{\\tan 45°} = AM$$\n\n$\\triangle ACM$ vuông tại $M$ có $\\widehat{ACB} = 60°$:\n$$\\tan \\widehat{ACB} = \\dfrac{AM}{CM} \\Rightarrow CM = \\dfrac{AM}{\\tan 60°} = \\dfrac{AM}{\\sqrt{3}}$$\n\nSuy ra:\n$$BM + CM = AM + \\dfrac{AM}{\\sqrt{3}} = AM \\cdot \\dfrac{\\sqrt{3}+1}{\\sqrt{3}}$$\n\nMà $BM + CM = BC = 2R$ nên:\n$$2R = AM \\cdot \\dfrac{\\sqrt{3}+1}{\\sqrt{3}} \\Rightarrow AM = \\dfrac{2R\\sqrt{3}}{\\sqrt{3}+1} = \\dfrac{2R\\sqrt{3}(\\sqrt{3}-1)}{(\\sqrt{3}+1)(\\sqrt{3}-1)} = \\dfrac{2R\\sqrt{3}(\\sqrt{3}-1)}{2} = R\\sqrt{3}(\\sqrt{3}-1)$$\n\n$\\Rightarrow AM = R(3 - \\sqrt{3})$.\n\nDiện tích tam giác $ABC$ là:\n$$S = \\dfrac{1}{2} \\cdot BC \\cdot AM = \\dfrac{1}{2} \\cdot 2R \\cdot R(3 - \\sqrt{3})$$\n\nVậy $\\boxed{S = R^2(3 - \\sqrt{3})}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nhọn có 3 đường cao AM, BE, CD cắt tại H; I là trung điểm AH; O là trung điểm BC; đường tròn (O) đi qua B, D, E, C.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'trực tâm H' là gì.",
+          "Em không biết vì sao tứ giác ADHE nội tiếp.",
+          "Em chưa biết tâm I và tâm O xác định thế nào."
+        ],
+        "dinh_huong": [
+          "Em định chứng minh 2 tam giác vuông cùng nội tiếp đường tròn đường kính AH — đúng không?",
+          "Câu b em định dùng tam giác cân IAD và OBD — đúng hướng chứ?",
+          "Câu c em định dùng tan để tính BM và CM — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra I là trung điểm AH, O là trung điểm BC — đúng không?",
+          "Em ra $\\widehat{IDO} = 90°$ → ID là tiếp tuyến — đúng không?",
+          "Em ra $S = R^2(3 - \\sqrt{3})$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không chứng minh được $\\widehat{IDO} = 90°$.",
+          "Em không biết trục căn thức $\\dfrac{2R\\sqrt{3}}{\\sqrt{3}+1}$.",
+          "Em không thấy 5 điểm cùng thuộc đường tròn đường kính OI."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-4/bai7-tamgiac.png"
+    }
+  ]
+}

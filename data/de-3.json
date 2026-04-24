@@ -1,0 +1,363 @@
+{
+  "de_so": 3,
+  "cum": 1,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho $(P): y = x^2$.\n\na) Vẽ đồ thị $(P)$.\n\nb) Tìm các điểm $M$ thuộc $(P)$ có tung độ là 25.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol",
+        "Thay tung độ vào phương trình (P)",
+        "Giải phương trình bậc hai $x^2 = 25$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² (a ≠ 0)",
+        "Điểm thuộc đồ thị thì tọa độ thỏa mãn phương trình",
+        "Phương trình $x^2 = k$ có 2 nghiệm $x = \\pm\\sqrt{k}$ khi $k > 0$"
+      ],
+      "dap_so": "Các điểm cần tìm là $(5; 25)$ và $(-5; 25)$.",
+      "goi_y_cap_1": "Câu a: Lập bảng với x = -2, -1, 0, 1, 2. Parabol $y = x^2$ có đỉnh O, bề lõm quay lên trên.\n\nCâu b: 'Tung độ là 25' nghĩa là $y = 25$. Thay vào (P) để tìm x.",
+      "goi_y_cap_2": "Câu a:\n- Bảng: $x = -2 \\to y = 4$; $x = -1 \\to y = 1$; $x = 0 \\to y = 0$; $x = 1 \\to y = 1$; $x = 2 \\to y = 4$\n- Vẽ parabol bề lõm lên trên, đỉnh O.\n\nCâu b:\n- $y = 25$ thay vào (P): $x^2 = 25$\n- $x^2 - 25 = 0$\n- $x_1 = 5$, $x_2 = -5$\n- Với $x = 5 \\Rightarrow y = 25$. Với $x = -5 \\Rightarrow y = 25$.\n- Vậy có 2 điểm: $(5; 25)$ và $(-5; 25)$.",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol đi qua các điểm $(-2; 4), (-1; 1), (0; 0), (1; 1), (2; 4)$. Vì $a = 1 > 0$ nên parabol quay bề lõm lên trên, đỉnh tại $O$.\n\n**Câu b) Tìm điểm M:**\n\nVì điểm thuộc $(P)$ có tung độ là 25 nên $y = 25$.\n\nTa có phương trình: $x^2 = 25$\n\n$\\Leftrightarrow x^2 - 25 = 0$\n\nSuy ra $x_1 = 5, x_2 = -5$.\n\nVới $x = 5$ suy ra $y = 25$.\n\nVới $x = -5$ suy ra $y = 25$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(5; 25)}$ và $\\boxed{(-5; 25)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = x² bề lõm quay lên trên trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol $y = x^2$ thế nào.",
+          "Parabol bề lõm lên hay xuống khi a = 1 thầy?",
+          "'Tung độ là 25' em phải làm gì?"
+        ],
+        "dinh_huong": [
+          "Em định lập bảng với x = -2, -1, 0, 1, 2 — có đúng không?",
+          "Em định thay y = 25 vào $y = x^2$ — đúng hướng chứ?",
+          "Em thấy phải có 2 điểm đối xứng — đúng không thầy?"
+        ],
+        "kiem_tra": [
+          "Em vẽ parabol đỉnh O, đi qua (±1; 1), (±2; 4) — đúng chưa?",
+          "Em ra $x = \\pm 5$ — có đúng không?",
+          "Em ra 2 điểm $(5; 25)$ và $(-5; 25)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên x² = 25 có 2 nghiệm.",
+          "Em chỉ tìm được 1 điểm, không biết điểm thứ hai.",
+          "Em vẽ parabol sai hướng (quay xuống)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-3/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète",
+      "de_bai": "Cho phương trình $2x^2 - 4x + 1 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, tính giá trị của biểu thức:\n$$A = x_1(x_1 + 2026) + x_2(x_2 + 2027) - x_2$$",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Biến đổi biểu thức về tổng và tích hai nghiệm",
+        "Hằng đẳng thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète: x₁ + x₂ = -b/a, x₁x₂ = c/a",
+        "Khai triển và nhóm biểu thức"
+      ],
+      "dap_so": "$A = 4055$.",
+      "goi_y_cap_1": "Câu a: Tính Δ = b² - 4ac. Δ > 0 thì có 2 nghiệm phân biệt.\n\nCâu b: Khai triển A, nhóm các hạng tử có $x_1^2 + x_2^2$ và $x_1 + x_2$, rồi dùng Viète.",
+      "goi_y_cap_2": "Câu a:\n- $a = 2, b = -4, c = 1$\n- Δ = $(-4)^2 - 4 \\cdot 2 \\cdot 1 = 16 - 8 = 8 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = 2$, $x_1 x_2 = \\dfrac{1}{2}$\n- $x_1^2 + x_2^2 = 2^2 - 2 \\cdot \\dfrac{1}{2} = 3$\n- Khai triển: $A = x_1^2 + 2026x_1 + x_2^2 + 2027x_2 - x_2$\n- $A = (x_1^2 + x_2^2) + 2026x_1 + 2026x_2$\n- $A = (x_1^2 + x_2^2) + 2026(x_1 + x_2)$\n- Thay: $A = 3 + 2026 \\cdot 2 = 3 + 4052 = 4055$",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $2x^2 - 4x + 1 = 0$ với $a = 2; b = -4; c = 1$.\n\nTính $\\Delta = b^2 - 4ac = (-4)^2 - 4 \\cdot 2 \\cdot 1 = 16 - 8 = 8 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = -\\dfrac{b}{a} = \\dfrac{-(-4)}{2} = 2 \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{1}{2} \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 2^2 - 2 \\cdot \\dfrac{1}{2} = 3$.\n\nBiến đổi biểu thức A:\n$$A = x_1^2 + 2026x_1 + x_2^2 + 2027x_2 - x_2$$\n$$A = (x_1^2 + x_2^2) + 2026x_1 + 2026x_2$$\n$$A = (x_1^2 + x_2^2) + 2026(x_1 + x_2)$$\n\nThế giá trị:\n$$A = 3 + 2026 \\cdot 2 = 3 + 4052 = \\boxed{4055}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em quên công thức tính Δ.",
+          "Định lý Viète áp dụng cho phương trình $2x^2 - 4x + 1 = 0$ thế nào?",
+          "Biểu thức A có 2027x₂ - x₂, em không biết rút gọn."
+        ],
+        "dinh_huong": [
+          "Em định tính Δ rồi kiểm tra Δ > 0 — đúng không?",
+          "Em định khai triển $x_1(x_1 + 2026)$ trước — đúng hướng chứ?",
+          "Em thấy $2027x_2 - x_2 = 2026x_2$ — có đúng không thầy?"
+        ],
+        "kiem_tra": [
+          "Em tính Δ = 8 — đúng không?",
+          "Em ra $x_1 + x_2 = 2$ và $x_1 x_2 = \\dfrac{1}{2}$ — Viète đúng chưa?",
+          "Em ra A = 4055 — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em khai triển A ra nhưng không rút gọn được.",
+          "Em không thấy hằng đẳng thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$.",
+          "Em quên $2027x_2 - x_2 = 2026x_2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép - Xác suất",
+      "de_bai": "Kết quả xếp loại học tập học kì $I$ của học sinh trường THCS $A$ được biểu diễn trong biểu đồ cột kép dưới đây. Nhà trường chọn ra ngẫu nhiên một em học sinh để tham gia làm bài khảo sát năng lực.\n\n| Khối | Tốt | Khá | Đạt |\n|---|---|---|---|\n| Khối 6 | 221 | 305 | 50 |\n| Khối 7 | 215 | 292 | 61 |\n| Khối 8 | 207 | 275 | 77 |\n| Khối 9 | 193 | 318 | 75 |\n\na) Trường có bao nhiêu học sinh đạt kết quả học tập tốt ở học kì $I$?\n\nb) Tính xác suất của các biến cố sau:\n- $A$: \"Học sinh được chọn có kết quả học tập tốt\"\n- $B$: \"Học sinh được chọn có kết quả học tập từ khá trở lên\".",
+      "phuong_phap_duoc_dung": [
+        "Đọc số liệu từ biểu đồ cột kép",
+        "Cộng số liệu theo cột",
+        "Công thức xác suất cổ điển P(A) = n(A)/n(Ω)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Không gian mẫu (tổng số học sinh)",
+        "Xác suất của biến cố",
+        "Biến cố 'từ khá trở lên' gồm cả 'khá' và 'tốt'"
+      ],
+      "dap_so": "a) 836 học sinh. b) $P(A) = \\dfrac{209}{576}$, $P(B) = \\dfrac{1013}{1152}$.",
+      "goi_y_cap_1": "Câu a: Cộng số HS 'Tốt' của cả 4 khối.\n\nCâu b: Không gian mẫu = tổng tất cả HS toàn trường. A: chỉ HS Tốt. B: HS Tốt HOẶC Khá (gồm cả tốt và khá).",
+      "goi_y_cap_2": "Câu a:\n- Tốt = 221 + 215 + 207 + 193 = 836\n\nCâu b:\n- $n(\\Omega) = (221+305+50) + (215+292+61) + (207+275+77) + (193+318+75)$\n- $n(\\Omega) = 576 + 568 + 559 + 586 = 2304$ (hoặc tính trực tiếp)\n- $n(A) = 836$ (học sinh tốt)\n- $P(A) = \\dfrac{836}{2304} = \\dfrac{209}{576}$\n- $n(B) = 836 + (305+292+275+318) = 836 + 1190 = 2026$\n- $P(B) = \\dfrac{2026}{2304} = \\dfrac{1013}{1152}$",
+      "loi_giai_day_du": "**Câu a) Số học sinh đạt kết quả Tốt:**\n\nSố học sinh đạt kết quả học tập tốt ở học kì $I$ là:\n$$221 + 215 + 207 + 193 = \\boxed{836 \\text{ (học sinh)}}$$\n\n**Câu b) Tính xác suất:**\n\nTìm không gian mẫu:\n$$n(\\Omega) = (221+305+50) + (215+292+61) + (207+275+77) + (193+318+75) = 2304$$\n\n**Biến cố A** \"Học sinh được chọn có kết quả học tập tốt\":\n\nKhả năng thuận lợi $n(A) = 836$.\n\nXác suất:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{836}{2304} = \\boxed{\\dfrac{209}{576}}$$\n\n**Biến cố B** \"Học sinh được chọn có kết quả học tập từ khá trở lên\":\n\nSố học sinh khá là: $305 + 292 + 275 + 318 = 1190$.\n\nKhả năng thuận lợi: $n(B) = 836 + 1190 = 2026$.\n\nXác suất:\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{2026}{2304} = \\boxed{\\dfrac{1013}{1152}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép xếp loại học tập (Tốt/Khá/Đạt) của 4 khối 6, 7, 8, 9.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc số liệu từ biểu đồ cột kép.",
+          "'Từ khá trở lên' nghĩa là gồm những loại nào thầy?",
+          "Không gian mẫu của bài này em không biết tính thế nào."
+        ],
+        "dinh_huong": [
+          "Em định cộng 'Tốt' của 4 khối: 221+215+207+193 — đúng không?",
+          "Biến cố B em định tính HS Tốt + HS Khá — đúng hướng chứ?",
+          "Em định tính tổng tất cả HS cho $n(\\Omega)$ — có đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 836 HS Tốt — có đúng không?",
+          "Em ra $n(\\Omega) = 2304$ — có đúng không?",
+          "Em ra $P(A) = \\dfrac{209}{576}$ và $P(B) = \\dfrac{1013}{1152}$ — đúng không?"
+        ],
+        "go_bi": [
+          "Em cộng sai tổng số HS (2304).",
+          "Em không biết rút gọn $\\dfrac{836}{2304}$ về $\\dfrac{209}{576}$.",
+          "Em nhầm 'từ khá trở lên' chỉ là HS Khá."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-3/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hình vuông mở rộng thành hình chữ nhật",
+      "de_bai": "Anh Tâm có một mảnh vườn hình vuông với diện tích bằng $81$ m². Anh muốn mở rộng mảnh vườn này thành mảnh vườn hình chữ nhật sao cho các cạnh của hình chữ nhật cách các cạnh của hình vuông tương ứng các khoảng cách là $x; 2x; 3x$ như hình bên, trong đó $x > 0$.\n\na) Viết biểu thức $S$ biểu thị diện tích của mảnh vườn sau khi mở rộng theo $x$.\n\nb) Biết rằng sau khi mở rộng, diện tích của mảnh vườn tăng thêm $810$ m². Tìm giá trị của $x$.",
+      "phuong_phap_duoc_dung": [
+        "Tính căn bậc hai để tìm cạnh hình vuông",
+        "Biểu diễn chiều dài, chiều rộng hình chữ nhật mới theo x",
+        "Diện tích hình chữ nhật = dài × rộng",
+        "Giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình vuông S = a²",
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = 12x^2 + 63x + 81$ (m²). b) $x = 6$.",
+      "goi_y_cap_1": "Câu a: Cạnh hình vuông ban đầu = $\\sqrt{81} = 9$ m. Chiều dài HCN mới = 9 + x + 3x = 9 + 4x. Chiều rộng HCN mới = 9 + x + 2x = 9 + 3x. Nhân 2 đại lượng này.\n\nCâu b: Diện tích sau mở rộng = 81 + 810 = 891 m². Cho $S = 891$ rồi giải phương trình bậc hai.",
+      "goi_y_cap_2": "Câu a:\n- Cạnh hình vuông = $\\sqrt{81} = 9$ (m)\n- Chiều dài HCN: $9 + x + 3x = 9 + 4x$ (m)\n- Chiều rộng HCN: $9 + x + 2x = 9 + 3x$ (m)\n- Diện tích: $S = (9+4x)(9+3x) = 81 + 27x + 36x + 12x^2 = 12x^2 + 63x + 81$\n\nCâu b:\n- Diện tích sau tăng = 81 + 810 = 891\n- Phương trình: $12x^2 + 63x + 81 = 891$\n- $12x^2 + 63x - 810 = 0$\n- Giải: $x_1 = 6$ (nhận), $x_2 = -\\dfrac{45}{4}$ (loại vì $x > 0$)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích mảnh vườn mở rộng:**\n\nCạnh của mảnh vườn hình vuông ban đầu là $\\sqrt{81} = 9$ (m).\n\nChiều dài của hình chữ nhật mới là: $9 + x + 3x = 9 + 4x$ (m).\n\nChiều rộng của hình chữ nhật mới là: $9 + x + 2x = 9 + 3x$ (m).\n\nDiện tích $S$ của mảnh vườn sau khi mở rộng là:\n$$S = (9+4x)(9+3x) = 81 + 27x + 36x + 12x^2$$\n$$\\boxed{S = 12x^2 + 63x + 81 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tìm x:**\n\nDiện tích mảnh vườn sau khi tăng thêm là: $81 + 810 = 891$ (m²).\n\nTa có phương trình: $12x^2 + 63x + 81 = 891$\n\n$$12x^2 + 63x - 810 = 0$$\n\nSuy ra $x_1 = 6$ (nhận), $x_2 = -\\dfrac{45}{4}$ (loại vì $x > 0$).\n\nVậy giá trị của $x$ là $\\boxed{6}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vuông 81 m² bên trong hình chữ nhật, khoảng cách các cạnh là x, 2x, 3x.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không tính ra cạnh hình vuông từ diện tích 81.",
+          "Em không biết chiều dài và chiều rộng HCN mới bằng bao nhiêu.",
+          "Em không biết bắt đầu câu a từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định lấy cạnh HV + khoảng cách 2 bên để ra chiều dài/rộng HCN — đúng không?",
+          "Em định nhân (9+4x)(9+3x) — có đúng không?",
+          "Câu b em định cho $S = 891$ rồi giải — đúng hướng chứ?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = 12x^2 + 63x + 81$ — có đúng không thầy?",
+          "Em giải $12x^2 + 63x - 810 = 0$ ra $x = 6$ — đúng chưa?",
+          "Em kiểm tra đáp số: với $x = 6$, $S = 12 \\cdot 36 + 63 \\cdot 6 + 81 = 891$ — có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính nhầm chiều dài, chiều rộng HCN (thiếu hoặc thừa x).",
+          "Em không khai triển đúng $(9+4x)(9+3x)$.",
+          "Em không biết loại nghiệm $-\\dfrac{45}{4}$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-3/bai4-manhvuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Hình hộp chữ nhật và hình trụ",
+      "de_bai": "Một viên gạch hình hộp chữ nhật có kích thước dài $20$ cm × $8$ cm × $8$ cm. Bên trong có bốn lỗ hình trụ bằng nhau có đường kính đáy là $2{,}5$ cm.\n\na) Tính thể tích đất sét để làm một viên gạch (Lấy $\\pi = 3{,}14$).\n\nb) Bác Tư xây nhà mua 10 thiên gạch (1 thiên = 1000 viên), giá một viên là $2500$ đồng. Bác Tư đã mua dư $2\\%$ số lượng gạch cần dùng. Tính tổng số tiền Bác Tư mua gạch.",
+      "phuong_phap_duoc_dung": [
+        "Thể tích hình hộp chữ nhật V = dài × rộng × cao",
+        "Thể tích hình trụ V = πR²h",
+        "Thể tích đất sét = thể tích hộp - tổng thể tích các lỗ",
+        "Phép nhân để tính tổng tiền"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình hộp chữ nhật",
+        "Thể tích hình trụ",
+        "Bán kính = đường kính / 2"
+      ],
+      "dap_so": "a) $887{,}5$ cm³. b) $25\\,000\\,000$ đồng.",
+      "goi_y_cap_1": "Câu a: Bán kính lỗ = 2,5/2 = 1,25 cm. Tính V hộp = 20×8×8. Tính V của 4 lỗ (chiều cao lỗ = 20 cm, bằng chiều dài viên gạch). V đất sét = V hộp - V 4 lỗ.\n\nCâu b: 10 thiên = 10000 viên. Tổng tiền = 10000 × 2500 = 25 triệu.",
+      "goi_y_cap_2": "Câu a:\n- Bán kính đáy lỗ: $R = 2{,}5 : 2 = 1{,}25$ (cm)\n- $V_{lỗ} = 4 \\cdot \\pi \\cdot 1{,}25^2 \\cdot 20 = 125\\pi$ (cm³)\n- $V_{hộp} = 20 \\cdot 8 \\cdot 8 = 1280$ (cm³)\n- $V_{đất sét} = 1280 - 125 \\cdot 3{,}14 = 887{,}5$ (cm³)\n\nCâu b:\n- Số gạch: $10 \\cdot 1000 = 10000$ viên\n- Tổng tiền: $10000 \\cdot 2500 = 25\\,000\\,000$ đồng",
+      "loi_giai_day_du": "**Câu a) Tính thể tích đất sét để làm một viên gạch:**\n\nBán kính đáy của mỗi lỗ hình trụ là: $2{,}5 : 2 = 1{,}25$ (cm).\n\nThể tích của bốn lỗ hình trụ bên trong viên gạch là:\n$$V_{\\text{lỗ}} = 4 \\cdot \\pi \\cdot 1{,}25^2 \\cdot 20 = 125\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích của khối hình hộp chữ nhật là:\n$$V_{\\text{hộp}} = 20 \\cdot 8 \\cdot 8 = 1280 \\text{ (cm}^3\\text{)}$$\n\nThể tích đất sét cần dùng để làm viên gạch là:\n$$V = 1280 - 125 \\cdot 3{,}14 = \\boxed{887{,}5 \\text{ (cm}^3\\text{)}}$$\n\n**Câu b) Tính tổng số tiền Bác Tư mua gạch:**\n\nSố lượng gạch Bác Tư đã mua là:\n$$10 \\cdot 1000 = 10\\,000 \\text{ (viên)}$$\n\nTổng số tiền Bác Tư phải trả để mua 10 thiên gạch là:\n$$10\\,000 \\cdot 2\\,500 = \\boxed{25\\,000\\,000 \\text{ (đồng)}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Viên gạch hình hộp chữ nhật 20×8×8 cm có 4 lỗ trụ đường kính 2,5 cm đi xuyên qua.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'bên trong có 4 lỗ hình trụ'.",
+          "Em chưa biết tính thể tích hình hộp chữ nhật.",
+          "Em không biết chiều cao của 4 lỗ trụ là bao nhiêu."
+        ],
+        "dinh_huong": [
+          "Em định tính V hộp rồi trừ V 4 lỗ — đúng hướng không?",
+          "Em nghĩ chiều cao lỗ trụ = 20 cm (chiều dài viên gạch) — đúng chứ?",
+          "Câu b em định lấy 10000 × 2500 — có đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_{hộp} = 1280$ cm³ — đúng không?",
+          "Em ra $V = 887{,}5$ cm³ — có đúng không?",
+          "Em ra 25 triệu đồng — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính $V_{lỗ}$ bị sai vì nhầm bán kính.",
+          "Em không biết chiều cao lỗ trụ.",
+          "Em bị nhầm '2% dư' có ảnh hưởng số tiền không."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-3/bai5-viengach.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Toán thực tế - Hệ phương trình (pha chế nồng độ)",
+      "de_bai": "Trong một trại nuôi tôm sú con, kỹ sư đang có hai nguồn nước mặn có nồng độ mặn khác nhau. Để có được độ mặn mong muốn kỹ sư đã thử hai tỉ lệ như sau:\n\n- Nếu lấy $200$ ml nguồn nước mặn thứ nhất pha với $300$ ml nguồn nước mặn thứ hai thì được một nguồn nước mặn mới có nồng độ mặn $27\\%$.\n- Nếu lấy $300$ ml nguồn nước mặn thứ nhất pha với $200$ ml nguồn nước mặn thứ hai thì được một nguồn nước mặn mới có nồng độ mặn $28\\%$.\n\na) Hãy tính nồng độ mặn ở mỗi nguồn nước mặn ban đầu dựa trên dữ liệu pha chế $200$ ml ($27\\%$) và $300$ ml ($28\\%$).\n\nb) Mỗi hồ nuôi tôm cần $4$ m³ nước nồng độ $28\\%$. Hỏi thể tích nước mỗi nguồn cần dùng là bao nhiêu?",
+      "phuong_phap_duoc_dung": [
+        "Đặt ẩn cho nồng độ mặn",
+        "Biểu diễn lượng muối theo nồng độ và thể tích",
+        "Lập hệ phương trình bậc nhất 2 ẩn",
+        "Giải hệ phương trình"
+      ],
+      "kien_thuc_lien_quan": [
+        "Lượng muối = nồng độ × thể tích",
+        "Hệ phương trình bậc nhất hai ẩn"
+      ],
+      "dap_so": "a) $30\\%$ và $25\\%$. b) Nguồn 1: $2{,}4$ m³, nguồn 2: $1{,}6$ m³.",
+      "goi_y_cap_1": "Câu a: Gọi $x, y$ là nồng độ nguồn 1 và 2. Lượng muối trong 200 ml nguồn 1 là $200 \\cdot \\dfrac{x}{100}$. Tương tự cho nguồn 2. Lập 2 phương trình từ 2 trường hợp.\n\nCâu b: Gọi $x, y$ là thể tích mỗi nguồn. Lập phương trình tổng thể tích và phương trình tổng muối.",
+      "goi_y_cap_2": "Câu a:\n- Gọi $x, y$ (%) là nồng độ nguồn 1 và 2 ($x, y > 0$)\n- Lượng muối trong 200ml nguồn 1: $2x$ ml; trong 300ml nguồn 2: $3y$ ml\n- Trường hợp 1: $2x + 3y = 500 \\cdot 0{,}27 = 135$\n- Trường hợp 2: $3x + 2y = 500 \\cdot 0{,}28 = 140$\n- Giải hệ: $x = 30$, $y = 25$\n\nCâu b:\n- Gọi $x$ (m³) là thể tích nước nguồn 1 (30%), $y$ (m³) là nguồn 2 (25%)\n- Phương trình 1: $x + y = 4$\n- Phương trình 2: $0{,}3x + 0{,}25y = 4 \\cdot 0{,}28 = 1{,}12$\n- Giải hệ: $x = 2{,}4$ m³, $y = 1{,}6$ m³",
+      "loi_giai_day_du": "**Câu a) Tính nồng độ mỗi nguồn nước:**\n\nGọi $x$ (%) là nồng độ mặn của nguồn nước mặn thứ nhất.\n\nGọi $y$ (%) là nồng độ mặn của nguồn nước mặn thứ hai.\n\nĐiều kiện: $x, y > 0$.\n\nLượng muối có trong 200 ml nguồn thứ nhất là $200 \\cdot \\dfrac{x}{100} = 2x$ (ml).\n\nLượng muối có trong 300 ml nguồn thứ hai là $300 \\cdot \\dfrac{y}{100} = 3y$ (ml).\n\nVì pha 200 ml nguồn một với 300 ml nguồn hai được 500 ml dung dịch nồng độ 27%:\n$$2x + 3y = 500 \\cdot \\dfrac{27}{100} = 135 \\quad (1)$$\n\nVì pha 300 ml nguồn một với 200 ml nguồn hai được 500 ml dung dịch nồng độ 28%:\n$$3x + 2y = 500 \\cdot \\dfrac{28}{100} = 140 \\quad (2)$$\n\nTừ (1) và (2), ta có hệ phương trình:\n$$\\begin{cases} 2x + 3y = 135 \\\\ 3x + 2y = 140 \\end{cases} \\Rightarrow \\begin{cases} x = 30 \\\\ y = 25 \\end{cases}$$\n\nVậy nồng độ mặn nguồn thứ nhất là $\\boxed{30\\%}$ và nguồn thứ hai là $\\boxed{25\\%}$.\n\n**Câu b) Tính thể tích mỗi nguồn cần dùng:**\n\nGọi $x$ (m³) là thể tích nước mặn nguồn một cần dùng (30%).\n\nGọi $y$ (m³) là thể tích nước mặn nguồn hai cần dùng (25%).\n\nĐiều kiện: $x, y > 0$.\n\nVì tổng thể tích nước cần cho mỗi hồ là 4 m³:\n$$x + y = 4 \\quad (3)$$\n\nLượng muối có trong dung dịch mới (nồng độ 28%) là $4 \\cdot 0{,}28 = 1{,}12$ (m³).\n\nVì tổng lượng muối của hai nguồn bằng lượng muối trong hồ:\n$$0{,}3x + 0{,}25y = 1{,}12 \\quad (4)$$\n\nTừ (3) và (4), ta có hệ phương trình:\n$$\\begin{cases} x + y = 4 \\\\ 0{,}3x + 0{,}25y = 1{,}12 \\end{cases} \\Rightarrow \\begin{cases} x = 2{,}4 \\\\ y = 1{,}6 \\end{cases}$$\n\nVậy thể tích nước nguồn một là $\\boxed{2{,}4 \\text{ m}^3}$ và nguồn hai là $\\boxed{1{,}6 \\text{ m}^3}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'nồng độ 27%' nghĩa là gì.",
+          "Em không biết cách tính lượng muối từ nồng độ và thể tích.",
+          "Bài có quá nhiều số liệu, em không biết gọi ẩn thế nào."
+        ],
+        "dinh_huong": [
+          "Em định gọi x, y là nồng độ 2 nguồn — đúng không?",
+          "Em định lập phương trình từ 'tổng lượng muối' — đúng hướng chứ?",
+          "Câu b em định dùng $x + y = 4$ và tổng muối — có đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ $2x + 3y = 135$, $3x + 2y = 140$ — có đúng không?",
+          "Em ra $x = 30\\%$, $y = 25\\%$ — đáp án có đúng không?",
+          "Câu b em ra $x = 2{,}4$ m³ và $y = 1{,}6$ m³ — có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết lượng muối = nồng độ × thể tích.",
+          "Em giải hệ phương trình ra sai.",
+          "Em nhầm đơn vị ml và m³."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nhọn nội tiếp đường tròn",
+      "de_bai": "Cho $\\triangle ABC$ nhọn $(AB < AC)$ nội tiếp đường tròn $(O; R)$. Hai đường cao $AD, BE$ cắt nhau tại $H$. Gọi $M, N$ là giao điểm của $(O)$ với các tia $BE, AD$.\n\na) Chứng minh: Tứ giác $ABDE$ nội tiếp và xác định tâm $I$. Suy ra $DE // MN$.\n\nb) Kẻ đường kính $CK$. Chứng minh tứ giác $AKBH$ là hình bình hành và $H, I, K$ thẳng hàng.\n\nc) Chứng minh: $DE = \\dfrac{1}{2}AB$ khi $\\widehat{BCA} = 60°$ và tính diện tích hình viên phân cung $DE$.",
+      "phuong_phap_duoc_dung": [
+        "Tứ giác nội tiếp đường tròn đường kính",
+        "Góc nội tiếp cùng chắn cung",
+        "Góc đồng vị",
+        "Đường kính và góc nội tiếp chắn nửa đường tròn",
+        "Hình bình hành (2 cặp cạnh đối song song)",
+        "Tam giác đồng dạng, tam giác đều",
+        "Diện tích hình quạt, diện tích hình viên phân"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác có 2 đỉnh nhìn 1 cạnh dưới góc vuông thì nội tiếp",
+        "Hình bình hành: 2 cặp cạnh đối song song",
+        "Đường chéo hình bình hành cắt nhau tại trung điểm",
+        "Diện tích hình quạt tròn $S_q = \\dfrac{\\pi R^2 \\alpha}{360°}$",
+        "Diện tích viên phân = diện tích quạt - diện tích tam giác"
+      ],
+      "dap_so": "c) Diện tích viên phân $= \\dfrac{R^2 \\pi}{8} - \\dfrac{3R^2\\sqrt{3}}{16}$.",
+      "goi_y_cap_1": "Câu a: $\\triangle AEB$ vuông tại E và $\\triangle ADB$ vuông tại D đều nội tiếp đường tròn đường kính AB → 4 điểm A, B, D, E cùng thuộc đường tròn đường kính AB, tâm I là trung điểm AB. Chứng minh $\\widehat{BDE} = \\widehat{BMN}$ (qua $\\widehat{BAE}$ và $\\widehat{BAN}$ là các góc nội tiếp) → DE // MN.\n\nCâu b: $\\widehat{KAC} = 90°$ (nội tiếp chắn nửa đường tròn) → KA ⊥ AC, mà BE ⊥ AC → KA // BH. Tương tự KB // AH. Vậy AKBH là hình bình hành → đường chéo HK đi qua trung điểm I của AB → H, I, K thẳng hàng.\n\nCâu c: Chứng minh $\\triangle CDE \\sim \\triangle CAB$ với tỉ số $\\dfrac{DE}{AB} = \\cos \\widehat{BCA}$. Với $\\widehat{BCA} = 60°$, $\\cos 60° = 1/2$ → $DE = \\dfrac{1}{2}AB$. Vẽ đường kính AQ, tính $AB = R\\sqrt{3}$, bán kính đường tròn (I) là $\\dfrac{R\\sqrt{3}}{2}$. Tam giác IDE đều. Tính diện tích quạt IDE và diện tích tam giác IDE, rồi trừ.",
+      "goi_y_cap_2": "Câu a:\n- $\\triangle AEB$ vuông tại E (BE đường cao) → nội tiếp đường tròn đường kính AB\n- $\\triangle ADB$ vuông tại D (AD đường cao) → nội tiếp đường tròn đường kính AB\n- → 4 điểm A, B, D, E cùng thuộc đường tròn đường kính AB, tâm I là trung điểm AB\n- Tứ giác ABDE nội tiếp → $\\widehat{BDE} = \\widehat{BAE} = \\dfrac{1}{2}sđ\\widehat{BE}$\n- Xét (O): $\\widehat{BMN} = \\widehat{BAN} = \\dfrac{1}{2}sđ\\widehat{BN}$\n- → $\\widehat{BDE} = \\widehat{BMN}$ (vị trí đồng vị) → DE // MN\n\nCâu b:\n- $\\widehat{KAC} = 90°$ (nội tiếp chắn nửa đường tròn đường kính KC) → KA ⊥ AC\n- BE ⊥ AC → KA // BH\n- $\\widehat{KBC} = 90°$ → KB ⊥ BC; AD ⊥ BC → KB // AH\n- Tứ giác AKBH có KA // BH và KB // AH → hình bình hành\n- I là trung điểm AB, cũng là trung điểm HK → H, I, K thẳng hàng\n\nCâu c:\n- $\\triangle CDE \\sim \\triangle CAB$ (g-g, chung góc C, $\\widehat{CDE} = \\widehat{CAB}$ do bù $\\widehat{BDE}$ trong tứ giác nội tiếp ABDE) → $\\dfrac{DE}{AB} = \\dfrac{CD}{CA} = \\cos \\widehat{BCA}$\n- $\\widehat{BCA} = 60° \\Rightarrow \\cos 60° = \\dfrac{1}{2} \\Rightarrow DE = \\dfrac{1}{2}AB$\n- Vẽ đường kính AQ: $\\widehat{ABQ} = 90°$, $\\widehat{AQB} = \\widehat{ACB} = 60°$\n- $\\triangle ABQ$ vuông tại B: $AB = AQ \\cdot \\sin 60° = 2R \\cdot \\dfrac{\\sqrt{3}}{2} = R\\sqrt{3}$\n- Bán kính (I): $R_I = \\dfrac{AB}{2} = \\dfrac{R\\sqrt{3}}{2}$\n- $ID = IE = DE = \\dfrac{1}{2}AB = \\dfrac{R\\sqrt{3}}{2}$ → $\\triangle IED$ đều → $\\widehat{DIE} = 60°$\n- Diện tích quạt IDE: $S_q = \\dfrac{\\pi \\cdot R_I^2 \\cdot 60°}{360°} = \\dfrac{\\pi \\cdot \\dfrac{3R^2}{4}}{6} = \\dfrac{R^2 \\pi}{8}$\n- Diện tích $\\triangle IED$ đều: $S_\\triangle = \\dfrac{DE^2 \\sqrt{3}}{4} = \\dfrac{\\dfrac{3R^2}{4} \\sqrt{3}}{4} = \\dfrac{3R^2 \\sqrt{3}}{16}$\n- Diện tích viên phân: $S = S_q - S_\\triangle = \\dfrac{R^2 \\pi}{8} - \\dfrac{3R^2\\sqrt{3}}{16}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh tứ giác ABDE nội tiếp và $DE // MN$:**\n\n$\\triangle AEB$ vuông tại $E$ (vì $BE$ là đường cao) suy ra $\\triangle AEB$ nội tiếp đường tròn đường kính $AB$ (1).\n\n$\\triangle ADB$ vuông tại $D$ (vì $AD$ là đường cao) suy ra $\\triangle ADB$ nội tiếp đường tròn đường kính $AB$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $A, B, D, E$ cùng thuộc một đường tròn đường kính $AB$.\n\nSuy ra **tứ giác ABDE nội tiếp đường tròn có tâm $I$ là trung điểm của $AB$**.\n\nTứ giác $ABDE$ nội tiếp: $\\widehat{BDE} = \\widehat{BAE} = \\dfrac{1}{2}sđ\\widehat{BE}$.\n\nXét $(O)$, ta có $\\widehat{BMN} = \\widehat{BAN} = \\dfrac{1}{2}sđ\\widehat{BN}$.\n\nSuy ra $\\widehat{BDE} = \\widehat{BMN}$.\n\nHai góc này ở vị trí đồng vị, do đó **$DE // MN$**. □\n\n**Câu b) Chứng minh AKBH là hình bình hành và $H, I, K$ thẳng hàng:**\n\n$\\widehat{KAC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $KC$).\n\n$\\Rightarrow KA \\perp AC$.\n\nMà $HE \\perp AC$ (vì $BE$ là đường cao), suy ra $KA // BH$.\n\n$\\widehat{KBC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $KC$).\n\n$\\Rightarrow KB \\perp BC$.\n\nMà $HD \\perp BC$ (vì $AD$ là đường cao), suy ra $KB // AH$.\n\nXét tứ giác $AKBH$ có $KA // BH$ và $KB // AH$.\n\nSuy ra **tứ giác AKBH là hình bình hành**.\n\nMà $I$ là trung điểm của $AB$, nên $I$ cũng là trung điểm của $HK$.\n\nVậy **ba điểm $H, I, K$ thẳng hàng**. □\n\n**Câu c) Chứng minh $DE = \\dfrac{1}{2}AB$ và tính diện tích hình viên phân:**\n\nXét $\\triangle CDE$ và $\\triangle CAB$ có:\n- $\\widehat{C}$ là góc chung\n- $\\widehat{CDE} = \\widehat{CAE}$ (cùng bù với $\\widehat{BDE}$ trong tứ giác nội tiếp $ABDE$)\n\n$\\Rightarrow \\triangle CDE \\sim \\triangle CAB$ (g-g)\n$\\Rightarrow \\dfrac{DE}{AB} = \\dfrac{CD}{CA} = \\cos \\widehat{BCA}$\n\nVới $\\widehat{BCA} = 60°$, ta có $\\dfrac{DE}{AB} = \\cos 60° = \\dfrac{1}{2} \\Rightarrow \\boxed{DE = \\dfrac{1}{2}AB}$.\n\n**Tính diện tích hình viên phân:**\n\nVẽ đường kính $AQ$ của đường tròn $(O)$.\n\n$\\widehat{ABQ} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AQ$).\n\nTrong $(O)$: $\\widehat{AQB} = \\widehat{ACB} = 60°$ (cùng chắn cung $AB$).\n\nXét $\\triangle ABQ$ vuông tại $B$: $AB = AQ \\cdot \\sin \\widehat{AQB} = 2R \\cdot \\sin 60° = R\\sqrt{3}$.\n\nSuy ra bán kính đường tròn $(I)$ là $R_I = \\dfrac{AB}{2} = \\dfrac{R\\sqrt{3}}{2}$.\n\nTa có $ID = IE = DE = \\dfrac{1}{2}AB = \\dfrac{R\\sqrt{3}}{2}$.\n\n$\\Rightarrow \\triangle IED$ đều $\\Rightarrow DE = IE = \\dfrac{R\\sqrt{3}}{2}$ và $\\widehat{DIE} = 60°$.\n\nDiện tích hình quạt $IDE$:\n$$S_q = \\dfrac{\\pi \\cdot R_I^2 \\cdot 60°}{360°} = \\dfrac{\\pi \\cdot \\left(\\dfrac{R\\sqrt{3}}{2}\\right)^2}{6} = \\dfrac{R^2 \\pi}{8}$$\n\nDiện tích $\\triangle IED$ đều:\n$$S_\\triangle = \\dfrac{DE^2 \\sqrt{3}}{4} = \\dfrac{\\left(\\dfrac{R\\sqrt{3}}{2}\\right)^2 \\sqrt{3}}{4} = \\dfrac{3R^2\\sqrt{3}}{16}$$\n\nDiện tích hình viên phân cung $DE$ là:\n$$S = S_q - S_\\triangle = \\boxed{\\dfrac{R^2 \\pi}{8} - \\dfrac{3R^2\\sqrt{3}}{16}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nhọn nội tiếp đường tròn (O;R) với các đường cao AD, BE cắt tại H; đường kính CK; các điểm M, N, I.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'trực tâm H' hình thành thế nào.",
+          "Em chưa biết vì sao tứ giác ABDE nội tiếp được.",
+          "Em không biết xác định tâm I ở đâu."
+        ],
+        "dinh_huong": [
+          "Em định chứng minh 2 tam giác vuông cùng nội tiếp đường tròn đường kính AB — đúng hướng không?",
+          "Câu b em định dùng góc nội tiếp chắn nửa đường tròn để ra góc vuông — đúng không?",
+          "Câu c em định dùng tam giác đồng dạng CDE ~ CAB — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tâm I là trung điểm AB — có đúng không?",
+          "Em ra $AB = R\\sqrt{3}$ khi $\\widehat{BCA} = 60°$ — đúng không?",
+          "Em ra diện tích viên phân $= \\dfrac{R^2\\pi}{8} - \\dfrac{3R^2\\sqrt{3}}{16}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không chứng minh được $\\widehat{CDE} = \\widehat{CAE}$.",
+          "Em không tính được bán kính đường tròn (I).",
+          "Em không nhớ công thức diện tích quạt tròn."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-3/bai7-tamgiac.png"
+    }
+  ]
+}
