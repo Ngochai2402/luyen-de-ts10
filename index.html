@@ -946,7 +946,6 @@ document.getElementById('btnRight').onclick = () => {
     updateChatFab();
   }
 };
-document.getElementById('chatFab').onclick = openRightDrawer;
 
 // ============ RENDER ============
 function renderDeDrawer() {
@@ -1292,6 +1291,8 @@ window.addEventListener('load', () => {
   renderBaiList();
   renderMainContent();
   renderCauDanPanel();
+  const fab = document.getElementById('chatFab');
+  if (fab) fab.addEventListener('click', openRightDrawer);
 });
 </script>
 
