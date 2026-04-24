@@ -802,25 +802,78 @@ let currentBai = 1;
 let openGroups = new Set(); // nhiều nhóm có thể mở cùng lúc
 let chatHistory = [];
 
-// ============ DRAWER CHỌN ĐỀ ============
+// ============ DRAWER CHỌN ĐỀ + MOBILE ============
 function openDeDrawer() {
   document.getElementById('deDrawer').classList.add('open');
-  document.getElementById('overlay').classList.add('show');
+  updateOverlay();
 }
 function closeDeDrawer() {
   document.getElementById('deDrawer').classList.remove('open');
-  document.getElementById('overlay').classList.remove('show');
+  updateOverlay();
 }
-document.getElementById('overlay').onclick = closeDeDrawer;
 
-// Mobile toggle
+// Đóng TẤT CẢ drawer (cả desktop drawer và mobile cột)
+function closeAllMobileDrawers() {
+  document.getElementById('deDrawer').classList.remove('open');
+  document.getElementById('colLeft').classList.remove('mobile-show');
+  document.getElementById('colRight').classList.remove('mobile-show');
+  updateOverlay();
+}
+
+// Hiện/ẩn overlay tùy có drawer nào đang mở
+function updateOverlay() {
+  const anyOpen = document.getElementById('deDrawer').classList.contains('open')
+    || document.getElementById('colLeft').classList.contains('mobile-show')
+    || document.getElementById('colRight').classList.contains('mobile-show');
+  document.getElementById('overlay').classList.toggle('show', anyOpen);
+  // Chống scroll body khi drawer mở (UX mượt trên iOS)
+  document.body.style.overflow = anyOpen ? 'hidden' : '';
+}
+
+// Click overlay → đóng tất cả
+document.getElementById('overlay').addEventListener('click', closeAllMobileDrawers);
+
+// ESC key → đóng
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') closeAllMobileDrawers();
+});
+
+// Swipe để đóng trên mobile
+let touchStartX = 0;
+let touchStartY = 0;
+document.addEventListener('touchstart', (e) => {
+  touchStartX = e.touches[0].clientX;
+  touchStartY = e.touches[0].clientY;
+}, { passive: true });
+document.addEventListener('touchend', (e) => {
+  const dx = e.changedTouches[0].clientX - touchStartX;
+  const dy = e.changedTouches[0].clientY - touchStartY;
+  // Chỉ tính swipe ngang (bỏ qua nếu di chuyển dọc nhiều hơn)
+  if (Math.abs(dx) < 60 || Math.abs(dy) > Math.abs(dx)) return;
+  const left = document.getElementById('colLeft').classList.contains('mobile-show');
+  const right = document.getElementById('colRight').classList.contains('mobile-show');
+  if (left && dx < 0) closeAllMobileDrawers();       // vuốt trái → đóng col-left
+  if (right && dx > 0) closeAllMobileDrawers();      // vuốt phải → đóng col-right
+}, { passive: true });
+
+// Nút mobile toggle trên header
 document.getElementById('btnLeft').onclick = () => {
-  document.getElementById('colLeft').classList.toggle('mobile-show');
-  document.getElementById('overlay').classList.toggle('show');
+  const left = document.getElementById('colLeft');
+  const wasOpen = left.classList.contains('mobile-show');
+  closeAllMobileDrawers();
+  if (!wasOpen) {
+    left.classList.add('mobile-show');
+    updateOverlay();
+  }
 };
 document.getElementById('btnRight').onclick = () => {
-  document.getElementById('colRight').classList.toggle('mobile-show');
-  document.getElementById('overlay').classList.toggle('show');
+  const right = document.getElementById('colRight');
+  const wasOpen = right.classList.contains('mobile-show');
+  closeAllMobileDrawers();
+  if (!wasOpen) {
+    right.classList.add('mobile-show');
+    updateOverlay();
+  }
 };
 
 // ============ RENDER ============
@@ -893,7 +946,7 @@ function renderMainContent() {
     </div>
 
     <div class="conversation-section">
-      <div class="conv-title">💬 Hội thoại với Trợ Lý Thầy Hải</div>
+      <div class="conv-title">💬 Hội thoại với thầy AI</div>
       <div class="conversation" id="conversation">${renderConversation()}</div>
     </div>
   `;
@@ -998,9 +1051,8 @@ function selectBai(n) {
   renderCauDanPanel();
   // Cuộn cột giữa lên đầu
   document.getElementById('colCenter').scrollTop = 0;
-  // Đóng drawer trên mobile
-  document.getElementById('colLeft').classList.remove('mobile-show');
-  document.getElementById('overlay').classList.remove('show');
+  // Đóng drawer mobile để thấy nội dung
+  closeAllMobileDrawers();
 }
 
 function toggleGroup(id) {
@@ -1071,7 +1123,7 @@ async function sendToAI(userMsg) {
     chatHistory.pop();
     chatHistory.push({
       role: 'system',
-      content: 'Không kết nối được Trợ Lý Thầy Hải: ' + e.message
+      content: 'Không kết nối được thầy AI: ' + e.message
     });
     updateConversationOnly();
   }
