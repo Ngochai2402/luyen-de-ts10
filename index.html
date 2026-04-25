@@ -721,6 +721,9 @@
   .remove-image { border: none; background: transparent; color: var(--ink-muted); font-size: 18px; cursor: pointer; width: 28px; height: 28px; border-radius: 50%; }
   .remove-image:hover { background: var(--paper-soft); color: var(--accent); }
   .bubble .bubble-image { display: block; max-width: min(220px, 100%); max-height: 220px; object-fit: contain; border-radius: 10px; margin-bottom: 8px; border: 1px solid rgba(255,255,255,0.35); }
+  .ai-media { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+  .ai-media a { display: block; line-height: 0; border-radius: 10px; overflow: hidden; border: 1px solid rgba(74,66,60,0.14); background: white; }
+  .ai-media .bubble-image { margin-bottom: 0; max-width: min(240px, 100%); }
   .mobile-chat-fab { display: none; position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom)); width: 46px; height: 46px; border-radius: 14px; border: 1px solid var(--line); background: #fffaf3; color: var(--ink-soft); box-shadow: 0 6px 16px rgba(74, 66, 60, 0.18); z-index: 45; align-items: center; justify-content: center; cursor: pointer; }
   .mobile-chat-fab svg { width: 21px; height: 21px; }
   .mobile-chat-fab:active { transform: translateY(1px); }
@@ -1410,9 +1413,11 @@ function renderConversation() {
       const img = m.imageDataUrl ? `<img class="bubble-image" src="${m.imageDataUrl}" alt="Ảnh học sinh gửi">` : '';
       return `<div class="bubble user">${img}${escapeHtml(m.content || '')}</div>`;
     } else {
+      const media = renderImageGallery(m.images);
+      const body = m.content ? renderMarkdown(m.content) : '';
       return `<div class="bubble ai">
         <div class="ai-label">Trợ Lý Thầy Hải</div>
-        ${renderMarkdown(m.content)}
+        ${body}${media}
       </div>`;
     }
   }).join('');
@@ -1554,7 +1559,8 @@ async function sendToAI(userMsg, imagePayload = null) {
 
   try {
     const useRealAPI = window.location.protocol !== 'file:';
-    let response;
+    let response = '';
+    let responseImages = [];
     if (useRealAPI) {
       const historyForAPI = chatHistory
         .slice(0, -2)
@@ -1577,12 +1583,18 @@ async function sendToAI(userMsg, imagePayload = null) {
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
       const data = await res.json();
-      response = data.response;
+      const parsed = parseAIReplyPayload(data);
+      response = parsed.text;
+      responseImages = parsed.images;
     } else {
       response = 'Mở trang qua server để dùng AI thật. Mở qua file:// chỉ là demo tĩnh.';
     }
     chatHistory.pop();
-    chatHistory.push({ role: 'assistant', content: response });
+    chatHistory.push({
+      role: 'assistant',
+      content: response || (responseImages.length ? 'Thầy gửi em ảnh ở dưới nhé.' : ''),
+      images: responseImages
+    });
     updateConversationOnly();
   } catch (e) {
     chatHistory.pop();
@@ -1613,6 +1625,64 @@ function escapeHtml(text) {
   const div = document.createElement('div');
   div.textContent = text;
   return div.innerHTML;
+}
+function escapeAttr(text) {
+  return escapeHtml(String(text ?? '')).replace(/"/g, '&quot;');
+}
+function normalizeAIImageItems(rawImages) {
+  const list = Array.isArray(rawImages) ? rawImages : (rawImages ? [rawImages] : []);
+  return list.map(item => {
+    if (!item) return null;
+    if (typeof item === 'string') {
+      return { src: item, alt: 'Ảnh AI trả lời' };
+    }
+    if (typeof item === 'object') {
+      let src = item.dataUrl || item.url || item.src || item.image_url || item.path || '';
+      if (!src && item.base64) {
+        const mime = item.mime_type || item.mimeType || 'image/png';
+        src = String(item.base64).startsWith('data:') ? item.base64 : `data:${mime};base64,${item.base64}`;
+      }
+      if (!src) return null;
+      return {
+        src,
+        alt: item.alt || item.caption || item.name || 'Ảnh AI trả lời'
+      };
+    }
+    return null;
+  }).filter(Boolean);
+}
+function renderImageGallery(images) {
+  const items = normalizeAIImageItems(images);
+  if (!items.length) return '';
+  return `<div class="ai-media">${items.map(img => `
+    <a href="${escapeAttr(img.src)}" target="_blank" rel="noopener noreferrer">
+      <img class="bubble-image" src="${escapeAttr(img.src)}" alt="${escapeAttr(img.alt)}" loading="lazy">
+    </a>
+  `).join('')}</div>`;
+}
+function parseAIReplyPayload(data) {
+  let text = '';
+  let images = [];
+
+  const response = data?.response;
+  if (typeof response === 'string') {
+    text = response;
+  } else if (Array.isArray(response)) {
+    text = response.map(part => part?.text || part?.content || '').filter(Boolean).join('\n\n');
+  } else if (response && typeof response === 'object') {
+    text = response.text || response.content || response.message || '';
+    images = response.images || response.image || [];
+  }
+
+  if (!text) text = data?.text || data?.message || data?.content || '';
+  if (!images || (Array.isArray(images) && images.length === 0)) {
+    images = data?.images || data?.image || data?.response_images || data?.ai_images || [];
+  }
+
+  return {
+    text: typeof text === 'string' ? text : String(text || ''),
+    images: normalizeAIImageItems(images)
+  };
 }
 
 // Input handlers
@@ -1649,6 +1719,7 @@ function compressImageFile(file, maxSide = 1280, quality = 0.82) {
 // Nói để nhập vào khung chat
 let speechRecognition = null;
 let isListening = false;
+let voiceBaseText = '';
 
 function initVoiceInput() {
   const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
@@ -1669,27 +1740,29 @@ function initVoiceInput() {
   speechRecognition = new SpeechRecognition();
   speechRecognition.lang = 'vi-VN';
   speechRecognition.continuous = false;
-  speechRecognition.interimResults = true;
+  speechRecognition.interimResults = false;
   speechRecognition.maxAlternatives = 1;
 
   speechRecognition.onstart = () => {
     isListening = true;
+    voiceBaseText = input.value.trim();
     btnVoice.classList.add('listening');
     voiceStatus.classList.add('show');
   };
 
   speechRecognition.onresult = (event) => {
-    let finalText = '';
-    let interimText = '';
-    for (let i = event.resultIndex; i < event.results.length; i++) {
-      const text = event.results[i][0].transcript;
-      if (event.results[i].isFinal) finalText += text;
-      else interimText += text;
+    // Chỉ lấy kết quả cuối cùng, không cộng dồn các đoạn tạm thời.
+    // Nếu cộng dồn interim transcript, câu sẽ bị lặp kiểu:
+    // "Hướng Hướng dẫn Hướng dẫn cho..."
+    let spoken = '';
+    for (let i = 0; i < event.results.length; i++) {
+      if (event.results[i].isFinal) {
+        spoken += event.results[i][0].transcript + ' ';
+      }
     }
-    const current = input.value.trim();
-    const spoken = (finalText || interimText).trim();
+    spoken = spoken.trim();
     if (spoken) {
-      input.value = current ? current + ' ' + spoken : spoken;
+      input.value = voiceBaseText ? `${voiceBaseText} ${spoken}` : spoken;
       input.style.height = 'auto';
       input.style.height = Math.min(input.scrollHeight, 120) + 'px';
     }
