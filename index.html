@@ -200,7 +200,7 @@
     border-right: 1px solid var(--line);
     transform: translateX(-100%);
     transition: transform 0.25s;
-    z-index: 30;
+    z-index: 60;
     display: flex;
     flex-direction: column;
     box-shadow: var(--shadow-md);
@@ -499,9 +499,28 @@
     border-radius: 999px;
   }
 
-  /* KaTeX */
+  /* KaTeX - chống tràn công thức trên điện thoại */
+  .de-bai-block, .bubble.ai, .de-bai-content {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  .de-bai-content table, .bubble.ai table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+  }
   .katex { font-size: 1.05em !important; }
-  .katex-display { margin: 12px 0 !important; }
+  .katex-display {
+    margin: 12px 0 !important;
+    max-width: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    padding-bottom: 4px;
+  }
+  .katex-display > .katex {
+    white-space: nowrap;
+  }
 
   /* ======= CỘT PHẢI: CÂU HỎI + INPUT ======= */
   .col-right {
@@ -669,7 +688,8 @@
   .remove-image { border: none; background: transparent; color: var(--ink-muted); font-size: 18px; cursor: pointer; width: 28px; height: 28px; border-radius: 50%; }
   .remove-image:hover { background: var(--paper-soft); color: var(--accent); }
   .bubble .bubble-image { display: block; max-width: min(220px, 100%); max-height: 220px; object-fit: contain; border-radius: 10px; margin-bottom: 8px; border: 1px solid rgba(255,255,255,0.35); }
-  .mobile-chat-fab { display: none; position: fixed; right: 18px; bottom: calc(18px + env(safe-area-inset-bottom)); width: 58px; height: 58px; border-radius: 18px; border: 1px solid var(--line); background: #fffaf3; color: var(--ink-soft); box-shadow: 0 8px 22px rgba(74, 66, 60, 0.22); z-index: 45; align-items: center; justify-content: center; cursor: pointer; }
+  .mobile-chat-fab { display: none; position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom)); width: 46px; height: 46px; border-radius: 14px; border: 1px solid var(--line); background: #fffaf3; color: var(--ink-soft); box-shadow: 0 6px 16px rgba(74, 66, 60, 0.18); z-index: 45; align-items: center; justify-content: center; cursor: pointer; }
+  .mobile-chat-fab svg { width: 21px; height: 21px; }
   .mobile-chat-fab:active { transform: translateY(1px); }
 
   /* Mobile */
@@ -694,7 +714,7 @@
       position: fixed;
       top: var(--header-h);
       bottom: 0;
-      z-index: 30;
+      z-index: 50;
       width: 88%;
       max-width: 340px;
     }
@@ -702,6 +722,20 @@
     .col-right.mobile-show { right: 0; border-left: 1px solid var(--line); border-right: none; }
     .mobile-toggle { display: flex; }
     .mobile-chat-fab { display: flex; }
+  }
+
+  @media (max-width: 600px) {
+    .app-header { padding: 8px 10px; }
+    .brand-text h1 { font-size: 17px; }
+    .brand-text p { font-size: 9.5px; }
+    .user-chip { padding: 5px 8px; font-size: 11.5px; }
+    .col-center { padding: 12px 10px 72px; }
+    .de-bai-block { padding: 16px 14px; border-radius: 11px; }
+    .de-bai-content { font-size: 14.5px; line-height: 1.7; }
+    .bubble { padding: 14px 15px; }
+    .bubble.user { max-width: 86%; }
+    .katex { font-size: 0.98em !important; }
+    .katex-display { font-size: 0.94em; }
   }
 
   /* Scrollbar styling */
@@ -841,6 +875,10 @@ let selectedImage = null;
 
 // ============ DRAWER CHỌN ĐỀ + MOBILE ============
 function openDeDrawer() {
+  // Trên điện thoại: đóng panel danh sách bài trước, rồi mở drawer chọn đề.
+  // Nếu để 2 panel chồng nhau cùng lúc, drawer chọn đề có thể bị panel trái che mất.
+  document.getElementById('colLeft').classList.remove('mobile-show');
+  document.getElementById('colRight').classList.remove('mobile-show');
   document.getElementById('deDrawer').classList.add('open');
   updateOverlay();
 }
