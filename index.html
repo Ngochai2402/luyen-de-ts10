@@ -727,6 +727,31 @@
   .mobile-chat-fab { display: none; position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom)); width: 46px; height: 46px; border-radius: 14px; border: 1px solid var(--line); background: #fffaf3; color: var(--ink-soft); box-shadow: 0 6px 16px rgba(74, 66, 60, 0.18); z-index: 45; align-items: center; justify-content: center; cursor: pointer; }
   .mobile-chat-fab svg { width: 21px; height: 21px; }
   .mobile-chat-fab:active { transform: translateY(1px); }
+  .mobile-return-chat {
+    display: none;
+    position: fixed;
+    right: 15px;
+    bottom: calc(72px + env(safe-area-inset-bottom));
+    width: 42px;
+    height: 42px;
+    border-radius: 14px;
+    border: 1px solid var(--line);
+    background: var(--accent);
+    color: white;
+    box-shadow: 0 6px 16px rgba(74, 66, 60, 0.18);
+    z-index: 46;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    animation: returnPulse 1.4s ease-in-out infinite;
+  }
+  .mobile-return-chat svg { width: 20px; height: 20px; }
+  .mobile-return-chat.show { display: flex; }
+  .mobile-return-chat:active { transform: translateY(1px); }
+  @keyframes returnPulse {
+    0%, 100% { box-shadow: 0 6px 16px rgba(74,66,60,0.18); }
+    50% { box-shadow: 0 6px 18px rgba(139,21,56,0.32); }
+  }
 
   /* Mobile */
   .mobile-toggle {
@@ -1007,6 +1032,13 @@
 
 <button class="mobile-chat-fab" id="mobileChatFab" type="button" aria-label="Mở khung chat">
   <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
+</button>
+
+<button class="mobile-return-chat" id="mobileReturnChat" type="button" aria-label="Quay lại phần đang trao đổi">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M12 5v14"></path>
+    <path d="M6 13l6 6 6-6"></path>
+  </svg>
 </button>
 
 <script>
@@ -1443,11 +1475,39 @@ function updateConversationOnly() {
   if (!el) return;
   el.innerHTML = renderConversation();
   renderKatex(el);
+  refreshMobileReturnButton();
   // Scroll đến bubble mới nhất
   setTimeout(() => {
     const last = el.querySelector('.bubble:last-child');
     if (last) last.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    refreshMobileReturnButton();
   }, 50);
+}
+
+function isMobileView() {
+  return window.matchMedia && window.matchMedia('(max-width: 1100px)').matches;
+}
+
+function refreshMobileReturnButton() {
+  const btn = document.getElementById('mobileReturnChat');
+  if (!btn) return;
+  const hasChat = chatHistory && chatHistory.length > 0;
+  if (isMobileView() && hasChat) btn.classList.add('show');
+  else btn.classList.remove('show');
+}
+
+function scrollToConversation() {
+  closeAllMobileDrawers();
+  const center = document.getElementById('colCenter');
+  const conversation = document.getElementById('conversation');
+  const section = document.querySelector('.conversation-section');
+  const target = conversation?.querySelector('.bubble:last-child') || conversation || section;
+  if (!center || !target) return;
+
+  const centerTop = center.getBoundingClientRect().top;
+  const targetTop = target.getBoundingClientRect().top;
+  const desiredTop = center.scrollTop + targetTop - centerTop - 90;
+  center.scrollTo({ top: Math.max(0, desiredTop), behavior: 'smooth' });
 }
 
 // ============ LOGIC ============
@@ -1497,10 +1557,12 @@ async function selectDe(n) {
   currentBai = 1;
   openGroups.clear();
   chatHistory = [];
+  refreshMobileReturnButton();
   CURRENT_DE_DATA = DE_CACHE[n];
 
   renderDeDrawer();
   renderBaiList();
+  refreshMobileReturnButton();
   renderMainContent();
   renderCauDanPanel();
 }
@@ -1508,6 +1570,7 @@ async function selectDe(n) {
 function selectBai(n) {
   currentBai = n;
   chatHistory = [];
+  refreshMobileReturnButton();
   renderBaiList();
   renderMainContent();
   renderCauDanPanel();
@@ -1851,6 +1914,9 @@ document.getElementById('mobileChatFab').onclick = () => {
   document.getElementById('overlay').classList.add('show');
   setTimeout(() => document.getElementById('chatInput')?.focus(), 80);
 };
+
+document.getElementById('mobileReturnChat').onclick = scrollToConversation;
+window.addEventListener('resize', refreshMobileReturnButton);
 
 // ============ INIT ============
 window.addEventListener('load', () => {
