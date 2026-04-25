@@ -727,6 +727,9 @@
   .mobile-chat-fab { display: none; position: fixed; right: 14px; bottom: calc(14px + env(safe-area-inset-bottom)); width: 46px; height: 46px; border-radius: 14px; border: 1px solid var(--line); background: #fffaf3; color: var(--ink-soft); box-shadow: 0 6px 16px rgba(74, 66, 60, 0.18); z-index: 45; align-items: center; justify-content: center; cursor: pointer; }
   .mobile-chat-fab svg { width: 21px; height: 21px; }
   .mobile-chat-fab:active { transform: translateY(1px); }
+  .mobile-de-fab { display: none; position: fixed; left: 12px; top: calc(12px + env(safe-area-inset-top)); height: 40px; padding: 0 12px; border-radius: 14px; border: 1px solid var(--line); background: rgba(255,250,243,0.96); color: var(--accent); box-shadow: 0 6px 16px rgba(74, 66, 60, 0.16); z-index: 47; align-items: center; justify-content: center; gap: 6px; cursor: pointer; font-weight: 700; font-size: 13px; backdrop-filter: blur(8px); }
+  .mobile-de-fab svg { width: 18px; height: 18px; }
+  .mobile-de-fab:active { transform: translateY(1px); }
   .mobile-return-chat {
     display: none;
     position: fixed;
@@ -783,6 +786,7 @@
     .col-right.mobile-show { right: 0; border-left: 1px solid var(--line); border-right: none; }
     .mobile-toggle { display: flex; }
     .mobile-chat-fab { display: flex; }
+    .mobile-de-fab { display: flex; }
   }
 
   @media (max-width: 600px) {
@@ -1029,6 +1033,11 @@
   </aside>
 
 </div>
+
+<button class="mobile-de-fab" id="mobileDeFab" type="button" aria-label="Mở danh sách đề và bài">
+  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+  <span>Đề</span>
+</button>
 
 <button class="mobile-chat-fab" id="mobileChatFab" type="button" aria-label="Mở khung chat">
   <svg width="25" height="25" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg>
@@ -1307,6 +1316,16 @@ document.addEventListener('touchend', (e) => {
 
 // Nút mobile toggle trên header
 document.getElementById('btnLeft').onclick = () => {
+  const left = document.getElementById('colLeft');
+  const wasOpen = left.classList.contains('mobile-show');
+  closeAllMobileDrawers();
+  if (!wasOpen) {
+    left.classList.add('mobile-show');
+    updateOverlay();
+  }
+};
+
+document.getElementById('mobileDeFab').onclick = () => {
   const left = document.getElementById('colLeft');
   const wasOpen = left.classList.contains('mobile-show');
   closeAllMobileDrawers();
