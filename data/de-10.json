@@ -1,0 +1,365 @@
+{
+  "de_so": 10,
+  "cum": 4,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "a) Vẽ đồ thị hàm số $y = \\dfrac{1}{2}x^2 \\,(P)$.\n\nb) Tìm điểm $M$ thuộc $(P)$ có tung độ gấp đôi hoành độ và khác $0$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol",
+        "Thay $y = 2x$ vào (P)",
+        "Giải phương trình bậc hai",
+        "Loại nghiệm $x = 0$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Điểm thuộc đồ thị",
+        "Giải phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ điểm $M$ cần tìm là $(4; 8)$.",
+      "goi_y_cap_1": "Câu a: Lập bảng với x = -2, -1, 0, 1, 2. Parabol bề lõm lên trên.\n\nCâu b: 'Tung độ gấp đôi hoành độ' nghĩa là $y = 2x$. Thay vào (P): $\\dfrac{1}{2}x^2 = 2x$. Loại x = 0.",
+      "goi_y_cap_2": "Câu a:\n- $x = -2 \\to y = 2$; $x = -1 \\to y = 0{,}5$; $x = 0 \\to y = 0$; $x = 1 \\to y = 0{,}5$; $x = 2 \\to y = 2$\n\nCâu b:\n- $y = 2x$ thay vào (P): $\\dfrac{1}{2}x^2 = 2x$\n- $\\dfrac{1}{2}x^2 - 2x = 0 \\Leftrightarrow x(x - 4) = 0$\n- $x = 0$ (loại) hoặc $x = 4$ (nhận)\n- $x = 4 \\Rightarrow y = 8$\n- Vậy $M(4; 8)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{1}{2}x^2$ | $2$ | $0{,}5$ | $0$ | $0{,}5$ | $2$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại O, bề lõm lên trên.\n\n**Câu b) Tìm điểm M:**\n\nVì điểm $M$ có tung độ gấp đôi hoành độ nên $y = 2x$.\n\nTa có phương trình: $\\dfrac{1}{2}x^2 = 2x$\n\n$\\Leftrightarrow \\dfrac{1}{2}x^2 - 2x = 0$\n\n$\\Leftrightarrow x_1 = 0$; $x_2 = 4$.\n\nVì điểm $M$ khác gốc tọa độ $O(0; 0)$ nên chọn $x = 4$.\n\nVới $x = 4$ suy ra $y = 8$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{M(4; 8)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = x²/2 bề lõm quay lên trên, trên hệ trục Oxy với các điểm đặc biệt (-2; 2), (-1; 0,5), (0; 0), (1; 0,5), (2; 2).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol $y = \\dfrac{1}{2}x^2$ thế nào.",
+          "'Tung độ gấp đôi hoành độ' viết công thức ra sao?",
+          "Em không biết loại nghiệm nào."
+        ],
+        "dinh_huong": [
+          "Em định lập bảng với x = -2, -1, 0, 1, 2 — đúng không?",
+          "Em định thay $y = 2x$ vào (P) — đúng chứ?",
+          "Em định loại x = 0 vì M khác 0 — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em giải ra $x = 0$ và $x = 4$ — đúng chưa?",
+          "Em ra $M(4; 8)$ — đáp án có đúng không?",
+          "Parabol đi qua $(2; 2)$ và $(-2; 2)$ — đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết đưa về dạng tích.",
+          "Em quên loại nghiệm $x = 0$.",
+          "Em nhầm $y = \\dfrac{1}{2}x$ thay vì $y = 2x$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-10/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète",
+      "de_bai": "Cho phương trình: $3x^2 - 2x - 2 = 0$.\n\na) Chứng tỏ phương trình luôn có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, tính giá trị biểu thức $A = x_1^3 + x_2^3 - 3x_1^2 x_2 - 3x_1 x_2^2$.",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Phân tích $A = (x_1 + x_2)(x_1^2 - x_1 x_2 + x_2^2) - 3x_1 x_2(x_1 + x_2)$",
+        "Rút gọn thành $A = (x_1 + x_2)[(x_1^2 + x_2^2) - 4x_1 x_2]$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète",
+        "$x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 - x_1 x_2 + x_2^2)$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "dap_so": "$A = \\dfrac{80}{27}$.",
+      "goi_y_cap_1": "Câu a: Tính Δ = 4 + 24 = 28 > 0.\n\nCâu b: Phân tích $A = (x_1 + x_2)(x_1^2 - x_1 x_2 + x_2^2) - 3x_1 x_2(x_1 + x_2)$.\nTa có $x_1^2 - x_1 x_2 + x_2^2 = (x_1^2 + x_2^2) - x_1 x_2$.\nSau rút gọn: $A = (x_1 + x_2)[(x_1^2 + x_2^2) - 4x_1 x_2]$.",
+      "goi_y_cap_2": "Câu a:\n- $\\Delta = (-2)^2 - 4 \\cdot 3 \\cdot (-2) = 4 + 24 = 28 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{2}{3}$, $x_1 x_2 = \\dfrac{-2}{3}$\n- $x_1^2 + x_2^2 = \\left(\\dfrac{2}{3}\\right)^2 - 2 \\cdot \\left(-\\dfrac{2}{3}\\right) = \\dfrac{4}{9} + \\dfrac{4}{3} = \\dfrac{16}{9}$\n- Phân tích: $A = (x_1 + x_2)(x_1^2 - x_1 x_2 + x_2^2) - 3x_1 x_2(x_1 + x_2)$\n- $A = (x_1+x_2)[(x_1^2+x_2^2) - 4x_1 x_2]$\n- $A = \\dfrac{2}{3} \\cdot \\left[\\dfrac{16}{9} - 4 \\cdot \\left(-\\dfrac{2}{3}\\right)\\right]$\n- $A = \\dfrac{2}{3} \\cdot \\left[\\dfrac{16}{9} + \\dfrac{8}{3}\\right]$\n- $A = \\dfrac{2}{3} \\cdot \\left[\\dfrac{16}{9} + \\dfrac{24}{9}\\right] = \\dfrac{2}{3} \\cdot \\dfrac{40}{9} = \\dfrac{80}{27}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $3x^2 - 2x - 2 = 0$ với $a = 3; b = -2; c = -2$.\n\n$\\Delta = b^2 - 4ac = (-2)^2 - 4 \\cdot 3 \\cdot (-2) = 4 + 24 = 28 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{2}{3} \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{-2}{3} \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = \\left(\\dfrac{2}{3}\\right)^2 - 2 \\cdot \\left(-\\dfrac{2}{3}\\right) = \\dfrac{4}{9} + \\dfrac{4}{3} = \\dfrac{16}{9}$.\n\nTa có:\n$$A = x_1^3 + x_2^3 - 3x_1^2 x_2 - 3x_1 x_2^2$$\n$$= (x_1 + x_2)(x_1^2 - x_1 x_2 + x_2^2) - 3x_1 x_2(x_1 + x_2)$$\n$$= (x_1 + x_2)[(x_1^2 + x_2^2) - 4x_1 x_2]$$\n\nThay số:\n$$A = \\dfrac{2}{3} \\cdot \\left[\\dfrac{16}{9} - 4 \\cdot \\left(-\\dfrac{2}{3}\\right)\\right] = \\dfrac{2}{3} \\cdot \\left[\\dfrac{16}{9} + \\dfrac{8}{3}\\right]$$\n$$= \\dfrac{2}{3} \\cdot \\left[\\dfrac{16}{9} + \\dfrac{24}{9}\\right] = \\dfrac{2}{3} \\cdot \\dfrac{40}{9} = \\boxed{\\dfrac{80}{27}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Biểu thức A phức tạp quá, em không biết xử lý sao.",
+          "Em quên công thức $x_1^3 + x_2^3$.",
+          "Em không biết $3x_1^2 x_2 + 3x_1 x_2^2$ có thể rút gọn."
+        ],
+        "dinh_huong": [
+          "Em định gộp $-3x_1^2 x_2 - 3x_1 x_2^2 = -3x_1 x_2(x_1 + x_2)$ — đúng không?",
+          "Em định dùng $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 - x_1 x_2 + x_2^2)$ — đúng chứ?",
+          "Em định rút $A = (x_1 + x_2)[(x_1^2+x_2^2) - 4x_1 x_2]$ — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1 + x_2 = \\dfrac{2}{3}, x_1 x_2 = -\\dfrac{2}{3}$ — đúng không?",
+          "Em ra $x_1^2 + x_2^2 = \\dfrac{16}{9}$ — đúng chưa?",
+          "Em ra $A = \\dfrac{80}{27}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết gộp các hạng tử có chung $x_1 x_2$.",
+          "Em nhầm dấu khi tính $-4 \\cdot (-\\dfrac{2}{3})$.",
+          "Em cộng phân số bị sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Xác suất - Chọn tấm bìa và sắp xếp",
+      "de_bai": "Có $6$ tấm bìa giống nhau được đánh số từ $1$ đến $6$ (trên mỗi tấm bìa được ghi đúng một chữ số). Chọn ngẫu nhiên đồng thời $4$ tấm bìa, xem số ghi trên các tấm bìa và sắp xếp chúng theo thứ tự từ nhỏ đến lớn, từ đó thu được kết quả là một số có $4$ chữ số dạng $\\overline{abcd}$, trong đó $a < b < c < d$. Tính xác suất số thu được (sau khi sắp xếp từ nhỏ đến lớn) là số có chữ số cuối lớn hơn chữ số đầu $3$ đơn vị.",
+      "phuong_phap_duoc_dung": [
+        "Chọn 4 từ 6 tấm bìa: $C_6^4 = 15$ cách",
+        "Mỗi cách chọn tạo ra duy nhất 1 số $\\overline{abcd}$ với $a < b < c < d$",
+        "Liệt kê các trường hợp $d = a + 3$",
+        "Công thức xác suất cổ điển"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tổ hợp chọn $k$ từ $n$ phần tử",
+        "Sắp xếp thứ tự tăng",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "$P(A) = \\dfrac{1}{5}$.",
+      "goi_y_cap_1": "Tổng cách chọn 4/6 = $C_6^4 = 15$.\nVới $d = a + 3$: liệt kê các trường hợp $a = 1, 2, 3$ và ứng với mỗi a thì b, c chỉ có 1 cách.\n$n(A) = 3$ → $P(A) = 3/15 = 1/5$.",
+      "goi_y_cap_2": "- $n(\\Omega) = C_6^4 = \\dfrac{6!}{4! \\cdot 2!} = 15$\n- Không gian mẫu: {1234, 1235, 1236, 1245, 1246, 1256, 1345, 1346, 1356, 1456, 2345, 2346, 2356, 2456, 3456}\n- Biến cố A: $d - a = 3$ nên $d = a + 3$\n- Trường hợp $a = 1 \\Rightarrow d = 4$: b, c ∈ {2, 3} → 1 bộ (1, 2, 3, 4)\n- Trường hợp $a = 2 \\Rightarrow d = 5$: b, c ∈ {3, 4} → 1 bộ (2, 3, 4, 5)\n- Trường hợp $a = 3 \\Rightarrow d = 6$: b, c ∈ {4, 5} → 1 bộ (3, 4, 5, 6)\n- $n(A) = 3$\n- $P(A) = \\dfrac{3}{15} = \\dfrac{1}{5}$",
+      "loi_giai_day_du": "**a) Tìm không gian mẫu:**\n\nChọn ngẫu nhiên đồng thời $4$ tấm bìa từ $6$ tấm bìa, số cách chọn là:\n$$n(\\Omega) = C_6^4 = \\dfrac{6 \\cdot 5 \\cdot 4 \\cdot 3}{4 \\cdot 3 \\cdot 2 \\cdot 1} = 15 \\text{ (cách chọn)}$$\n\nVì các chữ số được sắp xếp theo thứ tự $a < b < c < d$ nên mỗi cách chọn $4$ tấm bìa tương ứng với duy nhất một số có $4$ chữ số.\n\nCác kết quả có thể xảy ra là:\n$$\\Omega = \\{1234; 1235; 1236; 1245; 1246; 1256; 1345; 1346; 1356; 1456; 2345; 2346; 2356; 2456; 3456\\}$$\n\n**b) Tìm khả năng thuận lợi của biến cố A:**\n\nBiến cố $A$: \"Số thu được có chữ số cuối lớn hơn chữ số đầu $3$ đơn vị\".\n\nVì $a < b < c < d$ và $d = a + 3$, ta liệt kê các trường hợp:\n\n- Trường hợp 1: $a = 1 \\Rightarrow d = 4$. Các số $b, c$ thuộc $\\{2, 3\\}$. Có 1 bộ: $(1, 2, 3, 4)$.\n- Trường hợp 2: $a = 2 \\Rightarrow d = 5$. Các số $b, c$ thuộc $\\{3, 4\\}$. Có 1 bộ: $(2, 3, 4, 5)$.\n- Trường hợp 3: $a = 3 \\Rightarrow d = 6$. Các số $b, c$ thuộc $\\{4, 5\\}$. Có 1 bộ: $(3, 4, 5, 6)$.\n\nSuy ra $n(A) = 3$.\n\n**c) Tính xác suất:**\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{3}{15} = \\boxed{\\dfrac{1}{5}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết chọn 4 từ 6 có bao nhiêu cách.",
+          "'Chữ số cuối lớn hơn chữ số đầu 3 đơn vị' nghĩa là gì thầy?",
+          "Em không biết liệt kê các số có 4 chữ số."
+        ],
+        "dinh_huong": [
+          "Em định dùng $C_6^4 = 15$ — đúng không?",
+          "Em định liệt kê: $a = 1, 2, 3$ vì $d \\leq 6$ — đúng hướng chứ?",
+          "Em định kiểm tra $b, c$ có phải chọn được không — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $n(\\Omega) = 15$ — đúng không?",
+          "Em ra $n(A) = 3$ — đúng chưa?",
+          "Em ra $P(A) = \\dfrac{1}{5}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $d - a = 3$ nghĩa là hiệu đúng 3 (chứ không phải ≥ 3).",
+          "Em bỏ sót/đếm trùng 1 bộ.",
+          "Em không biết có mấy giá trị $a$ có thể."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Diện tích phần đất lát gạch",
+      "de_bai": "Bác An sở hữu một mảnh đất hình chữ nhật. Bác quyết định chia mảnh đất này thành hai khu vực: một khu vực làm hồ nuôi cá hình chữ nhật và một khu vực trồng cây ăn quả hình vuông, như hình vẽ bên dưới. Khu đất có chiều rộng tổng thể là $x$ (mét), chiều dài tổng thể là $y$ (mét). Bác An đã thiết kế sao cho diện tích khu đất làm hồ nuôi cá bằng $4$ lần diện tích khu đất trồng cây ăn quả và phần đường đi xung quanh hồ cá với các lối nhỏ đi qua đỉnh hình vuông đất trồng cây ăn quả đều bằng $1$ (mét). Sau khi thiết kế hai khu vực trên, phần đất còn lại bác sẽ lát gạch toàn bộ để đi lại.\n\na) Viết biểu thức tính diện tích $S$ theo $x$ của phần đất dùng để lát gạch.\n\nb) Biết diện tích đất dùng dành để lát gạch là $50$ m². Tính chiều dài $y$ (m) của khu đất.",
+      "phuong_phap_duoc_dung": [
+        "Đường chéo hình vuông đất trồng cây = x - 2 (do lối đi 1m mỗi bên)",
+        "Diện tích hình vuông theo đường chéo: $S = \\dfrac{d^2}{2}$",
+        "Diện tích hồ = 4 × diện tích trồng cây",
+        "Hồ cá HCN có chiều rộng = $x - 2$",
+        "$S = x \\cdot y - S_{hồ} - S_{trồng cây}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình vuông (theo đường chéo)",
+        "Diện tích hình chữ nhật",
+        "Phương trình chứa biến",
+        "Giải phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = xy - \\dfrac{5(x-2)^2}{2}$ (m²). b) $y = 15$ m.",
+      "goi_y_cap_1": "Câu a: Đường chéo hình vuông $d = x - 1 - 1 = x - 2$ (m). S hv = $d^2/2 = (x-2)^2/2$. S hồ = 4 × S hv = $2(x-2)^2$. S còn lại = $xy - S_{hv} - S_{hồ}$.\n\nCâu b: Chiều rộng hồ = $x - 2$, chiều dài hồ = $y - 3 - (x - 2) = y - x - 1$. S hồ cũng = $(x-2)(y-x-1)$. Đối chiếu: $(x-2)(y-x-1) = 2(x-2)^2 \\Rightarrow y = 3x - 3$. Thay vào S = 50 → giải phương trình.",
+      "goi_y_cap_2": "Câu a:\n- Lối đi 1m xung quanh → đường chéo hình vuông: $d = x - 1 - 1 = x - 2$\n- $S_{trồng cây} = \\dfrac{d \\cdot d}{2} = \\dfrac{(x-2)^2}{2}$\n- $S_{hồ} = 4 \\cdot \\dfrac{(x-2)^2}{2} = 2(x-2)^2$\n- $S_{tổng} = xy$\n- $S_{lát gạch} = xy - S_{hồ} - S_{trồng cây}$\n- $S = xy - 2(x-2)^2 - \\dfrac{(x-2)^2}{2} = xy - \\dfrac{4(x-2)^2 + (x-2)^2}{2}$\n- $S = xy - \\dfrac{5(x-2)^2}{2}$\n\nCâu b:\n- Chiều rộng hồ: $x - 1 - 1 = x - 2$\n- Chiều dài hồ: $y - 3 - (x - 2) = y - x - 1$\n- Tính diện tích hồ theo công thức dài×rộng: $S_{hồ} = (x-2)(y-x-1)$\n- Theo câu a: $S_{hồ} = 2(x-2)^2$\n- $(x-2)(y-x-1) = 2(x-2)^2$\n- Vì $x > 2$ nên chia 2 vế cho $(x-2)$: $y - x - 1 = 2(x-2)$\n- $y = 2x - 4 + x + 1 = 3x - 3$\n- Mà $S_{lát gạch} = 50$: $xy - \\dfrac{5(x-2)^2}{2} = 50$\n- Thay $y = 3x - 3$: $x(3x-3) - \\dfrac{5(x-2)^2}{2} = 50$\n- $3x^2 - 3x - \\dfrac{5(x^2 - 4x + 4)}{2} = 50$\n- $6x^2 - 6x - 5x^2 + 20x - 20 = 100$\n- $x^2 + 14x - 120 = 0$\n- $x_1 = 6$ (nhận), $x_2 = -20$ (loại)\n- $y = 3 \\cdot 6 - 3 = 15$ (m)",
+      "loi_giai_day_du": "**Câu a) Biểu thức tính diện tích S phần đất lát gạch:**\n\nDo lối đi xung quanh rộng $1$ m nên đường chéo của hình vuông trồng cây là:\n$$d = x - 1 - 1 = x - 2 \\text{ (m)}$$\n\nDiện tích khu đất trồng cây (hình vuông) tính theo hai đường chéo là:\n$$S_{hc} = \\dfrac{d \\cdot d}{2} = \\dfrac{(x-2)^2}{2} \\text{ (m}^2\\text{)}$$\n\nDiện tích hồ cá (hình chữ nhật) bằng $4$ lần diện tích khu đất trồng cây nên:\n$$S_{ca} = 4 \\cdot \\dfrac{(x-2)^2}{2} = 2(x-2)^2 \\text{ (m}^2\\text{)}$$\n\nDiện tích tổng thể mảnh đất là: $S_{tong} = x \\cdot y$ (m²).\n\nDiện tích phần đất lát gạch bằng diện tích tổng thể trừ đi diện tích hồ cá và diện tích trồng cây:\n$$S = S_{tong} - S_{ca} - S_{hc} = xy - 2(x-2)^2 - \\dfrac{(x-2)^2}{2}$$\n$$S = xy - \\dfrac{4(x-2)^2 + (x-2)^2}{2}$$\n$$\\boxed{S = xy - \\dfrac{5(x-2)^2}{2}}$$\n\n**Câu b) Tính chiều dài y của khu đất:**\n\nChiều rộng của hồ cá là: $x - 1 - 1 = x - 2$ (m).\n\nChiều dài của hồ cá là: $y - 3 - (x - 2)$ (m).\n\nDiện tích hồ cá theo công thức dài × rộng là:\n$$S_{ca} = (x-2)[y - 3 - (x - 2)] = (x-2)(y - x - 1)$$\n\nTheo câu a, $S_{ca} = 2(x-2)^2$, nên:\n$$(x-2)(y - x - 1) = 2(x-2)^2$$\n\nVì $x > 2$ (do có lối đi 1m mỗi bên), chia hai vế cho $(x-2)$:\n$$y - x - 1 = 2(x-2)$$\n$$y = 3x - 3$$\n\nTheo đề bài, diện tích phần lát gạch là $50$ m², ta có phương trình:\n$$xy - \\dfrac{5(x-2)^2}{2} = 50$$\n\nThay $y = 3x - 3$:\n$$x(3x-3) - \\dfrac{5(x-2)^2}{2} = 50$$\n$$3x^2 - 3x - \\dfrac{5(x^2 - 4x + 4)}{2} = 50$$\n\nNhân $2$ hai vế:\n$$6x^2 - 6x - (5x^2 - 20x + 20) = 100$$\n$$6x^2 - 6x - 5x^2 + 20x - 20 = 100$$\n$$x^2 + 14x - 120 = 0$$\n\n$x_1 = 6$ (nhận), $x_2 = -20$ (loại).\n\nVới $x = 6$, ta được $y = 3 \\cdot 6 - 3 = 15$ (m).\n\nVậy chiều dài của khu đất là $\\boxed{y = 15 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh đất HCN rộng x(m), dài y(m). Bên trong: hồ cá HCN (màu xám) và khu đất trồng cây hình vuông (xoay 45°, có các đỉnh chạm lối đi). Xung quanh hồ và cây là lối đi rộng 1m.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hình dung được 'hình vuông xoay 45°' trông thế nào.",
+          "'Lối đi 1m qua đỉnh hình vuông' nghĩa là gì thầy?",
+          "Em không biết tính S hình vuông khi biết đường chéo."
+        ],
+        "dinh_huong": [
+          "Em định tính đường chéo hv = x - 2 — đúng không?",
+          "Em định dùng $S_{hv} = \\dfrac{d^2}{2}$ — đúng chứ?",
+          "Câu b em định đối chiếu 2 cách tính S hồ để ra y theo x — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = xy - \\dfrac{5(x-2)^2}{2}$ — đúng không?",
+          "Em ra $y = 3x - 3$ — đúng chưa?",
+          "Em ra $y = 15$ m — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết $S$ hình vuông theo đường chéo.",
+          "Em không biết chiều dài hồ là $y - x - 1$.",
+          "Em không biết đối chiếu để rút $y = 3x - 3$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-10/bai4-manhdat.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Mặt cầu và hồ cá",
+      "de_bai": "Một hồ cá có hình dạng là một phần của hình cầu tâm $O$. Hồ cá được đặt trên một giá đỡ như hình vẽ. Người ta đo được đường kính của miệng hồ là $AB = 60$ cm. Khoảng cách từ miệng hồ đến vị trí sâu nhất là $IT = 90$ cm.\n\na) Tính bán kính $R$ của mặt cầu tạo nên hồ cá.\n\nb) Người ta rót nước vào hồ sao cho mặt nước cách miệng hồ $40$ cm. Tính thể tích nước rót vào (kết quả làm tròn đến chữ số thập phân thứ nhất, đơn vị lít). Biết công thức tính thể tích hình cầu bán kính $R$ là $V = \\dfrac{4}{3}\\pi R^3$.",
+      "phuong_phap_duoc_dung": [
+        "I trung điểm AB (O, I, T thẳng hàng)",
+        "Tam giác OIA vuông tại I, định lý Pythagore",
+        "$OI = IT - R = 90 - R$",
+        "$OA = R$",
+        "Nửa hình cầu khi $h = R$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Mặt cầu và đường kính",
+        "Định lý Pythagore",
+        "Thể tích hình cầu, nửa hình cầu",
+        "Đổi đơn vị cm³ ↔ lít"
+      ],
+      "dap_so": "a) $R = 50$ cm. b) Thể tích nước = $261{,}8$ lít.",
+      "goi_y_cap_1": "Câu a: I là trung điểm AB (vì AB là đường kính miệng hồ) → IA = 30. O nằm giữa I và T → OI = IT - OT = 90 - R. Tam giác OIA vuông tại I: $R^2 = OI^2 + IA^2 = (90-R)^2 + 30^2$. Giải ra R.\n\nCâu b: Khoảng cách mặt nước đến T = IT - 40 = 50 = R → mặt nước đi qua tâm O → phần nước là nửa hình cầu. V = $\\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi R^3$.",
+      "goi_y_cap_2": "Câu a:\n- Gọi $R$ (cm) là bán kính mặt cầu\n- I trung điểm AB → $IA = \\dfrac{AB}{2} = 30$ cm\n- O, I, T thẳng hàng, O nằm giữa I và T\n- $OT = R$, $IT = 90$ → $OI = IT - OT = 90 - R$\n- $\\triangle OIA$ vuông tại I, Pythagore: $OA^2 = OI^2 + IA^2$\n- $R^2 = (90-R)^2 + 30^2$\n- $R^2 = 8100 - 180R + R^2 + 900$\n- $180R = 9000$\n- $R = 50$ cm\n\nCâu b:\n- $h = IT - 40 = 90 - 40 = 50$ cm = R\n- → mặt nước đi qua tâm O → phần nước là nửa hình cầu bán kính R = 50 cm\n- $V_{nc} = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 50^3 = \\dfrac{250\\,000 \\pi}{3}$ cm³\n- Đổi: 1 lít = 1000 cm³\n- $V_{nc} = \\dfrac{250\\,000 \\pi}{3 \\cdot 1000} = \\dfrac{250\\pi}{3} \\approx 261{,}8$ lít",
+      "loi_giai_day_du": "**Câu a) Tính bán kính R:**\n\nGọi $R$ (cm) là bán kính của mặt cầu tạo nên hồ cá ($R > 0$).\n\nVì $AB$ là đường kính miệng hồ nên $I$ là trung điểm của $AB$, suy ra:\n$$IA = \\dfrac{AB}{2} = \\dfrac{60}{2} = 30 \\text{ (cm)}$$\n\nVì $T$ là điểm sâu nhất của hồ cá nên $O, I, T$ thẳng hàng và $OT = R$ là bán kính.\n\nVì $IT = 90$ cm và $IT > R$ nên điểm $O$ nằm giữa $I$ và $T$, ta có:\n$$OI = IT - OT = 90 - R$$\n\n$\\triangle OIA$ vuông tại $I$ (do $OI \\perp AB$ tại $I$).\n\nÁp dụng định lý Pythagore:\n$$OA^2 = OI^2 + IA^2$$\n$$R^2 = (90 - R)^2 + 30^2$$\n$$R^2 = 8100 - 180R + R^2 + 900$$\n$$180R = 9000$$\n$$R = 50 \\text{ (cm)}$$\n\nVậy bán kính $R$ của mặt cầu là $\\boxed{R = 50 \\text{ cm}}$.\n\n**Câu b) Tính thể tích nước rót vào hồ:**\n\nKhoảng cách từ mặt nước đến điểm sâu nhất $T$ của hồ là:\n$$h = IT - 40 = 90 - 40 = 50 \\text{ (cm)}$$\n\nVì $h = R = 50$ cm nên mặt nước đi qua tâm $O$ của mặt cầu.\n\nKhi đó, phần nước trong hồ tạo thành một **nửa hình cầu** bán kính $R = 50$ cm.\n\nThể tích nước rót vào hồ là:\n$$V_{nc} = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 50^3 = \\dfrac{250\\,000 \\pi}{3} \\text{ (cm}^3\\text{)}$$\n\nĐổi sang đơn vị lít (1 lít = 1000 cm³):\n$$V_{nc} = \\dfrac{250\\,000 \\pi}{3 \\cdot 1000} = \\dfrac{250\\pi}{3} \\approx 261{,}799... \\text{ (lít)}$$\n\nLàm tròn đến chữ số thập phân thứ nhất, ta được $\\boxed{261{,}8}$ lít.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hồ cá hình cầu tâm O, miệng hồ là đường tròn có đường kính AB = 60 cm, I trung điểm AB, T là điểm sâu nhất với IT = 90 cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'phần của hình cầu' nghĩa là sao.",
+          "Em không biết vì sao O nằm giữa I và T.",
+          "Em không thấy tam giác vuông ở đâu trong hình."
+        ],
+        "dinh_huong": [
+          "Em định gọi R bán kính, tính IA = 30 — đúng không?",
+          "Em định dùng Pythagore cho $\\triangle OIA$ — đúng hướng chứ?",
+          "Câu b em định kiểm tra $h = R$ để dùng nửa hình cầu — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $R = 50$ cm — có đúng không?",
+          "Em nhận ra mặt nước đi qua tâm O — đúng không?",
+          "Em ra V ≈ 261,8 lít — có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $OI = IT$ (không trừ R).",
+          "Em không đổi cm³ → lít.",
+          "Em không nhận ra phần nước là nửa hình cầu."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-10/bai5-hoca.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hệ phương trình (pha nhiên liệu)",
+      "de_bai": "Một nhà máy sản xuất nhiên liệu sinh học bằng cách pha hai nguyên liệu là chất A và chất B với nhau. Hiện tại, trong kho có $135$ lít chất A và $615$ lít chất B. Để tạo ra nhiên liệu loại I thì tỉ lệ chất A và chất B là $1 : 9$. Để tạo ra nhiên liệu loại II thì tỉ lệ chất A và chất B là $1 : 3$. Hỏi nếu sử dụng hết chất A và chất B thì có thể sản xuất được bao nhiêu lít nhiên liệu loại I và bao nhiêu lít nhiên liệu loại II?",
+      "phuong_phap_duoc_dung": [
+        "Đặt $x$ là số lít NL loại I, $y$ là số lít NL loại II",
+        "Tỉ lệ 1:9 → chất A là $\\dfrac{1}{10}x$, chất B là $\\dfrac{9}{10}x$",
+        "Tỉ lệ 1:3 → chất A là $\\dfrac{1}{4}y$, chất B là $\\dfrac{3}{4}y$",
+        "Lập hệ phương trình"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tỉ lệ pha trộn",
+        "Hệ phương trình bậc nhất hai ẩn"
+      ],
+      "dap_so": "Nhà máy sản xuất được 350 lít nhiên liệu loại I và 400 lít nhiên liệu loại II.",
+      "goi_y_cap_1": "Gọi x là lít NL loại I, y là lít NL loại II.\nTỉ lệ 1:9 → A = x/10, B = 9x/10.\nTỉ lệ 1:3 → A = y/4, B = 3y/4.\nHệ: $\\dfrac{x}{10} + \\dfrac{y}{4} = 135$ và $\\dfrac{9x}{10} + \\dfrac{3y}{4} = 615$.",
+      "goi_y_cap_2": "- Gọi $x$ (lít) là số lít NL loại I, $y$ (lít) là số lít NL loại II ($x, y > 0$)\n- Loại I tỉ lệ $1:9$: A = $\\dfrac{1}{10}x$, B = $\\dfrac{9}{10}x$\n- Loại II tỉ lệ $1:3$: A = $\\dfrac{1}{4}y$, B = $\\dfrac{3}{4}y$\n- Hết 135 lít A: $\\dfrac{1}{10}x + \\dfrac{1}{4}y = 135$ (1)\n- Hết 615 lít B: $\\dfrac{9}{10}x + \\dfrac{3}{4}y = 615$ (2)\n- Giải hệ: $x = 350$, $y = 400$",
+      "loi_giai_day_du": "Gọi $x$ (lít) là số lít nhiên liệu loại I và $y$ (lít) là số lít nhiên liệu loại II nhà máy sản xuất được ($x, y > 0$).\n\n**Nhiên liệu loại I** có tỉ lệ chất A và chất B là $1 : 9$ nên:\n- Lượng chất A là $\\dfrac{1}{10}x$ (lít)\n- Lượng chất B là $\\dfrac{9}{10}x$ (lít)\n\n**Nhiên liệu loại II** có tỉ lệ chất A và chất B là $1 : 3$ nên:\n- Lượng chất A là $\\dfrac{1}{4}y$ (lít)\n- Lượng chất B là $\\dfrac{3}{4}y$ (lít)\n\nDo sử dụng hết $135$ lít chất A nên ta có phương trình:\n$$\\dfrac{1}{10}x + \\dfrac{1}{4}y = 135 \\quad (1)$$\n\nDo sử dụng hết $615$ lít chất B nên ta có phương trình:\n$$\\dfrac{9}{10}x + \\dfrac{3}{4}y = 615 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} \\dfrac{1}{10}x + \\dfrac{1}{4}y = 135 \\\\ \\dfrac{9}{10}x + \\dfrac{3}{4}y = 615 \\end{cases} \\Rightarrow \\begin{cases} x = 350 \\\\ y = 400 \\end{cases}$$\n\nVậy nhà máy sản xuất được $\\boxed{350}$ lít nhiên liệu loại I và $\\boxed{400}$ lít nhiên liệu loại II.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'tỉ lệ 1:9' có nghĩa gì trong pha chế.",
+          "'Tỉ lệ 1:9 của x lít' thì lượng A là bao nhiêu?",
+          "Em không biết đặt ẩn thế nào."
+        ],
+        "dinh_huong": [
+          "Em định gọi x là NL I, y là NL II — đúng không?",
+          "Em định viết A trong I là $\\dfrac{x}{10}$ (vì $\\dfrac{1}{1+9}$) — đúng hướng chứ?",
+          "Em định lập hệ 2 phương trình từ A và B — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ đúng 2 phương trình chưa?",
+          "Em giải ra $x = 350, y = 400$ — đúng không?",
+          "Em ra 350 lít I và 400 lít II — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm tỉ lệ $1:9$ thành A = $\\dfrac{1}{9}x$.",
+          "Em quy đồng hệ phương trình bị sai.",
+          "Em giải hệ bị sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn, tiếp tuyến và tứ giác nội tiếp",
+      "de_bai": "Cho đường tròn $(O)$ có $AB$ là dây không qua tâm. Gọi $H$ là trung điểm của $AB$. Tiếp tuyến tại $A$ của đường tròn $(O)$ cắt tia $OH$ tại $K$.\n\na) Chứng minh: $\\widehat{KBO} = 90°$ và $KAOB$ là tứ giác nội tiếp.\n\nb) Kẻ đường kính $AC$ của đường tròn $(O)$. Chứng minh: $OH \\cdot OK = OC^2$, từ đó suy ra $\\widehat{OCH} = \\widehat{OKC}$.\n\nc) Tiếp tuyến tại $C$ của đường tròn $(O)$ cắt tia $AB$ tại $E$. Gọi $I$ là giao điểm của $OE$ và $KC$. Tính bán kính đường tròn ngoại tiếp tứ giác $KHIE$ biết $\\widehat{KAB} = 70°$ và $HI = 6$ cm (kết quả làm tròn đến hàng phần trăm).",
+      "phuong_phap_duoc_dung": [
+        "Tính chất đường trung trực của dây (OH ⊥ AB)",
+        "Hai tam giác bằng nhau (c-g-c)",
+        "Tứ giác nội tiếp đường tròn đường kính",
+        "Tam giác đồng dạng (g-g)",
+        "Hệ thức trong tam giác vuông với tiếp tuyến"
+      ],
+      "kien_thuc_lien_quan": [
+        "Đường kính vuông góc với dây đi qua trung điểm",
+        "Tiếp tuyến vuông góc với bán kính tại tiếp điểm",
+        "Tứ giác có 2 đỉnh nhìn 1 cạnh dưới 90° thì nội tiếp",
+        "Tam giác đồng dạng và tỉ số"
+      ],
+      "dap_so": "c) Bán kính ngoại tiếp KHIE $\\approx 10{,}85$ cm.",
+      "goi_y_cap_1": "Câu a: OA = OB → tam giác OAB cân, OH là trung tuyến → OH ⊥ AB → $\\widehat{AOK} = \\widehat{BOK}$. $\\triangle KAO = \\triangle KBO$ (c-g-c) → $\\widehat{KBO} = \\widehat{KAO} = 90°$. A, B cùng nhìn OK dưới 90° → KAOB nội tiếp đường tròn đường kính OK.\n\nCâu b: $\\triangle OHA \\sim \\triangle OAK$ (g-g) → $OH \\cdot OK = OA^2 = OC^2$. Từ $OH \\cdot OK = OC^2$ → $\\dfrac{OH}{OC} = \\dfrac{OC}{OK}$ → $\\triangle OHC \\sim \\triangle OCK$ (c-g-c) → $\\widehat{OCH} = \\widehat{OKC}$.\n\nCâu c: Chứng minh $KC \\perp OE$ tại I → tứ giác KHIE có $\\widehat{KHE} = \\widehat{KIE} = 90°$ → nội tiếp đường tròn đường kính KE. r = KE/2 = HI · OE/(2·OH) = 3 · OE/OH. Dùng tam giác vuông AHO và OCD để tính các độ dài.",
+      "goi_y_cap_2": "Câu a:\n- $OA = OB = R$ → $\\triangle OAB$ cân tại O\n- OH là trung tuyến ($H$ trung điểm AB) → OH cũng là phân giác, đường cao\n- → $\\widehat{AOK} = \\widehat{BOK}$\n- Xét $\\triangle KAO$ và $\\triangle KBO$: $OA = OB$, OK chung, $\\widehat{AOK} = \\widehat{BOK}$\n- → $\\triangle KAO = \\triangle KBO$ (c-g-c)\n- → $\\widehat{KBO} = \\widehat{KAO} = 90°$ (do KA là tiếp tuyến)\n- A, B cùng nhìn OK dưới 90° → 4 điểm K, A, O, B thuộc đường tròn đường kính OK\n- Vậy KAOB nội tiếp\n\nCâu b:\n- $\\triangle OHA \\sim \\triangle OAK$ (g-g, chung $\\widehat{KOA}$, cùng 90°)\n- → $\\dfrac{OH}{OA} = \\dfrac{OA}{OK}$ → $OA^2 = OH \\cdot OK$\n- Mà $OA = OC = R$ → $OC^2 = OH \\cdot OK$\n- → $\\dfrac{OH}{OC} = \\dfrac{OC}{OK}$\n- $\\triangle OHC$ và $\\triangle OCK$: chung $\\widehat{COK}$, tỉ lệ cạnh → đồng dạng (c-g-c)\n- → $\\widehat{OCH} = \\widehat{OKC}$\n\nCâu c:\n- $\\triangle OHE$ vuông tại H, $\\triangle OCE$ vuông tại C → 4 điểm O, H, C, E trên đường tròn đường kính OE\n- → $\\widehat{OEH} = \\widehat{OCH}$ (cùng chắn cung OH)\n- Kết hợp câu b: $\\widehat{OEH} = \\widehat{OKC}$\n- → $\\triangle OIK \\sim \\triangle OHE$ (g-g) → $\\widehat{OIK} = \\widehat{OHE} = 90°$ → $KC \\perp OE$ tại I\n- $\\triangle KIE$ vuông tại I, $\\triangle KHE$ vuông tại H → K, H, I, E thuộc đường tròn đường kính KE\n- $r = \\dfrac{KE}{2}$\n- Tính các độ dài:\n  - $\\widehat{KAB} = 70°$, mà $\\widehat{KAB}$ là góc tạo bởi tiếp tuyến và dây → $\\widehat{AOH} = 70°$ (cùng phụ $\\widehat{HAO}$)\n  - $\\triangle AHO$ vuông tại H: $AH = OA \\sin\\widehat{AOH} = R\\sin 70°$; $OH = OA\\cos\\widehat{AOH} = R\\cos 70°$\n  - Tính HC qua $\\triangle OCD$ (D là chân vuông từ C xuống OH): $CD = R\\sin 70°$, $OD = R\\cos 70°$, $HD = OH + OD = 2R\\cos 70°$\n  - $\\triangle HCD$ vuông tại D: $HC^2 = CD^2 + HD^2 = R^2\\sin^2 70° + 4R^2\\cos^2 70°$\n  - $HC = R\\sqrt{\\sin^2 70° + 4\\cos^2 70°}$\n  - $\\triangle AHC \\sim \\triangle AOE$ (c-g-c): $OE = \\dfrac{HC \\cdot AO}{AH} = \\dfrac{R\\sqrt{\\sin^2 70° + 4\\cos^2 70°}}{\\sin 70°}$\n  - $\\triangle OIH \\sim \\triangle OKE$: $\\dfrac{HI}{KE} = \\dfrac{OH}{OE}$ → $KE = HI \\cdot \\dfrac{OE}{OH}$\n  - $r = \\dfrac{KE}{2} = \\dfrac{HI}{2} \\cdot \\dfrac{OE}{OH} = 3 \\cdot \\dfrac{OE}{OH}$\n  - Thay: $r = 3 \\cdot \\dfrac{\\sqrt{\\sin^2 70° + 4\\cos^2 70°}}{\\sin 70° \\cdot \\cos 70°}$\n  - $\\approx 3 \\cdot \\dfrac{1{,}1623}{0{,}9397 \\cdot 0{,}3420} \\approx 10{,}85$ cm",
+      "loi_giai_day_du": "**Câu a) Chứng minh $\\widehat{KBO} = 90°$ và KAOB nội tiếp:**\n\nTa có $OA = OB = R$ $\\Rightarrow \\triangle OAB$ cân tại $O$.\n\n$OH$ là đường trung tuyến nên $OH$ cũng là đường phân giác, đường cao của $\\triangle OAB$.\n\nSuy ra $\\widehat{AOK} = \\widehat{BOK}$.\n\nXét $\\triangle KAO$ và $\\triangle KBO$ có:\n- $OA = OB = R$\n- $OK$ là cạnh chung\n- $\\widehat{AOK} = \\widehat{BOK}$ (cmt)\n\n$\\Rightarrow \\triangle KAO = \\triangle KBO$ (c-g-c).\n\n$\\Rightarrow \\widehat{KBO} = \\widehat{KAO} = 90°$ (vì $KA$ là tiếp tuyến).\n\n$\\triangle KAO$ vuông tại $A$ (do $KA$ tiếp tuyến) $\\Rightarrow \\triangle KAO$ nội tiếp đường tròn đường kính $OK$ (1).\n\n$\\triangle KBO$ vuông tại $B$ (do $\\widehat{KBO} = 90°$) $\\Rightarrow \\triangle KBO$ nội tiếp đường tròn đường kính $OK$ (2).\n\nTừ (1) và (2) suy ra $4$ điểm $K, A, O, B$ cùng thuộc đường tròn đường kính $OK$.\n\nVậy tứ giác $KAOB$ nội tiếp. □\n\n**Câu b) Chứng minh $OH \\cdot OK = OC^2$:**\n\nXét $\\triangle OHA$ và $\\triangle OAK$:\n- $\\widehat{KOA}$ là góc chung\n- $\\widehat{OHA} = \\widehat{OAK} = 90°$\n\n$\\Rightarrow \\triangle OHA \\sim \\triangle OAK$ (g-g).\n\n$\\Rightarrow \\dfrac{OH}{OA} = \\dfrac{OA}{OK}$ $\\Rightarrow OA^2 = OH \\cdot OK$.\n\nMà $OA = OC = R$ nên $\\boxed{OC^2 = OH \\cdot OK}$.\n\nTừ đó: $\\dfrac{OH}{OC} = \\dfrac{OC}{OK}$.\n\nXét $\\triangle OHC$ và $\\triangle OCK$:\n- $\\widehat{COK}$ là góc chung\n- $\\dfrac{OH}{OC} = \\dfrac{OC}{OK}$\n\n$\\Rightarrow \\triangle OHC \\sim \\triangle OCK$ (c-g-c).\n\n$\\Rightarrow \\widehat{OCH} = \\widehat{OKC}$ (hai góc tương ứng). □\n\n**Câu c) Tính bán kính đường tròn ngoại tiếp KHIE:**\n\n**Chứng minh $KC \\perp OE$ tại I:**\n\n$\\triangle OHE$ vuông tại $H$ $\\Rightarrow \\triangle OHE$ nội tiếp đường tròn đường kính $OE$ (3).\n\n$\\triangle OCE$ vuông tại $C$ (do $EC$ là tiếp tuyến) $\\Rightarrow \\triangle OCE$ nội tiếp đường tròn đường kính $OE$ (4).\n\nTừ (3) và (4) suy ra $O, H, C, E$ cùng thuộc đường tròn đường kính $OE$.\n\n$\\Rightarrow \\widehat{OEH} = \\widehat{OCH}$ (hai góc nội tiếp cùng chắn cung $OH$).\n\nTheo câu b, $\\widehat{OCH} = \\widehat{OKC}$ $\\Rightarrow \\widehat{OEH} = \\widehat{OKC}$.\n\nXét $\\triangle OIK$ và $\\triangle OHE$:\n- $\\widehat{KOI}$ là góc chung\n- $\\widehat{OKI} = \\widehat{OEH}$ (cmt)\n\n$\\Rightarrow \\triangle OIK \\sim \\triangle OHE$ (g-g).\n\n$\\Rightarrow \\widehat{OIK} = \\widehat{OHE} = 90°$ $\\Rightarrow KC \\perp OE$ tại $I$.\n\n**Chứng minh KHIE nội tiếp:**\n\n$\\triangle KIE$ vuông tại $I$ $\\Rightarrow$ nội tiếp đường tròn đường kính $KE$ (5).\n\n$\\triangle KHE$ vuông tại $H$ $\\Rightarrow$ nội tiếp đường tròn đường kính $KE$ (6).\n\nTừ (5) và (6) suy ra $K, H, I, E$ cùng thuộc đường tròn đường kính $KE$.\n\nBán kính đường tròn ngoại tiếp là $r = \\dfrac{KE}{2}$.\n\n**Tính HC và AH:**\n\nTa có $\\widehat{KAB} = \\widehat{AOH} = 70°$ (cùng phụ $\\widehat{HAO}$).\n\n$\\triangle AHO$ vuông tại $H$:\n- $AH = OA \\sin\\widehat{AOH} = R\\sin 70°$\n- $OH = OA \\cos\\widehat{AOH} = R\\cos 70°$\n\nKẻ $CD \\perp OH$ tại $D$. $\\widehat{COD} = \\widehat{AOH} = 70°$ (hai góc đối đỉnh).\n\n$\\triangle OCD$ vuông tại $D$ có $OD = OC\\cos 70° = R\\cos 70°$ và $CD = OC\\sin 70° = R\\sin 70°$.\n\nTa có $HD = HO + OD = R\\cos 70° + R\\cos 70° = 2R\\cos 70°$.\n\n$\\triangle HCD$ vuông tại $D$:\n$$HC^2 = CD^2 + HD^2 = (R\\sin 70°)^2 + (2R\\cos 70°)^2 = R^2(\\sin^2 70° + 4\\cos^2 70°)$$\n$$HC = R\\sqrt{\\sin^2 70° + 4\\cos^2 70°}$$\n\n**Chứng minh $\\triangle AHC \\sim \\triangle AOE$ và tính OE:**\n\nXét $\\triangle AHC$ và $\\triangle AOE$:\n- $\\widehat{OAE}$ là góc chung\n- $\\widehat{ACH} = \\widehat{AEO}$ (cmt)\n\n$\\Rightarrow \\triangle AHC \\sim \\triangle AOE$ (c-g-c).\n\n$\\Rightarrow \\dfrac{HC}{OE} = \\dfrac{AH}{AO} \\Rightarrow OE = \\dfrac{HC \\cdot AO}{AH}$.\n\nVậy $OE = \\dfrac{R\\sqrt{\\sin^2 70° + 4\\cos^2 70°} \\cdot R}{R\\sin 70°} = \\dfrac{R\\sqrt{\\sin^2 70° + 4\\cos^2 70°}}{\\sin 70°}$.\n\n**Tính bán kính r:**\n\nXét $\\triangle OIH$ và $\\triangle OKE$:\n- $\\widehat{KOE}$ chung\n- $\\widehat{OIH} = \\widehat{OKE}$ (cùng bù $\\widehat{EIH}$)\n\n$\\Rightarrow \\triangle OIH \\sim \\triangle OKE$ (c-g-c).\n\n$\\Rightarrow \\dfrac{HI}{KE} = \\dfrac{OH}{OE} \\Rightarrow KE = HI \\cdot \\dfrac{OE}{OH}$.\n\nBán kính $r = \\dfrac{KE}{2} = \\dfrac{HI}{2} \\cdot \\dfrac{OE}{OH} = 3 \\cdot \\dfrac{OE}{OH}$.\n\nThay $OE$ và $OH$:\n$$r = 3 \\cdot \\left[\\dfrac{R\\sqrt{\\sin^2 70° + 4\\cos^2 70°}}{\\sin 70°} : (R\\cos 70°)\\right] = \\dfrac{3\\sqrt{\\sin^2 70° + 4\\cos^2 70°}}{\\sin 70° \\cdot \\cos 70°}$$\n\n$$r \\approx \\dfrac{3 \\cdot 1{,}1623}{0{,}9397 \\cdot 0{,}3420} \\approx \\boxed{10{,}85 \\text{ cm}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O), dây AB không qua tâm, H trung điểm AB, tiếp tuyến tại A cắt tia OH tại K, AC đường kính, tiếp tuyến tại C cắt tia AB tại E, I giao OE với KC.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết vì sao OH ⊥ AB.",
+          "Câu b em không biết bắt đầu từ tam giác nào.",
+          "Câu c phức tạp quá, em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định dùng tính chất tam giác OAB cân — đúng không?",
+          "Em định dùng hệ thức $OA^2 = OH \\cdot OK$ — đúng chứ?",
+          "Câu c em định chứng minh $KC \\perp OE$ trước — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $\\widehat{KBO} = 90°$ — đúng không?",
+          "Em ra $\\triangle OHC \\sim \\triangle OCK$ (c-g-c) — đúng không?",
+          "Em ra bán kính $\\approx 10{,}85$ cm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết OK là đường trung trực của AB.",
+          "Em không chứng minh được 4 điểm O, H, C, E đồng viên.",
+          "Em không biết $\\widehat{KAB} = \\widehat{AOH}$ cùng phụ."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-10/bai7-duongtron.png"
+    }
+  ]
+}
