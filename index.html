@@ -681,6 +681,39 @@
     flex-shrink: 0;
   }
   .btn-attach:hover { border-color: var(--accent-soft); color: var(--accent); background: var(--accent-pale); }
+  .btn-voice {
+    width: 40px; height: 40px;
+    border-radius: 10px;
+    background: white;
+    color: var(--ink-soft);
+    border: 1px solid var(--line);
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+    transition: all 0.15s;
+    flex-shrink: 0;
+  }
+  .btn-voice:hover { border-color: var(--accent-soft); color: var(--accent); background: var(--accent-pale); }
+  .btn-voice.listening {
+    background: var(--accent);
+    color: white;
+    border-color: var(--accent);
+    box-shadow: 0 0 0 4px var(--accent-pale);
+    animation: voicePulse 1s infinite;
+  }
+  .btn-voice.unsupported { opacity: 0.45; cursor: not-allowed; }
+  @keyframes voicePulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+  }
+  .voice-status {
+    display: none;
+    margin-bottom: 7px;
+    font-size: 12px;
+    color: var(--accent);
+    font-weight: 600;
+  }
+  .voice-status.show { display: block; }
   .image-preview { display: none; align-items: center; gap: 8px; margin-bottom: 8px; padding: 7px 8px; border-radius: 10px; background: white; border: 1px solid var(--line); }
   .image-preview.show { display: flex; }
   .image-preview img { width: 42px; height: 42px; object-fit: cover; border-radius: 8px; border: 1px solid var(--line-soft); }
@@ -951,11 +984,15 @@
         <button class="remove-image" id="btnRemoveImage" type="button" aria-label="Bỏ ảnh">×</button>
       </div>
       <input type="file" id="imageInput" accept="image/png,image/jpeg,image/webp" hidden>
+      <div class="voice-status" id="voiceStatus">🎙️ Đang nghe... em nói câu hỏi vào máy</div>
       <div class="input-wrap">
         <button class="btn-attach" id="btnAttach" type="button" aria-label="Gửi ảnh bài làm" title="Gửi ảnh bài làm">
           <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="2"/><circle cx="8.5" cy="8.5" r="1.5"/><path d="M21 15l-5-5L5 21"/></svg>
         </button>
-        <textarea class="chat-input" id="chatInput" placeholder="Em hỏi thầy hoặc gửi ảnh bài làm..." rows="1"></textarea>
+        <button class="btn-voice" id="btnVoice" type="button" aria-label="Nói để nhập câu hỏi" title="Nói để nhập câu hỏi">
+          <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2a3 3 0 0 0-3 3v7a3 3 0 0 0 6 0V5a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="22"/><line x1="8" y1="22" x2="16" y2="22"/></svg>
+        </button>
+        <textarea class="chat-input" id="chatInput" placeholder="Em hỏi thầy, gửi ảnh hoặc bấm mic để nói..." rows="1"></textarea>
         <button class="btn-send" id="btnSend" aria-label="Gửi">
           <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"/><polygon points="22 2 15 22 11 13 2 9 22 2"/></svg>
         </button>
@@ -1321,7 +1358,7 @@ function renderMainContent() {
     </div>
 
     <div class="conversation-section">
-      <div class="conv-title">💬 Hội thoại với TRỢ LÝ THẦY HẢI</div>
+      <div class="conv-title">💬 Hội thoại với thầy AI</div>
       <div class="conversation" id="conversation">${renderConversation()}</div>
     </div>
   `;
@@ -1551,7 +1588,7 @@ async function sendToAI(userMsg, imagePayload = null) {
     chatHistory.pop();
     chatHistory.push({
       role: 'system',
-      content: 'Không kết nối được TRỢ LÝ THẦY HẢI: ' + e.message
+      content: 'Không kết nối được thầy AI: ' + e.message
     });
     updateConversationOnly();
   }
@@ -1609,6 +1646,86 @@ function compressImageFile(file, maxSide = 1280, quality = 0.82) {
     reader.readAsDataURL(file);
   });
 }
+// Nói để nhập vào khung chat
+let speechRecognition = null;
+let isListening = false;
+
+function initVoiceInput() {
+  const SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+  const btnVoice = document.getElementById('btnVoice');
+  const voiceStatus = document.getElementById('voiceStatus');
+  const input = document.getElementById('chatInput');
+  if (!btnVoice || !voiceStatus || !input) return;
+
+  if (!SpeechRecognition) {
+    btnVoice.classList.add('unsupported');
+    btnVoice.title = 'Trình duyệt này chưa hỗ trợ nhập bằng giọng nói. Nên dùng Chrome trên điện thoại và mở bằng HTTPS.';
+    btnVoice.addEventListener('click', () => {
+      alert('Máy/trình duyệt này chưa hỗ trợ nói để nhập. Thầy thử mở bằng Chrome và dùng link HTTPS nhé.');
+    });
+    return;
+  }
+
+  speechRecognition = new SpeechRecognition();
+  speechRecognition.lang = 'vi-VN';
+  speechRecognition.continuous = false;
+  speechRecognition.interimResults = true;
+  speechRecognition.maxAlternatives = 1;
+
+  speechRecognition.onstart = () => {
+    isListening = true;
+    btnVoice.classList.add('listening');
+    voiceStatus.classList.add('show');
+  };
+
+  speechRecognition.onresult = (event) => {
+    let finalText = '';
+    let interimText = '';
+    for (let i = event.resultIndex; i < event.results.length; i++) {
+      const text = event.results[i][0].transcript;
+      if (event.results[i].isFinal) finalText += text;
+      else interimText += text;
+    }
+    const current = input.value.trim();
+    const spoken = (finalText || interimText).trim();
+    if (spoken) {
+      input.value = current ? current + ' ' + spoken : spoken;
+      input.style.height = 'auto';
+      input.style.height = Math.min(input.scrollHeight, 120) + 'px';
+    }
+  };
+
+  speechRecognition.onerror = (event) => {
+    if (event.error === 'not-allowed' || event.error === 'service-not-allowed') {
+      alert('Trình duyệt chưa được cấp quyền micro. Thầy cho phép Microphone rồi bấm lại nhé.');
+    } else if (event.error !== 'no-speech' && event.error !== 'aborted') {
+      console.warn('Speech recognition error:', event.error);
+    }
+  };
+
+  speechRecognition.onend = () => {
+    isListening = false;
+    btnVoice.classList.remove('listening');
+    voiceStatus.classList.remove('show');
+    input.focus();
+  };
+
+  btnVoice.addEventListener('click', () => {
+    if (isListening) {
+      speechRecognition.stop();
+      return;
+    }
+    try {
+      input.focus();
+      speechRecognition.start();
+    } catch (e) {
+      console.warn('Không thể bắt đầu ghi âm:', e);
+    }
+  });
+}
+
+initVoiceInput();
+
 document.getElementById('btnAttach').onclick = () => document.getElementById('imageInput').click();
 document.getElementById('btnRemoveImage').onclick = resetSelectedImage;
 document.getElementById('imageInput').addEventListener('change', async (e) => {
