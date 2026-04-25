@@ -1019,7 +1019,7 @@ function renderMainContent() {
     </div>
 
     <div class="conversation-section">
-      <div class="conv-title">💬 Hội thoại với thầy AI</div>
+      <div class="conv-title">💬 Hội thoại với BẠN THẦY HẢI</div>
       <div class="conversation" id="conversation">${renderConversation()}</div>
     </div>
   `;
@@ -1249,7 +1249,7 @@ async function sendToAI(userMsg, imagePayload = null) {
     chatHistory.pop();
     chatHistory.push({
       role: 'system',
-      content: 'Không kết nối được thầy AI: ' + e.message
+      content: 'Không kết nối được BẠN THẦY HẢI: ' + e.message
     });
     updateConversationOnly();
   }
