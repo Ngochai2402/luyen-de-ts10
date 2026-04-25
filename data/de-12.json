@@ -1,0 +1,368 @@
+{
+  "de_so": 12,
+  "cum": 4,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $(P): y = -\\dfrac{x^2}{4}$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm những điểm $M$ thuộc đồ thị $(P)$ có tung độ bằng $2$ lần hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol bề lõm xuống dưới",
+        "Thay điều kiện $y = 2x$ vào (P)",
+        "Giải phương trình bậc hai dạng tích"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0",
+        "Điểm thuộc đồ thị thỏa phương trình",
+        "Phương trình bậc hai dạng tích"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm: $(0; 0)$ và $(-8; -16)$.",
+      "goi_y_cap_1": "Câu a: Lập bảng với x = -4, -2, 0, 2, 4. Parabol bề lõm xuống dưới.\n\nCâu b: 'Tung độ bằng 2 lần hoành độ' nghĩa là $y = 2x$. Thay vào (P) tìm x.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = -4$; $x = -2 \\to y = -1$; $x = 0 \\to y = 0$; $x = 2 \\to y = -1$; $x = 4 \\to y = -4$\n\nCâu b:\n- $y = 2x$ thay vào (P): $2x = -\\dfrac{x^2}{4}$\n- $\\dfrac{x^2}{4} + 2x = 0 \\Leftrightarrow x(x + 8) = 0$\n- $x_1 = 0 \\Rightarrow y_1 = 0$: điểm $(0; 0)$\n- $x_2 = -8 \\Rightarrow y_2 = -16$: điểm $(-8; -16)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{x^2}{4}$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại O, bề lõm xuống dưới.\n\n**Câu b) Tìm điểm M:**\n\nVì điểm $M$ có tung độ bằng 2 lần hoành độ nên $y = 2x$.\n\nTa có phương trình: $2x = -\\dfrac{x^2}{4}$\n\n$\\Leftrightarrow \\dfrac{x^2}{4} + 2x = 0$\n\n$\\Leftrightarrow x_1 = 0$; $x_2 = -8$.\n\nVới $x_1 = 0 \\Rightarrow y_1 = 0$.\n\nVới $x_2 = -8 \\Rightarrow y_2 = -16$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(-8; -16)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = -x²/4 bề lõm quay xuống dưới trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol bề lõm xuống dưới.",
+          "'Tung độ bằng 2 lần hoành độ' viết công thức ra sao?",
+          "Câu b có bao nhiêu đáp án thầy?"
+        ],
+        "dinh_huong": [
+          "Em định lập bảng với x = -4, -2, 0, 2, 4 — đúng không?",
+          "Em định viết $y = 2x$ rồi thay vào (P) — đúng chứ?",
+          "Em định đưa về dạng $x(x + 8) = 0$ — đúng?"
+        ],
+        "kiem_tra": [
+          "Em ra 2 nghiệm $x = 0$ và $x = -8$ — đúng không?",
+          "Em ra điểm $(-8; -16)$ — đúng chưa?",
+          "Em ra 2 điểm $(0; 0)$ và $(-8; -16)$ — đúng?"
+        ],
+        "go_bi": [
+          "Em nhầm $y = 2x$ với $y = x/2$.",
+          "Em quên điểm $(0; 0)$.",
+          "Em không biết đưa $2x = -\\dfrac{x^2}{4}$ về dạng tích."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-12/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète",
+      "de_bai": "Cho phương trình bậc hai $\\sqrt{3}x^2 - 2x - \\sqrt{3} = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, tính giá trị của biểu thức:\n$$C = 2\\sqrt{3}x_1 - x_1^2 - x_2^2 - \\sqrt{3}(x_1 - x_2)$$",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Biến đổi: $2\\sqrt{3}x_1 - \\sqrt{3}x_1 = \\sqrt{3}x_1$",
+        "Rút gọn $C = \\sqrt{3}(x_1+x_2) - (x_1^2 + x_2^2)$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "dap_so": "$C = -\\dfrac{4}{3}$.",
+      "goi_y_cap_1": "Câu a: Tính Δ = 4 + 12 = 16 > 0.\n\nCâu b: Khai triển $\\sqrt{3}(x_1 - x_2) = \\sqrt{3}x_1 - \\sqrt{3}x_2$. Suy ra $C = 2\\sqrt{3}x_1 - x_1^2 - x_2^2 - \\sqrt{3}x_1 + \\sqrt{3}x_2 = \\sqrt{3}x_1 + \\sqrt{3}x_2 - (x_1^2 + x_2^2) = \\sqrt{3}(x_1 + x_2) - (x_1^2 + x_2^2)$.",
+      "goi_y_cap_2": "Câu a:\n- $a = \\sqrt{3}; b = -2; c = -\\sqrt{3}$\n- $\\Delta = (-2)^2 - 4 \\cdot \\sqrt{3} \\cdot (-\\sqrt{3}) = 4 + 12 = 16 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{-(-2)}{\\sqrt{3}} = \\dfrac{2}{\\sqrt{3}}$, $x_1 x_2 = \\dfrac{-\\sqrt{3}}{\\sqrt{3}} = -1$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\dfrac{4}{3} - 2(-1) = \\dfrac{4}{3} + 2 = \\dfrac{10}{3}$\n- Khai triển: $C = 2\\sqrt{3}x_1 - x_1^2 - x_2^2 - \\sqrt{3}x_1 + \\sqrt{3}x_2 = \\sqrt{3}x_1 + \\sqrt{3}x_2 - (x_1^2 + x_2^2) = \\sqrt{3}(x_1+x_2) - (x_1^2 + x_2^2)$\n- $C = \\sqrt{3} \\cdot \\dfrac{2}{\\sqrt{3}} - \\dfrac{10}{3} = 2 - \\dfrac{10}{3} = -\\dfrac{4}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $\\sqrt{3}x^2 - 2x - \\sqrt{3} = 0$ với $a = \\sqrt{3}; b = -2; c = -\\sqrt{3}$.\n\n$\\Delta = b^2 - 4ac = (-2)^2 - 4 \\cdot \\sqrt{3} \\cdot (-\\sqrt{3}) = 4 + 12 = 16 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính C:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-(-2)}{\\sqrt{3}} = \\dfrac{2}{\\sqrt{3}} \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{-\\sqrt{3}}{\\sqrt{3}} = -1 \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = \\left(\\dfrac{2}{\\sqrt{3}}\\right)^2 - 2(-1) = \\dfrac{4}{3} + 2 = \\dfrac{10}{3}$.\n\nBiến đổi $C$:\n$$C = 2\\sqrt{3}x_1 - x_1^2 - x_2^2 - \\sqrt{3}(x_1 - x_2)$$\n$$= 2\\sqrt{3}x_1 - x_1^2 - x_2^2 - \\sqrt{3}x_1 + \\sqrt{3}x_2$$\n$$= \\sqrt{3}x_1 + \\sqrt{3}x_2 - (x_1^2 + x_2^2)$$\n$$= \\sqrt{3}(x_1 + x_2) - (x_1^2 + x_2^2)$$\n\nThay giá trị:\n$$C = \\sqrt{3} \\cdot \\dfrac{2}{\\sqrt{3}} - \\dfrac{10}{3} = 2 - \\dfrac{10}{3} = \\boxed{-\\dfrac{4}{3}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Biểu thức C có cả $\\sqrt{3}$ và $x_1 - x_2$, em không biết xử lý sao.",
+          "Em quên Viète cho phương trình có hệ số căn.",
+          "Em không biết khai triển $\\sqrt{3}(x_1 - x_2)$."
+        ],
+        "dinh_huong": [
+          "Em định khai triển $-\\sqrt{3}(x_1 - x_2) = -\\sqrt{3}x_1 + \\sqrt{3}x_2$ — đúng không?",
+          "Em định gộp $2\\sqrt{3}x_1 - \\sqrt{3}x_1 = \\sqrt{3}x_1$ — đúng chứ?",
+          "Em định dùng $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$ — đúng?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1 + x_2 = \\dfrac{2}{\\sqrt{3}}, x_1 x_2 = -1$ — đúng không?",
+          "Em ra $x_1^2 + x_2^2 = \\dfrac{10}{3}$ — đúng?",
+          "Em ra $C = -\\dfrac{4}{3}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không khai triển được $\\sqrt{3}(x_1 - x_2)$.",
+          "Em không gộp được các hạng tử cùng có $\\sqrt{3}$.",
+          "Em không nhân được $\\sqrt{3} \\cdot \\dfrac{2}{\\sqrt{3}} = 2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.0,
+      "chu_de": "Thống kê - Biểu đồ cột kép - Xác suất",
+      "de_bai": "Biểu đồ cột kép ở hình dưới biểu diễn số học sinh nam và số học sinh nữ của lớp 9A có sở thích chơi một số môn thể thao: bóng đá, bóng rổ, bơi.\n\n| Môn | Nam | Nữ |\n|---|---|---|\n| Bóng đá | 12 | 10 |\n| Bóng rổ | 4 | 5 |\n| Bơi | 5 | 6 |\n\na) Tính số học sinh của lớp 9A.\n\nb) Biết rằng mỗi học sinh chỉ nêu một môn thể thao yêu thích. Chọn ngẫu nhiên một học sinh của lớp 9A. Tính xác suất của biến cố $B$: \"Học sinh được chọn là nữ và không thích bơi\".",
+      "phuong_phap_duoc_dung": [
+        "Cộng số HS từ biểu đồ cột kép",
+        "Đếm số HS nữ không thích bơi",
+        "Công thức xác suất P = n(B)/n(Ω)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Không gian mẫu và biến cố",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) 42 học sinh. b) $P(B) = \\dfrac{5}{14}$.",
+      "goi_y_cap_1": "Câu a: Cộng tổng nam (12+4+5=21) và nữ (10+5+6=21).\n\nCâu b: $n(\\Omega) = 42$. Nữ không thích bơi = nữ thích bóng đá + nữ thích bóng rổ = 10+5 = 15. $P(B) = 15/42$.",
+      "goi_y_cap_2": "Câu a:\n- Số HS nam = 12 + 4 + 5 = 21\n- Số HS nữ = 10 + 5 + 6 = 21\n- Tổng HS lớp 9A = 21 + 21 = 42\n\nCâu b:\n- $n(\\Omega) = 42$\n- Nữ thích bóng đá = 10, thích bóng rổ = 5\n- Nữ không thích bơi = 10 + 5 = 15\n- $n(B) = 15$\n- $P(B) = \\dfrac{15}{42} = \\dfrac{5}{14}$",
+      "loi_giai_day_du": "**Câu a) Số học sinh lớp 9A:**\n\nSố học sinh nam của lớp 9A là $12 + 4 + 5 = 21$ (học sinh).\n\nSố học sinh nữ của lớp 9A là $10 + 5 + 6 = 21$ (học sinh).\n\nSố học sinh của lớp 9A là $21 + 21 = \\boxed{42}$ (học sinh).\n\n**Câu b) Tính xác suất biến cố B:**\n\nSố phần tử của không gian mẫu là $n(\\Omega) = 42$.\n\nSố học sinh nữ thích bóng đá là $10$ học sinh.\n\nSố học sinh nữ thích bóng rổ là $5$ học sinh.\n\nSố học sinh nữ không thích bơi là $10 + 5 = 15$ (học sinh).\n\nSuy ra $n(B) = 15$.\n\nXác suất của biến cố $B$ là:\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{15}{42} = \\boxed{\\dfrac{5}{14}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS nam và nữ thích bóng đá, bóng rổ, bơi của lớp 9A.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc biểu đồ cột kép.",
+          "'Nữ và không thích bơi' nghĩa là gì thầy?",
+          "Em không biết xác suất là gì."
+        ],
+        "dinh_huong": [
+          "Em định cộng số HS nam + nữ = tổng — đúng không?",
+          "Em định đếm 'nữ không thích bơi' = nữ thích bóng đá + nữ thích bóng rổ — đúng?",
+          "Em định lấy $n(B)/n(\\Omega) = 15/42$ — đúng?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 42 HS — đúng không?",
+          "Em ra $n(B) = 15$ — đúng không?",
+          "Em ra $P(B) = \\dfrac{5}{14}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em hiểu nhầm 'nữ không thích bơi' = nữ thích bơi.",
+          "Em không gộp được 10 + 5 = 15.",
+          "Em không rút gọn được $\\dfrac{15}{42} = \\dfrac{5}{14}$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-12/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hệ thống phun sương",
+      "de_bai": "Trong cuộc thi Khéo tay kĩ thuật năm 2025, nhóm bạn Tường Nguyên muốn đăng kí dự thi ở lĩnh vực Thiết kế mô hình nông nghiệp 4.0. Bước đầu, nhóm bạn lên ý tưởng và phác thảo khu vườn lên tấm bìa hình chữ nhật có chiều dài $3$ m và chiều rộng $2$ m. Nhóm làm một hệ thống phun sương có hình dạng như hình vẽ, với các đặc điểm sau:\n- Hệ thống có 1 phần chạy dọc theo chiều dài của mảnh đất và 1 phần nằm chính giữa khu vườn có độ rộng là $x$ mét.\n- Phần cuối của hệ thống được thiết kế là một hình thang cân. Phần còn lại dùng để trồng rau thuỷ canh.\n\na) Hãy biểu diễn diện tích của phần hệ thống phun sương theo $x$.\n\nb) Nếu $x = 0{,}6$ thì diện tích phần trồng rau là bao nhiêu?",
+      "phuong_phap_duoc_dung": [
+        "Phân tích diện tích thành 3 phần: chạy dọc + hình thang + nằm giữa",
+        "S chạy dọc = $3x$",
+        "S hình thang cân (đáy lớn 2, đáy nhỏ x, cao x) = $\\dfrac{(2+x)x}{2}$",
+        "S nằm chính giữa = $x \\cdot (2-2x)$",
+        "S rau = S vườn - S hệ thống"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Diện tích hình thang",
+        "Đa thức bậc hai theo $x$"
+      ],
+      "dap_so": "a) $S_{HT} = -1{,}5x^2 + 6x$ (m²). b) $S_{Rau} = 2{,}94$ m².",
+      "goi_y_cap_1": "Câu a: 3 phần:\n- Chạy dọc (3 × x): $3x$\n- Hình thang cân (đáy lớn 2, đáy nhỏ x, cao x): $\\dfrac{(2+x)x}{2} = x + 0{,}5x^2$\n- Phần giữa (x × (2 - x - x)): $x(2-2x) = 2x - 2x^2$\nTổng = $3x + x + 0{,}5x^2 + 2x - 2x^2 = 6x - 1{,}5x^2$.\n\nCâu b: S vườn = 6 m². $S_{Rau} = 6 - S_{HT} = 6 - (6 \\cdot 0{,}6 - 1{,}5 \\cdot 0{,}36) = 6 - 3{,}06 = 2{,}94$ m².",
+      "goi_y_cap_2": "Câu a:\n- Phần chạy dọc (3 m × x m): $3x$ (m²)\n- Phần hình thang cân (đáy lớn 2, đáy nhỏ x, cao x): $\\dfrac{(2+x) \\cdot x}{2} = x + 0{,}5x^2$ (m²)\n- Phần chính giữa: chiều cao = $2 - x - x = 2 - 2x$ (m), chiều rộng = $x$ → diện tích = $x(2-2x) = 2x - 2x^2$ (m²)\n- Tổng: $S_{HT} = 3x + (x + 0{,}5x^2) + (2x - 2x^2) = 6x - 1{,}5x^2$ (m²)\n\nCâu b:\n- Diện tích cả khu vườn = $3 \\cdot 2 = 6$ (m²)\n- $S_{Rau} = 6 - S_{HT} = 6 - (6x - 1{,}5x^2) = 1{,}5x^2 - 6x + 6$\n- Thay $x = 0{,}6$: $S_{Rau} = 1{,}5 \\cdot 0{,}36 - 6 \\cdot 0{,}6 + 6 = 0{,}54 - 3{,}6 + 6 = 2{,}94$ (m²)",
+      "loi_giai_day_du": "**Câu a) Biểu diễn diện tích hệ thống phun sương theo x:**\n\nGọi $x$ (m) là độ rộng của phần nằm chính giữa, độ rộng phần chạy dọc và chiều cao của hình thang ($0 < x < 1$).\n\nDiện tích phần chạy dọc theo chiều dài (kích thước $3 \\times x$): $3x$ (m²).\n\nDiện tích phần hình thang cân (đáy lớn $2$ m, đáy nhỏ $x$ m, chiều cao $x$ m):\n$$\\dfrac{(2+x) \\cdot x}{2} = x + 0{,}5x^2 \\text{ (m}^2\\text{)}$$\n\nChiều cao của phần nằm chính giữa là $2 - x - x = 2 - 2x$ (m).\n\nDiện tích phần nằm chính giữa (kích thước $x \\times (2-2x)$): $x(2-2x) = 2x - 2x^2$ (m²).\n\nTổng diện tích hệ thống phun sương:\n$$S_{HT} = 3x + (x + 0{,}5x^2) + (2x - 2x^2) = 6x - 1{,}5x^2 \\text{ (m}^2\\text{)}$$\n\nVậy biểu thức diện tích hệ thống phun sương là $\\boxed{S_{HT} = -1{,}5x^2 + 6x}$ (m²).\n\n**Câu b) Diện tích phần trồng rau khi x = 0,6:**\n\nDiện tích cả khu vườn là $3 \\cdot 2 = 6$ (m²).\n\nDiện tích phần trồng rau được tính theo công thức:\n$$S_{Rau} = 6 - S_{HT} = 6 - (6x - 1{,}5x^2) = 1{,}5x^2 - 6x + 6$$\n\nThay $x = 0{,}6$:\n$$S_{Rau} = 1{,}5 \\cdot (0{,}6)^2 - 6 \\cdot 0{,}6 + 6 = 0{,}54 - 3{,}6 + 6 = \\boxed{2{,}94 \\text{ (m}^2\\text{)}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bên trái: hệ thống phun sương trong HCN 3m × 2m gồm phần chạy dọc rộng x, phần giữa rộng x, hình thang cân ở dưới. Bên phải: hình minh họa thực tế khu vườn rau thuỷ canh.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hình dung được hệ thống phun sương trong vườn ra sao.",
+          "Hình thang cân tính diện tích thế nào thầy?",
+          "Em chưa biết phân chia hệ thống thành các phần."
+        ],
+        "dinh_huong": [
+          "Em định chia thành 3 phần: chạy dọc + hình thang + chính giữa — đúng không?",
+          "Em định tính S hình thang = $\\dfrac{(2+x) x}{2}$ — đúng?",
+          "Câu b em định lấy S vườn - S hệ thống — đúng hướng?"
+        ],
+        "kiem_tra": [
+          "Em ra $S_{HT} = -1{,}5x^2 + 6x$ — đúng không?",
+          "Em ra S vườn = 6 m² — đúng?",
+          "Em ra $S_{Rau} = 2{,}94$ m² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết chiều cao phần giữa = $2 - 2x$.",
+          "Em quên hình thang cần chia 2.",
+          "Em tính sai $1{,}5 \\cdot 0{,}36 = 0{,}54$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-12/bai4-phunsuong.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Bồn nước trụ",
+      "de_bai": "Gia đình bác Bình có một bồn nước hình trụ có đường kính đáy là $1{,}6$ m và chiều cao là $2{,}3$ m.\n\na) Tính thể tích của bồn nước hình trụ.\n\nb) Để đảm bảo luôn có nước sử dụng và nước không bị tràn ra ngoài khi bơm, bác Bình gắn một phao điện bơm nước tự động vào nắp của bồn nước. Khi mực nước trong bồn chỉ còn $20\\%$ dung tích của bồn thì phao sẽ tự động khởi động máy bơm để nước chảy vào bồn. Khi nước chảy còn cách nắp bồn $10$ cm thì phao sẽ tự động ngắt điện máy bơm không cho nước chảy vào bồn. Công suất của máy bơm là $1086$ lít/giờ. Hỏi trong quá trình đang sử dụng, tính thời gian từ lúc máy bơm tự bật đến lúc máy bơm ngắt điện (không kể trường hợp máy bơm, phao bơm bị hư hay cúp điện; kết quả làm tròn đến phút). Biết $V = \\pi r^2 h$ trong đó $\\pi \\approx 3{,}14$.",
+      "phuong_phap_duoc_dung": [
+        "Bán kính = đường kính / 2",
+        "Thể tích trụ = $\\pi r^2 h$",
+        "$V_1 = 20\\% V$",
+        "$V_2$: thể tích khi nước cách nắp 10cm, $h_2 = 2{,}3 - 0{,}1 = 2{,}2$ m",
+        "Thể tích bơm = $V_2 - V_1$",
+        "Đổi m³ → lít, tính thời gian"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ",
+        "Đổi đơn vị thể tích",
+        "Tỉ lệ phần trăm"
+      ],
+      "dap_so": "a) $V \\approx 4{,}62208$ m³. b) Thời gian $\\approx 193$ phút.",
+      "goi_y_cap_1": "Câu a: $r = 1{,}6/2 = 0{,}8$ m. $V = \\pi r^2 h = 3{,}14 \\cdot 0{,}64 \\cdot 2{,}3$.\n\nCâu b: $V_1 = 20\\% V$. $h_2 = 2{,}3 - 0{,}1 = 2{,}2$ m. $V_2 = \\pi r^2 \\cdot 2{,}2$. Thể tích cần bơm = $V_2 - V_1$. Đổi m³ → lít → giờ → phút.",
+      "goi_y_cap_2": "Câu a:\n- $r = 1{,}6 : 2 = 0{,}8$ (m)\n- $V = \\pi r^2 h \\approx 3{,}14 \\cdot 0{,}8^2 \\cdot 2{,}3 = 3{,}14 \\cdot 0{,}64 \\cdot 2{,}3 = 4{,}62208$ (m³)\n\nCâu b:\n- Đổi 10 cm = 0,1 m\n- $V_1 = 20\\% V = 0{,}2 \\cdot 4{,}62208 = 0{,}924416$ (m³)\n- $h_2 = 2{,}3 - 0{,}1 = 2{,}2$ (m)\n- $V_2 = \\pi r^2 h_2 \\approx 3{,}14 \\cdot 0{,}64 \\cdot 2{,}2 = 4{,}42112$ (m³)\n- Thể tích cần bơm = $V_2 - V_1 = 4{,}42112 - 0{,}924416 = 3{,}496704$ (m³) = $3496{,}704$ lít\n- Thời gian = $\\dfrac{3496{,}704}{1086} \\cdot 60 \\approx 193{,}188$ phút ≈ 193 phút",
+      "loi_giai_day_du": "**Câu a) Thể tích bồn nước:**\n\nBán kính đáy của bồn nước hình trụ là:\n$$r = 1{,}6 : 2 = 0{,}8 \\text{ (m)}$$\n\nThể tích bồn nước hình trụ là:\n$$V = \\pi r^2 h \\approx 3{,}14 \\cdot (0{,}8)^2 \\cdot 2{,}3 = \\boxed{4{,}62208 \\text{ (m}^3\\text{)}}$$\n\n**Câu b) Thời gian bơm nước:**\n\nĐổi $10$ cm $= 0{,}1$ m.\n\nThể tích nước có trong bồn khi mực nước bằng $20\\%$ dung tích bồn là:\n$$V_1 = 20\\% \\cdot V = 0{,}2 \\cdot 4{,}62208 = 0{,}924416 \\text{ (m}^3\\text{)}$$\n\nChiều cao mực nước khi nước cách nắp bồn $10$ cm là:\n$$h_2 = 2{,}3 - 0{,}1 = 2{,}2 \\text{ (m)}$$\n\nThể tích nước trong bồn khi nước cách nắp bồn $10$ cm là:\n$$V_2 = \\pi r^2 h_2 \\approx 3{,}14 \\cdot (0{,}8)^2 \\cdot 2{,}2 = 4{,}42112 \\text{ (m}^3\\text{)}$$\n\nThể tích nước cần bơm thêm vào bồn là:\n$$V_{bơm} = V_2 - V_1 = 4{,}42112 - 0{,}924416 = 3{,}496704 \\text{ (m}^3\\text{)}$$\n\nĐổi $3{,}496704$ m³ $= 3\\,496{,}704$ lít.\n\nThời gian bơm nước là:\n$$t = \\dfrac{3\\,496{,}704}{1086} \\cdot 60 \\approx 193{,}188 \\text{ (phút)}$$\n\nLàm tròn đến phút, ta được $\\boxed{193 \\text{ phút}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bên trái là hình trụ với bán kính r, chiều cao h, đường kính 1,6 m. Bên phải là bồn nước thực tế với mực nước cách nắp 10 cm, chiều cao 2,3 m, đường kính 1,6 m.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em quên công thức thể tích hình trụ.",
+          "Em không biết đổi cm → m.",
+          "Em không biết đổi m³ → lít."
+        ],
+        "dinh_huong": [
+          "Em định lấy $r = 0{,}8$, $V = \\pi r^2 h$ — đúng không?",
+          "Em định tính $V_1 = 20\\% V$ và $V_2 = \\pi r^2 \\cdot 2{,}2$ — đúng?",
+          "Em định lấy hiệu $V_2 - V_1$ rồi đổi → lít → phút — đúng hướng?"
+        ],
+        "kiem_tra": [
+          "Em ra $V \\approx 4{,}62208$ m³ — đúng không?",
+          "Em ra hiệu thể tích $\\approx 3{,}496704$ m³ — đúng?",
+          "Em ra thời gian ≈ 193 phút — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên đổi 10 cm = 0,1 m.",
+          "Em quên đổi m³ → lít (× 1000).",
+          "Em quên nhân 60 để đổi giờ → phút."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-12/bai5-bonnuoc.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Tam giác vuông cân",
+      "de_bai": "Trọng và Quốc chạy bộ trong khuôn viên có hình tam giác vuông cân tại $A$, $AB = AC = a$ (m). Từ đỉnh $A$, hai bạn Trọng và Quốc cùng lúc bắt đầu chạy bộ dọc theo các cạnh của tam giác với vận tốc không đổi nhưng theo hai chiều ngược nhau:\n- Trọng chạy theo chiều: $A \\to B \\to C \\to A$.\n- Quốc chạy theo chiều: $A \\to C \\to B \\to A$.\n\nBiết rằng:\n- Lần gặp nhau thứ nhất, hai bạn gặp nhau tại điểm $M$ trên cạnh $BC$, với $BM = 600$ m.\n- Sau đó, hai bạn gặp nhau lần thứ hai tại điểm $N$ trên cạnh $AB$, với $AN = 200$ m.\n\nGọi $x, y$ (km/h) lần lượt là vận tốc của Trọng và Quốc.\n\na) Chứng minh rằng: $\\dfrac{x}{y} = \\dfrac{AB + BM}{AC + CM}$.\n\nb) Tính độ dài các cạnh của khuôn viên đó. (Kết quả làm tròn đến hàng đơn vị).",
+      "phuong_phap_duoc_dung": [
+        "Cùng thời gian → tỉ lệ vận tốc = tỉ lệ quãng đường",
+        "Định lý Pythagore cho tam giác vuông cân: $BC = a\\sqrt{2}$",
+        "Lập 2 phương trình từ 2 lần gặp",
+        "Giải hệ phương trình"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tam giác vuông cân",
+        "Định lý Pythagore",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "$a = 500\\sqrt{2}$. AB = AC ≈ 707 m, BC = 1000 m.",
+      "goi_y_cap_1": "Câu a: Cùng thời gian $t_1$ chạy đến lần gặp 1, quãng đường tỉ lệ vận tốc → $\\dfrac{x}{y} = \\dfrac{AB + BM}{AC + CM}$.\n\nCâu b: $BC = a\\sqrt{2}$ (Pythagore tam giác vuông cân). $CM = BC - BM = a\\sqrt{2} - 600$. Lần gặp 2: tính tiếp quãng đường mỗi bạn từ M đến N. Lập 2 phương trình rồi giải.",
+      "goi_y_cap_2": "Câu a:\n- Gọi $t_1$ là thời gian từ lúc xuất phát đến lần gặp 1 tại M\n- Trọng đi $A \\to B \\to M$: $S_T = AB + BM$\n- Quốc đi $A \\to C \\to M$: $S_Q = AC + CM$\n- Cùng thời gian: $x = \\dfrac{S_T}{t_1}, y = \\dfrac{S_Q}{t_1}$\n- $\\dfrac{x}{y} = \\dfrac{AB + BM}{AC + CM}$\n\nCâu b:\n- Tam giác vuông cân tại A: $BC = \\sqrt{AB^2 + AC^2} = a\\sqrt{2}$\n- $CM = BC - BM = a\\sqrt{2} - 600$\n- $\\dfrac{x}{y} = \\dfrac{a + 600}{a + a\\sqrt{2} - 600}$ (1)\n- Từ M đến N (lần gặp 2):\n  - Trọng: $M \\to C \\to A \\to N$: $S'_T = MC + CA + AN = (a\\sqrt{2} - 600) + a + 200 = a\\sqrt{2} + a - 400$\n  - Quốc: $M \\to B \\to N$: $S'_Q = MB + BN = 600 + (AB - AN) = 600 + a - 200 = a + 400$\n- Cùng vận tốc, cùng thời gian: $\\dfrac{x}{y} = \\dfrac{a\\sqrt{2} + a - 400}{a + 400}$ (2)\n- Từ (1) = (2): $\\dfrac{a + 600}{a\\sqrt{2} + a - 600} = \\dfrac{a\\sqrt{2} + a - 400}{a + 400}$\n- $(a + 600)(a + 400) = (a\\sqrt{2} + a - 600)(a\\sqrt{2} + a - 400)$\n- Giải được $a = 500\\sqrt{2}$ (nhận)\n- $AB = AC = 500\\sqrt{2} \\approx 707$ (m)\n- $BC = 500\\sqrt{2} \\cdot \\sqrt{2} = 1000$ (m)",
+      "loi_giai_day_du": "**Câu a) Chứng minh $\\dfrac{x}{y} = \\dfrac{AB + BM}{AC + CM}$:**\n\nGọi $t_1$ (h) là thời gian từ lúc xuất phát đến khi hai bạn gặp nhau lần thứ nhất tại $M$.\n\nTrong thời gian $t_1$:\n- Quãng đường Trọng chạy được là $S_T = AB + BM$.\n- Quãng đường Quốc chạy được là $S_Q = AC + CM$.\n\nVì vận tốc của Trọng là $x$ và của Quốc là $y$ không đổi nên ta có:\n$$x = \\dfrac{S_T}{t_1} = \\dfrac{AB + BM}{t_1} \\text{ và } y = \\dfrac{S_Q}{t_1} = \\dfrac{AC + CM}{t_1}$$\n\nSuy ra $\\boxed{\\dfrac{x}{y} = \\dfrac{AB + BM}{AC + CM}}$. □\n\n**Câu b) Tính độ dài các cạnh:**\n\nGọi $a$ (m) là độ dài cạnh góc vuông $AB$ và $AC$ ($a > 200$).\n\nTam giác $ABC$ vuông cân tại $A$ nên $BC = \\sqrt{AB^2 + AC^2} = \\sqrt{a^2 + a^2} = a\\sqrt{2}$ (m).\n\nTa có $CM = BC - BM = a\\sqrt{2} - 600$ (m).\n\nTheo câu a, ta có tỉ số vận tốc:\n$$\\dfrac{x}{y} = \\dfrac{a + 600}{a + a\\sqrt{2} - 600} \\quad (1)$$\n\nTrong khoảng thời gian từ lần gặp thứ nhất ($M$) đến lần gặp thứ hai ($N$), hai bạn chạy với cùng vận tốc như ban đầu.\n\nQuãng đường Trọng chạy tiếp từ $M$ đến $N$ (theo chiều $M \\to C \\to A \\to N$) là:\n$$S'_T = MC + CA + AN = (a\\sqrt{2} - 600) + a + 200 = a\\sqrt{2} + a - 400 \\text{ (m)}$$\n\nQuãng đường Quốc chạy tiếp từ $M$ đến $N$ (theo chiều $M \\to B \\to N$) là:\n$$S'_Q = MB + BN = 600 + (AB - AN) = 600 + a - 200 = a + 400 \\text{ (m)}$$\n\nSuy ra tỉ số vận tốc:\n$$\\dfrac{x}{y} = \\dfrac{S'_T}{S'_Q} = \\dfrac{a\\sqrt{2} + a - 400}{a + 400} \\quad (2)$$\n\nTừ (1) và (2) ta có phương trình:\n$$\\dfrac{a + 600}{a\\sqrt{2} + a - 600} = \\dfrac{a\\sqrt{2} + a - 400}{a + 400}$$\n\n$$\\Rightarrow (a + 600)(a + 400) = (a\\sqrt{2} + a - 600)(a\\sqrt{2} + a - 400)$$\n\nGiải phương trình ta được $a = 500\\sqrt{2}$ (nhận).\n\nĐộ dài các cạnh góc vuông là $AB = AC = 500\\sqrt{2} \\approx 707$ (m).\n\nĐộ dài cạnh huyền là $BC = 500\\sqrt{2} \\cdot \\sqrt{2} = 1000$ (m).\n\nVậy độ dài các cạnh của khuôn viên là $\\boxed{AB = AC \\approx 707 \\text{ m}; BC = 1000 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC vuông cân tại A. Trọng chạy A→B→C→A (đường đỏ), Quốc chạy A→C→B→A (đường khác). M trên BC với BM = 600m. N trên AB với AN = 200m.",
+      "cau_dan": {
+        "khoi_dong": [
+          "'Tam giác vuông cân tại A' nghĩa là gì thầy?",
+          "Em không biết viết quãng đường mỗi bạn theo cạnh.",
+          "Em không hiểu vì sao $\\dfrac{x}{y}$ = tỉ lệ quãng đường."
+        ],
+        "dinh_huong": [
+          "Em định viết $S_T = AB + BM, S_Q = AC + CM$ — đúng không?",
+          "Em định dùng Pythagore $BC = a\\sqrt{2}$ — đúng?",
+          "Em định lập 2 phương trình tỉ số vận tốc bằng nhau — đúng hướng?"
+        ],
+        "kiem_tra": [
+          "Em ra $S'_T = a\\sqrt{2} + a - 400$ — đúng không?",
+          "Em ra $a = 500\\sqrt{2}$ — đúng?",
+          "Em ra $AB = AC \\approx 707$ m, $BC = 1000$ m — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không tính được $CM = BC - BM$.",
+          "Em không nhận ra vận tốc 2 lần gặp như nhau.",
+          "Em giải hệ phương trình bị sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-12/bai6-tamgiac.png"
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn đường kính AB và 4 điểm đồng viên",
+      "de_bai": "Cho đường tròn $(O; R)$ đường kính $AB = 2R$. Gọi $C$ là trung điểm $AO$, vẽ đường thẳng $Cx \\perp AB$ tại $C$, và cắt đường tròn $(O)$ tại $I$. Gọi $K$ là trung điểm $CI$, tia $AK$ cắt $(O)$ tại $M$. Đường thẳng $Cx$ cắt đường thẳng $BM$ tại $D$. Vẽ tiếp tuyến tại $M$ của $(O)$, tiếp tuyến này cắt $Cx$ tại $N$, tia $BK$ cắt $DA$ tại $H$.\n\na) Chứng minh: 4 điểm $B, M, K, C$ cùng thuộc một đường tròn và $BH \\perp AD$.\n\nb) Chứng minh: $NK = NM$ và $AK \\cdot AM = R^2$.\n\nc) Tính diện tích $\\triangle ABD$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "Góc nội tiếp chắn nửa đường tròn = 90°",
+        "4 điểm cùng đường tròn (cùng nhìn 1 cạnh dưới 90°)",
+        "Trực tâm tam giác",
+        "Tam giác đồng dạng (g-g)",
+        "Định lý Pythagore",
+        "Tam giác cân"
+      ],
+      "kien_thuc_lien_quan": [
+        "Góc nội tiếp chắn nửa đường tròn",
+        "Tiếp tuyến vuông góc với bán kính",
+        "Trực tâm tam giác",
+        "Tam giác đồng dạng",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "$BH \\perp AD$; $NK = NM$, $AK \\cdot AM = R^2$; $S_{ABD} = R^2\\sqrt{3}$.",
+      "goi_y_cap_1": "Câu a: $\\widehat{AMB} = 90°$ → $\\widehat{KMB} = 90°$ → $\\triangle KMB$ vuông tại M, nội tiếp đường tròn đường kính KB. $\\triangle KCB$ vuông tại C ($Cx \\perp AB$) → nội tiếp đường tròn đường kính KB. → 4 điểm K, M, B, C trên đường tròn đường kính KB. Trong $\\triangle ABD$: DC và AM là 2 đường cao → K là trực tâm → BK ⊥ AD tại H.\n\nCâu b: NM tiếp tuyến → $\\widehat{NMO} = 90°$. $\\triangle OMA$ cân tại O → $\\widehat{KMO} = \\widehat{MAO}$. Trong $\\triangle ACK$ vuông tại C: $\\widehat{AKC} + \\widehat{KAC} = 90°$. $\\widehat{AKC} = \\widehat{NKM}$ đối đỉnh → $\\widehat{NMK} = \\widehat{NKM}$ → tam giác NKM cân tại N → NK = NM. Mặt khác $\\triangle ACK \\sim \\triangle AMB$ (g-g) → $AK \\cdot AM = AC \\cdot AB = \\dfrac{R}{2} \\cdot 2R = R^2$.\n\nCâu c: $\\triangle OCI$ vuông tại C: $CI^2 = R^2 - (R/2)^2 = 3R^2/4$ → $CI = R\\sqrt{3}/2$. K trung điểm CI → $CK = R\\sqrt{3}/4$. $\\triangle ACK \\sim \\triangle DCB$ (g-g) → $DC = AC \\cdot CB / CK = (R/2)(3R/2)/(R\\sqrt{3}/4) = R\\sqrt{3}$. $S_{ABD} = (1/2) \\cdot DC \\cdot AB = (1/2) \\cdot R\\sqrt{3} \\cdot 2R = R^2\\sqrt{3}$.",
+      "goi_y_cap_2": "Câu a:\n- $\\widehat{AMB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AB)\n- $\\triangle KMB$ vuông tại M (do $\\widehat{KMB} = \\widehat{AMB} = 90°$) → nội tiếp đường tròn đường kính KB (1)\n- $\\triangle KCB$ vuông tại C (do $Cx \\perp AB$) → nội tiếp đường tròn đường kính KB (2)\n- Từ (1), (2) → 4 điểm K, M, B, C trên đường tròn đường kính KB\n- Trong $\\triangle ABD$: DC là đường cao (vì $Cx \\perp AB$), AM là đường cao (vì $\\widehat{AMB} = 90°$)\n- DC và AM cắt nhau tại K → K là trực tâm $\\triangle ABD$\n- → BK là đường cao thứ 3 → $BK \\perp AD$ tại H → $BH \\perp AD$\n\nCâu b:\n- MN tiếp tuyến tại M → $\\widehat{NMO} = 90°$\n- → $\\widehat{NMK} + \\widehat{KMO} = 90°$\n- $\\triangle OMA$ cân tại O ($OM = OA = R$) → $\\widehat{KMO} = \\widehat{MAO}$\n- → $\\widehat{NMK} + \\widehat{MAO} = 90°$\n- Trong $\\triangle ACK$ vuông tại C: $\\widehat{AKC} + \\widehat{CAK} = 90°$\n- → $\\widehat{NMK} = \\widehat{AKC}$\n- $\\widehat{AKC} = \\widehat{NKM}$ (2 góc đối đỉnh)\n- → $\\widehat{NMK} = \\widehat{NKM}$ → $\\triangle NKM$ cân tại $N$ → $NK = NM$\n- Xét $\\triangle ACK$ và $\\triangle AMB$: $\\widehat{MAB}$ chung, $\\widehat{ACK} = \\widehat{AMB} = 90°$\n- → $\\triangle ACK \\sim \\triangle AMB$ (g-g) → $\\dfrac{AC}{AM} = \\dfrac{AK}{AB}$ → $AK \\cdot AM = AC \\cdot AB$\n- $C$ là trung điểm $OA$ → $AC = OA/2 = R/2$\n- $AB = 2R$\n- → $AK \\cdot AM = (R/2)(2R) = R^2$\n\nCâu c:\n- $\\triangle OCI$ vuông tại C: $CI^2 = OI^2 - OC^2 = R^2 - (R/2)^2 = 3R^2/4$\n- → $CI = \\dfrac{R\\sqrt{3}}{2}$\n- $K$ trung điểm $CI$ → $CK = \\dfrac{CI}{2} = \\dfrac{R\\sqrt{3}}{4}$\n- $\\triangle ACK$ và $\\triangle DCB$ có: $\\widehat{ACK} = \\widehat{DCB} = 90°$, $\\widehat{CAK} = \\widehat{CDB}$ (cùng phụ $\\widehat{ABC}$)\n- → $\\triangle ACK \\sim \\triangle DCB$ (g-g) → $\\dfrac{AC}{DC} = \\dfrac{CK}{CB}$ → $DC = \\dfrac{AC \\cdot CB}{CK}$\n- $CB = OB + OC = R + R/2 = 3R/2$\n- $DC = \\dfrac{(R/2)(3R/2)}{R\\sqrt{3}/4} = \\dfrac{3R^2/4}{R\\sqrt{3}/4} = \\dfrac{3R}{\\sqrt{3}} = R\\sqrt{3}$\n- $S_{ABD} = \\dfrac{1}{2} \\cdot DC \\cdot AB = \\dfrac{1}{2} \\cdot R\\sqrt{3} \\cdot 2R = R^2\\sqrt{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh 4 điểm B, M, K, C cùng thuộc đường tròn và BH ⊥ AD:**\n\nTa có $\\widehat{AMB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n\n$\\triangle KMB$ vuông tại $M$ (do $\\widehat{KMB} = \\widehat{AMB} = 90°$) → $\\triangle KMB$ nội tiếp đường tròn đường kính $KB$ (1).\n\n$\\triangle KCB$ vuông tại $C$ (do $Cx \\perp AB$) → $\\triangle KCB$ nội tiếp đường tròn đường kính $KB$ (2).\n\nTừ (1) và (2) suy ra **4 điểm $K, M, B, C$ cùng thuộc đường tròn đường kính $KB$**.\n\nTrong $\\triangle ABD$ có:\n- $DC$ là đường cao (do $Cx \\perp AB$)\n- $AM$ là đường cao (do $\\widehat{AMB} = 90°$)\n\n$DC$ và $AM$ cắt nhau tại $K$ → $K$ là trực tâm của $\\triangle ABD$.\n\nSuy ra $BK \\perp AD$ tại $H$ nên $\\boxed{BH \\perp AD}$. □\n\n**Câu b) Chứng minh NK = NM và AK·AM = R²:**\n\n*Chứng minh NK = NM:*\n\nTa có $MN$ là tiếp tuyến của $(O)$ nên $\\widehat{NMO} = 90°$.\n\nSuy ra $\\widehat{NMK} + \\widehat{KMO} = 90°$.\n\nVì $\\triangle OMA$ cân tại $O$ (do $OM = OA = R$) nên $\\widehat{KMO} = \\widehat{MAO}$.\n\nSuy ra $\\widehat{NMK} + \\widehat{MAO} = 90°$.\n\nTrong $\\triangle ACK$ vuông tại $C$, ta có $\\widehat{AKC} + \\widehat{CAK} = 90°$.\n\nSuy ra $\\widehat{NMK} = \\widehat{AKC}$.\n\nMà $\\widehat{AKC} = \\widehat{NKM}$ (hai góc đối đỉnh).\n\nSuy ra $\\widehat{NMK} = \\widehat{NKM}$.\n\nVậy $\\triangle NKM$ cân tại $N$, suy ra $\\boxed{NK = NM}$.\n\n*Chứng minh AK·AM = R²:*\n\nXét $\\triangle ACK$ và $\\triangle AMB$:\n$$\\begin{cases} \\widehat{MAB} \\text{ (góc chung)} \\\\ \\widehat{ACK} = \\widehat{AMB} = 90° \\end{cases}$$\n\n$\\Rightarrow \\triangle ACK \\sim \\triangle AMB$ (g-g).\n\n$\\Rightarrow \\dfrac{AC}{AM} = \\dfrac{AK}{AB} \\Rightarrow AK \\cdot AM = AC \\cdot AB$.\n\nVì $C$ là trung điểm $OA$ nên $AC = \\dfrac{OA}{2} = \\dfrac{R}{2}$.\n\nTa có $AK \\cdot AM = \\dfrac{R}{2} \\cdot 2R = \\boxed{R^2}$.\n\n**Câu c) Tính diện tích △ABD theo R:**\n\nXét $\\triangle OCI$ vuông tại $C$ (do $Cx \\perp AB$):\n$$CI^2 = OI^2 - OC^2 = R^2 - \\left(\\dfrac{R}{2}\\right)^2 = R^2 - \\dfrac{R^2}{4} = \\dfrac{3R^2}{4}$$\n\nSuy ra $CI = \\dfrac{R\\sqrt{3}}{2}$.\n\nVì $K$ là trung điểm $CI$ nên $CK = \\dfrac{CI}{2} = \\dfrac{R\\sqrt{3}}{4}$.\n\nXét $\\triangle ACK$ và $\\triangle DCB$:\n$$\\begin{cases} \\widehat{ACK} = \\widehat{DCB} = 90° \\\\ \\widehat{CAK} = \\widehat{CDB} \\text{ (cùng phụ với } \\widehat{ABC}\\text{)} \\end{cases}$$\n\n$\\Rightarrow \\triangle ACK \\sim \\triangle DCB$ (g-g).\n\n$\\Rightarrow \\dfrac{AC}{DC} = \\dfrac{CK}{CB} \\Rightarrow DC = \\dfrac{AC \\cdot CB}{CK}$.\n\nTa có $CB = OB + OC = R + \\dfrac{R}{2} = \\dfrac{3R}{2}$.\n\nSuy ra:\n$$DC = \\dfrac{\\dfrac{R}{2} \\cdot \\dfrac{3R}{2}}{\\dfrac{R\\sqrt{3}}{4}} = \\dfrac{3R^2}{4} \\cdot \\dfrac{4}{R\\sqrt{3}} = \\dfrac{3R}{\\sqrt{3}} = R\\sqrt{3}$$\n\nDiện tích $\\triangle ABD$ là:\n$$S_{ABD} = \\dfrac{1}{2} \\cdot DC \\cdot AB = \\dfrac{1}{2} \\cdot R\\sqrt{3} \\cdot 2R = \\boxed{R^2\\sqrt{3}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) đường kính AB. C trung điểm AO, Cx ⊥ AB cắt (O) tại I. K trung điểm CI. AK cắt (O) tại M. Cx cắt BM tại D. Tiếp tuyến tại M cắt Cx tại N. BK cắt DA tại H.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Hình quá nhiều điểm, em không hình dung được.",
+          "Em không biết góc nào nội tiếp chắn nửa đường tròn.",
+          "Em không hiểu 'trực tâm' là gì."
+        ],
+        "dinh_huong": [
+          "Câu a em định dùng đường tròn đường kính KB — đúng không?",
+          "Câu b em định dùng tam giác đồng dạng để có $AC \\cdot AB = R^2$ — đúng?",
+          "Câu c em định tính DC qua tam giác đồng dạng ACK ~ DCB — đúng hướng?"
+        ],
+        "kiem_tra": [
+          "Em chứng minh 4 điểm K, M, B, C cùng đường tròn — đúng không?",
+          "Em ra $AK \\cdot AM = R^2$ — đúng?",
+          "Em ra $S_{ABD} = R^2\\sqrt{3}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra K là trực tâm $\\triangle ABD$.",
+          "Em không tính được $CI = \\dfrac{R\\sqrt{3}}{2}$.",
+          "Em không tìm được tam giác đồng dạng để tính DC."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-12/bai7-duongtron.png"
+    }
+  ]
+}

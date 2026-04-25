@@ -1,0 +1,364 @@
+{
+  "de_so": 14,
+  "cum": 5,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $(P): y = x^2$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm tọa độ những điểm $M$ thuộc $(P)$ có tung độ bằng hai lần hoành độ bằng phép toán.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol bề lõm lên trên",
+        "Thay $y = 2x$ vào (P)",
+        "Giải phương trình bậc hai dạng tích"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = x²",
+        "Điểm thuộc đồ thị thỏa mãn phương trình"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$ và $(2; 4)$.",
+      "goi_y_cap_1": "Câu a: Lập bảng với x = -2, -1, 0, 1, 2.\n\nCâu b: 'Tung độ bằng 2 lần hoành độ' → $y = 2x$. Thay vào (P): $x^2 = 2x$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -2 \\to y = 4$; $x = -1 \\to y = 1$; $x = 0 \\to y = 0$; $x = 1 \\to y = 1$; $x = 2 \\to y = 4$\n\nCâu b:\n- $y = 2x$ thay vào (P): $x^2 = 2x$\n- $x^2 - 2x = 0 \\Leftrightarrow x(x - 2) = 0$\n- $x_1 = 0 \\Rightarrow y_1 = 0$: điểm $(0; 0)$\n- $x_2 = 2 \\Rightarrow y_2 = 4$: điểm $(2; 4)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm điểm M:**\n\nTheo đề bài, ta có $y = 2x$.\n\nTa có phương trình $x^2 = 2x$\n\n$\\Leftrightarrow x^2 - 2x = 0$\n\n$\\Leftrightarrow x_1 = 0$ hoặc $x_2 = 2$.\n\nVới $x_1 = 0 \\Rightarrow y_1 = 0$.\n\nVới $x_2 = 2 \\Rightarrow y_2 = 4$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(2; 4)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = x² bề lõm quay lên trên trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol $y = x^2$ thế nào.",
+          "'Tung độ bằng 2 lần hoành độ' viết công thức ra sao?",
+          "Câu b có bao nhiêu đáp án?"
+        ],
+        "dinh_huong": [
+          "Em định lập bảng với x = -2, -1, 0, 1, 2 — đúng không?",
+          "Em định viết $y = 2x$ rồi thay vào (P) — đúng chứ?",
+          "Em định giải dạng tích $x(x-2) = 0$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 2 nghiệm $x = 0$ và $x = 2$ — đúng không?",
+          "Em ra 2 điểm $(0; 0)$ và $(2; 4)$ — đúng chưa?",
+          "Parabol đi qua $(1; 1)$ và $(-1; 1)$ — đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $y = 2x$ với $x = 2y$.",
+          "Em quên điểm $(0; 0)$.",
+          "Em không biết đưa $x^2 = 2x$ về dạng tích."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-14/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức đối xứng",
+      "de_bai": "Cho phương trình $3x^2 - 11x - 7 = 0$.\n\na) Chứng minh phương trình có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức:\n$$A = \\left(\\dfrac{1}{x_2} - \\dfrac{1}{x_1}\\right)(x_1 - x_2)$$",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Quy đồng biểu thức A",
+        "Biến đổi $(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète",
+        "$(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1 x_2$"
+      ],
+      "dap_so": "$A = -\\dfrac{205}{21}$",
+      "goi_y_cap_1": "Câu a: Tính Δ = 121 + 84 = 205 > 0.\n\nCâu b: Quy đồng $\\dfrac{1}{x_2} - \\dfrac{1}{x_1} = \\dfrac{x_1 - x_2}{x_1 x_2}$. Khi nhân với $(x_1-x_2)$ ra $\\dfrac{(x_1-x_2)^2}{x_1 x_2}$. Dùng $(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1 x_2$.",
+      "goi_y_cap_2": "Câu a:\n- $a = 3; b = -11; c = -7$\n- $\\Delta = (-11)^2 - 4 \\cdot 3 \\cdot (-7) = 121 + 84 = 205 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{11}{3}$, $x_1 x_2 = \\dfrac{-7}{3}$\n- $A = \\dfrac{x_1 - x_2}{x_1 x_2}(x_1 - x_2) = \\dfrac{(x_1 - x_2)^2}{x_1 x_2} = \\dfrac{(x_1+x_2)^2 - 4x_1 x_2}{x_1 x_2}$\n- Tử: $\\left(\\dfrac{11}{3}\\right)^2 - 4 \\cdot \\left(-\\dfrac{7}{3}\\right) = \\dfrac{121}{9} + \\dfrac{28}{3} = \\dfrac{121}{9} + \\dfrac{84}{9} = \\dfrac{205}{9}$\n- $A = \\dfrac{205/9}{-7/3} = \\dfrac{205}{9} \\cdot \\dfrac{-3}{7} = -\\dfrac{205}{21}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $3x^2 - 11x - 7 = 0$ với $a = 3; b = -11; c = -7$.\n\n$\\Delta = b^2 - 4ac = (-11)^2 - 4 \\cdot 3 \\cdot (-7) = 121 + 84 = 205 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{11}{3} \\\\ x_1 x_2 = \\dfrac{-7}{3} \\end{cases}$$\n\nBiến đổi $A$:\n$$A = \\left(\\dfrac{1}{x_2} - \\dfrac{1}{x_1}\\right)(x_1 - x_2) = \\dfrac{x_1 - x_2}{x_1 x_2} \\cdot (x_1 - x_2) = \\dfrac{(x_1 - x_2)^2}{x_1 x_2}$$\n\n$$= \\dfrac{(x_1 + x_2)^2 - 4 x_1 x_2}{x_1 x_2}$$\n\nThay giá trị:\n$$A = \\dfrac{\\left(\\dfrac{11}{3}\\right)^2 - 4 \\cdot \\left(-\\dfrac{7}{3}\\right)}{-\\dfrac{7}{3}}$$\n\nTử số: $\\dfrac{121}{9} + \\dfrac{28}{3} = \\dfrac{121}{9} + \\dfrac{84}{9} = \\dfrac{205}{9}$.\n\n$$A = \\dfrac{205/9}{-7/3} = \\dfrac{205}{9} \\cdot \\dfrac{-3}{7} = \\boxed{-\\dfrac{205}{21}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng $\\dfrac{1}{x_2} - \\dfrac{1}{x_1}$.",
+          "Em quên Viète cho phương trình này.",
+          "Em không biết bắt đầu biến đổi từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng để có $\\dfrac{x_1 - x_2}{x_1 x_2}$ — đúng không?",
+          "Em định nhân tiếp để có $\\dfrac{(x_1-x_2)^2}{x_1 x_2}$ — đúng chứ?",
+          "Em định dùng $(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1 x_2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1 + x_2 = \\dfrac{11}{3}$, $x_1 x_2 = -\\dfrac{7}{3}$ — đúng không?",
+          "Em ra tử = $\\dfrac{205}{9}$ — đúng chưa?",
+          "Em ra $A = -\\dfrac{205}{21}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm dấu khi tính $-4 \\cdot (-\\dfrac{7}{3})$.",
+          "Em quy đồng phân số sai.",
+          "Em chia phân số sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép - Du lịch",
+      "de_bai": "Biểu đồ cột kép dưới đây biểu diễn số khách nội địa và khách quốc tế đến tham quan tại 6 địa điểm của Việt Nam trong năm 2022. (Đơn vị: nghìn người)\n\n| Địa điểm | Khách nội địa | Khách quốc tế |\n|---|---|---|\n| Hạ Long | 1200 | 300 |\n| Đà Lạt | 900 | 100 |\n| Nha Trang | 1500 | 500 |\n| Sapa | 720 | 80 |\n| Phú Quốc | 1300 | 500 |\n| Đà Nẵng | 1800 | 1200 |\n\na) Dựa vào biểu đồ trên, hãy cho biết địa điểm nào có tỉ lệ khách quốc tế so với tổng số khách đến tham quan cao nhất và thấp nhất trong năm $2022$.\n\nb) Chọn ngẫu nhiên một địa điểm tham quan được biểu diễn trong biểu đồ trên. Hãy tính xác suất của mỗi biến cố sau:\n- $A$: \"Địa điểm được chọn có tổng số khách tham quan dưới $2000$ nghìn người\".\n- $B$: \"Địa điểm được chọn có tỉ lệ khách quốc tế so với tổng số khách từ $20\\%$ trở lên\".",
+      "phuong_phap_duoc_dung": [
+        "Tính tỉ lệ phần trăm khách QT/tổng",
+        "So sánh để tìm cao nhất, thấp nhất",
+        "Đếm địa điểm thỏa mãn điều kiện",
+        "Công thức xác suất cổ điển"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tỉ lệ phần trăm",
+        "Xác suất cổ điển P(A) = n(A)/n(Ω)",
+        "Đọc biểu đồ cột kép"
+      ],
+      "dap_so": "a) Cao nhất: Đà Nẵng. Thấp nhất: Đà Lạt và Sapa. b) $P(A) = P(B) = \\dfrac{2}{3}$.",
+      "goi_y_cap_1": "Câu a: Tính tỉ lệ QT/(tổng) cho từng địa điểm.\n\nCâu b: Không gian mẫu là 6 địa điểm. Đếm địa điểm có tổng < 2000 và có tỉ lệ ≥ 20%.",
+      "goi_y_cap_2": "Câu a:\n- Hạ Long: $\\dfrac{300}{1500} = 20\\%$\n- Đà Lạt: $\\dfrac{100}{1000} = 10\\%$\n- Nha Trang: $\\dfrac{500}{2000} = 25\\%$\n- Sapa: $\\dfrac{80}{800} = 10\\%$\n- Phú Quốc: $\\dfrac{500}{1800} \\approx 27{,}7\\%$\n- Đà Nẵng: $\\dfrac{1200}{3000} = 40\\%$\n- Cao nhất: Đà Nẵng. Thấp nhất: Đà Lạt và Sapa\n\nCâu b:\n- $n(\\Omega) = 6$\n- A: tổng < 2000:\n  - Hạ Long (1500), Đà Lạt (1000), Sapa (800), Phú Quốc (1800) → $n(A) = 4$\n  - $P(A) = 4/6 = 2/3$\n- B: tỉ lệ ≥ 20%:\n  - Hạ Long (20%), Nha Trang (25%), Phú Quốc (27,7%), Đà Nẵng (40%) → $n(B) = 4$\n  - $P(B) = 4/6 = 2/3$",
+      "loi_giai_day_du": "**Câu a) Tìm địa điểm có tỉ lệ khách quốc tế cao/thấp nhất:**\n\nLập bảng tỷ lệ khách quốc tế so với tổng khách:\n\n- Hạ Long: $\\dfrac{300}{1200 + 300} = 20\\%$\n- Đà Lạt: $\\dfrac{100}{900 + 100} = 10\\%$\n- Nha Trang: $\\dfrac{500}{1500 + 500} = 25\\%$\n- Sapa: $\\dfrac{80}{720 + 80} = 10\\%$\n- Phú Quốc: $\\dfrac{500}{1300 + 500} \\approx 27{,}7\\%$\n- Đà Nẵng: $\\dfrac{1200}{1800 + 1200} = 40\\%$\n\nVậy địa điểm có tỉ lệ khách quốc tế **cao nhất là Đà Nẵng** (40%), **thấp nhất là Đà Lạt và Sapa** (đều 10%).\n\n**Câu b) Tính xác suất:**\n\nKhông gian mẫu $n(\\Omega) = 6$ (gồm Hạ Long, Đà Lạt, Nha Trang, Sapa, Phú Quốc, Đà Nẵng).\n\n**Biến cố A:** \"Địa điểm được chọn có tổng số khách tham quan dưới 2000 nghìn người\".\n\nCác địa điểm thỏa mãn:\n- Hạ Long (1500), Đà Lạt (1000), Sapa (800), Phú Quốc (1800).\n\nSuy ra $n(A) = 4$.\n\n$$P(A) = \\dfrac{4}{6} = \\boxed{\\dfrac{2}{3}}$$\n\n**Biến cố B:** \"Địa điểm được chọn có tỉ lệ khách quốc tế so với tổng số khách từ 20% trở lên\".\n\nCác địa điểm thỏa mãn:\n- Hạ Long (20%), Nha Trang (25%), Phú Quốc (≈ 27,7%), Đà Nẵng (40%).\n\nSuy ra $n(B) = 4$.\n\n$$P(B) = \\dfrac{4}{6} = \\boxed{\\dfrac{2}{3}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số khách nội địa và quốc tế tại 6 địa điểm: Hạ Long, Đà Lạt, Nha Trang, Sapa, Phú Quốc, Đà Nẵng.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính tỉ lệ phần trăm.",
+          "'Tỉ lệ khách quốc tế so với tổng số khách' tính thế nào thầy?",
+          "Em đếm địa điểm bị nhầm."
+        ],
+        "dinh_huong": [
+          "Em định tính tỉ lệ = QT/(QT+nội địa) cho từng địa điểm — đúng không?",
+          "Em định liệt kê các địa điểm có tổng < 2000 — đúng hướng chứ?",
+          "Em định liệt kê các địa điểm có tỉ lệ ≥ 20% — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Đà Nẵng cao nhất (40%) — đúng không?",
+          "Em ra $n(A) = 4$ địa điểm có tổng < 2000 — đúng chưa?",
+          "Em ra $P(A) = P(B) = \\dfrac{2}{3}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'tỉ lệ' = QT/nội địa thay vì QT/tổng.",
+          "Em quên Phú Quốc tổng là 1800 (chưa đến 2000).",
+          "Em không nhớ Hạ Long đúng 20%."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-14/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Tấm bìa cắt 2 đầu hình tròn",
+      "de_bai": "Một xưởng in có một tấm bìa carton hình chữ nhật với chiều rộng $x$ (mét) và chiều dài $y$ (mét). Họ cần cắt bỏ một phần hai đầu tấm bìa để tạo ra một tấm bìa nhỏ hơn, có kích thước phù hợp cho việc trang trí. (Phần cắt bỏ tạo thành một hình tròn có đường kính bằng chiều rộng $x$ của tấm bìa.)\n\na) Hãy viết biểu thức $A(x)$ phần diện tích còn lại của tấm bìa sau khi bị cắt đi.\n\nb) Biết tấm bìa có chiều rộng kém chiều dài 2 lần, tấm bìa mới có diện tích bằng $19{,}44$ m². Hỏi kích thước ban đầu của miếng bìa là bao nhiêu? (lấy giá trị $\\pi \\approx 3{,}14$)",
+      "phuong_phap_duoc_dung": [
+        "Diện tích HCN ban đầu = xy",
+        "Hai phần cắt bỏ ghép thành hình tròn đường kính x",
+        "Diện tích hình tròn = $\\pi R^2$",
+        "Lập phương trình bậc hai theo điều kiện $y = 2x$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình tròn",
+        "Phương trình bậc hai",
+        "Quan hệ chiều dài/rộng"
+      ],
+      "dap_so": "a) $A(x) = xy - \\dfrac{\\pi x^2}{4}$. b) Chiều rộng = 4 m, chiều dài = 8 m.",
+      "goi_y_cap_1": "Câu a: 2 phần cắt bỏ ghép thành hình tròn đường kính x → R = x/2. Diện tích cắt = $\\pi (x/2)^2 = \\pi x^2/4$. Diện tích còn lại = $xy - \\pi x^2/4$.\n\nCâu b: 'Chiều rộng kém chiều dài 2 lần' → $y = 2x$. Thay vào A(x) = 19,44 với π = 3,14.",
+      "goi_y_cap_2": "Câu a:\n- Diện tích tấm bìa ban đầu: $xy$ (m²)\n- Hai phần cắt bỏ ghép thành hình tròn đường kính = chiều rộng = $x$\n- Bán kính: $R = \\dfrac{x}{2}$\n- Diện tích phần cắt bỏ: $\\pi \\left(\\dfrac{x}{2}\\right)^2 = \\dfrac{\\pi x^2}{4}$ (m²)\n- $A(x) = xy - \\dfrac{\\pi x^2}{4}$ (m²)\n\nCâu b:\n- 'Chiều rộng kém chiều dài 2 lần' → $y = 2x$ ($x > 0$)\n- $A(x) = 19{,}44$ → $x(2x) - \\dfrac{3{,}14 \\cdot x^2}{4} = 19{,}44$\n- $2x^2 - 0{,}785x^2 = 19{,}44$\n- $1{,}215x^2 = 19{,}44$\n- $x^2 = 16$\n- $x_1 = 4$ (nhận); $x_2 = -4$ (loại)\n- Với $x = 4$ → $y = 8$ (m)\n- Vậy chiều rộng 4 m, chiều dài 8 m",
+      "loi_giai_day_du": "**Câu a) Biểu thức A(x):**\n\nDiện tích tấm bìa hình chữ nhật ban đầu là $xy$ (m²).\n\nHai phần cắt bỏ tạo thành một hình tròn có đường kính bằng chiều rộng $x$ của tấm bìa.\n\nBán kính hình tròn: $R = \\dfrac{x}{2}$ (m).\n\nDiện tích phần cắt bỏ là:\n$$\\pi \\left(\\dfrac{x}{2}\\right)^2 = \\dfrac{\\pi x^2}{4} \\text{ (m}^2\\text{)}$$\n\nBiểu thức diện tích còn lại của tấm bìa:\n$$\\boxed{A(x) = xy - \\dfrac{\\pi x^2}{4} \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tính kích thước ban đầu:**\n\nVì chiều rộng kém chiều dài 2 lần nên ta có $y = 2x$ ($x > 0$).\n\nTheo đề bài, diện tích tấm bìa mới bằng $19{,}44$ m² nên ta có phương trình:\n$$x(2x) - \\dfrac{3{,}14 \\cdot x^2}{4} = 19{,}44$$\n$$2x^2 - 0{,}785 x^2 = 19{,}44$$\n$$1{,}215 x^2 - 19{,}44 = 0$$\n$$x^2 = 16$$\n$$x_1 = 4 \\text{ ; } x_2 = -4$$\n\nVì $x > 0$ nên $x = 4$ (nhận).\n\nVới $x = 4 \\Rightarrow y = 2 \\cdot 4 = 8$.\n\nVậy kích thước ban đầu của tấm bìa là chiều rộng $\\boxed{4 \\text{ m}}$ và chiều dài $\\boxed{8 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tấm bìa carton HCN chiều rộng x (m), chiều dài y (m); hai phần cắt bỏ ở 2 đầu là 2 nửa hình tròn ghép lại thành hình tròn đường kính x.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hình dung được 2 phần cắt bỏ.",
+          "Em không biết bán kính hình tròn cắt bỏ là gì.",
+          "'Chiều rộng kém chiều dài 2 lần' nghĩa là sao?"
+        ],
+        "dinh_huong": [
+          "Em định kết hợp 2 nửa cắt thành 1 hình tròn đường kính x — đúng không?",
+          "Em định lấy R = x/2 — đúng chứ?",
+          "Em định viết $y = 2x$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $A(x) = xy - \\dfrac{\\pi x^2}{4}$ — đúng không?",
+          "Em ra phương trình $1{,}215 x^2 = 19{,}44$ — đúng chưa?",
+          "Em ra $x = 4, y = 8$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'kém 2 lần' thành $y = x/2$ thay vì $y = 2x$.",
+          "Em quên chia 4 ở $\\dfrac{\\pi x^2}{4}$.",
+          "Em không tính ra $0{,}785$ từ $\\dfrac{3{,}14}{4}$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-14/bai4-tambia.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Ly rượu vang (trụ + nửa cầu)",
+      "de_bai": "Một hãng sản xuất rượu vang đã đặt hàng một công ty sản xuất thủy tinh một kiểu ly có phần đựng rượu cao $6$ cm, đường kính miệng ly là $6$ cm. Biết rằng để tạo thành một cái ly là sự kết hợp gồm thành ly là một hình trụ cao $3$ cm, phần đáy ly là một nửa khối cầu có đường kính bằng với đường kính của miệng ly.\n\na) Hãy tính thể tích rượu được chứa tối đa khi đổ vào ly. Cho biết: $V_{trụ} = \\pi r^2 h$ với $r$ là bán kính đáy, $h$ là chiều cao hình trụ; $V_{cầu} = \\dfrac{4}{3}\\pi R^3$ với $R$ là bán kính hình cầu.\n\nb) Ông Giáp cần chuẩn bị một số chai rượu vang, lượng rượu trong mỗi chai là $0{,}85$ lít. Biết rằng trong bữa tiệc có $12$ người (bao gồm luôn ông Giáp), mỗi người uống $4$ ly rượu, lượng rượu được rót bằng $60\\%$ thể tích của ly. Ông Giáp cần chuẩn bị ít nhất bao nhiêu chai rượu vang?",
+      "phuong_phap_duoc_dung": [
+        "Tách ly thành 2 phần: hình trụ + nửa cầu",
+        "$V_{ly} = V_{trụ} + V_{nửa cầu}$",
+        "Đổi đơn vị cm³ → lít",
+        "Số chai = ceil(tổng/0,85)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình cầu",
+        "Đổi đơn vị: 1 lít = 1000 cm³",
+        "Làm tròn lên (số chai nguyên)"
+      ],
+      "dap_so": "a) $V = 45\\pi$ cm³. b) Cần ít nhất 5 chai.",
+      "goi_y_cap_1": "Câu a: R = 6/2 = 3 cm. V trụ = π·3²·3 = 27π. V nửa cầu = (1/2)·(4/3)π·3³ = 18π. Tổng = 45π.\n\nCâu b: 12 × 4 = 48 ly. Mỗi ly rót 60% × 45π = 27π cm³. Tổng rượu = 48 × 27π = 1296π cm³. Đổi 0,85 lít = 850 cm³. Số chai = 1296π/850 ≈ 4,79 → cần ít nhất 5 chai.",
+      "goi_y_cap_2": "Câu a:\n- Bán kính: $R = 6/2 = 3$ (cm)\n- $V_{trụ} = \\pi R^2 h = \\pi \\cdot 3^2 \\cdot 3 = 27\\pi$ (cm³)\n- $V_{nửa cầu} = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 27 = 18\\pi$ (cm³)\n- $V = V_{trụ} + V_{nửa cầu} = 27\\pi + 18\\pi = 45\\pi$ (cm³)\n\nCâu b:\n- Tổng số ly: $12 \\cdot 4 = 48$ ly\n- Lượng rượu mỗi ly: $45\\pi \\cdot 60\\% = 27\\pi$ (cm³)\n- Tổng rượu: $48 \\cdot 27\\pi = 1296\\pi$ (cm³)\n- Đổi: $0{,}85$ lít = $850$ cm³\n- Số chai: $n = \\dfrac{1296\\pi}{850} \\approx 4{,}79$ chai\n- Số chai phải nguyên → cần ít nhất 5 chai",
+      "loi_giai_day_du": "**Câu a) Thể tích rượu chứa tối đa:**\n\nBán kính đáy của phần đựng rượu hình trụ và bán kính của nửa khối cầu là:\n$$R = 6 : 2 = 3 \\text{ (cm)}$$\n\nThể tích phần hình trụ là:\n$$V_{trụ} = \\pi R^2 h = \\pi \\cdot 3^2 \\cdot 3 = 27\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích phần nửa khối cầu là:\n$$V_{cầu} = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 3^3 = 18\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích rượu được chứa tối đa khi đổ vào ly là:\n$$V = V_{trụ} + V_{cầu} = 27\\pi + 18\\pi = \\boxed{45\\pi \\text{ cm}^3}$$\n\n**Câu b) Số chai rượu cần chuẩn bị:**\n\nTổng số ly rượu cần rót cho 12 người là: $12 \\cdot 4 = 48$ (ly).\n\nLượng rượu cần rót trong mỗi ly là: $45\\pi \\cdot 60\\% = 27\\pi$ (cm³).\n\nTổng lượng rượu cần chuẩn bị cho bữa tiệc là: $48 \\cdot 27\\pi = 1296\\pi$ (cm³).\n\nĐổi $0{,}85$ lít = $850$ cm³.\n\nSố chai rượu ông Giáp cần chuẩn bị là:\n$$n = \\dfrac{1296\\pi}{850} \\approx 4{,}79 \\text{ (chai)}$$\n\nVì số chai rượu phải là số nguyên nên ông Giáp cần chuẩn bị ít nhất $\\boxed{5}$ chai rượu vang.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Ly rượu vang gồm: phần đựng rượu hình trụ cao 3 cm + đáy là nửa khối cầu, đường kính 6 cm; tổng chiều cao phần đựng rượu là 6 cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết ly chia thành mấy phần.",
+          "Công thức V trụ và V cầu em quên rồi.",
+          "Em không biết đổi cm³ sang lít."
+        ],
+        "dinh_huong": [
+          "Em định tách V ly = V trụ + V nửa cầu — đúng không?",
+          "Em định tính 60% × 45π cho mỗi ly — đúng chứ?",
+          "Em định 1 lít = 1000 cm³ → 0,85 lít = 850 cm³ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V = 45\\pi$ cm³ — đúng không?",
+          "Em ra tổng rượu = $1296\\pi$ cm³ — đúng chưa?",
+          "Em ra cần 5 chai (vì 4,79 không tròn) — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm V ly = V trụ × V cầu thay vì V trụ + V cầu.",
+          "Em không nhân 60% cho mỗi ly.",
+          "Em làm tròn xuống thành 4 chai (sai)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-14/bai5-lyruouvang.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hệ phương trình (chuyển động)",
+      "de_bai": "Lúc $7$ giờ, Quốc khởi hành từ $A$ để đến gặp Khánh tại $B$ lúc $9$ giờ $30$ phút. Nhưng đến $9$ giờ, Quốc được biết Khánh bắt đầu đi từ $B$ để đến $C$ (không nằm trên quãng đường $AB$) với vận tốc bằng $3{,}25$ lần vận tốc của Quốc. Ngay lúc đó, Quốc tăng thêm vận tốc $1$ km/h và khi tới $B$, Quốc đã đi theo đường tắt đến $C$ chỉ dài bằng $\\dfrac{1}{3}$ quãng đường mà Khánh đi từ $B$ đến $C$, do đó Quốc và Khánh đến $C$ cùng một lúc. Nếu Khánh cũng đi theo đường tắt như Quốc thì Khánh đến $C$ trước Quốc là $2$ giờ. Tính vận tốc lúc đầu của Quốc.",
+      "phuong_phap_duoc_dung": [
+        "Đặt ẩn $x$ (vận tốc Quốc), $y$ (quãng đường BC)",
+        "Tính quãng đường AB từ thời gian dự định",
+        "Lập 2 phương trình từ 2 điều kiện gặp nhau",
+        "Giải hệ để tìm $x$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Quan hệ thời gian = quãng đường / vận tốc",
+        "Hệ phương trình",
+        "Quy đồng phương trình"
+      ],
+      "dap_so": "Vận tốc lúc đầu của Quốc = $4$ km/h.",
+      "goi_y_cap_1": "Gọi $x$ vận tốc Quốc, $y$ quãng đường BC. Thời gian dự định 2,5 giờ → $S_{AB} = 2,5x$. Đến 9h Quốc đi được 2x, còn lại 0,5x. Lập 2 phương trình từ điều kiện 'cùng đến C' và 'Khánh trước 2 giờ'.",
+      "goi_y_cap_2": "- Gọi $x$ (km/h) vận tốc lúc đầu của Quốc, $y$ (km) quãng đường Khánh đi từ B đến C ($x, y > 0$)\n- Vận tốc Khánh: $3{,}25x$ (km/h)\n- Quãng đường AB (theo dự định 2h30 = 2,5 giờ): $S_{AB} = 2{,}5x$ (km)\n- Lúc 9h, Quốc đi được $2x$ (km), còn lại $2{,}5x - 2x = 0{,}5x$ (km)\n- Vận tốc Quốc sau khi tăng: $x + 1$ (km/h)\n- Quốc đi đường tắt từ B đến C dài $\\dfrac{y}{3}$ (km)\n- **Phương trình 1** (Quốc và Khánh cùng đến C lúc):\n  $\\dfrac{0{,}5x}{x+1} + \\dfrac{y/3}{x+1} = \\dfrac{y}{3{,}25x}$\n- **Phương trình 2** (Khánh đi đường tắt thì đến trước 2 giờ):\n  $\\dfrac{y}{3{,}25x} - \\dfrac{y/3}{3{,}25x} = 2$\n- Giải PT (2): $\\dfrac{3y - y}{3 \\cdot 3{,}25x} = 2 \\Rightarrow \\dfrac{2y}{9{,}75x} = 2 \\Rightarrow y = 9{,}75x$\n- Thế vào PT (1): $\\dfrac{0{,}5x + 3{,}25x}{x+1} = \\dfrac{9{,}75x}{3{,}25x} = 3$\n- $\\dfrac{3{,}75x}{x+1} = 3 \\Rightarrow 3{,}75x = 3(x+1) \\Rightarrow 0{,}75x = 3 \\Rightarrow x = 4$",
+      "loi_giai_day_du": "Gọi $x$ (km/h) là vận tốc lúc đầu của Quốc, $y$ (km) là quãng đường Khánh đi từ $B$ đến $C$ ($x > 0; y > 0$).\n\nVận tốc của Khánh là $3{,}25x$ (km/h).\n\nQuãng đường Quốc đi từ $A$ đến $B$ theo dự định hết $2$ giờ $30$ phút ($2{,}5$ giờ) nên quãng đường $AB$ dài $2{,}5x$ (km).\n\nĐến $9$ giờ (sau 2 giờ khởi hành), Quốc đã đi được $2x$ (km).\n\nQuãng đường còn lại Quốc phải đi đến $B$ là $2{,}5x - 2x = 0{,}5x$ (km).\n\nSau khi tăng tốc, vận tốc của Quốc là $x + 1$ (km/h).\n\nQuãng đường đường tắt từ $B$ đến $C$ dài $\\dfrac{y}{3}$ (km).\n\n**Phương trình (1):** Vì Quốc và Khánh đến $C$ cùng một lúc nên thời gian đi từ lúc 9 giờ của hai người bằng nhau:\n$$\\dfrac{0{,}5x}{x+1} + \\dfrac{y/3}{x+1} = \\dfrac{y}{3{,}25x} \\quad (1)$$\n\n**Phương trình (2):** Vì nếu Khánh đi đường tắt thì đến trước Quốc 2 giờ:\n$$\\dfrac{y}{3{,}25x} - \\dfrac{y/3}{3{,}25x} = 2 \\quad (2)$$\n\nGiải phương trình (2):\n$$\\dfrac{3y - y}{3 \\cdot 3{,}25x} = 2$$\n$$\\dfrac{2y}{9{,}75x} = 2$$\n$$2y = 19{,}5x$$\n$$y = 9{,}75x$$\n\nThế $y = 9{,}75x$ vào phương trình (1):\n$$\\dfrac{0{,}5x + (9{,}75x)/3}{x+1} = \\dfrac{9{,}75x}{3{,}25x}$$\n$$\\dfrac{0{,}5x + 3{,}25x}{x+1} = 3$$\n$$\\dfrac{3{,}75x}{x+1} = 3$$\n$$3{,}75x = 3(x+1)$$\n$$3{,}75x - 3x = 3$$\n$$0{,}75x = 3$$\n$$x = 4 \\text{ (nhận)}$$\n\nVới $x = 4$ suy ra $y = 9{,}75 \\cdot 4 = 39$ (nhận).\n\nVậy vận tốc lúc đầu của Quốc là $\\boxed{4 \\text{ km/h}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Bài này phức tạp quá, em không biết bắt đầu từ đâu.",
+          "Em không biết tính quãng đường AB.",
+          "Em không hình dung được 'đường tắt' là gì."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x$ vận tốc Quốc và $y$ quãng đường BC — đúng không?",
+          "Em định tính AB = 2,5x (vì dự định 2h30) — đúng chứ?",
+          "Em định lập 2 phương trình từ 2 điều kiện gặp nhau — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình (2): $\\dfrac{2y}{9{,}75x} = 2$ — đúng không?",
+          "Em ra $y = 9{,}75x$ — đúng chưa?",
+          "Em ra $x = 4$ km/h — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết tính 'đường tắt = y/3'.",
+          "Em không lập được hệ phương trình.",
+          "Em quy đồng phân số bị sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tiếp tuyến đường tròn và hình quạt",
+      "de_bai": "Cho đường tròn tâm $O$, bán kính $R$ có đường kính $AC$. Trên đường thẳng $(a)$ là tiếp tuyến tại $A$ của đường tròn $(O; R)$ lấy điểm $M$ khác $A$ sao cho $AM > AO$. Từ điểm $M$ vẽ $MB$ là tiếp tuyến đường tròn $(O; R)$ ($B$ là tiếp điểm, $B$ khác $A$).\n\na) Chứng minh: Tứ giác $MAOB$ nội tiếp và $OM \\perp AB$.\n\nb) Gọi $D$ là giao điểm của đoạn thẳng $MO$ với đường tròn $(O; R)$. Tia $AD$ cắt đoạn thẳng $MB$ tại $E$. Kẻ $OI$ vuông góc với $DB$ tại $I$. Chứng minh: $\\widehat{DAB} = \\widehat{IOB}$ và $EB^2 = ED \\cdot EA$.\n\nc) Tiếp tuyến tại $C$ của đường tròn $(O; R)$ cắt đường thẳng $AB$ tại $K$. Giả sử $AM = R\\sqrt{3}$. Chứng minh: $OK \\perp MC$ và tính theo $R$ diện tích của hình giới hạn bởi đoạn $MB$, cung nhỏ $BC$, đoạn $CK$ và đoạn $KM$.",
+      "phuong_phap_duoc_dung": [
+        "Tứ giác có 2 đỉnh kề nhìn 1 cạnh dưới góc 90° → nội tiếp",
+        "Tiếp tuyến vuông góc với bán kính",
+        "Hai tiếp tuyến cắt nhau",
+        "Tam giác đồng dạng",
+        "Hệ thức lượng trong tam giác vuông",
+        "Diện tích hình quạt tròn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp",
+        "Tiếp tuyến của đường tròn",
+        "Góc nội tiếp, góc ở tâm",
+        "Tam giác đồng dạng",
+        "Diện tích hình quạt tròn",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "c) $S = \\dfrac{R^2(7\\sqrt{3} - \\pi)}{6}$",
+      "goi_y_cap_1": "Câu a: △MAO vuông tại A và △MBO vuông tại B → cả 2 nội tiếp đường tròn đường kính MO → 4 điểm M, A, O, B cùng nằm trên đường tròn đường kính MO. OM ⊥ AB do MA = MB và OA = OB.\n\nCâu b: △OBD cân tại O, OI ⊥ BD → OI là phân giác $\\widehat{BOD}$ → $\\widehat{IOB} = \\dfrac{1}{2}\\widehat{BOD} = \\widehat{DAB}$ (góc nội tiếp). Sau đó △EBD ~ △EAB (g-g) → EB² = ED·EA.\n\nCâu c: $\\tan\\widehat{AOM} = AM/AO = \\sqrt{3}$ → $\\widehat{AOM} = 60°$ → $\\widehat{AOB} = 120°$ → $\\widehat{OAB} = 30°$ → $\\widehat{KAC} = \\widehat{OAB} = 30°$ (vì KC tiếp tuyến) — không đúng, phải là tam giác KAC vuông tại C. CK = AC·tan30° = $2R/\\sqrt{3}$. Tính tan KOC · tan ACM = 1 → KOC + ACM = 90° → OK ⊥ MC. Diện tích = S OMKC - S quạt OBC.",
+      "goi_y_cap_2": "Câu a:\n- $MA$ là tiếp tuyến tại $A$ → $\\widehat{MAO} = 90°$\n- → $\\triangle MAO$ vuông tại $A$ → nội tiếp đường tròn đường kính $MO$ (1)\n- $MB$ là tiếp tuyến tại $B$ → $\\widehat{MBO} = 90°$\n- → $\\triangle MBO$ vuông tại $B$ → nội tiếp đường tròn đường kính $MO$ (2)\n- Từ (1), (2): M, A, O, B cùng thuộc đường tròn đường kính $MO$ → tứ giác MAOB nội tiếp\n- $MA = MB$ (2 tiếp tuyến), $OA = OB = R$ → $OM$ là trung trực $AB$ → $OM \\perp AB$\n\nCâu b:\n- $OB = OD = R$ → $\\triangle OBD$ cân tại $O$\n- $OI \\perp BD$ tại $I$ → $OI$ là đường cao đồng thời phân giác $\\widehat{BOD}$\n- → $\\widehat{IOB} = \\dfrac{1}{2}\\widehat{BOD}$\n- $\\widehat{DAB} = \\dfrac{1}{2}\\widehat{BOD}$ (góc nội tiếp và góc ở tâm cùng chắn cung BD)\n- → $\\widehat{DAB} = \\widehat{IOB}$\n- $\\widehat{IOB} = \\widehat{EBD}$ (cùng phụ $\\widehat{OBI}$)\n- → $\\widehat{EBD} = \\widehat{EAB}$\n- $\\triangle EBD$ và $\\triangle EAB$: $\\widehat{AEB}$ chung, $\\widehat{EBD} = \\widehat{EAB}$ → đồng dạng (g-g)\n- → $\\dfrac{EB}{EA} = \\dfrac{ED}{EB}$ → $EB^2 = ED \\cdot EA$\n\nCâu c:\n- $\\triangle MAO$ vuông tại $A$: $\\tan\\widehat{AOM} = \\dfrac{AM}{OA} = \\dfrac{R\\sqrt{3}}{R} = \\sqrt{3}$ → $\\widehat{AOM} = 60°$\n- $\\widehat{AOB} = 2\\widehat{AOM} = 120°$ (tính chất 2 tiếp tuyến)\n- $\\triangle OAB$ cân tại $O$, $\\widehat{AOB} = 120°$ → $\\widehat{OAB} = 30°$\n- $AC \\perp KC$ (tiếp tuyến tại C). $\\triangle KAC$ vuông tại $C$: $\\widehat{KAC} = \\widehat{OAB} = 30°$\n- $CK = AC \\cdot \\tan 30° = 2R \\cdot \\dfrac{\\sqrt{3}}{3} = \\dfrac{2R\\sqrt{3}}{3}$\n- $\\triangle OCK$ vuông tại $C$: $\\tan\\widehat{KOC} = \\dfrac{CK}{OC} = \\dfrac{2\\sqrt{3}}{3}$\n- $\\triangle MAC$ vuông tại $A$: $\\tan\\widehat{ACM} = \\dfrac{AM}{AC} = \\dfrac{R\\sqrt{3}}{2R} = \\dfrac{\\sqrt{3}}{2}$\n- $\\tan\\widehat{KOC} \\cdot \\tan\\widehat{ACM} = \\dfrac{2\\sqrt{3}}{3} \\cdot \\dfrac{\\sqrt{3}}{2} = 1$ → $\\widehat{KOC} + \\widehat{ACM} = 90°$\n- Gọi $H$ là giao của $OK$ và $MC$. Trong $\\triangle OHC$: $\\widehat{HOC} + \\widehat{HCO} = 90°$ → $\\widehat{OHC} = 90°$ → $OK \\perp MC$\n- Tính diện tích:\n  - $S_{OMKC} = \\dfrac{1}{2} OK \\cdot MC$ (tứ giác có 2 đường chéo vuông góc)\n  - $OK^2 = OC^2 + CK^2 = R^2 + \\dfrac{12R^2}{9} = \\dfrac{21R^2}{9}$ → $OK = \\dfrac{R\\sqrt{21}}{3}$\n  - $MC^2 = AC^2 + AM^2 = 4R^2 + 3R^2 = 7R^2$ → $MC = R\\sqrt{7}$\n  - $S_{OMKC} = \\dfrac{1}{2} \\cdot \\dfrac{R\\sqrt{21}}{3} \\cdot R\\sqrt{7} = \\dfrac{R^2 \\sqrt{147}}{6} = \\dfrac{R^2 \\cdot 7\\sqrt{3}}{6} = \\dfrac{7R^2\\sqrt{3}}{6}$\n  - $\\widehat{BOC} = 180° - \\widehat{AOB} = 60°$\n  - $S_q = \\dfrac{\\pi R^2 \\cdot 60}{360} = \\dfrac{\\pi R^2}{6}$\n  - $S = S_{OMKC} - S_q = \\dfrac{7R^2\\sqrt{3}}{6} - \\dfrac{\\pi R^2}{6} = \\dfrac{R^2(7\\sqrt{3} - \\pi)}{6}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh tứ giác MAOB nội tiếp và OM ⊥ AB:**\n\nTa có $MA$ là tiếp tuyến của $(O)$ tại $A$ nên $\\widehat{MAO} = 90°$.\n\n$\\triangle MAO$ vuông tại $A$ nên nội tiếp đường tròn đường kính $MO$ (1).\n\nTa có $MB$ là tiếp tuyến của $(O)$ tại $B$ nên $\\widehat{MBO} = 90°$.\n\n$\\triangle MBO$ vuông tại $B$ nên nội tiếp đường tròn đường kính $MO$ (2).\n\nTừ (1) và (2) suy ra bốn điểm $M, A, O, B$ cùng thuộc đường tròn đường kính $MO$.\n\nVậy tứ giác $MAOB$ nội tiếp.\n\nTa có: $\\begin{cases} MA = MB \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OA = OB = R \\end{cases}$\n\nSuy ra $OM$ là đường trung trực của đoạn thẳng $AB$.\n\nVậy $OM \\perp AB$. □\n\n**Câu b) Chứng minh $\\widehat{DAB} = \\widehat{IOB}$ và $EB^2 = ED \\cdot EA$:**\n\nTa có $OB = OD = R$ nên $\\triangle OBD$ cân tại $O$.\n\nMà $OI \\perp BD$ tại $I$ nên $OI$ là đường cao đồng thời là phân giác của $\\widehat{BOD}$.\n\nSuy ra $\\widehat{IOB} = \\dfrac{1}{2}\\widehat{BOD}$.\n\nMặt khác $\\widehat{DAB} = \\dfrac{1}{2}\\widehat{BOD}$ (góc nội tiếp và góc ở tâm cùng chắn cung $BD$).\n\nSuy ra $\\widehat{DAB} = \\widehat{IOB}$.\n\nMà $\\widehat{IOB} = \\widehat{EBD}$ (cùng phụ $\\widehat{OBI}$).\n\nVậy $\\widehat{EBD} = \\widehat{EAB}$.\n\nXét $\\triangle EBD$ và $\\triangle EAB$:\n$\\begin{cases} \\widehat{AEB} \\text{ (góc chung)} \\\\ \\widehat{EBD} = \\widehat{EAB} \\text{ (cmt)} \\end{cases}$\n\n$\\Rightarrow \\triangle EBD \\sim \\triangle EAB$ (g-g).\n\n$\\Rightarrow \\dfrac{EB}{EA} = \\dfrac{ED}{EB} \\Rightarrow EB^2 = ED \\cdot EA$. □\n\n**Câu c) Chứng minh $OK \\perp MC$ và tính diện tích:**\n\nTrong $\\triangle MAO$ vuông tại $A$: $\\tan\\widehat{AOM} = \\dfrac{AM}{OA} = \\dfrac{R\\sqrt{3}}{R} = \\sqrt{3} \\Rightarrow \\widehat{AOM} = 60°$.\n\nSuy ra $\\widehat{AOB} = 2\\widehat{AOM} = 120°$ (tính chất 2 tiếp tuyến cắt nhau).\n\n$\\triangle OAB$ cân tại $O$ (do $OA = OB$) có $\\widehat{AOB} = 120°$ nên $\\widehat{OAB} = \\dfrac{180° - 120°}{2} = 30°$.\n\nTa có $AC \\perp KC$ (tính chất tiếp tuyến tại $C$).\n\nTrong $\\triangle KAC$ vuông tại $C$: $\\widehat{KAC} = \\widehat{OAB} = 30°$.\n\nSuy ra $CK = AC \\cdot \\tan 30° = 2R \\cdot \\dfrac{\\sqrt{3}}{3} = \\dfrac{2R\\sqrt{3}}{3}$.\n\nTrong $\\triangle OCK$ vuông tại $C$: $\\tan\\widehat{KOC} = \\dfrac{CK}{OC} = \\dfrac{2R\\sqrt{3}/3}{R} = \\dfrac{2\\sqrt{3}}{3}$.\n\nTrong $\\triangle MAC$ vuông tại $A$: $\\tan\\widehat{ACM} = \\dfrac{AM}{AC} = \\dfrac{R\\sqrt{3}}{2R} = \\dfrac{\\sqrt{3}}{2}$.\n\nTa có $\\tan\\widehat{KOC} \\cdot \\tan\\widehat{ACM} = \\dfrac{2\\sqrt{3}}{3} \\cdot \\dfrac{\\sqrt{3}}{2} = 1$.\n\nSuy ra $\\widehat{KOC}$ và $\\widehat{ACM}$ là hai góc phụ nhau, hay $\\widehat{KOC} + \\widehat{ACM} = 90°$.\n\nGọi $H$ là giao điểm của $OK$ và $MC$. Trong $\\triangle OHC$ có $\\widehat{HOC} + \\widehat{HCO} = 90°$.\n\nSuy ra $\\widehat{OHC} = 90° \\Rightarrow OK \\perp MC$. □\n\n**Tính diện tích:**\n\nVì $OK \\perp MC$ nên diện tích tứ giác $OMKC$ là $S_{OMKC} = \\dfrac{1}{2} OK \\cdot MC$.\n\nÁp dụng định lý Pythagore trong $\\triangle OCK$ vuông tại $C$:\n$$OK^2 = OC^2 + CK^2 = R^2 + \\left(\\dfrac{2R\\sqrt{3}}{3}\\right)^2 = R^2 + \\dfrac{12R^2}{9} = \\dfrac{21R^2}{9}$$\n$$\\Rightarrow OK = \\dfrac{R\\sqrt{21}}{3}$$\n\nÁp dụng định lý Pythagore trong $\\triangle MAC$ vuông tại $A$:\n$$MC^2 = AC^2 + AM^2 = (2R)^2 + (R\\sqrt{3})^2 = 4R^2 + 3R^2 = 7R^2$$\n$$\\Rightarrow MC = R\\sqrt{7}$$\n\nDiện tích tứ giác $OMKC$:\n$$S_{OMKC} = \\dfrac{1}{2} \\cdot \\dfrac{R\\sqrt{21}}{3} \\cdot R\\sqrt{7} = \\dfrac{R^2\\sqrt{147}}{6} = \\dfrac{7R^2\\sqrt{3}}{6}$$\n\nTa có $\\widehat{BOC} = 180° - \\widehat{AOB} = 180° - 120° = 60°$ (hai góc kề bù).\n\nDiện tích hình quạt tròn $OBC$ ứng với cung nhỏ $BC$:\n$$S_q = \\dfrac{\\pi R^2 \\cdot 60}{360} = \\dfrac{\\pi R^2}{6}$$\n\nDiện tích hình cần tìm là hiệu của diện tích tứ giác $OMKC$ và diện tích hình quạt $OBC$:\n$$S = S_{OMKC} - S_q = \\dfrac{7R^2\\sqrt{3}}{6} - \\dfrac{\\pi R^2}{6}$$\n\n$$\\boxed{S = \\dfrac{R^2(7\\sqrt{3} - \\pi)}{6}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) với đường kính AC, tiếp tuyến tại A là MA, tiếp tuyến tại B là MB; D giao MO với (O); E giao AD với MB; OI ⊥ BD; tiếp tuyến tại C cắt AB tại K.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu chứng minh tứ giác nội tiếp.",
+          "Em không hiểu vì sao $\\widehat{IOB} = \\dfrac{1}{2}\\widehat{BOD}$.",
+          "Câu c phức tạp quá, em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định dùng góc 90° tại A và B để chứng minh nội tiếp — đúng không?",
+          "Câu b em định dùng tam giác cân + đường cao là phân giác — đúng chứ?",
+          "Câu c em định tính tan của các góc rồi nhân để có $\\tan A \\cdot \\tan B = 1$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra MAOB nội tiếp + OM ⊥ AB — đúng không?",
+          "Em ra $EB^2 = ED \\cdot EA$ — đúng chưa?",
+          "Em ra $S = \\dfrac{R^2(7\\sqrt{3} - \\pi)}{6}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết góc nội tiếp = 1/2 góc ở tâm cùng chắn cung.",
+          "Em không nhớ điều kiện tan A · tan B = 1 ↔ A + B = 90°.",
+          "Em quên tính diện tích tứ giác có 2 đường chéo vuông góc."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-14/bai7-tieptuyen.png"
+    }
+  ]
+}

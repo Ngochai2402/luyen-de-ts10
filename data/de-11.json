@@ -1,0 +1,361 @@
+{
+  "de_so": 11,
+  "cum": 4,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = \\dfrac{x^2}{2}$ có đồ thị là Parabol $(P)$.\n\na) Vẽ đồ thị $(P)$ trên mặt phẳng tọa độ $Oxy$.\n\nb) Tìm tọa độ các điểm thuộc $(P)$ có tung độ gấp đôi hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol bề lõm lên trên",
+        "Thay điều kiện $y = 2x$ vào (P)",
+        "Giải phương trình bậc hai dạng tích"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Điểm thuộc đồ thị thỏa mãn phương trình",
+        "Phương trình bậc hai dạng tích"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$ và $(4; 8)$.",
+      "goi_y_cap_1": "Câu a: Lập bảng với x = -4, -2, 0, 2, 4. Parabol bề lõm lên trên, đỉnh tại O.\n\nCâu b: 'Tung độ gấp đôi hoành độ' nghĩa là $y = 2x$. Thay vào (P) tìm x.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = 8$; $x = -2 \\to y = 2$; $x = 0 \\to y = 0$; $x = 2 \\to y = 2$; $x = 4 \\to y = 8$\n\nCâu b:\n- $y = 2x$ thay vào (P): $2x = \\dfrac{x^2}{2}$\n- $\\dfrac{x^2}{2} - 2x = 0 \\Leftrightarrow x(x - 4) = 0$\n- $x_1 = 0 \\Rightarrow y_1 = 0$: điểm $(0; 0)$\n- $x_2 = 4 \\Rightarrow y_2 = 8$: điểm $(4; 8)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{2}$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại O, bề lõm lên trên.\n\n**Câu b) Tìm điểm thuộc (P) có tung độ gấp đôi hoành độ:**\n\nVì điểm thuộc $(P)$ có tung độ gấp đôi hoành độ nên $y = 2x$.\n\nTa có phương trình: $2x = \\dfrac{x^2}{2}$\n\n$\\Leftrightarrow \\dfrac{x^2}{2} - 2x = 0$\n\n$\\Leftrightarrow x_1 = 0$; $x_2 = 4$.\n\nVới $x_1 = 0 \\Rightarrow y_1 = 0$.\n\nVới $x_2 = 4 \\Rightarrow y_2 = 8$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(4; 8)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = x²/2 bề lõm quay lên trên trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol y = x²/2 thế nào.",
+          "'Tung độ gấp đôi hoành độ' viết công thức nào thầy?",
+          "Câu b có bao nhiêu đáp án?"
+        ],
+        "dinh_huong": [
+          "Em định lập bảng với x = -4, -2, 0, 2, 4 — đúng không?",
+          "Em định viết $y = 2x$ rồi thay vào (P) — đúng chứ?",
+          "Em định đưa về phương trình $x(x-4) = 0$ — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 2 nghiệm $x = 0$ và $x = 4$ — đúng không?",
+          "Em ra 2 điểm $(0; 0)$ và $(4; 8)$ — đúng chưa?",
+          "Parabol có đỉnh tại O bề lõm lên trên — đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $y = \\dfrac{x}{2}$ thay vì $y = 2x$.",
+          "Em quên điểm $(0; 0)$.",
+          "Em không biết đưa $\\dfrac{x^2}{2} = 2x$ về dạng tích."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-11/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức phức tạp có căn",
+      "de_bai": "Cho phương trình: $2025x^2 + 2025x - 2 = 0$.\n\na) Chứng minh phương trình đã cho có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị biểu thức:\n$$T = \\dfrac{(x_1 + x_2)^{2026}}{\\sqrt{\\dfrac{1}{4}(x_1 - x_2)^2 + \\dfrac{2027}{8}x_1 x_2}}$$",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Biến đổi $(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1 x_2$",
+        "Thay số tính căn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète",
+        "$(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1 x_2$"
+      ],
+      "dap_so": "$T = 15\\sqrt{6}$.",
+      "goi_y_cap_1": "Câu a: Δ = 2025² + 4·2025·2 = 2025² + 16200 > 0.\n\nCâu b: Viète $x_1 + x_2 = -1$, $x_1 x_2 = -\\dfrac{2}{2025}$. $(-1)^{2026} = 1$. Biểu thức trong căn rút gọn: $\\dfrac{1}{4}(x_1 + x_2)^2 + \\dfrac{2019}{8}x_1 x_2$.",
+      "goi_y_cap_2": "Câu a:\n- $\\Delta = 2025^2 - 4 \\cdot 2025 \\cdot (-2) = 2025^2 + 16200 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = -1$, $x_1 x_2 = -\\dfrac{2}{2025}$\n- $(x_1 + x_2)^{2026} = (-1)^{2026} = 1$\n- Biến đổi trong căn:\n  - $\\dfrac{1}{4}(x_1 - x_2)^2 + \\dfrac{2027}{8}x_1 x_2$\n  - $= \\dfrac{1}{4}[(x_1 + x_2)^2 - 4x_1 x_2] + \\dfrac{2027}{8}x_1 x_2$\n  - $= \\dfrac{1}{4}(x_1 + x_2)^2 - x_1 x_2 + \\dfrac{2027}{8}x_1 x_2$\n  - $= \\dfrac{1}{4}(x_1 + x_2)^2 + \\dfrac{2019}{8}x_1 x_2$\n- Thay: $\\dfrac{1}{4}(-1)^2 + \\dfrac{2019}{8} \\cdot \\left(-\\dfrac{2}{2025}\\right) = \\dfrac{1}{4} - \\dfrac{2019}{4 \\cdot 2025} = \\dfrac{2025 - 2019}{4 \\cdot 2025} = \\dfrac{6}{8100} = \\dfrac{1}{1350}$\n- $T = \\dfrac{1}{\\sqrt{1/1350}} = \\sqrt{1350} = \\sqrt{225 \\cdot 6} = 15\\sqrt{6}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $2025x^2 + 2025x - 2 = 0$ với $a = 2025; b = 2025; c = -2$.\n\n$\\Delta = b^2 - 4ac = 2025^2 - 4 \\cdot 2025 \\cdot (-2) = 2025^2 + 16200 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính T:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = -\\dfrac{b}{a} = -\\dfrac{2025}{2025} = -1 \\\\ x_1 x_2 = \\dfrac{c}{a} = -\\dfrac{2}{2025} \\end{cases}$$\n\nBiến đổi biểu thức trong căn:\n$$\\dfrac{1}{4}(x_1 - x_2)^2 + \\dfrac{2027}{8}x_1 x_2$$\n$$= \\dfrac{1}{4}[(x_1 + x_2)^2 - 4x_1 x_2] + \\dfrac{2027}{8}x_1 x_2$$\n$$= \\dfrac{1}{4}(x_1 + x_2)^2 - x_1 x_2 + \\dfrac{2027}{8}x_1 x_2$$\n$$= \\dfrac{1}{4}(x_1 + x_2)^2 + \\dfrac{2019}{8}x_1 x_2$$\n\nThay giá trị vào biểu thức:\n$$T = \\dfrac{(-1)^{2026}}{\\sqrt{\\dfrac{1}{4}(-1)^2 + \\dfrac{2019}{8} \\cdot \\left(-\\dfrac{2}{2025}\\right)}}$$\n\n$$T = \\dfrac{1}{\\sqrt{\\dfrac{1}{4} - \\dfrac{2019}{4 \\cdot 2025}}} = \\dfrac{1}{\\sqrt{\\dfrac{1}{1350}}} = \\sqrt{1350}$$\n\n$$T = \\sqrt{225 \\cdot 6} = \\boxed{15\\sqrt{6}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Biểu thức $T$ phức tạp quá, có $(x_1 + x_2)^{2026}$ làm sao tính được?",
+          "Em không biết biến đổi $(x_1 - x_2)^2$ thành tổng/tích.",
+          "Em quên Viète với hệ số 2025."
+        ],
+        "dinh_huong": [
+          "Em định Viète để có $x_1 + x_2 = -1$ và $x_1 x_2 = -\\dfrac{2}{2025}$ — đúng không?",
+          "Em định dùng $(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1 x_2$ — đúng chứ?",
+          "$(-1)^{2026} = 1$ vì 2026 chẵn — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra biểu thức trong căn = $\\dfrac{1}{1350}$ — đúng không?",
+          "Em ra $T = \\sqrt{1350}$ — đúng chưa?",
+          "Em ra $T = 15\\sqrt{6}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $(-1)^{2026} = -1$ thay vì $1$.",
+          "Em không biết $\\sqrt{1350} = 15\\sqrt{6}$.",
+          "Em quên trừ $-x_1 x_2$ khi khai triển."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Bảng huy chương SEA Games - Xác suất",
+      "de_bai": "Số lượng huy chương Vàng, Bạc và Đồng của 10 quốc gia tham dự SEA Games 33 được thống kê trong bảng sau:\n\n| Quốc gia | Vàng | Bạc | Đồng |\n|---|---|---|---|\n| Thái Lan | 233 | 154 | 112 |\n| Indonesia | 91 | 111 | 131 |\n| Việt Nam | 87 | 81 | 110 |\n| Malaysia | 57 | 57 | 117 |\n| Singapore | 52 | 61 | 89 |\n| Philippines | 50 | 73 | 154 |\n| Myanmar | 3 | 21 | 49 |\n| Lào | 2 | 9 | 28 |\n| Brunei | 1 | 3 | 5 |\n| Timor-Leste | 0 | 1 | 7 |\n\na) Tỉ lệ phần trăm số huy chương Vàng của Việt Nam so với tổng số huy chương Vàng của 10 quốc gia trong bảng là bao nhiêu? Kết quả làm tròn đến hàng phần mười.\n\nb) Tính tổng số huy chương Vàng, Bạc, Đồng của mỗi quốc gia.\n\nc) Trong 10 quốc gia ở bảng trên, chọn ngẫu nhiên 1 quốc gia (mỗi quốc gia được chọn với xác suất như nhau), tính xác suất để quốc gia được chọn có tổng số huy chương Vàng, Bạc, Đồng lớn hơn giá trị trung bình của tổng số huy chương Vàng, Bạc, Đồng của 10 quốc gia.",
+      "phuong_phap_duoc_dung": [
+        "Cộng tổng theo cột",
+        "Tính tỉ lệ phần trăm",
+        "Tính trung bình cộng",
+        "Liệt kê biến cố thuận lợi",
+        "Công thức xác suất cổ điển"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tỉ lệ phần trăm",
+        "Trung bình cộng",
+        "Xác suất cổ điển P = n(A)/n(Ω)"
+      ],
+      "dap_so": "a) ≈ 15,1%. b) Thái Lan 499; Indonesia 333; Việt Nam 278; Malaysia 231; Singapore 202; Philippines 277; Myanmar 73; Lào 39; Brunei 9; Timor-Leste 8. c) $P(A) = \\dfrac{3}{5}$.",
+      "goi_y_cap_1": "Câu a: Tổng HC Vàng = 233+91+87+57+52+50+3+2+1+0 = 576. Tỉ lệ VN = 87/576 × 100%.\n\nCâu b: Cộng từng hàng (V+B+Đ).\n\nCâu c: Tính trung bình tổng HC. Đếm số quốc gia có tổng > trung bình.",
+      "goi_y_cap_2": "Câu a:\n- Tổng HC Vàng 10 nước: $233 + 91 + 87 + 57 + 52 + 50 + 3 + 2 + 1 + 0 = 576$\n- Tỉ lệ VN: $\\dfrac{87}{576} \\cdot 100\\% \\approx 15{,}1\\%$\n\nCâu b: Tổng HC mỗi nước:\n- Thái Lan: $233 + 154 + 112 = 499$\n- Indonesia: $91 + 111 + 131 = 333$\n- Việt Nam: $87 + 81 + 110 = 278$\n- Malaysia: $57 + 57 + 117 = 231$\n- Singapore: $52 + 61 + 89 = 202$\n- Philippines: $50 + 73 + 154 = 277$\n- Myanmar: $3 + 21 + 49 = 73$\n- Lào: $2 + 9 + 28 = 39$\n- Brunei: $1 + 3 + 5 = 9$\n- Timor-Leste: $0 + 1 + 7 = 8$\n\nCâu c:\n- $n(\\Omega) = 10$\n- Tổng HC tất cả 10 nước: $499 + 333 + 278 + 231 + 202 + 277 + 73 + 39 + 9 + 8 = 1949$\n- Trung bình: $\\dfrac{1949}{10} = 194{,}9$\n- Quốc gia có tổng > 194,9: Thái Lan (499), Indonesia (333), Việt Nam (278), Malaysia (231), Singapore (202), Philippines (277) → $n(A) = 6$\n- $P(A) = \\dfrac{6}{10} = \\dfrac{3}{5}$",
+      "loi_giai_day_du": "**Câu a) Tỉ lệ HC Vàng của Việt Nam:**\n\nTổng số huy chương Vàng của 10 quốc gia là:\n$$233 + 91 + 87 + 57 + 52 + 50 + 3 + 2 + 1 + 0 = 576 \\text{ (huy chương)}$$\n\nTỉ lệ phần trăm số huy chương Vàng của Việt Nam:\n$$\\dfrac{87}{576} \\cdot 100\\% \\approx \\boxed{15{,}1\\%}$$\n\n**Câu b) Tổng số huy chương của mỗi quốc gia:**\n\n- ✓ Thái Lan: $233 + 154 + 112 = 499$\n- ✓ Indonesia: $91 + 111 + 131 = 333$\n- ✓ Việt Nam: $87 + 81 + 110 = 278$\n- ✓ Malaysia: $57 + 57 + 117 = 231$\n- ✓ Singapore: $52 + 61 + 89 = 202$\n- ✓ Philippines: $50 + 73 + 154 = 277$\n- ✓ Myanmar: $3 + 21 + 49 = 73$\n- ✓ Lào: $2 + 9 + 28 = 39$\n- ✓ Brunei: $1 + 3 + 5 = 9$\n- ✓ Timor-Leste: $0 + 1 + 7 = 8$\n\n**Câu c) Tính xác suất:**\n\nKhông gian mẫu là chọn 1 quốc gia từ 10 quốc gia: $n(\\Omega) = 10$.\n\nTổng số huy chương của cả 10 quốc gia là:\n$$499 + 333 + 278 + 231 + 202 + 277 + 73 + 39 + 9 + 8 = 1949$$\n\nGiá trị trung bình tổng số huy chương của 10 quốc gia là:\n$$\\dfrac{1949}{10} = 194{,}9 \\text{ (huy chương)}$$\n\nGọi $A$ là biến cố \"quốc gia được chọn có tổng số huy chương lớn hơn $194{,}9$\".\n\nCác quốc gia có tổng số huy chương lớn hơn $194{,}9$ là: Thái Lan (499), Indonesia (333), Việt Nam (278), Malaysia (231), Singapore (202), Philippines (277).\n\nSố kết quả thuận lợi cho biến cố $A$ là $n(A) = 6$.\n\nXác suất của biến cố $A$ là:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{6}{10} = \\boxed{\\dfrac{3}{5}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính tỉ lệ phần trăm thế nào.",
+          "Em không biết cộng tổng từng quốc gia.",
+          "'Trung bình cộng' của 10 nước tính kiểu gì thầy?"
+        ],
+        "dinh_huong": [
+          "Em định cộng tổng HC Vàng 10 nước rồi lấy 87/tổng × 100% — đúng không?",
+          "Câu c em định tính trung bình rồi đếm nước có tổng > trung bình — đúng hướng chứ?",
+          "Em định có 6 nước thỏa mãn — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tỉ lệ ≈ 15,1% — đúng không?",
+          "Em ra trung bình = 194,9 — đúng chưa?",
+          "Em ra $P(A) = \\dfrac{3}{5}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em cộng nhầm 1 nước trong tổng HC Vàng.",
+          "Em quên Philippines (277) thuộc nhóm > 194,9.",
+          "Em không biết phải so sánh từng nước với trung bình."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Hình học - Hình chữ nhật và hình thoi nội tiếp",
+      "de_bai": "Một khu vườn hình chữ nhật có chiều dài $8a$ (m) và chiều rộng $6a$ (m) với $a > 0$, bác Hai xây một ao cá hình thoi, trong đó bốn đỉnh của hình thoi lần lượt là trung điểm các cạnh của khu vườn, phần đất còn lại bác trồng cỏ nhung như hình vẽ bên.\n\na) Tìm $a$ khi biết chu vi của ao cá hình thoi là $100$ mét.\n\nb) Biết chi phí trồng cỏ nhung là $65$ nghìn đồng cho mỗi mét vuông. Tính số tiền (triệu đồng) bác Hai cần trả để trồng cỏ nhung.",
+      "phuong_phap_duoc_dung": [
+        "Định lý Pythagore tính cạnh hình thoi từ 2 trung điểm",
+        "Diện tích hình thoi = (1/2) × tích 2 đường chéo",
+        "Diện tích phần trồng cỏ = HCN - hình thoi"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tính chất trung điểm",
+        "Định lý Pythagore",
+        "Diện tích hình chữ nhật, hình thoi"
+      ],
+      "dap_so": "a) $a = 5$. b) Số tiền: $39$ triệu đồng.",
+      "goi_y_cap_1": "Câu a: Gọi M, N là trung điểm AB, BC. MB = 4a, BN = 3a. Pythagore: MN = 5a. Chu vi = 4 × 5a = 20a = 100 → a = 5.\n\nCâu b: S vườn = 48a² = 1200 m² (với a=5). S thoi = (1/2)·8a·6a = 24a² = 600 m². S cỏ = 600 m². Tiền = 600 × 65 = 39 000 nghìn đồng = 39 triệu.",
+      "goi_y_cap_2": "Câu a:\n- Gọi HCN là ABCD, các trung điểm là M, N, P, Q\n- $MB = \\dfrac{8a}{2} = 4a$ (m); $BN = \\dfrac{6a}{2} = 3a$ (m)\n- Tam giác MBN vuông tại B, Pythagore:\n- $MN^2 = MB^2 + BN^2 = (4a)^2 + (3a)^2 = 16a^2 + 9a^2 = 25a^2$\n- $MN = 5a$ (m)\n- Chu vi hình thoi MNPQ = $4 \\cdot MN = 20a$ (m)\n- $20a = 100 \\Rightarrow a = 5$\n\nCâu b:\n- Diện tích khu vườn HCN: $8a \\cdot 6a = 48a^2$ (m²)\n- Diện tích ao cá hình thoi (= 1/2 × tích 2 đường chéo): $\\dfrac{1}{2} \\cdot 8a \\cdot 6a = 24a^2$ (m²)\n- Diện tích phần đất trồng cỏ nhung: $48a^2 - 24a^2 = 24a^2$ (m²)\n- Với $a = 5$: $24 \\cdot 5^2 = 600$ (m²)\n- Số tiền: $600 \\cdot 65 = 39\\,000$ nghìn đồng = 39 triệu đồng",
+      "loi_giai_day_du": "**Câu a) Tìm a:**\n\nGọi hình chữ nhật là $ABCD$, các trung điểm của các cạnh $AB, BC, CD, DA$ lần lượt là $M, N, P, Q$.\n\nVì $M$ là trung điểm $AB$ nên $MB = \\dfrac{8a}{2} = 4a$ (m).\n\nVì $N$ là trung điểm $BC$ nên $BN = \\dfrac{6a}{2} = 3a$ (m).\n\nXét $\\triangle MBN$ vuông tại $B$:\n$$MN^2 = MB^2 + BN^2 \\quad \\text{(định lý Pythagore)}$$\n$$MN^2 = (4a)^2 + (3a)^2 = 16a^2 + 9a^2 = 25a^2$$\n$$\\Rightarrow MN = 5a \\text{ (m)} \\quad (\\text{vì } a > 0)$$\n\nChu vi hình thoi $MNPQ$ là $4 \\cdot MN = 4 \\cdot 5a = 20a$ (m).\n\nTheo đề bài, chu vi ao cá là $100$ mét nên:\n$$20a = 100 \\Rightarrow \\boxed{a = 5}$$\n\n**Câu b) Tính số tiền trồng cỏ nhung:**\n\nDiện tích khu vườn hình chữ nhật là:\n$$8a \\cdot 6a = 48a^2 \\text{ (m}^2\\text{)}$$\n\nDiện tích ao cá hình thoi là:\n$$\\dfrac{1}{2} \\cdot 8a \\cdot 6a = 24a^2 \\text{ (m}^2\\text{)}$$\n\nDiện tích phần đất trồng cỏ nhung là:\n$$48a^2 - 24a^2 = 24a^2 \\text{ (m}^2\\text{)}$$\n\nVới $a = 5$, diện tích trồng cỏ là:\n$$24 \\cdot 5^2 = 600 \\text{ (m}^2\\text{)}$$\n\nSố tiền bác Hai cần trả để trồng cỏ nhung là:\n$$600 \\cdot 65 = 39\\,000 \\text{ (nghìn đồng)} = \\boxed{39 \\text{ triệu đồng}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình chữ nhật ABCD kích thước 8a × 6a có hình thoi MNPQ nội tiếp với 4 đỉnh là trung điểm 4 cạnh, phần ngoài hình thoi gạch chéo (cỏ nhung).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết các trung điểm tạo ra hình gì.",
+          "Em không biết tính cạnh hình thoi MN từ MB và BN.",
+          "Em không biết công thức diện tích hình thoi."
+        ],
+        "dinh_huong": [
+          "Em định gọi M trung điểm AB, N trung điểm BC — đúng không?",
+          "Em định Pythagore tam giác MBN vuông tại B — đúng chứ?",
+          "Em định tính S thoi = 1/2 × 8a × 6a — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra MN = 5a — đúng không?",
+          "Em ra a = 5 (m) — đúng chưa?",
+          "Em ra số tiền 39 triệu đồng — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm MB = 8a thay vì 4a.",
+          "Em không biết 2 đường chéo hình thoi = 2 cạnh HCN.",
+          "Em quên đổi 39 000 nghìn đồng = 39 triệu đồng."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-11/bai4-aocathoi.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Lon trụ và quả cầu vừa khít",
+      "de_bai": "Một cái lon hình trụ có đường kính $d = 2{,}9$ dm chứa một lượng nước sao cho khi nhúng một quả cầu chạm đáy lon thì nước vừa ngập quả cầu. Biết rằng quả cầu không thấm nước và khi đặt vào vừa khít cái lon.\n\na) Tính thể tích của quả cầu theo đơn vị $dm^3$, kết quả làm tròn đến hàng phần trăm.\n\nb) Tính chiều cao theo đơn vị $dm$ của mực nước trong lon trước khi quả cầu được nhúng vào.\n\nCho biết công thức thể tích khối cầu là $V = \\dfrac{4}{3}\\pi R^3$ với $R$ là bán kính khối cầu và thể tích hình trụ là $V = \\pi r^2 h$ với $r$ là bán kính đáy hình trụ, $h$ là chiều cao hình trụ.",
+      "phuong_phap_duoc_dung": [
+        "Bán kính cầu = bán kính đáy lon (vừa khít)",
+        "Mực nước sau = đường kính cầu",
+        "V nước = V trụ chứa nước - V cầu",
+        "$V_{nước} = \\dfrac{2}{3}\\pi R^3$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình cầu $V = \\dfrac{4}{3}\\pi R^3$",
+        "Thể tích hình trụ $V = \\pi r^2 h$",
+        "Quan hệ vừa khít: $r = R$ và $h = 2R$"
+      ],
+      "dap_so": "a) $V_{cầu} \\approx 12{,}77$ dm³. b) $h_0 \\approx 0{,}97$ dm.",
+      "goi_y_cap_1": "Câu a: $R = d/2 = 1{,}45$. $V = (4/3)\\pi R^3$.\n\nCâu b: Vì cầu vừa khít lon nên $r = R$. Nước ngập cầu nên $h_{sau} = 2R = d$. $V_{nước} = V_{trụ \\, h_{sau}} - V_{cầu} = \\pi R^2 \\cdot 2R - \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi R^3$. Giải $\\pi R^2 h_0 = \\dfrac{2}{3}\\pi R^3$ → $h_0 = \\dfrac{2}{3}R$.",
+      "goi_y_cap_2": "Câu a:\n- $R = \\dfrac{d}{2} = \\dfrac{2{,}9}{2} = 1{,}45$ (dm)\n- $V_{cầu} = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3}\\pi \\cdot (1{,}45)^3 \\approx 12{,}77$ (dm³)\n\nCâu b:\n- Vì quả cầu vừa khít → $r = R = 1{,}45$ dm\n- Nước vừa ngập quả cầu → mực nước sau là $h_{sau} = d = 2{,}9$ dm\n- $V_{nước} = V_{trụ\\, h_{sau}} - V_{cầu} = \\pi R^2 \\cdot 2R - \\dfrac{4}{3}\\pi R^3 = 2\\pi R^3 - \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi R^3$\n- Gọi $h_0$ là chiều cao mực nước ban đầu: $V_{nước} = \\pi R^2 h_0$\n- $\\pi R^2 h_0 = \\dfrac{2}{3}\\pi R^3 \\Rightarrow h_0 = \\dfrac{2}{3}R = \\dfrac{2}{3} \\cdot 1{,}45 \\approx 0{,}97$ (dm)",
+      "loi_giai_day_du": "**Câu a) Thể tích quả cầu:**\n\nBán kính của quả cầu là:\n$$R = \\dfrac{d}{2} = \\dfrac{2{,}9}{2} = 1{,}45 \\text{ (dm)}$$\n\nThể tích quả cầu là:\n$$V_{cầu} = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3}\\pi \\cdot (1{,}45)^3 \\approx \\boxed{12{,}77 \\text{ dm}^3}$$\n\n**Câu b) Tính chiều cao mực nước ban đầu:**\n\nVì quả cầu đặt vừa khít lon nên bán kính đáy lon bằng bán kính quả cầu: $r = R = 1{,}45$ dm.\n\nNước vừa ngập quả cầu nên chiều cao mực nước lúc sau bằng đường kính quả cầu: $h_{sau} = d = 2{,}9$ dm.\n\nThể tích nước trong lon là:\n$$V_{nước} = V_{trụ} - V_{cầu} = \\pi R^2 \\cdot (2R) - \\dfrac{4}{3}\\pi R^3 = 2\\pi R^3 - \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi R^3$$\n\nGọi $h_0$ là chiều cao mực nước ban đầu. Ta có:\n$$V_{nước} = \\pi R^2 h_0$$\n\nSuy ra:\n$$\\pi R^2 h_0 = \\dfrac{2}{3}\\pi R^3 \\Rightarrow h_0 = \\dfrac{2}{3}R$$\n\n$$h_0 = \\dfrac{2}{3} \\cdot 1{,}45 \\approx \\boxed{0{,}97 \\text{ dm}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hai hình: bên trái là quả cầu trong lon trụ, bên phải là lon trụ chứa nước có quả cầu chìm hoàn toàn, đường kính d = 2,9 dm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "'Quả cầu vừa khít lon' nghĩa là gì thầy?",
+          "'Nước vừa ngập quả cầu' nghĩa là sao?",
+          "Em không biết chiều cao lon trụ là bao nhiêu."
+        ],
+        "dinh_huong": [
+          "Em định lấy $R = d/2 = 1{,}45$ — đúng không?",
+          "Em định dùng $V_{nước} = V_{trụ \\, h_{sau}} - V_{cầu}$ — đúng hướng chứ?",
+          "Em định tính $h_0$ từ $V_{nước} = \\pi R^2 h_0$ — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_{cầu} \\approx 12{,}77$ dm³ — đúng không?",
+          "Em ra $V_{nước} = \\dfrac{2}{3}\\pi R^3$ — đúng chưa?",
+          "Em ra $h_0 \\approx 0{,}97$ dm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết $h_{sau} = 2R$.",
+          "Em quên trừ V cầu khỏi V trụ.",
+          "Em nhầm $R = d$ thay vì $R = d/2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-11/bai5-cautronglon.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vận tốc thuyền và dòng nước",
+      "de_bai": "Hằng ngày, một chiếc thuyền đi xuôi dòng từ $A$ đến $B$ rồi trở về $A$ ngay sau đó. Một hôm, do công việc khẩn cấp nên vận tốc riêng của thuyền tăng lên gấp đôi thì thời gian đi từ $A$ đến $B$ rồi trở về $A$ ngay chỉ còn bằng $40\\%$ so với thời gian thường lệ hằng ngày. Tính tỉ số vận tốc riêng của thuyền trong mỗi chuyến đi ngày thường so với vận tốc của dòng nước.\n\nCho biết vận tốc riêng của thuyền tức là vận tốc của thuyền khi nước đứng yên.",
+      "phuong_phap_duoc_dung": [
+        "Đặt $v$ là vận tốc riêng thuyền, $u$ là vận tốc dòng",
+        "Đặt $S$ là quãng đường AB",
+        "Thời gian xuôi+ngược ngày thường: $T = \\dfrac{2vS}{v^2 - u^2}$",
+        "Thời gian khi tăng v gấp đôi: $T' = \\dfrac{4vS}{4v^2 - u^2}$",
+        "Lập phương trình $T' = 0{,}4T$ rồi rút gọn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Vận tốc xuôi/ngược dòng: $v_{xuôi} = v + u$, $v_{ngược} = v - u$",
+        "Quan hệ thời gian = quãng đường / vận tốc",
+        "Phương trình bậc hai theo tỉ số"
+      ],
+      "dap_so": "Tỉ số vận tốc riêng của thuyền so với vận tốc dòng nước là $\\dfrac{v}{u} = 2$.",
+      "goi_y_cap_1": "Đặt $v$ là vận tốc riêng thuyền, $u$ là vận tốc dòng, $S$ là độ dài AB.\n\nThời gian thường: $T = \\dfrac{S}{v+u} + \\dfrac{S}{v-u} = \\dfrac{2vS}{v^2 - u^2}$.\n\nThời gian khẩn cấp: $T' = \\dfrac{S}{2v+u} + \\dfrac{S}{2v-u} = \\dfrac{4vS}{4v^2 - u^2}$.\n\nLập $T' = 0{,}4 T$, rút gọn $vS$.",
+      "goi_y_cap_2": "- Gọi $v$ (km/h) là vận tốc riêng của thuyền, $u$ (km/h) là vận tốc dòng nước ($v > u > 0$)\n- $S$ là quãng đường AB\n- Thời gian ngày thường (xuôi + ngược): $T = \\dfrac{S}{v+u} + \\dfrac{S}{v-u} = \\dfrac{2vS}{v^2 - u^2}$\n- Thời gian khi tăng tốc gấp đôi: $T' = \\dfrac{S}{2v+u} + \\dfrac{S}{2v-u} = \\dfrac{4vS}{4v^2 - u^2}$\n- Theo đề: $T' = 0{,}4 T$\n- $\\dfrac{4vS}{4v^2 - u^2} = 0{,}4 \\cdot \\dfrac{2vS}{v^2 - u^2}$\n- $\\dfrac{4}{4v^2 - u^2} = \\dfrac{0{,}8}{v^2 - u^2}$\n- $4(v^2 - u^2) = 0{,}8(4v^2 - u^2)$\n- $5(v^2 - u^2) = 4v^2 - u^2$\n- $5v^2 - 5u^2 = 4v^2 - u^2$\n- $v^2 = 4u^2 \\Rightarrow v = 2u$ (vì $v, u > 0$)\n- $\\dfrac{v}{u} = 2$",
+      "loi_giai_day_du": "Gọi $v$ (km/h) là vận tốc riêng của thuyền, $u$ (km/h) là vận tốc dòng nước ($v > u > 0$). Gọi $S$ là quãng đường $AB$.\n\n**Thời gian ngày thường (xuôi + ngược dòng):**\n$$T = \\dfrac{S}{v+u} + \\dfrac{S}{v-u} = \\dfrac{S(v-u) + S(v+u)}{(v+u)(v-u)} = \\dfrac{2vS}{v^2 - u^2}$$\n\n**Thời gian khi tăng vận tốc riêng gấp đôi:** Vận tốc xuôi mới là $2v + u$, vận tốc ngược mới là $2v - u$.\n$$T' = \\dfrac{S}{2v+u} + \\dfrac{S}{2v-u} = \\dfrac{4vS}{4v^2 - u^2}$$\n\nTheo đề bài, $T' = 0{,}4 T$, ta có:\n$$\\dfrac{4vS}{4v^2 - u^2} = 0{,}4 \\cdot \\dfrac{2vS}{v^2 - u^2}$$\n\nRút gọn $vS$ ở hai vế:\n$$\\dfrac{4}{4v^2 - u^2} = \\dfrac{0{,}8}{v^2 - u^2}$$\n\n$$4(v^2 - u^2) = 0{,}8(4v^2 - u^2)$$\n\nNhân $5$ hai vế và chia $4$ ở vế phải:\n$$5(v^2 - u^2) = 4v^2 - u^2$$\n\n$$5v^2 - 5u^2 = 4v^2 - u^2$$\n\n$$v^2 = 4u^2$$\n\nVì $v, u > 0$ nên $v = 2u$.\n\nVậy tỉ số vận tốc riêng của thuyền so với vận tốc của dòng nước là:\n$$\\dfrac{v}{u} = \\boxed{2}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'vận tốc riêng' khác gì 'vận tốc xuôi dòng'.",
+          "Em không biết phải đặt mấy ẩn cho bài này.",
+          "Em không hiểu '40% thời gian thường lệ' là làm sao."
+        ],
+        "dinh_huong": [
+          "Em định gọi $v$ là vận tốc riêng, $u$ là vận tốc dòng — đúng không?",
+          "Em định tính $T = \\dfrac{S}{v+u} + \\dfrac{S}{v-u}$ — đúng chứ?",
+          "Em định lấy $T' = 0{,}4 T$ rồi rút gọn $vS$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $5(v^2 - u^2) = 4v^2 - u^2$ — đúng không?",
+          "Em rút ra $v^2 = 4u^2$ — đúng không?",
+          "Em ra $v/u = 2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên xuôi dòng v + u, ngược dòng v - u.",
+          "Em nhầm 'tăng gấp đôi' áp dụng cả vận tốc dòng.",
+          "Em không rút gọn được $vS$ ở 2 vế."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tiếp tuyến và đường tròn nội tiếp",
+      "de_bai": "Từ một điểm $A$ nằm ngoài $(O; R)$, kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là hai tiếp điểm). Vẽ đường kính $BS$ của đường tròn $(O)$. Đoạn thẳng $OA$ cắt $(O)$ tại $I$.\n\na) Chứng minh: $OA$ vuông góc với $BC$ tại $H$ và $BC^2 = 2 \\cdot SC \\cdot HA$.\n\nb) Gọi $r$ là bán kính của đường tròn nội tiếp tam giác $ABC$. Tính độ dài đoạn thẳng $CS$ theo $R$ và $r$.\n\nc) Vẽ $HD$ vuông góc với $AB$ tại $D$. Lấy $F$ là trung điểm của $OB$, gọi $E$ là giao điểm của $AF$ với $CD$. Chứng minh: bốn điểm $C, H, E, A$ cùng thuộc một đường tròn.",
+      "phuong_phap_duoc_dung": [
+        "Tính chất 2 tiếp tuyến cắt nhau: AB = AC, OA ⊥ BC",
+        "Đường trung bình tam giác",
+        "Tam giác đồng dạng (g-g)",
+        "Đường tròn nội tiếp và bán kính r",
+        "Tứ giác có 2 đỉnh nhìn 1 cạnh dưới góc bằng nhau thì nội tiếp"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Hệ thức lượng trong tam giác vuông",
+        "Định lý đường trung bình",
+        "Đường tròn nội tiếp tam giác"
+      ],
+      "dap_so": "b) $CS = 2(R - r)$. c) C, H, E, A đồng viên (đường tròn đường kính AC).",
+      "goi_y_cap_1": "Câu a: AB=AC, OB=OC=R → OA là trung trực BC → OA ⊥ BC tại H, H trung điểm BC. Trong tam giác SBC: OH là đường trung bình → SC = 2OH. Tam giác ABO vuông tại B với BH đường cao: BH² = AH·OH → BC² = 4BH² = 4·AH·OH = 2·AH·SC.\n\nCâu b: I là tâm đường tròn nội tiếp ΔABC. IH = r. OI = R, IH = r → OH = R - r. SC = 2OH = 2(R-r).\n\nCâu c: Kẻ CK ⊥ AB. HD//CK → D trung điểm BK. ΔABO ~ ΔCKB (g-g). F trung điểm OB, D trung điểm BK → ΔABF ~ ΔCKD (c-g-c) → góc BFA = góc CDK. ΔABF vuông tại F → góc CDK + góc BAF = 90° → AE ⊥ CD tại E. ΔAEC, ΔAHC vuông tại E, H → C, H, E, A nội tiếp đường tròn đường kính AC.",
+      "goi_y_cap_2": "Câu a (CM OA ⊥ BC và BC² = 2·SC·HA):\n- AB = AC (2 tiếp tuyến), OB = OC = R\n- → OA là trung trực BC → OA ⊥ BC tại H, H trung điểm BC\n- Xét ΔSBC: O trung điểm SB, H trung điểm BC\n- → OH là đường trung bình ΔSBC → SC = 2·OH\n- Tam giác ABO vuông tại B, BH đường cao: $BH^2 = AH \\cdot OH$\n- BC = 2·BH → $BC^2 = 4BH^2 = 4 \\cdot AH \\cdot OH = 2 \\cdot AH \\cdot (2OH) = 2 \\cdot HA \\cdot SC$\n\nCâu b (Tính CS theo R, r):\n- ΔOCI cân tại O (OC = OI = R) → góc OCI = góc OIC\n- góc ACI + góc OCI = 90° (AC tiếp tuyến)\n- ΔHIC vuông tại H: góc HCI + góc HIC = 90°\n- Mà góc HIC = góc OIC → góc HCI = góc ACI → CI là phân giác góc ACB\n- AI cũng là phân giác góc BAC → I là tâm đường tròn nội tiếp ΔABC\n- IH ⊥ BC tại H → IH = r\n- OH = OI - IH = R - r\n- SC = 2·OH = 2(R - r)\n\nCâu c (CM 4 điểm C, H, E, A đồng viên):\n- Kẻ CK ⊥ AB tại K. HD ⊥ AB → HD // CK\n- ΔBCK: H trung điểm BC, HD // CK → D trung điểm BK\n- góc AOB = góc CBK (cùng phụ góc OBH)\n- ΔABO ~ ΔCKB (g-g) → AB/CK = BO/KB\n- F trung điểm OB → BO = 2BF; D trung điểm BK → KB = 2KD\n- → AB/BF = CK/KD\n- ΔABF ~ ΔCKD (c-g-c) → góc BFA = góc CDK\n- ΔABF vuông tại F: góc BFA + góc BAF = 90° → góc CDK + góc BAF = 90° → góc AED = 90°\n- AF ⊥ CD tại E\n- ΔAEC vuông tại E → nội tiếp đường tròn đường kính AC (1)\n- ΔAHC vuông tại H → nội tiếp đường tròn đường kính AC (2)\n- (1), (2) → 4 điểm A, H, E, C cùng thuộc đường tròn đường kính AC",
+      "loi_giai_day_du": "**Câu a) Chứng minh $OA \\perp BC$ tại $H$ và $BC^2 = 2 \\cdot SC \\cdot HA$:**\n\nTa có:\n$$\\begin{cases} AB = AC \\text{ (tính chất hai tiếp tuyến cắt nhau)} \\\\ OB = OC = R \\text{ (bán kính)} \\end{cases}$$\n\nSuy ra $OA$ là đường trung trực của đoạn thẳng $BC$.\n\n$\\Rightarrow OA \\perp BC$ tại $H$ và $H$ là trung điểm của $BC$.\n\nXét $\\triangle SBC$ có:\n- $O$ là trung điểm của $SB$ (tâm đường tròn)\n- $H$ là trung điểm của $BC$ (chứng minh trên)\n\n$\\Rightarrow OH$ là đường trung bình của $\\triangle SBC \\Rightarrow SC = 2 \\cdot OH$.\n\nTa có $\\widehat{ABH} = \\widehat{BOH}$ (cùng phụ $\\widehat{OBH}$).\n\nXét $\\triangle ABH$ và $\\triangle BOH$:\n- $\\widehat{AHB} = \\widehat{BHO} = 90°$\n- $\\widehat{ABH} = \\widehat{BOH}$ (chứng minh trên)\n\n$\\Rightarrow \\triangle ABH \\sim \\triangle BOH$ (g-g).\n\n$\\Rightarrow \\dfrac{AH}{BH} = \\dfrac{BH}{OH} \\Rightarrow BH^2 = AH \\cdot OH$.\n\nTa có $BC = 2 \\cdot BH \\Rightarrow BC^2 = 4 \\cdot BH^2$.\n\nThay $BH^2 = AH \\cdot OH$:\n$$BC^2 = 4 \\cdot AH \\cdot OH = 2 \\cdot HA \\cdot (2 \\cdot OH) = 2 \\cdot HA \\cdot SC$$\n\nVậy $\\boxed{BC^2 = 2 \\cdot SC \\cdot HA}$. □\n\n**Câu b) Tính $CS$ theo $R$ và $r$:**\n\nTa có $OC = OI = R \\Rightarrow \\triangle OCI$ cân tại $O$.\n\n$\\Rightarrow \\widehat{OCI} = \\widehat{OIC}$ (1).\n\nTa có $\\widehat{ACI} + \\widehat{OCI} = \\widehat{ACO} = 90°$ ($AC$ là tiếp tuyến).\n\n$\\Rightarrow \\widehat{ACI} = 90° - \\widehat{OCI}$ (2).\n\nXét $\\triangle HIC$ vuông tại $H$:\n\n$\\widehat{HCI} = 90° - \\widehat{HIC}$ (3).\n\nTừ (1), (2) và (3) suy ra $\\widehat{ACI} = \\widehat{HCI}$.\n\n$\\Rightarrow CI$ là tia phân giác của $\\widehat{ACB}$.\n\nXét $\\triangle ABC$ có:\n- $AI$ là đường phân giác của $\\widehat{BAC}$ (tính chất 2 tiếp tuyến)\n- $CI$ là đường phân giác của $\\widehat{ACB}$ (cmt)\n\n$\\Rightarrow I$ là tâm đường tròn nội tiếp $\\triangle ABC$.\n\nVì $I$ là tâm đường tròn nội tiếp và $IH \\perp BC$ tại $H$ nên $IH = r$.\n\nTa có $OH = OI - IH = R - r$.\n\n$\\Rightarrow SC = 2 \\cdot OH = \\boxed{2(R - r)}$.\n\n**Câu c) Chứng minh 4 điểm $C, H, E, A$ cùng thuộc một đường tròn:**\n\nKẻ $CK \\perp AB$ tại $K$.\n\nTa có $HD \\perp AB$ (gt) nên $HD \\parallel CK$.\n\nXét $\\triangle BCK$ có:\n- $H$ là trung điểm của $BC$\n- $HD \\parallel CK$\n\n$\\Rightarrow D$ là trung điểm của $BK$.\n\nTa có $\\widehat{AOB} = \\widehat{CBK}$ (cùng phụ với $\\widehat{OBH}$).\n\nXét $\\triangle ABO$ và $\\triangle CKB$:\n- $\\widehat{ABO} = \\widehat{CKB} = 90°$\n- $\\widehat{AOB} = \\widehat{CBK}$ (cmt)\n\n$\\Rightarrow \\triangle ABO \\sim \\triangle CKB$ (g-g).\n\n$\\Rightarrow \\dfrac{AB}{CK} = \\dfrac{BO}{KB}$.\n\nTa có $F$ là trung điểm của $OB \\Rightarrow BO = 2BF$.\n\nTa có $D$ là trung điểm của $BK \\Rightarrow KB = 2KD$.\n\nThay vào tỉ số trên: $\\dfrac{AB}{CK} = \\dfrac{2BF}{2KD} = \\dfrac{BF}{KD}$.\n\n$\\Rightarrow \\dfrac{AB}{BF} = \\dfrac{CK}{KD}$.\n\nXét $\\triangle ABF$ và $\\triangle CKD$:\n- $\\widehat{ABF} = \\widehat{CKD} = 90°$\n- $\\dfrac{AB}{BF} = \\dfrac{CK}{KD}$ (cmt)\n\n$\\Rightarrow \\triangle ABF \\sim \\triangle CKD$ (c-g-c).\n\n$\\Rightarrow \\widehat{BFA} = \\widehat{CDK}$.\n\nTrong $\\triangle ABF$ vuông tại $F$:\n$$\\widehat{BFA} + \\widehat{BAF} = 90°$$\n\n$\\Rightarrow \\widehat{CDK} + \\widehat{BAF} = 90° \\Rightarrow \\widehat{AED} = 90°$\n\n$\\Rightarrow AF \\perp CD$ tại $E$.\n\n$\\triangle AEC$ vuông tại $E \\Rightarrow$ nội tiếp đường tròn đường kính $AC$ (1).\n\n$\\triangle AHC$ vuông tại $H \\Rightarrow$ nội tiếp đường tròn đường kính $AC$ (2).\n\nTừ (1) và (2) suy ra bốn điểm $A, H, E, C$ cùng thuộc đường tròn đường kính $AC$. □",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), 2 tiếp tuyến AB, AC tại B, C; đường kính BS; OA cắt (O) tại I; H giao OA và BC; D chân vuông từ H xuống AB; F trung điểm OB; E giao AF với CD; K chân vuông từ C xuống AB.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu chứng minh OA ⊥ BC từ đâu.",
+          "Em không hiểu sao $SC = 2OH$.",
+          "Câu c phức tạp quá, em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định dùng AB = AC và OB = OC để chứng minh OA là trung trực — đúng không?",
+          "Em định dùng OH là đường trung bình ΔSBC — đúng chứ?",
+          "Câu b em định dùng I là tâm đường tròn nội tiếp ΔABC — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $BC^2 = 2 \\cdot SC \\cdot HA$ — đúng không?",
+          "Em ra $CS = 2(R - r)$ — đúng chưa?",
+          "Em ra A, H, E, C cùng đường tròn đường kính AC — đúng không?"
+        ],
+        "go_bi": [
+          "Em không liên kết được $BH^2 = AH \\cdot OH$.",
+          "Em không chứng minh được CI là phân giác.",
+          "Em không biết tại sao AF ⊥ CD."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-11/bai7-tieptuyen.png"
+    }
+  ]
+}

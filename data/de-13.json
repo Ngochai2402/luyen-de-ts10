@@ -1,0 +1,363 @@
+{
+  "de_so": 13,
+  "cum": 5,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = 2x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm các điểm thuộc $(P)$ có tung độ là $16$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol",
+        "Thay $y = 16$ vào (P)",
+        "Giải phương trình bậc hai $2x^2 = 16$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Điểm thuộc đồ thị thỏa mãn phương trình"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm: $(2\\sqrt{2}; 16)$ và $(-2\\sqrt{2}; 16)$.",
+      "goi_y_cap_1": "Câu a: Lập bảng với x = -2, -1, 0, 1, 2. Parabol bề lõm lên trên.\n\nCâu b: Cho $2x^2 = 16$, giải ra hai nghiệm.",
+      "goi_y_cap_2": "Câu a:\n- $x = -2 \\to y = 8$; $x = -1 \\to y = 2$; $x = 0 \\to y = 0$; $x = 1 \\to y = 2$; $x = 2 \\to y = 8$\n\nCâu b:\n- $y = 16$ thay vào (P): $2x^2 = 16$\n- $2x^2 - 16 = 0 \\Leftrightarrow x^2 = 8$\n- $x_1 = 2\\sqrt{2}; x_2 = -2\\sqrt{2}$\n- 2 điểm: $(2\\sqrt{2}; 16)$ và $(-2\\sqrt{2}; 16)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = 2x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại O, bề lõm lên trên.\n\n**Câu b) Tìm các điểm có tung độ là 16:**\n\nVì điểm cần tìm có tung độ là $16$ nên $y = 16$.\n\nTa có phương trình: $2x^2 = 16$\n\n$\\Leftrightarrow 2x^2 - 16 = 0$\n\n$\\Leftrightarrow x^2 = 8$\n\nSuy ra $x_1 = 2\\sqrt{2}$; $x_2 = -2\\sqrt{2}$.\n\nVới $x_1 = 2\\sqrt{2} \\Rightarrow y_1 = 16$.\n\nVới $x_2 = -2\\sqrt{2} \\Rightarrow y_2 = 16$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(2\\sqrt{2}; 16)}$ và $\\boxed{(-2\\sqrt{2}; 16)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = 2x² bề lõm quay lên trên trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol y = 2x² thế nào.",
+          "$2x^2 = 16$ giải ra mấy nghiệm thầy?",
+          "Em không biết $\\sqrt{8}$ rút gọn ra sao."
+        ],
+        "dinh_huong": [
+          "Em định lập bảng với x = -2, -1, 0, 1, 2 — đúng không?",
+          "Em định cho $2x^2 = 16$ — đúng chứ?",
+          "Em định rút gọn $\\sqrt{8} = 2\\sqrt{2}$ — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x = \\pm 2\\sqrt{2}$ — đúng không?",
+          "Em ra 2 điểm $(2\\sqrt{2}; 16)$ và $(-2\\sqrt{2}; 16)$ — đúng chưa?",
+          "Parabol có đỉnh O bề lõm lên trên — đúng không?"
+        ],
+        "go_bi": [
+          "Em quên dấu ± khi lấy căn.",
+          "Em không rút gọn được $\\sqrt{8}$.",
+          "Em chỉ ghi 1 điểm thay vì 2."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-13/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức bậc 3",
+      "de_bai": "Cho phương trình $-x^2 + 10x + 8 = 0$.\n\na) Chứng minh phương trình trên luôn có hai nghiệm phân biệt.\n\nb) Gọi $x_1, x_2$ là hai nghiệm của phương trình đã cho. Không giải phương trình, hãy tính giá trị của biểu thức $A = (x_1 - x_2)(x_1^2 - x_2^2)$.",
+      "phuong_phap_duoc_dung": [
+        "Tính biệt thức Δ",
+        "Định lý Viète",
+        "Biến đổi $A = (x_1 - x_2)^2 (x_1 + x_2)$",
+        "Sử dụng $(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4 x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức Δ = b² - 4ac",
+        "Định lý Viète",
+        "Hằng đẳng thức $a^2 - b^2 = (a-b)(a+b)$"
+      ],
+      "dap_so": "$A = 1320$.",
+      "goi_y_cap_1": "Câu a: Tính Δ = 100 + 32 = 132 > 0.\n\nCâu b: Phân tích $x_1^2 - x_2^2 = (x_1 - x_2)(x_1 + x_2)$. Suy ra $A = (x_1 - x_2)^2(x_1 + x_2)$. Dùng Viète để tính.",
+      "goi_y_cap_2": "Câu a:\n- $a = -1; b = 10; c = 8$\n- $\\Delta = 10^2 - 4 \\cdot (-1) \\cdot 8 = 100 + 32 = 132 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{-10}{-1} = 10$, $x_1 x_2 = \\dfrac{8}{-1} = -8$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2 x_1 x_2 = 100 - 2(-8) = 116$\n- $A = (x_1 - x_2)(x_1^2 - x_2^2) = (x_1 - x_2)(x_1 - x_2)(x_1 + x_2) = (x_1 - x_2)^2 (x_1 + x_2)$\n- $(x_1 - x_2)^2 = x_1^2 + x_2^2 - 2 x_1 x_2 = 116 - 2(-8) = 132$\n- $A = 132 \\cdot 10 = 1320$",
+      "loi_giai_day_du": "**Câu a) Chứng minh phương trình có 2 nghiệm phân biệt:**\n\nTa có $-x^2 + 10x + 8 = 0$ với $a = -1; b = 10; c = 8$.\n\n$\\Delta = b^2 - 4ac = 10^2 - 4 \\cdot (-1) \\cdot 8 = 100 + 32 = 132 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-10}{-1} = 10 \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{8}{-1} = -8 \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2 = 10^2 - 2 \\cdot (-8) = 116$.\n\nBiến đổi biểu thức $A$:\n$$A = (x_1 - x_2)(x_1^2 - x_2^2)$$\n$$A = (x_1 - x_2)(x_1 - x_2)(x_1 + x_2)$$\n$$A = (x_1 - x_2)^2 (x_1 + x_2)$$\n$$A = (x_1^2 + x_2^2 - 2 x_1 x_2)(x_1 + x_2)$$\n$$A = (116 - 2 \\cdot (-8)) \\cdot 10$$\n$$A = 132 \\cdot 10 = \\boxed{1320}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết $x_1^2 - x_2^2$ phân tích được không.",
+          "Em quên hằng đẳng thức $a^2 - b^2$.",
+          "Em không biết $A$ chứa $(x_1 - x_2)$ ở 2 chỗ."
+        ],
+        "dinh_huong": [
+          "Em định phân tích $x_1^2 - x_2^2 = (x_1-x_2)(x_1+x_2)$ — đúng không?",
+          "Em định rút $A = (x_1 - x_2)^2 (x_1 + x_2)$ — đúng chứ?",
+          "Em định dùng $(x_1-x_2)^2 = (x_1+x_2)^2 - 4 x_1 x_2$ — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1 + x_2 = 10, x_1 x_2 = -8$ — đúng không?",
+          "Em ra $(x_1-x_2)^2 = 132$ — đúng chưa?",
+          "Em ra $A = 1320$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không phân tích được $x_1^2 - x_2^2$.",
+          "Em nhầm dấu vì hệ số a = -1.",
+          "Em tính nhầm $(x_1-x_2)^2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.0,
+      "chu_de": "Thống kê - Biểu đồ hình quạt - Xác suất",
+      "de_bai": "Biểu đồ hình quạt tròn ở hình bên biểu diễn kết quả thống kê (theo tỉ lệ phần trăm) chọn môn thể thao yêu thích nhất trong bốn môn: Cầu lông, Bóng đá, Bóng bàn, Bóng chuyền của $440$ học sinh khối $9$ ở một trường trung học cơ sở $A$. Mỗi học sinh chỉ được chọn một môn thể thao khi được hỏi ý kiến.\n\n- Cầu lông: 25%\n- Bóng đá: 35%\n- Bóng bàn: 15%\n- Bóng chuyền: 25%\n\na) Tính số lượng học sinh cụ thể yêu thích mỗi môn thể thao?\n\nb) Cô giáo chọn ngẫu nhiên một bạn trong số các bạn học sinh khối $9$. Tính xác suất để bạn được chọn không thích môn Cầu lông?",
+      "phuong_phap_duoc_dung": [
+        "Tính số lượng từ phần trăm: số lượng = 440 × tỉ lệ %",
+        "Cộng số lượng các môn không phải Cầu lông",
+        "Công thức xác suất cổ điển"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ hình quạt tròn",
+        "Tỉ lệ phần trăm",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) Cầu lông 110, Bóng đá 154, Bóng bàn 66, Bóng chuyền 110. b) $P = \\dfrac{3}{4}$.",
+      "goi_y_cap_1": "Câu a: Số HS = 440 × tỉ lệ %.\n\nCâu b: Số HS không thích Cầu lông = tổng - Cầu lông. P = (số không thích Cầu lông) / 440.",
+      "goi_y_cap_2": "Câu a:\n- Cầu lông: $440 \\cdot 25\\% = 110$ HS\n- Bóng đá: $440 \\cdot 35\\% = 154$ HS\n- Bóng bàn: $440 \\cdot 15\\% = 66$ HS\n- Bóng chuyền: $440 \\cdot 25\\% = 110$ HS\n\nCâu b:\n- $n(\\Omega) = 440$\n- Số HS không thích Cầu lông: $154 + 66 + 110 = 330$\n- $n(A) = 330$\n- $P(A) = \\dfrac{330}{440} = \\dfrac{3}{4}$",
+      "loi_giai_day_du": "**Câu a) Số lượng học sinh yêu thích mỗi môn:**\n\n- Số lượng học sinh yêu thích môn Cầu lông là: $440 \\cdot 25\\% = \\boxed{110}$ (học sinh)\n- Số lượng học sinh yêu thích môn Bóng đá là: $440 \\cdot 35\\% = \\boxed{154}$ (học sinh)\n- Số lượng học sinh yêu thích môn Bóng bàn là: $440 \\cdot 15\\% = \\boxed{66}$ (học sinh)\n- Số lượng học sinh yêu thích môn Bóng chuyền là: $440 \\cdot 25\\% = \\boxed{110}$ (học sinh)\n\n**Câu b) Xác suất bạn được chọn không thích Cầu lông:**\n\nKhông gian mẫu là tổng số học sinh khối 9: $n(\\Omega) = 440$.\n\nSố học sinh không thích môn Cầu lông là: $154 + 66 + 110 = 330$ (học sinh).\n\nSuy ra số kết quả thuận lợi cho biến cố là $n(A) = 330$.\n\nXác suất của biến cố là:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{330}{440} = \\boxed{\\dfrac{3}{4}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ hình quạt tròn 4 phần: Cầu lông 25%, Bóng đá 35%, Bóng bàn 15%, Bóng chuyền 25%.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính số HS từ phần trăm.",
+          "'Không thích Cầu lông' nghĩa là thích những môn nào thầy?",
+          "Em không biết bắt đầu câu b từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định nhân 440 với từng tỉ lệ % — đúng không?",
+          "Em định cộng 3 môn còn lại trừ Cầu lông — đúng chứ?",
+          "Em định lấy 330/440 rút gọn — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 110 HS thích Cầu lông — đúng không?",
+          "Em ra 330 HS không thích Cầu lông — đúng chưa?",
+          "Em ra $P = 3/4$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên 1 trong 4 môn khi tính.",
+          "Em nhầm 'không thích' nghĩa là Cầu lông.",
+          "Em không rút gọn được 330/440."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-13/bai3-bieudoquattron.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vườn hoa với lối đi",
+      "de_bai": "Một vườn hoa hình chữ nhật có chiều dài $20$ m và chiều rộng $14$ m. Người ta làm một lối đi ngang sát cạnh trên và một lối đi dọc ở giữa khu vườn (phần không tô màu) với cùng bề rộng là $x$ (m). Phần đất còn lại dùng để trồng hoa.\n\na) Viết biểu thức $S$ biểu diễn theo $x$ diện tích phần đất trồng hoa.\n\nb) Tìm bề rộng $x$ của lối đi, biết rằng diện tích đất trồng hoa bằng $187$ m².",
+      "phuong_phap_duoc_dung": [
+        "Diện tích trồng hoa = (chiều dài - lối đi dọc) × (chiều rộng - lối đi ngang)",
+        "S = (20 - x)(14 - x)",
+        "Giải phương trình bậc hai khi S = 187",
+        "Chọn nghiệm theo điều kiện 0 < x < 14"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai",
+        "Loại nghiệm theo điều kiện"
+      ],
+      "dap_so": "a) $S = (20-x)(14-x)$ (m²). b) Bề rộng lối đi $x = 3$ m.",
+      "goi_y_cap_1": "Câu a: Phần trồng hoa gộp lại là HCN có chiều dài $20-x$, chiều rộng $14-x$. S = $(20-x)(14-x)$.\n\nCâu b: Cho $(20-x)(14-x) = 187$ → $x^2 - 34x + 93 = 0$. Giải, chọn x phù hợp 0 < x < 14.",
+      "goi_y_cap_2": "Câu a:\n- Gọi $x$ là bề rộng lối đi ($0 < x < 14$)\n- Chiều dài phần đất trồng hoa còn lại = $20 - x$ (m)\n- Chiều rộng phần đất trồng hoa còn lại = $14 - x$ (m)\n- $S = (20-x)(14-x)$ (m²)\n\nCâu b:\n- $(20-x)(14-x) = 187$\n- $280 - 20x - 14x + x^2 = 187$\n- $x^2 - 34x + 93 = 0$\n- $x_1 = 3$ (nhận); $x_2 = 31$ (loại vì > 14)\n- Vậy $x = 3$ m",
+      "loi_giai_day_du": "Gọi $x$ (m) là bề rộng của lối đi ($0 < x < 14$).\n\n**Câu a) Biểu thức S:**\n\nChiều dài phần đất trồng hoa còn lại sau khi trừ lối đi dọc là $20 - x$ (m).\n\nChiều rộng phần đất trồng hoa còn lại sau khi trừ lối đi ngang là $14 - x$ (m).\n\nBiểu thức diện tích phần đất trồng hoa là:\n$$\\boxed{S = (20-x)(14-x) \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tìm bề rộng x:**\n\nVì diện tích đất trồng hoa bằng $187$ m² nên ta có phương trình:\n$$(20-x)(14-x) = 187$$\n$$280 - 20x - 14x + x^2 = 187$$\n$$x^2 - 34x + 93 = 0$$\n\nSuy ra $x = 3$ hoặc $x = 31$.\n\nSo với điều kiện $0 < x < 14$, ta nhận $x = 3$ và loại $x = 31$.\n\nVậy bề rộng của lối đi là $\\boxed{3 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Vườn hoa HCN 20m × 14m, có lối đi ngang sát cạnh trên rộng x và lối đi dọc giữa rộng x.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'lối đi ngang sát cạnh trên' là gì.",
+          "Em không biết phần trồng hoa có hình dạng gì.",
+          "Tại sao chiều dài còn lại = $20 - x$ thầy?"
+        ],
+        "dinh_huong": [
+          "Em định viết $S = (20-x)(14-x)$ — đúng không?",
+          "Em định cho S = 187 rồi giải PT — đúng chứ?",
+          "Em xét điều kiện $0 < x < 14$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = (20-x)(14-x)$ — đúng không?",
+          "Em ra phương trình $x^2 - 34x + 93 = 0$ — đúng chưa?",
+          "Em ra $x = 3$ m — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết phần trồng hoa khi gộp lại có dạng HCN.",
+          "Em khai triển $(20-x)(14-x)$ bị sai.",
+          "Em nhận cả 2 nghiệm thay vì loại 1."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-13/bai4-vuonhoa.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Trái Đất hình cầu (vĩ độ, kinh tuyến)",
+      "de_bai": "Quan sát trên quả địa cầu thấy vị trí nước Việt Nam trải dài trên cung kinh tuyến từ vĩ độ $23°23'$ Bắc đến $8°27'$ Bắc theo hướng Bắc Nam (khoảng cách giữa $2$ điểm $V$ và $T$ như hình bên) và có chiều dài khoảng $1655$ km. Giả sử Trái Đất là hình cầu và có diện tích bề mặt được cho bởi công thức $S = 4\\pi R^2$, trong đó: $S$ là diện tích và $R$ là bán kính mặt cầu; lấy $\\pi = 3{,}14$.\n\na) Em hãy tính độ dài đường kinh tuyến, sau đó tính bán kính trái đất? (tất cả các kết quả làm tròn đến hàng trăm)\n\nb) Biết rằng diện tích rừng chiếm $20\\%$ diện tích bề mặt trái đất, trong đó có $10\\%$ là diện tích rừng nhiệt đới. Tính diện tích rừng nhiệt đới trên trái đất? (làm tròn đến hàng trăm)",
+      "phuong_phap_duoc_dung": [
+        "Tính số đo cung kinh tuyến từ Việt Nam: 23°23' - 8°27' = 14°56'",
+        "Đổi 14°56' về đơn vị độ thập phân",
+        "Áp dụng công thức cung tròn: $L = \\dfrac{n \\cdot 360°}{\\alpha}$ để có nửa chu vi (đường kinh tuyến)",
+        "Bán kính: $R = L/\\pi$",
+        "Diện tích rừng nhiệt đới = $S \\cdot 20\\% \\cdot 10\\%$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Đường kinh tuyến (nửa chu vi Trái Đất)",
+        "Diện tích mặt cầu $S = 4\\pi R^2$",
+        "Cung tròn",
+        "Tỉ lệ phần trăm"
+      ],
+      "dap_so": "a) Đường kinh tuyến ≈ 20.000 km, bán kính Trái Đất ≈ 6.400 km. b) Diện tích rừng nhiệt đới ≈ 10.281.500 km².",
+      "goi_y_cap_1": "Câu a: Số đo cung kinh tuyến VN = 23°23' - 8°27' = 14°56' = 224/15°. Tính độ dài đường kinh tuyến (nửa chu vi) bằng tỉ lệ. Sau đó R = L/π.\n\nCâu b: Tính diện tích bề mặt $S = 4\\pi R^2$. Diện tích rừng nhiệt đới = $S \\times 20\\% \\times 10\\%$.",
+      "goi_y_cap_2": "Câu a:\n- Số đo cung VN: $23°23' - 8°27' = 14°56' = \\left(14 + \\dfrac{56}{60}\\right)° = \\dfrac{224}{15}°$\n- Đường kinh tuyến (nửa chu vi tương ứng 180°):\n  - $L = \\dfrac{1655 \\cdot 180}{224/15} = \\dfrac{1655 \\cdot 180 \\cdot 15}{224} = \\dfrac{4\\,468\\,500}{224}$\n  - $L \\approx 20\\,000$ km\n- $R = \\dfrac{L}{\\pi} = \\dfrac{4\\,468\\,500}{224 \\cdot 3{,}14} \\approx 6\\,400$ km\n\nCâu b:\n- $S = 4\\pi R^2 = 4 \\cdot 3{,}14 \\cdot \\left(\\dfrac{4\\,468\\,500}{224 \\cdot 3{,}14}\\right)^2$ km²\n- Diện tích rừng nhiệt đới: $S \\cdot 20\\% \\cdot 10\\% = S \\cdot 0{,}02$\n- Tính ra ≈ $10\\,281\\,500$ km²",
+      "loi_giai_day_du": "**Câu a) Độ dài đường kinh tuyến và bán kính Trái Đất:**\n\nSố đo cung kinh tuyến từ vĩ độ $23°23'$ Bắc đến $8°27'$ Bắc là:\n$$23°23' - 8°27' = 14°56' = \\left(14 + \\dfrac{56}{60}\\right)° = \\left(\\dfrac{224}{15}\\right)°$$\n\nĐộ dài đường kinh tuyến (nửa chu vi Trái Đất ứng với $180°$) là:\n$$L = \\dfrac{1655 \\cdot 180}{\\dfrac{224}{15}} = \\dfrac{4\\,468\\,500}{224} \\text{ (km)}$$\n\nSuy ra độ dài đường kinh tuyến xấp xỉ $\\boxed{20\\,000 \\text{ km}}$.\n\nBán kính Trái Đất là:\n$$R = \\dfrac{L}{\\pi} = \\dfrac{4\\,468\\,500}{224 \\cdot 3{,}14} \\text{ (km)}$$\n\nSuy ra bán kính Trái Đất xấp xỉ $\\boxed{6\\,400 \\text{ km}}$.\n\n**Câu b) Diện tích rừng nhiệt đới:**\n\nDiện tích bề mặt Trái Đất là:\n$$S = 4\\pi R^2 = 4 \\cdot 3{,}14 \\cdot \\left(\\dfrac{4\\,468\\,500}{224 \\cdot 3{,}14}\\right)^2 \\text{ km}^2$$\n\nDiện tích rừng nhiệt đới trên Trái Đất là:\n$$S_{rnt} = S \\cdot 20\\% \\cdot 10\\% = 4 \\cdot 3{,}14 \\cdot \\left(\\dfrac{4\\,468\\,500}{224 \\cdot 3{,}14}\\right)^2 \\cdot 0{,}02 \\text{ km}^2$$\n\nSuy ra diện tích rừng nhiệt đới trên Trái Đất xấp xỉ $\\boxed{10\\,281\\,500 \\text{ km}^2}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Quả địa cầu hình cầu tâm O với 2 cực Bắc-Nam (B, N), xích đạo, kinh tuyến đi qua VN với 2 vĩ độ 23°23' và 8°27'.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'cung kinh tuyến' là gì.",
+          "Sao lại trừ 23°23' - 8°27' thầy?",
+          "'Đường kinh tuyến' có phải là chu vi không?"
+        ],
+        "dinh_huong": [
+          "Em định tính cung VN = 14°56' rồi đổi sang độ thập phân — đúng không?",
+          "Em định lập tỉ lệ với 180° (nửa chu vi) — đúng chứ?",
+          "Em định dùng $S = 4\\pi R^2$ rồi nhân 2% — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 14°56' = 224/15° — đúng không?",
+          "Em ra L ≈ 20.000 km, R ≈ 6.400 km — đúng chưa?",
+          "Em ra ≈ 10.281.500 km² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đổi phút thành độ bị sai (chia 60 chứ không chia 100).",
+          "Em nhầm đường kinh tuyến với chu vi cả Trái Đất.",
+          "Em quên nhân 20% và 10% (không phải 30%)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-13/bai5-quadiacau.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hai cây nến cháy",
+      "de_bai": "Hai cây nến có chiều dài bằng nhau nhưng làm bằng chất liệu khác nhau. Cây nến thứ nhất cháy hết trong $3$ giờ, cây nến thứ hai cháy hết trong $4$ giờ. Người ta đốt hai cây nến cùng một lúc. Hỏi sau bao lâu thì chiều dài phần còn lại của cây nến thứ hai gấp đôi chiều dài phần còn lại của cây nến thứ nhất?",
+      "phuong_phap_duoc_dung": [
+        "Đặt y là chiều dài ban đầu của mỗi cây nến",
+        "Tốc độ cháy: nến 1 = y/3, nến 2 = y/4 (đơn vị/giờ)",
+        "Sau x giờ: phần còn lại nến 1 = $y - \\dfrac{y}{3}x$, nến 2 = $y - \\dfrac{y}{4}x$",
+        "Lập phương trình: nến 2 = 2 × nến 1"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tốc độ cháy = chiều dài / thời gian cháy hết",
+        "Phương trình bậc nhất một ẩn"
+      ],
+      "dap_so": "Sau $2{,}4$ giờ ($= 2$ giờ $24$ phút) thì chiều dài cây nến thứ hai gấp đôi cây nến thứ nhất.",
+      "goi_y_cap_1": "Gọi x giờ là thời gian cần tìm, y là chiều dài ban đầu mỗi cây. Tính chiều dài còn lại của 2 cây sau x giờ. Lập PT: $y - \\dfrac{y}{4}x = 2(y - \\dfrac{y}{3}x)$.",
+      "goi_y_cap_2": "- Gọi $x$ (giờ) là thời gian cần tìm ($0 < x < 3$)\n- Gọi $y$ là chiều dài ban đầu của mỗi cây nến ($y > 0$)\n- Tốc độ cháy nến 1: $\\dfrac{y}{3}$ (đơn vị/giờ)\n- Tốc độ cháy nến 2: $\\dfrac{y}{4}$ (đơn vị/giờ)\n- Phần còn lại nến 1 sau x giờ: $y - \\dfrac{y}{3}x$\n- Phần còn lại nến 2 sau x giờ: $y - \\dfrac{y}{4}x$\n- Phương trình: $y - \\dfrac{y}{4}x = 2\\left(y - \\dfrac{y}{3}x\\right)$\n- $y - \\dfrac{yx}{4} = 2y - \\dfrac{2yx}{3}$\n- $\\dfrac{2yx}{3} - \\dfrac{yx}{4} = y$\n- $\\dfrac{8yx - 3yx}{12} = y \\Rightarrow \\dfrac{5yx}{12} = y$\n- Vì $y > 0$: $\\dfrac{5x}{12} = 1 \\Rightarrow x = \\dfrac{12}{5} = 2{,}4$ (giờ)\n- Đổi: $2{,}4$ giờ = $2$ giờ $24$ phút",
+      "loi_giai_day_du": "Gọi $x$ (giờ) là thời gian từ lúc đốt đến khi chiều dài phần còn lại của cây nến thứ hai gấp đôi cây nến thứ nhất ($0 < x < 3$).\n\nGọi $y$ (đơn vị chiều dài) là chiều dài ban đầu của mỗi cây nến ($y > 0$).\n\nTốc độ cháy của cây nến thứ nhất là $\\dfrac{y}{3}$ (đơn vị chiều dài/giờ).\n\nTốc độ cháy của cây nến thứ hai là $\\dfrac{y}{4}$ (đơn vị chiều dài/giờ).\n\nChiều dài phần còn lại của cây nến thứ nhất sau $x$ giờ là $y - \\dfrac{y}{3}x$.\n\nChiều dài phần còn lại của cây nến thứ hai sau $x$ giờ là $y - \\dfrac{y}{4}x$.\n\nVì chiều dài phần còn lại của cây nến thứ hai gấp đôi chiều dài phần còn lại của cây nến thứ nhất nên ta có phương trình:\n$$y - \\dfrac{y}{4}x = 2\\left(y - \\dfrac{y}{3}x\\right)$$\n\n$$y - \\dfrac{y}{4}x = 2y - \\dfrac{2y}{3}x$$\n\n$$\\dfrac{2y}{3}x - \\dfrac{y}{4}x = 2y - y$$\n\n$$\\left(\\dfrac{2}{3} - \\dfrac{1}{4}\\right) xy = y$$\n\n$$\\dfrac{5}{12} xy = y$$\n\nVì $y > 0$, chia 2 vế cho $y$:\n$$\\dfrac{5}{12}x = 1$$\n\n$$x = \\dfrac{12}{5} = 2{,}4 \\text{ (nhận)}$$\n\nĐổi $2{,}4$ giờ = $2$ giờ $24$ phút.\n\nVậy sau $\\boxed{2{,}4 \\text{ giờ}}$ (hoặc $\\boxed{2 \\text{ giờ } 24 \\text{ phút}}$) thì chiều dài cây nến thứ hai gấp đôi cây nến thứ nhất.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'cháy hết trong 3 giờ' nghĩa là tốc độ bao nhiêu.",
+          "'Gấp đôi' là gấp 2 lần phải không thầy?",
+          "Em không biết bắt đầu lập phương trình từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định gọi y là chiều dài ban đầu — đúng không?",
+          "Em định viết tốc độ cháy = $\\dfrac{y}{3}$ và $\\dfrac{y}{4}$ — đúng chứ?",
+          "Em định viết PT: nến 2 còn = 2 × nến 1 còn — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $\\dfrac{5}{12}x = 1$ — đúng không?",
+          "Em ra $x = 2{,}4$ giờ — đúng chưa?",
+          "Em đổi $2{,}4$ giờ = $2$ giờ $24$ phút — đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết tốc độ cháy = chiều dài / thời gian.",
+          "Em quy đồng phân số $\\dfrac{2}{3} - \\dfrac{1}{4}$ bị sai.",
+          "Em không biết đổi $0{,}4$ giờ = bao nhiêu phút."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn 2 đường kính vuông góc",
+      "de_bai": "Cho đường tròn $(O, R)$ có hai đường kính $AB$ và $CD$ vuông góc tại $O$. Gọi $I$ là trung điểm của $OB$. Tia $CI$ cắt đường tròn $(O)$ tại $E$. Gọi $H$ là giao điểm của $AE$ và $CD$.\n\na) Chứng minh bốn điểm $O, I, E, D$ cùng thuộc một đường tròn và $CO \\cdot CD = CI \\cdot CE$.\n\nb) Chứng minh: $AH \\cdot AE = 2R^2$ và $OA = 3 \\cdot OH$.\n\nc) Gọi $K$ là hình chiếu của $O$ trên $BD$, $Q$ là giao điểm của $AD$ và $BE$. Chứng minh: $Q, K, I$ thẳng hàng.",
+      "phuong_phap_duoc_dung": [
+        "Tứ giác có 2 đỉnh nhìn 1 đoạn dưới góc 90° → nội tiếp đường tròn đường kính",
+        "Tam giác đồng dạng (g-g, c-g-c)",
+        "Tính chất tâm đường tròn ngoại tiếp tam giác vuông",
+        "Tính chất phân giác trong tam giác",
+        "Đường trung bình tam giác",
+        "Trực tâm tam giác"
+      ],
+      "kien_thuc_lien_quan": [
+        "Góc nội tiếp chắn nửa đường tròn = 90°",
+        "Tam giác đồng dạng và hệ thức tỉ lệ",
+        "Tính chất phân giác (chia cạnh đối tỉ lệ)",
+        "Đường trung bình tam giác",
+        "Trực tâm tam giác"
+      ],
+      "dap_so": "Tất cả các câu là chứng minh, đáp án dưới dạng kết luận.",
+      "goi_y_cap_1": "Câu a: ΔIOD vuông tại O và ΔIED vuông tại E (chắn nửa đường tròn) → cùng nội tiếp đường tròn đường kính ID. Từ đó dùng ΔCOI ~ ΔCED (g-g) → CO·CD = CI·CE.\n\nCâu b: Từ $\\widehat{AEB} = 90°$, ΔAOH ~ ΔAEB (g-g) → AH·AE = AO·AB = R·2R = 2R². Phần OA = 3·OH dùng phân giác EI trong tam giác AEB và tỉ số IA/IB = 3.\n\nCâu c: Chứng minh H là trọng tâm ΔADB, từ đó K trung điểm BD và A, H, K thẳng hàng. Sau đó dùng K trực tâm ΔQAB → QK ⊥ AB. Cuối cùng IK là trung bình ΔOBD → IK ⊥ AB. Vậy Q, K, I thẳng hàng.",
+      "goi_y_cap_2": "Câu a:\n- $AB \\perp CD$ tại O → ΔIOD vuông tại O → nội tiếp đường tròn đường kính ID (1)\n- $\\widehat{CED} = 90°$ (nội tiếp chắn nửa đường tròn đường kính CD) → ΔIED vuông tại E → nội tiếp đường tròn đường kính ID (2)\n- (1)+(2) → 4 điểm O, I, E, D cùng đường tròn đường kính ID\n- Xét ΔCOI và ΔCED: $\\widehat{OCE}$ chung, $\\widehat{COI} = \\widehat{CED} = 90°$ → đồng dạng (g-g)\n- → $\\dfrac{CO}{CE} = \\dfrac{CI}{CD}$ → $CO \\cdot CD = CI \\cdot CE$\n\nCâu b:\n- $\\widehat{AEB} = 90°$ (nội tiếp chắn nửa đường tròn AB)\n- ΔAOH và ΔAEB: $\\widehat{EAB}$ chung, $\\widehat{AOH} = \\widehat{AEB} = 90°$ → đồng dạng (g-g)\n- → $\\dfrac{AO}{AE} = \\dfrac{AH}{AB}$ → $AH \\cdot AE = AO \\cdot AB = R \\cdot 2R = 2R^2$\n- I trung điểm OB → $IB = R/2$, $IA = AB - IB = 3R/2$ → $\\dfrac{IA}{IB} = 3$ (1)\n- $\\widehat{AEB} = 90°$, $\\widehat{CEB} = \\widehat{CDB}$ (cùng chắn cung CB)\n- ΔOCD vuông cân tại O (OC = OD = R) → $\\widehat{CDB} = 45°$ → $\\widehat{CEB} = 45°$\n- $\\widehat{AEI} = \\widehat{AEB} - \\widehat{IEB} = 90° - 45° = 45°$ → $\\widehat{AEI} = \\widehat{IEB}$\n- → EI là phân giác ΔAEB. Theo tính chất phân giác: $\\dfrac{EA}{EB} = \\dfrac{IA}{IB} = 3$ (2)\n- Từ ΔAOH ~ ΔAEB: $\\dfrac{OA}{AE} = \\dfrac{OH}{EB} \\Rightarrow \\dfrac{OA}{OH} = \\dfrac{AE}{EB} = 3$\n- Vậy $OA = 3 \\cdot OH$\n\nCâu c:\n- ΔADB có DO là trung tuyến (O trung điểm AB)\n- Từ câu b: OA = 3·OH → OH = (1/3)OA. Mà OA = OD = R → $OH = (1/3)OD$\n- → H là trọng tâm ΔADB\n- ΔOBD cân tại O (OB = OD = R), OK là đường cao → OK trung tuyến → K trung điểm BD\n- ΔABD có AK trung tuyến, H trọng tâm → A, H, K thẳng hàng\n- Mà A, E, H thẳng hàng (giả thiết) → 4 điểm A, H, E, K thẳng hàng\n- Xét ΔQAB: BD và AK là 2 đường cao (do BE ⊥ AE và AK đi qua trực tâm), cắt tại K → K trực tâm → QK ⊥ AB\n- Xét ΔOBD: I trung điểm OB, K trung điểm BD → IK đường trung bình → IK // OD\n- Mà OD ⊥ AB (giả thiết) → IK ⊥ AB tại I\n- QK ⊥ AB và IK ⊥ AB → Q, K, I thẳng hàng",
+      "loi_giai_day_du": "**Câu a) Chứng minh 4 điểm O, I, E, D cùng đường tròn và CO·CD = CI·CE:**\n\nTa có $AB \\perp CD$ tại $O$ (giả thiết).\n\n$\\triangle IOD$ vuông tại $O$.\n\nSuy ra $\\triangle IOD$ nội tiếp đường tròn đường kính $ID$ (1).\n\nTa có $\\widehat{CED} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $CD$).\n\nSuy ra $\\triangle IED$ vuông tại $E$.\n\nSuy ra $\\triangle IED$ nội tiếp đường tròn đường kính $ID$ (2).\n\nTừ (1) và (2) suy ra **4 điểm $O, I, E, D$ cùng thuộc đường tròn đường kính $ID$**.\n\nXét $\\triangle COI$ và $\\triangle CED$:\n$\\begin{cases} \\widehat{OCE} \\text{ (góc chung)} \\\\ \\widehat{COI} = \\widehat{CED} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle COI \\sim \\triangle CED$ (g-g).\n\n$\\Rightarrow \\dfrac{CO}{CE} = \\dfrac{CI}{CD} \\Rightarrow \\boxed{CO \\cdot CD = CI \\cdot CE}$. □\n\n**Câu b) Chứng minh AH·AE = 2R² và OA = 3·OH:**\n\n**Chứng minh AH·AE = 2R²:**\n\nTa có $\\widehat{AEB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n\nXét $\\triangle AOH$ và $\\triangle AEB$:\n$\\begin{cases} \\widehat{EAB} \\text{ (góc chung)} \\\\ \\widehat{AOH} = \\widehat{AEB} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle AOH \\sim \\triangle AEB$ (g-g).\n\n$\\Rightarrow \\dfrac{AO}{AE} = \\dfrac{AH}{AB} \\Rightarrow AH \\cdot AE = AO \\cdot AB$.\n\nMà $AO = R$ và $AB = 2R$.\n\nSuy ra $AH \\cdot AE = R \\cdot 2R = \\boxed{2R^2}$.\n\n**Chứng minh OA = 3·OH:**\n\nTa có $I$ là trung điểm của $OB$ nên $IB = \\dfrac{R}{2}$.\n\nTa có $IA = AB - IB = 2R - \\dfrac{R}{2} = \\dfrac{3R}{2}$.\n\nSuy ra tỉ số: $\\dfrac{IA}{IB} = \\dfrac{3R/2}{R/2} = 3$ (1)\n\nTa có $\\widehat{AEB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n\nTa có $\\widehat{CEB} = \\widehat{CDB}$ (hai góc nội tiếp cùng chắn cung $CB$).\n\nDo $CD \\perp AB$ tại $O$ và $OC = OD = R$, nên $\\triangle OCD$ vuông cân tại $O$.\n\nSuy ra $\\widehat{CDB} = 45° \\Rightarrow \\widehat{CEB} = 45°$.\n\nTa có $\\widehat{AEI} = \\widehat{AEB} - \\widehat{IEB} = 90° - 45° = 45°$.\n\nSuy ra $\\widehat{AEI} = \\widehat{IEB}$.\n\nVậy $EI$ là đường phân giác của $\\triangle AEB$.\n\nXét $\\triangle AEB$, có $EI$ là đường phân giác:\n$$\\dfrac{EA}{EB} = \\dfrac{IA}{IB} \\quad (2)$$\n\nTừ (1) và (2) suy ra $\\dfrac{EA}{EB} = 3$.\n\nMà $\\triangle AOH \\sim \\triangle AEB$:\n$\\Rightarrow \\dfrac{OA}{AE} = \\dfrac{OH}{EB} \\Rightarrow \\dfrac{OA}{OH} = \\dfrac{AE}{EB}$\n\nThay $\\dfrac{AE}{EB} = 3$ ta được: $\\dfrac{OA}{OH} = 3 \\Rightarrow \\boxed{OA = 3 \\cdot OH}$. □\n\n**Câu c) Chứng minh Q, K, I thẳng hàng:**\n\nXét $\\triangle ADB$ có $DO$ là đường trung tuyến (do $O$ là trung điểm của đường kính $AB$).\n\nTheo chứng minh câu b, ta có $OA = 3 \\cdot OH$.\n\nMà $OA = OD = R \\Rightarrow OD = 3 \\cdot OH \\Rightarrow OH = \\dfrac{1}{3}OD$.\n\nSuy ra $H$ là trọng tâm của $\\triangle ADB$.\n\nXét $\\triangle OBD$ cân tại $O$ ($OB = OD = R$), có $OK$ là đường cao.\n\nSuy ra $OK$ là đường trung tuyến.\n\nSuy ra $K$ là trung điểm $BD$.\n\n$\\triangle ABD$ có $AK$ là trung tuyến, $H$ là trọng tâm nên $A, H, K$ thẳng hàng.\n\nMà $A, E, H$ thẳng hàng (giả thiết) nên bốn điểm $A, H, E, K$ thẳng hàng.\n\nXét $\\triangle QAB$, ta có:\n- Hai đường cao $BD$ và $AK$ cắt nhau tại $K$.\n\nSuy ra $K$ là trực tâm của $\\triangle QAB$.\n\n$\\Rightarrow QK \\perp AB$.\n\nXét $\\triangle OBD$ có:\n- $I$ là trung điểm $OB$ (giả thiết).\n- $K$ là trung điểm $BD$ (chứng minh trên).\n\nSuy ra $IK$ là đường trung bình của $\\triangle OBD$.\n\n$\\Rightarrow IK \\parallel OD$.\n\nMà $OD \\perp AB$ (giả thiết).\n\nSuy ra $IK \\perp AB$ tại $I$.\n\nVậy $Q, K, I$ thẳng hàng (cùng nằm trên đường thẳng vuông góc với $AB$ tại $I$). □",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) có 2 đường kính AB và CD vuông góc; I trung điểm OB; CI cắt (O) tại E; H giao AE và CD; K hình chiếu O trên BD; Q giao AD và BE.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy mối liên hệ giữa các điểm trong hình.",
+          "Câu a em không biết bắt đầu từ đâu.",
+          "Câu c có nhiều điểm Q, K, I quá phức tạp."
+        ],
+        "dinh_huong": [
+          "Câu a em định dùng góc nội tiếp $\\widehat{CED} = 90°$ — đúng không?",
+          "Câu b em định chứng minh ΔAOH ~ ΔAEB — đúng hướng chứ?",
+          "Câu c em định chứng minh H là trọng tâm ΔADB — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $CO \\cdot CD = CI \\cdot CE$ — đúng không?",
+          "Em ra $AH \\cdot AE = 2R^2$ — đúng chưa?",
+          "Em ra $OA = 3 \\cdot OH$ — đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết EI là phân giác trong ΔAEB.",
+          "Em không liên kết được OH = (1/3)OD với trọng tâm.",
+          "Em không thấy K là trực tâm ΔQAB."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-13/bai7-duongtron.png"
+    }
+  ]
+}
