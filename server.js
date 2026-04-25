@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 3000;
 const anthropic = new Anthropic();
 
 app.use(cors());
-app.use(express.json({ limit: '2mb' }));
+app.use(express.json({ limit: '12mb' }));
 app.use(express.static(__dirname));
 app.use('/data', express.static(path.join(__dirname, 'data')));
 app.use('/images', express.static(path.join(__dirname, 'public', 'images')));
@@ -189,8 +189,17 @@ app.get('/api/de', (req, res) => {
 
 app.post('/api/chat', async (req, res) => {
   try {
-    const { de_so, bai_so, history = [], user_message } = req.body;
-    if (!user_message) return res.status(400).json({ error: 'Thiếu user_message' });
+    const { de_so, bai_so, history = [], user_message, image = null } = req.body;
+    if (!user_message && !image) return res.status(400).json({ error: 'Thiếu user_message hoặc image' });
+    if (image) {
+      const allowed = ['image/jpeg', 'image/png', 'image/webp'];
+      if (!allowed.includes(image.mime_type) || !image.data) {
+        return res.status(400).json({ error: 'Ảnh không hợp lệ. Chỉ nhận JPG, PNG hoặc WebP.' });
+      }
+      if (image.data.length > 10 * 1024 * 1024) {
+        return res.status(413).json({ error: 'Ảnh quá lớn.' });
+      }
+    }
 
     const de = loadDe(de_so);
     if (!de) return res.status(404).json({ error: 'Không tìm thấy đề' });
@@ -203,7 +212,47 @@ app.post('/api/chat', async (req, res) => {
       role: m.role === 'user' ? 'user' : 'assistant',
       content: m.content
     }));
-    messages.push({ role: 'user', content: user_message });
+    if (image) {
+      messages.push({
+        role: 'user',
+        content: [
+          {
+            type: 'image',
+            source: {
+              type: 'base64',
+              media_type: image.mime_type,
+              data: image.data
+            }
+          },
+          {
+            type: 'text',
+            text: user_message || 'Em gửi ảnh bài làm, thầy xem giúp em nhé.'
+          }
+        ]
+      });
+    } else {
+      if (image) {
+      messages.push({
+        role: 'user',
+        content: [
+          {
+            type: 'image',
+            source: {
+              type: 'base64',
+              media_type: image.mime_type,
+              data: image.data
+            }
+          },
+          {
+            type: 'text',
+            text: user_message || 'Em gửi ảnh bài làm, thầy xem giúp em nhé.'
+          }
+        ]
+      });
+    } else {
+      messages.push({ role: 'user', content: user_message });
+    }
+    }
 
     const completion = await anthropic.messages.create({
       model: 'claude-haiku-4-5',
