@@ -1,0 +1,365 @@
+{
+  "de_so": 39,
+  "cum": 13,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho Parabol $(P): y = \\dfrac{1}{4}x^2$.\n\na) Vẽ đồ thị hàm số $(P)$ của hàm số trên.\n\nb) Tìm những điểm $M$ thuộc $(P)$ có tung độ gấp $2$ lần hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Tung độ gấp 2 lần hoành độ → $y = 2x$",
+        "Thay vào (P): $\\dfrac{1}{4}x^2 = 2x$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$ và $(8; 16)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = 4, 1, 0, 1, 4.\n\nCâu b: $y = 2x$. $\\dfrac{1}{4}x^2 = 2x \\Rightarrow \\dfrac{1}{4}x^2 - 2x = 0 \\Rightarrow x = 0$ hoặc $x = 8$.",
+      "goi_y_cap_2": "Câu a: $x = ±4: y = 4$; $x = ±2: y = 1$; $x = 0: y = 0$.\n\nCâu b:\n- $y = 2x$ (tung độ gấp 2 hoành độ)\n- $\\dfrac{1}{4}x^2 = 2x \\Rightarrow \\dfrac{1}{4}x^2 - 2x = 0$\n- $x = 0 \\Rightarrow y = 0$\n- $x = 8 \\Rightarrow y = 16$\n- $(0; 0)$ và $(8; 16)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{1}{4}x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ M:**\n\nVì điểm $M$ có tung độ gấp $2$ lần hoành độ nên $y = 2x$.\n\nTa có phương trình $\\dfrac{1}{4}x^2 = 2x$\n$$\\dfrac{1}{4}x^2 - 2x = 0$$\n$$x = 0 \\text{ hoặc } x = 8$$\n\nVới $x = 0 \\Rightarrow y = 0$.\nVới $x = 8 \\Rightarrow y = 2 \\cdot 8 = 16$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(8; 16)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x²/4 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = 4, 1, 0, 1, 4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tung độ gấp 2 lần hoành độ'.",
+          "Em không biết bảng giá trị bắt đầu từ đâu.",
+          "Em không biết phương trình bậc 2 có thể có 2 nghiệm."
+        ],
+        "dinh_huong": [
+          "Em định 'tung độ gấp 2 hoành độ' = $y = 2x$ — đúng không?",
+          "Em định lập phương trình $\\dfrac{x^2}{4} = 2x$ — đúng chứ?",
+          "Em định nhận cả $(0;0)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{x^2}{4} - 2x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = 8$ — đúng chưa?",
+          "Em ra $(0;0)$ và $(8;16)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'gấp 2 lần' thành '1/2 lần'.",
+          "Em chỉ lấy 1 nghiệm $x = 8$.",
+          "Em quên tính $y = 2 \\cdot 8 = 16$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-39/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A đối xứng",
+      "de_bai": "Cho phương trình: $x^2 + 9x - 8 = 0$.\n\na) Chứng minh rằng phương trình có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Giả sử $x_1, x_2$ là nghiệm của phương trình trên, không giải phương trình hãy tính giá trị biểu thức $\\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "$A = \\dfrac{x_1^2 + x_2^2}{x_1 x_2}$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète"
+      ],
+      "dap_so": "$A = -\\dfrac{97}{8}$",
+      "goi_y_cap_1": "Δ = 81 + 32 = 113 > 0. Viète: $x_1+x_2 = -9$, $x_1 x_2 = -8$. $A = \\dfrac{(x_1+x_2)^2 - 2x_1 x_2}{x_1 x_2} = \\dfrac{81 + 16}{-8} = -\\dfrac{97}{8}$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 9^2 - 4 \\cdot 1 \\cdot (-8) = 81 + 32 = 113 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = -9$, $x_1 x_2 = -8$\n- $A = \\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1} = \\dfrac{x_1^2 + x_2^2}{x_1 x_2} = \\dfrac{(x_1+x_2)^2 - 2x_1 x_2}{x_1 x_2}$\n- $A = \\dfrac{(-9)^2 - 2 \\cdot (-8)}{-8} = \\dfrac{81 + 16}{-8} = -\\dfrac{97}{8}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $x^2 + 9x - 8 = 0$ với $a = 1; b = 9; c = -8$.\n\n$\\Delta = 9^2 - 4 \\cdot 1 \\cdot (-8) = 81 + 32 = 113 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = -9 \\\\ x_1 x_2 = \\dfrac{c}{a} = -8 \\end{cases}$$\n\nTa có:\n$$A = \\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1} = \\dfrac{x_1^2 + x_2^2}{x_1 x_2} = \\dfrac{(x_1 + x_2)^2 - 2x_1 x_2}{x_1 x_2}$$\n$$= \\dfrac{(-9)^2 - 2 \\cdot (-8)}{-8} = \\dfrac{81 + 16}{-8} = \\boxed{-\\dfrac{97}{8}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng phân thức.",
+          "Em quên Viète.",
+          "Em không nhớ $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng tử $x_1^2 + x_2^2$, mẫu $x_1 x_2$ — đúng không?",
+          "Em định Viète $x_1+x_2 = -9$, $x_1 x_2 = -8$ — đúng chứ?",
+          "Em định khai triển $(x_1+x_2)^2 - 2x_1 x_2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $(x_1+x_2)^2 - 2x_1 x_2 = 81 + 16 = 97$ — đúng không?",
+          "Em ra $A = 97 / (-8) = -97/8$ — đúng chưa?",
+          "Em ra $A = -97/8$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên dấu trừ ở $-2 \\cdot (-8) = +16$.",
+          "Em nhầm $x_1+x_2 = 9$ thay vì $-9$.",
+          "Em chia sai dấu khi $x_1 x_2 = -8$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Bảng tần số điểm KT giữa kì I môn Toán",
+      "de_bai": "Bạn An ghi lại điểm kiểm tra giữa kì I môn Toán 9 của một số bạn học sinh trong bảng sau:\n\n| 6 | 7 | 9 | 9 | 10 |\n|---|---|---|---|---|\n| 8 | 8 | 6 | 9 | 7 |\n| 8 | 9 | 7 | 6 | 10 |\n| 7 | 7 | 8 | 9 | 7 |\n| 10 | 8 | 9 | 7 | 9 |\n| 9 | 8 | 7 | 8 | 9 |\n\na) Lập bảng tần số cho mẫu số liệu trên.\n\nb) Tính điểm trung bình của tất cả các bạn học sinh trong bảng.\n\nc) Chọn ngẫu nhiên một bạn học sinh. Xác suất để bạn đó có điểm kiểm tra môn Toán từ $9$ điểm trở lên.",
+      "phuong_phap_duoc_dung": [
+        "Đếm tần số: 6 → 3, 7 → 8, 8 → 7, 9 → 9, 10 → 3",
+        "$N = 30$",
+        "$\\bar{x} = (6 \\cdot 3 + 7 \\cdot 8 + 8 \\cdot 7 + 9 \\cdot 9 + 10 \\cdot 3)/30 = 241/30$",
+        "$n(\\Omega) = 30$, $n(A) = 9 + 3 = 12$",
+        "$P(A) = 12/30 = 2/5$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Bảng tần số",
+        "Trung bình cộng",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) Bảng tần số. b) $\\bar{x} = \\dfrac{241}{30}$. c) $P(A) = \\dfrac{2}{5}$.",
+      "goi_y_cap_1": "Câu a: Đếm: 6→3, 7→8, 8→7, 9→9, 10→3. N = 30.\n\nCâu b: $\\bar x = (18+56+56+81+30)/30 = 241/30$.\n\nCâu c: 'Từ 9 trở lên' = điểm 9 + điểm 10 = 9 + 3 = 12. $P(A) = 12/30 = 2/5$.",
+      "goi_y_cap_2": "Câu a:\n| Điểm $(x)$ | 6 | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|---|\n| Tần số $(n)$ | 3 | 8 | 7 | 9 | 3 |\n\n- Tổng $N = 3 + 8 + 7 + 9 + 3 = 30$\n\nCâu b:\n- $\\bar{x} = \\dfrac{6 \\cdot 3 + 7 \\cdot 8 + 8 \\cdot 7 + 9 \\cdot 9 + 10 \\cdot 3}{30}$\n- $= \\dfrac{18 + 56 + 56 + 81 + 30}{30} = \\dfrac{241}{30}$\n\nCâu c:\n- $n(\\Omega) = 30$\n- 'Từ 9 trở lên' gồm điểm 9 (9 HS) và điểm 10 (3 HS)\n- $n(A) = 9 + 3 = 12$\n- $P(A) = \\dfrac{12}{30} = \\dfrac{2}{5}$",
+      "loi_giai_day_du": "**Câu a) Bảng tần số:**\n\n| Điểm $(x)$ | 6 | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|---|\n| Tần số $(n)$ | 3 | 8 | 7 | 9 | 3 |\n\n**Câu b) Điểm trung bình:**\n\nTổng số học sinh trong bảng là $N = 30$.\n\nĐiểm trung bình của các bạn học sinh là:\n$$\\bar{x} = \\dfrac{6 \\cdot 3 + 7 \\cdot 8 + 8 \\cdot 7 + 9 \\cdot 9 + 10 \\cdot 3}{30}$$\n$$= \\dfrac{18 + 56 + 56 + 81 + 30}{30} = \\boxed{\\dfrac{241}{30}}$$\n\n**Câu c) Xác suất từ 9 điểm trở lên:**\n\nKhông gian mẫu là số học sinh trong bảng điểm. $n(\\Omega) = 30$.\n\nGọi $A$ là biến cố \"bạn học sinh được chọn có điểm kiểm tra môn Toán từ 9 điểm trở lên\".\n\nCác điểm số từ 9 trở lên bao gồm điểm 9 và điểm 10.\n\nSố học sinh đạt điểm 9 là 9 bạn.\nSố học sinh đạt điểm 10 là 3 bạn.\n\nSố kết quả thuận lợi cho biến cố $A$ là $n(A) = 9 + 3 = 12$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{12}{30} = \\boxed{\\dfrac{2}{5}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đếm tần số.",
+          "Em không biết công thức trung bình cộng.",
+          "Em không hiểu 'từ 9 trở lên' = điểm 9 và 10."
+        ],
+        "dinh_huong": [
+          "Em định đếm tần số 5 mức điểm — đúng không?",
+          "Em định $\\bar x$ = (tổng các tích) / $N$ — đúng chứ?",
+          "Em định 'từ 9 trở lên' bao gồm điểm 9 và 10 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng tần số $N = 30$ — đúng không?",
+          "Em ra $\\bar x = 241/30$ — đúng chưa?",
+          "Em ra $P(A) = 2/5$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm sai tần số.",
+          "Em quên rút gọn $12/30 = 2/5$.",
+          "Em chỉ tính điểm 9, không cộng điểm 10."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Sân bóng rổ với lối đi",
+      "de_bai": "Một trường học xây dựng một sân bóng rổ hình chữ nhật có kích thước như hình vẽ ($26 \\text{ m} \\times 14 \\text{ m}$). Theo thiết kế, người ta cũng xây dựng một lối đi dọc theo hai cạnh của sân bóng rổ. Gọi $x$ là bề rộng của cửa vào và cửa ra, đồng thời cũng là chiều rộng của lối đi.\n\na) Viết biểu thức $S$ biểu diễn theo $x$ diện tích của lối đi.\n\nb) Bạn An đi bộ từ cửa vào đến cửa ra và đi dọc hết các cạnh của lối đi (theo hướng mũi tên trong hình vẽ). Hãy tính quãng đường An đã đi, biết diện tích của lối đi theo thiết kế là $129 \\text{ m}^2$?",
+      "phuong_phap_duoc_dung": [
+        "Lối đi gồm: HCN dọc (x × 14) + HCN ngang ((26+x) × x)",
+        "$S = 14x + x(26 + x) = x^2 + 40x$",
+        "$x^2 + 40x = 129 \\Rightarrow x = 3$ (loại $x = -43$)",
+        "Quãng đường = chiều dài cạnh dọc ngoài + chiều dài cạnh ngang ngoài",
+        "$= (14 + x) + (26 + x) = (14 + 3) + (26 + 3) = 17 + 29 = 46$ m"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = x^2 + 40x$ (m²). b) Quãng đường = $46$ m.",
+      "goi_y_cap_1": "Câu a: $S = 14x + x(26+x) = x^2 + 40x$.\n\nCâu b: $x^2 + 40x = 129 \\Rightarrow x = 3$ (loại $x = -43$). Quãng đường = $(14+3) + (26+3) = 46$ m.",
+      "goi_y_cap_2": "Câu a:\n- Lối đi gồm 2 phần ghép vuông góc:\n- HCN dọc: kích thước $x \\times 14$\n- HCN ngang (cả phần góc): kích thước $x \\times (26 + x)$\n- $S = 14x + x(26 + x) = 14x + 26x + x^2 = x^2 + 40x$ (m²)\n\nCâu b:\n- $x^2 + 40x = 129$\n- $x^2 + 40x - 129 = 0$\n- $x = 3$ (nhận) hoặc $x = -43$ (loại)\n- Quãng đường gồm chiều dài cạnh dọc phía ngoài $(14 + x)$ và chiều dài cạnh ngang phía ngoài $(26 + x)$\n- $(14 + 3) + (26 + 3) = 17 + 29 = 46$ (m)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích lối đi:**\n\nDiện tích lối đi bao gồm diện tích hình chữ nhật dọc (kích thước $x$ và $14$) và hình chữ nhật ngang tính cả phần góc (kích thước $x$ và $26 + x$).\n\nTa có biểu thức tính diện tích lối đi là:\n$$S = 14 \\cdot x + x(26 + x) = 14x + 26x + x^2$$\n$$\\boxed{S = x^2 + 40x}$$\n\n**Câu b) Quãng đường An đi:**\n\nTheo đề bài, diện tích lối đi là $129$ m² nên ta có phương trình:\n$$x^2 + 40x = 129$$\n$$x^2 + 40x - 129 = 0$$\n\nSuy ra $x = 3$ hoặc $x = -43$.\n\nVì bề rộng $x > 0$ nên $x = 3$ (nhận) và $x = -43$ (loại).\n\nQuãng đường An đã đi bao gồm chiều dài cạnh dọc phía ngoài $(14 + x)$ và chiều dài cạnh ngang phía ngoài $(26 + x)$.\n\nQuãng đường An đi là:\n$$(14 + 3) + (26 + 3) = 17 + 29 = \\boxed{46 \\text{ m}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Sân bóng rổ HCN 26m × 14m với lối đi rộng x dọc 2 cạnh (1 cạnh dài + 1 cạnh ngắn).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'lối đi dọc theo hai cạnh'.",
+          "Em không biết tách lối đi thành 2 HCN.",
+          "Em không tìm được nghiệm phương trình bậc 2."
+        ],
+        "dinh_huong": [
+          "Em định lối đi = HCN dọc + HCN ngang — đúng không?",
+          "Em định $S = 14x + x(26 + x)$ — đúng chứ?",
+          "Em định quãng đường = $(14+x) + (26+x)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = x^2 + 40x$ — đúng không?",
+          "Em ra $x = 3$ — đúng chưa?",
+          "Em ra quãng đường 46m — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không cộng phần góc khi tính diện tích.",
+          "Em loại nhầm $x = 3$.",
+          "Em quên cộng $x$ vào quãng đường (chiều ngoài)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-39/bai4-sanbong.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học - Cung tròn 60° + Lon nước ngọt",
+      "de_bai": "a) Tính độ dài cung tròn $60°$ của một đường tròn có đường kính $10$ cm. Biết độ dài cung tròn được tính theo công thức $l = \\dfrac{\\pi R n}{180}$ trong đó $l$ là độ dài cung tròn, $R$ là bán kính đường tròn, $n$ là số đo độ của cung tròn.\n\nb) Nước giải khát thường được đựng trong lon nhôm và cỡ lon phổ biến trên thế giới thường chứa khoảng $335$ ml chất lỏng, được thiết kế hình trụ với chiều cao gần gấp đôi đường kính đáy (cao $12$ cm, đường kính đáy $6{,}5$ cm). Nhưng hiện nay các nhà sản xuất có xu hướng tạo ra những lon nhôm với kiểu dáng thon dài cao. Tuy chi phí sản xuất của những chiếc lon này tốn kém hơn, do nó có diện tích mặt ngoài lớn hơn, nhưng nó lại dễ đánh lừa thị giác và được người tiêu dùng ưa chuộng hơn. Một lon nước ngọt cao $14$ cm, đường kính đáy là $6$ cm. Hỏi lon nước ngọt cao này có thể chứa được hết lượng nước ngọt của một lon có cỡ phổ biến không? Vì sao?",
+      "phuong_phap_duoc_dung": [
+        "$R = 10/2 = 5$ cm",
+        "$l = \\dfrac{\\pi \\cdot 5 \\cdot 60}{180} = \\dfrac{5\\pi}{3}$ cm",
+        "Lon cao: $R = 6/2 = 3$ cm, $h = 14$",
+        "$V = \\pi \\cdot 3^2 \\cdot 14 = 126\\pi$ cm³ ≈ 395,84 ml",
+        "395,84 > 335 → chứa được"
+      ],
+      "kien_thuc_lien_quan": [
+        "Công thức cung tròn",
+        "Thể tích hình trụ",
+        "Đổi đơn vị cm³ sang ml"
+      ],
+      "dap_so": "a) $l = \\dfrac{5\\pi}{3}$ cm. b) Lon cao chứa được hết.",
+      "goi_y_cap_1": "Câu a: $R = 5$. $l = \\pi \\cdot 5 \\cdot 60/180 = 5\\pi/3$ cm.\n\nCâu b: $R = 3, h = 14 \\Rightarrow V = 126\\pi \\approx 395,84$ ml > 335 ml → chứa được.",
+      "goi_y_cap_2": "Câu a:\n- Bán kính: $R = 10:2 = 5$ cm\n- $l = \\dfrac{\\pi \\cdot 5 \\cdot 60}{180} = \\dfrac{300\\pi}{180} = \\dfrac{5\\pi}{3}$ cm\n\nCâu b:\n- Bán kính đáy lon cao: $R = 6:2 = 3$ cm\n- $V = \\pi R^2 h = \\pi \\cdot 3^2 \\cdot 14 = 126\\pi$ cm³\n- Đổi: $126\\pi$ cm³ $\\approx 395{,}84$ ml\n- $395{,}84 > 335$ → lon cao có thể chứa được hết",
+      "loi_giai_day_du": "**Câu a) Độ dài cung tròn 60°:**\n\nBán kính của đường tròn là $R = 10 : 2 = 5$ (cm).\n\nĐộ dài cung tròn $60°$ là:\n$$l = \\dfrac{\\pi R n}{180} = \\dfrac{\\pi \\cdot 5 \\cdot 60}{180} = \\dfrac{300\\pi}{180} = \\boxed{\\dfrac{5\\pi}{3} \\text{ cm}}$$\n\n**Câu b) Lon nước ngọt cao:**\n\nBán kính đáy của lon nước ngọt cao là $R = 6 : 2 = 3$ (cm).\n\nThể tích của lon nước ngọt cao là:\n$$V = \\pi R^2 h = \\pi \\cdot 3^2 \\cdot 14 = 126\\pi \\text{ (cm}^3\\text{)}$$\n\nĐổi đơn vị: $126\\pi$ cm³ $\\approx 395{,}84$ ml.\n\nTa thấy $395{,}84 > 335$.\n\nVậy lon nước ngọt cao $\\boxed{\\text{có thể chứa được hết}}$ lượng nước ngọt của một lon cỡ phổ biến.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Lon nước ngọt PEPSI hình trụ cao 14cm, đường kính đáy 6cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức cung tròn.",
+          "Em quên đường kính ≠ bán kính.",
+          "Em không biết 1 cm³ = 1 ml."
+        ],
+        "dinh_huong": [
+          "Em định $R = 10/2 = 5$ — đúng không?",
+          "Em định công thức $l = \\pi R n/180$ — đúng chứ?",
+          "Em định so sánh V (ml) với 335 ml — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $l = 5\\pi/3$ — đúng không?",
+          "Em ra $V = 126\\pi \\approx 395{,}84$ ml — đúng chưa?",
+          "Em ra 'chứa được' — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên đổi cm³ sang ml.",
+          "Em nhân $\\pi$ ở mẫu số.",
+          "Em so sánh sai 395,84 với 335."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-39/bai5-lon.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Khu đất HCN giải tỏa (hệ phương trình)",
+      "de_bai": "Một khu đất hình chữ nhật có chu vi bằng $120$ m. Trong đợt giải tỏa đất để làm đường cao tốc chiều dài bị lấy vào $7$ m để làm đường. Nên chiều dài còn lại bằng $4{,}3$ lần chiều rộng. Tính diện tích khu đất lúc đầu?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ là chiều dài, $y$ là chiều rộng",
+        "Nửa chu vi: $x + y = 60$",
+        "Sau khi lấy 7m: $x - 7 = 4{,}3y$",
+        "Hệ → $x = 50, y = 10$",
+        "$S = 50 \\cdot 10 = 500$ m²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất",
+        "Chu vi và diện tích HCN"
+      ],
+      "dap_so": "$S = 500$ m².",
+      "goi_y_cap_1": "Gọi $x, y$ là chiều dài và chiều rộng. Hệ: $x+y = 60$ và $x-7 = 4,3y$ → $x = 50, y = 10$. $S = 500$ m².",
+      "goi_y_cap_2": "- Gọi $x$ (m) là chiều dài, $y$ (m) là chiều rộng ($x > 7, y > 0$)\n- Nửa chu vi: $120/2 = 60$ → $x + y = 60$ (1)\n- Sau khi lấy 7m: chiều dài còn lại = $x - 7$\n- Chiều dài còn lại = 4,3 lần chiều rộng: $x - 7 = 4{,}3y$ (2)\n- Hệ → $x = 50, y = 10$\n- $S = 50 \\cdot 10 = 500$ m²",
+      "loi_giai_day_du": "Gọi $x$ (m) là chiều dài lúc đầu của khu đất, $y$ (m) là chiều rộng lúc đầu của khu đất ($x > 7; y > 0$).\n\nNửa chu vi của khu đất hình chữ nhật là $120 : 2 = 60$ (m).\n\nVì tổng chiều dài và chiều rộng bằng nửa chu vi nên ta có phương trình:\n$$x + y = 60 \\quad (1)$$\n\nChiều dài sau khi bị lấy vào 7 m là $x - 7$ (m).\n\nVì chiều dài còn lại bằng 4,3 lần chiều rộng nên ta có phương trình:\n$$x - 7 = 4{,}3y \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} x + y = 60 \\\\ x - 7 = 4{,}3y \\end{cases} \\Rightarrow \\begin{cases} x = 50 \\\\ y = 10 \\end{cases} \\text{ (nhận)}$$\n\nVậy chiều dài lúc đầu là 50 m, chiều rộng lúc đầu là 10 m.\n\nDiện tích khu đất lúc đầu là:\n$$50 \\cdot 10 = \\boxed{500 \\text{ m}^2}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính nửa chu vi.",
+          "Em không hiểu 'chiều dài còn lại bằng 4,3 lần'.",
+          "Em không biết bắt đầu lập phương trình."
+        ],
+        "dinh_huong": [
+          "Em định nửa chu vi = $x + y = 60$ — đúng không?",
+          "Em định $x - 7 = 4{,}3y$ — đúng chứ?",
+          "Em định $S = $ chiều dài × chiều rộng — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ 2 phương trình bậc nhất — đúng không?",
+          "Em ra $x = 50, y = 10$ — đúng chưa?",
+          "Em ra $S = 500$ m² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên chia 2 khi tính nửa chu vi.",
+          "Em nhân nhầm 4,3 với chiều dài thay vì chiều rộng.",
+          "Em không thay vào hệ đúng cách."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nhọn nội tiếp - Đường cao AH - Hình chiếu M, N",
+      "de_bai": "Cho $\\triangle ABC$ nhọn có $AB < AC$ nội tiếp đường tròn $(O; R)$, đường cao $AH$. Gọi $M, N$ lần lượt là hình chiếu của điểm $H$ trên cạnh $AB$ và $AC$.\n\na) Chứng minh rằng tứ giác $AMHN$ là tứ giác nội tiếp.\n\nb) Chứng minh rằng $AM \\cdot AB = AH^2$. Từ đó chứng minh $AM \\cdot AB = AN \\cdot AC$.\n\nc) Cho $\\widehat{BAC} = 60°$ và $R = 3$ cm. Tính diện tích hình quạt tròn ứng với cung nhỏ $BC$.",
+      "phuong_phap_duoc_dung": [
+        "M là hình chiếu của H lên AB → HM ⊥ AB → AMH = 90°",
+        "△AMH vuông M → nội tiếp đường tròn đường kính AH (1)",
+        "N là hình chiếu của H lên AC → HN ⊥ AC → ANH = 90°",
+        "△ANH vuông N → nội tiếp đường tròn đường kính AH (2)",
+        "(1)(2): A, M, H, N đồng viên đường kính AH → AMHN nội tiếp",
+        "△AHM ~ △ABH (g-g, MAH chung, AMH = AHB = 90°) → $AH^2 = AM \\cdot AB$",
+        "△AHN ~ △ACH (g-g, NAH chung, ANH = AHC = 90°) → $AH^2 = AN \\cdot AC$",
+        "→ $AM \\cdot AB = AN \\cdot AC$",
+        "$\\widehat{BOC} = 2\\widehat{BAC} = 120°$",
+        "$S = \\dfrac{\\pi R^2 n}{360} = \\dfrac{\\pi \\cdot 9 \\cdot 120}{360} = 3\\pi$ cm²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tam giác đồng dạng",
+        "Hệ thức lượng tam giác vuông",
+        "Góc nội tiếp và góc ở tâm",
+        "Diện tích hình quạt"
+      ],
+      "dap_so": "c) $S = 3\\pi$ cm².",
+      "goi_y_cap_1": "Câu a: △AMH vuông M, △ANH vuông N → đồng viên đường kính AH → AMHN nội tiếp.\n\nCâu b: △AHM ~ △ABH (g-g) → $AH^2 = AM \\cdot AB$. △AHN ~ △ACH (g-g) → $AH^2 = AN \\cdot AC$. → $AM \\cdot AB = AN \\cdot AC$.\n\nCâu c: $\\widehat{BOC} = 2 \\cdot 60° = 120°$. $S = \\pi \\cdot 3^2 \\cdot 120/360 = 3\\pi$ cm².",
+      "goi_y_cap_2": "Câu a:\n- M là hình chiếu của H lên AB → HM ⊥ AB → $\\widehat{AMH} = 90°$\n- △AMH vuông tại M → nội tiếp đường tròn đường kính AH (1)\n- N là hình chiếu của H lên AC → HN ⊥ AC → $\\widehat{ANH} = 90°$\n- △ANH vuông tại N → nội tiếp đường tròn đường kính AH (2)\n- (1)(2): 4 điểm A, M, H, N đồng viên đường kính AH → AMHN nội tiếp\n\nCâu b:\n- Xét △AHM và △ABH:\n  - $\\widehat{MAH}$ chung\n  - $\\widehat{AMH} = \\widehat{AHB} = 90°$\n  - → △AHM ~ △ABH (g-g)\n- → $\\dfrac{AH}{AB} = \\dfrac{AM}{AH} \\Rightarrow AH^2 = AM \\cdot AB$\n- Tương tự, xét △AHN và △ACH:\n  - $\\widehat{NAH}$ chung\n  - $\\widehat{ANH} = \\widehat{AHC} = 90°$\n  - → △AHN ~ △ACH (g-g)\n- → $\\dfrac{AH}{AC} = \\dfrac{AN}{AH} \\Rightarrow AH^2 = AN \\cdot AC$\n- Vì $AH^2 = AM \\cdot AB$ và $AH^2 = AN \\cdot AC$ nên $AM \\cdot AB = AN \\cdot AC$\n\nCâu c:\n- $\\widehat{BOC} = 2\\widehat{BAC} = 2 \\cdot 60° = 120°$ (góc ở tâm gấp đôi góc nội tiếp cùng chắn cung BC)\n- $S = \\dfrac{\\pi R^2 n}{360} = \\dfrac{\\pi \\cdot 3^2 \\cdot 120}{360} = \\dfrac{9\\pi \\cdot 120}{360} = 3\\pi$ cm²",
+      "loi_giai_day_du": "**Câu a) Chứng minh AMHN nội tiếp:**\n\nVì $M$ là hình chiếu của $H$ lên $AB$ nên $HM \\perp AB \\Rightarrow \\widehat{AMH} = 90°$.\n\n△AMH vuông tại M → nội tiếp đường tròn đường kính AH (1).\n\nVì $N$ là hình chiếu của $H$ lên $AC$ nên $HN \\perp AC \\Rightarrow \\widehat{ANH} = 90°$.\n\n△ANH vuông tại N → nội tiếp đường tròn đường kính AH (2).\n\nTừ (1) và (2): 4 điểm $A, M, H, N$ cùng thuộc một đường tròn đường kính $AH$. Suy ra tứ giác $AMHN$ nội tiếp.\n\n**Câu b) Chứng minh $AM \\cdot AB = AH^2$ và $AM \\cdot AB = AN \\cdot AC$:**\n\nXét △AHM và △ABH:\n$\\begin{cases} \\widehat{MAH} \\text{ (góc chung)} \\\\ \\widehat{AMH} = \\widehat{AHB} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle AHM \\sim \\triangle ABH$ (g-g)\n\n$\\Rightarrow \\dfrac{AH}{AB} = \\dfrac{AM}{AH} \\Rightarrow AH^2 = AM \\cdot AB$.\n\nChứng minh tương tự, xét △AHN và △ACH:\n$\\begin{cases} \\widehat{NAH} \\text{ (góc chung)} \\\\ \\widehat{ANH} = \\widehat{AHC} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle AHN \\sim \\triangle ACH$ (g-g)\n\n$\\Rightarrow \\dfrac{AH}{AC} = \\dfrac{AN}{AH} \\Rightarrow AH^2 = AN \\cdot AC$.\n\nVì $AH^2 = AM \\cdot AB$ và $AH^2 = AN \\cdot AC$ nên $\\boxed{AM \\cdot AB = AN \\cdot AC}$.\n\n**Câu c) Diện tích hình quạt cung nhỏ BC:**\n\nTa có $\\widehat{BOC} = 2\\widehat{BAC}$ (góc ở tâm và góc nội tiếp cùng chắn cung $BC$).\n\n$\\Rightarrow \\widehat{BOC} = 2 \\cdot 60° = 120°$.\n\nDiện tích hình quạt tròn ứng với cung nhỏ $BC$ là:\n$$S = \\dfrac{\\pi R^2 n}{360} = \\dfrac{\\pi \\cdot 3^2 \\cdot 120}{360} = \\dfrac{9\\pi}{3} = \\boxed{3\\pi \\text{ cm}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nhọn (AB<AC) nội tiếp (O;R), đường cao AH. M là hình chiếu của H lên AB, N là hình chiếu của H lên AC.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất hình chiếu vuông góc.",
+          "Em không thấy được AMHN có 2 góc vuông cùng nhìn AH.",
+          "Câu c em không nhớ công thức diện tích hình quạt."
+        ],
+        "dinh_huong": [
+          "Câu a em định AMHN đồng viên đường kính AH — đúng không?",
+          "Câu b em định △AHM ~ △ABH (g-g) — đúng chứ?",
+          "Câu c em định $\\widehat{BOC} = 2 \\cdot 60° = 120°$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra AMHN nội tiếp — đúng không?",
+          "Em ra $AM \\cdot AB = AN \\cdot AC$ — đúng chưa?",
+          "Em ra $S = 3\\pi$ cm² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra hình chiếu = vuông góc.",
+          "Em không thấy được tam giác đồng dạng có góc chung.",
+          "Em quên góc tâm gấp đôi góc nội tiếp."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-39/bai7-tamgiac.png"
+    }
+  ]
+}

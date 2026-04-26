@@ -1,0 +1,375 @@
+{
+  "de_so": 40,
+  "cum": 14,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho Parabol $(P): y = \\dfrac{x^2}{4}$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm những điểm $M$ thuộc $(P)$ có tung độ bằng $2$ lần hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Tung độ = 2 hoành độ → $y = 2x$",
+        "$2x = \\dfrac{x^2}{4} \\Rightarrow x^2 - 8x = 0$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$ và $(8; 16)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = 4, 1, 0, 1, 4.\n\nCâu b: $y = 2x$. $2x = x^2/4 \\Rightarrow x = 0$ hoặc $x = 8$.",
+      "goi_y_cap_2": "Câu a: $x = ±4: y = 4$; $x = ±2: y = 1$; $x = 0: y = 0$.\n\nCâu b:\n- $y = 2x$\n- $2x = \\dfrac{x^2}{4} \\Rightarrow \\dfrac{1}{4}x^2 - 2x = 0$\n- $x_1 = 0 \\Rightarrow y_1 = 0$\n- $x_2 = 8 \\Rightarrow y_2 = 16$\n- $(0; 0)$ và $(8; 16)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{4}$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ M:**\n\nVì tung độ bằng $2$ lần hoành độ nên $y = 2x$.\n\nTa có phương trình $2x = \\dfrac{x^2}{4}$\n$$\\dfrac{1}{4}x^2 - 2x = 0$$\n$$x_1 = 0 \\text{ hoặc } x_2 = 8$$\n\nVới $x_1 = 0 \\Rightarrow y_1 = 0$.\nVới $x_2 = 8 \\Rightarrow y_2 = 16$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(8; 16)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x²/4 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = 4, 1, 0, 1, 4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tung độ bằng 2 hoành độ'.",
+          "Em không biết bảng giá trị bắt đầu từ đâu.",
+          "Em không biết phương trình bậc 2 có 2 nghiệm."
+        ],
+        "dinh_huong": [
+          "Em định 'tung độ = 2 hoành độ' = $y = 2x$ — đúng không?",
+          "Em định lập phương trình $2x = x^2/4$ — đúng chứ?",
+          "Em định nhận cả $(0;0)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 - 8x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = 8$ — đúng chưa?",
+          "Em ra $(0;0)$ và $(8;16)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ lấy 1 nghiệm $x = 8$.",
+          "Em quên tính $y_2 = 16$ khi $x = 8$.",
+          "Em loại nhầm $(0;0)$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-40/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A phân thức",
+      "de_bai": "Cho phương trình $x^2 - 4x + 3 = 0$.\n\na) Chứng minh phương trình trên luôn có hai nghiệm phân biệt.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức:\n$$A = \\dfrac{5x_1 - x_2}{x_1} - \\dfrac{x_1 - 5x_2}{x_2}$$",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ = 16 - 12 = 4 > 0",
+        "Định lý Viète: $x_1 + x_2 = 4$, $x_1 x_2 = 3$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 16 - 6 = 10$",
+        "Quy đồng: $A = \\dfrac{x_2(5x_1 - x_2) - x_1(x_1 - 5x_2)}{x_1 x_2}$",
+        "$= \\dfrac{5x_1 x_2 - x_2^2 - x_1^2 + 5x_1 x_2}{x_1 x_2} = \\dfrac{10x_1 x_2 - (x_1^2 + x_2^2)}{x_1 x_2}$",
+        "$A = \\dfrac{30 - 10}{3} = \\dfrac{20}{3}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Quy đồng phân thức"
+      ],
+      "dap_so": "$A = \\dfrac{20}{3}$",
+      "goi_y_cap_1": "Δ = 16 - 12 = 4 > 0. Viète: $x_1+x_2 = 4$, $x_1 x_2 = 3$. $x_1^2+x_2^2 = 16 - 6 = 10$. Quy đồng → $A = (10x_1 x_2 - (x_1^2+x_2^2))/(x_1 x_2) = (30 - 10)/3 = 20/3$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = (-4)^2 - 4 \\cdot 1 \\cdot 3 = 16 - 12 = 4 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = 4$, $x_1 x_2 = 3$\n- $x_1^2+x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 16 - 6 = 10$\n- Quy đồng: $A = \\dfrac{x_2(5x_1 - x_2) - x_1(x_1 - 5x_2)}{x_1 x_2}$\n- Khai triển: $5x_1 x_2 - x_2^2 - x_1^2 + 5x_1 x_2 = 10x_1 x_2 - (x_1^2 + x_2^2)$\n- $A = \\dfrac{10 \\cdot 3 - 10}{3} = \\dfrac{20}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $x^2 - 4x + 3 = 0$ với $a = 1; b = -4; c = 3$.\n\n$\\Delta = b^2 - 4ac = (-4)^2 - 4 \\cdot 1 \\cdot 3 = 16 - 12 = 4 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = 4 \\\\ x_1 x_2 = \\dfrac{c}{a} = 3 \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 4^2 - 2 \\cdot 3 = 10$.\n\nTa có $A = \\dfrac{5x_1 - x_2}{x_1} - \\dfrac{x_1 - 5x_2}{x_2}$\n\nQuy đồng:\n$$A = \\dfrac{x_2(5x_1 - x_2) - x_1(x_1 - 5x_2)}{x_1 x_2}$$\n$$= \\dfrac{5x_1 x_2 - x_2^2 - x_1^2 + 5x_1 x_2}{x_1 x_2}$$\n$$= \\dfrac{10x_1 x_2 - (x_1^2 + x_2^2)}{x_1 x_2}$$\n$$= \\dfrac{10 \\cdot 3 - 10}{3} = \\boxed{\\dfrac{20}{3}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng phân thức phức tạp.",
+          "Em quên Viète với $a = 1$.",
+          "Em không nhận ra cấu trúc đối xứng."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng tử $x_2(5x_1-x_2) - x_1(x_1-5x_2)$, mẫu $x_1 x_2$ — đúng không?",
+          "Em định Viète $x_1+x_2 = 4$, $x_1 x_2 = 3$ — đúng chứ?",
+          "Em định khai triển ra $10x_1 x_2 - (x_1^2+x_2^2)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x_1^2+x_2^2 = 10$ — đúng không?",
+          "Em ra tử = $10 \\cdot 3 - 10 = 20$ — đúng chưa?",
+          "Em ra $A = 20/3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không khai triển đúng dấu $-x_1(x_1 - 5x_2) = -x_1^2 + 5x_1 x_2$.",
+          "Em quên cộng 2 lần $5x_1 x_2$ thành $10x_1 x_2$.",
+          "Em nhầm $x_1^2 + x_2^2$ với bình phương tổng."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Xác suất - Bó hoa 5 đỏ + 3 vàng, chọn 4 bông",
+      "de_bai": "Một bó hoa gồm $5$ bông hoa màu đỏ và $3$ bông hoa màu vàng. Bạn Linh chọn ngẫu nhiên cùng lúc $4$ bông hoa từ bó hoa đó.\n\na) Liệt kê các cách chọn mà bạn Linh có thể thực hiện.\n\nb) Tính xác suất của mỗi biến cố sau:\n- $A$: \"Trong $4$ bông hoa được chọn ra, có đúng $1$ bông hoa màu đỏ\".\n- $B$: \"Trong $4$ bông hoa được chọn ra, có ít nhất $1$ bông hoa màu đỏ\".",
+      "phuong_phap_duoc_dung": [
+        "$n(\\Omega) = C_8^4 = 70$",
+        "$n(A) = C_5^1 \\cdot C_3^3 = 5$",
+        "$P(A) = 5/70 = 1/14$",
+        "Bó chỉ có 3 vàng → chọn 4 bông luôn có ít nhất 1 đỏ → B chắc chắn → P(B) = 1"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tổ hợp",
+        "Xác suất cổ điển",
+        "Biến cố chắc chắn"
+      ],
+      "dap_so": "a) 4 trường hợp. b) $P(A) = \\dfrac{1}{14}$, $P(B) = 1$.",
+      "goi_y_cap_1": "$n(\\Omega) = C_8^4 = 70$. $n(A) = 5 \\cdot 1 = 5 → P(A) = 5/70 = 1/14$. $B$: bó chỉ 3 vàng → chọn 4 bông phải có 1 đỏ → biến cố chắc chắn → $P(B) = 1$.",
+      "goi_y_cap_2": "Câu a: 4 trường hợp:\n- 4 đỏ + 0 vàng\n- 3 đỏ + 1 vàng\n- 2 đỏ + 2 vàng\n- 1 đỏ + 3 vàng\n\nCâu b:\n- $n(\\Omega) = C_8^4 = \\dfrac{8 \\cdot 7 \\cdot 6 \\cdot 5}{4 \\cdot 3 \\cdot 2 \\cdot 1} = 70$\n- $A$: 1 đỏ + 3 vàng → $n(A) = C_5^1 \\cdot C_3^3 = 5 \\cdot 1 = 5$\n- $P(A) = 5/70 = 1/14$\n- $B$: bó chỉ có 3 vàng → chọn 4 bông luôn có ít nhất 1 đỏ → biến cố chắc chắn\n- $P(B) = 1$",
+      "loi_giai_day_du": "**Câu a) Liệt kê cách chọn:**\n\nCác cách chọn mà bạn Linh có thể thực hiện là:\n- Chọn 4 bông hoa màu đỏ.\n- Chọn 3 bông hoa màu đỏ và 1 bông hoa màu vàng.\n- Chọn 2 bông hoa màu đỏ và 2 bông hoa màu vàng.\n- Chọn 1 bông hoa màu đỏ và 3 bông hoa màu vàng.\n\n**Câu b) Tính xác suất:**\n\nKhông gian mẫu $n(\\Omega)$ là số cách chọn 4 bông hoa từ 8 bông hoa.\n\n$$n(\\Omega) = \\dfrac{8 \\cdot 7 \\cdot 6 \\cdot 5}{4 \\cdot 3 \\cdot 2 \\cdot 1} = 70$$\n\n***Tính xác suất biến cố A:***\n\nBiến cố $A$: có đúng 1 bông đỏ và 3 bông vàng (chọn 1 bông đỏ từ 5 bông đỏ và 3 bông vàng từ 3 bông vàng).\n\nKhả năng thuận lợi của $A$ là $n(A) = 5 \\cdot 1 = 5$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{5}{70} = \\boxed{\\dfrac{1}{14}}$$\n\n***Tính xác suất biến cố B:***\n\nVì bó hoa chỉ có tổng cộng 3 bông hoa màu vàng, nên khi chọn ngẫu nhiên 4 bông hoa bất kỳ, chắc chắn phải có ít nhất 1 bông màu đỏ.\n\nDo đó $B$ là biến cố chắc chắn.\n\nXác suất của biến cố $B$ là $P(B) = \\boxed{1}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết liệt kê các trường hợp.",
+          "Em không nhớ công thức tổ hợp $C_n^k$.",
+          "Em không hiểu 'biến cố chắc chắn'."
+        ],
+        "dinh_huong": [
+          "Em định 4 trường hợp (4Đ-0V) đến (1Đ-3V) — đúng không?",
+          "Em định B = 1 vì bó chỉ có 3 vàng — đúng chứ?",
+          "Em định $C_8^4 = 70$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $n(\\Omega) = 70$ — đúng không?",
+          "Em ra $n(A) = 5$ — đúng chưa?",
+          "Em ra $P(A) = 1/14, P(B) = 1$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm sai $C_8^4$.",
+          "Em quên rằng B là biến cố chắc chắn.",
+          "Em không rút gọn $5/70 = 1/14$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - 3 quả bóng tennis trong hộp trụ",
+      "de_bai": "Quả bóng tennis DUNLOP loại $1$ có đường kính $2{,}5$ inch tương ứng với $6{,}35$ cm được đựng vừa đủ $3$ quả trong một hộp nhựa mỏng hình trụ. Với diện tích bề mặt của hình cầu là $S_{bm} = 4\\pi R^2$ và thể tích hình trụ là $V = \\pi r^2 h$. Trong đó $R$ là bán kính hình cầu; $r$ là bán kính đáy và $h$ là chiều cao hình trụ.\n\na) Hãy tính diện tích bề mặt của một quả bóng tennis loại $1$.\n\nb) Hộp nhựa xếp vừa đủ $3$ quả bóng có thể tích là bao nhiêu?",
+      "phuong_phap_duoc_dung": [
+        "$R = 6{,}35/2 = 3{,}175$ cm",
+        "$S_{bm} = 4\\pi (3{,}175)^2 = 40{,}3225\\pi$ cm²",
+        "Hộp xếp vừa 3 bóng → $r = R = 3{,}175$, $h = 3 \\cdot 6{,}35 = 19{,}05$ cm",
+        "$V = \\pi (3{,}175)^2 \\cdot 19{,}05 = 192{,}03590625\\pi$ cm³"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích mặt cầu",
+        "Thể tích hình trụ"
+      ],
+      "dap_so": "a) $S_{bm} = 40{,}3225\\pi$ cm². b) $V = 192{,}03590625\\pi$ cm³.",
+      "goi_y_cap_1": "Câu a: $R = 3,175$. $S_{bm} = 4\\pi (3,175)^2 = 40,3225\\pi$ cm².\n\nCâu b: Hộp xếp vừa 3 bóng → $r = R = 3,175$, $h = 3 \\cdot 6,35 = 19,05$. $V = \\pi (3,175)^2 \\cdot 19,05 = 192,03590625\\pi$ cm³.",
+      "goi_y_cap_2": "Câu a:\n- Bán kính bóng: $R = 6{,}35 : 2 = 3{,}175$ cm\n- $S_{bm} = 4\\pi R^2 = 4 \\cdot \\pi \\cdot (3{,}175)^2 = 40{,}3225\\pi$ cm²\n\nCâu b:\n- Hộp xếp vừa đủ 3 bóng → bán kính đáy hộp = bán kính bóng: $r = 3{,}175$ cm\n- Chiều cao hộp = 3 × đường kính bóng: $h = 3 \\cdot 6{,}35 = 19{,}05$ cm\n- $V = \\pi r^2 h = \\pi \\cdot (3{,}175)^2 \\cdot 19{,}05 = 192{,}03590625\\pi$ cm³",
+      "loi_giai_day_du": "**Câu a) Diện tích bề mặt một quả bóng:**\n\nBán kính của quả bóng tennis là $R = 6{,}35 : 2 = 3{,}175$ (cm).\n\nDiện tích bề mặt của một quả bóng tennis là:\n$$S_{bm} = 4\\pi R^2 = 4 \\cdot \\pi \\cdot (3{,}175)^2 = \\boxed{40{,}3225\\pi \\text{ cm}^2}$$\n\n**Câu b) Thể tích hộp nhựa:**\n\nVì hộp nhựa xếp vừa đủ $3$ quả bóng nên bán kính đáy hình trụ bằng bán kính quả bóng:\n$$r = R = 3{,}175 \\text{ (cm)}$$\n\nChiều cao của hộp nhựa hình trụ là $h = 3 \\cdot 6{,}35 = 19{,}05$ (cm).\n\nThể tích của hộp nhựa hình trụ là:\n$$V = \\pi r^2 h = \\pi \\cdot (3{,}175)^2 \\cdot 19{,}05 = \\boxed{192{,}03590625\\pi \\text{ cm}^3}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "3 quả bóng tennis DUNLOP màu vàng-xanh xếp dọc trong hộp nhựa trụ trong suốt.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đường kính ≠ bán kính.",
+          "Em quên công thức S mặt cầu và V hình trụ.",
+          "Em không biết chiều cao hộp = 3 đường kính."
+        ],
+        "dinh_huong": [
+          "Em định $R = 6{,}35/2 = 3{,}175$ — đúng không?",
+          "Em định bán kính hộp = bán kính bóng — đúng chứ?",
+          "Em định chiều cao = 3 × đường kính = 19,05 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S_{bm} = 40{,}3225\\pi$ — đúng không?",
+          "Em ra $h = 19{,}05$ — đúng chưa?",
+          "Em ra $V = 192{,}03590625\\pi$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm chiều cao = 3 × bán kính (sai).",
+          "Em quên bình phương $R$ trong S mặt cầu.",
+          "Em không biết bán kính đáy hộp = bán kính bóng."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-40/bai4-bong.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vườn hoa hình vuông + lối đi chữ thập",
+      "de_bai": "Một vườn hoa hình vuông có cạnh $10$ m, người ta làm lối đi trong vườn hoa có chiều rộng là $x$ (m) như hình vẽ.\n\na) Viết biểu thức biểu thị diện tích còn lại để trồng hoa sau khi làm lối đi.\n\nb) Biết rằng sau khi làm lối đi thì diện tích còn lại của khu vườn trồng hoa là $81$ m². Tính chiều rộng $x$ (m) của lối đi?",
+      "phuong_phap_duoc_dung": [
+        "$S_{vườn} = 10 \\cdot 10 = 100$ m²",
+        "Lối đi chữ thập: $10x + 10x - x^2 = 20x - x^2$",
+        "$S_{còn} = 100 - (20x - x^2) = x^2 - 20x + 100$",
+        "$x^2 - 20x + 100 = 81 \\Rightarrow x^2 - 20x + 19 = 0$",
+        "$x = 1$ (nhận) hoặc $x = 19$ (loại do $0 < x < 10$)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình vuông",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = x^2 - 20x + 100$ (m²). b) $x = 1$ m.",
+      "goi_y_cap_1": "Câu a: $S_{vườn} = 100$. Lối đi = $20x - x^2$. $S_{còn} = 100 - 20x + x^2 = x^2 - 20x + 100$.\n\nCâu b: $x^2 - 20x + 19 = 0 \\Rightarrow x = 1$ (nhận) hoặc $x = 19$ (loại).",
+      "goi_y_cap_2": "Câu a:\n- Diện tích vườn vuông: $10 \\cdot 10 = 100$ m²\n- Diện tích lối đi chữ thập: $10x + 10x - x^2 = 20x - x^2$ (trừ phần giao chữ thập đếm 2 lần)\n- $S_{còn} = 100 - (20x - x^2) = x^2 - 20x + 100$ (m²)\n\nCâu b: ĐK: $0 < x < 10$\n- $x^2 - 20x + 100 = 81$\n- $x^2 - 20x + 19 = 0$\n- $x = 1$ (nhận) hoặc $x = 19$ (loại)\n- Vậy chiều rộng lối đi là $x = 1$ m",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích trồng hoa:**\n\nGọi $x$ (m) là chiều rộng của lối đi ($0 < x < 10$).\n\nDiện tích của toàn bộ khu vườn hình vuông là $10 \\cdot 10 = 100$ (m²).\n\nDiện tích phần lối đi (hình chữ thập) là $10x + 10x - x^2 = 20x - x^2$ (m²) (trừ phần giao chữ thập đã đếm 2 lần).\n\nBiểu thức biểu thị diện tích còn lại để trồng hoa là:\n$$S = 100 - (20x - x^2) = \\boxed{x^2 - 20x + 100 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tính chiều rộng x:**\n\nVì diện tích trồng hoa còn lại là $81$ m² nên ta có phương trình:\n$$x^2 - 20x + 100 = 81$$\n$$x^2 - 20x + 19 = 0$$\n$$x = 1 \\text{ hoặc } x = 19$$\n\nSo với điều kiện $0 < x < 10$, ta nhận $x = 1$.\n\nVậy chiều rộng của lối đi là $\\boxed{1 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Vườn hoa hình vuông cạnh 10m chia thành 4 phần bởi lối đi chữ thập rộng x. 4 phần đều có hoa hồng.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính diện tích lối đi chữ thập.",
+          "Em không thấy phần giao bị đếm 2 lần.",
+          "Em không biết loại nghiệm theo điều kiện."
+        ],
+        "dinh_huong": [
+          "Em định $S_{vườn} = 100$ — đúng không?",
+          "Em định lối đi = $20x - x^2$ (trừ giao) — đúng chứ?",
+          "Em định $S_{còn} = 100 - $ lối đi — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = x^2 - 20x + 100$ — đúng không?",
+          "Em ra $x^2 - 20x + 19 = 0$ — đúng chưa?",
+          "Em ra $x = 1$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không trừ phần giao chữ thập (đếm $20x$ thay vì $20x - x^2$).",
+          "Em không loại $x = 19$ (sai - vượt quá cạnh 10m).",
+          "Em sai dấu $-(20x - x^2) = -20x + x^2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-40/bai5-vuonhoa.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Luyện thép Ferritic 12-27% crôm",
+      "de_bai": "Thép không gỉ Ferritic là họ thép hợp kim có chứa từ $12\\%$ đến $27\\%$ crôm. Một nhà máy luyện thép hiện có sẵn một lượng hợp kim thép chứa $10\\%$ crôm và một lượng hợp kim thép chứa $30\\%$ crôm. Giả sử trong quá trình luyện thép các nguyên liệu không bị hao hụt.\n\na) Tính khối lượng hợp kim thép mỗi loại từ hai loại thép trên dùng để luyện được $500$ tấn thép chứa $16\\%$ crôm.\n\nb) Nhà máy dự định luyện ra loại thép không gỉ Ferritic từ $100$ tấn thép chứa $10\\%$ crôm và $x$ tấn thép chứa $30\\%$ crôm. Hỏi $x$ nằm trong khoảng nào?",
+      "phuong_phap_duoc_dung": [
+        "Câu a: gọi $a$ là thép 10% crôm, $b$ là thép 30% crôm",
+        "$a + b = 500$",
+        "$0{,}1a + 0{,}3b = 16\\% \\cdot 500 = 80$",
+        "Hệ → $a = 350, b = 150$",
+        "Câu b: Tổng thép = $100 + x$, crôm = $10 + 0{,}3x$",
+        "Tỉ lệ crôm: $\\dfrac{10 + 0{,}3x}{100 + x}$",
+        "Điều kiện: $0{,}12 \\le \\dfrac{10 + 0{,}3x}{100 + x} \\le 0{,}27$",
+        "$x \\ge 100/9$ và $x \\le 1700/3$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất",
+        "Bất đẳng thức",
+        "Bảo toàn khối lượng"
+      ],
+      "dap_so": "a) $a = 350$ tấn, $b = 150$ tấn. b) $\\dfrac{100}{9} \\le x \\le \\dfrac{1700}{3}$.",
+      "goi_y_cap_1": "Câu a: Hệ $a+b=500$ và $0,1a + 0,3b = 80$ → $a = 350, b = 150$.\n\nCâu b: Tỉ lệ $\\dfrac{10+0,3x}{100+x}$ ∈ [0,12; 0,27]. Giải 2 BĐT → $100/9 \\le x \\le 1700/3$.",
+      "goi_y_cap_2": "Câu a:\n- Gọi $a$ (tấn) là khối lượng thép 10% crôm, $b$ (tấn) là khối lượng thép 30% crôm ($a, b > 0$)\n- $a + b = 500$ (1)\n- Crôm trong 500 tấn thép 16%: $16\\% \\cdot 500 = 80$ tấn\n- $0{,}1a + 0{,}3b = 80$ (2)\n- Hệ → $a = 350, b = 150$\n\nCâu b:\n- Tổng khối lượng: $100 + x$ tấn\n- Crôm: $100 \\cdot 10\\% + x \\cdot 30\\% = 10 + 0{,}3x$ tấn\n- Tỉ lệ: $\\dfrac{10 + 0{,}3x}{100 + x}$\n- Ferritic: $0{,}12 \\le \\dfrac{10 + 0{,}3x}{100 + x} \\le 0{,}27$\n- TH1: $0{,}12(100 + x) \\le 10 + 0{,}3x \\Rightarrow 12 + 0{,}12x \\le 10 + 0{,}3x \\Rightarrow -0{,}18x \\le -2 \\Rightarrow x \\ge 100/9$\n- TH2: $10 + 0{,}3x \\le 0{,}27(100 + x) \\Rightarrow 10 + 0{,}3x \\le 27 + 0{,}27x \\Rightarrow 0{,}03x \\le 17 \\Rightarrow x \\le 1700/3$\n- Vậy $100/9 \\le x \\le 1700/3$",
+      "loi_giai_day_du": "**Câu a) Khối lượng mỗi loại thép:**\n\nGọi $a$ (tấn) là khối lượng thép chứa $10\\%$ crôm, $b$ (tấn) là khối lượng thép chứa $30\\%$ crôm cần dùng ($a > 0, b > 0$).\n\nKhối lượng crôm trong thép loại $10\\%$ là $10\\%a$ (tấn).\nKhối lượng crôm trong thép loại $30\\%$ là $30\\%b$ (tấn).\nKhối lượng crôm có trong $500$ tấn thép $16\\%$ là $16\\% \\cdot 500 = 80$ (tấn).\n\nVì tổng khối lượng thép cần luyện là $500$ tấn nên:\n$$a + b = 500 \\quad (1)$$\n\nVì tổng khối lượng crôm thu được là $80$ tấn nên:\n$$10\\%a + 30\\%b = 80 \\Rightarrow 0{,}1a + 0{,}3b = 80 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} a + b = 500 \\\\ 0{,}1a + 0{,}3b = 80 \\end{cases} \\Rightarrow \\begin{cases} a = 350 \\\\ b = 150 \\end{cases}$$\n\nVậy cần $\\boxed{350}$ tấn thép $10\\%$ crôm và $\\boxed{150}$ tấn thép $30\\%$ crôm.\n\n**Câu b) Khoảng x:**\n\nTổng khối lượng hỗn hợp thép lúc này là $100 + x$ (tấn).\n\nKhối lượng crôm trong hỗn hợp thép là $100 \\cdot 10\\% + x \\cdot 30\\% = 10 + 0{,}3x$ (tấn).\n\nTỉ lệ phần trăm crôm trong hỗn hợp là $\\dfrac{10 + 0{,}3x}{100 + x}$.\n\nVì thép không gỉ Ferritic chứa từ $12\\%$ đến $27\\%$ crôm nên:\n$$0{,}12 \\le \\dfrac{10 + 0{,}3x}{100 + x} \\le 0{,}27$$\n\n**Trường hợp 1:**\n$$0{,}12(100 + x) \\le 10 + 0{,}3x$$\n$$12 + 0{,}12x \\le 10 + 0{,}3x$$\n$$-0{,}18x \\le -2$$\n$$x \\ge \\dfrac{100}{9}$$\n\n**Trường hợp 2:**\n$$10 + 0{,}3x \\le 0{,}27(100 + x)$$\n$$10 + 0{,}3x \\le 27 + 0{,}27x$$\n$$0{,}03x \\le 17$$\n$$x \\le \\dfrac{1700}{3}$$\n\nVậy $x$ nằm trong khoảng $\\boxed{\\dfrac{100}{9} \\le x \\le \\dfrac{1700}{3}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'thép Ferritic 12-27% crôm'.",
+          "Em không biết bắt đầu lập phương trình.",
+          "Em không hiểu cách lập bất đẳng thức kép."
+        ],
+        "dinh_huong": [
+          "Câu a em định gọi $a, b$ là khối lượng 2 loại thép — đúng không?",
+          "Câu a em định $0{,}1a + 0{,}3b = 80$ — đúng chứ?",
+          "Câu b em định $0{,}12 \\le \\dfrac{10+0{,}3x}{100+x} \\le 0{,}27$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $a = 350, b = 150$ — đúng không?",
+          "Em ra $x \\ge 100/9$ — đúng chưa?",
+          "Em ra $x \\le 1700/3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên bảo toàn crôm.",
+          "Em không tách bất đẳng thức kép thành 2 trường hợp.",
+          "Em sai dấu khi nhân chéo bất đẳng thức."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn (O) - 2 tiếp tuyến SM, SN - I trung điểm SO",
+      "de_bai": "Qua điểm $S$ nằm ngoài đường tròn $(O; R)$ vẽ $2$ tiếp tuyến $SM, SN$ đến đường tròn $(O)$ ($OS > 2R$ và $M, N$ là tiếp điểm). Gọi $I$ là trung điểm $SO$.\n\na) Chứng minh tứ giác $SMON$ nội tiếp.\n\nb) Gọi $K$ là giao điểm của đoạn thẳng $OS$ và đường tròn $(O)$; $H$ là giao điểm của $SO$ và $MN$. Chứng minh $MH \\cdot KS = KH \\cdot MS$.\n\nc) Biết $OS = R\\sqrt{5}$. Tính bán kính đường tròn nội tiếp $\\triangle SMN$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "△SMO vuông M (SM tiếp tuyến) → nội tiếp đường kính SO (1)",
+        "△SNO vuông N → nội tiếp đường kính SO (2)",
+        "(1)(2): S, M, O, N đồng viên đường kính SO → SMON nội tiếp",
+        "SM = SN, OM = ON = R → SO trung trực MN → SO ⊥ MN tại H",
+        "△OMK cân O (OM = OK = R) → OMK = OKM",
+        "△SMO vuông M → SMK + OMK = 90°",
+        "△MHK vuông H (SO ⊥ MN) → HMK + HKM = 90°",
+        "→ SMK + OMK = HMK + HKM. Mà OMK = OKM = HKM → SMK = HMK",
+        "→ MK phân giác SMH",
+        "Trong △SMH: $\\dfrac{MS}{MH} = \\dfrac{KS}{KH}$ (tính chất đường phân giác)",
+        "→ $MH \\cdot KS = KH \\cdot MS$",
+        "Câu c: △SMO vuông M, $SM^2 = OS^2 - OM^2 = 5R^2 - R^2 = 4R^2$ → SM = 2R",
+        "△OMH ~ △OSM (g-g) → $OM^2 = OH \\cdot OS$ → $OH = R^2/(R\\sqrt 5) = R\\sqrt 5/5$",
+        "$KH = OK - OH = R - R\\sqrt 5/5 = (5-\\sqrt 5)R/5$",
+        "SK phân giác MSN (2 tiếp tuyến cắt nhau), MK phân giác SMH (cmt)",
+        "→ K là tâm đường tròn nội tiếp △SMN",
+        "Bán kính nội tiếp = KH = $(5-\\sqrt 5)R/5$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Trung trực, tính chất 2 tiếp tuyến",
+        "Tính chất đường phân giác trong tam giác",
+        "Tam giác đồng dạng"
+      ],
+      "dap_so": "c) Bán kính nội tiếp = $\\dfrac{(5-\\sqrt{5})R}{5}$.",
+      "goi_y_cap_1": "Câu a: △SMO vuông M, △SNO vuông N → đồng viên đường kính SO → SMON nội tiếp.\n\nCâu b: SO trung trực MN → SO ⊥ MN tại H. △OMK cân O → OMK = OKM. △SMO vuông M, △MHK vuông H → SMK = HMK (cùng phụ với góc bằng nhau). MK phân giác SMH. Tính chất phân giác: $MS/MH = KS/KH \\Rightarrow MH \\cdot KS = KH \\cdot MS$.\n\nCâu c: $SM^2 = OS^2 - OM^2 = 5R^2 - R^2 = 4R^2$ → SM = 2R. △OMH ~ △OSM → $OH = R^2/(R\\sqrt 5) = R\\sqrt 5/5$. $KH = R - R\\sqrt 5/5 = (5-\\sqrt 5)R/5$. SK phân giác MSN, MK phân giác SMH → K là tâm nội tiếp △SMN. Bán kính = KH = $(5-\\sqrt 5)R/5$.",
+      "goi_y_cap_2": "Câu a:\n- △SMO vuông tại M (SM ⊥ OM theo tính chất tiếp tuyến) → nội tiếp đường tròn đường kính SO (1)\n- △SNO vuông tại N (SN ⊥ ON theo tính chất tiếp tuyến) → nội tiếp đường tròn đường kính SO (2)\n- (1)(2): 4 điểm S, M, O, N đồng viên đường kính SO → SMON nội tiếp\n\nCâu b:\n- SM = SN (2 tiếp tuyến cắt nhau), OM = ON = R → SO trung trực MN → SO ⊥ MN tại H\n- Xét △OMK có OM = OK = R → △OMK cân O → $\\widehat{OMK} = \\widehat{OKM}$\n- △SMO vuông M nên $\\widehat{SMK} + \\widehat{OMK} = \\widehat{SMO} = 90°$\n- △MHK vuông H (SO ⊥ MN) nên $\\widehat{HMK} + \\widehat{HKM} = 90°$\n- → $\\widehat{SMK} + \\widehat{OMK} = \\widehat{HMK} + \\widehat{HKM}$\n- Mà $\\widehat{OMK} = \\widehat{OKM} = \\widehat{HKM}$ (vì K thuộc OS) → $\\widehat{SMK} = \\widehat{HMK}$\n- Vậy MK là tia phân giác $\\widehat{SMH}$\n- Áp dụng tính chất đường phân giác trong △SMH: $\\dfrac{MS}{MH} = \\dfrac{KS}{KH}$\n- → $MH \\cdot KS = KH \\cdot MS$\n\nCâu c:\n- △SMO vuông tại M: $SM^2 = OS^2 - OM^2 = (R\\sqrt 5)^2 - R^2 = 4R^2$ → SM = 2R\n- Xét △OMH và △OSM: $\\widehat{MOS}$ chung, $\\widehat{OHM} = \\widehat{OMS} = 90°$\n- → △OMH ~ △OSM (g-g)\n- → $\\dfrac{OH}{OM} = \\dfrac{OM}{OS}$ → $OM^2 = OH \\cdot OS$\n- → $OH = \\dfrac{OM^2}{OS} = \\dfrac{R^2}{R\\sqrt 5} = \\dfrac{R\\sqrt 5}{5}$\n- $KH = OK - OH = R - \\dfrac{R\\sqrt 5}{5} = \\dfrac{5 - \\sqrt 5}{5}R$\n- SK là phân giác $\\widehat{MSN}$ (2 tiếp tuyến cắt nhau)\n- MK là phân giác $\\widehat{SMN}$ (cmt câu b)\n- → K là tâm đường tròn nội tiếp △SMN\n- Bán kính đường tròn nội tiếp △SMN = KH = $\\dfrac{(5-\\sqrt 5)R}{5}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh SMON nội tiếp:**\n\n△SMO vuông tại $M$ (do $SM \\perp OM$ theo tính chất tiếp tuyến) → nội tiếp đường tròn đường kính $SO$ (1).\n\n△SNO vuông tại $N$ (do $SN \\perp ON$ theo tính chất tiếp tuyến) → nội tiếp đường tròn đường kính $SO$ (2).\n\nTừ (1) và (2): 4 điểm $S, M, O, N$ cùng thuộc một đường tròn đường kính $SO$. Suy ra tứ giác $SMON$ nội tiếp.\n\n**Câu b) Chứng minh $MH \\cdot KS = KH \\cdot MS$:**\n\nTa có $\\begin{cases} SM = SN \\text{ (2 tiếp tuyến cắt nhau)} \\\\ OM = ON = R \\end{cases}$\n\n$\\Rightarrow SO$ là trung trực của $MN \\Rightarrow SO \\perp MN$ tại $H$.\n\nXét △OMK có $OM = OK = R$ nên △OMK cân tại $O$, suy ra $\\widehat{OMK} = \\widehat{OKM}$.\n\nDo △SMO vuông tại $M$ nên $\\widehat{SMK} + \\widehat{OMK} = \\widehat{SMO} = 90°$.\n\nVì $SO \\perp MN$ tại $H$ nên △MHK vuông tại $H$, suy ra $\\widehat{HMK} + \\widehat{HKM} = 90°$.\n\nSuy ra $\\widehat{SMK} + \\widehat{OMK} = \\widehat{HMK} + \\widehat{HKM}$.\n\nTừ đó suy ra $\\widehat{SMK} = \\widehat{HMK}$, do đó $MK$ là tia phân giác của $\\widehat{SMH}$.\n\nÁp dụng tính chất đường phân giác trong △SMH, ta có $\\dfrac{MS}{MH} = \\dfrac{KS}{KH}$.\n\nSuy ra $MH \\cdot KS = KH \\cdot MS$.\n\n**Câu c) Tính bán kính đường tròn nội tiếp $\\triangle SMN$:**\n\n△SMO vuông tại $M$, áp dụng định lý Pythagore:\n$$SM^2 + OM^2 = OS^2$$\n$$SM^2 = (R\\sqrt 5)^2 - R^2 = 4R^2$$\n$$\\Rightarrow SM = 2R$$\n\nXét △OMH và △OSM:\n$\\begin{cases} \\widehat{MOS} \\text{ (góc chung)} \\\\ \\widehat{OHM} = \\widehat{OMS} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle OMH \\sim \\triangle OSM$ (g-g)\n\n$\\Rightarrow \\dfrac{OH}{OM} = \\dfrac{OM}{OS} \\Rightarrow OM^2 = OH \\cdot OS$\n\n$\\Rightarrow OH = \\dfrac{OM^2}{OS} = \\dfrac{R^2}{R\\sqrt 5} = \\dfrac{R\\sqrt 5}{5}$.\n\nSuy ra $KH = OK - OH = R - \\dfrac{R\\sqrt 5}{5} = \\dfrac{5 - \\sqrt 5}{5}R$.\n\nMặt khác, $SK$ là phân giác của $\\widehat{MSN}$ (tính chất hai tiếp tuyến cắt nhau) và $MK$ là phân giác của $\\widehat{SMN}$ (chứng minh ở câu trên).\n\nDo đó $K$ là tâm đường tròn nội tiếp $\\triangle SMN$.\n\nVậy bán kính đường tròn nội tiếp $\\triangle SMN$ là $\\boxed{\\dfrac{5 - \\sqrt 5}{5}R}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), S ngoài (OS > 2R). 2 tiếp tuyến SM, SN. I trung điểm SO. K giao OS với (O), H giao SO và MN.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất 2 tiếp tuyến cắt nhau.",
+          "Em không thấy được MK là phân giác SMH.",
+          "Câu c em không tính được KH."
+        ],
+        "dinh_huong": [
+          "Câu a em định SMON đồng viên đường kính SO — đúng không?",
+          "Câu b em định MK phân giác SMH qua góc kép — đúng chứ?",
+          "Câu c em định K là tâm nội tiếp △SMN — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra SMON nội tiếp — đúng không?",
+          "Em ra $MH \\cdot KS = KH \\cdot MS$ — đúng chưa?",
+          "Em ra bán kính = $(5-\\sqrt 5)R/5$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy △OMK cân để có 2 góc bằng nhau.",
+          "Em không tính được $OH = R\\sqrt 5/5$.",
+          "Em không nhận ra K là tâm nội tiếp."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-40/bai7-tieptuyen.png"
+    }
+  ]
+}

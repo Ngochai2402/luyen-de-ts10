@@ -1,0 +1,375 @@
+{
+  "de_so": 38,
+  "cum": 13,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = 0{,}5x^2$ có đồ thị là parabol $(P)$.\n\na) Vẽ đồ thị $(P)$.\n\nb) Tìm những điểm $M$ thuộc $(P)$ có hoành độ bằng $4$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Thay $x = 4$ vào: $y = 0{,}5 \\cdot 16 = 8$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Tính giá trị hàm số tại điểm"
+      ],
+      "dap_so": "Tọa độ điểm $M$ là $(4; 8)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = 8, 2, 0, 2, 8.\n\nCâu b: Thay $x = 4$: $y = 0,5 \\cdot 4^2 = 0,5 \\cdot 16 = 8$. → $M(4; 8)$.",
+      "goi_y_cap_2": "Câu a: $x = ±4: y = 8$; $x = ±2: y = 2$; $x = 0: y = 0$.\n\nCâu b:\n- Thay $x = 4$ vào hàm số $y = 0{,}5x^2$\n- $y = 0{,}5 \\cdot 4^2 = 0{,}5 \\cdot 16 = 8$\n- $M(4; 8)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = 0{,}5x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ M:**\n\nThay $x = 4$ vào hàm số $y = 0{,}5x^2$, ta được:\n$$y = 0{,}5 \\cdot 4^2 = 0{,}5 \\cdot 16 = 8$$\n\nVậy tọa độ điểm cần tìm là $\\boxed{M(4; 8)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = 0,5x² trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = 8, 2, 0, 2, 8.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu lập bảng từ đâu.",
+          "Em không biết $0{,}5x^2$ = $\\dfrac{x^2}{2}$.",
+          "Em không tính được $0{,}5 \\cdot 16$."
+        ],
+        "dinh_huong": [
+          "Em định lập bảng x từ -4 đến 4 — đúng không?",
+          "Em định thay $x = 4$ trực tiếp — đúng chứ?",
+          "Em định ra $y = 8$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra bảng giá trị đối xứng — đúng không?",
+          "Em ra $y = 8$ khi $x = 4$ — đúng chưa?",
+          "Em ra $M(4; 8)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên $4^2 = 16$.",
+          "Em nhân nhầm $0{,}5 \\cdot 16 = 6$.",
+          "Em viết tọa độ ngược ($M(8; 4)$)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-38/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A phân thức $2x_1/x_2 + 2x_2/x_1$",
+      "de_bai": "Cho phương trình $-3x^2 + 2x + 4 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức $A = \\dfrac{2x_1}{x_2} + \\dfrac{2x_2}{x_1}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "$A = \\dfrac{2(x_1^2 + x_2^2)}{x_1 x_2}$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète"
+      ],
+      "dap_so": "$A = -\\dfrac{14}{3}$",
+      "goi_y_cap_1": "Δ = 4 + 48 = 52 > 0. Viète: $x_1+x_2 = 2/3$, $x_1 x_2 = -4/3$. $x_1^2+x_2^2 = 4/9 + 8/3 = 28/9$. $A = 2 \\cdot 28/9 / (-4/3) = (56/9) / (-4/3) = -14/3$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 2^2 - 4 \\cdot (-3) \\cdot 4 = 4 + 48 = 52 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = \\dfrac{-2}{-3} = \\dfrac{2}{3}$, $x_1 x_2 = \\dfrac{4}{-3} = -\\dfrac{4}{3}$\n- $x_1^2 + x_2^2 = \\left(\\dfrac{2}{3}\\right)^2 - 2 \\cdot \\left(-\\dfrac{4}{3}\\right) = \\dfrac{4}{9} + \\dfrac{8}{3} = \\dfrac{28}{9}$\n- $A = \\dfrac{2x_1^2 + 2x_2^2}{x_1 x_2} = \\dfrac{2(x_1^2+x_2^2)}{x_1 x_2}$\n- $A = \\dfrac{2 \\cdot 28/9}{-4/3} = -\\dfrac{14}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $-3x^2 + 2x + 4 = 0$ với $a = -3; b = 2; c = 4$.\n\n$\\Delta = b^2 - 4ac = 2^2 - 4 \\cdot (-3) \\cdot 4 = 4 + 48 = 52 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo hệ thức Vi-ét, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-2}{-3} = \\dfrac{2}{3} \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{4}{-3} = -\\dfrac{4}{3} \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2 x_1 x_2 = \\left(\\dfrac{2}{3}\\right)^2 - 2 \\cdot \\left(-\\dfrac{4}{3}\\right) = \\dfrac{4}{9} + \\dfrac{8}{3} = \\dfrac{28}{9}$.\n\nTa có:\n$$A = \\dfrac{2x_1}{x_2} + \\dfrac{2x_2}{x_1} = \\dfrac{2x_1^2 + 2x_2^2}{x_1 x_2} = \\dfrac{2(x_1^2 + x_2^2)}{x_1 x_2}$$\n$$= \\dfrac{2 \\cdot \\dfrac{28}{9}}{-\\dfrac{4}{3}} = \\boxed{-\\dfrac{14}{3}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng phân thức.",
+          "Em quên Viète với $a = -3$.",
+          "Em không nhớ hằng đẳng thức $x_1^2+x_2^2$."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng tử $2(x_1^2+x_2^2)$, mẫu $x_1 x_2$ — đúng không?",
+          "Em định Viète $x_1+x_2 = 2/3$, $x_1 x_2 = -4/3$ — đúng chứ?",
+          "Em định tính $x_1^2+x_2^2 = 28/9$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète đúng dấu — đúng không?",
+          "Em ra $x_1^2+x_2^2 = 28/9$ — đúng chưa?",
+          "Em ra $A = -14/3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên dấu âm khi $a = -3$ và $c = 4$.",
+          "Em không nhân 2 vào tử.",
+          "Em không rút gọn $56/9 / (4/3)$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Xác suất - Lớp 9A 4 bạn (2 nữ + 2 nam) hát song ca",
+      "de_bai": "Lớp 9A có $2$ bạn nữ hát hay là Ngân và Hoa, $2$ bạn nam hát hay là Kiệt và Dũng. Cô chủ nhiệm lớp muốn chọn ra $2$ bạn để hát song ca trong lễ bế giảng năm học.\n\na) Hãy liệt kê các cách chọn ngẫu nhiên $2$ bạn để hát song ca.\n\nb) Tính xác suất của mỗi biến cố sau:\n- $A$: \"Trong $2$ bạn được chọn có $1$ bạn nam và một bạn nữ\".\n- $B$: \"Trong $2$ bạn được chọn, có bạn Kiệt\".",
+      "phuong_phap_duoc_dung": [
+        "Liệt kê cặp: (N,H), (N,K), (N,D), (H,K), (H,D), (K,D)",
+        "$n(\\Omega) = 6$",
+        "A: 1 nam + 1 nữ = (N,K), (N,D), (H,K), (H,D) → $n(A) = 4$, $P(A) = 4/6 = 2/3$",
+        "B: có Kiệt = (N,K), (H,K), (K,D) → $n(B) = 3$, $P(B) = 3/6 = 1/2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Liệt kê tổ hợp",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) 6 cách. b) $P(A) = \\dfrac{2}{3}$, $P(B) = \\dfrac{1}{2}$.",
+      "goi_y_cap_1": "$\\Omega = \\{(N,H), (N,K), (N,D), (H,K), (H,D), (K,D)\\}$, $n(\\Omega) = 6$. A: 1 nam 1 nữ → $n(A) = 4$, $P(A) = 2/3$. B: có Kiệt → $n(B) = 3$, $P(B) = 1/2$.",
+      "goi_y_cap_2": "Câu a:\n- Ký hiệu: Ngân (N), Hoa (H), Kiệt (K), Dũng (D)\n- $\\Omega = \\{(N,H); (N,K); (N,D); (H,K); (H,D); (K,D)\\}$\n- $n(\\Omega) = 6$\n\nCâu b:\n- *A:* 1 nam + 1 nữ = (N,K), (N,D), (H,K), (H,D)\n- $n(A) = 4$, $P(A) = 4/6 = 2/3$\n- *B:* có Kiệt = (N,K), (H,K), (K,D)\n- $n(B) = 3$, $P(B) = 3/6 = 1/2$",
+      "loi_giai_day_du": "**Câu a) Liệt kê cách chọn:**\n\nKý hiệu tên các bạn: Ngân (N), Hoa (H), Kiệt (K), Dũng (D).\n\nCác kết quả có thể xảy ra của phép thử là:\n$$\\Omega = \\{(N,H); (N,K); (N,D); (H,K); (H,D); (K,D)\\}$$\n\nSố phần tử của không gian mẫu là $n(\\Omega) = \\boxed{6}$.\n\n**Câu b) Tính xác suất:**\n\n***Biến cố A:* 1 nam + 1 nữ**\n\nCác kết quả thuận lợi cho biến cố $A$ là $(N,K); (N,D); (H,K); (H,D)$.\n\nSuy ra $n(A) = 4$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{4}{6} = \\boxed{\\dfrac{2}{3}}$$\n\n***Biến cố B:* có Kiệt**\n\nCác kết quả thuận lợi cho biến cố $B$ là $(N,K); (H,K); (K,D)$.\n\nSuy ra $n(B) = 3$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{3}{6} = \\boxed{\\dfrac{1}{2}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết liệt kê cặp 2 bạn.",
+          "Em không hiểu '1 nam + 1 nữ'.",
+          "Em không biết cặp nào có Kiệt."
+        ],
+        "dinh_huong": [
+          "Em định liệt kê 6 cặp — đúng không?",
+          "Em định A = các cặp có cả nam và nữ — đúng chứ?",
+          "Em định B = các cặp có Kiệt — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $n(\\Omega) = 6$ — đúng không?",
+          "Em ra $n(A) = 4, P(A) = 2/3$ — đúng chưa?",
+          "Em ra $n(B) = 3, P(B) = 1/2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm thừa cặp như (K,K) hoặc (N,N) (chọn cùng người).",
+          "Em đếm thiếu cặp.",
+          "Em không rút gọn phân số."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Pha cồn 90° và 60° để được cồn 70°",
+      "de_bai": "Theo WHO, dung dịch cồn $70°$ được khuyến nghị đảm bảo tiêu diệt các loại virus, vi khuẩn gây hại. Trong tình hình dịch bệnh hoành hành, để đảm bảo an toàn cho lớp học của mình, cô Lan cùng nhóm học sinh đã cùng nhau pha $6$ lít cồn $70°$ từ hai loại cồn $90°$ và $60°$ để các bạn rửa tay khi vào lớp. Hỏi cô Lan đã pha theo tỉ lệ nào để được cồn $70°$.\n\nBiết: Độ cồn $= \\dfrac{V_r}{V_{dd}}$ với $V_r$ (lít) là thể tích cồn nguyên chất; $V_{dd}$ (lít) là thể tích dung dịch cồn.",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ lít cồn 90°, $y$ lít cồn 60°",
+        "$x + y = 6$",
+        "$0{,}9x + 0{,}6y = 0{,}7 \\cdot 6 = 4{,}2$",
+        "Hệ → $x = 2, y = 4$",
+        "Tỉ lệ: $x/y = 2/4 = 1/2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất",
+        "Bảo toàn khối lượng cồn nguyên chất"
+      ],
+      "dap_so": "Tỉ lệ cồn 90° và cồn 60° là $1 : 2$.",
+      "goi_y_cap_1": "Gọi $x, y$ thể tích cồn 90° và 60°. Hệ: $x+y = 6$ và $0,9x + 0,6y = 4,2$ → $x = 2, y = 4$. Tỉ lệ $x:y = 1:2$.",
+      "goi_y_cap_2": "- Gọi $x$ (lít) là thể tích cồn 90° cần dùng, $y$ (lít) là thể tích cồn 60° cần dùng ($0 < x, y < 6$)\n- Cồn nguyên chất trong $x$ lít cồn 90°: $0{,}9x$ lít\n- Cồn nguyên chất trong $y$ lít cồn 60°: $0{,}6y$ lít\n- Cồn nguyên chất trong 6 lít cồn 70°: $0{,}7 \\cdot 6 = 4{,}2$ lít\n- Tổng thể tích: $x + y = 6$ (1)\n- Bảo toàn cồn nguyên chất: $0{,}9x + 0{,}6y = 4{,}2$ (2)\n- Hệ → $x = 2, y = 4$\n- Tỉ lệ: $\\dfrac{x}{y} = \\dfrac{2}{4} = \\dfrac{1}{2}$, tức 1 : 2",
+      "loi_giai_day_du": "Gọi $x$ (lít) là thể tích cồn 90° cần dùng, $y$ (lít) là thể tích cồn 60° cần dùng ($0 < x, y < 6$).\n\nLượng cồn nguyên chất có trong $x$ lít cồn 90° là $\\dfrac{90}{100}x = 0{,}9x$ (lít).\n\nLượng cồn nguyên chất có trong $y$ lít cồn 60° là $\\dfrac{60}{100}y = 0{,}6y$ (lít).\n\nLượng cồn nguyên chất có trong $6$ lít cồn 70° là $\\dfrac{70}{100} \\cdot 6 = 4{,}2$ (lít).\n\nVì tổng thể tích dung dịch sau khi pha là $6$ lít nên:\n$$x + y = 6 \\quad (1)$$\n\nVì tổng lượng cồn nguyên chất trước và sau khi pha không đổi nên:\n$$0{,}9x + 0{,}6y = 4{,}2 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} x + y = 6 \\\\ 0{,}9x + 0{,}6y = 4{,}2 \\end{cases} \\Rightarrow \\begin{cases} x = 2 \\\\ y = 4 \\end{cases} \\text{ (thỏa mãn)}$$\n\nTa có tỉ lệ $\\dfrac{x}{y} = \\dfrac{2}{4} = \\dfrac{1}{2}$.\n\nVậy cô Lan đã pha cồn 90° và cồn 60° theo tỉ lệ thể tích là $\\boxed{1 : 2}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'cồn 70°' là gì.",
+          "Em không biết bắt đầu lập phương trình.",
+          "Em quên rằng cồn nguyên chất bảo toàn."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x, y$ là thể tích cồn 90°, 60° — đúng không?",
+          "Em định $x + y = 6$ — đúng chứ?",
+          "Em định $0{,}9x + 0{,}6y = 4{,}2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ 2 phương trình bậc nhất — đúng không?",
+          "Em ra $x = 2, y = 4$ — đúng chưa?",
+          "Em ra tỉ lệ 1:2 — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên cồn nguyên chất trong cồn 70° = 4,2 lít.",
+          "Em nhầm dấu thập phân.",
+          "Em không rút gọn 2:4 = 1:2."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Bánh sinh nhật 2 tầng",
+      "de_bai": "Để tổ chức sinh nhật cho con gái, chị Thanh đã đặt thợ làm bánh tại cửa hàng Bakery với yêu cầu bánh được làm hai tầng, mỗi tầng cao $15$ cm, bán kính tầng trên là $15$ cm, đường kính tầng dưới là $40$ cm. Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$ và diện tích xung quanh hình trụ $S = 2\\pi rh$ với $r$ là bán kính, $h$ là chiều cao.\n\na) Tính thể tích chiếc bánh. (Làm tròn kết quả đến hai chữ số thập phân).\n\nb) Hỏi với kích thước yêu cầu của chị Thanh, khi chiếc bánh được hoàn thành thì người thợ có tất cả bao nhiêu diện tích bề mặt để trang trí bánh? (Làm tròn kết quả đến hai chữ số thập phân).",
+      "phuong_phap_duoc_dung": [
+        "$r_1 = 15$ cm, $r_2 = 40/2 = 20$ cm, $h = 15$ cm",
+        "$V_1 = \\pi \\cdot 15^2 \\cdot 15 = 3375\\pi$",
+        "$V_2 = \\pi \\cdot 20^2 \\cdot 15 = 6000\\pi$",
+        "$V = 9375\\pi \\approx 29452{,}43$ cm³",
+        "$S_{xq1} = 2\\pi \\cdot 15 \\cdot 15 = 450\\pi$",
+        "$S_{xq2} = 2\\pi \\cdot 20 \\cdot 15 = 600\\pi$",
+        "Mặt trên tầng dưới (vành khăn) + mặt trên tầng trên = diện tích đáy tầng dưới = $\\pi \\cdot 20^2 = 400\\pi$",
+        "$S = 450\\pi + 600\\pi + 400\\pi = 1450\\pi \\approx 4555{,}31$ cm²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ",
+        "Diện tích xung quanh hình trụ",
+        "Diện tích vành khăn"
+      ],
+      "dap_so": "a) $V \\approx 29\\,452{,}43$ cm³. b) $S \\approx 4\\,555{,}31$ cm².",
+      "goi_y_cap_1": "$r_1 = 15, r_2 = 20, h = 15$. $V_1 = 3375\\pi, V_2 = 6000\\pi → V = 9375\\pi \\approx 29452,43$. $S_{xq1} = 450\\pi, S_{xq2} = 600\\pi$. Mặt trên cần trang trí gồm mặt trên tầng nhỏ + vành khăn tầng lớn = diện tích đáy tầng dưới = $\\pi \\cdot 20^2 = 400\\pi$. $S = 1450\\pi \\approx 4555,31$.",
+      "goi_y_cap_2": "Câu a:\n- Bán kính tầng trên: $r_1 = 15$ cm\n- Bán kính tầng dưới: $r_2 = 40/2 = 20$ cm\n- Chiều cao mỗi tầng: $h = 15$ cm\n- $V_1 = \\pi r_1^2 h = \\pi \\cdot 15^2 \\cdot 15 = 3375\\pi$ cm³\n- $V_2 = \\pi r_2^2 h = \\pi \\cdot 20^2 \\cdot 15 = 6000\\pi$ cm³\n- $V = V_1 + V_2 = 9375\\pi \\approx 29\\,452{,}43$ cm³\n\nCâu b:\n- $S_{xq1} = 2\\pi r_1 h = 2\\pi \\cdot 15 \\cdot 15 = 450\\pi$ cm²\n- $S_{xq2} = 2\\pi r_2 h = 2\\pi \\cdot 20 \\cdot 15 = 600\\pi$ cm²\n- Mặt nằm ngang (mặt trên tầng nhỏ + phần vành khăn tầng lớn) chính là diện tích hình tròn đáy của tầng lớn:\n- $S_{Oy} = \\pi r_2^2 = \\pi \\cdot 20^2 = 400\\pi$ cm²\n- $S = 450\\pi + 600\\pi + 400\\pi = 1450\\pi \\approx 4\\,555{,}31$ cm²",
+      "loi_giai_day_du": "**Câu a) Tính thể tích bánh:**\n\nBán kính đáy của tầng dưới là $r_2 = 40 : 2 = 20$ (cm).\n\nThể tích của tầng bánh trên là:\n$$V_1 = \\pi r_1^2 h_1 = \\pi \\cdot 15^2 \\cdot 15 = 3375\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích của tầng bánh dưới là:\n$$V_2 = \\pi r_2^2 h_2 = \\pi \\cdot 20^2 \\cdot 15 = 6000\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích của chiếc bánh là:\n$$V = V_1 + V_2 = 3375\\pi + 6000\\pi = 9375\\pi \\approx \\boxed{29\\,452{,}43 \\text{ cm}^3}$$\n\n**Câu b) Diện tích bề mặt trang trí:**\n\nDiện tích xung quanh của tầng bánh trên là:\n$$S_{xq1} = 2\\pi r_1 h_1 = 2\\pi \\cdot 15 \\cdot 15 = 450\\pi \\text{ (cm}^2\\text{)}$$\n\nDiện tích xung quanh của tầng bánh dưới là:\n$$S_{xq2} = 2\\pi r_2 h_2 = 2\\pi \\cdot 20 \\cdot 15 = 600\\pi \\text{ (cm}^2\\text{)}$$\n\nDiện tích bề mặt nằm ngang cần trang trí (bao gồm mặt trên của tầng nhỏ và phần vành khăn của tầng lớn) chính là diện tích hình tròn đáy của tầng lớn:\n$$S_{Oy} = \\pi r_2^2 = \\pi \\cdot 20^2 = 400\\pi \\text{ (cm}^2\\text{)}$$\n\nTổng diện tích bề mặt để trang trí bánh là:\n$$S = S_{xq1} + S_{xq2} + S_{Oy} = 450\\pi + 600\\pi + 400\\pi = 1450\\pi \\approx \\boxed{4\\,555{,}31 \\text{ cm}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bánh sinh nhật 2 tầng hình trụ: tầng trên bán kính 15cm cao 15cm, tầng dưới đường kính 40cm cao 15cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ V hình trụ và S xung quanh.",
+          "Em không hiểu 'mặt trên tầng nhỏ + vành khăn = đáy tầng lớn'.",
+          "Em quên đường kính ≠ bán kính."
+        ],
+        "dinh_huong": [
+          "Em định $r_2 = 40/2 = 20$ — đúng không?",
+          "Em định $V = V_1 + V_2$ — đúng chứ?",
+          "Em định mặt trang trí = 2 mặt xung quanh + 1 đáy lớn — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_1 = 3375\\pi, V_2 = 6000\\pi$ — đúng không?",
+          "Em ra $V \\approx 29452,43$ — đúng chưa?",
+          "Em ra $S \\approx 4555,31$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính cả mặt đáy dưới (không tính - bánh đặt trên đĩa).",
+          "Em không cộng vành khăn vào diện tích.",
+          "Em quên rằng vành khăn + mặt trên tầng nhỏ = đáy tầng lớn."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-38/bai5-banh.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Thống kê - Biểu đồ hình quạt điểm KT lớp 9A",
+      "de_bai": "Biểu đồ hình quạt tròn dưới đây biểu diễn điểm số của các bạn học sinh trong lớp 9A qua đợt kiểm tra thường xuyên.\n\n| Điểm | 6 | 7 | 8 | 9 | 10 |\n|---|---|---|---|---|---|\n| Tỉ lệ | 15% | 20% | 25% | 30% | 10% |\n\na) Biết sĩ số lớp 9A là $40$ học sinh. Tính tổng số học sinh đạt điểm $8$ và $9$.\n\nb) Chọn một bạn trong lớp để tham gia trò chơi Rung chuông vàng. Tính xác suất của các biến cố sau: \"Bạn được chọn có điểm kiểm tra Toán thấp nhất là $8$ điểm\".",
+      "phuong_phap_duoc_dung": [
+        "Số HS điểm 8: $40 \\cdot 25\\% = 10$",
+        "Số HS điểm 9: $40 \\cdot 30\\% = 12$",
+        "Tổng = 22 HS",
+        "$n(\\Omega) = 40$",
+        "Số HS điểm 10: $40 \\cdot 10\\% = 4$",
+        "A: thấp nhất 8 điểm = 8, 9, hoặc 10 → $n(A) = 10 + 12 + 4 = 26$",
+        "$P(A) = 26/40 = 13/20$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ hình quạt",
+        "Tỉ lệ phần trăm",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) Tổng = $22$ học sinh. b) $P(A) = \\dfrac{13}{20}$.",
+      "goi_y_cap_1": "Câu a: Số HS điểm 8 = 40·25% = 10. Số HS điểm 9 = 40·30% = 12. Tổng = 22.\n\nCâu b: $n(\\Omega) = 40$. 'Thấp nhất 8' = 8, 9, hoặc 10. Số HS điểm 10 = 40·10% = 4. $n(A) = 10+12+4 = 26$. $P(A) = 26/40 = 13/20$.",
+      "goi_y_cap_2": "Câu a:\n- Số HS điểm 8: $40 \\cdot 25\\% = 10$\n- Số HS điểm 9: $40 \\cdot 30\\% = 12$\n- Tổng số HS điểm 8 và 9: $10 + 12 = 22$\n\nCâu b:\n- $n(\\Omega) = 40$\n- Số HS điểm 10: $40 \\cdot 10\\% = 4$\n- A: 'thấp nhất 8 điểm' = điểm 8, 9 hoặc 10\n- $n(A) = 10 + 12 + 4 = 26$\n- $P(A) = 26/40 = 13/20$",
+      "loi_giai_day_du": "**Câu a) Tổng số HS điểm 8 và 9:**\n\nSố học sinh đạt điểm 8 là:\n$$40 \\cdot 25\\% = 10 \\text{ (học sinh)}$$\n\nSố học sinh đạt điểm 9 là:\n$$40 \\cdot 30\\% = 12 \\text{ (học sinh)}$$\n\nTổng số học sinh đạt điểm 8 và 9 là:\n$$10 + 12 = \\boxed{22 \\text{ học sinh}}$$\n\n**Câu b) Xác suất:**\n\nSố cách chọn ngẫu nhiên một bạn trong lớp để tham gia trò chơi là $40$. Suy ra $n(\\Omega) = 40$.\n\nSố học sinh đạt điểm 10 là $40 \\cdot 10\\% = 4$ (học sinh).\n\nGọi $A$ là biến cố \"Bạn được chọn có điểm kiểm tra Toán thấp nhất là $8$ điểm\".\n\nBiến cố $A$ xảy ra khi bạn được chọn có điểm số là $8$ điểm, $9$ điểm hoặc $10$ điểm.\n\nSuy ra số khả năng thuận lợi cho biến cố $A$ là:\n$$n(A) = 10 + 12 + 4 = 26$$\n\nXác suất của biến cố $A$:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{26}{40} = \\boxed{\\dfrac{13}{20}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ hình quạt tròn điểm KT Toán lớp 9A: điểm 6 (15%), điểm 7 (20%), điểm 8 (25%), điểm 9 (30%), điểm 10 (10%).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính số HS từ tỉ lệ %.",
+          "Em không hiểu 'thấp nhất 8 điểm'.",
+          "Em không cộng được tất cả các trường hợp."
+        ],
+        "dinh_huong": [
+          "Em định số HS = 40 × tỉ lệ % — đúng không?",
+          "Em định 'thấp nhất 8' = ≥ 8 (8, 9, hoặc 10) — đúng chứ?",
+          "Em định cộng cả 3 nhóm 8, 9, 10 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra điểm 8: 10 HS, điểm 9: 12 HS — đúng không?",
+          "Em ra tổng 22 HS — đúng chưa?",
+          "Em ra $P(A) = 13/20$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em hiểu 'thấp nhất 8' = chỉ điểm 8 (sai - phải bao gồm 9, 10).",
+          "Em quên cộng số HS điểm 10.",
+          "Em không rút gọn $26/40 = 13/20$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-38/bai6-bieudoquat.png"
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nhọn nội tiếp - Đường kính AD - SI ⊥ OI",
+      "de_bai": "Cho $\\triangle ABC$ nhọn ($AB < AC$) nội tiếp $(O; R)$ có hai đường cao $BE$ và $AF$ cắt nhau tại $H$. Vẽ đường kính $AD$ của đường tròn $(O)$. Qua $H$ vẽ đường thẳng $d$ vuông góc $AD$ tại $K$, $d$ cắt $AB, AC$ và đường thẳng $BC$ lần lượt tại $M, N$ và $S$.\n\na) Chứng minh: 4 điểm $A, E, H, K$ cùng thuộc một đường tròn. Xác định tâm $I$ của đường tròn này.\n\nb) Chứng minh: $\\triangle AKM$ đồng dạng với $\\triangle ABD$ và $SM \\cdot SN = SB \\cdot SC$.\n\nc) Chứng minh: $SI \\perp OI$.",
+      "phuong_phap_duoc_dung": [
+        "BE đường cao → AEH = 90° → △AEH nội tiếp đường kính AH",
+        "HK ⊥ AD tại K → AKH = 90° → △AKH nội tiếp đường kính AH",
+        "→ A, E, H, K đồng viên đường kính AH → tâm I là trung điểm AH",
+        "ABD = 90° (chắn nửa AD)",
+        "△AKM và △ABD: KAM chung, AKM = ABD = 90° → △AKM ~ △ABD (g-g)",
+        "→ AMK = ADB. Mà ADB = ACB (cùng chắn cung AB) → AMK = ACB",
+        "SMB = AMN = AMK đối đỉnh → SMB = ACB",
+        "△SMB ~ △SCN (g-g) → SM·SN = SB·SC",
+        "BHCD hình bình hành (BH // CD vì cùng ⊥ AC; CH // BD vì cùng ⊥ AB)",
+        "Q giao BC và HD = trung điểm HD",
+        "I trung điểm AH, Q trung điểm HD → IQ đường trung bình △AHD → IQ // AD",
+        "AD ⊥ SK (tại K) → IQ ⊥ SK → SH chứa đường cao từ S xuống IQ trong △SIQ (3)",
+        "H trực tâm △ABC → AH ⊥ BC → AI ⊥ SQ → AI chứa đường cao từ I xuống SQ (4)",
+        "(3)(4): SH và AI cắt nhau tại H → H trực tâm △SIQ → QH ⊥ SI",
+        "Q, H, D thẳng hàng → HD ⊥ SI",
+        "I trung điểm AH, O trung điểm AD → IO đường trung bình △AHD → IO // HD",
+        "IO // HD và HD ⊥ SI → SI ⊥ OI"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tam giác đồng dạng",
+        "Hình bình hành (BHCD)",
+        "Đường trung bình tam giác",
+        "Trực tâm tam giác"
+      ],
+      "dap_so": "a) Tâm $I$ là trung điểm $AH$. b) $SM \\cdot SN = SB \\cdot SC$. c) $SI \\perp OI$.",
+      "goi_y_cap_1": "Câu a: △AEH vuông E, △AKH vuông K → đồng viên đường kính AH → Tâm I = trung điểm AH.\n\nCâu b: △AKM ~ △ABD (g-g, KAM chung, AKM = ABD = 90°). AMK = ADB = ACB (cùng chắn cung AB). SMB = AMK đối đỉnh = ACB. △SMB ~ △SCN (g-g) → SM·SN = SB·SC.\n\nCâu c: BHCD hình bình hành. Q = BC ∩ HD = trung điểm HD. IQ // AD (đường trung bình △AHD). AD ⊥ SK → IQ ⊥ SK → SH ⊥ IQ. AH ⊥ BC → AI ⊥ SQ. → H trực tâm △SIQ → QH ⊥ SI → HD ⊥ SI. IO // HD (đường trung bình △AHD) → SI ⊥ OI.",
+      "goi_y_cap_2": "Câu a:\n- BE ⊥ AC (BE đường cao △ABC) → △AEH vuông tại E → nội tiếp đường tròn đường kính AH (1)\n- HK ⊥ AD tại K (do d ⊥ AD) → △AKH vuông tại K → nội tiếp đường tròn đường kính AH (2)\n- (1)(2): A, E, H, K cùng đường tròn đường kính AH\n- → Tâm I là trung điểm AH\n\nCâu b:\n- $\\widehat{ABD} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AD)\n- △AKM và △ABD: $\\widehat{KAM}$ chung, $\\widehat{AKM} = \\widehat{ABD} = 90°$\n- → △AKM ~ △ABD (g-g)\n- → $\\widehat{AMK} = \\widehat{ADB}$ (2 góc tương ứng)\n- $\\widehat{ADB} = \\widehat{ACB}$ (2 góc nội tiếp cùng chắn cung AB)\n- → $\\widehat{AMK} = \\widehat{ACB}$\n- $\\widehat{SMB} = \\widehat{AMN}$ (đối đỉnh) → $\\widehat{SMB} = \\widehat{ACB}$\n- △SMB và △SNC: $\\widehat{MSB}$ chung, $\\widehat{SMB} = \\widehat{SCN}$\n- → △SMB ~ △SNC (g-g)\n- → $\\dfrac{SM}{SC} = \\dfrac{SB}{SN}$ → $SM \\cdot SN = SB \\cdot SC$\n\nCâu c:\n- ACD = 90° (chắn nửa AD) → CD ⊥ AC. BH ⊥ AC → BH // CD\n- Tương tự ABD = 90° → BD ⊥ AB. CH ⊥ AB → CH // BD\n- → BHCD hình bình hành\n- Gọi Q = giao BC và HD → Q trung điểm HD (đường chéo HBH)\n- △AHD: I trung điểm AH, Q trung điểm HD → IQ đường trung bình → IQ // AD\n- AD ⊥ SK (tại K) → IQ ⊥ SK → SH chứa đường cao từ S xuống IQ trong △SIQ (3)\n- H trực tâm △ABC → AH ⊥ BC → AI ⊥ SQ (vì AI ⊂ AH và SQ ⊂ BC) (4)\n- (3)(4): SH và AI cắt tại H → H trực tâm △SIQ → QH ⊥ SI → HD ⊥ SI\n- Mặt khác △AHD: I trung điểm AH, O trung điểm AD → IO đường trung bình → IO // HD\n- IO // HD và HD ⊥ SI → SI ⊥ OI",
+      "loi_giai_day_du": "**Câu a) Chứng minh A, E, H, K đồng viên - Xác định tâm I:**\n\nTa có $BE$ là đường cao của $\\triangle ABC \\Rightarrow BE \\perp AC$ tại $E \\Rightarrow \\triangle AEH$ vuông tại $E$ → nội tiếp đường tròn đường kính $AH$ (1).\n\nTa có $HK \\perp AD$ tại $K$ (do $d \\perp AD$) → $\\triangle AKH$ vuông tại $K$ → nội tiếp đường tròn đường kính $AH$ (2).\n\nTừ (1) và (2): 4 điểm $A, E, H, K$ cùng thuộc đường tròn đường kính $AH$.\n\nVậy $\\boxed{\\text{Tâm } I \\text{ là trung điểm } AH}$.\n\n**Câu b) Chứng minh đồng dạng và $SM \\cdot SN = SB \\cdot SC$:**\n\n$\\widehat{ABD} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AD$).\n\nXét $\\triangle AKM$ và $\\triangle ABD$:\n$\\begin{cases} \\widehat{KAM} \\text{ (góc chung)} \\\\ \\widehat{AKM} = \\widehat{ABD} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle AKM \\sim \\triangle ABD$ (g-g)\n\n$\\Rightarrow \\widehat{AMK} = \\widehat{ADB}$ (hai góc tương ứng).\n\nMà $\\widehat{ADB} = \\widehat{ACB}$ (hai góc nội tiếp cùng chắn cung $AB$).\n\nSuy ra $\\widehat{AMK} = \\widehat{ACB}$.\n\n$\\widehat{SMB} = \\widehat{AMN}$ (hai góc đối đỉnh) $\\Rightarrow \\widehat{SMB} = \\widehat{ACB}$.\n\nXét $\\triangle SMB$ và $\\triangle SNC$:\n$\\begin{cases} \\widehat{MSB} \\text{ (góc chung)} \\\\ \\widehat{SMB} = \\widehat{SCN} \\text{ (cmt)} \\end{cases}$\n\n$\\Rightarrow \\triangle SMB \\sim \\triangle SNC$ (g-g)\n\n$\\Rightarrow \\dfrac{SM}{SC} = \\dfrac{SB}{SN} \\Rightarrow SM \\cdot SN = SB \\cdot SC$.\n\n**Câu c) Chứng minh $SI \\perp OI$:**\n\n*Chứng minh tứ giác BHCD là hình bình hành:*\n\n$\\widehat{ACD} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AD$) $\\Rightarrow CD \\perp AC$.\n\nMà $BH \\perp AC$ (do $BE \\perp AC$). Do đó $BH \\parallel CD$.\n\nChứng minh tương tự: $\\widehat{ABD} = 90° \\Rightarrow BD \\perp AB$. Mà $CH \\perp AB$ (do $AF \\perp AB$). Do đó $CH \\parallel BD$.\n\nTứ giác $BHCD$ có $BH \\parallel CD$ và $CH \\parallel BD$ nên là hình bình hành.\n\n*Chứng minh $SI \\perp OI$:*\n\nGọi $Q$ là giao điểm của hai đường chéo $BC$ và $HD$ của hình bình hành $BHCD$. Suy ra $Q$ là trung điểm của $HD$.\n\nXét $\\triangle AHD$ có:\n$\\begin{cases} I \\text{ là trung điểm } AH \\\\ Q \\text{ là trung điểm } HD \\end{cases}$\n\n$\\Rightarrow IQ$ là đường trung bình của $\\triangle AHD \\Rightarrow IQ \\parallel AD$.\n\nMà $AD \\perp SK$ (tại $K$) $\\Rightarrow IQ \\perp SK$. Suy ra $IQ \\perp SH$.\n\nDo đó $SH$ chứa đường cao hạ từ $S$ xuống $IQ$ trong $\\triangle SIQ$ (3).\n\nLại có $H$ là trực tâm của $\\triangle ABC$ nên $AH \\perp BC \\Rightarrow AI \\perp SQ$.\n\nSuy ra $AI$ chứa đường cao hạ từ $I$ xuống $SQ$ trong $\\triangle SIQ$ (4).\n\nTừ (3) và (4), ta thấy $SH$ và $AI$ cắt nhau tại $H$. Suy ra $H$ là trực tâm của $\\triangle SIQ \\Rightarrow QH \\perp SI$.\n\nMà $Q, H, D$ thẳng hàng (đường chéo hình bình hành) $\\Rightarrow HD \\perp SI$.\n\nMặt khác, xét $\\triangle AHD$ có:\n$\\begin{cases} I \\text{ là trung điểm } AH \\\\ O \\text{ là trung điểm } AD \\end{cases}$\n\n$\\Rightarrow IO$ là đường trung bình của $\\triangle AHD \\Rightarrow IO \\parallel HD$.\n\nKết hợp $\\begin{cases} IO \\parallel HD \\\\ HD \\perp SI \\end{cases} \\Rightarrow \\boxed{SI \\perp OI}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nhọn (AB<AC) nội tiếp (O;R), đường cao BE, AF cắt nhau tại H trực tâm. AD đường kính. d ⊥ AD tại K, cắt AB tại M, AC tại N, BC tại S. I trung điểm AH.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được AEHK có 2 góc vuông cùng nhìn AH.",
+          "Em không hiểu vì sao △AKM ~ △ABD.",
+          "Câu c em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định AEHK đồng viên đường kính AH — đúng không?",
+          "Câu b em định △AKM ~ △ABD (g-g) qua góc chung — đúng chứ?",
+          "Câu c em định BHCD là hình bình hành + đường trung bình — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Tâm I = trung điểm AH — đúng không?",
+          "Em ra $SM \\cdot SN = SB \\cdot SC$ — đúng chưa?",
+          "Em ra $SI \\perp OI$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được BHCD là hình bình hành.",
+          "Em không nhận ra IQ và IO đều là đường trung bình △AHD.",
+          "Em không nhận ra H là trực tâm △SIQ."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-38/bai7-tamgiac.png"
+    }
+  ]
+}
