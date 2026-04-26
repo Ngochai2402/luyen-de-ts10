@@ -1,0 +1,374 @@
+{
+  "de_so": 35,
+  "cum": 12,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = -\\dfrac{1}{4}x^2$ có đồ thị hàm số $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm các điểm thuộc $(P)$ có tung độ là $-36$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Tung độ = -36 → $y = -36$",
+        "Thay vào (P): $-36 = -\\dfrac{1}{4}x^2 \\Rightarrow x^2 = 144$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0",
+        "Phương trình $x^2 = 144$"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(12; -36)$ và $(-12; -36)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = -4, -1, 0, -1, -4.\n\nCâu b: Cho $y = -36$: $-36 = -\\dfrac{1}{4}x^2 \\Rightarrow x^2 = 144 \\Rightarrow x = ±12$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = -4$; $x = -2 \\to y = -1$; $x = 0 \\to y = 0$; $x = 2 \\to y = -1$; $x = 4 \\to y = -4$\n\nCâu b:\n- $-36 = -\\dfrac{1}{4}x^2$\n- $\\dfrac{1}{4}x^2 = 36 \\Rightarrow x^2 = 144$\n- $x_1 = 12$, $x_2 = -12$\n- $(12; -36)$ và $(-12; -36)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{1}{4}x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm xuống dưới.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì điểm cần tìm có tung độ là $-36$ nên $y = -36$.\n\nTa có phương trình $-36 = -\\dfrac{1}{4}x^2$\n$$\\dfrac{1}{4}x^2 - 36 = 0$$\n$$x^2 = 144$$\n$$x_1 = 12; \\quad x_2 = -12$$\n\nVới $x_1 = 12 \\Rightarrow y_1 = -36$.\nVới $x_2 = -12 \\Rightarrow y_2 = -36$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(12; -36)}$ và $\\boxed{(-12; -36)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = -x²/4 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = -4, -1, 0, -1, -4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu lập bảng từ x nào.",
+          "Em không biết khi $y$ rất âm thì $x$ phải rất lớn.",
+          "Em không nhớ phương trình $x^2 = a$ có 2 nghiệm."
+        ],
+        "dinh_huong": [
+          "Em định lập phương trình $-36 = -x^2/4$ — đúng không?",
+          "Em định ra $x^2 = 144$ — đúng chứ?",
+          "Em định nhận cả 2 nghiệm $±12$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x^2 = 144$ — đúng không?",
+          "Em ra $x = ±12$ — đúng chưa?",
+          "Em ra 2 điểm $(12;-36)$ và $(-12;-36)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ lấy 1 nghiệm $x = 12$.",
+          "Em quên dấu trừ ở $a = -1/4$.",
+          "Em nhầm $x^2 = -144$ (vô nghiệm)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-35/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A đối xứng",
+      "de_bai": "Cho phương trình: $2x^2 - 5x - 4 = 0$.\n\na) Chứng minh phương trình có $2$ nghiệm phân biệt $x_1; x_2$.\n\nb) Không giải phương trình, tính giá trị của biểu thức $A = \\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1} - 3$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "$A = \\dfrac{x_1^2 + x_2^2}{x_1 x_2} - 3$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète"
+      ],
+      "dap_so": "$A = -\\dfrac{65}{8}$",
+      "goi_y_cap_1": "Δ = 25 + 32 = 57 > 0. Viète: $x_1+x_2 = 5/2$, $x_1 x_2 = -2$. $x_1^2+x_2^2 = 25/4 + 4 = 41/4$. $A = \\dfrac{41/4}{-2} - 3 = -41/8 - 24/8 = -65/8$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 25 + 32 = 57 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = \\dfrac{5}{2}$, $x_1 x_2 = -2$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\dfrac{25}{4} + 4 = \\dfrac{41}{4}$\n- $A = \\dfrac{x_1^2 + x_2^2}{x_1 x_2} - 3 = \\dfrac{41/4}{-2} - 3 = -\\dfrac{41}{8} - 3 = -\\dfrac{65}{8}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $2x^2 - 5x - 4 = 0$ với $a = 2; b = -5; c = -4$.\n\n$\\Delta = b^2 - 4ac = (-5)^2 - 4 \\cdot 2 \\cdot (-4) = 25 + 32 = 57 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{5}{2} \\\\ x_1 x_2 = \\dfrac{c}{a} = -2 \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2 = \\left(\\dfrac{5}{2}\\right)^2 - 2 \\cdot (-2) = \\dfrac{41}{4}$.\n\nTa có:\n$$A = \\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1} - 3 = \\dfrac{x_1^2 + x_2^2}{x_1 x_2} - 3$$\n$$= \\dfrac{41/4}{-2} - 3 = -\\dfrac{41}{8} - 3 = \\boxed{-\\dfrac{65}{8}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng $\\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1}$.",
+          "Em quên Viète với $a = 2$.",
+          "Em không biết $x_1^2+x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng tử $x_1^2 + x_2^2$, mẫu $x_1 x_2$ — đúng không?",
+          "Em định Viète $x_1+x_2 = 5/2$, $x_1 x_2 = -2$ — đúng chứ?",
+          "Em định trừ 3 ở cuối — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x_1^2+x_2^2 = 41/4$ — đúng không?",
+          "Em ra $A = -41/8 - 3$ — đúng chưa?",
+          "Em ra $A = -65/8$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên dấu âm khi $x_1 x_2 = -2$.",
+          "Em nhầm trừ 3 vào tử.",
+          "Em không quy đồng đúng $-41/8 - 24/8$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ đường gấp khúc số khách cửa hàng",
+      "de_bai": "Cửa hàng $A$ thống kê lại số lượt khách đến cửa hàng tại các thời điểm trong ngày bằng biểu đồ bên dưới:\n\n| Thời điểm | 9h | 11h | 13h | 15h | 17h |\n|---|---|---|---|---|---|\n| Số khách | 20 | 50 | 35 | 30 | 45 |\n\na) Tính số lượt khách trung bình tại các thời điểm được thống kê.\n\nb) Tính xác suất thực nghiệm của biến cố $B$: \"Số lượt khách tại cửa lúc 9h\".\n\nc) Tính xác suất thực nghiệm của biến cố $C$: \"Số lượt khách tại cửa hàng từ 13h trở đi\".",
+      "phuong_phap_duoc_dung": [
+        "TB = (20+50+35+30+45)/5 = 180/5 = 36",
+        "$n(\\Omega) = 180$",
+        "$n(B) = 20$ → $P(B) = 20/180 = 1/9$",
+        "$n(C) = 35+30+45 = 110$ → $P(C) = 110/180 = 11/18$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Trung bình cộng",
+        "Xác suất thực nghiệm"
+      ],
+      "dap_so": "a) Trung bình $36$ lượt khách. b) $P(B) = \\dfrac{1}{9}$. c) $P(C) = \\dfrac{11}{18}$.",
+      "goi_y_cap_1": "Câu a: TB = (20+50+35+30+45)/5 = 36 lượt khách.\n\nCâu b: $n(\\Omega) = 180$. $n(B) = 20 → P(B) = 20/180 = 1/9$.\n\nCâu c: $n(C) = 35 + 30 + 45 = 110 → P(C) = 110/180 = 11/18$.",
+      "goi_y_cap_2": "Câu a:\n- TB = $\\dfrac{20+50+35+30+45}{5} = \\dfrac{180}{5} = 36$ lượt khách\n\nCâu b:\n- $n(\\Omega) = 20+50+35+30+45 = 180$\n- $n(B) = 20$ (lúc 9h)\n- $P(B) = \\dfrac{20}{180} = \\dfrac{1}{9}$\n\nCâu c:\n- Từ 13h trở đi gồm 13h, 15h, 17h: $35 + 30 + 45 = 110$\n- $n(C) = 110$\n- $P(C) = \\dfrac{110}{180} = \\dfrac{11}{18}$",
+      "loi_giai_day_du": "**Câu a) Số lượt khách trung bình:**\n\nSố lượt khách trung bình tại các thời điểm là:\n$$\\dfrac{20+50+35+30+45}{5} = \\boxed{36 \\text{ (lượt khách)}}$$\n\n**Câu b) Xác suất biến cố B:**\n\nTổng số lượt khách đến cửa hàng tại các thời điểm được thống kê là:\n$$n(\\Omega) = 20+50+35+30+45 = 180$$\n\nSố lượt khách lúc 9h là $20$ nên số khả năng thuận lợi cho biến cố $B$ là $n(B) = 20$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{20}{180} = \\boxed{\\dfrac{1}{9}}$$\n\n**Câu c) Xác suất biến cố C:**\n\nSố lượt khách từ 13h trở đi (gồm các thời điểm 13h, 15h, 17h) là:\n$$35 + 30 + 45 = 110$$\n\nNên số khả năng thuận lợi cho biến cố $C$ là $n(C) = 110$.\n\n$$P(C) = \\dfrac{n(C)}{n(\\Omega)} = \\dfrac{110}{180} = \\boxed{\\dfrac{11}{18}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ đường gấp khúc số khách cửa hàng tại các thời điểm 9h(20), 11h(50), 13h(35), 15h(30), 17h(45).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính trung bình.",
+          "Em không hiểu '$n(\\Omega)$' là tổng tất cả lượt khách.",
+          "Em không hiểu '13h trở đi' bao gồm các giờ nào."
+        ],
+        "dinh_huong": [
+          "Em định TB = (tổng)/5 — đúng không?",
+          "Em định $n(\\Omega) = 180$ — đúng chứ?",
+          "Em định '13h trở đi' = 13h+15h+17h — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra TB = 36 — đúng không?",
+          "Em ra $P(B) = 1/9$ — đúng chưa?",
+          "Em ra $P(C) = 11/18$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $n(\\Omega) = 5$ (số thời điểm) thay vì 180 (tổng khách).",
+          "Em quên 13h trong '13h trở đi'.",
+          "Em không rút gọn $20/180 = 1/9$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-35/bai3-bieudoduong.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Mảnh vườn với giếng tròn",
+      "de_bai": "Một mảnh vườn hình chữ nhật có chiều dài là $2{,}07x + 25$ (mét). Để thuận tiện cho tưới tiêu sản xuất nông nghiệp ở giữa vườn người ta có đào một cái giếng hình tròn có bán kính là $x$ (mét) ($x > 0$). Khoảng cách từ chiều dài mảnh vườn đến giếng là $3$ mét như hình minh họa bên dưới. Sau khi đào giếng phần đất còn lại người dân trồng cây.\n\na) Viết biểu thức biểu thị diện tích phần đất còn lại dùng để trồng cây sau khi đã đào giếng theo $x$?\n\nb) Hãy tính bán kính của giếng nước hình tròn biết diện tích còn lại sau khi đào giếng là $213{,}42$ (m²) (Lấy giá trị $\\pi$ là $3{,}14$).",
+      "phuong_phap_duoc_dung": [
+        "Chiều rộng = $x + x + 3 + 3 = 2x + 6$",
+        "$S_{HCN} = (2{,}07x + 25)(2x + 6)$",
+        "$S_{giếng} = \\pi x^2$",
+        "$S_{còn} = (2{,}07x + 25)(2x + 6) - \\pi x^2$",
+        "$(2{,}07x + 25)(2x + 6) - 3{,}14 x^2 = 213{,}42$",
+        "$x^2 + 62{,}42x - 63{,}42 = 0 \\Rightarrow x = 1$ (nhận) hoặc $-63{,}42$ (loại)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình tròn",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = (2{,}07x + 25)(2x + 6) - \\pi x^2$ (m²). b) Bán kính giếng = $1$ m.",
+      "goi_y_cap_1": "Câu a: Chiều rộng = $2x + 6$. $S = (2,07x+25)(2x+6) - \\pi x^2$.\n\nCâu b: $(2,07x+25)(2x+6) - 3,14 x^2 = 213,42 \\Rightarrow x^2 + 62,42x - 63,42 = 0 \\Rightarrow x = 1$ hoặc $-63,42$ (loại).",
+      "goi_y_cap_2": "Câu a:\n- Chiều rộng mảnh vườn: $x + x + 3 + 3 = 2x + 6$ (m)\n- $S_{HCN} = (2{,}07x + 25)(2x + 6)$ (m²)\n- $S_{giếng} = \\pi x^2$ (m²)\n- $S = (2{,}07x + 25)(2x + 6) - \\pi x^2$ (m²)\n\nCâu b:\n- $(2{,}07x + 25)(2x + 6) - 3{,}14 x^2 = 213{,}42$\n- $4{,}14x^2 + 12{,}42x + 50x + 150 - 3{,}14x^2 - 213{,}42 = 0$\n- $x^2 + 62{,}42x - 63{,}42 = 0$\n- $x = 1$ (nhận) hoặc $x = -63{,}42$ (loại)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích phần còn lại:**\n\nChiều rộng của mảnh vườn hình chữ nhật là $x + x + 3 + 3 = 2x + 6$ (m).\n\nDiện tích của mảnh vườn hình chữ nhật là $(2{,}07x + 25)(2x + 6)$ (m²).\n\nDiện tích của giếng hình tròn là $\\pi x^2$ (m²).\n\nBiểu thức biểu thị diện tích phần đất còn lại là:\n$$S = \\boxed{(2{,}07x + 25)(2x + 6) - \\pi x^2 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Bán kính của giếng nước:**\n\nVì diện tích phần đất còn lại là $213{,}42$ m² và $\\pi = 3{,}14$, ta có phương trình:\n$$(2{,}07x + 25)(2x + 6) - 3{,}14 x^2 = 213{,}42$$\n$$4{,}14x^2 + 12{,}42x + 50x + 150 - 3{,}14x^2 - 213{,}42 = 0$$\n$$x^2 + 62{,}42x - 63{,}42 = 0$$\n\nSuy ra $x = 1$ (nhận) hoặc $x = -63{,}42$ (loại).\n\nVậy bán kính của giếng nước là $\\boxed{1 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh vườn HCN với giếng tròn ở giữa: chiều dài 2,07x+25, khoảng cách từ giếng đến cạnh dài là 3m mỗi bên.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không tìm được chiều rộng từ thông tin '3m mỗi bên'.",
+          "Em quên công thức S hình tròn.",
+          "Em không biết khai triển $(2,07x+25)(2x+6)$."
+        ],
+        "dinh_huong": [
+          "Em định chiều rộng = $2x + 6$ (vì đường kính giếng + 6m hai bên) — đúng không?",
+          "Em định $S = S_{HCN} - S_{giếng}$ — đúng chứ?",
+          "Em định lập phương trình bậc 2 và giải $x = 1$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra chiều rộng = $2x+6$ — đúng không?",
+          "Em ra $x^2 + 62,42x - 63,42 = 0$ — đúng chưa?",
+          "Em ra $x = 1$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm chiều rộng là $x + 6$ thay vì $2x + 6$.",
+          "Em quên $\\pi = 3,14$ khi tính.",
+          "Em không loại nghiệm âm $x = -63,42$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-35/bai4-manhvuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Ly thủy tinh + 6 viên bi",
+      "de_bai": "Trên mặt bàn nằm ngang một ly thủy tinh đang chứa nước có dạng hình trụ với bán kính đáy $R = 3$ cm, mực nước ban đầu trong ly cao $5$ cm. Sau đó thả vào trong ly $6$ viên bi sắt cùng loại (không thấm nước) có dạng hình cầu có bán kính $r = 1$ cm thì thấy mực nước trong ly dâng lên và không tràn ra ngoài.\n\na) Tính thể tích của một viên bi?\n\nb) Tính chiều cao của mực nước trong ly sau khi bỏ $6$ viên bi đó vào trong ly (bỏ qua độ dày ly, làm tròn kết quả đến hàng phần trăm của xentimét).\n\nBiết công thức tính thể tích hình trụ là $V = \\pi R^2 h$ (với $R$ là bán kính đáy và $h$ là chiều cao) và thể tích hình cầu là $V = \\dfrac{4}{3}\\pi R^3$ ($R$ là bán kính hình cầu).",
+      "phuong_phap_duoc_dung": [
+        "$V_1 = \\dfrac{4}{3}\\pi r^3 = \\dfrac{4}{3}\\pi$ cm³",
+        "$V_6 = 6 \\cdot \\dfrac{4}{3}\\pi = 8\\pi$ cm³",
+        "Mực nước dâng lên: $\\pi R^2 \\Delta h = 8\\pi \\Rightarrow 9\\Delta h = 8 \\Rightarrow \\Delta h = 8/9$",
+        "$h' = 5 + 8/9 = 53/9 \\approx 5{,}89$ cm"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình cầu, hình trụ",
+        "Bảo toàn thể tích chất lỏng"
+      ],
+      "dap_so": "a) $V_1 = \\dfrac{4}{3}\\pi$ cm³. b) $h' \\approx 5{,}89$ cm.",
+      "goi_y_cap_1": "Câu a: $V_1 = \\dfrac{4}{3}\\pi \\cdot 1^3 = \\dfrac{4}{3}\\pi$ cm³.\n\nCâu b: $V_6 = 8\\pi$ cm³ = phần nước dâng lên. $\\pi \\cdot 9 \\cdot \\Delta h = 8\\pi \\Rightarrow \\Delta h = 8/9$. $h' = 5 + 8/9 = 53/9 \\approx 5,89$ cm.",
+      "goi_y_cap_2": "Câu a:\n- $V_1 = \\dfrac{4}{3}\\pi r^3 = \\dfrac{4}{3}\\pi \\cdot 1^3 = \\dfrac{4}{3}\\pi$ cm³\n\nCâu b:\n- $V_6 = 6 \\cdot \\dfrac{4}{3}\\pi = 8\\pi$ cm³\n- Phần thể tích nước dâng lên = thể tích 6 viên bi\n- $\\pi R^2 \\cdot \\Delta h = 8\\pi$\n- $\\pi \\cdot 3^2 \\cdot \\Delta h = 8\\pi$\n- $9 \\Delta h = 8 \\Rightarrow \\Delta h = \\dfrac{8}{9}$ cm\n- $h' = 5 + \\dfrac{8}{9} = \\dfrac{53}{9} \\approx 5{,}89$ cm",
+      "loi_giai_day_du": "**Câu a) Thể tích một viên bi:**\n\nThể tích của một viên bi sắt hình cầu là:\n$$V_1 = \\dfrac{4}{3}\\pi r^3 = \\dfrac{4}{3}\\pi \\cdot 1^3 = \\boxed{\\dfrac{4}{3}\\pi \\text{ cm}^3}$$\n\n**Câu b) Chiều cao mực nước:**\n\nThể tích của 6 viên bi sắt là:\n$$V_6 = 6 \\cdot \\dfrac{4}{3}\\pi = 8\\pi \\text{ (cm}^3\\text{)}$$\n\nPhần thể tích nước dâng lên trong ly hình trụ chính bằng thể tích của 6 viên bi sắt.\n\nGọi $\\Delta h$ là chiều cao phần nước dâng lên, ta có:\n$$\\pi R^2 \\cdot \\Delta h = 8\\pi$$\n$$\\pi \\cdot 3^2 \\cdot \\Delta h = 8\\pi$$\n$$9 \\Delta h = 8 \\Rightarrow \\Delta h = \\dfrac{8}{9} \\text{ (cm)}$$\n\nChiều cao của mực nước trong ly sau khi bỏ 6 viên bi vào là:\n$$h' = 5 + \\dfrac{8}{9} = \\dfrac{53}{9} \\text{ (cm)}$$\n\nLàm tròn kết quả đến hàng phần trăm, ta được $h' \\approx \\boxed{5{,}89}$ (cm).",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "2 hình ly thủy tinh: ban đầu (mực nước 5cm, R=3cm) và sau khi thả 6 viên bi (r=1cm, mực nước cao h' mới).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức V hình cầu.",
+          "Em không hiểu 'phần nước dâng lên = V bi'.",
+          "Em quên cộng chiều cao ban đầu."
+        ],
+        "dinh_huong": [
+          "Em định $V_1 = \\dfrac{4}{3}\\pi r^3$ với $r = 1$ — đúng không?",
+          "Em định $V_6 = 6 V_1 = 8\\pi$ — đúng chứ?",
+          "Em định $\\pi R^2 \\Delta h = V_6$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_1 = \\dfrac{4}{3}\\pi$ — đúng không?",
+          "Em ra $\\Delta h = 8/9$ — đúng chưa?",
+          "Em ra $h' \\approx 5,89$ cm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $V_1$ là V trụ thay vì V cầu.",
+          "Em quên cộng 5cm ban đầu.",
+          "Em làm tròn sai 8/9 ≈ 0,88 thay vì 0,89."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-35/bai5-ly.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Tối ưu chi phí máy sản xuất bóng",
+      "de_bai": "Một công ty sản xuất dụng cụ thể thao nhận được một đơn đặt hàng sản xuất $1550$ quả bóng Pickleball. Hiện tại công ty đang có một số máy có thể cài đặt để mỗi máy trong $1$ giờ sản xuất tự động được $40$ quả bóng Pickleball mà không cần công nhân tham gia. Chi phí nhân công cài đặt mỗi máy là $500$ nghìn đồng và vận hành hệ thống là $400$ nghìn đồng mỗi giờ. Phân xưởng nên dùng bao nhiêu máy để tiết kiệm chi phí nhân công và vận hành hệ thống nhất?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ là số máy",
+        "Thời gian: $t = 1550/(40x) = 155/(4x)$ giờ",
+        "Chi phí cài đặt: $500x$",
+        "Chi phí vận hành: $400 \\cdot 155/(4x) = 15500/x$",
+        "Tổng chi phí: $C = 500x + 15500/x$",
+        "AM-GM: $C \\geq 2\\sqrt{500 \\cdot 15500} \\approx 5567{,}7$",
+        "Dấu = khi $500x = 15500/x \\Rightarrow x^2 = 31 \\Rightarrow x = \\sqrt{31} \\approx 5{,}57$",
+        "Xét $x = 5: C = 2500 + 3100 = 5600$",
+        "Xét $x = 6: C = 3000 + 2583{,}33 = 5583{,}33$",
+        "$5583{,}33 < 5600$ → chọn $x = 6$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Bất đẳng thức AM-GM",
+        "Tìm GTNN của hàm số",
+        "So sánh giá trị tại các điểm nguyên gần nhất"
+      ],
+      "dap_so": "Phân xưởng nên dùng $6$ máy.",
+      "goi_y_cap_1": "Gọi $x$ máy. $t = 1550/(40x) = 155/(4x)$. Chi phí: $C = 500x + 15500/x$. AM-GM: $x = \\sqrt{31} \\approx 5,57$. Xét $x=5$: $C = 5600$. Xét $x=6$: $C = 5583,33$. → 6 máy.",
+      "goi_y_cap_2": "- Gọi $x$ là số máy ($x \\in \\mathbb{N}^*$)\n- Thời gian: $t = \\dfrac{1550}{40x} = \\dfrac{155}{4x}$ (giờ)\n- Chi phí cài đặt: $500x$ (nghìn đồng)\n- Chi phí vận hành: $400 \\cdot \\dfrac{155}{4x} = \\dfrac{15500}{x}$ (nghìn đồng)\n- $C = 500x + \\dfrac{15500}{x}$\n- AM-GM: $C \\geq 2\\sqrt{500 \\cdot 15500} = 2\\sqrt{7750000} \\approx 5567{,}7$\n- Dấu = khi $500x = \\dfrac{15500}{x} \\Rightarrow x^2 = 31 \\Rightarrow x = \\sqrt{31} \\approx 5{,}57$\n- Vì $x \\in \\mathbb{N}^*$, xét $x = 5$ và $x = 6$:\n- $x = 5: C = 2500 + 3100 = 5600$\n- $x = 6: C = 3000 + \\dfrac{15500}{6} \\approx 5583{,}33$\n- $5583{,}33 < 5600$ → chọn $x = 6$ máy",
+      "loi_giai_day_du": "Gọi $x$ là số máy phân xưởng cần dùng ($x \\in \\mathbb{N}^*$).\n\nThời gian để hệ thống $x$ máy cùng hoạt động sản xuất xong $1550$ quả bóng là:\n$$t = \\dfrac{1550}{40x} = \\dfrac{155}{4x} \\text{ (giờ)}$$\n\nChi phí nhân công cài đặt cho $x$ máy là $500x$ (nghìn đồng).\n\nChi phí vận hành hệ thống trong thời gian $t$ là:\n$$400 \\cdot \\dfrac{155}{4x} = \\dfrac{15500}{x} \\text{ (nghìn đồng)}$$\n\nTổng chi phí nhân công và vận hành là:\n$$C = 500x + \\dfrac{15500}{x} \\text{ (nghìn đồng)}$$\n\nDựa vào biểu thức $C$, ta nhận thấy đây là bài toán tìm giá trị nhỏ nhất.\n\nTa có $C = 500x + \\dfrac{15500}{x} \\geq 2\\sqrt{500x \\cdot \\dfrac{15500}{x}} = 2\\sqrt{7750000} \\approx 5567{,}7$.\n\nDấu \"=\" của bất đẳng thức xảy ra khi $500x = \\dfrac{15500}{x} \\Rightarrow x^2 = 31 \\Rightarrow x = \\sqrt{31} \\approx 5{,}57$.\n\nVì $x$ là số nguyên dương ($x \\in \\mathbb{N}^*$), ta xét giá trị của $C$ tại hai số nguyên gần nhất với $5{,}57$ là $x = 5$ và $x = 6$:\n\n- Với $x = 5$: $C = 500 \\cdot 5 + \\dfrac{15500}{5} = 2500 + 3100 = 5600$ (nghìn đồng).\n- Với $x = 6$: $C = 500 \\cdot 6 + \\dfrac{15500}{6} = 3000 + \\dfrac{7750}{3} = \\dfrac{16750}{3} \\approx 5583{,}33$ (nghìn đồng).\n\nVì $5583{,}33 < 5600$ nên chi phí nhỏ nhất đạt được khi $x = 6$.\n\nVậy phân xưởng nên dùng $\\boxed{6 \\text{ máy}}$ để tiết kiệm chi phí nhất.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu lập biểu thức chi phí.",
+          "Em không biết AM-GM với $a + b/a$.",
+          "Em không hiểu phải kiểm tra số nguyên gần nhất."
+        ],
+        "dinh_huong": [
+          "Em định $C = 500x + 15500/x$ — đúng không?",
+          "Em định AM-GM cho $C \\geq 2\\sqrt{500 \\cdot 15500}$ — đúng chứ?",
+          "Em định xét $x = 5$ và $x = 6$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $C(5) = 5600$ — đúng không?",
+          "Em ra $C(6) \\approx 5583,33$ — đúng chưa?",
+          "Em ra 6 máy — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không tính được thời gian $t = 1550/(40x)$.",
+          "Em quên rằng $x$ phải là số nguyên dương.",
+          "Em chỉ tính tại $x = \\sqrt{31}$ mà không xét $x = 5, 6$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn (O), 2 tiếp tuyến SA, SB, đường kính BF",
+      "de_bai": "Cho đường tròn $(O; R)$ và một điểm $S$ nằm ngoài đường tròn. Từ $S$ kẻ các tiếp tuyến $SA, SB$ với đường tròn ($A, B$ là các tiếp điểm). Kẻ đường kính $BF$ của đường tròn $(O; R)$. Một đường thẳng qua $S$ (không đi qua tâm $O$) cắt đường tròn $(O; R)$ tại hai điểm $M$ và $N$ (với $M$ nằm giữa $S$ và $N$).\n\na) Chứng minh $\\widehat{BMF} = 90°$ và tứ giác $SAOB$ nội tiếp.\n\nb) Chứng minh $SB^2 = SM \\cdot SN$.\n\nc) Cho biết $SO = R\\sqrt{5}$ và $MN = R\\sqrt{2}$. Vẽ $OE$ vuông góc với $MN$ ($E$ thuộc $MN$). Tính độ dài đoạn thẳng $OE$ và diện tích tam giác $SOM$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "BMF = 90° (chắn nửa đường tròn đường kính BF)",
+        "△OAS vuông A → nội tiếp đường kính OS (1)",
+        "△OBS vuông B → nội tiếp đường kính OS (2)",
+        "→ SAOB nội tiếp đường kính OS",
+        "SBM = MFB (cùng phụ MBF)",
+        "MFB = SNB (góc nội tiếp cùng chắn cung MB)",
+        "→ SBM = SNB",
+        "△SBM ~ △SNB (g-g) → $SB^2 = SM \\cdot SN$",
+        "OE ⊥ MN tại E + OM = ON = R → △OMN cân O → OE đường cao = trung tuyến → EM = EN = MN/2 = R√2/2",
+        "△OEM vuông E: $OE^2 = OM^2 - EM^2 = R^2 - R^2/2 = R^2/2 → OE = R√2/2$",
+        "△OES vuông E: $SE^2 = OS^2 - OE^2 = 5R^2 - R^2/2 = 9R^2/2 → SE = 3R√2/2$",
+        "M nằm giữa S và N → M nằm giữa S và E",
+        "$SM = SE - EM = 3R√2/2 - R√2/2 = R√2$",
+        "$S_{SOM} = \\dfrac{1}{2} OE \\cdot SM = \\dfrac{1}{2} \\cdot R√2/2 \\cdot R√2 = R^2/2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Góc nội tiếp chắn nửa đường tròn",
+        "Tam giác đồng dạng",
+        "Định lý Pythagore",
+        "Tam giác cân, đường cao trung tuyến"
+      ],
+      "dap_so": "c) $OE = \\dfrac{R\\sqrt{2}}{2}$, $S_{SOM} = \\dfrac{R^2}{2}$.",
+      "goi_y_cap_1": "Câu a: BMF = 90° (chắn nửa đường tròn đường kính BF). △OAS vuông A, △OBS vuông B → cùng đường kính OS → SAOB nội tiếp.\n\nCâu b: SBM = MFB (cùng phụ MBF). MFB = SNB (cùng chắn cung MB). → SBM = SNB. △SBM ~ △SNB (g-g, BSN chung) → $SB^2 = SM·SN$.\n\nCâu c: △OMN cân O (OM=ON=R), OE ⊥ MN → EM = EN = MN/2 = R√2/2. △OEM vuông E: OE = √(R² - R²/2) = R√2/2. △OES vuông E: SE = √(5R² - R²/2) = 3R√2/2. M giữa S,E (do M giữa S,N) → SM = SE - EM = R√2. $S_{SOM} = \\dfrac{1}{2} \\cdot R√2/2 \\cdot R√2 = R^2/2$.",
+      "goi_y_cap_2": "Câu a:\n- $\\widehat{BMF} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính BF)\n- △OAS vuông tại A (SA tiếp tuyến) → nội tiếp đường tròn đường kính OS (1)\n- △OBS vuông tại B (SB tiếp tuyến) → nội tiếp đường tròn đường kính OS (2)\n- (1)(2): 4 điểm S, A, O, B cùng đường tròn đường kính OS → SAOB nội tiếp\n\nCâu b:\n- $\\widehat{SBM} = \\widehat{MFB}$ (cùng phụ $\\widehat{MBF}$, vì $\\widehat{BMF} = 90°$)\n- $\\widehat{MFB} = \\widehat{SNB}$ (góc nội tiếp cùng chắn cung MB) — thực chất là $\\widehat{MFB} = \\dfrac{1}{2}\\overset{\\frown}{MB}$ và $\\widehat{SNB} = \\widehat{MNB} = \\dfrac{1}{2}\\overset{\\frown}{MB}$\n- → $\\widehat{SBM} = \\widehat{SNB}$\n- △SBM và △SNB:\n  - $\\widehat{BSN}$ chung\n  - $\\widehat{SBM} = \\widehat{SNB}$\n  - → △SBM ~ △SNB (g-g)\n- → $\\dfrac{SB}{SN} = \\dfrac{SM}{SB} \\Rightarrow SB^2 = SM \\cdot SN$\n\nCâu c:\n- OM = ON = R → △OMN cân tại O\n- OE ⊥ MN → OE đồng thời là đường trung tuyến của △OMN\n- → $EM = EN = \\dfrac{MN}{2} = \\dfrac{R\\sqrt 2}{2}$\n- △OEM vuông tại E: $OM^2 = OE^2 + EM^2$\n- $R^2 = OE^2 + \\left(\\dfrac{R\\sqrt 2}{2}\\right)^2 = OE^2 + \\dfrac{R^2}{2}$\n- $OE^2 = \\dfrac{R^2}{2} \\Rightarrow OE = \\dfrac{R\\sqrt 2}{2}$\n- △OES vuông tại E: $OS^2 = OE^2 + SE^2$\n- $(R\\sqrt 5)^2 = \\dfrac{R^2}{2} + SE^2 \\Rightarrow SE^2 = \\dfrac{9R^2}{2} \\Rightarrow SE = \\dfrac{3R\\sqrt 2}{2}$\n- Vì M nằm giữa S và N nên M nằm giữa S và E\n- $SM = SE - EM = \\dfrac{3R\\sqrt 2}{2} - \\dfrac{R\\sqrt 2}{2} = R\\sqrt 2$\n- $S_{SOM} = \\dfrac{1}{2} \\cdot OE \\cdot SM = \\dfrac{1}{2} \\cdot \\dfrac{R\\sqrt 2}{2} \\cdot R\\sqrt 2 = \\dfrac{R^2}{2}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh BMF = 90° và SAOB nội tiếp:**\n\nTa có $\\widehat{BMF} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $BF$).\n\n△OAS vuông tại A (SA tiếp tuyến) → nội tiếp đường tròn đường kính OS (1).\n\n△OBS vuông tại B (SB tiếp tuyến) → nội tiếp đường tròn đường kính OS (2).\n\nTừ (1) và (2): 4 điểm S, A, O, B cùng thuộc một đường tròn đường kính OS. Suy ra tứ giác SAOB nội tiếp.\n\n**Câu b) Chứng minh $SB^2 = SM \\cdot SN$:**\n\nTa có $\\widehat{SBM} = \\widehat{MFB}$ (cùng phụ $\\widehat{MBF}$).\n\nMà $\\widehat{MFB} = \\widehat{SNB} = \\dfrac{1}{2}\\overset{\\frown}{MB}$.\n\n$\\Rightarrow \\widehat{SBM} = \\widehat{SNB}$.\n\nXét △SBM và △SNB:\n$\\begin{cases} \\widehat{BSN} \\text{ chung} \\\\ \\widehat{SBM} = \\widehat{SNB} \\text{ (chứng minh trên)} \\end{cases}$\n\n$\\Rightarrow \\triangle SBM \\sim \\triangle SNB$ (g-g)\n\n$\\Rightarrow \\dfrac{SB}{SN} = \\dfrac{SM}{SB} \\Rightarrow SB^2 = SM \\cdot SN$.\n\n**Câu c) Tính OE và $S_{SOM}$:**\n\nTa có $OM = ON = R$ suy ra △OMN cân tại O.\n\nMà OE là đường cao nên OE cũng là đường trung tuyến của △OMN.\n\n$\\Rightarrow EM = EN = \\dfrac{MN}{2} = \\dfrac{R\\sqrt 2}{2}$.\n\n△OEM vuông tại E:\n$$OM^2 = OE^2 + EM^2 \\text{ (Pythagore)}$$\n$$R^2 = OE^2 + \\left(\\dfrac{R\\sqrt 2}{2}\\right)^2$$\n$$OE^2 = \\dfrac{R^2}{2} \\Rightarrow OE = \\boxed{\\dfrac{R\\sqrt 2}{2}}$$\n\n△OES vuông tại E:\n$$OS^2 = OE^2 + SE^2 \\text{ (Pythagore)}$$\n$$(R\\sqrt 5)^2 = \\left(\\dfrac{R\\sqrt 2}{2}\\right)^2 + SE^2$$\n$$SE^2 = \\dfrac{9R^2}{2} \\Rightarrow SE = \\dfrac{3R\\sqrt 2}{2}$$\n\nVì M nằm giữa S và N nên M nằm giữa S và E.\n\n$$SM = SE - EM = \\dfrac{3R\\sqrt 2}{2} - \\dfrac{R\\sqrt 2}{2} = R\\sqrt 2$$\n\nDiện tích tam giác $SOM$ là:\n$$S_{\\triangle SOM} = \\dfrac{1}{2} \\cdot OE \\cdot SM = \\dfrac{1}{2} \\cdot \\dfrac{R\\sqrt 2}{2} \\cdot R\\sqrt 2 = \\boxed{\\dfrac{R^2}{2}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) ngoại tiếp tam giác. S ngoài đường tròn, SA, SB tiếp tuyến (A, B tiếp điểm). BF đường kính. Đường thẳng qua S cắt (O) tại M (giữa) và N. OE ⊥ MN tại E.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất tiếp tuyến và tứ giác đồng viên.",
+          "Em không hiểu vì sao $\\widehat{SBM} = \\widehat{SNB}$.",
+          "Câu c em không tìm được OE."
+        ],
+        "dinh_huong": [
+          "Câu a em định 4 điểm S, A, O, B đồng viên đường kính OS — đúng không?",
+          "Câu b em định △SBM ~ △SNB (g-g) — đúng chứ?",
+          "Câu c em định OE = $R\\sqrt 2/2$ qua Pythagore — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra SAOB nội tiếp — đúng không?",
+          "Em ra $SB^2 = SM \\cdot SN$ — đúng chưa?",
+          "Em ra $S_{SOM} = R^2/2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được △OMN cân O.",
+          "Em không tính được SE qua $OS^2 - OE^2$.",
+          "Em nhầm $SM = SE + EM$ thay vì $SE - EM$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-35/bai7-duongtron.png"
+    }
+  ]
+}
