@@ -1,0 +1,368 @@
+{
+  "de_so": 41,
+  "cum": 14,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho Parabol $(P): y = -\\dfrac{1}{3}x^2$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm tọa độ điểm $N$ thuộc $(P)$, biết $N$ khác gốc tọa độ $O$ và có tung độ gấp ba hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -6, -3, 0, 3, 6)",
+        "Tung độ gấp ba hoành độ → $y = 3x$",
+        "Thay vào (P): $3x = -\\dfrac{1}{3}x^2$",
+        "$x_1 = 0$ (loại), $x_2 = -9$ (nhận)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ điểm $N$ là $(-9; -27)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -6, -3, 0, 3, 6 → y = -12, -3, 0, -3, -12.\n\nCâu b: $y = 3x$. $3x = -x^2/3 \\Rightarrow \\dfrac{1}{3}x^2 + 3x = 0 \\Rightarrow x = 0$ (loại) hoặc $x = -9$ (nhận) → $N(-9; -27)$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -6: y = -12$; $x = -3: y = -3$; $x = 0: y = 0$; $x = 3: y = -3$; $x = 6: y = -12$\n\nCâu b:\n- $y = 3x$ (tung độ gấp ba hoành độ)\n- $3x = -\\dfrac{1}{3}x^2 \\Rightarrow \\dfrac{1}{3}x^2 + 3x = 0$\n- $x_1 = 0$ (loại vì $N$ khác $O$); $x_2 = -9$ (nhận)\n- $y_2 = 3 \\cdot (-9) = -27$\n- $N(-9; -27)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-6$ | $-3$ | $0$ | $3$ | $6$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{1}{3}x^2$ | $-12$ | $-3$ | $0$ | $-3$ | $-12$ |\n\nVẽ parabol đỉnh O, bề lõm xuống dưới.\n\n**Câu b) Tìm tọa độ N:**\n\nVì điểm $N$ có tung độ gấp ba hoành độ nên $y = 3x$.\n\nTa có phương trình $3x = -\\dfrac{1}{3}x^2$\n$$\\dfrac{1}{3}x^2 + 3x = 0$$\n$$x_1 = 0; \\quad x_2 = -9$$\n\nVới $x_1 = 0 \\Rightarrow y_1 = 0$ (loại vì $N$ khác gốc tọa độ $O$).\nVới $x_2 = -9 \\Rightarrow y_2 = -27$ (nhận).\n\nVậy tọa độ điểm cần tìm là $\\boxed{(-9; -27)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = -x²/3 trên hệ trục Oxy với x = -6, -3, 0, 3, 6 và y = -12, -3, 0, -3, -12.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tung độ gấp ba hoành độ'.",
+          "Em không biết bảng giá trị.",
+          "Em không biết loại nghiệm $x = 0$."
+        ],
+        "dinh_huong": [
+          "Em định 'tung độ = 3 lần hoành độ' = $y = 3x$ — đúng không?",
+          "Em định lập phương trình $3x = -x^2/3$ — đúng chứ?",
+          "Em định loại $x = 0$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{x^2}{3} + 3x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = -9$ — đúng chưa?",
+          "Em ra $N(-9; -27)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không loại $x = 0$ (vì $N$ khác $O$).",
+          "Em quên dấu trừ ở $a = -1/3$.",
+          "Em chỉ ra 1 nghiệm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-41/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A bậc 3",
+      "de_bai": "Cho phương trình $2x^2 - 6x + 1 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức $A = 3x_1^2 x_2 + 3x_1 x_2^2 - x_1 - x_2$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète: $x_1+x_2 = 3$, $x_1 x_2 = 1/2$",
+        "$A = 3 x_1 x_2 (x_1 + x_2) - (x_1 + x_2)$",
+        "$A = 3 \\cdot 1/2 \\cdot 3 - 3 = 9/2 - 3 = 3/2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète"
+      ],
+      "dap_so": "$A = \\dfrac{3}{2}$",
+      "goi_y_cap_1": "Δ = 36 - 8 = 28 > 0. Viète: $x_1+x_2 = 3$, $x_1 x_2 = 1/2$. $A = 3 x_1 x_2 (x_1+x_2) - (x_1+x_2) = 3 \\cdot 1/2 \\cdot 3 - 3 = 9/2 - 3 = 3/2$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = (-6)^2 - 4 \\cdot 2 \\cdot 1 = 28 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = 3$, $x_1 x_2 = 1/2$\n- $A = 3 x_1^2 x_2 + 3 x_1 x_2^2 - x_1 - x_2$\n- $= 3 x_1 x_2 (x_1 + x_2) - (x_1 + x_2)$\n- $= 3 \\cdot \\dfrac{1}{2} \\cdot 3 - 3$\n- $= \\dfrac{9}{2} - 3 = \\dfrac{3}{2}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $2x^2 - 6x + 1 = 0$ với $a = 2; b = -6; c = 1$.\n\n$\\Delta = b^2 - 4ac = (-6)^2 - 4 \\cdot 2 \\cdot 1 = 28 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-(-6)}{2} = 3 \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{1}{2} \\end{cases}$$\n\nTa có:\n$$A = 3x_1^2 x_2 + 3 x_1 x_2^2 - x_1 - x_2$$\n$$A = 3 x_1 x_2 (x_1 + x_2) - (x_1 + x_2)$$\n$$A = 3 \\cdot \\dfrac{1}{2} \\cdot 3 - 3 = \\boxed{\\dfrac{3}{2}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết phân tích nhân tử $3x_1^2 x_2 + 3 x_1 x_2^2$.",
+          "Em quên Viète.",
+          "Em không thấy được $-x_1 - x_2 = -(x_1+x_2)$."
+        ],
+        "dinh_huong": [
+          "Em định nhân tử chung $3 x_1 x_2$ — đúng không?",
+          "Em định gộp $-(x_1+x_2)$ — đúng chứ?",
+          "Em định công thức gọn $A = 3 x_1 x_2 (x_1+x_2) - (x_1+x_2)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = 3$, $x_1 x_2 = 1/2$ — đúng không?",
+          "Em ra $A = 9/2 - 3$ — đúng chưa?",
+          "Em ra $A = 3/2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không phân tích được $3x_1^2 x_2 + 3 x_1 x_2^2 = 3 x_1 x_2(x_1+x_2)$.",
+          "Em quên Viète với $a = 2$.",
+          "Em tính sai $9/2 - 3 = 3/2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép HS thi đấu thể thao",
+      "de_bai": "Biểu đồ cột kép ở hình bên dưới biểu diễn số lượng học sinh tham gia giải thi đấu thể thao cấp Thành phố của một trường trung học cơ sở. Nhà trường cần chọn ra một em bất kì để tham dự \"Lễ tuyên dương thành tích thể thao\".\n\n| Khối | 6 | 7 | 8 | 9 |\n|---|---|---|---|---|\n| Nam | 6 | 9 | 8 | 8 |\n| Nữ | 8 | 7 | 9 | 7 |\n\na) Tính tổng số học sinh tham gia thi đấu thể thao tại trường.\n\nb) Tính xác suất của biến cố $A$: \"Học sinh được chọn là học sinh nam\".\n\nc) Tính xác suất của biến cố $B$: \"Học sinh được chọn đang học lớp 9\".",
+      "phuong_phap_duoc_dung": [
+        "Tổng = 6+8+9+7+8+9+8+7 = 62",
+        "Nam = 6+9+8+8 = 31 → P(A) = 31/62 = 1/2",
+        "Lớp 9 = 8+7 = 15 → P(B) = 15/62"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) 62 HS. b) $P(A) = \\dfrac{1}{2}$. c) $P(B) = \\dfrac{15}{62}$.",
+      "goi_y_cap_1": "Câu a: Tổng = 6+8+9+7+8+9+8+7 = 62.\n\nCâu b: Nam = 6+9+8+8 = 31 → P(A) = 31/62 = 1/2.\n\nCâu c: Lớp 9 = 8+7 = 15 → P(B) = 15/62.",
+      "goi_y_cap_2": "Câu a:\n- Tổng = 6 (nam K6) + 8 (nữ K6) + 9 (nam K7) + 7 (nữ K7) + 8 (nam K8) + 9 (nữ K8) + 8 (nam K9) + 7 (nữ K9) = 62 HS\n\nCâu b:\n- $n(\\Omega) = 62$\n- Số HS nam: 6 + 9 + 8 + 8 = 31\n- $P(A) = 31/62 = 1/2$\n\nCâu c:\n- Số HS lớp 9: 8 (nam) + 7 (nữ) = 15\n- $P(B) = 15/62$",
+      "loi_giai_day_du": "**Câu a) Tổng số học sinh:**\n\nTổng số học sinh tham gia thi đấu thể thao tại trường là:\n$$6 + 8 + 9 + 7 + 8 + 9 + 8 + 7 = \\boxed{62 \\text{ học sinh}}$$\n\n**Câu b) Xác suất biến cố A:**\n\nKhông gian mẫu là tổng số học sinh tham gia thi đấu của trường, suy ra $n(\\Omega) = 62$.\n\nSố học sinh nam tham gia thi đấu là $6 + 9 + 8 + 8 = 31$ (học sinh).\n\nKhả năng thuận lợi của biến cố $A$ là $n(A) = 31$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{31}{62} = \\boxed{\\dfrac{1}{2}}$$\n\n**Câu c) Xác suất biến cố B:**\n\nSố học sinh lớp 9 tham gia thi đấu là $8 + 7 = 15$ (học sinh).\n\nKhả năng thuận lợi của biến cố $B$ là $n(B) = 15$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\boxed{\\dfrac{15}{62}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS tham gia thi đấu thể thao 4 khối 6-9: K6 (Nam 6, Nữ 8); K7 (Nam 9, Nữ 7); K8 (Nam 8, Nữ 9); K9 (Nam 8, Nữ 7).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc biểu đồ cột kép.",
+          "Em không biết phân biệt Nam/Nữ.",
+          "Em không hiểu $n(\\Omega)$."
+        ],
+        "dinh_huong": [
+          "Em định cộng tất cả 8 cột — đúng không?",
+          "Em định đếm riêng nam — đúng chứ?",
+          "Em định lớp 9 = nam + nữ K9 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng 62 HS — đúng không?",
+          "Em ra $P(A) = 1/2$ — đúng chưa?",
+          "Em ra $P(B) = 15/62$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm thiếu hoặc thừa cột.",
+          "Em quên rút gọn $31/62 = 1/2$.",
+          "Em nhầm chỉ nam lớp 9 hoặc chỉ nữ lớp 9."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-41/bai3-bieudokep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Sân cỏ HCN với lối đi 2 cạnh",
+      "de_bai": "Người ta làm một lối đi theo chiều dài và chiều rộng của một sân cỏ hình chữ nhật như hình. Biết rằng lối đi có diện tích bằng $46$ m², sân cỏ có chiều dài $15$ m, chiều rộng $6$ m.\n\na) Viết biểu thức tính diện tích của lối đi.\n\nb) Em hãy tìm chiều rộng $x$ của lối đi.",
+      "phuong_phap_duoc_dung": [
+        "Mảnh đất tổng: chiều dài $x + 15$, chiều rộng $x + 6$",
+        "$S_{tổng} = (x+15)(x+6)$",
+        "$S_{cỏ} = 15 \\cdot 6 = 90$ m²",
+        "$S = (x+15)(x+6) - 90 = x^2 + 21x$",
+        "$x^2 + 21x = 46 \\Rightarrow x^2 + 21x - 46 = 0$",
+        "$x = 2$ (nhận) hoặc $x = -23$ (loại)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = x^2 + 21x$ (m²). b) $x = 2$ m.",
+      "goi_y_cap_1": "Câu a: $S = (x+15)(x+6) - 90 = x^2 + 21x$.\n\nCâu b: $x^2 + 21x = 46 \\Rightarrow x^2 + 21x - 46 = 0 \\Rightarrow x = 2$ (nhận) hoặc -23 (loại).",
+      "goi_y_cap_2": "Câu a:\n- Chiều dài tổng: $x + 15$ (m)\n- Chiều rộng tổng: $x + 6$ (m)\n- $S_{tổng} = (x+15)(x+6)$ m²\n- $S_{cỏ} = 15 \\cdot 6 = 90$ m²\n- $S_{lối} = (x+15)(x+6) - 90 = x^2 + 6x + 15x + 90 - 90 = x^2 + 21x$ m²\n\nCâu b: $S_{lối} = 46$\n- $x^2 + 21x = 46$\n- $x^2 + 21x - 46 = 0$\n- $x = 2$ (nhận, $x > 0$) hoặc $x = -23$ (loại)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích lối đi:**\n\nChiều dài và chiều rộng của toàn bộ mảnh đất (gồm sân cỏ và lối đi) lần lượt là $x + 15$ (m) và $x + 6$ (m).\n\nDiện tích của toàn bộ mảnh đất là $(x + 15)(x + 6)$ (m²).\n\nDiện tích của sân cỏ là $15 \\cdot 6 = 90$ (m²).\n\nBiểu thức tính diện tích của lối đi là:\n$$S = (x+15)(x+6) - 90 = x^2 + 6x + 15x + 90 - 90 = \\boxed{x^2 + 21x}$$\n\n**Câu b) Chiều rộng lối đi:**\n\nVì diện tích lối đi bằng $46$ m² nên ta có phương trình:\n$$x^2 + 21x = 46$$\n$$x^2 + 21x - 46 = 0$$\n$$x = 2 \\text{ hoặc } x = -23$$\n\nVì chiều rộng lối đi phải lớn hơn $0$ nên $x = 2$ (nhận).\n\nVậy chiều rộng $x$ của lối đi là $\\boxed{2 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Sân cỏ HCN 15m × 6m (màu xanh) với lối đi rộng x dọc theo 1 cạnh dài và 1 cạnh ngắn (chữ L).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tách lối đi thành 2 phần.",
+          "Em không biết tính tổng diện tích.",
+          "Em không loại nghiệm âm."
+        ],
+        "dinh_huong": [
+          "Em định mảnh đất tổng là HCN $(x+15) \\times (x+6)$ — đúng không?",
+          "Em định $S_{lối} = S_{tổng} - S_{cỏ}$ — đúng chứ?",
+          "Em định $x^2 + 21x = 46$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = x^2 + 21x$ — đúng không?",
+          "Em ra $x = 2$ — đúng chưa?",
+          "Em loại $x = -23$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không khai triển đúng $(x+15)(x+6)$.",
+          "Em quên trừ 90.",
+          "Em không loại nghiệm âm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-41/bai4-sanco.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Quang gánh 2 thúng gạo + nón gạo vun",
+      "de_bai": "Một người nông dân gánh một quang gánh gồm $2$ thúng gạo có kích thước và chứa lượng gạo hai bên như nhau. Một thúng gạo là nửa hình cầu có đường kính là $40$ cm và để có thể đem được nhiều gạo hơn, người dân mới đổ đầy gạo vào thúng và vun gạo lên trên thành một hình nón có chiều cao $15$ cm.\n\na) Tính lượng gạo trong $1$ thúng của quang gánh (làm tròn đến chữ số thập phân thứ nhất).\n\nb) Người nông dân dùng lon sữa bò có dạng hình trụ có bán kính đáy $4$ cm, chiều cao bằng $10$ cm để đong gạo vào thúng. Mỗi lần đong được lượng gạo bằng $95\\%$ thể tích lon. Hỏi người nông dân cần đong ít nhất bao nhiêu lon gạo để đủ gạo cho quang gánh như trên? Biết công thức tính thể tích hình nón $V = \\dfrac{1}{3}\\pi R^2 h$; thể tích hình cầu $V = \\dfrac{4}{3}\\pi R^3$; thể tích hình trụ $V = \\pi R^2 h$.",
+      "phuong_phap_duoc_dung": [
+        "$R = 40/2 = 20$ cm",
+        "$V_1$ (nửa cầu) = $\\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi \\cdot 20^3 = \\dfrac{16000}{3}\\pi$ cm³",
+        "$V_2$ (nón) = $\\dfrac{1}{3}\\pi \\cdot 20^2 \\cdot 15 = 2000\\pi$ cm³",
+        "$V$ (1 thúng) = $\\dfrac{16000}{3}\\pi + 2000\\pi = \\dfrac{22000}{3}\\pi \\approx 23038{,}3$ cm³",
+        "$V_3$ (lon) = $\\pi \\cdot 4^2 \\cdot 10 = 160\\pi$ cm³",
+        "Lượng đong/lần = $160\\pi \\cdot 95\\% = 152\\pi$ cm³",
+        "2 thúng = $\\dfrac{44000}{3}\\pi$ cm³",
+        "Số lon = $\\dfrac{44000\\pi/3}{152\\pi} \\approx 96{,}49$ → 97 lon"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích nửa hình cầu",
+        "Thể tích hình nón",
+        "Thể tích hình trụ"
+      ],
+      "dap_so": "a) $V \\approx 23\\,038{,}3$ cm³. b) Cần ít nhất $97$ lon.",
+      "goi_y_cap_1": "Câu a: $R = 20$. $V_1 = \\dfrac{16000}{3}\\pi$. $V_2 = 2000\\pi$. $V = \\dfrac{22000}{3}\\pi \\approx 23038,3$ cm³.\n\nCâu b: $V_3 = 160\\pi$. Mỗi lon đong = $152\\pi$. 2 thúng = $\\dfrac{44000}{3}\\pi$. Số lon = $\\dfrac{44000\\pi/3}{152\\pi} \\approx 96,49$ → 97 lon.",
+      "goi_y_cap_2": "Câu a:\n- $R = 40/2 = 20$ cm (nửa cầu và đáy nón)\n- $V_1 = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 20^3 = \\dfrac{16000}{3}\\pi$ cm³\n- $V_2 = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi \\cdot 20^2 \\cdot 15 = 2000\\pi$ cm³\n- $V$ (1 thúng) = $V_1 + V_2 = \\dfrac{16000}{3}\\pi + 2000\\pi = \\dfrac{22000}{3}\\pi \\approx 23\\,038{,}3$ cm³\n\nCâu b:\n- $V_3$ (1 lon) = $\\pi \\cdot 4^2 \\cdot 10 = 160\\pi$ cm³\n- Lượng gạo thực tế đong/lần = $160\\pi \\cdot 95\\% = 152\\pi$ cm³\n- Tổng lượng gạo cần (2 thúng) = $2V = \\dfrac{44000}{3}\\pi$ cm³\n- Số lon cần = $\\dfrac{44000\\pi/3}{152\\pi} = \\dfrac{44000}{3 \\cdot 152} \\approx 96{,}49$\n- Vì cần đủ gạo nên cần ít nhất 97 lon",
+      "loi_giai_day_du": "**Câu a) Lượng gạo trong 1 thúng:**\n\nBán kính của nửa hình cầu và hình nón là $R = \\dfrac{40}{2} = 20$ (cm).\n\nThể tích phần gạo chứa trong nửa hình cầu là:\n$$V_1 = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 20^3 = \\dfrac{16000}{3}\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích phần gạo vun lên thành hình nón là:\n$$V_2 = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi \\cdot 20^2 \\cdot 15 = 2000\\pi \\text{ (cm}^3\\text{)}$$\n\nLượng gạo trong 1 thúng là:\n$$V = V_1 + V_2 = \\dfrac{16000}{3}\\pi + 2000\\pi = \\dfrac{22000}{3}\\pi \\approx \\boxed{23\\,038{,}3 \\text{ cm}^3}$$\n\n**Câu b) Số lon cần đong:**\n\nThể tích của một lon sữa bò hình trụ là:\n$$V_3 = \\pi r^2 h = \\pi \\cdot 4^2 \\cdot 10 = 160\\pi \\text{ (cm}^3\\text{)}$$\n\nLượng gạo thực tế đong được trong mỗi lần (chiếm $95\\%$ thể tích lon) là:\n$$160\\pi \\cdot 95\\% = 152\\pi \\text{ (cm}^3\\text{)}$$\n\nTổng lượng gạo cần đong cho quang gánh (gồm $2$ thúng) là:\n$$2V = 2 \\cdot \\dfrac{22000}{3}\\pi = \\dfrac{44000}{3}\\pi \\text{ (cm}^3\\text{)}$$\n\nSố lần (lon) cần đong là:\n$$\\dfrac{44000\\pi}{3} : 152\\pi \\approx 96{,}49 \\text{ (lon)}$$\n\nVì số lon đong phải là số nguyên và cần đong đủ gạo nên cần ít nhất $97$ lon.\n\nVậy người nông dân cần đong ít nhất $\\boxed{97 \\text{ lon}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Quang gánh 2 thúng + thúng gạo dạng nửa cầu đường kính 40cm + vun nón cao 15cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ V nửa cầu.",
+          "Em không hiểu '95% thể tích lon'.",
+          "Em không biết phải làm tròn lên cho số lon."
+        ],
+        "dinh_huong": [
+          "Em định $V_1 = \\dfrac{2}{3}\\pi R^3$ (nửa cầu) — đúng không?",
+          "Em định cộng $V_2$ là V nón — đúng chứ?",
+          "Em định lon đong = $0{,}95 \\cdot V_{lon}$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V \\approx 23038,3$ cm³ — đúng không?",
+          "Em ra số lon ≈ 96,49 — đúng chưa?",
+          "Em ra cần 97 lon — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên là 1 thúng × 2 = quang gánh.",
+          "Em làm tròn xuống 96 (sai - phải làm tròn lên).",
+          "Em quên 95% thể tích lon."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-41/bai5-quanggang.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Lớp 9A xếp thiệp + hạc tặng An",
+      "de_bai": "Lớp 9A có $27$ học sinh nam và $18$ học sinh nữ. Nhân dịp sinh nhật của bạn An (là một thành viên của lớp), các bạn trong lớp có rất nhiều món quà tặng An. Mỗi bạn nam của lớp làm $3$ tấm thiệp và mỗi bạn nữ xếp $2$ hoặc $5$ con hạc để tặng bạn An. Biết số tấm thiệp và số con hạc bằng nhau, An là học sinh Nam. Hỏi có bao nhiêu bạn nữ xếp $2$ con hạc, bao nhiêu bạn nữ xếp $5$ con hạc?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ là số nữ xếp 2 hạc, $y$ là số nữ xếp 5 hạc",
+        "$x + y = 18$",
+        "An là nam → 26 nam còn lại làm thiệp: $26 \\cdot 3 = 78$ tấm",
+        "Số hạc: $2x + 5y = 78$",
+        "Hệ → $x = 4, y = 14$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất"
+      ],
+      "dap_so": "$4$ bạn nữ xếp 2 con hạc, $14$ bạn nữ xếp 5 con hạc.",
+      "goi_y_cap_1": "Gọi $x, y$ là số nữ xếp 2 và 5 hạc. Hệ: $x+y = 18$ và $2x + 5y = 78$ (vì 26 nam × 3 = 78 thiệp = số hạc) → $x = 4, y = 14$.",
+      "goi_y_cap_2": "- Gọi $x$ (bạn) là số nữ xếp 2 con hạc, $y$ (bạn) là số nữ xếp 5 con hạc ($x, y \\in \\mathbb{N}$)\n- Số nữ tổng: $x + y = 18$ (1)\n- An là nam → số HS nam tham gia làm thiệp = $27 - 1 = 26$\n- Tổng số tấm thiệp = $26 \\cdot 3 = 78$\n- Số con hạc: $2x + 5y$\n- Vì số tấm thiệp = số con hạc: $2x + 5y = 78$ (2)\n- Hệ: $\\begin{cases} x + y = 18 \\\\ 2x + 5y = 78 \\end{cases} \\Rightarrow \\begin{cases} x = 4 \\\\ y = 14 \\end{cases}$",
+      "loi_giai_day_du": "Gọi $x$ (bạn) là số bạn nữ xếp 2 con hạc, $y$ (bạn) là số bạn nữ xếp 5 con hạc ($x, y \\in \\mathbb{N}$).\n\nSố con hạc loại do các bạn xếp 2 con tạo ra là $2x$ (con).\nSố con hạc loại do các bạn xếp 5 con tạo ra là $5y$ (con).\n\nVì tổng số bạn nữ trong lớp là $18$ bạn nên ta có phương trình:\n$$x + y = 18$$\n\nVì An là học sinh nam nên số học sinh nam tham gia làm thiệp tặng quà là $27 - 1 = 26$ (bạn).\n\nTổng số tấm thiệp các bạn nam làm là $26 \\cdot 3 = 78$ (tấm).\n\nVì tổng số con hạc các bạn nữ xếp bằng tổng số tấm thiệp nên ta có phương trình:\n$$2x + 5y = 78$$\n\nTa có hệ phương trình:\n$$\\begin{cases} x + y = 18 \\\\ 2x + 5y = 78 \\end{cases} \\Rightarrow \\begin{cases} x = 4 \\\\ y = 14 \\end{cases}$$\n\nVậy số bạn nữ xếp 2 con hạc là $\\boxed{4 \\text{ bạn}}$ và số bạn nữ xếp 5 con hạc là $\\boxed{14 \\text{ bạn}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'An là học sinh Nam' → 26 nam còn lại.",
+          "Em không nhớ tổng số nữ là 18.",
+          "Em không biết bắt đầu lập phương trình."
+        ],
+        "dinh_huong": [
+          "Em định $x + y = 18$ (tổng nữ) — đúng không?",
+          "Em định $26 \\cdot 3 = 78$ thiệp — đúng chứ?",
+          "Em định $2x + 5y = 78$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ 2 phương trình bậc nhất — đúng không?",
+          "Em ra $x = 4, y = 14$ — đúng chưa?",
+          "Em ra 4 nữ xếp 2 hạc, 14 nữ xếp 5 hạc — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không trừ 1 cho An (làm 27 thay vì 26).",
+          "Em nhầm số thiệp với số hạc.",
+          "Em không lập đúng phương trình thứ 2."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn (O) + đường thẳng d, K ngoài đường tròn",
+      "de_bai": "Cho đường tròn $(O; R)$ và một đường thẳng $d$ không cắt $(O; R)$. Dựng đường thẳng $OH$ vuông góc với đường thẳng $d$ tại điểm $H$. Trên đường thẳng $d$ lấy điểm $K$ (khác điểm $H$), qua $K$ vẽ hai tiếp tuyến $KA$ và $KB$ của $(O; R)$, ($A$ và $B$ là các tiếp điểm) sao cho $A$ và $H$ nằm về hai phía của đường thẳng $OK$.\n\na) Chứng minh tứ giác $KAOH$ nội tiếp đường tròn.\n\nb) Đường thẳng $AB$ cắt đường thẳng $OH$ tại điểm $I$. Chứng minh rằng: $IA \\cdot IB = IH \\cdot IO$.\n\nc) Khi $OK = 2R, OH = R\\sqrt{3}$. Tính diện tích $\\triangle KAB$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "△KAO vuông A (KA tiếp tuyến) → nội tiếp đường kính KO",
+        "△KHO vuông H (OH ⊥ d) → nội tiếp đường kính KO → KAOH nội tiếp",
+        "△KBO vuông B → nội tiếp đường kính KO → AOHB cùng đường tròn đường kính KO",
+        "△IAH ~ △IOB (g-g, AIH = BIO đối đỉnh, IHA = IBO cùng chắn cung AO) → $IA \\cdot IB = IH \\cdot IO$",
+        "Câu c: M giao OK với AB. KA = KB, OA = OB → OK trung trực AB → OK ⊥ AB tại M",
+        "△OMA ~ △OAK (g-g, AOK chung, OMA = OAK = 90°) → $OM \\cdot OK = OA^2 \\Rightarrow OM = R/2$",
+        "$KM = OK - OM = 2R - R/2 = 3R/2$",
+        "△OAK vuông A: $AK^2 = OK^2 - OA^2 = 4R^2 - R^2 = 3R^2 \\Rightarrow AK = R\\sqrt 3$",
+        "Tỉ số $\\dfrac{AM}{AK} = \\dfrac{OA}{OK} \\Rightarrow AM = \\dfrac{OA \\cdot AK}{OK} = \\dfrac{R \\cdot R\\sqrt 3}{2R} = \\dfrac{R\\sqrt 3}{2}$",
+        "$AB = 2 AM = R\\sqrt 3$",
+        "$S_{KAB} = \\dfrac{1}{2} KM \\cdot AB = \\dfrac{1}{2} \\cdot \\dfrac{3R}{2} \\cdot R\\sqrt 3 = \\dfrac{3R^2\\sqrt 3}{4}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tam giác đồng dạng",
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "c) $S_{KAB} = \\dfrac{3R^2\\sqrt{3}}{4}$.",
+      "goi_y_cap_1": "Câu a: △KAO vuông A, △KHO vuông H → đồng viên đường kính KO → KAOH nội tiếp.\n\nCâu b: △KBO vuông B → A, K, O, H, B đồng viên. △IAH ~ △IOB (g-g) → $IA \\cdot IB = IH \\cdot IO$.\n\nCâu c: $KA = KB, OA = OB \\Rightarrow OK$ trung trực $AB \\Rightarrow OK \\perp AB$ tại M. △OMA ~ △OAK (g-g) → $OM = R/2$. $KM = 3R/2$. $AK = R\\sqrt 3$. $AM = R\\sqrt 3/2$. $AB = R\\sqrt 3$. $S = \\dfrac{1}{2} \\cdot 3R/2 \\cdot R\\sqrt 3 = 3R^2\\sqrt 3/4$.",
+      "goi_y_cap_2": "Câu a:\n- △KAO vuông tại A (KA tiếp tuyến) → nội tiếp đường tròn đường kính KO (1)\n- △KHO vuông tại H (OH ⊥ d) → nội tiếp đường tròn đường kính KO (2)\n- (1)(2): K, A, O, H đồng viên đường kính KO → KAOH nội tiếp\n\nCâu b:\n- △KBO vuông tại B (KB tiếp tuyến) → nội tiếp đường tròn đường kính KO (3)\n- (1)(2)(3): K, A, O, B, H cùng đường tròn đường kính KO\n- → AOHB nội tiếp\n- Xét △IAH và △IOB:\n  - $\\widehat{AIH} = \\widehat{BIO}$ (đối đỉnh)\n  - $\\widehat{IHA} = \\widehat{IBO}$ (cùng chắn cung AO trong đường tròn AOHB nội tiếp)\n  - → △IAH ~ △IOB (g-g)\n- → $\\dfrac{IA}{IO} = \\dfrac{IH}{IB} \\Rightarrow IA \\cdot IB = IH \\cdot IO$\n\nCâu c:\n- M là giao của OK và AB\n- $KA = KB$ (2 tiếp tuyến cắt nhau), $OA = OB = R$ → OK trung trực AB → OK ⊥ AB tại M\n- △OMA ~ △OAK (g-g, AOK chung, OMA = OAK = 90°) → $OM \\cdot OK = OA^2$\n- Thay số: $OM \\cdot 2R = R^2 \\Rightarrow OM = R/2$\n- $KM = OK - OM = 2R - R/2 = 3R/2$\n- △OAK vuông A: $AK^2 = OK^2 - OA^2 = (2R)^2 - R^2 = 3R^2 \\Rightarrow AK = R\\sqrt 3$\n- Từ △OMA ~ △OAK: $\\dfrac{AM}{AK} = \\dfrac{OA}{OK} \\Rightarrow AM = \\dfrac{R \\cdot R\\sqrt 3}{2R} = \\dfrac{R\\sqrt 3}{2}$\n- M trung điểm AB: $AB = 2AM = R\\sqrt 3$\n- $S_{KAB} = \\dfrac{1}{2} \\cdot KM \\cdot AB = \\dfrac{1}{2} \\cdot \\dfrac{3R}{2} \\cdot R\\sqrt 3 = \\dfrac{3R^2\\sqrt 3}{4}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh KAOH nội tiếp:**\n\nTa có $KA$ là tiếp tuyến của $(O)$ tại $A \\Rightarrow KA \\perp OA$ tại $A$.\n\n△KAO vuông tại A (do $KA \\perp OA$) → nội tiếp đường tròn đường kính KO (1).\n\nTa có $OH \\perp d$ tại $H \\Rightarrow \\widehat{KHO} = 90°$.\n\n△KHO vuông tại H (do $\\widehat{KHO} = 90°$) → nội tiếp đường tròn đường kính KO (2).\n\nTừ (1) và (2): 4 điểm $K, A, O, H$ cùng thuộc một đường tròn đường kính $KO$. Suy ra tứ giác $KAOH$ nội tiếp.\n\n**Câu b) Chứng minh $IA \\cdot IB = IH \\cdot IO$:**\n\nTa có $KB$ là tiếp tuyến của $(O)$ tại $B \\Rightarrow KB \\perp OB$ tại $B$.\n\n△KBO vuông tại B (do $KB \\perp OB$) → nội tiếp đường tròn đường kính KO (3).\n\nTừ (1), (2), (3): $K, A, O, B, H$ cùng thuộc một đường tròn đường kính $KO$. Suy ra tứ giác $AOHB$ nội tiếp.\n\nXét △IAH và △IOB:\n$\\begin{cases} \\widehat{AIH} = \\widehat{BIO} \\text{ (đối đỉnh)} \\\\ \\widehat{IHA} = \\widehat{IBO} = \\dfrac{1}{2}\\overset{\\frown}{AO} \\end{cases}$\n\n$\\Rightarrow \\triangle IAH \\sim \\triangle IOB$ (g-g)\n\n$\\Rightarrow \\dfrac{IA}{IO} = \\dfrac{IH}{IB} \\Rightarrow IA \\cdot IB = IH \\cdot IO$. □\n\n**Câu c) Diện tích △KAB:**\n\nGọi $M$ là giao điểm của $OK$ và $AB$.\n\nTa có $\\begin{cases} KA = KB \\text{ (2 tiếp tuyến cắt nhau)} \\\\ OA = OB = R \\end{cases}$\n\n$\\Rightarrow OK$ là trung trực của $AB$ $\\Rightarrow OK \\perp AB$ tại $M$.\n\nXét △OMA và △OAK:\n$\\begin{cases} \\widehat{AOK} \\text{ chung} \\\\ \\widehat{OMA} = \\widehat{OAK} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle OMA \\sim \\triangle OAK$ (g-g)\n\n$\\Rightarrow \\dfrac{OM}{OA} = \\dfrac{OA}{OK} \\Rightarrow OM \\cdot OK = OA^2$\n\nThay số: $OM \\cdot 2R = R^2 \\Rightarrow OM = \\dfrac{R}{2}$.\n\nTa có $KM = OK - OM = 2R - \\dfrac{R}{2} = \\dfrac{3R}{2}$.\n\n△OAK vuông tại A:\n$$OK^2 = OA^2 + AK^2 \\text{ (Pythagore)}$$\n$$AK^2 = (2R)^2 - R^2 = 3R^2$$\n$$AK = R\\sqrt 3$$\n\nTừ $\\triangle OMA \\sim \\triangle OAK \\Rightarrow \\dfrac{AM}{AK} = \\dfrac{OA}{OK} \\Rightarrow AM = \\dfrac{OA \\cdot AK}{OK}$.\n\nThay số: $AM = \\dfrac{R \\cdot R\\sqrt 3}{2R} = \\dfrac{R\\sqrt 3}{2}$.\n\nVì $OK$ là trung trực của $AB$ nên $M$ là trung điểm của $AB$:\n$$AB = 2AM = R\\sqrt 3$$\n\nDiện tích △KAB là:\n$$S = \\dfrac{1}{2} \\cdot KM \\cdot AB = \\dfrac{1}{2} \\cdot \\dfrac{3R}{2} \\cdot R\\sqrt 3 = \\boxed{\\dfrac{3R^2\\sqrt 3}{4}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), d không cắt (O). OH ⊥ d tại H. K trên d, KA, KB tiếp tuyến tại A, B. AB cắt OH tại I. M là giao OK và AB.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được KAOH có 2 góc vuông.",
+          "Câu b em không thấy 5 điểm cùng đường tròn.",
+          "Câu c em không tính được OM."
+        ],
+        "dinh_huong": [
+          "Câu a em định KAOH đồng viên đường kính KO — đúng không?",
+          "Câu b em định △IAH ~ △IOB (g-g) — đúng chứ?",
+          "Câu c em định $OM \\cdot OK = OA^2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra KAOH nội tiếp — đúng không?",
+          "Em ra $IA \\cdot IB = IH \\cdot IO$ — đúng chưa?",
+          "Em ra $S_{KAB} = 3R^2\\sqrt 3/4$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được B cũng nằm trên đường tròn đường kính KO.",
+          "Em không tính được AB qua tỉ số đồng dạng.",
+          "Em quên rằng M là trung điểm AB."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-41/bai7-duongtron.png"
+    }
+  ]
+}
