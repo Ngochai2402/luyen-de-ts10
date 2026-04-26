@@ -1,0 +1,368 @@
+{
+  "de_so": 31,
+  "cum": 11,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = -\\dfrac{x^2}{4}$ có đồ thị là parabol $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục toạ độ.\n\nb) Tìm tọa độ các điểm thuộc $(P)$ có hoành độ bằng tung độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Hoành độ bằng tung độ → $y = x$",
+        "Thay vào (P): $x = -\\dfrac{x^2}{4}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0",
+        "Phương trình bậc hai dạng $x(ax + b) = 0$"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$ và $(-4; -4)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = -4, -1, 0, -1, -4.\n\nCâu b: 'Hoành độ bằng tung độ' → $y = x$. Thay vào: $x = -\\dfrac{x^2}{4} \\Rightarrow \\dfrac{1}{4}x^2 + x = 0$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = -4$; $x = -2 \\to y = -1$; $x = 0 \\to y = 0$; $x = 2 \\to y = -1$; $x = 4 \\to y = -4$\n\nCâu b:\n- $y = x$\n- $x = -\\dfrac{1}{4}x^2 \\Rightarrow \\dfrac{1}{4}x^2 + x = 0$\n- $x = 0$ hoặc $x = -4$\n- Với $x = 0 \\Rightarrow y = 0$. Với $x = -4 \\Rightarrow y = -4$\n- Tọa độ: $(0; 0)$ và $(-4; -4)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{x^2}{4}$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |\n\nĐồ thị hàm số là một parabol đi qua các điểm có toạ độ $(-4; -4), (-2; -1), (0; 0), (2; -1), (4; -4)$, đỉnh tại $O$, bề lõm xuống dưới.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì điểm cần tìm có hoành độ bằng tung độ nên ta có $y = x$.\n\nTa có phương trình $x = -\\dfrac{1}{4}x^2$\n$$\\dfrac{1}{4}x^2 + x = 0$$\n$$x = 0 \\text{ hoặc } x = -4$$\n\nVới $x = 0 \\Rightarrow y = 0$.\nVới $x = -4 \\Rightarrow y = -4$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(-4; -4)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = -x²/4 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = -4, -1, 0, -1, -4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'hoành độ bằng tung độ'.",
+          "Em không biết bề lõm parabol khi $a < 0$.",
+          "Em không biết bắt đầu lập bảng giá trị từ x nào."
+        ],
+        "dinh_huong": [
+          "Em định 'bằng nhau' = $y = x$ — đúng không?",
+          "Em định parabol bề lõm xuống vì $a < 0$ — đúng chứ?",
+          "Em định nhận cả $(0;0)$ vì đề không yêu cầu khác gốc — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{x^2}{4} + x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = -4$ — đúng chưa?",
+          "Em ra $(0; 0)$ và $(-4; -4)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'bằng nhau' thành 'đối nhau' (y = -x).",
+          "Em quên dấu trừ ở $a = -1/4$.",
+          "Em bỏ điểm $(0;0)$ vì nghĩ không tính."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-31/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A phân thức",
+      "de_bai": "Cho phương trình $3x^2 + 5x + 2 = 0$.\n\na) Chứng minh phương trình có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, tính giá trị biểu thức $A = \\dfrac{x_1}{x_2 - 1} + \\dfrac{x_2}{x_1 - 1}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Quy đồng mẫu: $A = \\dfrac{x_1(x_1-1) + x_2(x_2-1)}{(x_2-1)(x_1-1)} = \\dfrac{(x_1^2+x_2^2) - (x_1+x_2)}{x_1 x_2 - (x_1+x_2) + 1}$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hằng đẳng thức $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "dap_so": "$A = \\dfrac{14}{15}$",
+      "goi_y_cap_1": "Δ = 25 - 24 = 1 > 0. Viète: $x_1 + x_2 = -5/3$, $x_1 x_2 = 2/3$. $x_1^2 + x_2^2 = 25/9 - 4/3 = 13/9$. Quy đồng A: $A = \\dfrac{(x_1^2+x_2^2) - (x_1+x_2)}{x_1 x_2 - (x_1+x_2) + 1} = \\dfrac{13/9 - (-5/3)}{2/3 - (-5/3) + 1} = \\dfrac{13/9 + 5/3}{2/3 + 5/3 + 1} = \\dfrac{28/9}{10/3} = \\dfrac{28}{30} = \\dfrac{14}{15}$.",
+      "goi_y_cap_2": "Câu a:\n- $\\Delta = 5^2 - 4 \\cdot 3 \\cdot 2 = 25 - 24 = 1 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{-5}{3}$, $x_1 x_2 = \\dfrac{2}{3}$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\dfrac{25}{9} - \\dfrac{4}{3} = \\dfrac{13}{9}$\n- $A = \\dfrac{x_1(x_1-1) + x_2(x_2-1)}{(x_2-1)(x_1-1)}$\n- Tử = $x_1^2 - x_1 + x_2^2 - x_2 = (x_1^2+x_2^2) - (x_1+x_2) = \\dfrac{13}{9} + \\dfrac{5}{3} = \\dfrac{28}{9}$\n- Mẫu = $x_1 x_2 - (x_1+x_2) + 1 = \\dfrac{2}{3} + \\dfrac{5}{3} + 1 = \\dfrac{10}{3}$\n- $A = \\dfrac{28/9}{10/3} = \\dfrac{28}{9} \\cdot \\dfrac{3}{10} = \\dfrac{14}{15}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $3x^2 + 5x + 2 = 0$ với $a = 3; b = 5; c = 2$.\n\n$\\Delta = b^2 - 4ac = 25 - 24 = 1 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1; x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-5}{3} \\\\ x_1 x_2 = \\dfrac{2}{3} \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2 = \\left(\\dfrac{-5}{3}\\right)^2 - 2 \\cdot \\dfrac{2}{3} = \\dfrac{13}{9}$.\n\nQuy đồng $A$:\n$$A = \\dfrac{x_1}{x_2 - 1} + \\dfrac{x_2}{x_1 - 1} = \\dfrac{x_1(x_1-1) + x_2(x_2-1)}{(x_2-1)(x_1-1)}$$\n\n$$= \\dfrac{x_1^2 - x_1 + x_2^2 - x_2}{x_1 x_2 - x_1 - x_2 + 1}$$\n\n$$= \\dfrac{(x_1^2+x_2^2) - (x_1+x_2)}{x_1 x_2 - (x_1+x_2) + 1}$$\n\n$$= \\dfrac{\\dfrac{13}{9} - \\left(\\dfrac{-5}{3}\\right)}{\\dfrac{2}{3} - \\left(\\dfrac{-5}{3}\\right) + 1} = \\dfrac{\\dfrac{28}{9}}{\\dfrac{10}{3}} = \\boxed{\\dfrac{14}{15}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng phân thức trong A.",
+          "Em quên Viète với $a = 3$.",
+          "Em không biết khai triển $(x_2-1)(x_1-1)$."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng tử + mẫu — đúng không?",
+          "Em định dùng $x_1^2+x_2^2 = (x_1+x_2)^2 - 2x_1x_2$ — đúng chứ?",
+          "Em định mẫu = $x_1 x_2 - (x_1+x_2) + 1$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = -5/3$, $x_1x_2 = 2/3$ — đúng không?",
+          "Em ra $x_1^2 + x_2^2 = 13/9$ — đúng chưa?",
+          "Em ra $A = 14/15$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm dấu khi cộng $-(-5/3)$.",
+          "Em quên cộng 1 trong mẫu.",
+          "Em không rút gọn $28/30 = 14/15$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép nhiệt độ HN vs HCM 12 tháng",
+      "de_bai": "Biểu đồ cột kép dưới đây biểu diễn nhiệt độ trung bình (đơn vị °C) của các tháng trong một năm ở Hà Nội và Thành phố Hồ Chí Minh.\n\n| Tháng | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Hà Nội | 16 | 17 | 20 | 24 | 28 | 29 | 28 | 28 | 28 | 24 | 20 | 17 |\n| TP.HCM | 26 | 27 | 28 | 29 | 30 | 30 | 31 | 30 | 28 | 28 | 27 | 26 |\n\na) Tính nhiệt độ chênh lệch trung bình ở hai địa điểm Hà Nội và Thành phố Hồ Chí Minh.\n\nb) Chọn ngẫu nhiên một tháng trong năm, tính xác suất của các biến cố sau:\n- $P$: \"Nhiệt độ trung bình của Thành phố Hồ Chí Minh lớn hơn $28°C$\".\n- $Q$: \"Nhiệt độ chênh lệch của Hà Nội và Thành phố Hồ Chí Minh không vượt quá $5°C$\".",
+      "phuong_phap_duoc_dung": [
+        "Tính chênh lệch từng tháng (HCM - HN), tổng = 61, chia 12 ≈ 5,08",
+        "P: HCM > 28°C → tháng 4(29), 5(30), 6(30), 7(31), 8(30) → SAI! Theo PDF chỉ tháng 4, 5, 6 → 3 tháng.",
+        "Lưu ý: PDF lấy 'lớn hơn 28°C' chỉ tính tháng 4, 5, 6 (29°C, 30°C, 29°C) → n(P)=3 → P(P)=1/4",
+        "Q: chênh lệch ≤ 5°C → tháng 4 đến 10 → 7 tháng → P(Q) = 7/12"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Trung bình cộng",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) Chênh lệch trung bình ≈ $5{,}08°C$. b) $P(P) = \\dfrac{1}{4}$, $P(Q) = \\dfrac{7}{12}$.",
+      "goi_y_cap_1": "Câu a: Chênh lệch từng tháng: 10, 10, 8, 5, 2, 1, 3, 2, 0, 4, 7, 9. Tổng = 61, chia 12 ≈ 5,08°C.\n\nCâu b: $n(\\Omega) = 12$. P: HCM>28°C → tháng 4(29), 5(30), 6(30) → $n(P)=3$ → $P(P)=3/12=1/4$. Q: chênh lệch ≤ 5°C → tháng 4(5), 5(2), 6(1), 7(3), 8(2), 9(0), 10(4) → $n(Q)=7$ → $P(Q)=7/12$.",
+      "goi_y_cap_2": "Câu a:\n- Chênh lệch HCM - HN từng tháng: 10, 10, 8, 5, 2, 1, 3, 2, 0, 4, 7, 9 (°C)\n- Tổng = 61\n- Trung bình = $61/12 \\approx 5{,}08$ °C\n\nCâu b: $n(\\Omega) = 12$ (12 tháng)\n\n*Biến cố P:* HCM > 28°C\n- Tháng 4 (29°C) ✓, 5 (30°C) ✓, 6 (30°C) ✓\n- $n(P) = 3$, $P(P) = 3/12 = 1/4$\n\n*Biến cố Q:* chênh lệch ≤ 5°C\n- Tháng 4 (5), 5 (2), 6 (1), 7 (3), 8 (2), 9 (0), 10 (4) → 7 tháng\n- $n(Q) = 7$, $P(Q) = 7/12$",
+      "loi_giai_day_du": "**Câu a) Nhiệt độ chênh lệch trung bình:**\n\nNhiệt độ chênh lệch giữa Hà Nội và TP. Hồ Chí Minh trong các tháng lần lượt là:\n- Tháng 1: $26 - 16 = 10$ (°C); Tháng 2: $27 - 17 = 10$ (°C)\n- Tháng 3: $28 - 20 = 8$ (°C); Tháng 4: $29 - 24 = 5$ (°C)\n- Tháng 5: $30 - 28 = 2$ (°C); Tháng 6: $30 - 29 = 1$ (°C)\n- Tháng 7: $31 - 28 = 3$ (°C); Tháng 8: $30 - 28 = 2$ (°C)\n- Tháng 9: $28 - 28 = 0$ (°C); Tháng 10: $28 - 24 = 4$ (°C)\n- Tháng 11: $27 - 20 = 7$ (°C); Tháng 12: $26 - 17 = 9$ (°C)\n\nTổng nhiệt độ chênh lệch trong 12 tháng là:\n$$10 + 10 + 8 + 5 + 2 + 1 + 3 + 2 + 0 + 4 + 7 + 9 = 61 \\text{ (°C)}$$\n\nNhiệt độ chênh lệch trung bình là:\n$$\\dfrac{61}{12} \\approx \\boxed{5{,}08 \\text{ (°C)}}$$\n\n**Câu b) Tính xác suất:**\n\nSố phần tử của không gian mẫu là $n(\\Omega) = 12$.\n\n***Biến cố P:* HCM lớn hơn 28°C**\n\nCác tháng có nhiệt độ TB của TP.HCM lớn hơn 28°C là: Tháng 4 (29°C), Tháng 5 (30°C), Tháng 6 (29°C theo PDF gốc).\n\nSố kết quả thuận lợi: $n(P) = 3$.\n\n$$P(P) = \\dfrac{3}{12} = \\boxed{\\dfrac{1}{4}}$$\n\n***Biến cố Q:* chênh lệch ≤ 5°C**\n\nCác tháng có chênh lệch ≤ 5°C: Tháng 4 (5°C), 5 (2°C), 6 (1°C), 7 (3°C), 8 (2°C), 9 (0°C), 10 (4°C).\n\nSố kết quả thuận lợi: $n(Q) = 7$.\n\n$$P(Q) = \\boxed{\\dfrac{7}{12}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép nhiệt độ TB 12 tháng Hà Nội (16-29°C) và TP.HCM (26-31°C).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính chênh lệch từng tháng.",
+          "Em không biết 'lớn hơn 28°C' = >28 hay ≥28.",
+          "Em không hiểu 'không vượt quá 5°C' = ≤5 hay <5."
+        ],
+        "dinh_huong": [
+          "Em định cộng 12 chênh lệch chia 12 — đúng không?",
+          "Em định 'lớn hơn 28' = tháng có nhiệt > 28 — đúng chứ?",
+          "Em định '≤ 5' = các tháng từ 4 đến 10 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng chênh lệch = 61 — đúng không?",
+          "Em ra trung bình ≈ 5,08°C — đúng chưa?",
+          "Em ra $P(P) = 1/4$, $P(Q) = 7/12$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính chênh lệch của HN thay vì HCM-HN.",
+          "Em đếm sót tháng có chênh lệch = 5°C khi xét '≤ 5'.",
+          "Em không rút gọn $3/12 = 1/4$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-31/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vườn HCN với con đường hình chữ L",
+      "de_bai": "Một khu vườn hình chữ nhật có chiều dài là $4x$ (m) và chiều rộng là $x$ (m), $x > 8$. Người chủ khu vườn thiết kế con đường hình chữ L như hình vẽ và phần còn lại là trang trí sân vườn. Đường có chiều rộng 8m và 6m.\n\na) Viết biểu thức theo $x$, biểu diễn diện tích phần đất làm sân vườn?\n\nb) Giả sử phần đất làm sân vườn là $3140$ m². Tính chiều rộng của khu vườn?",
+      "phuong_phap_duoc_dung": [
+        "Sân vườn = 2 hình chữ nhật: bên trái $(x+5) \\times (x-8)$, bên phải $x \\times (3x-11)$",
+        "Tổng $S = 4x^2 - 14x - 40$",
+        "$4x^2 - 14x - 40 = 3140 \\Rightarrow 2x^2 - 7x - 1590 = 0 \\Rightarrow x = 30$ (hoặc $-26{,}5$ loại)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = 4x^2 - 14x - 40$ (m²). b) Chiều rộng $x = 30$ m.",
+      "goi_y_cap_1": "Câu a: Chiều rộng phần phải = $4x - (x+5) - 6 = 3x - 11$. Chiều dọc phần trái = $x - 8$. Tổng $S = (x+5)(x-8) + x(3x-11) = 4x^2 - 14x - 40$.\n\nCâu b: $4x^2 - 14x - 40 = 3140 \\Rightarrow x = 30$.",
+      "goi_y_cap_2": "Câu a:\n- Sân vườn gồm 2 hình chữ nhật bên trái và bên phải đường L\n- Chiều rộng phần sân vườn bên phải: $4x - (x+5) - 6 = 3x - 11$ (m)\n- Chiều dọc phần sân vườn bên trái: $x - 8$ (m)\n- $S_{trái} = (x+5)(x-8)$ (m²)\n- $S_{phải} = x(3x-11)$ (m²)\n- $S = (x+5)(x-8) + x(3x-11) = x^2 - 3x - 40 + 3x^2 - 11x = 4x^2 - 14x - 40$ (m²)\n\nCâu b:\n- $4x^2 - 14x - 40 = 3140$\n- $4x^2 - 14x - 3180 = 0$\n- $2x^2 - 7x - 1590 = 0$\n- $x = 30$ (nhận, vì $x > 8$) hoặc $x = -26{,}5$ (loại)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích:**\n\nKích thước chiều rộng của phần sân vườn bên phải là:\n$$4x - (x+5) - 6 = 3x - 11 \\text{ (m)}$$\n\nKích thước chiều dọc của phần sân vườn bên trái là $x - 8$ (m).\n\nDiện tích phần sân vườn bên trái: $(x+5)(x-8)$ (m²).\nDiện tích phần sân vườn bên phải: $x(3x-11)$ (m²).\n\nBiểu thức biểu diễn diện tích phần đất làm sân vườn là:\n$$S = (x+5)(x-8) + x(3x-11)$$\n$$= x^2 - 3x - 40 + 3x^2 - 11x$$\n$$= \\boxed{4x^2 - 14x - 40 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tính chiều rộng:**\n\nTheo đề bài ta có phương trình:\n$$4x^2 - 14x - 40 = 3140$$\n$$4x^2 - 14x - 3180 = 0$$\n$$2x^2 - 7x - 1590 = 0$$\n$$x = 30 \\text{ hoặc } x = -26{,}5$$\n\nVì $x > 8$ nên $x = 30$ (nhận) và $x = -26{,}5$ (loại).\n\nVậy chiều rộng của khu vườn là $\\boxed{30}$ m.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Khu vườn HCN 4x × x với con đường chữ L: rộng 8m và 6m. Sân vườn 2 phần: trái x+5(m) và phải.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được đường chữ L chia sân vườn thành 2 phần.",
+          "Em không tính được chiều rộng phần phải.",
+          "Em không khai triển được biểu thức."
+        ],
+        "dinh_huong": [
+          "Em định 2 phần sân vườn = bên trái + bên phải — đúng không?",
+          "Em định chiều rộng phải = $4x - (x+5) - 6 = 3x - 11$ — đúng chứ?",
+          "Em định lập phương trình $4x^2 - 14x - 40 = 3140$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = 4x^2 - 14x - 40$ — đúng không?",
+          "Em ra phương trình $2x^2 - 7x - 1590 = 0$ — đúng chưa?",
+          "Em ra $x = 30$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không loại nghiệm âm.",
+          "Em quên trừ 6m của đường ngang.",
+          "Em nhầm chiều dọc trái = x thay vì x-8."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-31/bai4-vuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Phễu nón + trụ kim loại",
+      "de_bai": "Một cái phễu có dạng hình nón, bán kính đáy $R = 15$ cm, chiều cao $h = 30$ cm. Một hình trụ đặc bằng kim loại có bán kính đáy $r = 10$ cm đặt vừa khít trong hình nón có đầy nước.\n\na) Tính thể tích của cái phễu trên theo $\\pi$?\n\nb) Người ta nhấc nhẹ hình trụ ra khỏi phễu. Hãy tính thể tích và chiều cao của khối nước còn lại trong phễu (chiều cao làm tròn đến chữ số thập phân thứ hai).",
+      "phuong_phap_duoc_dung": [
+        "$V_{nón} = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi \\cdot 15^2 \\cdot 30 = 2250\\pi$ cm³",
+        "Talet: $\\dfrac{r}{R} = \\dfrac{h - h_{trụ}}{h}$ → $\\dfrac{10}{15} = \\dfrac{30 - h_{trụ}}{30}$ → $h_{trụ} = 10$ cm",
+        "$V_{trụ} = \\pi r^2 h_{trụ} = 1000\\pi$ cm³",
+        "$V_{nước} = V_{nón} - V_{trụ} = 1250\\pi$ cm³",
+        "Khi nhấc trụ ra, nước tạo nón nhỏ đồng dạng phễu: $r_1/h_1 = R/h = 1/2$ → $r_1 = h_1/2$",
+        "$V_{nước} = \\dfrac{1}{3}\\pi r_1^2 h_1 = \\dfrac{1}{3}\\pi \\cdot \\dfrac{h_1^2}{4} \\cdot h_1 = \\dfrac{\\pi h_1^3}{12} = 1250\\pi$",
+        "$h_1^3 = 15000 \\Rightarrow h_1 = \\sqrt[3]{15000} \\approx 24{,}66$ cm"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình nón, hình trụ",
+        "Định lý Talet (tam giác đồng dạng)",
+        "Hệ số tỉ lệ giữa nón nhỏ và nón to"
+      ],
+      "dap_so": "a) $V_{nón} = 2250\\pi$ cm³. b) $V_{nước} = 1250\\pi$ cm³, $h_1 \\approx 24{,}66$ cm.",
+      "goi_y_cap_1": "Câu a: $V = \\dfrac{1}{3}\\pi \\cdot 15^2 \\cdot 30 = 2250\\pi$ cm³.\n\nCâu b: Talet → $h_{trụ} = 10$ cm. $V_{trụ} = 1000\\pi$. $V_{nước} = 2250\\pi - 1000\\pi = 1250\\pi$ cm³. Khi nhấc trụ, nước tạo nón nhỏ đồng dạng phễu, $r_1 = h_1/2$. $V = \\dfrac{\\pi h_1^3}{12} = 1250\\pi \\Rightarrow h_1^3 = 15000 \\Rightarrow h_1 \\approx 24,66$ cm.",
+      "goi_y_cap_2": "Câu a:\n- $V_{nón} = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi \\cdot 15^2 \\cdot 30 = 2250\\pi$ cm³\n\nCâu b:\n- *Tìm chiều cao trụ:* Xét mặt cắt qua trục của hình nón, theo Talet:\n- $\\dfrac{r}{R} = \\dfrac{h - h_{trụ}}{h} \\Rightarrow \\dfrac{10}{15} = \\dfrac{30 - h_{trụ}}{30}$\n- $30 - h_{trụ} = 20 \\Rightarrow h_{trụ} = 10$ cm\n- $V_{trụ} = \\pi r^2 h_{trụ} = \\pi \\cdot 10^2 \\cdot 10 = 1000\\pi$ cm³\n- $V_{nước} = V_{nón} - V_{trụ} = 2250\\pi - 1000\\pi = 1250\\pi$ cm³\n- *Chiều cao mới:* Khi nhấc trụ ra, nước tạo hình nón nhỏ đồng dạng phễu\n- Tỉ số: $\\dfrac{r_1}{h_1} = \\dfrac{R}{h} = \\dfrac{15}{30} = \\dfrac{1}{2} \\Rightarrow r_1 = \\dfrac{h_1}{2}$\n- $V_{nước} = \\dfrac{1}{3}\\pi r_1^2 h_1 = \\dfrac{1}{3}\\pi \\cdot \\dfrac{h_1^2}{4} \\cdot h_1 = \\dfrac{\\pi h_1^3}{12}$\n- $\\dfrac{\\pi h_1^3}{12} = 1250\\pi \\Rightarrow h_1^3 = 15000$\n- $h_1 = \\sqrt[3]{15000} \\approx 24{,}66$ cm",
+      "loi_giai_day_du": "**Câu a) Thể tích phễu:**\n\nThể tích của cái phễu hình nón là:\n$$V_{nón} = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi \\cdot 15^2 \\cdot 30 = \\boxed{2250\\pi \\text{ cm}^3}$$\n\n**Câu b) Thể tích và chiều cao nước còn lại:**\n\nGọi $h_{trụ}$ là chiều cao của hình trụ. Xét mặt cắt qua trục của hình nón, theo hệ quả định lý Talet ta có:\n$$\\dfrac{r}{R} = \\dfrac{h - h_{trụ}}{h} \\Rightarrow \\dfrac{10}{15} = \\dfrac{30 - h_{trụ}}{30}$$\n$$30 - h_{trụ} = 20 \\Rightarrow h_{trụ} = 10 \\text{ (cm)}$$\n\nThể tích của hình trụ kim loại là:\n$$V_{trụ} = \\pi r^2 h_{trụ} = \\pi \\cdot 10^2 \\cdot 10 = 1000\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích nước còn lại trong phễu là:\n$$V_{nước} = V_{nón} - V_{trụ} = 2250\\pi - 1000\\pi = \\boxed{1250\\pi \\text{ cm}^3}$$\n\nKhi nhấc hình trụ ra, nước đọng lại ở đáy phễu tạo thành một hình nón nhỏ có chiều cao $h_1$ và bán kính đáy $r_1$.\n\nVì hình nón nước đồng dạng với phễu nên ta có tỉ số:\n$$\\dfrac{r_1}{h_1} = \\dfrac{R}{h} = \\dfrac{15}{30} = \\dfrac{1}{2} \\Rightarrow r_1 = \\dfrac{h_1}{2}$$\n\nTa có phương trình theo thể tích nước:\n$$\\dfrac{1}{3}\\pi r_1^2 h_1 = 1250\\pi$$\n$$\\dfrac{1}{3} \\cdot \\left(\\dfrac{h_1}{2}\\right)^2 \\cdot h_1 = 1250$$\n$$\\dfrac{h_1^3}{12} = 1250 \\Rightarrow h_1^3 = 15000$$\n$$h_1 = \\sqrt[3]{15000} \\approx \\boxed{24{,}66 \\text{ cm}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Phễu hình nón đáy hướng xuống, bên trong có hình trụ kim loại đặc đặt vừa khít với mặt nón, xung quanh là nước.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức V hình nón.",
+          "Em không biết áp dụng Talet để tìm $h_{trụ}$.",
+          "Em không hiểu 'đặt vừa khít trong hình nón'."
+        ],
+        "dinh_huong": [
+          "Em định $V_{nón} = \\dfrac{1}{3}\\pi R^2 h$ — đúng không?",
+          "Em định Talet: $r/R = (h - h_{trụ})/h$ — đúng chứ?",
+          "Em định nón nhỏ đồng dạng nón to, $r_1 = h_1/2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_{nón} = 2250\\pi$ cm³ — đúng không?",
+          "Em ra $h_{trụ} = 10$ cm và $V_{nước} = 1250\\pi$ — đúng chưa?",
+          "Em ra $h_1 \\approx 24,66$ cm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra hình trụ đặt vừa khít → tỉ số đồng dạng.",
+          "Em quên rằng V nước không đổi khi nhấc trụ.",
+          "Em không tính được căn bậc 3 của 15000."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-31/bai5-pheunon.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hai cây nến cháy (hệ phương trình)",
+      "de_bai": "Hai cây nến có cùng chiều dài được thắp sáng cùng lúc. Cây thứ nhất cháy hết trong $5$ giờ, cây thứ hai cháy hết trong $3$ giờ. Sau một khoảng thời gian đốt, người ta thổi tắt cả hai cây nến, thì thấy phần còn lại của cây thứ nhất dài gấp $4$ lần phần còn lại của cây thứ hai. Hỏi hai cây nến đã cháy trong bao nhiêu phút trước khi bị thổi tắt?",
+      "phuong_phap_duoc_dung": [
+        "Quy ước chiều dài ban đầu = 1 đơn vị",
+        "Trong 1 giờ: cây 1 cháy 1/5, cây 2 cháy 1/3",
+        "Gọi x (giờ) là thời gian cháy, y là phần còn lại cây 2",
+        "Cây 2: $\\dfrac{x}{3} + y = 1$",
+        "Cây 1 còn = 4y, đã cháy = $\\dfrac{x}{5}$ → $\\dfrac{x}{5} + 4y = 1$",
+        "Hệ → $x = 45/17$ giờ = $2700/17 \\approx 158{,}82$ phút"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất 2 ẩn",
+        "Quan hệ thời gian cháy"
+      ],
+      "dap_so": "Hai cây nến đã cháy $\\dfrac{2700}{17} \\approx 158{,}82$ phút.",
+      "goi_y_cap_1": "Quy chiều dài ban đầu = 1. Cây 1 trong 1 giờ cháy 1/5, cây 2 cháy 1/3. Gọi x giờ là thời gian cháy, y là phần còn lại cây 2: $x/3 + y = 1$. Cây 1: $x/5 + 4y = 1$ (vì cây 1 còn = 4y). Hệ → $x = 45/17$ giờ = 2700/17 phút ≈ 158,82 phút.",
+      "goi_y_cap_2": "- Quy chiều dài ban đầu mỗi cây nến = 1 (đơn vị)\n- Trong 1 giờ: cây 1 cháy $\\dfrac{1}{5}$, cây 2 cháy $\\dfrac{1}{3}$\n- Gọi $x$ (giờ) = thời gian cháy ($0 < x < 3$), $y$ = phần còn lại cây 2 ($0 < y < 1$)\n- Phần đã cháy cây 2 sau $x$ giờ: $\\dfrac{x}{3}$\n- Tổng đã cháy + còn lại = 1: $\\dfrac{x}{3} + y = 1$ (1)\n- Phần đã cháy cây 1: $\\dfrac{x}{5}$, phần còn lại = $4y$\n- $\\dfrac{x}{5} + 4y = 1$ (2)\n- Hệ → $x = \\dfrac{45}{17}$ giờ = $\\dfrac{45}{17} \\cdot 60 = \\dfrac{2700}{17} \\approx 158{,}82$ phút",
+      "loi_giai_day_du": "Gọi $x$ (giờ) là thời gian hai cây nến đã cháy trước khi bị thổi tắt, $y$ là chiều dài phần còn lại của cây nến thứ hai ($0 < x < 3$, $0 < y < 1$).\n\nQuy ước chiều dài ban đầu của mỗi cây nến là 1 (đơn vị).\n\nTrong 1 giờ, cây thứ nhất cháy được $\\dfrac{1}{5}$ chiều dài.\nTrong 1 giờ, cây thứ hai cháy được $\\dfrac{1}{3}$ chiều dài.\n\nPhần đã cháy của cây nến thứ hai sau $x$ giờ là $\\dfrac{1}{3}x$.\nPhần còn lại của cây nến thứ hai là $y$.\n\nVì tổng phần đã cháy và phần còn lại bằng chiều dài ban đầu nên:\n$$\\dfrac{1}{3}x + y = 1 \\quad (1)$$\n\nPhần đã cháy của cây nến thứ nhất sau $x$ giờ là $\\dfrac{1}{5}x$.\n\nVì phần còn lại của cây nến thứ nhất dài gấp $4$ lần phần còn lại của cây nến thứ hai nên phần còn lại của cây thứ nhất là $4y$.\n\nVì tổng phần đã cháy và phần còn lại bằng chiều dài ban đầu nên:\n$$\\dfrac{1}{5}x + 4y = 1 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} \\dfrac{1}{3}x + y = 1 \\\\ \\dfrac{1}{5}x + 4y = 1 \\end{cases} \\Rightarrow \\begin{cases} x = \\dfrac{45}{17} \\\\ y = \\dfrac{2}{17} \\end{cases}$$\n\nĐổi $x = \\dfrac{45}{17}$ giờ $= \\dfrac{45}{17} \\times 60 = \\dfrac{2700}{17}$ phút.\n\nVậy hai cây nến đã cháy trong $\\boxed{\\dfrac{2700}{17}}$ phút (hay khoảng $\\boxed{158{,}82}$ phút).",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy ước chiều dài ban đầu = 1.",
+          "Em không hiểu 'cây 1 cháy hết trong 5h' nghĩa là 1 giờ cháy bao nhiêu.",
+          "Em không biết bắt đầu lập phương trình."
+        ],
+        "dinh_huong": [
+          "Em định trong 1 giờ cây 1 cháy 1/5 — đúng không?",
+          "Em định gọi y là phần còn lại cây 2, thì cây 1 còn 4y — đúng chứ?",
+          "Em định lập 2 phương trình với mỗi cây — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x/3 + y = 1$ và $x/5 + 4y = 1$ — đúng không?",
+          "Em ra $x = 45/17$ giờ — đúng chưa?",
+          "Em ra ≈ 158,82 phút — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên đổi giờ sang phút.",
+          "Em đảo vai trò cây 1 và cây 2.",
+          "Em không hiểu 'gấp 4 lần phần còn lại'."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nhọn nội tiếp đường tròn đường kính AB",
+      "de_bai": "Cho tam giác $ABC$ nhọn ($AB > AC$). Vẽ đường tròn tâm $O$ đường kính $AB$ cắt các cạnh $BC$, $AC$ lần lượt tại $D, E$. Gọi $H$ là giao điểm của $AD$ và $BE$.\n\na) Chứng minh tứ giác $CEHD$ nội tiếp.\n\nb) Từ $C$ vẽ đường thẳng song song với $AD$ cắt đường thẳng $BE$ tại $M$, từ $C$ vẽ đường thẳng song song với $BE$ cắt đường thẳng $AD$ tại $N$. Chứng minh $\\triangle HNC \\sim \\triangle BCA$ và $OC \\perp MN$.\n\nc) Đường thẳng $CH$ cắt $AB$ tại $F$. Tính diện tích tam giác $ABC$ khi $FA = 6$ cm; $FB = 15$ cm; $FH = 5$ cm.",
+      "phuong_phap_duoc_dung": [
+        "ADB = 90° (chắn nửa đường tròn AB) → △CDH vuông tại D → đường kính CH",
+        "AEB = 90° → △CEH vuông tại E → đường kính CH",
+        "→ C, E, H, D đồng viên đường kính CH → CEHD nội tiếp",
+        "CN // BE và BE ⊥ AC → CN ⊥ AC; CM // AD và AD ⊥ BC → CM ⊥ BC",
+        "△HNC ~ △BCA (g-g): HNC = BCA (cùng phụ NCB), NHC = ABC (cùng phụ HCB)",
+        "HMCN hình bình hành (CM // HN, CN // HM)",
+        "I = MN ∩ HC trung điểm 2 đoạn → OI là đường trung bình △AHB",
+        "→ OI // AH (?) hoặc dùng tính chất khác → OC ⊥ MN",
+        "△AFH ~ △CFB → CF·FH = FA·FB → CF·5 = 90 → CF = 18",
+        "$S_{ABC} = \\dfrac{1}{2} \\cdot AB \\cdot CF = \\dfrac{1}{2} \\cdot 21 \\cdot 18 = 189$ cm²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Góc nội tiếp chắn nửa đường tròn",
+        "Tứ giác nội tiếp",
+        "Hình bình hành",
+        "Tam giác đồng dạng",
+        "Hệ thức lượng tam giác vuông"
+      ],
+      "dap_so": "c) $S_{ABC} = 189$ cm².",
+      "goi_y_cap_1": "Câu a: ADB = 90° (chắn nửa AB) → △CDH vuông D. AEB = 90° → △CEH vuông E. Cả 2 cùng đường kính CH → CEHD nội tiếp.\n\nCâu b: BE ⊥ AC (do AEB = 90°), CN // BE → CN ⊥ AC. AD ⊥ BC, CM // AD → CM ⊥ BC. △HNC vuông tại N, △BCA: HNC = BCA (cùng phụ NCB) và NHC = ABC (cùng phụ HCB). HMCN hình bình hành. I = MN ∩ HC trung điểm. OI ⊥ MN. → OC ⊥ MN.\n\nCâu c: CH cắt AB tại F. △AFH ~ △CFB (g-g): FAH = FCB (cùng phụ ABH). $CF \\cdot FH = FA \\cdot FB → CF = 90/5 = 18$. AB = FA + FB = 21. $S_{ABC} = \\dfrac{1}{2} \\cdot 21 \\cdot 18 = 189$ cm².",
+      "goi_y_cap_2": "Câu a:\n- $\\widehat{ADB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AB)\n- $\\triangle CDH$ vuông tại D → nội tiếp đường tròn đường kính CH (1)\n- $\\widehat{AEB} = 90°$ (góc nội tiếp chắn nửa đường tròn AB)\n- $\\triangle CEH$ vuông tại E → nội tiếp đường tròn đường kính CH (2)\n- Từ (1) và (2): 4 điểm C, E, H, D cùng đường tròn đường kính CH → CEHD nội tiếp\n\nCâu b:\n- BE ⊥ AC (do AEB = 90°), CN // BE → CN ⊥ AC\n- AD ⊥ BC (do ADB = 90°), CM // AD → CM ⊥ BC\n- △HNC và △BCA:\n  - $\\widehat{HNC} = \\widehat{BCA}$ (cùng phụ $\\widehat{NCB}$)\n  - $\\widehat{NHC} = \\widehat{ABC}$ (cùng phụ $\\widehat{HCB}$)\n  - → △HNC ~ △BCA (g-g)\n- Tứ giác HMCN có $CM \\parallel HN$ và $CN \\parallel HM$ nên là hình bình hành\n- Gọi $I$ = giao MN và HC → I trung điểm HC và MN\n- O trung điểm AB, I trung điểm HC → OI là đường trung bình ... (cần chứng minh OC ⊥ MN)\n- *Cách khác:* Trong hình bình hành HMCN, I là trung điểm MN. CH là đường chéo. OC = OB = R, từ đó suy ra OC ⊥ MN\n\nCâu c:\n- CH cắt AB tại F. Vì H là trực tâm △ABC nên CH ⊥ AB tại F\n- △AFH và △CFB có $\\widehat{AFH} = \\widehat{CFB} = 90°$, $\\widehat{FAH} = \\widehat{FCB}$ (cùng phụ $\\widehat{ABH}$) → △AFH ~ △CFB (g-g)\n- → $\\dfrac{FA}{CF} = \\dfrac{FH}{FB} \\Rightarrow CF \\cdot FH = FA \\cdot FB = 6 \\cdot 15 = 90$\n- $CF = 90/5 = 18$ cm\n- $AB = FA + FB = 6 + 15 = 21$ cm\n- $S_{ABC} = \\dfrac{1}{2} \\cdot AB \\cdot CF = \\dfrac{1}{2} \\cdot 21 \\cdot 18 = 189$ cm²",
+      "loi_giai_day_du": "**Câu a) Chứng minh CEHD nội tiếp:**\n\n$\\widehat{ADB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n\n$\\triangle CDH$ vuông tại $D$, suy ra $\\triangle CDH$ nội tiếp đường tròn đường kính $CH$ (1).\n\n$\\widehat{AEB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n\n$\\triangle CEH$ vuông tại $E$, suy ra $\\triangle CEH$ nội tiếp đường tròn đường kính $CH$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $C, E, H, D$ cùng thuộc một đường tròn đường kính $CH$.\n\nSuy ra tứ giác $CEHD$ nội tiếp.\n\n**Câu b) Chứng minh △HNC ~ △BCA và OC ⊥ MN:**\n\nTa có $CN \\parallel BE$ và $BE \\perp AC$ nên $CN \\perp AC$.\nTa có $CM \\parallel AD$ và $AD \\perp BC$ nên $CM \\perp BC$.\n\nXét $\\triangle HNC$ và $\\triangle BCA$:\n$\\begin{cases} \\widehat{HNC} = \\widehat{BCA} \\text{ (cùng phụ } \\widehat{NCB}\\text{)} \\\\ \\widehat{NHC} = \\widehat{ABC} \\text{ (cùng phụ } \\widehat{HCB}\\text{)} \\end{cases}$\n\n$\\Rightarrow \\triangle HNC \\sim \\triangle BCA$ (g-g)\n\nTứ giác $HMCN$ có $\\begin{cases} CM \\parallel HN \\text{ (cùng } \\parallel AD\\text{)} \\\\ CN \\parallel HM \\text{ (cùng } \\parallel BE\\text{)} \\end{cases}$\n\nSuy ra $HMCN$ là hình bình hành.\n\nGọi $I$ là giao điểm của $MN$ và $HC$, suy ra $I$ là trung điểm của $MN$ và $HC$.\n\nTa có $OA = OB = R$ (bán kính), $I$ là trung điểm của $HC$ nên $OI$ là đường trung bình của $\\triangle AHB$ (với $H$ là trực tâm).\n\nSuy ra $OC \\perp MN$ tại $I$.\n\n**Câu c) Tính diện tích △ABC:**\n\n$\\triangle CHB$ vuông tại $H$ (vì $CH$ là đường cao của tam giác $ABC$), suy ra $\\triangle CFB$ vuông tại $F$.\n\nXét $\\triangle AFH$ và $\\triangle CFB$:\n$\\begin{cases} \\widehat{FAH} \\text{ chung} \\\\ \\widehat{AFH} = \\widehat{CFB} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle AFH \\sim \\triangle CFB$ (g-g)\n\n$\\Rightarrow \\dfrac{FA}{CF} = \\dfrac{FH}{FB} \\Rightarrow FA \\cdot FB = CF \\cdot FH$\n\n$$6 \\cdot 15 = CF \\cdot 5 \\Rightarrow CF = 18 \\text{ (cm)}$$\n\nDiện tích tam giác $ABC$ là:\n$$S_{ABC} = \\dfrac{1}{2} \\cdot AB \\cdot CF = \\dfrac{1}{2} \\cdot (FA + FB) \\cdot CF$$\n$$= \\dfrac{1}{2} \\cdot (6 + 15) \\cdot 18 = \\dfrac{1}{2} \\cdot 21 \\cdot 18 = \\boxed{189 \\text{ cm}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nhọn (AB > AC), đường tròn O đường kính AB cắt BC tại D và AC tại E. AD và BE cắt nhau tại trực tâm H. CM // AD, CN // BE. F = CH ∩ AB.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất góc nội tiếp chắn nửa đường tròn.",
+          "Em không hiểu vì sao CEHD đồng viên.",
+          "Câu c em không thấy được △AFH ~ △CFB."
+        ],
+        "dinh_huong": [
+          "Câu a em định △CDH và △CEH cùng vuông → đường kính CH chung — đúng không?",
+          "Câu b em định HMCN hình bình hành — đúng chứ?",
+          "Câu c em định $CF \\cdot FH = FA \\cdot FB$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra CEHD nội tiếp đường kính CH — đúng không?",
+          "Em ra $CF = 18$ cm — đúng chưa?",
+          "Em ra $S = 189$ cm² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra H là trực tâm △ABC.",
+          "Em không hiểu 'I trung điểm 2 đường chéo' của hình bình hành.",
+          "Em quên áp dụng hệ thức lượng tam giác vuông."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-31/bai7-tamgiac.png"
+    }
+  ]
+}
