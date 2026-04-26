@@ -1,0 +1,399 @@
+{
+  "de_so": "Đề tuyển sinh năm 24-25",
+  "cum": "Đề chính thức",
+  "nam_hoc": "2024-2025",
+  "nguon": "Sở Giáo dục và Đào tạo Thành phố Hồ Chí Minh - Kì thi tuyển sinh lớp 10 THPT năm học 2024-2025, môn Toán",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Parabol và đường thẳng",
+      "de_bai": "Cho parabol $(P): y=-x^2$ và đường thẳng $(d): y=-3x+2$.\n\na) Vẽ $(P)$ và $(d)$ trên cùng hệ trục tọa độ.\n\nb) Tìm tọa độ giao điểm của $(P)$ và $(d)$ bằng phép tính.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol",
+        "Chọn hai điểm để vẽ đường thẳng",
+        "Lập phương trình hoành độ giao điểm",
+        "Giải phương trình bậc hai và thay vào tìm tung độ"
+      ],
+      "kien_thuc_lien_quan": [
+        "Đồ thị hàm số $y=ax^2$",
+        "Đường thẳng $y=ax+b$",
+        "Giao điểm của hai đồ thị"
+      ],
+      "dap_so": "Hai giao điểm là $(1;-1)$ và $(2;-4)$.",
+      "goi_y_cap_1": "Câu b: tại giao điểm, hai giá trị $y$ bằng nhau nên $-x^2=-3x+2$.",
+      "goi_y_cap_2": "Từ $-x^2=-3x+2$ suy ra $x^2-3x+2=0$, nên $x=1$ hoặc $x=2$. Thay từng giá trị vào $y=-x^2$ để tìm $y$.",
+      "loi_giai_day_du": "**a) Vẽ đồ thị**\n\nVới $(P): y=-x^2$, có thể lấy các điểm $(-2;-4),(-1;-1),(0;0),(1;-1),(2;-4)$ rồi nối thành parabol bề lõm xuống.\n\nVới $(d): y=-3x+2$, có thể lấy hai điểm $(0;2)$ và $(1;-1)$ rồi vẽ đường thẳng đi qua hai điểm đó.\n\n**b) Tìm giao điểm**\n\nTại giao điểm của $(P)$ và $(d)$, ta có:\n\n$-x^2=-3x+2$\n\n$\\Leftrightarrow x^2-3x+2=0$\n\n$\\Leftrightarrow (x-1)(x-2)=0$\n\nSuy ra $x=1$ hoặc $x=2$.\n\nVới $x=1$ thì $y=-1$.\n\nVới $x=2$ thì $y=-4$.\n\nVậy tọa độ giao điểm là $\\boxed{(1;-1)}$ và $\\boxed{(2;-4)}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết bắt đầu từ dữ kiện nào.",
+          "Em chưa biết chọn công thức hoặc lập phương trình.",
+          "Em chưa biết kiểm tra kết quả cuối cùng."
+        ],
+        "dinh_huong": [
+          "Em đọc lại đại lượng cần tìm trước rồi gạch dưới dữ kiện liên quan.",
+          "Em thử viết công thức tổng quát trước khi thay số.",
+          "Em kiểm tra đơn vị và điều kiện của kết quả."
+        ],
+        "kiem_tra": [
+          "Kết quả có đúng đơn vị chưa?",
+          "Kết quả có phù hợp với điều kiện bài toán không?",
+          "Em đã trả lời đúng câu hỏi đề bài yêu cầu chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức.",
+          "Em thay số sai hoặc đổi đơn vị sai.",
+          "Em có kết quả nhưng chưa kết luận."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Hệ thức Vi-ét",
+      "de_bai": "Cho phương trình $3x^2-4x-2=0$ có hai nghiệm là $x_1,x_2$. Không giải phương trình, hãy tính giá trị của biểu thức\n\n$A=x_1x_2^2+x_2(x_1^2+2)+2x_1$.",
+      "phuong_phap_duoc_dung": [
+        "Dùng hệ thức Vi-ét",
+        "Biến đổi biểu thức theo $x_1+x_2$ và $x_1x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Nếu $ax^2+bx+c=0$ có nghiệm $x_1,x_2$ thì $x_1+x_2=-b/a$, $x_1x_2=c/a$"
+      ],
+      "dap_so": "$A=\\dfrac{16}{9}$.",
+      "goi_y_cap_1": "Hãy gom $x_1x_2^2+x_2x_1^2=x_1x_2(x_1+x_2)$.",
+      "goi_y_cap_2": "Theo Vi-ét: $x_1+x_2=\\dfrac{4}{3}$, $x_1x_2=-\\dfrac{2}{3}$. Khi đó $A=x_1x_2(x_1+x_2)+2(x_1+x_2)$.",
+      "loi_giai_day_du": "Theo hệ thức Vi-ét, ta có:\n\n$x_1+x_2=\\dfrac{4}{3}$ và $x_1x_2=-\\dfrac{2}{3}$.\n\nTa biến đổi:\n\n$A=x_1x_2^2+x_2(x_1^2+2)+2x_1$\n\n$=x_1x_2^2+x_1^2x_2+2x_2+2x_1$\n\n$=x_1x_2(x_1+x_2)+2(x_1+x_2)$.\n\nThay Vi-ét vào:\n\n$A=-\\dfrac{2}{3}\\cdot\\dfrac{4}{3}+2\\cdot\\dfrac{4}{3}$\n\n$=-\\dfrac{8}{9}+\\dfrac{8}{3}=\\dfrac{16}{9}$.\n\nVậy $\\boxed{A=\\dfrac{16}{9}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết bắt đầu từ dữ kiện nào.",
+          "Em chưa biết chọn công thức hoặc lập phương trình.",
+          "Em chưa biết kiểm tra kết quả cuối cùng."
+        ],
+        "dinh_huong": [
+          "Em đọc lại đại lượng cần tìm trước rồi gạch dưới dữ kiện liên quan.",
+          "Em thử viết công thức tổng quát trước khi thay số.",
+          "Em kiểm tra đơn vị và điều kiện của kết quả."
+        ],
+        "kiem_tra": [
+          "Kết quả có đúng đơn vị chưa?",
+          "Kết quả có phù hợp với điều kiện bài toán không?",
+          "Em đã trả lời đúng câu hỏi đề bài yêu cầu chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức.",
+          "Em thay số sai hoặc đổi đơn vị sai.",
+          "Em có kết quả nhưng chưa kết luận."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 0.75,
+      "chu_de": "Biểu thức đại số - Diện tích hình chữ nhật",
+      "de_bai": "Một khu vườn hình chữ nhật có chiều dài là $30m$ và chiều rộng là $20m$. Bác Năm làm một lối đi cho khu vườn như hình vẽ, phần tô đậm là lối đi.\n\na) Hãy viết biểu thức thu gọn theo $x$ và $y$ biểu thị diện tích phần còn lại của khu vườn.\n\nb) Tính diện tích phần còn lại của khu vườn khi $x=2,4m$ và $y=1,8m$.",
+      "phuong_phap_duoc_dung": [
+        "Tính diện tích toàn bộ khu vườn",
+        "Tính diện tích phần lối đi",
+        "Lấy diện tích khu vườn trừ diện tích lối đi"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Rút gọn biểu thức đại số"
+      ],
+      "dap_so": "a) $600-20x-15y$. b) $525m^2$.",
+      "goi_y_cap_1": "Diện tích cả khu vườn là $30\\cdot20=600m^2$.",
+      "goi_y_cap_2": "Phần lối đi gồm hình chữ nhật đứng diện tích $20x$ và hình chữ nhật ngang diện tích $15y$.",
+      "loi_giai_day_du": "**a)** Diện tích khu vườn là:\n\n$30\\cdot20=600\\ (m^2)$.\n\nDiện tích lối đi gồm hai phần:\n\n- Phần dọc: $20x$.\n- Phần ngang: $15y$.\n\nVậy diện tích phần còn lại của khu vườn là:\n\n$600-20x-15y$.\n\n**b)** Thay $x=2,4$ và $y=1,8$ vào biểu thức:\n\n$600-20\\cdot2,4-15\\cdot1,8$\n\n$=600-48-27=525$.\n\nVậy diện tích phần còn lại là $\\boxed{525m^2}$.",
+      "co_hinh_ve": true,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết bắt đầu từ dữ kiện nào.",
+          "Em chưa biết chọn công thức hoặc lập phương trình.",
+          "Em chưa biết kiểm tra kết quả cuối cùng."
+        ],
+        "dinh_huong": [
+          "Em đọc lại đại lượng cần tìm trước rồi gạch dưới dữ kiện liên quan.",
+          "Em thử viết công thức tổng quát trước khi thay số.",
+          "Em kiểm tra đơn vị và điều kiện của kết quả."
+        ],
+        "kiem_tra": [
+          "Kết quả có đúng đơn vị chưa?",
+          "Kết quả có phù hợp với điều kiện bài toán không?",
+          "Em đã trả lời đúng câu hỏi đề bài yêu cầu chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức.",
+          "Em thay số sai hoặc đổi đơn vị sai.",
+          "Em có kết quả nhưng chưa kết luận."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "ghi_chu_hinh": "Hình lối đi trong khu vườn được chụp trực tiếp từ trang 1 của PDF.",
+      "hinh_anh": "/images/de-tuyen-sinh-nam-24-25/bai3-khuvuon-loidi.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 0.75,
+      "chu_de": "Toán thực tế - So sánh chi phí",
+      "de_bai": "Một cửa hàng xe máy điện cung cấp gói thuê pin theo tháng cho khách hàng dưới hai hình thức:\n\n- Gói linh hoạt: $189\\,000$ đồng/tháng, cho phép xe di chuyển tối đa $400km$. Nếu vượt số ki-lô-mét này, người dùng trả thêm $374$ đồng cho mỗi ki-lô-mét vượt.\n- Gói cố định: $350\\,000$ đồng/tháng, không giới hạn số ki-lô-mét di chuyển.\n\nTrung bình mỗi tháng anh Tâm di chuyển $800km$ bằng xe máy điện. Hỏi anh Tâm nên thuê pin theo hình thức nào thì tiết kiệm hơn? Tiết kiệm được bao nhiêu tiền mỗi tháng?",
+      "phuong_phap_duoc_dung": [
+        "Tính số km vượt mức",
+        "Tính chi phí từng gói",
+        "So sánh hai số tiền"
+      ],
+      "kien_thuc_lien_quan": [
+        "Bài toán thực tế về chi phí",
+        "Phép tính với số tự nhiên"
+      ],
+      "dap_so": "Nên chọn gói linh hoạt, tiết kiệm $11\\,400$ đồng mỗi tháng.",
+      "goi_y_cap_1": "Số ki-lô-mét vượt mức là $800-400=400km$.",
+      "goi_y_cap_2": "Tiền gói linh hoạt là $189000+374\\cdot400$.",
+      "loi_giai_day_du": "Số ki-lô-mét vượt mức của gói linh hoạt là:\n\n$800-400=400\\ (km)$.\n\nSố tiền anh Tâm phải trả nếu dùng gói linh hoạt là:\n\n$189\\,000+374\\cdot400=338\\,600$ đồng.\n\nGói cố định có giá $350\\,000$ đồng/tháng.\n\nVì $338\\,600<350\\,000$ nên anh Tâm nên chọn gói linh hoạt.\n\nSố tiền tiết kiệm được là:\n\n$350\\,000-338\\,600=11\\,400$ đồng.\n\nVậy anh Tâm nên thuê $\\boxed{\\text{gói linh hoạt}}$, tiết kiệm $\\boxed{11\\,400}$ đồng mỗi tháng.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết bắt đầu từ dữ kiện nào.",
+          "Em chưa biết chọn công thức hoặc lập phương trình.",
+          "Em chưa biết kiểm tra kết quả cuối cùng."
+        ],
+        "dinh_huong": [
+          "Em đọc lại đại lượng cần tìm trước rồi gạch dưới dữ kiện liên quan.",
+          "Em thử viết công thức tổng quát trước khi thay số.",
+          "Em kiểm tra đơn vị và điều kiện của kết quả."
+        ],
+        "kiem_tra": [
+          "Kết quả có đúng đơn vị chưa?",
+          "Kết quả có phù hợp với điều kiện bài toán không?",
+          "Em đã trả lời đúng câu hỏi đề bài yêu cầu chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức.",
+          "Em thay số sai hoặc đổi đơn vị sai.",
+          "Em có kết quả nhưng chưa kết luận."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Hình cầu, hình lập phương, hình trụ",
+      "de_bai": "Anh Huy là một nghệ nhân và đang thiết kế một mô hình Trái đất dạng hình cầu có thể tích $4,2dm^3$.\n\na) Tìm bán kính của mô hình Trái đất mà anh Huy thiết kế, kết quả làm tròn đến hàng đơn vị.\n\nb) Anh Huy dự định làm một cái hộp bằng giấy, bao gồm cả nắp hộp, để đựng mô hình Trái đất. Anh đang phân vân nên làm hộp hình lập phương hay hộp hình trụ thì tốn ít giấy hơn. Hãy cho biết anh Huy nên chọn phương án nào. Biết các mặt hộp đều tiếp xúc với mô hình Trái đất và lượng giấy phát sinh là không đáng kể.\n\nCho biết $V=\\dfrac{4}{3}\\pi R^3$ và diện tích toàn phần hình trụ là $S=2\\pi Rh+2\\pi R^2$.",
+      "phuong_phap_duoc_dung": [
+        "Dùng công thức thể tích khối cầu",
+        "Tính cạnh hộp lập phương bằng $2R$",
+        "Tính chiều cao hình trụ bằng $2R$",
+        "So sánh diện tích toàn phần"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình cầu",
+        "Diện tích toàn phần hình lập phương",
+        "Diện tích toàn phần hình trụ"
+      ],
+      "dap_so": "a) $R\\approx1dm$. b) Nên chọn hộp hình trụ vì cần ít giấy hơn.",
+      "goi_y_cap_1": "Từ $4,2=\\dfrac{4}{3}\\pi R^3$ suy ra $R$ xấp xỉ $1dm$.",
+      "goi_y_cap_2": "Hộp lập phương có cạnh $2R$, nên diện tích là $6(2R)^2=24R^2$. Hộp trụ có $h=2R$, nên diện tích là $2\\pi R\\cdot2R+2\\pi R^2=6\\pi R^2$.",
+      "loi_giai_day_du": "**a)** Ta có thể tích hình cầu:\n\n$4,2=\\dfrac{4}{3}\\pi R^3$.\n\nSuy ra:\n\n$R=\\sqrt[3]{\\dfrac{3\\cdot4,2}{4\\pi}}\\approx1\\ (dm)$.\n\nVậy bán kính mô hình Trái đất xấp xỉ $\\boxed{1dm}$.\n\n**b)** Vì hộp tiếp xúc với mô hình hình cầu nên:\n\n- Hộp lập phương có cạnh $2R$.\n- Hộp hình trụ có bán kính đáy $R$ và chiều cao $h=2R$.\n\nDiện tích giấy cần dùng nếu làm hộp lập phương:\n\n$S_1=6(2R)^2=24R^2$.\n\nDiện tích giấy cần dùng nếu làm hộp hình trụ:\n\n$S_2=2\\pi Rh+2\\pi R^2=2\\pi R\\cdot2R+2\\pi R^2=6\\pi R^2$.\n\nVì $6\\pi R^2<24R^2$ nên hộp hình trụ tốn ít giấy hơn.\n\nVậy anh Huy nên chọn $\\boxed{\\text{hộp hình trụ}}$.",
+      "co_hinh_ve": true,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết bắt đầu từ dữ kiện nào.",
+          "Em chưa biết chọn công thức hoặc lập phương trình.",
+          "Em chưa biết kiểm tra kết quả cuối cùng."
+        ],
+        "dinh_huong": [
+          "Em đọc lại đại lượng cần tìm trước rồi gạch dưới dữ kiện liên quan.",
+          "Em thử viết công thức tổng quát trước khi thay số.",
+          "Em kiểm tra đơn vị và điều kiện của kết quả."
+        ],
+        "kiem_tra": [
+          "Kết quả có đúng đơn vị chưa?",
+          "Kết quả có phù hợp với điều kiện bài toán không?",
+          "Em đã trả lời đúng câu hỏi đề bài yêu cầu chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức.",
+          "Em thay số sai hoặc đổi đơn vị sai.",
+          "Em có kết quả nhưng chưa kết luận."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "ghi_chu_hinh": "Hình mô hình Trái đất, hộp lập phương và hộp hình trụ được chụp trực tiếp từ trang 1 của PDF.",
+      "hinh_anh": "/images/de-tuyen-sinh-nam-24-25/bai5-hinhcau-hop.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Hàm số bậc nhất - Chuyển động gặp nhau",
+      "de_bai": "Lúc 7 giờ sáng một xe máy xuất phát từ Thành phố Hồ Chí Minh đi về hướng Biên Hòa với tốc độ trung bình $40$ km/giờ. Sau đó $15$ phút, một ô tô xuất phát từ Biên Hòa đi về hướng Thành phố Hồ Chí Minh với tốc độ trung bình $60$ km/giờ. Biết Thành phố Hồ Chí Minh cách Biên Hòa $40$ km.\n\nGọi $f(t)=at+b$, $(t\\ge0)$ là hàm số biểu diễn khoảng cách của xe máy so với Thành phố Hồ Chí Minh sau khi đi được $t$ giờ kể từ lúc 7 giờ 15 phút.\n\nGọi $g(t)=ct+d$, $(0\\le t\\le \\dfrac{2}{3})$ là hàm số biểu diễn khoảng cách của ô tô so với Thành phố Hồ Chí Minh sau khi đi được $t$ giờ kể từ lúc 7 giờ 15 phút.\n\na) Tìm các hệ số $a,b,c,d$.\n\nb) Hỏi hai xe gặp nhau lúc mấy giờ và nơi gặp nhau cách Thành phố Hồ Chí Minh bao nhiêu ki-lô-mét?",
+      "phuong_phap_duoc_dung": [
+        "Xác định vị trí ban đầu tại mốc 7 giờ 15 phút",
+        "Lập hàm khoảng cách theo thời gian",
+        "Giải phương trình $f(t)=g(t)$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số bậc nhất",
+        "Chuyển động đều",
+        "Bài toán hai xe đi ngược chiều"
+      ],
+      "dap_so": "$a=40,b=10,c=-60,d=40$. Hai xe gặp nhau lúc 7 giờ 33 phút, tại vị trí cách TP.HCM 22 km.",
+      "goi_y_cap_1": "Từ 7 giờ đến 7 giờ 15 phút, xe máy đi được $40\\cdot\\dfrac14=10km$.",
+      "goi_y_cap_2": "Tại 7 giờ 15 phút, xe máy cách TP.HCM $10$ km nên $f(t)=40t+10$. Ô tô đi từ Biên Hòa về TP.HCM nên khoảng cách giảm đều theo thời gian: $g(t)=40-60t$. Giải $f(t)=g(t)$.",
+      "loi_giai_day_du": "**a)** Từ 7 giờ đến 7 giờ 15 phút, xe máy đi được:\n\n$40\\cdot\\dfrac{1}{4}=10\\ (km)$.\n\nKể từ lúc 7 giờ 15 phút, khoảng cách của xe máy so với TP.HCM là:\n\n$f(t)=40t+10$.\n\nSuy ra $a=40, b=10$.\n\nÔ tô xuất phát từ Biên Hòa, cách TP.HCM $40$ km, đi về phía TP.HCM với vận tốc $60$ km/giờ nên khoảng cách của ô tô so với TP.HCM là:\n\n$g(t)=40-60t$.\n\nSuy ra $c=-60, d=40$.\n\nVậy $a=40,\\ b=10,\\ c=-60,\\ d=40$.\n\n**b)** Khi hai xe gặp nhau thì khoảng cách của chúng đến TP.HCM bằng nhau, nên:\n\n$40t+10=40-60t$.\n\nSuy ra:\n\n$100t=30 \\Rightarrow t=0,3$ giờ.\n\nĐổi ra phút: $0,3$ giờ $=18$ phút.\n\nVậy hai xe gặp nhau lúc $7$ giờ $15$ phút $+18$ phút $=7$ giờ $33$ phút.\n\nKhi đó khoảng cách từ điểm gặp nhau đến TP.HCM là:\n\n$f(0,3)=40\\cdot0,3+10=22\\ (km)$.\n\nVậy hai xe gặp nhau lúc $\\boxed{7\\text{ giờ }33\\text{ phút}}$ và nơi gặp nhau cách TP.HCM $\\boxed{22\\ \text{km}}$.",
+      "co_hinh_ve": true,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết bắt đầu từ dữ kiện nào.",
+          "Em chưa biết chọn công thức hoặc lập phương trình.",
+          "Em chưa biết kiểm tra kết quả cuối cùng."
+        ],
+        "dinh_huong": [
+          "Em đọc lại đại lượng cần tìm trước rồi gạch dưới dữ kiện liên quan.",
+          "Em thử viết công thức tổng quát trước khi thay số.",
+          "Em kiểm tra đơn vị và điều kiện của kết quả."
+        ],
+        "kiem_tra": [
+          "Kết quả có đúng đơn vị chưa?",
+          "Kết quả có phù hợp với điều kiện bài toán không?",
+          "Em đã trả lời đúng câu hỏi đề bài yêu cầu chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức.",
+          "Em thay số sai hoặc đổi đơn vị sai.",
+          "Em có kết quả nhưng chưa kết luận."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "ghi_chu_hinh": "Hình chuyển động của Bài 6 được chụp đúng theo hình thầy cung cấp: xe máy từ TP.HCM đi Biên Hòa vận tốc 40 km/giờ, ô tô từ Biên Hòa về TP.HCM vận tốc 60 km/giờ, vị trí gặp nhau chưa biết thời gian.",
+      "hinh_anh": "/images/de-tuyen-sinh-nam-24-25/bai6-chuyendong-gapnhau.png"
+    },
+    {
+      "bai_so": 7,
+      "diem": 1.0,
+      "chu_de": "Toán thực tế - Mô hình tuyến tính",
+      "de_bai": "Hai thùng chứa nước hình trụ đều được gắn một vòi chảy ở đáy thùng. Ban đầu chiều cao mực nước ở thùng thứ nhất hơn thùng thứ hai $0,2m$. Bạn Hân bắt đầu mở vòi cho thùng thứ nhất chảy từ 8 giờ sáng và sau đó 3 phút bắt đầu mở vòi cho thùng thứ hai chảy.\n\nKhi quan sát quá trình chảy của hai thùng, Hân thấy rằng:\n\n- Tại thời điểm 8 giờ 04 phút thì chiều cao mực nước hai thùng bằng nhau.\n- Tại thời điểm 8 giờ 08 phút thì thùng thứ hai vừa chảy hết nước và chiều cao mực nước còn lại ở thùng thứ nhất là $0,4m$.\n\nTìm chiều cao mực nước ban đầu ở mỗi thùng. Biết rằng tốc độ chảy ở mỗi vòi là không đổi.",
+      "phuong_phap_duoc_dung": [
+        "Đặt ẩn là chiều cao ban đầu",
+        "Tính tốc độ giảm mực nước theo phút",
+        "Lập phương trình tại thời điểm hai mực nước bằng nhau"
+      ],
+      "kien_thuc_lien_quan": [
+        "Chuyển động đều theo thời gian",
+        "Lập phương trình bậc nhất"
+      ],
+      "dap_so": "Thùng thứ nhất ban đầu cao $1,2m$, thùng thứ hai ban đầu cao $1m$.",
+      "goi_y_cap_1": "Gọi chiều cao ban đầu của thùng thứ nhất là $x$ mét thì thùng thứ hai là $x-0,2$ mét.",
+      "goi_y_cap_2": "Thùng 1 chảy 8 phút còn $0,4m$ nên mỗi phút giảm $\\dfrac{x-0,4}{8}$. Thùng 2 chảy 5 phút thì hết nên mỗi phút giảm $\\dfrac{x-0,2}{5}$.",
+      "loi_giai_day_du": "Gọi chiều cao mực nước ban đầu ở thùng thứ nhất là $x$ mét, $x>0,2$.\n\nVì ban đầu thùng thứ nhất hơn thùng thứ hai $0,2m$ nên chiều cao ban đầu ở thùng thứ hai là $x-0,2$ mét.\n\nTừ 8 giờ đến 8 giờ 08 phút, thùng thứ nhất chảy trong 8 phút và còn lại $0,4m$, nên mỗi phút mực nước thùng thứ nhất giảm:\n\n$\\dfrac{x-0,4}{8}$ mét.\n\nThùng thứ hai bắt đầu chảy lúc 8 giờ 03 phút và đến 8 giờ 08 phút thì hết nước, tức chảy trong 5 phút, nên mỗi phút mực nước thùng thứ hai giảm:\n\n$\\dfrac{x-0,2}{5}$ mét.\n\nTại 8 giờ 04 phút:\n\n- Thùng thứ nhất đã chảy 4 phút.\n- Thùng thứ hai đã chảy 1 phút.\n\nHai mực nước bằng nhau nên:\n\n$x-4\\cdot\\dfrac{x-0,4}{8}=x-0,2-\\dfrac{x-0,2}{5}$.\n\nGiải phương trình được $x=1,2$.\n\nVậy chiều cao ban đầu của thùng thứ nhất là $1,2m$.\n\nChiều cao ban đầu của thùng thứ hai là:\n\n$1,2-0,2=1m$.\n\nVậy đáp số là $\\boxed{1,2m}$ và $\\boxed{1m}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết bắt đầu từ dữ kiện nào.",
+          "Em chưa biết chọn công thức hoặc lập phương trình.",
+          "Em chưa biết kiểm tra kết quả cuối cùng."
+        ],
+        "dinh_huong": [
+          "Em đọc lại đại lượng cần tìm trước rồi gạch dưới dữ kiện liên quan.",
+          "Em thử viết công thức tổng quát trước khi thay số.",
+          "Em kiểm tra đơn vị và điều kiện của kết quả."
+        ],
+        "kiem_tra": [
+          "Kết quả có đúng đơn vị chưa?",
+          "Kết quả có phù hợp với điều kiện bài toán không?",
+          "Em đã trả lời đúng câu hỏi đề bài yêu cầu chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức.",
+          "Em thay số sai hoặc đổi đơn vị sai.",
+          "Em có kết quả nhưng chưa kết luận."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 8,
+      "diem": 3.0,
+      "chu_de": "Hình học đường tròn - Tiếp tuyến và tứ giác nội tiếp",
+      "de_bai": "Từ điểm $A$ nằm bên ngoài đường tròn $(O;R)$, kẻ hai tiếp tuyến $AB,AC$ với đường tròn, $B,C$ là các tiếp điểm. $AO$ cắt $BC$ tại $K$.\n\na) Chứng minh $ABOC$ là tứ giác nội tiếp và $AO$ là đường trung trực của đoạn thẳng $BC$.\n\nb) Gọi $P$ là điểm bất kì thuộc $(O)$ sao cho tia $BO$ nằm giữa hai tia $BP$ và $BC$. $H$ là chân đường vuông góc kẻ từ $B$ xuống $PC$, $M$ là trung điểm $BH$ và $PM$ cắt $(O)$ tại $Q$ khác $P$. Chứng minh $\\widehat{QMK}=\\widehat{QCA}$.\n\nc) Chứng minh $\\widehat{AQC}=90^\\circ$ và $AC=2R\\tan\\widehat{CPQ}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính chất tiếp tuyến vuông góc với bán kính",
+        "Tính chất hai tiếp tuyến cắt nhau",
+        "Đường trung bình trong tam giác",
+        "Góc nội tiếp cùng chắn một cung",
+        "Chứng minh tứ giác nội tiếp"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tiếp tuyến của đường tròn",
+        "Tứ giác nội tiếp",
+        "Góc nội tiếp",
+        "Tam giác đồng dạng"
+      ],
+      "dap_so": "Chứng minh được $ABOC$ nội tiếp, $AO$ là đường trung trực của $BC$, $\\widehat{QMK}=\\widehat{QCA}$, $\\widehat{AQC}=90^\\circ$ và $AC=2R\\tan\\widehat{CPQ}$.",
+      "goi_y_cap_1": "Câu a: dùng $OB\\perp AB$ và $OC\\perp AC$. Câu b: chứng minh $KM\\parallel CH$ bằng đường trung bình trong tam giác $BCH$.",
+      "goi_y_cap_2": "Vì $K$ là trung điểm $BC$ và $M$ là trung điểm $BH$, suy ra $KM\\parallel CH$. Do đó $\\widehat{QMK}=\\widehat{QPC}$. Lại có $\\widehat{QPC}=\\widehat{QCA}$ vì cùng chắn cung $QC$.",
+      "loi_giai_day_du": "**a)** Vì $AB,AC$ là hai tiếp tuyến của $(O)$ tại $B,C$ nên:\n\n$OB\\perp AB$ và $OC\\perp AC$.\n\nSuy ra $\\widehat{ABO}=\\widehat{ACO}=90^\\circ$.\n\nDo đó $ABOC$ là tứ giác nội tiếp.\n\nMặt khác, $AB=AC$ do tính chất hai tiếp tuyến cắt nhau và $OB=OC=R$.\n\nVì $A$ và $O$ cùng cách đều hai điểm $B,C$ nên $AO$ là đường trung trực của $BC$.\n\n**b)** Vì $AO$ là đường trung trực của $BC$ nên $K$ là trung điểm của $BC$.\n\nTheo giả thiết, $M$ là trung điểm của $BH$.\n\nXét tam giác $BCH$, có $K$ là trung điểm $BC$ và $M$ là trung điểm $BH$, nên $KM$ là đường trung bình.\n\nSuy ra $KM\\parallel CH$.\n\nVì $H\\in PC$ nên $CH$ cùng phương với $CP$. Do đó:\n\n$\\widehat{QMK}=\\widehat{QPC}$.\n\nMà $P,Q,C$ cùng thuộc đường tròn $(O)$ nên:\n\n$\\widehat{QPC}=\\widehat{QCA}$ vì cùng chắn cung $QC$.\n\nVậy $\\boxed{\\widehat{QMK}=\\widehat{QCA}}$.\n\n**c)** Từ câu b có $\\widehat{QMK}=\\widehat{QCA}$.\n\nMặt khác $\\widehat{QCA}=\\widehat{QBA}$ theo tính chất góc tạo bởi tiếp tuyến và dây cung.\n\nSuy ra $QBMK$ là tứ giác nội tiếp.\n\nTừ đó suy ra $\\widehat{QMB}=\\widehat{QKB}$.\n\nKết hợp các quan hệ góc, ta được $\\widehat{QKA}=\\widehat{QCA}$, nên $AQKC$ là tứ giác nội tiếp.\n\nDo $AO\\perp BC$ tại $K$ nên $\\widehat{AKC}=90^\\circ$.\n\nSuy ra $\\widehat{AQC}=\\widehat{AKC}=90^\\circ$.\n\nVậy $\\boxed{\\widehat{AQC}=90^\\circ}$.\n\nGọi $QE$ là đường kính của $(O)$.\n\nVì $QE$ là đường kính nên $QE=2R$.\n\nTừ các góc bằng nhau, suy ra tam giác $ACQ$ đồng dạng với tam giác $QCE$.\n\nDo đó:\n\n$\\dfrac{AQ}{QC}=\\dfrac{AC}{QE}=\\dfrac{AC}{2R}$.\n\nMặt khác $\\tan\\widehat{CPQ}=\\tan\\widehat{ACQ}=\\dfrac{AC}{2R}$.\n\nSuy ra $AC=2R\\tan\\widehat{CPQ}$.\n\nVậy $\\boxed{AC=2R\\tan\\widehat{CPQ}}$.",
+      "co_hinh_ve": true,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết bắt đầu từ dữ kiện nào.",
+          "Em chưa biết chọn công thức hoặc lập phương trình.",
+          "Em chưa biết kiểm tra kết quả cuối cùng."
+        ],
+        "dinh_huong": [
+          "Em đọc lại đại lượng cần tìm trước rồi gạch dưới dữ kiện liên quan.",
+          "Em thử viết công thức tổng quát trước khi thay số.",
+          "Em kiểm tra đơn vị và điều kiện của kết quả."
+        ],
+        "kiem_tra": [
+          "Kết quả có đúng đơn vị chưa?",
+          "Kết quả có phù hợp với điều kiện bài toán không?",
+          "Em đã trả lời đúng câu hỏi đề bài yêu cầu chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm công thức.",
+          "Em thay số sai hoặc đổi đơn vị sai.",
+          "Em có kết quả nhưng chưa kết luận."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "ghi_chu_hinh": "Hình minh họa bài 8 được chụp trực tiếp từ phần đáp án của PDF.",
+      "hinh_anh": "/images/de-tuyen-sinh-nam-24-25/bai8-duongtron-tieptuyen.png"
+    }
+  ]
+}
