@@ -1,0 +1,362 @@
+{
+  "de_so": 28,
+  "cum": 10,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = \\dfrac{x^2}{3}$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm tọa độ các điểm thuộc $(P)$ (khác gốc tọa độ) có tung độ gấp hai lần hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -3, -1.5, 0, 1.5, 3)",
+        "'Tung độ gấp hai lần hoành độ' → $y = 2x$",
+        "Thay vào (P): $\\dfrac{x^2}{3} = 2x$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai dạng $x^2 - 6x = 0$"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $(6; 12)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -3, -1,5, 0, 1,5, 3 → y = 3, 0,75, 0, 0,75, 3.\n\nCâu b: $y = 2x$. Thay vào: $\\dfrac{x^2}{3} = 2x \\Rightarrow x^2 - 6x = 0 \\Rightarrow x = 0$ (loại) hoặc $x = 6$. $y = 12$.",
+      "goi_y_cap_2": "Câu a:\n- Bảng giá trị: x từ -3 đến 3, y = $x^2/3$\n\nCâu b:\n- $y = 2x$\n- $\\dfrac{x^2}{3} = 2x \\Rightarrow x^2 - 6x = 0$\n- $x = 0$ (loại vì khác gốc tọa độ) hoặc $x = 6$\n- $x = 6 \\Rightarrow y = 12$\n- Tọa độ: $(6; 12)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-3$ | $-1{,}5$ | $0$ | $1{,}5$ | $3$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{3}$ | $3$ | $0{,}75$ | $0$ | $0{,}75$ | $3$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm tọa độ điểm M:**\n\nVì điểm cần tìm có tung độ gấp hai lần hoành độ nên $y = 2x$.\n\nTa có phương trình $\\dfrac{x^2}{3} = 2x$\n$$x^2 - 6x = 0$$\n$$x = 0 \\text{ (loại) hoặc } x = 6$$\n\nVới $x = 6 \\Rightarrow y = 12$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{(6; 12)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình parabol y = x²/3 trên hệ trục Oxy với các điểm đặc trưng x = -3, -1,5, 0, 1,5, 3.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tung độ gấp hai lần hoành độ'.",
+          "Em không biết viết phương trình $\\dfrac{x^2}{3} = 2x$.",
+          "Em không biết loại nghiệm $x = 0$."
+        ],
+        "dinh_huong": [
+          "Em định viết $y = 2x$ — đúng không?",
+          "Em định thay vào (P) → $x^2 - 6x = 0$ — đúng chứ?",
+          "Em định loại $x = 0$ vì khác gốc tọa độ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 - 6x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = 6$ — đúng chưa?",
+          "Em ra $(6; 12)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'tung độ gấp hai lần hoành độ' thành 'hoành độ gấp đôi tung độ' (x = 2y).",
+          "Em quên loại $x = 0$ vì khác gốc tọa độ.",
+          "Em không biết đặt $x$ làm thừa số chung."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-28/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A",
+      "de_bai": "Cho phương trình $x^2 - 9x + 2 = 0$ có hai nghiệm $x_1, x_2$. Không giải phương trình, hãy tính giá trị biểu thức\n$$A = \\dfrac{x_1^2}{2} - \\left(\\dfrac{x_1 - x_2^2}{2} - \\dfrac{1}{x_2}\\right)$$",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ kiểm tra có nghiệm",
+        "Định lý Viète: $x_1 + x_2 = 9$, $x_1 x_2 = 2$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 77$",
+        "Biến đổi A từng bước"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hằng đẳng thức $(x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "dap_so": "$A = \\dfrac{77}{2}$",
+      "goi_y_cap_1": "$\\Delta = 81 - 8 = 73 > 0$. Viète: $x_1+x_2 = 9$, $x_1 x_2 = 2$. $x_1^2+x_2^2 = 81 - 4 = 77$. Biến đổi: $A = \\dfrac{x_1^2 - (x_1 - x_2^2)}{2} + \\dfrac{1}{x_2} = \\dfrac{(x_1^2+x_2^2) - x_1}{2} + \\dfrac{1}{x_2} = \\dfrac{x_1^2+x_2^2}{2} - \\dfrac{x_1 x_2 - 2}{2x_2} = \\dfrac{77}{2} - 0 = 77/2$.",
+      "goi_y_cap_2": "- $a = 1; b = -9; c = 2$\n- $\\Delta = 81 - 8 = 73 > 0$ → có 2 nghiệm phân biệt\n- Viète: $x_1 + x_2 = 9$, $x_1 x_2 = 2$\n- $x_1^2 + x_2^2 = 9^2 - 2 \\cdot 2 = 77$\n- $A = \\dfrac{x_1^2}{2} - \\dfrac{x_1 - x_2^2}{2} + \\dfrac{1}{x_2}$\n- $= \\dfrac{x_1^2 - x_1 + x_2^2}{2} + \\dfrac{1}{x_2}$\n- $= \\dfrac{(x_1^2 + x_2^2) - x_1}{2} + \\dfrac{1}{x_2}$\n- $= \\dfrac{x_1^2 + x_2^2}{2} - \\dfrac{x_1}{2} + \\dfrac{1}{x_2}$\n- $= \\dfrac{x_1^2 + x_2^2}{2} - \\dfrac{x_1 x_2 - 2}{2x_2}$\n- Thay $x_1^2 + x_2^2 = 77$, $x_1 x_2 = 2$:\n- $A = \\dfrac{77}{2} - \\dfrac{2 - 2}{2x_2} = \\dfrac{77}{2}$",
+      "loi_giai_day_du": "Ta có $x^2 - 9x + 2 = 0$ với $a = 1; b = -9; c = 2$.\n\n$\\Delta = b^2 - 4ac = (-9)^2 - 4 \\cdot 1 \\cdot 2 = 81 - 8 = 73 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = 9 \\\\ x_1 x_2 = \\dfrac{c}{a} = 2 \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 9^2 - 2 \\cdot 2 = 77$.\n\nBiến đổi biểu thức $A$:\n$$A = \\dfrac{x_1^2}{2} - \\left(\\dfrac{x_1 - x_2^2}{2} - \\dfrac{1}{x_2}\\right)$$\n$$A = \\dfrac{x_1^2}{2} - \\dfrac{x_1 - x_2^2}{2} + \\dfrac{1}{x_2}$$\n$$A = \\dfrac{x_1^2 - (x_1 - x_2^2)}{2} + \\dfrac{1}{x_2}$$\n$$A = \\dfrac{x_1^2 - x_1 + x_2^2}{2} + \\dfrac{1}{x_2}$$\n$$A = \\dfrac{(x_1^2 + x_2^2) - x_1}{2} + \\dfrac{1}{x_2}$$\n$$A = \\dfrac{x_1^2 + x_2^2}{2} - \\dfrac{x_1}{2} + \\dfrac{1}{x_2}$$\n$$A = \\dfrac{x_1^2 + x_2^2}{2} - \\dfrac{x_1 x_2 - 2}{2x_2}$$\n\nThay $x_1^2 + x_2^2 = 77$ và $x_1 x_2 = 2$ vào biểu thức $A$, ta được:\n$$A = \\dfrac{77}{2} - \\dfrac{2 - 2}{2x_2} = \\boxed{\\dfrac{77}{2}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết khai triển dấu trừ trước ngoặc.",
+          "Em quên Viète.",
+          "Em không biết quy đồng $\\dfrac{x_1}{2}$ và $\\dfrac{1}{x_2}$."
+        ],
+        "dinh_huong": [
+          "Em định khai triển ngoặc lớn → đổi dấu — đúng không?",
+          "Em định gộp $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$ — đúng chứ?",
+          "Em định quy đồng $-\\dfrac{x_1}{2} + \\dfrac{1}{x_2} = -\\dfrac{x_1 x_2 - 2}{2x_2}$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1 + x_2 = 9$, $x_1 x_2 = 2$ — đúng không?",
+          "Em ra $x_1^2 + x_2^2 = 77$ — đúng chưa?",
+          "Em ra $A = 77/2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được $x_1 x_2 - 2 = 2 - 2 = 0$ → loại bỏ phần kia.",
+          "Em quy đồng sai dấu.",
+          "Em nhầm $x_1^2 + x_2^2 = (x_1+x_2)^2 - x_1 x_2$ (đúng phải là $-2x_1 x_2$)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ tần số ô tô qua trạm thu phí",
+      "de_bai": "Người ta thống kê các loại ô tô chạy qua một trạm thu phí trong một giờ và vẽ được biểu đồ tần số như hình bên dưới:\n\n| Loại xe | Số lượng |\n|---|---|\n| Xe 4 chỗ | 9 |\n| Xe 7 chỗ | 14 |\n| Xe 9 chỗ | 5 |\n| Xe 16 chỗ trở lên | 3 |\n\na) Tính tổng số xe trung bình qua trạm trong $1$ giờ.\n\nb) Tính xác suất của biến cố xe qua trạm là xe $4$ chỗ.\n\nc) Tính xác suất của biến cố xe qua trạm là xe dưới $9$ chỗ.",
+      "phuong_phap_duoc_dung": [
+        "Tổng = 9+14+5+3 = 31",
+        "P(A) = 9/31 (chỉ xe 4 chỗ)",
+        "Xe dưới 9 chỗ = xe 4 chỗ + xe 7 chỗ = 9+14 = 23 → P(B) = 23/31"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ tần số",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) 31 xe. b) $P(A) = \\dfrac{9}{31}$. c) $P(B) = \\dfrac{23}{31}$.",
+      "goi_y_cap_1": "Câu a: Tổng = 9+14+5+3 = 31.\n\nCâu b: Xe 4 chỗ có 9 xe → $P(A) = 9/31$.\n\nCâu c: Xe dưới 9 chỗ = xe 4 chỗ + xe 7 chỗ = 9+14 = 23 → $P(B) = 23/31$.",
+      "goi_y_cap_2": "Câu a:\n- $n(\\Omega) = 9 + 14 + 5 + 3 = 31$ xe\n\nCâu b - A:\n- $n(A) = 9$ (xe 4 chỗ)\n- $P(A) = \\dfrac{9}{31}$\n\nCâu c - B:\n- 'Dưới 9 chỗ' → xe 4 chỗ và xe 7 chỗ\n- $n(B) = 9 + 14 = 23$\n- $P(B) = \\dfrac{23}{31}$",
+      "loi_giai_day_du": "**Câu a) Tổng số xe:**\n\nTổng số xe qua trạm trong 1 giờ là:\n$$9 + 14 + 5 + 3 = \\boxed{31} \\text{ (xe)}$$\n\n**Câu b) Tính P(A):**\n\nGọi $A$ là biến cố \"Xe qua trạm là xe 4 chỗ\".\n\nKhông gian mẫu: $n(\\Omega) = 31$.\n\nSố trường hợp thuận lợi cho biến cố $A$ là số xe 4 chỗ: $n(A) = 9$.\n\nXác suất của biến cố $A$:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\boxed{\\dfrac{9}{31}}$$\n\n**Câu c) Tính P(B):**\n\nGọi $B$ là biến cố \"Xe qua trạm là xe dưới 9 chỗ\".\n\nCác loại xe dưới 9 chỗ gồm xe 4 chỗ và xe 7 chỗ.\n\nSố trường hợp thuận lợi cho biến cố $B$ là $n(B) = 9 + 14 = 23$.\n\nXác suất của biến cố $B$:\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\boxed{\\dfrac{23}{31}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ tần số (đồ thị đường) số lượng xe theo loại xe (4 chỗ: 9, 7 chỗ: 14, 9 chỗ: 5, 16 chỗ trở lên: 3).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'dưới 9 chỗ' bao gồm những loại xe nào.",
+          "Em không biết đọc biểu đồ tần số.",
+          "Em nhầm tổng số xe."
+        ],
+        "dinh_huong": [
+          "Em định cộng 4 nhóm = 31 — đúng không?",
+          "Em định 'dưới 9 chỗ' = xe 4 chỗ + xe 7 chỗ — đúng chứ?",
+          "Em định không cộng xe 9 chỗ vì nó đúng bằng 9 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 31 xe — đúng không?",
+          "Em ra $P(A) = 9/31$ — đúng chưa?",
+          "Em ra $P(B) = 23/31$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em tính 'dưới 9 chỗ' bao gồm cả xe 9 chỗ.",
+          "Em quên xe 7 chỗ là dưới 9 chỗ.",
+          "Em đếm sai số xe 4 chỗ hoặc 7 chỗ."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-28/bai3-bieudo.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vườn HCN có 2 lối đi giữa",
+      "de_bai": "Một mảnh vườn hình chữ nhật có chiều dài $25$ m, chiều rộng bằng $\\dfrac{3}{5}$ chiều dài. Người ta làm hai lối đi rộng $x$ (m) và $2x$ (m) như hình vẽ. Phần đất còn lại dùng để trồng cây.\n\na) Viết biểu thức diện tích đất dùng để trồng cây theo $x$.\n\nb) Biết rằng diện tích lối đi lớn hơn diện tích đất trồng cây là $175$ m². Tìm $x$.",
+      "phuong_phap_duoc_dung": [
+        "Chiều rộng = $25 \\cdot 3/5 = 15$ m",
+        "Phần đất trồng cây gồm 4 hình chữ nhật nhỏ, gộp lại thành HCN $(25-x) \\times (15-2x)$",
+        "S đất = $25 \\cdot 15 = 375$ m²",
+        "S lối đi = $375 - (25-x)(15-2x)$",
+        "$[375 - (25-x)(15-2x)] - (25-x)(15-2x) = 175$",
+        "$\\Rightarrow (25-x)(15-2x) = 100$",
+        "$\\Rightarrow 2x^2 - 65x + 275 = 0 \\Rightarrow x = 5$ (loại $x = 27,5$)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = (25 - x)(15 - 2x)$ m². b) $x = 5$.",
+      "goi_y_cap_1": "Câu a: Chiều rộng = $25 \\cdot 3/5 = 15$ m. Phần đất trồng cây gồm 4 ô gộp thành HCN $(25-x)(15-2x)$.\n\nCâu b: S đất = 375. S lối đi = $375 - (25-x)(15-2x)$. S lối đi - S trồng cây = 175 → $(25-x)(15-2x) = 100$ → $2x^2 - 65x + 275 = 0$ → $x = 5$.",
+      "goi_y_cap_2": "Câu a:\n- Chiều rộng: $25 \\cdot \\dfrac{3}{5} = 15$ m\n- Chiều dài phần đất trồng cây (sau khi trừ lối đi $x$): $25 - x$\n- Chiều rộng phần đất trồng cây (sau khi trừ 2 lối đi $2x$): $15 - 2x$\n- $S = (25 - x)(15 - 2x)$ m²\n\nCâu b:\n- Điều kiện: $\\begin{cases} x > 0 \\\\ 15 - 2x > 0 \\end{cases} \\Rightarrow 0 < x < 7,5$\n- S vườn = $25 \\cdot 15 = 375$ m²\n- S lối đi = $375 - (25-x)(15-2x)$\n- S lối đi - S trồng cây = 175:\n- $[375 - (25-x)(15-2x)] - (25-x)(15-2x) = 175$\n- $375 - 2(25-x)(15-2x) = 175 \\Rightarrow (25-x)(15-2x) = 100$\n- $375 - 50x - 15x + 2x^2 = 100 \\Rightarrow 2x^2 - 65x + 275 = 0$\n- $x_1 = 27,5$ (loại) hoặc $x_2 = 5$ (nhận)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích trồng cây:**\n\nChiều rộng của mảnh vườn hình chữ nhật là $25 \\cdot \\dfrac{3}{5} = 15$ (m).\n\nChiều dài phần đất trồng cây là $25 - x$ (m).\n\nChiều rộng phần đất trồng cây là $15 - 2x$ (m).\n\nBiểu thức diện tích đất dùng để trồng cây là:\n$$S = (25 - x)(15 - 2x) \\text{ (m}^2\\text{)}$$\n\n**Câu b) Tìm x:**\n\nTheo đề bài, ta có điều kiện: $\\begin{cases} x > 0 \\\\ 15 - 2x > 0 \\end{cases} \\Rightarrow 0 < x < 7{,}5$.\n\nDiện tích của mảnh vườn hình chữ nhật là $25 \\cdot 15 = 375$ (m²).\n\nDiện tích lối đi là $375 - (25 - x)(15 - 2x)$ (m²).\n\nVì diện tích lối đi lớn hơn diện tích đất trồng cây là $175$ m² nên ta có phương trình:\n$$[375 - (25 - x)(15 - 2x)] - (25 - x)(15 - 2x) = 175$$\n$$375 - 2(25 - x)(15 - 2x) = 175$$\n$$2(25 - x)(15 - 2x) = 200$$\n$$(25 - x)(15 - 2x) = 100$$\n$$375 - 50x - 15x + 2x^2 = 100$$\n$$2x^2 - 65x + 275 = 0$$\n$$x_1 = 27{,}5 \\text{ (loại) hoặc } x_2 = 5 \\text{ (nhận)}$$\n\nVậy $x = \\boxed{5}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh vườn HCN 25m × 15m, có lối đi dọc rộng x ở giữa và 2 lối đi ngang rộng 2x chia làm 4 ô đất trồng cây.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không tính được chiều rộng từ tỉ lệ.",
+          "Em không biết gộp 4 ô đất thành 1 HCN.",
+          "Em không biết đặt phương trình từ 'S lối đi - S trồng cây = 175'."
+        ],
+        "dinh_huong": [
+          "Em định chiều rộng = $25 \\cdot 3/5 = 15$ m — đúng không?",
+          "Em định gộp đất trồng cây thành HCN $(25-x)(15-2x)$ — đúng chứ?",
+          "Em định lập phương trình $375 - 2(25-x)(15-2x) = 175$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = (25-x)(15-2x)$ — đúng không?",
+          "Em ra phương trình $2x^2 - 65x + 275 = 0$ — đúng chưa?",
+          "Em ra $x = 5$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không gộp được 4 ô đất nên tính phức tạp.",
+          "Em nhầm lối đi $2x$ là $x$ × 2 ô (không phải rộng 2x).",
+          "Em loại sai nghiệm $x = 27,5$ vì quên điều kiện."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-28/bai4-vuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Bình hình trụ + viên bi",
+      "de_bai": "Một cái bình hình trụ có bán kính đáy là $4$ cm và chiều cao là $16$ cm.\n\na) Tính thể tích nước cần đổ vào để nước trong bình cao $14$ cm. Biết lúc đầu bình không chứa nước.\n\nb) Người ta có một số viên bi thủy tinh hình cầu có cùng đường kính là $1{,}6$ cm. Có thể thả chìm vào nước nhiều nhất bao nhiêu viên bi để nước trong bình không tràn ra ngoài? Biết thể tích hình trụ $V = \\pi R^2 h$, trong đó $R$ là bán kính đáy, $h$ là chiều cao hình trụ. Thể tích hình cầu $V = \\dfrac{4}{3}\\pi r^3$ với $r$ là bán kính hình cầu.",
+      "phuong_phap_duoc_dung": [
+        "$V_1 = \\pi R^2 h_1 = \\pi \\cdot 16 \\cdot 14 = 224\\pi$ cm³",
+        "Phần trống: $h_2 = 16 - 14 = 2$ cm → $V_2 = 32\\pi$ cm³",
+        "$r = 1,6/2 = 0,8$ cm → $V_{bi} = \\dfrac{128\\pi}{375}$",
+        "Số viên = $32\\pi : V_{bi} = 93,75$ → 93 viên"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình cầu",
+        "Lấy phần nguyên"
+      ],
+      "dap_so": "a) $V = 224\\pi$ cm³. b) 93 viên bi.",
+      "goi_y_cap_1": "Câu a: $V_1 = \\pi \\cdot 4^2 \\cdot 14 = 224\\pi$ cm³.\n\nCâu b: Phần trống h = 16 - 14 = 2 cm → $V_2 = 32\\pi$ cm³. $r = 0,8$ cm → $V_{bi} = \\dfrac{4}{3}\\pi \\cdot 0,8^3 = \\dfrac{128\\pi}{375}$. Số viên = $32\\pi : (128\\pi/375) = 93,75$ → 93 viên.",
+      "goi_y_cap_2": "Câu a:\n- $V_1 = \\pi R^2 h_1 = \\pi \\cdot 4^2 \\cdot 14 = 224\\pi$ cm³\n\nCâu b:\n- Chiều cao phần trống: $h_2 = 16 - 14 = 2$ cm\n- $V_2 = \\pi R^2 h_2 = \\pi \\cdot 4^2 \\cdot 2 = 32\\pi$ cm³\n- $r = 1,6 : 2 = 0,8$ cm\n- $V_{bi} = \\dfrac{4}{3}\\pi \\cdot 0,8^3 = \\dfrac{128\\pi}{375}$ cm³\n- Số viên tối đa: $32\\pi : \\dfrac{128\\pi}{375} = 93,75$\n- Lấy phần nguyên: 93 viên",
+      "loi_giai_day_du": "**Câu a) Thể tích nước cần đổ:**\n\nChiều cao mực nước cần đổ vào là $h_1 = 14$ cm.\n\nBán kính đáy của bình hình trụ là $R = 4$ cm.\n\nThể tích nước cần đổ vào bình là:\n$$V_1 = \\pi R^2 h_1 = \\pi \\cdot 4^2 \\cdot 14 = \\boxed{224\\pi \\text{ cm}^3}$$\n\n**Câu b) Số viên bi tối đa:**\n\nChiều cao của phần bình còn trống là:\n$$h_2 = 16 - 14 = 2 \\text{ (cm)}$$\n\nThể tích phần bình còn trống là:\n$$V_2 = \\pi R^2 h_2 = \\pi \\cdot 4^2 \\cdot 2 = 32\\pi \\text{ (cm}^3\\text{)}$$\n\nBán kính của một viên bi thủy tinh hình cầu là $r = 1{,}6 : 2 = 0{,}8$ (cm).\n\nThể tích của một viên bi thủy tinh là:\n$$V_{bi} = \\dfrac{4}{3}\\pi r^3 = \\dfrac{4}{3}\\pi \\cdot 0{,}8^3 = \\dfrac{128\\pi}{375} \\text{ (cm}^3\\text{)}$$\n\nSố viên bi tối đa có thể thả vào bình là:\n$$32\\pi : \\dfrac{128\\pi}{375} = 93{,}75 \\text{ (viên)}$$\n\nVì số viên bi phải là số tự nhiên nên lấy phần nguyên là $\\boxed{93}$ viên bi.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bình hình trụ R=4cm, cao 16cm chứa nước cao 14cm và viên bi d=1,6cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức V hình trụ.",
+          "Em không biết chiều cao phần trống = 16 - 14.",
+          "Em không biết khi nào lấy phần nguyên."
+        ],
+        "dinh_huong": [
+          "Em định $V_1 = \\pi R^2 h$ với h = 14 — đúng không?",
+          "Em định phần trống V = 32π cm³ — đúng chứ?",
+          "Em định Số viên = $V_{trống} : V_{bi}$ rồi lấy phần nguyên — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_1 = 224\\pi$ cm³ — đúng không?",
+          "Em ra $V_{bi} = 128π/375$ — đúng chưa?",
+          "Em ra 93 viên — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $r = 1,6$ thay vì 0,8.",
+          "Em làm tròn 93,75 lên 94 (sai - phải lấy 93 vì nếu thả 94 thì tràn).",
+          "Em quên rằng nước đã chiếm 14cm, phần trống chỉ 2cm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-28/bai5-binhtru.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Lớp 9A chia tổ",
+      "de_bai": "Khi mới nhận lớp $9A$, cô giáo chủ nhiệm dự định chia lớp thành $3$ tổ có số học sinh như nhau. Nhưng sau khi khai giảng, lớp nhận thêm $4$ học sinh nữa. Do đó, cô giáo chủ nhiệm đã chia đều số học sinh của lớp thành $4$ tổ. Hỏi lớp $9A$ hiện nay có bao nhiêu học sinh? Biết rằng so với phương án dự định ban đầu, số học sinh của mỗi tổ hiện nay có ít hơn $2$ học sinh.",
+      "phuong_phap_duoc_dung": [
+        "Gọi x = số HS/tổ dự định, y = số HS/tổ hiện nay (x > 2)",
+        "Số HS dự định = 3x, số HS hiện nay = 4y",
+        "Hiện nay nhiều hơn 4 HS: 4y - 3x = 4",
+        "Mỗi tổ ít hơn 2: x - y = 2",
+        "→ x = 12, y = 10",
+        "Số HS hiện nay = 4y = 40"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất 2 ẩn"
+      ],
+      "dap_so": "Lớp 9A hiện nay có 40 học sinh.",
+      "goi_y_cap_1": "Gọi $x, y$ là số HS mỗi tổ (dự định, hiện nay). Số HS dự định = 3x, hiện nay = 4y. Hệ: $\\begin{cases} x - y = 2 \\\\ 4y - 3x = 4 \\end{cases}$ → $x = 12, y = 10$. Số HS hiện nay = 40.",
+      "goi_y_cap_2": "- Gọi $x$ (HS) = số HS mỗi tổ theo dự định, $y$ (HS) = số HS mỗi tổ hiện nay ($x, y \\in \\mathbb{N}^*, x > 2$)\n- Tổng HS dự định: $3x$\n- Tổng HS hiện nay: $4y$\n- Mỗi tổ hiện nay ít hơn 2 HS: $x - y = 2$ (1)\n- Lớp nhận thêm 4 HS: $4y - 3x = 4$ (2)\n- Hệ: $\\begin{cases} x - y = 2 \\\\ 4y - 3x = 4 \\end{cases} \\Rightarrow \\begin{cases} x = 12 \\\\ y = 10 \\end{cases}$\n- Số HS hiện nay = $4 \\cdot 10 = 40$",
+      "loi_giai_day_du": "Gọi $x$ (học sinh) là số học sinh của mỗi tổ theo dự định, $y$ (học sinh) là số học sinh của mỗi tổ hiện nay ($x, y \\in \\mathbb{N}^*, x > 2$).\n\nSố học sinh của lớp 9A theo dự định là $3x$ (học sinh).\n\nSố học sinh của lớp 9A hiện nay là $4y$ (học sinh).\n\nVì số học sinh của mỗi tổ hiện nay ít hơn $2$ học sinh so với dự định ban đầu nên ta có phương trình:\n$$x - y = 2 \\quad (1)$$\n\nVì sau khi khai giảng lớp nhận thêm $4$ học sinh nữa nên tổng số học sinh hiện nay nhiều hơn tổng số học sinh dự định là $4$ học sinh, ta có phương trình:\n$$4y - 3x = 4 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} x - y = 2 \\\\ 4y - 3x = 4 \\end{cases} \\Rightarrow \\begin{cases} x = 12 \\\\ y = 10 \\end{cases}$$\n\nSuy ra số học sinh của mỗi tổ hiện nay là $10$ (học sinh).\n\nVậy số học sinh của lớp 9A hiện nay là $4 \\cdot 10 = \\boxed{40}$ học sinh.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu từ đâu - gọi ẩn nào.",
+          "Em không biết viết phương trình từ 'mỗi tổ ít hơn 2'.",
+          "Em không biết viết phương trình từ '4 HS thêm'."
+        ],
+        "dinh_huong": [
+          "Em định gọi x = số HS dự định/tổ, y = số HS hiện nay/tổ — đúng không?",
+          "Em định 'mỗi tổ ít hơn 2': $x - y = 2$ — đúng chứ?",
+          "Em định 'thêm 4 HS': $4y - 3x = 4$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ pt $\\begin{cases} x - y = 2 \\\\ 4y - 3x = 4 \\end{cases}$ — đúng không?",
+          "Em ra $x = 12, y = 10$ — đúng chưa?",
+          "Em ra 40 HS — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm số HS cả lớp (dự định, hiện nay) thành ẩn thay vì số HS/tổ.",
+          "Em đảo dấu '$y - x = 2$' (sai - phải $x - y$ vì dự định nhiều hơn).",
+          "Em quên × 4 ở câu cuối."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Nửa đường tròn, hai tiếp tuyến Ax, By",
+      "de_bai": "Cho nửa đường tròn $(O)$ đường kính $AB = 2R$. Vẽ các tiếp tuyến $Ax$ và $By$ của đường tròn $(O)$. Qua điểm $M$ thuộc nửa đường tròn $(O)$ ($M$ khác $A$ và $B$) kẻ tiếp tuyến với nửa đường tròn $(O)$; cắt $Ax, By$ lần lượt ở $E$ và $F$.\n\na) Chứng minh tứ giác $AEMO$ nội tiếp đường tròn. Xác định tâm và bán kính của đường tròn này.\n\nb) Chứng minh $\\triangle EOF$ là tam giác vuông và $MA \\cdot OF = MB \\cdot OE$.\n\nc) Gọi $K$ là giao điểm của $AF$ và $BE$, nếu $MB = \\sqrt{3} MA$. Tính diện tích $\\triangle KAB$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "△EAO và △EMO vuông → đồng viên đường kính EO → AEMO nội tiếp",
+        "OE phân giác AOM, OF phân giác BOM → EOF = 90°",
+        "△MAB ~ △OEF (g-g) qua AEMO nội tiếp → MA·OF = MB·OE",
+        "$\\tan MAB = \\sqrt{3}$ → MAB = 60° → AOM = 120°",
+        "AE = R√3, BF = R/√3, AE//BF",
+        "Thales: AK/KF = AE/BF = 3 → AK/AF = 3/4",
+        "KH//BF: KH = 3/4 · BF = R√3/4",
+        "$S_{KAB} = R^2\\sqrt{3}/4$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tiếp tuyến đường tròn",
+        "Tứ giác nội tiếp",
+        "2 tiếp tuyến cắt nhau",
+        "Định lý Thales"
+      ],
+      "dap_so": "c) $S_{\\triangle KAB} = \\dfrac{R^2\\sqrt{3}}{4}$.",
+      "goi_y_cap_1": "Câu a: △EAO vuông tại A (Ax tiếp tuyến) → nội tiếp đường tròn đường kính EO. △EMO vuông tại M (EM tiếp tuyến) → cùng đường tròn đường kính EO. → AEMO nội tiếp, tâm = trung điểm EO, bán kính = EO/2.\n\nCâu b: OE là phân giác AOM, OF là phân giác BOM (2 tiếp tuyến cắt nhau). EOF = (AOM + BOM)/2 = 180°/2 = 90°. △MAB và △OEF: AMB = EOF = 90°, MAB = OEF (qua AEMO nội tiếp) → đồng dạng → MA·OF = MB·OE.\n\nCâu c: △MAB vuông tại M, $\\tan MAB = MB/MA = \\sqrt{3}$ → MAB = 60° → AOM = 120°, BOM = 60°. △AOE: AOE = 60° → AE = R tan 60° = R√3. △BOF: BOF = 30° → BF = R tan 30° = R/√3. AE//BF (cùng vuông góc AB). Thales △KBF có KE//... À: AE//BF nên △KAE ~ △KFB → AK/KF = AE/BF = 3. Kẻ KH ⊥ AB tại H, KH//BF: KH/BF = AK/AF = 3/4 → KH = 3R/(4√3) = R√3/4. $S = AB·KH/2 = 2R·R√3/4·1/2 = R²√3/4$.",
+      "goi_y_cap_2": "Câu a:\n- Ax tiếp tuyến tại A → EA ⊥ OA → △EAO vuông tại A → nội tiếp đường tròn đường kính EO (1)\n- EM tiếp tuyến tại M → EM ⊥ OM → △EMO vuông tại M → nội tiếp đường tròn đường kính EO (2)\n- (1)(2) → 4 điểm A, E, M, O đồng viên → AEMO nội tiếp đường tròn đường kính EO\n- Tâm = trung điểm EO, bán kính = EO/2\n\nCâu b:\n- 2 tiếp tuyến từ E: EA = EM → OE là phân giác $\\widehat{AOM}$ → $\\widehat{EOM} = \\dfrac{1}{2}\\widehat{AOM}$\n- 2 tiếp tuyến từ F: FB = FM → OF là phân giác $\\widehat{BOM}$ → $\\widehat{FOM} = \\dfrac{1}{2}\\widehat{BOM}$\n- $\\widehat{EOF} = \\widehat{EOM} + \\widehat{FOM} = \\dfrac{\\widehat{AOM} + \\widehat{BOM}}{2} = \\dfrac{180°}{2} = 90°$\n- → △EOF vuông tại O\n- AEMO nội tiếp → $\\widehat{MAO} = \\widehat{MEO}$ (cùng chắn cung MO) → $\\widehat{MAB} = \\widehat{OEF}$\n- △MAB và △OEF: $\\widehat{AMB} = \\widehat{EOF} = 90°$, $\\widehat{MAB} = \\widehat{OEF}$\n- → △MAB ~ △OEF (g-g)\n- $\\dfrac{MA}{OE} = \\dfrac{MB}{OF}$ → $MA \\cdot OF = MB \\cdot OE$\n\nCâu c:\n- △MAB vuông tại M (góc nội tiếp chắn nửa đường tròn)\n- $\\tan \\widehat{MAB} = \\dfrac{MB}{MA} = \\sqrt{3} \\Rightarrow \\widehat{MAB} = 60°$\n- → $\\widehat{AOM} = 2 \\cdot 60° = 120°$ (góc ở tâm)\n- △AOE vuông tại A có $\\widehat{AOE} = 60°$ → $AE = OA \\tan 60° = R\\sqrt{3}$\n- $\\widehat{BOF} = (180° - 120°)/2 = 30°$\n- $BF = OB \\tan 30° = \\dfrac{R}{\\sqrt{3}}$\n- AE ⊥ AB, BF ⊥ AB → AE // BF\n- Định lý Thales △KBF có AE // BF: $\\dfrac{AK}{KF} = \\dfrac{AE}{BF} = \\dfrac{R\\sqrt{3}}{R/\\sqrt{3}} = 3$\n- Kẻ KH ⊥ AB tại H → KH // BF (cùng ⊥ AB)\n- Hệ quả Thales △ABF: $\\dfrac{KH}{BF} = \\dfrac{AK}{AF} = \\dfrac{AK}{AK+KF} = \\dfrac{3}{4}$\n- $KH = \\dfrac{3}{4} BF = \\dfrac{3}{4} \\cdot \\dfrac{R}{\\sqrt{3}} = \\dfrac{R\\sqrt{3}}{4}$\n- $S_{KAB} = \\dfrac{1}{2} AB \\cdot KH = \\dfrac{1}{2} \\cdot 2R \\cdot \\dfrac{R\\sqrt{3}}{4} = \\dfrac{R^2\\sqrt{3}}{4}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh tứ giác $AEMO$ nội tiếp:**\n\nVì $Ax$ là tiếp tuyến của $(O)$ tại $A$ nên $EA \\perp OA$ tại $A$.\n\n$\\triangle EAO$ vuông tại $A$ nên $\\triangle EAO$ nội tiếp đường tròn đường kính $EO$ (1).\n\nVì $EF$ là tiếp tuyến của $(O)$ tại $M$ nên $EM \\perp OM$ tại $M$.\n\n$\\triangle EMO$ vuông tại $M$ nên $\\triangle EMO$ nội tiếp đường tròn đường kính $EO$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $A, E, M, O$ cùng thuộc đường tròn đường kính $EO$.\n\nSuy ra tứ giác $AEMO$ nội tiếp đường tròn đường kính $EO$.\n\nTâm là trung điểm của đoạn thẳng $EO$, bán kính là $\\dfrac{EO}{2}$.\n\n**Câu b) Chứng minh $\\triangle EOF$ vuông và $MA \\cdot OF = MB \\cdot OE$:**\n\nTheo tính chất hai tiếp tuyến cắt nhau, ta có:\n\n$OE$ là tia phân giác của $\\widehat{AOM} \\Rightarrow \\widehat{EOM} = \\dfrac{1}{2}\\widehat{AOM}$.\n\n$OF$ là tia phân giác của $\\widehat{BOM} \\Rightarrow \\widehat{FOM} = \\dfrac{1}{2}\\widehat{BOM}$.\n\nTa có:\n$$\\widehat{EOF} = \\widehat{EOM} + \\widehat{FOM} = \\dfrac{\\widehat{AOM} + \\widehat{BOM}}{2}$$\n\nMà $\\widehat{AOM} + \\widehat{BOM} = 180°$ (hai góc kề bù).\n\nSuy ra $\\widehat{EOF} = \\dfrac{180°}{2} = 90°$.\n\nVậy $\\triangle EOF$ là tam giác vuông tại $O$.\n\nTa có tứ giác $AEMO$ nội tiếp (cmt). Suy ra $\\widehat{MAO} = \\widehat{MEO}$ (hai góc nội tiếp cùng chắn cung $MO$).\n\nHay $\\widehat{MAB} = \\widehat{OEF}$.\n\nXét $\\triangle MAB$ và $\\triangle OEF$:\n$\\begin{cases} \\widehat{AMB} = \\widehat{EOF} = 90° \\\\ \\widehat{MAB} = \\widehat{OEF} \\text{ (cmt)} \\end{cases}$\n\n$\\Rightarrow \\triangle MAB \\sim \\triangle OEF$ (g-g)\n\n$\\Rightarrow \\dfrac{MA}{OE} = \\dfrac{MB}{OF} \\Rightarrow MA \\cdot OF = MB \\cdot OE$ (đpcm).\n\n**Câu c) Tính $S_{\\triangle KAB}$:**\n\n$\\triangle MAB$ vuông tại $M$ (góc nội tiếp chắn nửa đường tròn).\n\nTa có $\\tan \\widehat{MAB} = \\dfrac{MB}{MA} = \\sqrt{3}$.\n\nSuy ra $\\widehat{MAB} = 60°$.\n\nSuy ra $\\widehat{AOM} = 2\\widehat{MAB} = 120°$ (góc ở tâm bằng 2 lần góc nội tiếp cùng chắn 1 cung).\n\n$\\triangle AOE$ vuông tại $A$ có $\\widehat{AOE} = \\dfrac{1}{2}\\widehat{AOM} = 60°$.\n\n$AE = OA \\tan 60° = R\\sqrt{3}$.\n\nTương tự, $\\widehat{BOF} = \\dfrac{1}{2}(180° - 120°) = 30°$.\n\n$BF = OB \\tan 30° = R \\cdot \\dfrac{1}{\\sqrt{3}} = \\dfrac{R}{\\sqrt{3}}$.\n\nTa có $\\begin{cases} AE \\perp AB \\\\ BF \\perp AB \\end{cases} \\Rightarrow AE \\parallel BF$.\n\nÁp dụng định lý Ta-lét cho $\\triangle KBF$ có $AE \\parallel BF$:\n$$\\dfrac{AK}{KF} = \\dfrac{AE}{BF} = \\dfrac{R\\sqrt{3}}{\\dfrac{R}{\\sqrt{3}}} = 3$$\n\nKẻ $KH \\perp AB$ tại $H$. Ta có $KH \\parallel BF$ (cùng vuông góc $AB$).\n\nÁp dụng hệ quả định lý Ta-lét trong $\\triangle ABF$:\n$$\\dfrac{KH}{BF} = \\dfrac{AK}{AF} = \\dfrac{AK}{AK + KF} = \\dfrac{3}{3 + 1} = \\dfrac{3}{4}$$\n\nSuy ra $KH = \\dfrac{3}{4} BF = \\dfrac{3}{4} \\cdot \\dfrac{R}{\\sqrt{3}} = \\dfrac{R\\sqrt{3}}{4}$.\n\nDiện tích $\\triangle KAB$ là:\n$$S_{KAB} = \\dfrac{1}{2} \\cdot AB \\cdot KH = \\dfrac{1}{2} \\cdot 2R \\cdot \\dfrac{R\\sqrt{3}}{4} = \\boxed{\\dfrac{R^2\\sqrt{3}}{4}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Nửa đường tròn (O) đường kính AB = 2R, M trên nửa đường tròn, Ax và By tiếp tuyến tại A, B. EM tiếp tuyến tại M cắt Ax tại E, By tại F. K = AF ∩ BE.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất hai tiếp tuyến cắt nhau.",
+          "Em không hiểu vì sao △EOF vuông tại O.",
+          "Câu c em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định 4 điểm AEMO đồng viên đường kính EO — đúng không?",
+          "Câu b em định OE phân giác AOM, OF phân giác BOM → EOF = 90° — đúng chứ?",
+          "Câu c em định dùng tan MAB = √3 → MAB = 60° — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra AEMO nội tiếp đường kính EO — đúng không?",
+          "Em ra △MAB ~ △OEF (g-g) — đúng chưa?",
+          "Em ra $S_{KAB} = R^2\\sqrt{3}/4$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết AE // BF (cùng vuông góc AB).",
+          "Em không tính được tỉ số $AE/BF = 3$.",
+          "Em quên rằng AE = R√3 không phải R."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-28/bai7-tieptuyen.png"
+    }
+  ]
+}

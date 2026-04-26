@@ -1,0 +1,363 @@
+{
+  "de_so": 29,
+  "cum": 10,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = -\\dfrac{1}{4}x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm tọa độ các điểm thuộc $(P)$ sao cho tung độ và hoành độ đối nhau.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Tung độ và hoành độ đối nhau → $y = -x$",
+        "Thay vào (P): $-x = -\\dfrac{1}{4}x^2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0",
+        "Đối nhau: $y = -x$"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$ và $(4; -4)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = -4, -1, 0, -1, -4.\n\nCâu b: 'Đối nhau' → $y = -x$. Thay vào: $-x = -\\dfrac{1}{4}x^2 \\Rightarrow \\dfrac{1}{4}x^2 - x = 0$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = -4$; $x = -2 \\to y = -1$; $x = 0 \\to y = 0$; $x = 2 \\to y = -1$; $x = 4 \\to y = -4$\n\nCâu b:\n- $y = -x$ (đối nhau)\n- $-x = -\\dfrac{1}{4}x^2 \\Rightarrow \\dfrac{1}{4}x^2 - x = 0$\n- $x_1 = 0$ hoặc $x_2 = 4$\n- $(0; 0)$ và $(4; -4)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{1}{4}x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm xuống dưới.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì tung độ và hoành độ đối nhau nên $y = -x$.\n\nTa có phương trình $-x = -\\dfrac{1}{4}x^2$\n$$\\dfrac{1}{4}x^2 - x = 0$$\n$$x = 0 \\text{ hoặc } x = 4$$\n\nVới $x = 0 \\Rightarrow y = 0$.\nVới $x = 4 \\Rightarrow y = -4$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(4; -4)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = -x²/4 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = -4, -1, 0, -1, -4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tung độ và hoành độ đối nhau'.",
+          "Em không biết bề lõm parabol khi $a < 0$.",
+          "Em không biết bảng giá trị bắt đầu từ x nào."
+        ],
+        "dinh_huong": [
+          "Em định 'đối nhau' = $y = -x$ — đúng không?",
+          "Em định parabol bề lõm xuống do $a < 0$ — đúng chứ?",
+          "Em định loại $x = 0$? — KHÔNG, đề không yêu cầu khác gốc tọa độ → nhận cả hai."
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{x^2}{4} - x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = 4$ — đúng chưa?",
+          "Em ra $(0; 0)$ và $(4; -4)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'đối nhau' thành 'bằng nhau' (y = x).",
+          "Em quên dấu trừ ở $a = -1/4$.",
+          "Em bỏ điểm $(0;0)$ vì nghĩ không tính."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-29/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A phức tạp",
+      "de_bai": "Cho phương trình $x^2 + 6x + 4 = 0$ có hai nghiệm $x_1, x_2$. Không giải phương trình, hãy tính giá trị biểu thức $A = (x_1^2 - x_2^2)\\left(\\dfrac{x_1}{x_2^2} - \\dfrac{x_2}{x_1^2}\\right)$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Biến đổi A: $(x_1^2-x_2^2)\\cdot\\dfrac{x_1^3-x_2^3}{x_1^2 x_2^2}$",
+        "$x_1^2-x_2^2 = (x_1-x_2)(x_1+x_2)$, $x_1^3-x_2^3 = (x_1-x_2)(x_1^2+x_1x_2+x_2^2)$",
+        "$(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1x_2$",
+        "$x_1^2+x_2^2 = (x_1+x_2)^2 - 2x_1x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hằng đẳng thức $a^2-b^2$, $a^3-b^3$"
+      ],
+      "dap_so": "$A = -240$",
+      "goi_y_cap_1": "Δ = 36 - 16 = 20 > 0. Viète: $x_1+x_2 = -6$, $x_1x_2 = 4$. Quy đồng: $A = (x_1-x_2)(x_1+x_2)\\cdot\\dfrac{x_1^3-x_2^3}{x_1^2 x_2^2}$. Phân tích $x_1^3-x_2^3 = (x_1-x_2)(x_1^2+x_1x_2+x_2^2)$. $A = \\dfrac{(x_1-x_2)^2(x_1+x_2)(x_1^2+x_1x_2+x_2^2)}{(x_1x_2)^2}$. $(x_1-x_2)^2 = 36-16=20$. $x_1^2+x_1x_2+x_2^2 = (x_1+x_2)^2 - x_1x_2 = 36-4=32$. $A = \\dfrac{20\\cdot(-6)\\cdot 32}{16} = -240$.",
+      "goi_y_cap_2": "- Δ = $36-16 = 20 > 0$\n- Viète: $x_1+x_2 = -6$, $x_1 x_2 = 4$\n- $A = (x_1^2-x_2^2)\\cdot\\dfrac{x_1^3-x_2^3}{x_1^2 x_2^2}$\n- $= (x_1-x_2)(x_1+x_2)\\cdot\\dfrac{(x_1-x_2)(x_1^2+x_1x_2+x_2^2)}{(x_1 x_2)^2}$\n- $= \\dfrac{(x_1-x_2)^2(x_1+x_2)(x_1^2+x_1x_2+x_2^2)}{(x_1 x_2)^2}$\n- $(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1x_2 = 36-16 = 20$\n- $x_1^2+x_1x_2+x_2^2 = (x_1+x_2)^2 - x_1x_2 = 36-4 = 32$\n- $A = \\dfrac{20\\cdot(-6)\\cdot 32}{16} = \\dfrac{-3840}{16} = -240$",
+      "loi_giai_day_du": "Ta có $x^2 + 6x + 4 = 0$ với $a = 1; b = 6; c = 4$.\n\n$\\Delta = b^2 - 4ac = 36 - 16 = 20 > 0$. Phương trình có hai nghiệm phân biệt.\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = -6 \\\\ x_1 x_2 = 4 \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 36 - 8 = 28$.\n\nTa có:\n$$A = (x_1^2 - x_2^2)\\left(\\dfrac{x_1}{x_2^2} - \\dfrac{x_2}{x_1^2}\\right)$$\n$$A = (x_1 - x_2)(x_1 + x_2) \\cdot \\dfrac{x_1^3 - x_2^3}{x_1^2 x_2^2}$$\n$$A = (x_1 - x_2)(x_1 + x_2) \\cdot \\dfrac{(x_1 - x_2)(x_1^2 + x_1 x_2 + x_2^2)}{(x_1 x_2)^2}$$\n$$A = \\dfrac{(x_1 - x_2)^2 (x_1 + x_2)(x_1^2 + x_1 x_2 + x_2^2)}{(x_1 x_2)^2}$$\n\n$(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4 x_1 x_2 = 36 - 16 = 20$.\n\n$x_1^2 + x_1 x_2 + x_2^2 = (x_1^2 + x_2^2) + x_1 x_2 = 28 + 4 = 32$.\n\n$$A = \\dfrac{20 \\cdot (-6) \\cdot 32}{16} = \\dfrac{20 \\cdot (-6) \\cdot 32}{16} = \\boxed{-240}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng phân thức trong A.",
+          "Em không nhớ hằng đẳng thức $a^3 - b^3$.",
+          "Em không biết $(x_1 - x_2)^2$ tính theo Viète."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng để tử = $x_1^3 - x_2^3$ — đúng không?",
+          "Em định phân tích $x_1^2 - x_2^2 = (x_1-x_2)(x_1+x_2)$ — đúng chứ?",
+          "Em định dùng $(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1x_2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = -6$, $x_1 x_2 = 4$ — đúng không?",
+          "Em ra $(x_1-x_2)^2 = 20$ và $x_1^2+x_1x_2+x_2^2 = 32$ — đúng chưa?",
+          "Em ra $A = -240$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không phân tích được $x_1^3 - x_2^3$.",
+          "Em quên rằng $(x_1 - x_2)^2$ chứ không phải $(x_1 - x_2)$.",
+          "Em nhầm dấu khi tính $-6 \\cdot 20 \\cdot 32 / 16$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép thể thao 5 lớp khối 9",
+      "de_bai": "Trong dịp chuẩn bị cho thể thao, chào mừng ngày thành lập Quân Đội Nhân dân Việt Nam (22 tháng 12), ban tổ chức đã khảo sát số lượng học sinh chỉ đăng ký tham gia một trong hai môn bóng đá hoặc cầu lông tại bốn lớp 9 (9A, 9B, 9C, 9D, 9E). Kết quả được biểu diễn trong biểu đồ sau:\n\n| Lớp | Đá bóng | Cầu lông |\n|---|---|---|\n| 9A | 14 | 12 |\n| 9B | 12 | 10 |\n| 9C | 15 | 14 |\n| 9D | 11 | 14 |\n| 9E | 15 | 8 |\n\na) Tính số học sinh tham gia giải thể thao của từng lớp.\n\nb) Biết tổng số học sinh của các lớp lần lượt là 9A($40$ HS), 9B($42$ HS), 9C($38$ HS), 9D($40$ HS), 9E($41$ HS). Tính xác suất thực nghiệm của biến cố: \"Chọn ngẫu nhiên một học sinh ở khối 9, bạn đó đăng ký tham gia môn cầu lông\".",
+      "phuong_phap_duoc_dung": [
+        "Cộng từng lớp: đá bóng + cầu lông",
+        "Tổng HS khối 9 = $40+42+38+40+41 = 201$",
+        "Tổng đăng ký cầu lông = $12+10+14+14+8 = 58$",
+        "$P(A) = 58/201$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Xác suất thực nghiệm"
+      ],
+      "dap_so": "a) 9A:26, 9B:22, 9C:29, 9D:25, 9E:23. b) $P(A) = \\dfrac{58}{201}$.",
+      "goi_y_cap_1": "Câu a: Cộng từng lớp đá bóng + cầu lông.\n\nCâu b: Tổng HS khối 9 = $40+42+38+40+41 = 201$. Tổng đăng ký cầu lông = $12+10+14+14+8 = 58$. $P(A) = 58/201$.",
+      "goi_y_cap_2": "Câu a:\n- 9A: 14+12 = 26\n- 9B: 12+10 = 22\n- 9C: 15+14 = 29\n- 9D: 11+14 = 25\n- 9E: 15+8 = 23\n\nCâu b:\n- $n(\\Omega) = 40+42+38+40+41 = 201$\n- $n(A) = 12+10+14+14+8 = 58$\n- $P(A) = \\dfrac{58}{201}$",
+      "loi_giai_day_du": "**Câu a) Số HS thể thao từng lớp:**\n\nDựa vào biểu đồ:\n- Lớp 9A: $14 + 12 = \\boxed{26}$ học sinh\n- Lớp 9B: $12 + 10 = \\boxed{22}$ học sinh\n- Lớp 9C: $15 + 14 = \\boxed{29}$ học sinh\n- Lớp 9D: $11 + 14 = \\boxed{25}$ học sinh\n- Lớp 9E: $15 + 8 = \\boxed{23}$ học sinh\n\n**Câu b) Xác suất:**\n\nTổng số học sinh khối 9 là:\n$$n(\\Omega) = 40 + 42 + 38 + 40 + 41 = 201 \\text{ (học sinh)}$$\n\nSố học sinh đăng ký môn cầu lông là:\n$$n(A) = 12 + 10 + 14 + 14 + 8 = 58 \\text{ (học sinh)}$$\n\nXác suất thực nghiệm của biến cố cần tìm là:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\boxed{\\dfrac{58}{201}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS đăng ký đá bóng và cầu lông tại 5 lớp 9A, 9B, 9C, 9D, 9E (Đá bóng: 14, 12, 15, 11, 15; Cầu lông: 12, 10, 14, 14, 8).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc biểu đồ cột kép.",
+          "Em nhầm 'tham gia thể thao' với 'tổng HS khối'.",
+          "Em không biết tính tổng HS đăng ký cầu lông."
+        ],
+        "dinh_huong": [
+          "Em định cộng đá bóng + cầu lông từng lớp — đúng không?",
+          "Em định $n(\\Omega) = 40+42+38+40+41 = 201$ — đúng chứ?",
+          "Em định $n(A)$ chỉ đếm cầu lông từ tất cả lớp — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra số HS thể thao 9A=26, 9B=22, 9C=29, 9D=25, 9E=23 — đúng không?",
+          "Em ra $n(A) = 58$ — đúng chưa?",
+          "Em ra $P(A) = 58/201$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $n(\\Omega)$ là tổng HS thể thao (= 125) thay vì tổng HS khối 9 (= 201).",
+          "Em không cộng riêng cột cầu lông.",
+          "Em chia $58/125$ thay vì $58/201$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-29/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Sân vuông + 4 nửa hình tròn + hồ bơi",
+      "de_bai": "Nhà Lan có một khoảng sân hình vuông có chu vi là $120$ m. Bố Lan muốn thiết kế lại cho đẹp như hình vẽ, bố Lan dự tính trồng hoa vào $4$ nửa hình tròn có đường kính $20$ m và làm một hồ bơi dạng hình tròn ở chính giữa có bán kính $4$ m, còn lại là lối đi. Tính số tiền dùng để mua gạch lát lối đi, biết rằng $1$ m² gạch có giá $120\\,000$ đồng.",
+      "phuong_phap_duoc_dung": [
+        "Cạnh hình vuông = $120/4 = 30$ m → S = $900$ m²",
+        "S 4 nửa hình tròn (R=10) = 2 hình tròn = $200\\pi$ m²",
+        "S hồ bơi = $\\pi \\cdot 4^2 = 16\\pi$ m²",
+        "S lối đi = $900 - 200\\pi - 16\\pi = 900 - 216\\pi$",
+        "Tiền = $(900 - 216\\pi) \\cdot 120000$ với $\\pi \\approx 3,14$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình vuông, hình tròn",
+        "Phép nhân số thực với hằng số"
+      ],
+      "dap_so": "Số tiền $\\approx 26\\,611\\,200$ đồng.",
+      "goi_y_cap_1": "Cạnh = $120/4 = 30$ m. S sân = $900$ m². 4 nửa = 2 hình tròn R=10 → S = $200\\pi$. S hồ = $16\\pi$. S lối đi = $900 - 216\\pi$. Tiền = $(900 - 216\\pi) \\cdot 120000$. Với $\\pi \\approx 3,14$ → $\\approx 26\\,611\\,200$ đồng.",
+      "goi_y_cap_2": "- Cạnh hình vuông: $120 : 4 = 30$ (m)\n- $S_{vuông} = 30^2 = 900$ (m²)\n- Bán kính nửa hình tròn: $R = 20 : 2 = 10$ (m)\n- 4 nửa hình tròn = 2 hình tròn → $S_{hoa} = 2 \\pi R^2 = 200\\pi$ (m²)\n- $S_{hồ bơi} = \\pi \\cdot 4^2 = 16\\pi$ (m²)\n- $S_{lối đi} = 900 - 200\\pi - 16\\pi = 900 - 216\\pi$ (m²)\n- Số tiền: $(900 - 216\\pi) \\cdot 120\\,000$\n- $= 108\\,000\\,000 - 25\\,920\\,000 \\pi$\n- Với $\\pi \\approx 3,14$: $\\approx 108\\,000\\,000 - 25\\,920\\,000 \\cdot 3,14 \\approx 26\\,611\\,200$ đồng",
+      "loi_giai_day_du": "Cạnh hình vuông là $120 : 4 = 30$ (m).\n\nDiện tích khoảng sân hình vuông là $30^2 = 900$ (m²).\n\nBán kính của mỗi nửa hình tròn là $20 : 2 = 10$ (m).\n\nDiện tích 4 nửa hình tròn (tương đương 2 hình tròn) là $2 \\cdot \\pi \\cdot 10^2 = 200\\pi$ (m²).\n\nDiện tích hồ bơi là $\\pi \\cdot 4^2 = 16\\pi$ (m²).\n\nDiện tích lối đi là $900 - 200\\pi - 16\\pi = 900 - 216\\pi$ (m²).\n\nSố tiền mua gạch lát lối đi là:\n$$(900 - 216\\pi) \\cdot 120\\,000 = 108\\,000\\,000 - 25\\,920\\,000 \\pi \\text{ (đồng)}$$\n\nVới $\\pi \\approx 3{,}14$:\n$$\\approx 108\\,000\\,000 - 25\\,920\\,000 \\cdot 3{,}14 \\approx \\boxed{26\\,611\\,200} \\text{ đồng}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Sân hình vuông ABCD chứa 4 nửa hình tròn ở 4 cạnh + 1 hình tròn ở giữa (hồ bơi).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không tính được cạnh hình vuông từ chu vi.",
+          "Em không hiểu '4 nửa hình tròn' = bao nhiêu hình tròn.",
+          "Em nhầm bán kính = 20 thay vì 10."
+        ],
+        "dinh_huong": [
+          "Em định cạnh = 120/4 = 30m — đúng không?",
+          "Em định 4 nửa = 2 hình tròn → $S = 200\\pi$ — đúng chứ?",
+          "Em định S lối đi = S sân - S hoa - S hồ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = 900 - 216\\pi$ m² — đúng không?",
+          "Em ra số tiền $\\approx 26\\,611\\,200$ đồng — đúng chưa?",
+          "Em làm tròn đúng theo $\\pi \\approx 3,14$ chưa?"
+        ],
+        "go_bi": [
+          "Em nhầm 4 nửa hình tròn = 4 hình tròn (sai - chỉ là 2).",
+          "Em quên trừ S hồ bơi.",
+          "Em không thay $\\pi \\approx 3,14$ ở bước cuối."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-29/bai4-sanvuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - 3 quả bóng tennis trong hộp trụ",
+      "de_bai": "Quả bóng tennis DUNLOP loại 1 có đường kính $2{,}5$ inch tương ứng với $6{,}35$ cm được đựng vừa đủ 3 quả trong một hộp nhựa mỏng hình trụ. Với diện tích bề mặt của hình cầu là: $S_{bm} = 4\\pi R^2$ và thể tích hình trụ là $V = \\pi r^2 h$. Trong đó $R$ là bán kính hình cầu; $r$ là bán kính đáy và $h$ là chiều cao hình trụ.\n\na) Hãy tính diện tích bề mặt một quả bóng tennis loại 1.\n\nb) Hộp nhựa xếp vừa đủ 3 quả bóng có thể tích là bao nhiêu?",
+      "phuong_phap_duoc_dung": [
+        "$R = 6{,}35/2 = 3{,}175$ cm",
+        "$S_{bm} = 4\\pi R^2 = 40{,}3225\\pi$ cm²",
+        "Hộp xếp vừa 3 quả: $r = R = 3{,}175$, $h = 3 \\cdot 6{,}35 = 19{,}05$ cm",
+        "$V = \\pi r^2 h$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích mặt cầu",
+        "Thể tích hình trụ"
+      ],
+      "dap_so": "a) $S_{bm} = 40{,}3225\\pi$ cm². b) $V = 192{,}03590625\\pi$ cm³.",
+      "goi_y_cap_1": "Câu a: $R = 3,175$ cm. $S_{bm} = 4\\pi \\cdot (3,175)^2 = 40,3225\\pi$ cm².\n\nCâu b: 3 quả vừa hộp → $r = R = 3,175$ cm, $h = 3 \\cdot 6,35 = 19,05$ cm. $V = \\pi (3,175)^2 \\cdot 19,05 \\approx 192,036\\pi$ cm³.",
+      "goi_y_cap_2": "Câu a:\n- $R = 6{,}35 : 2 = 3{,}175$ cm\n- $S_{bm} = 4\\pi R^2 = 4\\pi \\cdot (3{,}175)^2 = 4\\pi \\cdot 10{,}080625 = 40{,}3225\\pi$ cm²\n\nCâu b:\n- Vì hộp nhựa xếp vừa đủ 3 quả bóng nên bán kính đáy hình trụ bằng bán kính quả bóng và chiều cao bằng 3 lần đường kính quả bóng\n- $r = R = 3{,}175$ cm\n- $h = 3 \\cdot 6{,}35 = 19{,}05$ cm\n- $V = \\pi r^2 h = \\pi \\cdot (3{,}175)^2 \\cdot 19{,}05$\n- $V = \\pi \\cdot 10{,}080625 \\cdot 19{,}05 = 192{,}03590625\\pi$ cm³",
+      "loi_giai_day_du": "**Câu a) Diện tích bề mặt một quả bóng tennis:**\n\nBán kính của một quả bóng tennis là:\n$$R = 6{,}35 : 2 = 3{,}175 \\text{ (cm)}$$\n\nDiện tích bề mặt một quả bóng tennis là:\n$$S_{bm} = 4\\pi R^2 = 4\\pi \\cdot (3{,}175)^2 = \\boxed{40{,}3225\\pi \\text{ cm}^2}$$\n\n**Câu b) Thể tích hộp nhựa:**\n\nVì hộp nhựa xếp vừa đủ 3 quả bóng nên bán kính đáy hình trụ bằng bán kính quả bóng và chiều cao hình trụ bằng 3 lần đường kính quả bóng.\n\nBán kính đáy hình trụ là $r = R = 3{,}175$ (cm).\n\nChiều cao của hình trụ là $h = 3 \\cdot 6{,}35 = 19{,}05$ (cm).\n\nThể tích của hộp nhựa là:\n$$V = \\pi r^2 h = \\pi \\cdot (3{,}175)^2 \\cdot 19{,}05 = \\pi \\cdot 10{,}080625 \\cdot 19{,}05 = \\boxed{192{,}03590625\\pi \\text{ cm}^3}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hộp nhựa hình trụ chứa 3 quả bóng tennis DUNLOP xếp dọc.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức $S_{bm}$ của hình cầu.",
+          "Em không biết liên hệ giữa bán kính hộp và quả bóng.",
+          "Em không biết chiều cao hộp = 3 đường kính."
+        ],
+        "dinh_huong": [
+          "Em định $R = 6,35/2 = 3,175$ — đúng không?",
+          "Em định $r = R$ và $h = 3 \\cdot 6,35$ — đúng chứ?",
+          "Em định $V = \\pi r^2 h$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S_{bm} = 40,3225\\pi$ cm² — đúng không?",
+          "Em ra $h = 19,05$ cm — đúng chưa?",
+          "Em ra $V \\approx 192,036\\pi$ cm³ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $r$ hộp = đường kính (= 6,35) thay vì bán kính (= 3,175).",
+          "Em nhầm $h = 3R$ thay vì $h = 3 \\cdot 2R = 3 \\cdot 6,35$.",
+          "Em quên bình phương R."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-29/bai5-bongtennis.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Năng suất giống lúa cũ và mới (hệ phương trình)",
+      "de_bai": "Trên cánh đồng có diện tích $160$ ha của một đơn vị sản xuất, người ta dành $60$ ha để cấy thí điểm giống lúa mới, còn lại vẫn cấy giống lúa cũ. Khi thu hoạch, đầu tiên người ta gặt $8$ ha giống lúa cũ và $7$ ha giống lúa mới để đối chứng. Kết quả là $7$ ha giống lúa mới cho thu hoạch nhiều hơn $8$ ha giống lúa cũ là $2$ tấn thóc. Biết rằng tổng số thóc (cả hai giống) thu hoạch cả vụ trên $160$ ha là $860$ tấn. Hỏi năng suất của mỗi giống lúa trên $1$ ha là bao nhiêu tấn thóc?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x, y$ năng suất giống mới và cũ (tấn/ha)",
+        "Diện tích cấy giống cũ = $160 - 60 = 100$ ha",
+        "$7x - 8y = 2$ (đối chứng)",
+        "$60x + 100y = 860$ (tổng thóc)",
+        "Hệ → $x = 6$, $y = 5$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất 2 ẩn"
+      ],
+      "dap_so": "Năng suất giống mới là $6$ tấn/ha, giống cũ là $5$ tấn/ha.",
+      "goi_y_cap_1": "Gọi $x$ năng suất giống mới, $y$ giống cũ. Diện tích giống cũ = 100 ha. Hệ: $7x - 8y = 2$ và $60x + 100y = 860$ → $x = 6$, $y = 5$.",
+      "goi_y_cap_2": "- Gọi $x$ (tấn/ha) là năng suất giống lúa mới, $y$ (tấn/ha) là năng suất giống lúa cũ ($x, y > 0$)\n- Diện tích cấy giống lúa cũ = $160 - 60 = 100$ ha\n- 7 ha giống mới thu được: $7x$ tấn\n- 8 ha giống cũ thu được: $8y$ tấn\n- $7x - 8y = 2$ (1)\n- Tổng thóc cả vụ: $60x + 100y = 860$ (2)\n- Hệ → $x = 6$, $y = 5$",
+      "loi_giai_day_du": "Gọi $x$ (tấn/ha) là năng suất của giống lúa mới, $y$ (tấn/ha) là năng suất của giống lúa cũ ($x, y > 0$).\n\nDiện tích cấy giống lúa cũ là $160 - 60 = 100$ (ha).\n\nSố thóc thu hoạch của 7 ha giống lúa mới là $7x$ (tấn).\n\nSố thóc thu hoạch của 8 ha giống lúa cũ là $8y$ (tấn).\n\nVì 7 ha giống lúa mới cho thu hoạch nhiều hơn 8 ha giống lúa cũ là 2 tấn thóc nên:\n$$7x - 8y = 2 \\quad (1)$$\n\nVì tổng số thóc thu hoạch cả vụ trên 160 ha là 860 tấn nên:\n$$60x + 100y = 860 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} 7x - 8y = 2 \\\\ 60x + 100y = 860 \\end{cases} \\Rightarrow \\begin{cases} x = 6 \\\\ y = 5 \\end{cases}$$\n\nVậy năng suất của giống lúa mới là $\\boxed{6}$ tấn/ha và giống lúa cũ là $\\boxed{5}$ tấn/ha.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết gọi ẩn nào.",
+          "Em không tính được diện tích giống cũ.",
+          "Em không biết bắt đầu lập phương trình từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định gọi x, y là năng suất tấn/ha — đúng không?",
+          "Em định diện tích giống cũ = 160 - 60 = 100 ha — đúng chứ?",
+          "Em định lập 2 phương trình '7x - 8y = 2' và '60x + 100y = 860' — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ phương trình bậc nhất 2 ẩn — đúng không?",
+          "Em ra $x = 6, y = 5$ — đúng chưa?",
+          "Em phân biệt được năng suất giống mới và cũ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm '60 ha + 100 ha' với '60 + 100 năng suất'.",
+          "Em viết sai dấu trừ trong $7x - 8y = 2$.",
+          "Em đảo vai trò mới/cũ ở đáp án."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn AB×CD vuông góc, tiếp tuyến tại D",
+      "de_bai": "Cho $(O; R)$ có đường kính $AB$ và đường kính $CD$ vuông góc với nhau. Lấy $M$ thuộc cung nhỏ $BC$, $AM$ cắt $CD$ tại $E$. Qua $D$ kẻ tiếp tuyến với $(O)$ cắt đường thẳng $BM$ tại $N$.\n\na) Chứng minh: tứ giác $MNDE$ nội tiếp.\n\nb) Chứng minh $EN \\parallel CB$.\n\nc) Kẻ $BP \\perp DN$ tại $P$. Chứng minh: $AM \\cdot BN = R^2$ (chú ý: trong PDF có ghi $2R^2$, em sửa theo logic) và tính diện tích bị giới hạn bởi cạnh $PB, PD$ và cung nhỏ $BD$ theo $R$ biết $\\pi \\approx 3{,}1416$.",
+      "phuong_phap_duoc_dung": [
+        "$\\widehat{AMB} = 90°$ (chắn nửa đường tròn) → △EMN vuông tại M",
+        "Tiếp tuyến tại D: $DN \\perp OD$, mà $OD \\perp AB$ → △EDN vuông tại D",
+        "→ M, N, D, E đồng viên đường kính EN",
+        "$\\widehat{ENM} = \\widehat{EDM}$ (cùng chắn EM)",
+        "$\\widehat{EDM} = \\widehat{CDM} = \\widehat{CBM}$",
+        "→ $\\widehat{ENM} = \\widehat{CBM}$ ở vị trí đồng vị → EN // CB",
+        "ODPB hình vuông cạnh R",
+        "△ABM ~ △BNP (g-g) → $AM \\cdot BN = AB \\cdot BP = 2R \\cdot R = 2R^2$",
+        "S quạt OBD = $\\pi R^2/4$, S = $S_{ODPB} - S_{quạt} = R^2(4-\\pi)/4$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Góc nội tiếp",
+        "Tứ giác nội tiếp",
+        "Tam giác đồng dạng",
+        "Diện tích hình quạt"
+      ],
+      "dap_so": "c) $AM \\cdot BN = 2R^2$ và diện tích $S \\approx 0{,}2146 R^2$.",
+      "goi_y_cap_1": "Câu a: $\\widehat{AMB} = 90°$ → △EMN vuông M → nội tiếp đường kính EN. Tiếp tuyến tại D: $DN \\perp OD$, mà $OD \\perp AB$ → △EDN vuông D → cũng đường kính EN. → MNDE nội tiếp.\n\nCâu b: ENM = EDM (cùng chắn EM trong tứ giác MNDE). EDM = CDM = CBM (cùng chắn CM trong (O)). → ENM = CBM ở vị trí đồng vị → EN // CB.\n\nCâu c: $DN // AB$ (cùng vuông CD). $BP \\perp DN \\Rightarrow BP \\perp AB$. Tứ giác ODPB có 3 góc 90° và OB=OD=R → là hình vuông → BP=R. △ABM ~ △BNP (g-g, ABM=PNB so le, AMB=BPN=90°) → $AM \\cdot BN = AB \\cdot BP = 2R \\cdot R = 2R^2$. S hình vuông ODPB = R². S quạt OBD (90°) = $\\pi R^2/4$. S cần = R² - $\\pi R^2/4 = R^2(4-\\pi)/4$. Với $\\pi \\approx 3,1416$: $\\approx 0,2146 R^2$.",
+      "goi_y_cap_2": "Câu a:\n- $\\widehat{AMB} = 90°$ (góc nội tiếp chắn nửa đường tròn AB)\n- $\\triangle EMN$ vuông tại M → nội tiếp đường tròn đường kính EN\n- DN tiếp tuyến tại D → $DN \\perp OD$\n- $OD \\perp AB$ (CD ⊥ AB) → $DN \\perp AB$, nhưng để tứ giác EDN cần thấy $\\triangle EDN$ vuông tại D\n- Vì E ∈ CD nên $DE$ trùng phương CD → $DN \\perp DE$ → $\\triangle EDN$ vuông tại D → nội tiếp đường kính EN\n- → M, N, D, E cùng đường tròn đường kính EN → MNDE nội tiếp\n\nCâu b:\n- Tứ giác MNDE nội tiếp → $\\widehat{ENM} = \\widehat{EDM} = \\dfrac{1}{2}\\overset{\\frown}{EM}$\n- E ∈ CD nên $\\widehat{EDM} = \\widehat{CDM}$\n- Trong (O): $\\widehat{CDM} = \\widehat{CBM}$ (cùng chắn cung CM)\n- → $\\widehat{ENM} = \\widehat{CBM}$\n- Đây là góc đồng vị → EN // CB\n\nCâu c:\n- $DN \\perp CD$ (tiếp tuyến) và $AB \\perp CD$ → $DN \\parallel AB$\n- $BP \\perp DN$ tại P → $BP \\perp AB$ tại B\n- Tứ giác ODPB có $\\widehat{BOD} = \\widehat{ODP} = \\widehat{DPB} = 90°$ → hình chữ nhật\n- Mà OB = OD = R → là hình vuông → BP = DP = OD = OB = R\n- △ABM và △BNP:\n  - $\\widehat{ABM} = \\widehat{PNB}$ (so le trong, AB // DN)\n  - $\\widehat{AMB} = \\widehat{BPN} = 90°$\n  - → △ABM ~ △BNP (g-g)\n- → $\\dfrac{AB}{BN} = \\dfrac{AM}{BP}$ → $AM \\cdot BN = AB \\cdot BP = 2R \\cdot R = 2R^2$\n- $S_{ODPB} = OB \\cdot OD = R^2$\n- $S_{quạt OBD} = \\dfrac{\\pi R^2 \\cdot 90}{360} = \\dfrac{\\pi R^2}{4}$\n- $S = S_{ODPB} - S_{quạt} = R^2 - \\dfrac{\\pi R^2}{4} = R^2\\left(\\dfrac{4-\\pi}{4}\\right)$\n- Với $\\pi \\approx 3{,}1416$: $S \\approx R^2 \\cdot \\dfrac{4-3{,}1416}{4} = R^2 \\cdot 0{,}2146 = 0{,}2146 R^2$",
+      "loi_giai_day_du": "**Câu a) Chứng minh tứ giác MNDE nội tiếp:**\n\n$\\widehat{AMB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n\n$\\triangle EMN$ vuông tại $M$, suy ra $\\triangle EMN$ nội tiếp đường tròn đường kính $EN$ (1).\n\nTa có $DN$ là tiếp tuyến của $(O)$ tại $D$ nên $DN \\perp OD$. Mà $OD \\perp AB$ (vì $AB \\perp CD$), suy ra $DN \\perp DE$ (do $E \\in CD$).\n\n$\\triangle EDN$ vuông tại $D$, suy ra $\\triangle EDN$ nội tiếp đường tròn đường kính $EN$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $M, N, D, E$ cùng thuộc một đường tròn đường kính $EN$. Suy ra tứ giác $MNDE$ nội tiếp.\n\n**Câu b) Chứng minh $EN \\parallel CB$:**\n\nTứ giác $MNDE$ nội tiếp, ta có:\n$$\\widehat{ENM} = \\widehat{EDM} = \\dfrac{1}{2}\\text{sđ}\\overset{\\frown}{EM}$$\n\nTa có $\\widehat{CBM} = \\widehat{CDM} = \\dfrac{1}{2}\\text{sđ}\\overset{\\frown}{CM}$ (góc nội tiếp cùng chắn cung $CM$).\n\nMà $\\widehat{EDM} = \\widehat{CDM}$ (vì $E$ thuộc $CD$).\n\nSuy ra $\\widehat{ENM} = \\widehat{CBM}$.\n\nVì hai góc này ở vị trí đồng vị nên $EN \\parallel CB$.\n\n**Câu c) Tính $AM \\cdot BN$ và diện tích:**\n\nTa có $\\begin{cases} DN \\perp CD \\\\ AB \\perp CD \\end{cases} \\Rightarrow DN \\parallel AB$.\n\n$BP \\perp DN$ tại $P \\Rightarrow BP \\perp AB$ tại $B$.\n\nTứ giác $ODPB$ có $\\widehat{BOD} = \\widehat{ODP} = \\widehat{DPB} = 90°$ nên là hình chữ nhật.\n\nMà $OB = OD = R$ nên $ODPB$ là hình vuông.\n\n$\\Rightarrow BP = DP = OD = OB = R$.\n\nXét $\\triangle ABM$ và $\\triangle BNP$:\n$\\begin{cases} \\widehat{ABM} = \\widehat{PNB} \\text{ (so le trong, } AB \\parallel DN\\text{)} \\\\ \\widehat{AMB} = \\widehat{BPN} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle ABM \\sim \\triangle BNP$ (g-g)\n\n$\\Rightarrow \\dfrac{AB}{BN} = \\dfrac{AM}{BP} \\Rightarrow AM \\cdot BN = AB \\cdot BP = 2R \\cdot R = \\boxed{2R^2}$.\n\nDiện tích hình vuông $ODPB$ là $S_{ODPB} = OB \\cdot OD = R^2$.\n\nDiện tích hình quạt $OBD$ là:\n$$S_{quạt} = \\dfrac{\\pi R^2 \\cdot 90}{360} = \\dfrac{\\pi R^2}{4}$$\n\nDiện tích phần giới hạn bởi cạnh $PB, PD$ và cung nhỏ $BD$ là:\n$$S = S_{ODPB} - S_{quạt} = R^2 - \\dfrac{\\pi R^2}{4} = R^2 \\left(\\dfrac{4-\\pi}{4}\\right)$$\n\nThay $\\pi \\approx 3{,}1416$:\n$$S \\approx R^2 \\cdot \\dfrac{4 - 3{,}1416}{4} = \\boxed{0{,}2146 R^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) đường kính AB, CD vuông góc AB. M trên cung BC, AM cắt CD tại E. DN tiếp tuyến tại D cắt BM tại N. BP vuông góc DN tại P.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất tiếp tuyến tại D.",
+          "Em không hiểu tại sao 4 điểm M, N, D, E đồng viên.",
+          "Câu c em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định △EMN vuông M + △EDN vuông D → đường kính EN — đúng không?",
+          "Câu b em định ENM = CBM ở vị trí đồng vị — đúng chứ?",
+          "Câu c em định ODPB là hình vuông cạnh R — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra MNDE nội tiếp đường kính EN — đúng không?",
+          "Em ra $AM \\cdot BN = 2R^2$ — đúng chưa?",
+          "Em ra $S \\approx 0{,}2146 R^2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy DN // AB nên không lập được tam giác đồng dạng.",
+          "Em không nhận ra ODPB có 4 góc 90° và 2 cạnh = R nên là hình vuông.",
+          "Em quên trừ S quạt khỏi S hình vuông."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-29/bai7-duongtron.png"
+    }
+  ]
+}

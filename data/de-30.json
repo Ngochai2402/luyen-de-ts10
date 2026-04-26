@@ -1,0 +1,364 @@
+{
+  "de_so": 30,
+  "cum": 10,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = -\\dfrac{1}{2}x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm điểm $M$ (khác gốc tọa độ) thuộc $(P)$ sao cho điểm $M$ cách đều hai trục tọa độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Cách đều 2 trục → $|y| = |x|$ → $y = x$ hoặc $y = -x$",
+        "Xét 2 trường hợp"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0",
+        "Khoảng cách từ điểm đến trục"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(-2; -2)$ và $(2; -2)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = -8, -2, 0, -2, -8.\n\nCâu b: Cách đều 2 trục → $|y| = |x|$ → 2 TH: $y = x$ hoặc $y = -x$. Loại $(0;0)$ vì khác gốc.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = -8$; $x = -2 \\to y = -2$; $x = 0 \\to y = 0$; $x = 2 \\to y = -2$; $x = 4 \\to y = -8$\n\nCâu b:\n- 'Cách đều 2 trục' → $|y| = |x|$ → $y = x$ hoặc $y = -x$\n\n*Trường hợp 1:* $y = x$\n- $x = -\\dfrac{1}{2}x^2 \\Rightarrow \\dfrac{1}{2}x^2 + x = 0$\n- $x = 0$ (loại) hoặc $x = -2 \\Rightarrow y = -2$\n- $(-2; -2)$\n\n*Trường hợp 2:* $y = -x$\n- $-x = -\\dfrac{1}{2}x^2 \\Rightarrow \\dfrac{1}{2}x^2 - x = 0$\n- $x = 0$ (loại) hoặc $x = 2 \\Rightarrow y = -2$\n- $(2; -2)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{1}{2}x^2$ | $-8$ | $-2$ | $0$ | $-2$ | $-8$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm xuống dưới.\n\n**Câu b) Tìm tọa độ điểm M:**\n\nVì điểm cần tìm cách đều hai trục tọa độ nên $|y| = |x|$, suy ra $y = x$ hoặc $y = -x$.\n\n***Trường hợp 1:* $y = x$**\n\n$x = -\\dfrac{1}{2}x^2$\n$$\\dfrac{1}{2}x^2 + x = 0$$\n$$x = 0 \\text{ hoặc } x = -2$$\n\nVới $x = 0 \\Rightarrow y = 0$ (loại vì khác gốc).\nVới $x = -2 \\Rightarrow y = -2$.\n\n***Trường hợp 2:* $y = -x$**\n\n$-x = -\\dfrac{1}{2}x^2$\n$$\\dfrac{1}{2}x^2 - x = 0$$\n$$x = 0 \\text{ hoặc } x = 2$$\n\nVới $x = 0 \\Rightarrow y = 0$ (loại).\nVới $x = 2 \\Rightarrow y = -2$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(-2; -2)}$ và $\\boxed{(2; -2)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = -x²/2 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = -8, -2, 0, -2, -8.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'cách đều 2 trục'.",
+          "Em không biết viết $|y| = |x|$ thành 2 trường hợp.",
+          "Em không loại được điểm $(0;0)$."
+        ],
+        "dinh_huong": [
+          "Em định 'cách đều 2 trục' = $|y| = |x|$ — đúng không?",
+          "Em định xét $y = x$ và $y = -x$ — đúng chứ?",
+          "Em định loại $(0;0)$ vì khác gốc — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra TH1: $(-2;-2)$ — đúng không?",
+          "Em ra TH2: $(2;-2)$ — đúng chưa?",
+          "Em ra 2 điểm cần tìm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ xét 1 trường hợp $y = x$.",
+          "Em quên loại $x = 0$.",
+          "Em nhầm $|y| = |x|$ chỉ thành $y = x$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-30/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A (kết hợp x_2 thoả phương trình)",
+      "de_bai": "Cho phương trình $x^2 - 5x - 3 = 0$ có hai nghiệm $x_1, x_2$. Không giải phương trình, hãy tính giá trị biểu thức $A = (x_2 + 5)(x_2^2 - 3) + x_1^2 + x_2^2 + 50x_1$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Vì $x_2$ là nghiệm: $x_2^2 - 5x_2 - 3 = 0$ → $x_2^2 - 3 = 5x_2$",
+        "Thay $5x_2$ vào A → rút gọn còn $50(x_1+x_2) + (x_1^2+x_2^2) + 15$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "$x_2$ là nghiệm thì thoả phương trình",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "dap_so": "$A = 296$",
+      "goi_y_cap_1": "Δ = 25+12 = 37 > 0. Viète: $x_1+x_2 = 5$, $x_1 x_2 = -3$. $x_1^2+x_2^2 = 25+6 = 31$. Vì $x_2$ nghiệm: $x_2^2 - 3 = 5x_2$. $A = (x_2+5)\\cdot 5x_2 + x_1^2+x_2^2 + 50x_1 = 5x_2^2+25x_2 + 31 + 50x_1$. Thay $5x_2^2 = 5(5x_2+3) = 25x_2+15$. $A = 25x_2+15+25x_2+31+50x_1 = 50x_1+50x_2+46$... thực ra cần rút kỹ hơn → $A = 296$.",
+      "goi_y_cap_2": "- Δ = $25 + 12 = 37 > 0$\n- Viète: $x_1+x_2 = 5$, $x_1 x_2 = -3$\n- $x_1^2 + x_2^2 = 25 - 2(-3) = 31$\n- Vì $x_2$ là nghiệm: $x_2^2 - 5x_2 - 3 = 0 \\Rightarrow x_2^2 - 3 = 5x_2$\n- $A = (x_2+5) \\cdot 5x_2 + x_1^2 + x_2^2 + 50x_1$\n- $= 5x_2^2 + 25x_2 + x_1^2 + x_2^2 + 50x_1$\n- $5x_2^2 = 5(5x_2 + 3) = 25x_2 + 15$\n- $A = 25x_2 + 15 + 25x_2 + x_1^2 + x_2^2 + 50x_1$\n- $= 50x_2 + 50x_1 + (x_1^2 + x_2^2) + 15$\n- $= 50(x_1+x_2) + 31 + 15$\n- $= 50 \\cdot 5 + 46 = 296$",
+      "loi_giai_day_du": "Ta có $x^2 - 5x - 3 = 0$ với $a = 1; b = -5; c = -3$.\n\n$\\Delta = (-5)^2 - 4 \\cdot 1 \\cdot (-3) = 25 + 12 = 37 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$.\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = 5 \\\\ x_1 x_2 = -3 \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2 = 25 - 2 \\cdot (-3) = 31$.\n\nVì $x_2$ là nghiệm của phương trình nên $x_2^2 - 5x_2 - 3 = 0 \\Rightarrow x_2^2 - 3 = 5x_2$.\n\nTa có:\n$$A = (x_2 + 5) \\cdot 5x_2 + x_1^2 + x_2^2 + 50x_1$$\n$$A = 5x_2^2 + 25x_2 + x_1^2 + x_2^2 + 50x_1$$\n\nMà $5x_2^2 = 5(5x_2 + 3) = 25x_2 + 15$ (do $x_2^2 = 5x_2 + 3$).\n\n$$A = 25x_2 + 15 + 25x_2 + x_1^2 + x_2^2 + 50x_1$$\n$$A = 50x_1 + 50x_2 + (x_1^2 + x_2^2) + 15$$\n$$A = 50(x_1 + x_2) + (x_1^2 + x_2^2) + 15$$\n$$A = 50 \\cdot 5 + 31 + 15 = \\boxed{296}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết khai thác việc $x_2$ là nghiệm.",
+          "Em quên Viète.",
+          "Em không biết bắt đầu rút gọn A từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định $x_2^2 - 3 = 5x_2$ — đúng không?",
+          "Em định khai triển $(x_2+5) \\cdot 5x_2 = 5x_2^2 + 25x_2$ — đúng chứ?",
+          "Em định gộp $50(x_1+x_2)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = 5$, $x_1x_2 = -3$ — đúng không?",
+          "Em ra $x_1^2+x_2^2 = 31$ — đúng chưa?",
+          "Em ra $A = 296$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thay $x_2^2 - 3 = 5x_2$ vào A.",
+          "Em không thấy $5x_2^2 = 5(5x_2 + 3)$.",
+          "Em quên cộng $x_1^2 + x_2^2 = 31$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép 6 lớp khối 9 - Xác suất chọn lớp",
+      "de_bai": "Số học sinh nam và nữ trong một lớp của sáu lớp 9 ở một trường trung học cơ sở được biểu diễn trong biểu đồ cột kép dưới đây:\n\n| Lớp | Nam | Nữ |\n|---|---|---|\n| 9A | 21 | 19 |\n| 9B | 13 | 29 |\n| 9C | 27 | 15 |\n| 9D | 20 | 18 |\n| 9E | 25 | 20 |\n| 9F | 14 | 30 |\n\na) Lớp có tổng số học sinh nam và nữ nhiều nhất là lớp nào?\n\nb) Chọn ngẫu nhiên một lớp trong $6$ lớp đó, tính xác suất của các biến cố sau:\n- $A$: \"Lớp được chọn có số học sinh nam nhiều hơn số học sinh nữ\".\n- $B$: \"Lớp được chọn có tổng số học sinh nam và nữ không quá $44$ học sinh\".",
+      "phuong_phap_duoc_dung": [
+        "Cộng từng lớp: 9A=40, 9B=42, 9C=42, 9D=38, 9E=45, 9F=44 → 9E max",
+        "Lớp Nam>Nữ: 9A, 9C, 9D, 9E → 4/6 = 2/3",
+        "Lớp ≤44: 9A, 9B, 9C, 9D, 9F → 5/6"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Xác suất cổ điển khi không gian mẫu là 6 lớp"
+      ],
+      "dap_so": "a) Lớp 9E. b) $P(A) = \\dfrac{2}{3}$, $P(B) = \\dfrac{5}{6}$.",
+      "goi_y_cap_1": "Tổng từng lớp: 9A=40, 9B=42, 9C=42, 9D=38, 9E=45, 9F=44 → 9E max.\n\nP(A): Lớp Nam>Nữ là 9A(21>19), 9C(27>15), 9D(20>18), 9E(25>20) → $n(A)=4 \\Rightarrow P(A)=4/6=2/3$.\n\nP(B): Lớp tổng ≤44 là 9A(40), 9B(42), 9C(42), 9D(38), 9F(44) → $n(B)=5 \\Rightarrow P(B)=5/6$.",
+      "goi_y_cap_2": "Câu a:\n- 9A: 21+19 = 40\n- 9B: 13+29 = 42\n- 9C: 27+15 = 42\n- 9D: 20+18 = 38\n- 9E: 25+20 = 45 ← max\n- 9F: 14+30 = 44\n→ Lớp 9E có tổng 45 học sinh là max\n\nCâu b: $n(\\Omega) = 6$ (6 lớp)\n\n*Biến cố A:* Nam > Nữ\n- 9A (21 > 19) ✓\n- 9B (13 < 29) ✗\n- 9C (27 > 15) ✓\n- 9D (20 > 18) ✓\n- 9E (25 > 20) ✓\n- 9F (14 < 30) ✗\n→ $n(A) = 4$, $P(A) = 4/6 = 2/3$\n\n*Biến cố B:* tổng ≤ 44\n- 9A (40) ✓, 9B (42) ✓, 9C (42) ✓, 9D (38) ✓, 9E (45) ✗, 9F (44) ✓\n→ $n(B) = 5$, $P(B) = 5/6$",
+      "loi_giai_day_du": "**Câu a) Lớp có tổng số HS nhiều nhất:**\n\nTổng số học sinh các lớp:\n- 9A: $21 + 19 = 40$ (học sinh)\n- 9B: $13 + 29 = 42$ (học sinh)\n- 9C: $27 + 15 = 42$ (học sinh)\n- 9D: $20 + 18 = 38$ (học sinh)\n- 9E: $25 + 20 = 45$ (học sinh)\n- 9F: $14 + 30 = 44$ (học sinh)\n\nVậy lớp có tổng số học sinh nhiều nhất là $\\boxed{\\text{Lớp 9E}}$.\n\n**Câu b) Tính xác suất:**\n\nKhông gian mẫu là chọn 1 lớp trong 6 lớp nên $n(\\Omega) = 6$.\n\n***Biến cố A:* Số nam nhiều hơn số nữ**\n\nCác lớp có số học sinh nam nhiều hơn học sinh nữ là: 9A, 9C, 9D, 9E.\n\nSố khả năng thuận lợi của biến cố $A$ là $n(A) = 4$.\n\n$$P(A) = \\dfrac{4}{6} = \\boxed{\\dfrac{2}{3}}$$\n\n***Biến cố B:* Tổng không quá 44 học sinh**\n\nCác lớp có tổng số học sinh không quá 44 là: 9A (40), 9B (42), 9C (42), 9D (38), 9F (44).\n\nSố khả năng thuận lợi của biến cố $B$ là $n(B) = 5$.\n\n$$P(B) = \\boxed{\\dfrac{5}{6}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS nam/nữ tại 6 lớp 9A-9F (Nam: 21, 13, 27, 20, 25, 14; Nữ: 19, 29, 15, 18, 20, 30).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính tổng từng lớp.",
+          "Em không hiểu 'không gian mẫu' là 6 lớp.",
+          "Em không biết 'không quá 44' = ≤ 44 hay < 44."
+        ],
+        "dinh_huong": [
+          "Em định cộng nam + nữ để tìm 9E max — đúng không?",
+          "Em định $n(\\Omega) = 6$ vì có 6 lớp — đúng chứ?",
+          "Em định 'không quá 44' = ≤ 44 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 9E (45) là max — đúng không?",
+          "Em ra $P(A) = 2/3$ — đúng chưa?",
+          "Em ra $P(B) = 5/6$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $n(\\Omega)$ là tổng HS thay vì 6 lớp.",
+          "Em quên 9F (44) cũng nằm trong 'không quá 44'.",
+          "Em đếm sai số lớp Nam > Nữ."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-30/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Mảnh đất 28×21 + sân vườn",
+      "de_bai": "Cô Dung có một mảnh đất hình chữ nhật với chiều dài $28$ mét và chiều rộng $21$ mét. Cô dự định xây nhà trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn như Hình 1. Phần đất sân vườn có hai cạnh với kích thước $x$ (m) và $x + 3$ (m).\n\na) Viết biểu thức biểu diễn diện tích mảnh đất dành để xây nhà theo $x$.\n\nb) Tìm $x$, biết diện tích mảnh đất dành để xây nhà là $192$ m².",
+      "phuong_phap_duoc_dung": [
+        "Phần nhà là HCN: chiều rộng = $21 - x$, chiều dài = $28 - (x+3) = 25 - x$",
+        "$S_{nhà} = (25-x)(21-x) = x^2 - 46x + 525$",
+        "$x^2 - 46x + 525 = 192 \\Rightarrow x^2 - 46x + 333 = 0 \\Rightarrow x = 9$ hoặc 37 (loại)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = x^2 - 46x + 525$ m². b) $x = 9$ m.",
+      "goi_y_cap_1": "Câu a: Phần nhà là HCN. Chiều rộng = $21 - x$, chiều dài = $28 - (x+3) = 25 - x$. $S = (25-x)(21-x) = x^2 - 46x + 525$.\n\nCâu b: $x^2 - 46x + 525 = 192 \\Rightarrow x^2 - 46x + 333 = 0 \\Rightarrow x = 9$ hoặc $x = 37$. Điều kiện $0 < x < 21$ → $x = 9$.",
+      "goi_y_cap_2": "Câu a:\n- Chiều rộng phần nhà: $21 - x$ (m)\n- Chiều dài phần nhà: $28 - (x+3) = 25 - x$ (m)\n- $S_{nhà} = (25-x)(21-x) = 525 - 25x - 21x + x^2 = x^2 - 46x + 525$ (m²)\n\nCâu b:\n- ĐK: $0 < x < 21$\n- $x^2 - 46x + 525 = 192$\n- $x^2 - 46x + 333 = 0$\n- $x_1 = 9$ (nhận) hoặc $x_2 = 37$ (loại)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích nhà:**\n\nTheo hình vẽ, phần đất xây nhà là một hình chữ nhật.\n\nChiều rộng của phần đất xây nhà là $21 - x$ (m).\n\nChiều dài của phần đất xây nhà là $28 - (x + 3) = 25 - x$ (m).\n\nBiểu thức biểu diễn diện tích mảnh đất dành để xây nhà theo $x$ là:\n$$S = (25 - x)(21 - x) = \\boxed{x^2 - 46x + 525 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tìm x:**\n\nGọi $x$ (m) là giá trị cần tìm ($0 < x < 21$).\n\nVì diện tích mảnh đất dành để xây nhà là 192 m² nên ta có phương trình:\n$$x^2 - 46x + 525 = 192$$\n$$x^2 - 46x + 333 = 0$$\n$$x = 9 \\text{ hoặc } x = 37$$\n\nSo với điều kiện $0 < x < 21$, ta nhận $x = 9$.\n\nVậy $\\boxed{x = 9}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh đất HCN 28m × 21m chia thành 2 phần: NHÀ (HCN) ở góc trái dưới và SÂN VƯỜN (hình L) còn lại. Sân vườn có cạnh x(m) và x+3(m).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không tìm được chiều rộng phần nhà.",
+          "Em nhầm phần nhà là sân vườn.",
+          "Em không khai triển được $(25-x)(21-x)$."
+        ],
+        "dinh_huong": [
+          "Em định chiều rộng nhà = $21 - x$ — đúng không?",
+          "Em định chiều dài nhà = $28 - (x+3) = 25 - x$ — đúng chứ?",
+          "Em định $S = (25-x)(21-x)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = x^2 - 46x + 525$ — đúng không?",
+          "Em ra phương trình $x^2 - 46x + 333 = 0$ — đúng chưa?",
+          "Em ra $x = 9$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm chiều dài phần nhà = $28 - x$ thay vì $25 - x$.",
+          "Em không loại $x = 37$ vì quên điều kiện $x < 21$.",
+          "Em khai triển sai $(25-x)(21-x) = 525 - 46x + x^2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-30/bai4-manhdat.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Đống cát hình nón + xe tải",
+      "de_bai": "Một đống cát dạng hình nón có đường kính đáy là $28$ m và độ cao là $50$ dm.\n\na) Tính thể tích đống cát trên (độ chính xác $d = 0{,}005$). Biết công thức tính thể tích hình nón là $V = \\dfrac{1}{3}\\pi R^2 h$ trong đó $R$ là bán kính đáy, $h$ là chiều cao của hình nón.\n\nb) Để vận chuyển $\\dfrac{1}{5}$ đống cát đó đến khu xây dựng (sử dụng kết quả đã làm tròn), người ta dùng xe tải có thùng chứa dạng hình hộp chữ nhật có các kích thước là $3{,}8$ m $\\times$ $2{,}1$ m $\\times$ $0{,}8$ m. Trong mỗi chuyến xe, thùng xe có thể chứa nhiều hơn thể tích thực của nó $8\\%$. Hỏi cần ít nhất bao nhiêu chuyến xe để vận chuyển hết số cát đó?",
+      "phuong_phap_duoc_dung": [
+        "$R = 28/2 = 14$ m, $h = 50$ dm = 5 m",
+        "$V = \\dfrac{1}{3}\\pi \\cdot 14^2 \\cdot 5 = \\dfrac{980\\pi}{3} \\approx 1026{,}25$ m³",
+        "Cát cần chuyển: $1026{,}25 \\cdot \\dfrac{1}{5} = 205{,}25$ m³",
+        "V thùng xe = $3{,}8 \\cdot 2{,}1 \\cdot 0{,}8 = 6{,}384$ m³",
+        "V tối đa mỗi chuyến: $6{,}384 \\cdot 1{,}08 = 6{,}89472$ m³",
+        "Số chuyến: $205{,}25 / 6{,}89472 \\approx 29{,}77$ → 30 chuyến"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình nón",
+        "Thể tích hình hộp chữ nhật",
+        "Đổi đơn vị dm sang m"
+      ],
+      "dap_so": "a) $V \\approx 1026{,}25$ m³. b) Cần ít nhất 30 chuyến xe.",
+      "goi_y_cap_1": "Câu a: $R = 14$, $h = 50$ dm = 5 m. $V = \\dfrac{1}{3}\\pi \\cdot 14^2 \\cdot 5 = \\dfrac{980\\pi}{3} \\approx 1026,25$ m³.\n\nCâu b: Cát cần chuyển = $1026,25 / 5 = 205,25$ m³. V thùng = $3,8 \\cdot 2,1 \\cdot 0,8 = 6,384$ m³. V tối đa = $6,384 \\cdot 108\\% = 6,89472$ m³. Số chuyến = $205,25 / 6,89472 \\approx 29,77$ → ít nhất 30 chuyến.",
+      "goi_y_cap_2": "Câu a:\n- $R = 28/2 = 14$ (m)\n- $h = 50$ dm $= 5$ m\n- $V = \\dfrac{1}{3}\\pi \\cdot 14^2 \\cdot 5 = \\dfrac{980\\pi}{3} \\approx 1026{,}2536 \\approx 1026{,}25$ m³\n\nCâu b:\n- Thể tích cát cần vận chuyển: $1026{,}25 \\cdot \\dfrac{1}{5} = 205{,}25$ m³\n- Thể tích thực của thùng xe: $3{,}8 \\cdot 2{,}1 \\cdot 0{,}8 = 6{,}384$ m³\n- Thể tích cát tối đa mỗi chuyến: $6{,}384 + 6{,}384 \\cdot 8\\% = 6{,}384 \\cdot 1{,}08 = 6{,}89472$ m³\n- Số chuyến: $205{,}25 : 6{,}89472 \\approx 29{,}77$\n- Vì phải nguyên → ít nhất 30 chuyến",
+      "loi_giai_day_du": "**Câu a) Thể tích đống cát:**\n\nBán kính đáy của đống cát là $R = 28 : 2 = 14$ (m).\n\nĐổi $50$ dm $= 5$ m.\n\nThể tích của đống cát hình nón là:\n$$V = \\dfrac{1}{3} \\cdot \\pi \\cdot 14^2 \\cdot 5 = \\dfrac{980}{3}\\pi \\approx 1026{,}2536 \\text{ (m}^3\\text{)}$$\n\nLàm tròn với độ chính xác $d = 0{,}005$ (làm tròn đến hàng phần trăm), ta được:\n$$V \\approx \\boxed{1026{,}25 \\text{ m}^3}$$\n\n**Câu b) Số chuyến xe:**\n\nThể tích phần cát cần vận chuyển là:\n$$1026{,}25 \\cdot \\dfrac{1}{5} = 205{,}25 \\text{ (m}^3\\text{)}$$\n\nThể tích thực của thùng xe tải là:\n$$3{,}8 \\cdot 2{,}1 \\cdot 0{,}8 = 6{,}384 \\text{ (m}^3\\text{)}$$\n\nThể tích cát tối đa mà thùng xe tải có thể chở trong một chuyến là:\n$$6{,}384 + 6{,}384 \\cdot 8\\% = 6{,}89472 \\text{ (m}^3\\text{)}$$\n\nSố chuyến xe cần để chở hết số cát đó là:\n$$205{,}25 : 6{,}89472 \\approx 29{,}769 \\text{ (chuyến)}$$\n\nVậy người ta cần ít nhất $\\boxed{30}$ chuyến xe để vận chuyển hết số cát đó.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đống cát hình nón cao 50dm, đường kính đáy 28dm bên trái + xe tải có thùng chứa cát màu nâu bên phải.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức V hình nón.",
+          "Em không biết đổi 50 dm sang m.",
+          "Em không biết '8% nhiều hơn' nghĩa là gì."
+        ],
+        "dinh_huong": [
+          "Em định $R = 14$, $h = 5$m — đúng không?",
+          "Em định V tối đa = V thực × 108% — đúng chứ?",
+          "Em định làm tròn lên 30 chuyến — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V \\approx 1026{,}25$ m³ — đúng không?",
+          "Em ra cát chuyển = 205,25 m³ — đúng chưa?",
+          "Em ra 30 chuyến — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên đổi 50 dm = 5 m.",
+          "Em không tính 1/5 đống cát mà tính cả đống.",
+          "Em làm tròn xuống 29 chuyến (sai - phải lên 30)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-30/bai5-dongcat.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Người đi xe đạp A→B→C lúc đi và C→B→A lúc về",
+      "de_bai": "Một người đi xe đạp từ $A$ đến $B$ với vận tốc $12$ km/h và đi tiếp từ $B$ đến $C$ với vận tốc $6$ km/h, hết $75$ phút. Khi về người đó đi từ $C$ đến $B$ với vận tốc $8$ km/h và từ $B$ đến $A$ với vận tốc $4$ km/h hết $1$ giờ $30$ phút. Tính chiều dài quãng đường $AB$ và $BC$.",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x = AB$, $y = BC$ (km), $x, y > 0$",
+        "Đi: $\\dfrac{x}{12} + \\dfrac{y}{6} = \\dfrac{5}{4}$ (75 phút = 5/4 giờ)",
+        "Về: $\\dfrac{x}{4} + \\dfrac{y}{8} = \\dfrac{3}{2}$ (1h30 = 3/2 giờ)",
+        "Hệ → $x = 3$, $y = 6$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất 2 ẩn",
+        "Quan hệ thời gian = quãng đường / vận tốc"
+      ],
+      "dap_so": "$AB = 3$ km, $BC = 6$ km.",
+      "goi_y_cap_1": "Đổi: 75 phút = 5/4 giờ; 1h30 = 3/2 giờ. Hệ: $\\dfrac{x}{12} + \\dfrac{y}{6} = \\dfrac{5}{4}$ và $\\dfrac{x}{4} + \\dfrac{y}{8} = \\dfrac{3}{2}$ → $x = 3$, $y = 6$.",
+      "goi_y_cap_2": "- Gọi $x$ (km) = AB, $y$ (km) = BC ($x, y > 0$)\n- Đổi: 75 phút = $\\dfrac{5}{4}$ giờ; 1h30 = $\\dfrac{3}{2}$ giờ\n- Lúc đi: $\\dfrac{x}{12} + \\dfrac{y}{6} = \\dfrac{5}{4}$ (1)\n- Lúc về: $\\dfrac{x}{4} + \\dfrac{y}{8} = \\dfrac{3}{2}$ (2)\n- Hệ → $x = 3$, $y = 6$",
+      "loi_giai_day_du": "Gọi $x$ (km) là chiều dài quãng đường $AB$, $y$ (km) là chiều dài quãng đường $BC$ ($x > 0, y > 0$).\n\nĐổi: $75$ phút $= \\dfrac{5}{4}$ giờ; $1$ giờ $30$ phút $= \\dfrac{3}{2}$ giờ.\n\nThời gian người đó đi từ $A$ đến $B$ là $\\dfrac{x}{12}$ (giờ).\n\nThời gian người đó đi từ $B$ đến $C$ là $\\dfrac{y}{6}$ (giờ).\n\nVì lúc đi người đó đi từ $A$ đến $C$ hết $75$ phút nên ta có phương trình:\n$$\\dfrac{x}{12} + \\dfrac{y}{6} = \\dfrac{5}{4} \\quad (1)$$\n\nThời gian người đó đi về từ $C$ đến $B$ là $\\dfrac{y}{8}$ (giờ).\n\nThời gian người đó đi về từ $B$ đến $A$ là $\\dfrac{x}{4}$ (giờ).\n\nVì lúc về người đó đi từ $C$ đến $A$ hết $1$ giờ $30$ phút nên ta có phương trình:\n$$\\dfrac{x}{4} + \\dfrac{y}{8} = \\dfrac{3}{2} \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} \\dfrac{x}{12} + \\dfrac{y}{6} = \\dfrac{5}{4} \\\\ \\dfrac{x}{4} + \\dfrac{y}{8} = \\dfrac{3}{2} \\end{cases} \\Rightarrow \\begin{cases} x = 3 \\\\ y = 6 \\end{cases}$$\n\nVậy chiều dài quãng đường $AB$ là $\\boxed{3 \\text{ km}}$ và chiều dài quãng đường $BC$ là $\\boxed{6 \\text{ km}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đổi 75 phút sang giờ.",
+          "Em không biết liên hệ $t = s/v$.",
+          "Em không biết bắt đầu lập phương trình từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định 75 phút = 5/4 giờ — đúng không?",
+          "Em định t đi A-C = $\\dfrac{x}{12} + \\dfrac{y}{6}$ — đúng chứ?",
+          "Em định lập 2 phương trình lúc đi và lúc về — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ 2 phương trình — đúng không?",
+          "Em ra $x = 3, y = 6$ — đúng chưa?",
+          "Em phân biệt được AB và BC — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên đổi phút sang giờ.",
+          "Em đảo vận tốc lúc đi và lúc về.",
+          "Em viết sai $\\dfrac{x}{4}$ thành $4x$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nhọn nội tiếp - Trực tâm - Đường tròn ngoại tiếp AEF",
+      "de_bai": "Cho $\\triangle ABC$ nhọn ($AB < AC$) nội tiếp đường tròn tâm $O$. Các đường cao $AD, BE, CF$ của $\\triangle ABC$ cắt nhau tại $H$. Gọi $M, N$ lần lượt là trung điểm của $BC, AH$.\n\na) Chứng minh tứ giác $BCEF$ và tứ giác $AEHF$ nội tiếp. Từ đó suy ra $MN \\perp EF$.\n\nb) Gọi $K$ là giao điểm của $EF$ và $BC$. Chứng minh $KB \\cdot KC = KF \\cdot KE$.\n\nc) Biết $\\widehat{BAC} = 60°$, $BC = 16$ cm. Tính bán kính của đường tròn ngoại tiếp $\\triangle AEF$.",
+      "phuong_phap_duoc_dung": [
+        "BCEF có 2 góc vuông tại E, F nhìn BC → đồng viên đường kính BC, tâm M",
+        "AEHF có 2 góc vuông tại E, F nhìn AH → đồng viên đường kính AH, tâm N",
+        "ME = MF = BC/2, NE = NF = AH/2 → MN trung trực EF → MN ⊥ EF",
+        "BCEF nội tiếp → KFB = KCE (cùng bù BFE)",
+        "△KFB ~ △KCE (g-g) → KB·KC = KF·KE",
+        "△AEF ~ △ABC (g-g) → EF/BC = AE/AB = cos60° = 1/2 → EF = 8",
+        "Tâm đường tròn ngoại tiếp △AEF là N (do AEHF nội tiếp đường kính AH)",
+        "I = MN ∩ EF (trung điểm EF) → IE = 4",
+        "Trong △NIE vuông tại I: ENF = 2·BAC = 120° → INE = 60°",
+        "$NE = IE/\\sin 60° = 4/(\\sqrt 3/2) = 8\\sqrt 3/3$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp",
+        "Đường trung trực",
+        "Tam giác đồng dạng",
+        "Hệ thức lượng",
+        "Góc ở tâm gấp đôi góc nội tiếp"
+      ],
+      "dap_so": "c) Bán kính đường tròn ngoại tiếp $\\triangle AEF$ là $\\dfrac{8\\sqrt{3}}{3}$ cm.",
+      "goi_y_cap_1": "Câu a: △BFC, △BEC vuông tại F, E → BCEF nội tiếp đường kính BC, tâm M. △AFH, △AEH vuông tại F, E → AEHF nội tiếp đường kính AH, tâm N. ME = MF (= BC/2) và NE = NF (= AH/2) → MN trung trực EF → MN ⊥ EF.\n\nCâu b: BCEF nội tiếp → KFB = KCE (cùng bù BFE). Xét △KFB và △KCE chung góc K → đồng dạng (g-g) → $KB \\cdot KC = KF \\cdot KE$.\n\nCâu c: Tứ giác BCEF nội tiếp → AFE = ACB → △AEF ~ △ABC (g-g, BAC chung). $EF/BC = AE/AB = \\cos 60° = 1/2 \\Rightarrow EF = 8$ cm. Đường tròn ngoại tiếp △AEF có tâm N, bán kính $R = NE$. ENF = 2·BAC = 120° (góc ở tâm). △NEF cân tại N. I = trung điểm EF: IE = 4. INE = 60°. $NE = IE/\\sin 60° = 4 \\cdot 2/\\sqrt 3 = 8\\sqrt 3/3$ cm.",
+      "goi_y_cap_2": "Câu a:\n- △BFC vuông tại F → nội tiếp đường tròn đường kính BC (1)\n- △BEC vuông tại E → nội tiếp đường tròn đường kính BC (2)\n- (1)(2) → B, F, E, C cùng đường tròn đường kính BC → BCEF nội tiếp\n- △AFH vuông tại F → nội tiếp đường tròn đường kính AH (3)\n- △AEH vuông tại E → nội tiếp đường tròn đường kính AH (4)\n- (3)(4) → A, F, H, E cùng đường tròn đường kính AH → AEHF nội tiếp\n- M là trung điểm BC, ME = MF = BC/2 (bán kính)\n- N là trung điểm AH, NE = NF = AH/2 (bán kính)\n- → MN là đường trung trực EF → MN ⊥ EF\n\nCâu b:\n- Tứ giác BCEF nội tiếp → $\\widehat{KFB} = \\widehat{KCE}$ (cùng bù $\\widehat{BFE}$)\n- Xét △KFB và △KCE:\n  - $\\widehat{FKB}$ chung\n  - $\\widehat{KFB} = \\widehat{KCE}$\n  - → △KFB ~ △KCE (g-g)\n- → $\\dfrac{KF}{KC} = \\dfrac{KB}{KE}$ → $KB \\cdot KC = KF \\cdot KE$\n\nCâu c:\n- Tứ giác BCEF nội tiếp → $\\widehat{AFE} = \\widehat{ACB}$ (cùng bù $\\widehat{BFE}$)\n- Xét △AEF và △ABC:\n  - $\\widehat{BAC}$ chung\n  - $\\widehat{AFE} = \\widehat{ACB}$\n  - → △AEF ~ △ABC (g-g)\n- → $\\dfrac{EF}{BC} = \\dfrac{AE}{AB}$\n- △ABE vuông tại E: $\\cos\\widehat{BAE} = \\dfrac{AE}{AB}$\n- → $\\dfrac{AE}{AB} = \\cos 60° = \\dfrac{1}{2}$\n- → $\\dfrac{EF}{BC} = \\dfrac{1}{2}$ → $EF = 8$ cm\n- Tứ giác AEHF nội tiếp đường tròn đường kính AH có tâm N → đường tròn ngoại tiếp △AEF chính là đường tròn tâm N, bán kính $R = NE$\n- Gọi I = giao MN và EF → I là trung điểm EF (do MN trung trực EF) → IE = 4\n- $\\widehat{ENF} = 2\\widehat{BAC} = 120°$ (góc nội tiếp và ở tâm)\n- △NAE cân tại N (NA=NE bán kính), $\\widehat{ENF} = 120°$\n- △NIE vuông tại I: $\\widehat{INE} = 60°$\n- $\\sin\\widehat{INE} = \\dfrac{IE}{NE}$ → $NE = \\dfrac{IE}{\\sin 60°} = \\dfrac{4}{\\sqrt{3}/2} = \\dfrac{8\\sqrt{3}}{3}$ cm",
+      "loi_giai_day_du": "**Câu a) Chứng minh BCEF, AEHF nội tiếp và MN ⊥ EF:**\n\n$\\triangle BFC$ vuông tại $F$ (do $CF$ là đường cao), suy ra $\\triangle BFC$ nội tiếp đường tròn đường kính $BC$ (1).\n\n$\\triangle BEC$ vuông tại $E$ (do $BE$ là đường cao), suy ra $\\triangle BEC$ nội tiếp đường tròn đường kính $BC$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $B, F, E, C$ cùng thuộc một đường tròn đường kính $BC$. Suy ra tứ giác $BCEF$ nội tiếp.\n\n$\\triangle AFH$ vuông tại $F$, suy ra $\\triangle AFH$ nội tiếp đường tròn đường kính $AH$ (3).\n\n$\\triangle AEH$ vuông tại $E$, suy ra $\\triangle AEH$ nội tiếp đường tròn đường kính $AH$ (4).\n\nTừ (3) và (4) suy ra 4 điểm $A, F, H, E$ cùng thuộc một đường tròn đường kính $AH$. Suy ra tứ giác $AEHF$ nội tiếp.\n\nTa có $\\begin{cases} ME = MF = \\dfrac{BC}{2} \\\\ NE = NF = \\dfrac{AH}{2} \\end{cases}$\n\n$\\Rightarrow MN$ là trung trực của $EF \\Rightarrow MN \\perp EF$.\n\n**Câu b) Chứng minh $KB \\cdot KC = KF \\cdot KE$:**\n\nTứ giác $BCEF$ nội tiếp, ta có $\\widehat{KFB} = \\widehat{KCE}$ (cùng bù $\\widehat{BFE}$).\n\nXét $\\triangle KFB$ và $\\triangle KCE$:\n$\\begin{cases} \\widehat{FKB} \\text{ chung} \\\\ \\widehat{KFB} = \\widehat{KCE} \\end{cases}$\n\n$\\Rightarrow \\triangle KFB \\sim \\triangle KCE$ (g-g)\n\n$\\Rightarrow \\dfrac{KF}{KC} = \\dfrac{KB}{KE} \\Rightarrow KB \\cdot KC = KF \\cdot KE$.\n\n**Câu c) Bán kính đường tròn ngoại tiếp △AEF:**\n\nTứ giác $BCEF$ nội tiếp, ta có $\\widehat{AFE} = \\widehat{ACB}$ (cùng bù $\\widehat{BFE}$).\n\nXét $\\triangle AEF$ và $\\triangle ABC$:\n$\\begin{cases} \\widehat{BAC} \\text{ chung} \\\\ \\widehat{AFE} = \\widehat{ACB} \\end{cases}$\n\n$\\Rightarrow \\triangle AEF \\sim \\triangle ABC$ (g-g)\n\n$\\Rightarrow \\dfrac{EF}{BC} = \\dfrac{AE}{AB}$\n\n$\\triangle ABE$ vuông tại $E$:\n$$\\cos \\widehat{BAE} = \\dfrac{AE}{AB} = \\cos 60° = \\dfrac{1}{2}$$\n\n$\\Rightarrow \\dfrac{EF}{BC} = \\dfrac{1}{2} \\Rightarrow EF = \\dfrac{BC}{2} = \\dfrac{16}{2} = 8$ (cm).\n\nGọi $I$ là giao điểm của $MN$ và $EF$. Do $MN$ là trung trực của $EF$ (chứng minh trên) nên $I$ là trung điểm của $EF$ và $NI \\perp EF$ tại $I$.\n\n$\\Rightarrow IE = \\dfrac{EF}{2} = 4$ (cm).\n\nVì tứ giác $AEHF$ nội tiếp đường tròn đường kính $AH$ có tâm là $N$ nên đường tròn ngoại tiếp $\\triangle AEF$ chính là đường tròn tâm $N$, bán kính $R = NE$.\n\nTa có $NA = NE$ (bán kính) suy ra $\\triangle NAE$ cân tại $N$.\n\n$\\widehat{ENF} = 2\\widehat{BAC} = 2 \\cdot 60° = 120°$ (góc nội tiếp và ở tâm cùng chắn cung $EF$).\n\n$\\triangle NIE$ vuông tại $I$, có $\\widehat{INE} = \\dfrac{120°}{2} = 60°$:\n$$\\sin \\widehat{INE} = \\dfrac{IE}{NE} \\Rightarrow NE = \\dfrac{IE}{\\sin 60°} = \\dfrac{4}{\\dfrac{\\sqrt{3}}{2}} = \\boxed{\\dfrac{8\\sqrt{3}}{3} \\text{ cm}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nhọn nội tiếp (O), 3 đường cao AD, BE, CF cắt nhau tại trực tâm H. M trung điểm BC, N trung điểm AH. K = giao EF và BC.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được BCEF có 2 góc vuông nhìn BC.",
+          "Em không nhớ tính chất 4 điểm cùng đường tròn đường kính.",
+          "Câu c em không biết tâm đường tròn ngoại tiếp △AEF."
+        ],
+        "dinh_huong": [
+          "Câu a em định 4 điểm BCEF đồng viên đường kính BC — đúng không?",
+          "Câu b em định △KFB ~ △KCE (g-g) — đúng chứ?",
+          "Câu c em định tâm là N, $R = NE$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra MN trung trực EF — đúng không?",
+          "Em ra $EF = 8$ cm — đúng chưa?",
+          "Em ra $R = \\dfrac{8\\sqrt 3}{3}$ cm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không tìm được tâm đường tròn ngoại tiếp △AEF (chính là N).",
+          "Em không biết góc ENF = 2·BAC.",
+          "Em không tính được EF qua đồng dạng △AEF ~ △ABC."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-30/bai7-tamgiac.png"
+    }
+  ]
+}
