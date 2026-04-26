@@ -1,0 +1,363 @@
+{
+  "de_so": 24,
+  "cum": 8,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho parabol $(P): y = \\dfrac{1}{3}x^2$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm tọa độ các điểm $M$ thuộc $(P)$, biết khoảng cách từ điểm $M$ đến các trục tọa độ đều bằng nhau.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -6, -3, 0, 3, 6)",
+        "'Khoảng cách đến 2 trục bằng nhau' → $|y| = |x|$ → $y = x$ hoặc $y = -x$",
+        "Xét 2 trường hợp",
+        "Giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Khoảng cách từ điểm đến trục",
+        "Phương trình bậc hai dạng $x(ax+b) = 0$"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$, $(3; 3)$ và $(-3; 3)$.",
+      "goi_y_cap_1": "Câu a: Bảng với x = -6, -3, 0, 3, 6 → y = 12, 3, 0, 3, 12.\n\nCâu b: 'Khoảng cách 2 trục bằng nhau' → $|y| = |x|$ → 2 trường hợp $y = x$ hoặc $y = -x$. Thay vào (P) lần lượt.",
+      "goi_y_cap_2": "Câu a:\n- $x = -6 \\to y = 12$; $x = -3 \\to y = 3$; $x = 0 \\to y = 0$; $x = 3 \\to y = 3$; $x = 6 \\to y = 12$\n\nCâu b:\n- $|y| = |x|$ → $y = x$ hoặc $y = -x$\n\n*Trường hợp 1:* $y = x$\n- $x = \\dfrac{1}{3}x^2 \\Rightarrow \\dfrac{1}{3}x^2 - x = 0$\n- $x_1 = 0$ hoặc $x_2 = 3$\n- $(0; 0)$ và $(3; 3)$\n\n*Trường hợp 2:* $y = -x$\n- $-x = \\dfrac{1}{3}x^2 \\Rightarrow \\dfrac{1}{3}x^2 + x = 0$\n- $x_1 = 0$ hoặc $x_2 = -3$\n- $(0; 0)$ và $(-3; 3)$\n\nKết hợp: $(0; 0)$, $(3; 3)$, $(-3; 3)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-6$ | $-3$ | $0$ | $3$ | $6$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{1}{3}x^2$ | $12$ | $3$ | $0$ | $3$ | $12$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm tọa độ điểm M:**\n\nVì khoảng cách từ điểm thuộc $(P)$ đến các trục tọa độ đều bằng nhau nên $|y| = |x|$, suy ra $y = x$ hoặc $y = -x$.\n\n***Trường hợp 1:* $y = x$**\n\nTa có phương trình $x = \\dfrac{1}{3}x^2$\n$$-\\dfrac{1}{3}x^2 + x = 0$$\n$$x = 0 \\text{ hoặc } x = 3$$\n\nVới $x = 0 \\Rightarrow y = 0$.\nVới $x = 3 \\Rightarrow y = 3$.\n\n***Trường hợp 2:* $y = -x$**\n\nTa có phương trình $-x = \\dfrac{1}{3}x^2$\n$$-\\dfrac{1}{3}x^2 - x = 0$$\n$$x = 0 \\text{ hoặc } x = -3$$\n\nVới $x = 0 \\Rightarrow y = 0$.\nVới $x = -3 \\Rightarrow y = 3$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$, $\\boxed{(3; 3)}$ và $\\boxed{(-3; 3)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = x²/3 bề lõm quay lên trên trên hệ trục Oxy với các điểm đặc trưng x = -6, -3, 0, 3, 6.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'khoảng cách đến 2 trục bằng nhau' nghĩa là gì.",
+          "Em không biết viết $|y| = |x|$ thành 2 trường hợp.",
+          "Em không biết loại nghiệm nào."
+        ],
+        "dinh_huong": [
+          "Em định viết $y = x$ và $y = -x$ — đúng không?",
+          "Em định xét 2 trường hợp riêng — đúng chứ?",
+          "Em định gộp tất cả nghiệm tìm được — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra trường hợp 1: $(0;0)$ và $(3;3)$ — đúng không?",
+          "Em ra trường hợp 2: $(0;0)$ và $(-3;3)$ — đúng chưa?",
+          "Em ra 3 điểm $(0;0)$, $(3;3)$, $(-3;3)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ xét 1 trường hợp $y = x$.",
+          "Em quên nghiệm $x = 0$ là $(0;0)$.",
+          "Em nhầm $|y| = |x|$ chỉ thành $y = x$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-24/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A (dùng nghiệm thay vào)",
+      "de_bai": "Cho phương trình $-3x^2 + 2x + 4 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt.\n\nb) Gọi $x_1, x_2$ là hai nghiệm của phương trình, không giải phương trình, tính giá trị của biểu thức $A = 3x_2^2 + 2026x_1 + 2024x_2 - 4$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Vì $x_2$ là nghiệm: $-3x_2^2 + 2x_2 + 4 = 0$ → $3x_2^2 - 4 = 2x_2$",
+        "Thay vào A để rút gọn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "$x_2$ là nghiệm thì thoả mãn phương trình",
+        "Phép biến đổi để xuất hiện $(x_1 + x_2)$"
+      ],
+      "dap_so": "$A = \\dfrac{4052}{3}$",
+      "goi_y_cap_1": "Câu a: $\\Delta = 4 + 48 = 52 > 0$.\n\nCâu b: Vì $x_2$ là nghiệm nên $-3x_2^2 + 2x_2 + 4 = 0$ → $3x_2^2 - 4 = 2x_2$. Thay vào A: $A = (3x_2^2 - 4) + 2026x_1 + 2024x_2 = 2x_2 + 2026x_1 + 2024x_2 = 2026(x_1 + x_2)$.",
+      "goi_y_cap_2": "Câu a:\n- $a = -3; b = 2; c = 4$\n- $\\Delta = b^2 - 4ac = 4 - 4(-3)(4) = 4 + 48 = 52 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{-2}{-3} = \\dfrac{2}{3}$, $x_1 x_2 = \\dfrac{4}{-3} = -\\dfrac{4}{3}$\n- Vì $x_2$ là nghiệm: $-3x_2^2 + 2x_2 + 4 = 0 \\Rightarrow 3x_2^2 - 4 = 2x_2$\n- $A = 3x_2^2 + 2026x_1 + 2024x_2 - 4 = (3x_2^2 - 4) + 2026x_1 + 2024x_2$\n- $= 2x_2 + 2026x_1 + 2024x_2 = 2026x_1 + 2026x_2 = 2026(x_1 + x_2)$\n- $A = 2026 \\cdot \\dfrac{2}{3} = \\dfrac{4052}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $-3x^2 + 2x + 4 = 0$ với $a = -3; b = 2; c = 4$.\n\n$\\Delta = b^2 - 4ac = 2^2 - 4 \\cdot (-3) \\cdot 4 = 52 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-2}{-3} = \\dfrac{2}{3} \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{4}{-3} = -\\dfrac{4}{3} \\end{cases}$$\n\nVì $x_2$ là nghiệm của phương trình nên $-3x_2^2 + 2x_2 + 4 = 0$, suy ra $3x_2^2 - 4 = 2x_2$.\n\nThay vào biểu thức $A$:\n$$A = 3x_2^2 + 2026x_1 + 2024x_2 - 4$$\n$$= (3x_2^2 - 4) + 2026x_1 + 2024x_2$$\n$$= 2x_2 + 2026x_1 + 2024x_2$$\n$$= 2026x_1 + 2026x_2$$\n$$= 2026(x_1 + x_2)$$\n$$= 2026 \\cdot \\dfrac{2}{3} = \\boxed{\\dfrac{4052}{3}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu rút gọn A từ đâu.",
+          "Em quên Viète với $a = -3$.",
+          "Em không biết khai thác việc $x_2$ là nghiệm."
+        ],
+        "dinh_huong": [
+          "Em định dùng việc $x_2$ thoả mãn phương trình — đúng không?",
+          "Em định thay $3x_2^2 - 4 = 2x_2$ vào A — đúng chứ?",
+          "Em định gộp $2026(x_1 + x_2)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1 + x_2 = 2/3$ — đúng không?",
+          "Em ra $A = 2026(x_1 + x_2)$ — đúng chưa?",
+          "Em ra $A = 4052/3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra $3x_2^2 - 4$ trong A có thể thay bằng $2x_2$.",
+          "Em không thấy $2x_2 + 2024x_2 = 2026x_2$.",
+          "Em nhầm dấu Viète với $a$ âm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép Robot - Xác suất - Bổ sung HS",
+      "de_bai": "Vào một buổi chiều thứ Bảy đầy hứng khởi tại Trường THCS Hòa Bình, các học sinh đã rất tích cực tham gia buổi khảo sát về câu lạc bộ ngoại khóa \"Sáng tạo Robot\". Đây là một sân chơi bổ ích, giúp học sinh rèn luyện kỹ năng tư duy logic, làm việc nhóm và khám phá công nghệ hiện đại. Sau buổi khảo sát ban đầu, nhà trường đã thống kê được số lượng học sinh đăng ký tham gia câu lạc bộ theo giới tính và từng khối lớp.\n\n| Khối | Nam | Nữ |\n|---|---|---|\n| 6 | 18 | 22 |\n| 7 | 20 | 25 |\n| 8 | 15 | 19 |\n| 9 | 12 | 14 |\n\na) Ban tổ chức quyết định chọn ngẫu nhiên một học sinh trong toàn bộ những học sinh đã đăng ký tham gia câu lạc bộ sau buổi khảo sát thứ Bảy. Tính xác suất của biến cố $A$: \"Học sinh được chọn là học sinh nữ thuộc khối lớp có sự chênh lệch giữa nam và nữ lớn nhất\".\n\nb) Đến thứ Tư tuần kế tiếp, câu lạc bộ \"Sáng tạo Robot\" lại đón nhận thêm những thành viên mới đầy nhiệt huyết đăng ký tham gia: một nhóm bạn nam lớp 8 và một nhóm bạn nữ lớp 9. Biết rằng tổng cộng có $20$ bạn học sinh mới gia nhập câu lạc bộ. Sau khi cập nhật danh sách, thầy phụ trách nhận thấy rằng nếu chọn ngẫu nhiên một thành viên trong toàn bộ câu lạc bộ, xác suất chọn được một bạn nam thuộc khối 8 là $\\dfrac{2}{15}$. Hỏi có bao nhiêu bạn nam lớp 8 và bao nhiêu bạn nữ lớp 9 đã đăng ký tham gia câu lạc bộ trong tuần vừa qua?",
+      "phuong_phap_duoc_dung": [
+        "Tính tổng từ biểu đồ",
+        "Tìm chênh lệch nam-nữ từng khối",
+        "Lập hệ phương trình bằng tỉ lệ xác suất"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Xác suất cổ điển",
+        "Hệ phương trình bậc nhất 2 ẩn"
+      ],
+      "dap_so": "a) $P(A) = \\dfrac{5}{29}$. b) 7 bạn nam lớp 8 và 13 bạn nữ lớp 9.",
+      "goi_y_cap_1": "Câu a: Tổng = 145. Chênh lệch K6=4, K7=5, K8=4, K9=2 → K7 lớn nhất → nữ K7 = 25 → P(A) = 25/145 = 5/29.\n\nCâu b: Sau khi thêm 20 HS, tổng = 165. Nam K8 mới = $15 + x$. $\\dfrac{15+x}{165} = \\dfrac{2}{15}$ và $x + y = 20$.",
+      "goi_y_cap_2": "Câu a:\n- $n(\\Omega) = 18+22+20+25+15+19+12+14 = 145$\n- Chênh lệch K6: $|18-22| = 4$, K7: $|20-25| = 5$, K8: $|15-19| = 4$, K9: $|12-14| = 2$\n- K7 lớn nhất (chênh 5) → Nữ K7 = 25\n- $P(A) = \\dfrac{25}{145} = \\dfrac{5}{29}$\n\nCâu b:\n- Gọi $x$ = số nam K8 thêm, $y$ = số nữ K9 thêm ($x, y \\in \\mathbb{N}$)\n- $x + y = 20$ (1)\n- Tổng mới: $145 + 20 = 165$\n- Nam K8 mới: $15 + x$\n- $\\dfrac{15+x}{165} = \\dfrac{2}{15}$ → $15(15 + x) = 2 \\cdot 165 = 330$\n- $225 + 15x = 330 \\Rightarrow 15x = 105 \\Rightarrow x = 7$\n- $y = 20 - 7 = 13$",
+      "loi_giai_day_du": "**Câu a) Tính P(A):**\n\nSố học sinh đăng ký tham gia câu lạc bộ ban đầu là:\n$$n(\\Omega) = 18+22+20+25+15+19+12+14 = 145$$\n\nTa có sự chênh lệch số lượng học sinh nam và nữ của từng khối là:\n- Khối 6: $|22 - 18| = 4$ (học sinh)\n- Khối 7: $|25 - 20| = 5$ (học sinh)\n- Khối 8: $|19 - 15| = 4$ (học sinh)\n- Khối 9: $|14 - 12| = 2$ (học sinh)\n\nVì khối 7 có sự chênh lệch nam và nữ lớn nhất nên học sinh nữ thuộc khối 7 có $25$ học sinh.\n\nSố khả năng thuận lợi cho biến cố $A$ là $n(A) = 25$.\n\nXác suất của biến cố $A$:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{25}{145} = \\boxed{\\dfrac{5}{29}}$$\n\n**Câu b) Số bạn nam lớp 8 và nữ lớp 9 thêm:**\n\nGọi $x$ (học sinh) là số bạn nam lớp 8 đăng ký thêm.\n\nGọi $y$ (học sinh) là số bạn nữ lớp 9 đăng ký thêm ($x, y \\in \\mathbb{N}$).\n\nTổng số học sinh mới gia nhập là $x + y$ (học sinh).\n\nTổng số bạn nam lớp 8 sau khi nhận thêm là $15 + x$ (học sinh).\n\nTổng số học sinh của câu lạc bộ sau khi nhận thêm là $145 + 20 = 165$ (học sinh).\n\nVì tổng cộng có $20$ bạn học sinh mới gia nhập nên ta có:\n$$x + y = 20 \\quad (1)$$\n\nVì xác suất chọn được một bạn nam thuộc khối 8 là $\\dfrac{2}{15}$ nên ta có:\n$$\\dfrac{15+x}{165} = \\dfrac{2}{15} \\quad (2)$$\n\nTừ (1) và (2), ta có hệ phương trình:\n$$\\begin{cases} x + y = 20 \\\\ \\dfrac{15+x}{165} = \\dfrac{2}{15} \\end{cases} \\Rightarrow \\begin{cases} x = 7 \\\\ y = 13 \\end{cases}$$\n\nVậy có $\\boxed{7}$ bạn nam lớp 8 và $\\boxed{13}$ bạn nữ lớp 9 đã đăng ký tham gia thêm.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS Nam (xanh ô vuông) và Nữ (kẻ chéo) tham gia CLB Sáng tạo Robot theo 4 khối 6, 7, 8, 9.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính chênh lệch.",
+          "Em không hiểu 'chọn 1 nam K8 với xác suất 2/15' nghĩa là gì.",
+          "Em không biết bắt đầu lập phương trình từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định lấy giá trị tuyệt đối |nam - nữ| từng khối — đúng không?",
+          "Em định K7 chênh lệch lớn nhất → P(A) = nữ K7 / tổng — đúng chứ?",
+          "Em định lập hệ với $x + y = 20$ và $\\dfrac{15+x}{165} = \\dfrac{2}{15}$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 145 và K7 chênh 5 lớn nhất — đúng không?",
+          "Em ra $P(A) = 5/29$ — đúng chưa?",
+          "Em ra $x = 7, y = 13$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên cộng tổng học sinh sau khi thêm (= 165, không phải 145).",
+          "Em chỉ tính chênh lệch K7 mà không kiểm tra các khối khác.",
+          "Em quy đồng $\\dfrac{15+x}{165} = \\dfrac{2}{15}$ sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-24/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vườn hoa hình vuông giữa mảnh đất HCN",
+      "de_bai": "Một mảnh đất hình chữ nhật có chiều dài hơn chiều rộng $15$ mét. Ở chính giữa mảnh đất người ta làm một vườn hoa hình vuông có cạnh là $x$ (mét) như hình minh họa sau (vườn hoa cách mép trên và dưới $1{,}5$ m).\n\na) Viết biểu thức (thu gọn) tính diện tích phần còn lại của mảnh đất sau khi làm vườn hoa.\n\nb) Với mỗi mét vuông đất trồng hoa, người ta trồng được $4$ gốc hoa đồng tiền. Hỏi trên mảnh đất trồng hoa người ta có thể trồng nhiều nhất bao nhiêu gốc hoa đồng tiền. Biết rằng diện tích còn lại là $138$ m².",
+      "phuong_phap_duoc_dung": [
+        "Chiều rộng = $x + 3$ (vườn hoa cách mép $1{,}5$m mỗi phía)",
+        "Chiều dài = $(x + 3) + 15 = x + 18$",
+        "S còn lại = S đất - S vườn hoa",
+        "Phương trình bậc nhất tìm $x$",
+        "Số gốc = S vườn hoa × 4"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình vuông",
+        "Phương trình bậc nhất một ẩn"
+      ],
+      "dap_so": "a) $S = 21x + 54$ (m²). b) 64 gốc hoa.",
+      "goi_y_cap_1": "Câu a: Rộng = $x + 3$, dài = $x + 18$. S còn lại = $(x+3)(x+18) - x^2$.\n\nCâu b: $S = 138 → 21x + 54 = 138 → x = 4$. S vườn = $4^2 = 16$ m². Số gốc = $16 \\times 4 = 64$.",
+      "goi_y_cap_2": "Câu a:\n- Chiều rộng đất: $x + 1{,}5 + 1{,}5 = x + 3$ (m)\n- Chiều dài đất: $(x+3) + 15 = x + 18$ (m)\n- S đất: $(x+3)(x+18) = x^2 + 21x + 54$ (m²)\n- S vườn hoa: $x^2$ (m²)\n- $S_{còn lại} = (x^2 + 21x + 54) - x^2 = 21x + 54$ (m²)\n\nCâu b:\n- $21x + 54 = 138 \\Rightarrow 21x = 84 \\Rightarrow x = 4$\n- S vườn hoa = $4^2 = 16$ m²\n- Số gốc hoa = $16 \\cdot 4 = 64$ gốc",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích còn lại:**\n\nChiều rộng của mảnh đất hình chữ nhật là $x + 1{,}5 + 1{,}5 = x + 3$ (m).\n\nChiều dài của mảnh đất hình chữ nhật là $x + 3 + 15 = x + 18$ (m).\n\nDiện tích của mảnh đất hình chữ nhật là $(x+3)(x+18)$ (m²).\n\nDiện tích của vườn hoa hình vuông là $x^2$ (m²).\n\nBiểu thức tính diện tích phần còn lại của mảnh đất là:\n$$S = (x+3)(x+18) - x^2 = x^2 + 21x + 54 - x^2 = \\boxed{21x + 54 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Số gốc hoa đồng tiền:**\n\nTheo đề bài, diện tích phần còn lại là $138$ m², nên ta có phương trình:\n$$21x + 54 = 138$$\n$$21x = 84$$\n$$x = 4 \\text{ (thỏa mãn } x > 0\\text{)}$$\n\nDiện tích của phần đất trồng hoa (vườn hoa) là $x^2 = 4^2 = 16$ (m²).\n\nSố gốc hoa đồng tiền nhiều nhất có thể trồng trên mảnh đất này là:\n$$16 \\cdot 4 = \\boxed{64} \\text{ (gốc)}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh đất hình chữ nhật bao quanh vườn hoa hình vuông cạnh x ở chính giữa, cách mép trên và dưới 1,5m mỗi phía.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết chiều rộng đất tính từ đâu.",
+          "Em quên 1,5m × 2 = 3m cộng vào x.",
+          "Em không biết tính số gốc hoa."
+        ],
+        "dinh_huong": [
+          "Em định chiều rộng = $x + 3$ — đúng không?",
+          "Em định chiều dài = $x + 18$ — đúng chứ?",
+          "Em định số gốc = S vườn × 4 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = 21x + 54$ — đúng không?",
+          "Em ra $x = 4$ — đúng chưa?",
+          "Em ra 64 gốc hoa — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ cộng 1,5m một bên (chỉ + 1,5).",
+          "Em nhầm chiều dài = chiều rộng + 15 nhưng quên 'rộng = $x + 3$'.",
+          "Em tính số gốc = (S còn lại) × 4 thay vì (S vườn hoa) × 4."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-24/bai4-vuonhoa.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.5,
+      "chu_de": "Hình học không gian - Khối gỗ trụ tạo viên bi cầu",
+      "de_bai": "Từ một khối gỗ hình trụ có đường kính đáy là $30$ cm, chiều cao là $8$ dm, người ta tạo được $2850$ viên bi gỗ hình cầu có cùng bán kính $r$ cm ($0 < r < 2$). Biết rằng, phần gỗ các viên bi được tạo ra chiếm $80\\%$ thể tích khối gỗ hình trụ lúc ban đầu.\n\na) Tính thể tích khối gỗ hình trụ lúc ban đầu. (Làm tròn đến hàng phần nghìn).\n\nb) Tính bán kính một viên bi gỗ được tạo thành. (Làm tròn đến hàng phần mười). Biết công thức tính thể tích hình trụ, hình cầu lần lượt là: $V = \\pi R^2 \\cdot h$ ($R$ là bán kính đáy, $h$ là chiều cao của hình trụ); $V = \\dfrac{4}{3}\\pi r^3$ ($r$ là bán kính hình cầu).",
+      "phuong_phap_duoc_dung": [
+        "Đổi đơn vị: 8 dm = 80 cm",
+        "$V_{trụ} = \\pi R^2 h$ với $R = 15$ cm, $h = 80$ cm",
+        "Tổng V bi = $80\\%$ V trụ",
+        "V một bi = tổng V bi / 2850",
+        "$\\dfrac{4}{3}\\pi r^3 = V_{1 bi} \\Rightarrow r = \\sqrt[3]{...}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình cầu",
+        "Đổi đơn vị dm sang cm",
+        "Khai căn bậc 3"
+      ],
+      "dap_so": "a) $V \\approx 56548{,}668$ cm³. b) $r \\approx 1{,}6$ cm.",
+      "goi_y_cap_1": "Câu a: $R = 30/2 = 15$ cm; $h = 8$ dm = 80 cm. $V = \\pi \\cdot 15^2 \\cdot 80 = 18000\\pi \\approx 56548{,}668$ cm³.\n\nCâu b: $V_{bi} = 80\\% \\cdot 18000\\pi = 14400\\pi$. $V_1 = \\dfrac{14400\\pi}{2850} = \\dfrac{96\\pi}{19}$. $\\dfrac{4}{3}\\pi r^3 = \\dfrac{96\\pi}{19} \\Rightarrow r^3 = \\dfrac{72}{19} \\Rightarrow r \\approx 1{,}6$.",
+      "goi_y_cap_2": "Câu a:\n- $R = 30/2 = 15$ cm\n- $h = 8$ dm $= 80$ cm\n- $V_{trụ} = \\pi R^2 h = \\pi \\cdot 15^2 \\cdot 80 = 18000\\pi$ cm³\n- Làm tròn: $V \\approx 56548{,}668$ cm³\n\nCâu b:\n- Tổng V bi: $V_{bi} = 18000\\pi \\cdot 80\\% = 14400\\pi$ cm³\n- V một bi: $V_1 = \\dfrac{14400\\pi}{2850} = \\dfrac{96\\pi}{19}$ cm³\n- $\\dfrac{4}{3}\\pi r^3 = \\dfrac{96\\pi}{19}$\n- $r^3 = \\dfrac{96\\pi}{19} \\cdot \\dfrac{3}{4\\pi} = \\dfrac{72}{19}$\n- $r = \\sqrt[3]{\\dfrac{72}{19}} \\approx 1{,}6$ cm (thỏa mãn $0 < r < 2$)",
+      "loi_giai_day_du": "**Câu a) Thể tích khối gỗ hình trụ:**\n\nBán kính đáy của khối gỗ hình trụ là $R = \\dfrac{30}{2} = 15$ (cm).\n\nChiều cao của khối gỗ hình trụ là $h = 8$ dm $= 80$ cm.\n\nThể tích khối gỗ hình trụ ban đầu là:\n$$V = \\pi \\cdot R^2 \\cdot h = \\pi \\cdot 15^2 \\cdot 80 = 18000\\pi$$\n\nLàm tròn đến hàng phần nghìn, ta được kết quả:\n$$V \\approx \\boxed{56548{,}668 \\text{ cm}^3}$$\n\n**Câu b) Bán kính một viên bi gỗ:**\n\nTổng thể tích của $2850$ viên bi gỗ hình cầu là:\n$$V_{bi} = 18000\\pi \\cdot 80\\% = 14400\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích của một viên bi gỗ hình cầu là:\n$$V_1 = \\dfrac{14400\\pi}{2850} = \\dfrac{96\\pi}{19} \\text{ (cm}^3\\text{)}$$\n\nTheo công thức thể tích hình cầu, ta có phương trình:\n$$\\dfrac{4}{3}\\pi r^3 = \\dfrac{96\\pi}{19}$$\n$$r^3 = \\dfrac{96\\pi}{19} \\cdot \\dfrac{3}{4\\pi} = \\dfrac{72}{19}$$\n$$r = \\sqrt[3]{\\dfrac{72}{19}}$$\n\nLàm tròn đến hàng phần mười, ta được bán kính viên bi gỗ là $r \\approx \\boxed{1{,}6}$ cm (thỏa mãn $0 < r < 2$).",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Khối gỗ hình trụ d=30cm, h=8dm bên trái, ba viên bi gỗ hình cầu bên phải.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đổi 8 dm sang cm.",
+          "Em quên công thức V hình trụ.",
+          "Em không biết khai căn bậc 3."
+        ],
+        "dinh_huong": [
+          "Em định đổi $h = 80$ cm — đúng không?",
+          "Em định V một bi = (80% V trụ) / 2850 — đúng chứ?",
+          "Em định dùng công thức $\\dfrac{4}{3}\\pi r^3 = V_1$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V = 18000\\pi \\approx 56548{,}668$ cm³ — đúng không?",
+          "Em ra V một bi = $\\dfrac{96\\pi}{19}$ — đúng chưa?",
+          "Em ra $r \\approx 1{,}6$ cm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên đổi 8 dm = 80 cm.",
+          "Em không biết khai căn bậc 3 trên máy tính.",
+          "Em chia sai $\\dfrac{96\\pi}{19} : \\dfrac{4\\pi}{3}$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-24/bai5-khoigo.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Sản xuất áo (tỷ lệ phần trăm)",
+      "de_bai": "Để bảo đảm uy tín chất lượng, một xí nghiệp X chỉ bán ra thị trường các áo không bị lỗi, còn các áo bị lỗi sẽ được giữ lại không bán ra. Trong tháng 11, xí nghiệp X đã sản xuất ra được $2960$ áo, trong đó số áo bị lỗi chiếm $5\\%$. Qua tháng 12, do được cải tiến kỹ thuật nên so với tháng 11, xí nghiệp đã sản xuất thêm một số áo không bị lỗi. Nhờ vậy, trong tháng 12, số áo được bán ra thị trường chiếm $96\\%$ so với tổng số áo sản xuất được. Hỏi xí nghiệp đã sản xuất được thêm bao nhiêu áo ở tháng 12?",
+      "phuong_phap_duoc_dung": [
+        "T11: 5% bị lỗi → số lỗi = 148, không lỗi = 2812",
+        "T12: thêm $x$ áo không lỗi → tổng = $2960 + x$, không lỗi = $2812 + x$",
+        "Phương trình $\\dfrac{2812 + x}{2960 + x} = \\dfrac{96}{100}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tỉ lệ phần trăm",
+        "Phương trình bậc nhất một ẩn"
+      ],
+      "dap_so": "Xí nghiệp đã sản xuất thêm 740 áo ở tháng 12.",
+      "goi_y_cap_1": "T11: 2960 áo, lỗi = $2960 \\cdot 5\\% = 148$, không lỗi = 2812. T12 thêm $x$ áo không lỗi → tổng $2960 + x$, không lỗi $2812 + x$. Phương trình $\\dfrac{2812 + x}{2960 + x} = 96\\%$.",
+      "goi_y_cap_2": "- Gọi $x$ (áo) là số áo không bị lỗi sản xuất thêm ở T12 ($x \\in \\mathbb{N}^*$)\n- T11: tổng = 2960, lỗi = $2960 \\cdot 5\\% = 148$, không lỗi = $2960 - 148 = 2812$\n- T12: tổng = $2960 + x$, lỗi vẫn là $148$, không lỗi = $2812 + x$\n- $\\dfrac{2812 + x}{2960 + x} = \\dfrac{96}{100} = \\dfrac{24}{25}$\n- $25(2812 + x) = 24(2960 + x)$\n- $70300 + 25x = 71040 + 24x$\n- $x = 740$",
+      "loi_giai_day_du": "Gọi $x$ (áo) là số áo không bị lỗi mà xí nghiệp đã sản xuất thêm ở tháng 12 ($x \\in \\mathbb{N}^*$).\n\nSố áo không bị lỗi sản xuất trong tháng 11 là:\n$$2960 \\cdot 100\\% - 2960 \\cdot 5\\% = 2812 \\text{ (áo)}$$\n\nSố áo bị lỗi sản xuất trong tháng 11 là $2960 - 2812 = 148$ (áo).\n\nVì tháng 12 chỉ sản xuất thêm áo không bị lỗi, nên tổng số áo sản xuất trong tháng 12 là $2960 + x$ (áo).\n\nSố áo không bị lỗi (được bán ra thị trường) trong tháng 12 là $2812 + x$ (áo).\n\nVì số áo được bán ra thị trường trong tháng 12 chiếm $96\\%$ tổng số áo sản xuất được, ta có phương trình:\n$$2812 + x = 96\\% \\cdot (2960 + x)$$\n$$2812 + x = \\dfrac{24}{25}(2960 + x)$$\n$$70300 + 25x = 71040 + 24x$$\n$$x = 740 \\text{ (thỏa mãn điều kiện)}$$\n\nVậy xí nghiệp đã sản xuất thêm $\\boxed{740}$ áo ở tháng 12.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính số áo lỗi và không lỗi T11.",
+          "Em không hiểu '96% so với tổng' nghĩa là gì.",
+          "Em không biết bắt đầu lập phương trình từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định T11 lỗi = $2960 \\cdot 5\\%$ = 148 — đúng không?",
+          "Em định T12 thêm $x$ áo không lỗi → tổng $2960 + x$ — đúng chứ?",
+          "Em định lập phương trình $\\dfrac{2812+x}{2960+x} = 96\\%$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra T11 không lỗi = 2812 áo — đúng không?",
+          "Em ra phương trình $25(2812+x) = 24(2960+x)$ — đúng chưa?",
+          "Em ra $x = 740$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên áo lỗi T11 vẫn còn lại trong T12.",
+          "Em nhân chéo $\\dfrac{2812+x}{2960+x} = \\dfrac{96}{100}$ sai.",
+          "Em nhầm 96% áp dụng cho 2960 chứ không phải $2960 + x$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường cao và đường tròn ngoại tiếp tam giác",
+      "de_bai": "Cho tam giác $ABC$ có ba góc nhọn ($AB < AC$), hai đường cao $BM$ và $AD$ cắt nhau tại $H$. Tia $CH$ cắt $AB$ tại $N$; góc $BAC$ có số đo là $60°$. Gọi $O$ là trung điểm $BC$.\n\na) Chứng minh $CN$ vuông góc với $AB$ và tứ giác $BNMC$ nội tiếp đường tròn $(O)$.\n\nb) Gọi $K$ là trung điểm $AH$. Chứng minh $KM$ là tiếp tuyến của đường tròn $(O)$.\n\nc) Gọi bán kính của đường tròn $(O)$ là $R$. Tính độ dài đoạn $OK$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "$H$ trực tâm → $CH \\perp AB$",
+        "$\\triangle BNC$ và $\\triangle BMC$ vuông cùng cạnh huyền $BC$ → đồng viên",
+        "$\\triangle AMH$ vuông tại M, K trung điểm AH → KM = KH",
+        "$\\triangle BMC$ vuông tại M, O trung điểm BC → OM = OB",
+        "Tam giác cân + góc đối đỉnh → KM ⊥ OM",
+        "Pythagore $OK^2 = OM^2 + KM^2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Trực tâm tam giác",
+        "Tứ giác nội tiếp",
+        "Đường trung tuyến trong tam giác vuông",
+        "Tam giác đồng dạng",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "c) $OK = \\dfrac{2R\\sqrt{3}}{3}$.",
+      "goi_y_cap_1": "Câu a: H là trực tâm → CH ⊥ AB tại N. △BNC, △BMC cùng vuông cạnh huyền BC → 4 điểm B, N, M, C đồng viên đường tròn đường kính BC, tâm O = trung điểm BC.\n\nCâu b: △AMH vuông tại M, K trung điểm AH → KM = KH = AH/2 → △KMH cân tại K → góc KMH = góc KHM. Mà góc KHM = góc BHD (đối đỉnh). △BDH vuông tại D → góc BHD + góc HBD = 90°. Mặt khác △BMC vuông tại M, O trung điểm BC → △OMB cân tại O → góc OMB = góc OBM = góc HBD. Cộng lại: $\\widehat{KMO} = \\widehat{KMH} + \\widehat{OMB} = 90°$ → KM ⊥ OM tại M → KM tiếp tuyến.\n\nCâu c: △AHM ~ △BCM (g-g) (cùng có góc M = 90°, góc HAM = góc CBM cùng phụ ACB). $\\dfrac{AH}{BC} = \\dfrac{AM}{BM} = \\cot 60° = \\dfrac{1}{\\sqrt{3}}$. AH = $\\dfrac{BC}{\\sqrt{3}} = \\dfrac{2R}{\\sqrt{3}}$. KM = AH/2 = $\\dfrac{R}{\\sqrt{3}}$. Pythagore: $OK^2 = OM^2 + KM^2 = R^2 + \\dfrac{R^2}{3} = \\dfrac{4R^2}{3}$ → $OK = \\dfrac{2R\\sqrt{3}}{3}$.",
+      "goi_y_cap_2": "Câu a:\n- $BM, AD$ là đường cao cắt nhau tại H → H là trực tâm $\\triangle ABC$\n- → $CH \\perp AB$ tại N\n- $\\triangle BNC$ vuông tại N → nội tiếp đường tròn đường kính BC (1)\n- $\\triangle BMC$ vuông tại M → nội tiếp đường tròn đường kính BC (2)\n- (1)(2) → B, N, M, C cùng đường tròn đường kính BC, tâm O = trung điểm BC\n\nCâu b:\n- $\\triangle AMH$ vuông tại M, K trung điểm AH → $KM = KH = \\dfrac{AH}{2}$\n- → $\\triangle KMH$ cân tại K → $\\widehat{KMH} = \\widehat{KHM}$\n- $\\widehat{KHM} = \\widehat{BHD}$ (đối đỉnh) → $\\widehat{KMH} = \\widehat{BHD}$\n- $\\triangle BDH$ vuông tại D → $\\widehat{BHD} + \\widehat{HBD} = 90°$\n- → $\\widehat{KMH} + \\widehat{HBD} = 90°$\n- $\\triangle BMC$ vuông tại M, O trung điểm BC → $OM = OB = OC = \\dfrac{BC}{2}$\n- → $\\triangle OMB$ cân tại O → $\\widehat{OMB} = \\widehat{OBM} = \\widehat{HBD}$\n- $\\widehat{KMO} = \\widehat{KMH} + \\widehat{OMB} = \\widehat{BHD} + \\widehat{HBD} = 90°$\n- → $KM \\perp OM$ tại M, mà $M \\in (O)$ → KM tiếp tuyến (O)\n\nCâu c:\n- Xét $\\triangle AHM$ và $\\triangle BCM$:\n  - $\\widehat{AMH} = \\widehat{BMC} = 90°$\n  - $\\widehat{HAM} = \\widehat{CBM}$ (cùng phụ $\\widehat{ACB}$)\n  - → $\\triangle AHM \\sim \\triangle BCM$ (g-g) → $\\dfrac{AH}{BC} = \\dfrac{AM}{BM}$\n- Trong $\\triangle AMB$ vuông tại M: $\\dfrac{AM}{BM} = \\cot \\widehat{BAM} = \\cot 60° = \\dfrac{1}{\\sqrt{3}}$\n- → $\\dfrac{AH}{BC} = \\dfrac{1}{\\sqrt{3}} \\Rightarrow AH = \\dfrac{BC}{\\sqrt{3}} = \\dfrac{2R}{\\sqrt{3}}$\n- $KM = \\dfrac{AH}{2} = \\dfrac{R}{\\sqrt{3}}$\n- $\\triangle OKM$ vuông tại M (cmt): $OK^2 = OM^2 + KM^2 = R^2 + \\dfrac{R^2}{3} = \\dfrac{4R^2}{3}$\n- $OK = \\dfrac{2R}{\\sqrt{3}} = \\dfrac{2R\\sqrt{3}}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh $CN \\perp AB$ và tứ giác $BNMC$ nội tiếp $(O)$:**\n\nXét $\\triangle ABC$ có hai đường cao $BM$ và $AD$ cắt nhau tại $H$. Suy ra $H$ là trực tâm của $\\triangle ABC$.\n\nSuy ra $CH \\perp AB$ tại $N$.\n\n$\\triangle BNC$ vuông tại $N$ (do $CN \\perp AB$), suy ra $\\triangle BNC$ nội tiếp đường tròn đường kính $BC$ (1).\n\n$\\triangle BMC$ vuông tại $M$ (do $BM \\perp AC$), suy ra $\\triangle BMC$ nội tiếp đường tròn đường kính $BC$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $B, N, M, C$ cùng thuộc một đường tròn đường kính $BC$.\n\nMà $O$ là trung điểm $BC$, suy ra tứ giác $BNMC$ nội tiếp đường tròn tâm $(O)$.\n\n**Câu b) Chứng minh $KM$ là tiếp tuyến của $(O)$:**\n\n$\\triangle AMH$ vuông tại $M$ có $KM$ là đường trung tuyến.\n\n$\\Rightarrow KM = KH = \\dfrac{1}{2}AH$.\n\nSuy ra $\\triangle KMH$ cân tại $K \\Rightarrow \\widehat{KMH} = \\widehat{KHM}$.\n\nMà $\\widehat{KHM} = \\widehat{BHD}$ (đối đỉnh) $\\Rightarrow \\widehat{KMH} = \\widehat{BHD}$.\n\nXét $\\triangle BDH$ vuông tại $D$ ta có: $\\widehat{BHD} + \\widehat{HBD} = 90°$.\n\nSuy ra $\\widehat{KMH} + \\widehat{HBD} = 90°$.\n\nMặt khác, $\\triangle BMC$ vuông tại $M$ có trung tuyến $MO$ ($O$ là trung điểm $BC$).\n\nSuy ra $OM = OB = OC = \\dfrac{1}{2}BC \\Rightarrow \\triangle OMB$ cân tại $O \\Rightarrow \\widehat{OMB} = \\widehat{OBM}$ (hay $\\widehat{OMB} = \\widehat{HBD}$).\n\nTa có: $\\widehat{KMO} = \\widehat{KMH} + \\widehat{OMB} = \\widehat{BHD} + \\widehat{HBD} = 90°$.\n\nSuy ra $KM \\perp OM$ tại $M$. Mà $M \\in (O)$ (do $M$ thuộc đường tròn đường kính $BC$).\n\nVậy $KM$ là tiếp tuyến của đường tròn $(O)$. □\n\n**Câu c) Tính độ dài đoạn $OK$ theo $R$:**\n\nXét $\\triangle AHM$ và $\\triangle BCM$:\n\n$\\begin{cases} \\widehat{AMH} = \\widehat{BMC} = 90° \\\\ \\widehat{HAM} = \\widehat{CBM} \\text{ (cùng phụ } \\widehat{ACB}\\text{)} \\end{cases}$\n\n$\\Rightarrow \\triangle AHM \\sim \\triangle BCM$ (g-g)\n\n$\\Rightarrow \\dfrac{AH}{BC} = \\dfrac{AM}{BM}$.\n\nXét $\\triangle AMB$ vuông tại $M$, ta có:\n$$\\dfrac{AM}{BM} = \\cot \\widehat{BAM} = \\cot 60° = \\dfrac{1}{\\sqrt{3}}$$\n\nSuy ra $\\dfrac{AH}{BC} = \\dfrac{1}{\\sqrt{3}} \\Rightarrow AH = \\dfrac{BC}{\\sqrt{3}} = \\dfrac{2R}{\\sqrt{3}}$.\n\nTa có $KM = \\dfrac{1}{2}AH = \\dfrac{R}{\\sqrt{3}}$.\n\n$\\triangle OKM$ vuông tại $M$ (vì $KM \\perp OM$):\n\n$OK^2 = OM^2 + KM^2$ (định lý Pythagore)\n\n$OK^2 = R^2 + \\left(\\dfrac{R}{\\sqrt{3}}\\right)^2 = R^2 + \\dfrac{R^2}{3} = \\dfrac{4R^2}{3}$\n\n$$OK = \\boxed{\\dfrac{2R\\sqrt{3}}{3}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nội tiếp đường tròn (O), đường cao BM (M trên AC), AD (D trên BC), CN (N trên AB), trực tâm H, K trung điểm AH, O trung điểm BC.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết H là gì.",
+          "Em không nhớ tính chất 'trung tuyến tam giác vuông = nửa cạnh huyền'.",
+          "Câu c em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định H là trực tâm → CN ⊥ AB — đúng không?",
+          "Câu b em định KM = AH/2 và OM = BC/2 — đúng chứ?",
+          "Câu c em định △AHM ~ △BCM rồi dùng cot 60° — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra B, N, M, C đồng viên trên (O) — đúng không?",
+          "Em ra $\\widehat{KMO} = 90°$ → KM tiếp tuyến — đúng chưa?",
+          "Em ra $OK = \\dfrac{2R\\sqrt{3}}{3}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết góc HAM và CBM cùng phụ ACB.",
+          "Em không nhớ cot 60° = $1/\\sqrt{3}$.",
+          "Em không gộp được $\\widehat{KMH} + \\widehat{OMB} = 90°$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-24/bai7-tamgiac.png"
+    }
+  ]
+}

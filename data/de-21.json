@@ -1,0 +1,198 @@
+{
+  "de_so": 21,
+  "cum": 7,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số: $y = \\dfrac{-x^2}{4}$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm những điểm $M$ thuộc $(P)$ có tung độ gấp 4 lần hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị",
+        "$y = 4x$, thay vào (P)",
+        "Giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $(0; 0)$ và $(-16; -64)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4.\n\nCâu b: $y = 4x$, thay vào (P): $4x = -x^2/4$.",
+      "goi_y_cap_2": "Câu a: $x = -4 \\to y = -4$; $x = -2 \\to y = -1$; $x = 0 \\to y = 0$; $x = 2 \\to y = -1$; $x = 4 \\to y = -4$.\n\nCâu b:\n- $4x = -\\dfrac{x^2}{4} \\Rightarrow \\dfrac{x^2}{4} + 4x = 0 \\Rightarrow x(\\dfrac{x}{4} + 4) = 0$\n- $x = 0$ hoặc $x = -16$\n- $x = 0 \\Rightarrow y = 0$\n- $x = -16 \\Rightarrow y = -64$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |\n\nVẽ parabol bề lõm xuống dưới.\n\n**Câu b) Tìm điểm M:**\n\nVì tung độ gấp 4 lần hoành độ nên $y = 4x$.\n\nTa có $4x = -\\dfrac{x^2}{4}$\n\n$\\dfrac{x^2}{4} + 4x = 0 \\Leftrightarrow x(x + 16) = 0$\n\n$x = 0$ hoặc $x = -16$\n\nVới $x = 0 \\Rightarrow y = 0$.\n\nVới $x = -16 \\Rightarrow y = -64$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(-16; -64)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol (P): y = -x²/4 bề lõm quay xuống dưới.",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết viết 'tung độ gấp 4 lần hoành độ' ra sao.", "Em không nhớ vẽ parabol bề lõm xuống.", "Em không biết phân tích thành tích."],
+        "dinh_huong": ["Em định viết $y = 4x$ — đúng không?", "Em định nhân 4 hai vế bỏ phân số — đúng chứ?", "Em định nhận cả 2 nghiệm — đúng hướng không?"],
+        "kiem_tra": ["Em ra $x = 0$ và $x = -16$ — đúng không?", "Em ra $(0;0)$ và $(-16; -64)$ — đúng chưa?", "Em không quên điểm $(0;0)$ — đáp án có đúng không?"],
+        "go_bi": ["Em chỉ nhận $x = -16$ mà bỏ $(0;0)$.", "Em không phân tích được thành tích.", "Em viết $x = 4y$ thay vì $y = 4x$."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-21/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A",
+      "de_bai": "Cho phương trình $2x^2 - x - 4 = 0$.\n\na) Chứng minh phương trình trên có 2 nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức: $A = \\dfrac{x_1 + 2026}{x_2} + \\dfrac{x_2 + 2026}{x_1}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Quy đồng + tách"
+      ],
+      "kien_thuc_lien_quan": ["Định lý Viète"],
+      "dap_so": "$A = -\\dfrac{4069}{8}$",
+      "goi_y_cap_1": "Câu a: Δ = 1 + 32 = 33 > 0.\n\nCâu b: Quy đồng $A = \\dfrac{x_1^2 + x_2^2 + 2026(x_1+x_2)}{x_1 x_2}$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 1 + 32 = 33 > 0$.\n\nCâu b:\n- Viète: $x_1 + x_2 = 1/2$, $x_1 x_2 = -2$\n- $x_1^2 + x_2^2 = (1/2)^2 - 2(-2) = 1/4 + 4 = 17/4$\n- $A = \\dfrac{x_1(x_1 + 2026) + x_2(x_2 + 2026)}{x_1 x_2} = \\dfrac{x_1^2 + x_2^2 + 2026(x_1+x_2)}{x_1 x_2}$\n- $A = \\dfrac{17/4 + 2026 \\cdot 1/2}{-2} = \\dfrac{17/4 + 1013}{-2} = \\dfrac{4069/4}{-2} = -\\dfrac{4069}{8}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\n$2x^2 - x - 4 = 0$ với $a = 2; b = -1; c = -4$.\n\n$\\Delta = (-1)^2 - 4 \\cdot 2 \\cdot (-4) = 1 + 32 = 33 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có 2 nghiệm phân biệt $x_1, x_2$.\n\n**Câu b) Tính A:**\n\nTheo Viète: $x_1 + x_2 = \\dfrac{1}{2}$, $x_1 x_2 = -2$.\n\n$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\dfrac{1}{4} - 2 \\cdot (-2) = \\dfrac{17}{4}$.\n\nQuy đồng:\n$$A = \\dfrac{x_1(x_1 + 2026) + x_2(x_2 + 2026)}{x_1 x_2} = \\dfrac{x_1^2 + x_2^2 + 2026(x_1 + x_2)}{x_1 x_2}$$\n\nThế:\n$$A = \\dfrac{\\dfrac{17}{4} + 2026 \\cdot \\dfrac{1}{2}}{-2} = \\dfrac{\\dfrac{17}{4} + 1013}{-2} = \\dfrac{\\dfrac{4069}{4}}{-2} = \\boxed{-\\dfrac{4069}{8}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": ["Em không nhớ Viète.", "Em không biết quy đồng A.", "Em không biết khai triển tử."],
+        "dinh_huong": ["Em định quy đồng theo $x_1 x_2$ — đúng không?", "Em định gộp $x_1^2 + x_2^2 + 2026(x_1+x_2)$ — đúng chứ?", "Em định thay Viète vào — đúng hướng không?"],
+        "kiem_tra": ["Em ra Viète $x_1+x_2 = 1/2$, $x_1 x_2 = -2$ — đúng không?", "Em ra $x_1^2 + x_2^2 = 17/4$ — đúng chưa?", "Em ra $A = -4069/8$ — đáp án có đúng không?"],
+        "go_bi": ["Em quên dấu trừ khi $-2 \\cdot (-2) = +4$.", "Em quy đồng phân số sai.", "Em chia $4069/4$ cho $-2$ ra $-4069/2$ thay vì $-4069/8$."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ hình quạt + Xác suất",
+      "de_bai": "Biểu đồ hình quạt tròn dưới đây biểu diễn điểm số của các bạn học sinh trong lớp 9A qua đợt kiểm tra thường xuyên lần hai. Tỉ lệ phần trăm các điểm:\n- Điểm 6: 15%\n- Điểm 7: 20%\n- Điểm 8: 25%\n- Điểm 9: 30%\n- Điểm 10: 10%\n\na) Biết sĩ số lớp 9A là 40 học sinh. Tính tổng số học sinh đạt điểm 8 và 9.\n\nb) Chọn một bạn trong lớp để tham gia trò chơi rung chuông vàng. Tính xác suất của biến cố sau: \"Bạn được chọn có điểm kiểm tra Toán thấp nhất là 8 điểm\".",
+      "phuong_phap_duoc_dung": [
+        "Tỉ lệ phần trăm × tổng",
+        "Xác suất = tỉ lệ % cộng dồn"
+      ],
+      "kien_thuc_lien_quan": ["Tỉ lệ phần trăm", "Xác suất"],
+      "dap_so": "a) 22 học sinh. b) $P(A) = \\dfrac{13}{20}$.",
+      "goi_y_cap_1": "Câu a: Điểm 8 và 9 = 25% + 30% = 55%. Số HS = 40 · 55% = 22.\n\nCâu b: 'Thấp nhất là 8' = ≥ 8 = 25% + 30% + 10% = 65%. Số HS = 40 · 65% = 26. P(A) = 26/40 = 13/20.",
+      "goi_y_cap_2": "Câu a:\n- Tỉ lệ Đ8 + Đ9 = 25% + 30% = 55%\n- Số HS đạt Đ8 và Đ9 = $40 \\cdot 55\\% = 22$\n\nCâu b:\n- 'Thấp nhất là 8' = từ 8 trở lên (Đ8, Đ9, Đ10) = 25% + 30% + 10% = 65%\n- Số HS = $40 \\cdot 65\\% = 26$\n- $n(\\Omega) = 40$, $n(A) = 26$\n- $P(A) = \\dfrac{26}{40} = \\dfrac{13}{20}$",
+      "loi_giai_day_du": "**Câu a) Số HS đạt điểm 8 và 9:**\n\nTỉ lệ phần trăm học sinh đạt điểm 8 và 9 là $25\\% + 30\\% = 55\\%$.\n\nTổng số học sinh đạt điểm 8 và 9 là $40 \\cdot 55\\% = \\boxed{22}$ (học sinh).\n\n**Câu b) Tính P(A):**\n\nChọn ngẫu nhiên 1 bạn trong lớp 9A có 40 học sinh nên $n(\\Omega) = 40$.\n\nGọi $A$ là biến cố \"Bạn được chọn có điểm kiểm tra Toán thấp nhất là 8 điểm\".\n\nTỉ lệ học sinh đạt điểm thấp nhất là 8 (gồm điểm 8, 9 và 10) là $25\\% + 30\\% + 10\\% = 65\\%$.\n\nSố học sinh thoả mãn là $40 \\cdot 65\\% = 26$.\n\n$\\Rightarrow n(A) = 26$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{26}{40} = \\boxed{\\dfrac{13}{20}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ hình quạt tròn điểm KT lớp 9A: Điểm 6 (15%), 7 (20%), 8 (25%), 9 (30%), 10 (10%).",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết đọc biểu đồ quạt tròn.", "Em không hiểu 'thấp nhất là 8' nghĩa là gì.", "Em không biết tổng % phải = 100%."],
+        "dinh_huong": ["Em định Đ8 và Đ9 = 25% + 30% — đúng không?", "Em định 'thấp nhất 8' = ≥ 8 — đúng chứ?", "Em định nhân % với 40 — đúng hướng không?"],
+        "kiem_tra": ["Em ra 22 HS — đúng không?", "Em ra ≥ 8 = 65% → 26 HS — đúng chưa?", "Em ra $P(A) = 13/20$ — đáp án có đúng không?"],
+        "go_bi": ["Em hiểu 'thấp nhất là 8' = chỉ 8 điểm.", "Em không cộng cả Đ10 vào.", "Em không rút gọn $26/40 = 13/20$."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-21/bai3-bieudoquattron.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vườn HCN có lối đi",
+      "de_bai": "Cho mảnh đất hình chữ nhật có chiều dài $30$ m, chiều rộng $20$ m, xung quanh ba cạnh người ta làm lối đi rộng $x$ (m) ($0 < x < 20$).\n\na) Viết biểu thức $S$ biểu diễn theo $x$ diện tích lối đi của mảnh đất.\n\nb) Biết diện tích phần đất còn lại là $448$ m². Tính giá trị $x$.",
+      "phuong_phap_duoc_dung": [
+        "Phần đất còn lại trong: dài $(30-x)$, rộng $(20-2x)$",
+        "Tổng - phần còn lại = lối đi",
+        "Phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": ["Diện tích HCN", "Phương trình bậc hai"],
+      "dap_so": "a) $S = -2x^2 + 80x$. b) $x = 2$ m.",
+      "goi_y_cap_1": "Câu a: Phần còn lại bên trong: dài $30-x$, rộng $20-2x$ (do 3 cạnh bị lấn). $S$ lối đi = $30 \\cdot 20 - (30-x)(20-2x)$.\n\nCâu b: $(30-x)(20-2x) = 448$. Suy ra $2x^2 - 80x + 152 = 0$.",
+      "goi_y_cap_2": "Câu a:\n- Phần còn lại trong: dài $30 - x$ m, rộng $20 - 2x$ m\n- $S$ ban đầu = $30 \\cdot 20 = 600$\n- $S$ còn lại = $(30-x)(20-2x)$\n- $S$ lối đi = $600 - (30-x)(20-2x)$\n- $(30-x)(20-2x) = 600 - 60x - 20x + 2x^2 = 2x^2 - 80x + 600$\n- $S$ lối đi = $600 - (2x^2 - 80x + 600) = -2x^2 + 80x$\n\nCâu b:\n- $(30-x)(20-2x) = 448$\n- $600 - 80x + 2x^2 = 448 \\Rightarrow 2x^2 - 80x + 152 = 0$\n- $x_1 = 2$ (nhận), $x_2 = 38$ (loại)\n- ĐK $20 - 2x > 0 \\Rightarrow x < 10$\n- $x = 2$ m",
+      "loi_giai_day_du": "**Câu a) Viết biểu thức S:**\n\nChiều dài phần đất còn lại bên trong: $30 - x$ (m).\n\nChiều rộng phần đất còn lại bên trong: $20 - 2x$ (m) (do 3 cạnh bị lấn, 2 cạnh chiều rộng).\n\nDiện tích mảnh đất ban đầu: $30 \\cdot 20 = 600$ m².\n\nDiện tích phần đất còn lại: $(30 - x)(20 - 2x)$ m².\n\nBiểu thức $S$ biểu diễn diện tích lối đi:\n$$S = 600 - (30 - x)(20 - 2x)$$\n$$= 600 - (600 - 60x - 20x + 2x^2)$$\n$$S = \\boxed{-2x^2 + 80x}$$\n\n**Câu b) Tính x:**\n\nTheo đề bài, diện tích đất còn lại là $448$ m²:\n$$(30 - x)(20 - 2x) = 448$$\n$$600 - 80x + 2x^2 = 448$$\n$$2x^2 - 80x + 152 = 0$$\n$$x = 2 \\text{ hoặc } x = 38$$\n\nVì chiều rộng phần còn lại phải $> 0$ nên $20 - 2x > 0 \\Rightarrow x < 10$.\n\nKết hợp ĐK $0 < x < 10$, ta có $x = 2$ (nhận) và $x = 38$ (loại).\n\nVậy $\\boxed{x = 2}$ m.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh đất HCN dài 30m rộng 20m, có lối đi xung quanh 3 cạnh rộng x m (phần xanh đậm).",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết phần đất còn lại có kích thước bao nhiêu.", "Em không hiểu 'xung quanh 3 cạnh'.", "Em không biết loại nghiệm nào."],
+        "dinh_huong": ["Em định phần còn lại: dài $30-x$, rộng $20-2x$ — đúng không?", "Em định $S$ lối đi = $S$ ban đầu - $S$ còn lại — đúng chứ?", "Em định ĐK $x < 10$ — đúng hướng không?"],
+        "kiem_tra": ["Em ra $S = -2x^2 + 80x$ — đúng không?", "Em ra $2x^2 - 80x + 152 = 0$ — đúng chưa?", "Em ra $x = 2$ m — đáp án có đúng không?"],
+        "go_bi": ["Em viết phần còn lại: dài $30-2x$ thay vì $30-x$ (do chỉ 1 cạnh chiều dài bị lấn).", "Em không loại $x = 38$.", "Em quên kết hợp 2 điều kiện."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-21/bai4-vuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Phễu nón đảo nước",
+      "de_bai": "Người ta đổ một lượng nước vào một cái phễu thủy tinh. Phễu có dạng hình nón có chiều cao là $20$ cm và bán kính mặt đáy là $R$. Chiều cao của cột nước trong phễu là $10$ cm (Hình 1).\n\na) Tính thể tích của lượng nước trong phễu và thể tích phần phễu không chứa nước trong phễu ở Hình 1 theo $R$.\n\nb) Người ta bịt kín miệng phễu và lật ngược phễu lại (Hình 2). Chiều cao của cột nước trong phễu lúc này là bao nhiêu? (làm tròn kết quả đến hàng phần chục).",
+      "phuong_phap_duoc_dung": [
+        "Định lý Thales: bán kính mặt nước = R/2 khi chiều cao 10/20",
+        "$V_{nước} = \\dfrac{1}{3}\\pi r^2 h$ với r = R/2",
+        "Lật ngược: phần trống là hình nón nhỏ mới"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình nón",
+        "Định lý Thales",
+        "Tỉ lệ đồng dạng"
+      ],
+      "dap_so": "a) $V_{nước} = \\dfrac{5}{6}\\pi R^2$ cm³, $V_{trống} = \\dfrac{35}{6}\\pi R^2$ cm³. b) $h_{nước} \\approx 0{,}9$ cm.",
+      "goi_y_cap_1": "Câu a: r/R = 10/20 = 1/2 → r = R/2. $V_{nước} = (1/3)\\pi(R/2)^2 \\cdot 10 = (5/6)\\pi R^2$. $V_{phễu} = (20/3)\\pi R^2$. $V_{trống} = (35/6)\\pi R^2$.\n\nCâu b: Lật ngược, phần trống là hình nón nhỏ, V không đổi. Đặt $h'$ là chiều cao trống. Tỉ lệ: $r'/R = h'/20$ → $r' = Rh'/20$. $V_{trống} = (1/3)\\pi r'^2 h'$. Giải tìm $h'$, rồi $h_{nước} = 20 - h'$.",
+      "goi_y_cap_2": "Câu a:\n- Hình 1: bán kính mặt nước $r = R/2$ (Thales với h = 10/20)\n- $V$ phễu toàn bộ = $\\dfrac{1}{3}\\pi R^2 \\cdot 20 = \\dfrac{20\\pi R^2}{3}$\n- $V_{nước} = \\dfrac{1}{3}\\pi (R/2)^2 \\cdot 10 = \\dfrac{5\\pi R^2}{6}$\n- $V_{trống} = \\dfrac{20\\pi R^2}{3} - \\dfrac{5\\pi R^2}{6} = \\dfrac{35\\pi R^2}{6}$\n\nCâu b:\n- Lật ngược, V trống không đổi, là hình nón đỉnh nằm trên\n- $r' = R h'/20$ (Thales)\n- $V_{trống} = \\dfrac{1}{3}\\pi r'^2 h' = \\dfrac{\\pi R^2 (h')^3}{1200} = \\dfrac{35\\pi R^2}{6}$\n- $(h')^3 = \\dfrac{35}{6} \\cdot 1200 = 7000$\n- $h' = \\sqrt[3]{7000} = 10\\sqrt[3]{7}$\n- $h_{nước} = 20 - h' = 20 - 10\\sqrt[3]{7} \\approx 0{,}9$ cm",
+      "loi_giai_day_du": "**Câu a) Thể tích nước và phần trống:**\n\nThể tích toàn bộ phễu là:\n$$V = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi R^2 \\cdot 20 = \\dfrac{20\\pi R^2}{3} \\text{ (cm}^3\\text{)}$$\n\nGọi $r$ là bán kính mặt nước. Vì mặt nước song song với mặt đáy, dùng Thales:\n$$\\dfrac{r}{R} = \\dfrac{10}{20} = \\dfrac{1}{2} \\Rightarrow r = \\dfrac{R}{2}$$\n\nThể tích nước trong phễu:\n$$V_{nước} = \\dfrac{1}{3}\\pi r^2 \\cdot 10 = \\dfrac{1}{3}\\pi \\cdot \\dfrac{R^2}{4} \\cdot 10 = \\boxed{\\dfrac{5\\pi R^2}{6} \\text{ cm}^3}$$\n\nThể tích phần phễu không chứa nước:\n$$V_{trống} = V - V_{nước} = \\dfrac{20\\pi R^2}{3} - \\dfrac{5\\pi R^2}{6} = \\boxed{\\dfrac{35\\pi R^2}{6} \\text{ cm}^3}$$\n\n**Câu b) Chiều cao nước khi lật ngược:**\n\nKhi lật ngược phễu, phần không chứa nước tạo thành hình nón mới với đỉnh là đỉnh phễu, có chiều cao $h'$ và bán kính $r'$.\n\nDùng tam giác đồng dạng:\n$$\\dfrac{r'}{R} = \\dfrac{h'}{20} \\Rightarrow r' = \\dfrac{R \\cdot h'}{20}$$\n\nThể tích phần trống:\n$$V_{trống} = \\dfrac{1}{3}\\pi (r')^2 h' = \\dfrac{1}{3}\\pi \\left(\\dfrac{R h'}{20}\\right)^2 h' = \\dfrac{\\pi R^2 (h')^3}{1200}$$\n\nVì $V_{trống}$ không đổi, ta có:\n$$\\dfrac{\\pi R^2 (h')^3}{1200} = \\dfrac{35\\pi R^2}{6}$$\n$$(h')^3 = \\dfrac{35}{6} \\cdot 1200 = 7000$$\n$$h' = \\sqrt[3]{7000} = 10\\sqrt[3]{7} \\text{ cm}$$\n\nChiều cao cột nước:\n$$h_{nước} = 20 - h' = 20 - 10\\sqrt[3]{7} \\approx \\boxed{0{,}9 \\text{ cm}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình 1: phễu nón ngược (đáy lên trên), cao 20cm, có nước cao 10cm bên trong. Hình 2: lật ngược lại, đỉnh xuống dưới, mặt nước ở trên.",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết tính bán kính mặt nước.", "Em không hiểu 'lật ngược' là gì.", "Em không biết khi nào dùng Thales."],
+        "dinh_huong": ["Em định $r = R/2$ vì h = 10 = 20/2 — đúng không?", "Em định lật ngược V trống không đổi — đúng chứ?", "Em định lập phương trình $(h')^3 = 7000$ — đúng hướng không?"],
+        "kiem_tra": ["Em ra $V_{nước} = 5\\pi R^2/6$ — đúng không?", "Em ra $V_{trống} = 35\\pi R^2/6$ — đúng chưa?", "Em ra $h_{nước} \\approx 0{,}9$ — đáp án có đúng không?"],
+        "go_bi": ["Em không nhận ra V trống bảo toàn khi lật ngược.", "Em quên trừ $h'$ khỏi 20 để có $h_{nước}$.", "Em tính $\\sqrt[3]{7000}$ sai."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-21/bai5-pheunon.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Lớp 9A chia tổ",
+      "de_bai": "Khi mới nhận lớp 9A, cô giáo chủ nhiệm dự định chia lớp thành $3$ tổ có số học sinh như nhau. Nhưng sau khi khai giảng xong lớp nhận thêm $4$ học sinh nữa. Do đó, cô giáo chủ nhiệm đã chia đều số học sinh của lớp thành $4$ tổ. Hỏi lớp 9A hiện có bao nhiêu học sinh, biết rằng so với phương án dự định ban đầu, số học sinh của mỗi tổ hiện nay có ít hơn $2$ học sinh?",
+      "phuong_phap_duoc_dung": [
+        "Đặt $x$ HS dự định, $y$ HS/tổ dự định",
+        "Hệ phương trình"
+      ],
+      "kien_thuc_lien_quan": ["Hệ phương trình"],
+      "dap_so": "Lớp 9A hiện có $40$ học sinh.",
+      "goi_y_cap_1": "Đặt $x$ là HS dự định, $y$ HS/tổ dự định. PT1: $x = 3y$. PT2: $x + 4 = 4(y - 2)$.",
+      "goi_y_cap_2": "- $x$ HS dự định ban đầu, $y$ HS/tổ dự định ($x, y \\in \\mathbb{N}^*$)\n- HS hiện nay: $x + 4$\n- HS/tổ hiện nay: $y - 2$\n- (1): $x = 3y$\n- (2): $x + 4 = 4(y - 2) \\Rightarrow x - 4y = -12$\n- Hệ: $\\begin{cases}x - 3y = 0 \\\\ x - 4y = -12\\end{cases} \\Rightarrow \\begin{cases}x = 36 \\\\ y = 12\\end{cases}$\n- HS hiện nay: $36 + 4 = 40$",
+      "loi_giai_day_du": "Gọi $x$ (học sinh) là số học sinh dự định ban đầu của lớp 9A, $y$ (học sinh) là số học sinh của mỗi tổ theo dự định ban đầu ($x, y \\in \\mathbb{N}^*$).\n\nSố học sinh hiện nay của lớp 9A là $x + 4$ (học sinh).\n\nSố học sinh của mỗi tổ hiện nay là $y - 2$ (học sinh).\n\nVì ban đầu dự định chia lớp thành 3 tổ có số học sinh như nhau:\n$$x = 3y \\quad (1)$$\n\nVì sau khi khai giảng lớp nhận thêm 4 học sinh và chia đều thành 4 tổ (với số học sinh mỗi tổ ít hơn 2 học sinh so với dự định):\n$$x + 4 = 4(y - 2) \\Rightarrow x - 4y = -12 \\quad (2)$$\n\nTừ (1) và (2):\n$$\\begin{cases} x - 3y = 0 \\\\ x - 4y = -12 \\end{cases} \\Rightarrow \\begin{cases} x = 36 \\\\ y = 12 \\end{cases}$$\n\n$x = 36, y = 12$ thoả mãn điều kiện.\n\nSố học sinh hiện nay của lớp 9A là $36 + 4 = \\boxed{40}$ học sinh.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": ["Em không biết đặt ẩn nào.", "Em không biết phân biệt 'dự định' và 'hiện nay'.", "Em không biết câu hỏi cuối tìm gì."],
+        "dinh_huong": ["Em định gọi $x$ HS, $y$ HS/tổ đều là dự định — đúng không?", "Em định PT1: $x = 3y$ — đúng chứ?", "Em định PT2: $x + 4 = 4(y-2)$ — đúng hướng không?"],
+        "kiem_tra": ["Em ra hệ $x - 3y = 0, x - 4y = -12$ — đúng không?", "Em ra $x = 36, y = 12$ — đúng chưa?", "Em ra HS hiện nay = 40 — đáp án có đúng không?"],
+        "go_bi": ["Em quên cộng 4 vào HS hiện nay khi kết luận.", "Em viết PT2 sai dấu: $x + 4 = 4(y + 2)$.", "Em đặt $y$ là số tổ thay vì HS/tổ."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn đường kính, tiếp tuyến, hình thang",
+      "de_bai": "Trên đường tròn $(O)$ đường kính $AB$ lấy điểm $M$ sao cho $MA < MB$. Hai tiếp tuyến của đường tròn $(O)$ tại $A$ và $M$ cắt nhau tại $E$. Vẽ $MP \\perp AB$ tại $P$, $MQ \\perp AE$ tại $Q$. Gọi $I$ là trung điểm của $PQ$.\n\na) Chứng minh tứ giác $APMQ$ là hình chữ nhật và ba điểm $O, E, I$ thẳng hàng.\n\nb) Gọi $K$ là giao điểm của $EB$ và $MP$. Chứng minh $\\triangle EAO \\sim \\triangle MPB$, suy ra $K$ là trung điểm của $MP$.\n\nc) Trong trường hợp $\\widehat{MAB} = 60°$, $AB = 4$ cm, tính độ dài $IK$ và diện tích tứ giác $AIKB$.",
+      "phuong_phap_duoc_dung": [
+        "EA tiếp tuyến → góc EAB = 90° → tứ giác APMQ có 3 góc vuông",
+        "Hai đường chéo cắt nhau tại trung điểm",
+        "EO trung trực AM (do EA = EM, OA = OM)",
+        "△EAO ~ △MPB (g-g): EA, AO; MP, PB cùng song song",
+        "Thales với EA ∥ MP"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hình chữ nhật",
+        "Trung trực",
+        "Tam giác đồng dạng",
+        "Định lý Thales",
+        "Hình thang"
+      ],
+      "dap_so": "c) $IK = \\dfrac{1}{2}$ cm, $S_{AIKB} = \\dfrac{9\\sqrt{3}}{8}$ cm².",
+      "goi_y_cap_1": "Câu a: EA tiếp tuyến → góc QAP = 90°, MP ⊥ AB → góc MPA = 90°, MQ ⊥ AE → góc MQA = 90°. Tứ giác có 3 góc vuông → hình chữ nhật. Hai đường chéo cắt tại trung điểm. I trung điểm PQ → I trung điểm AM. EA = EM (tiếp tuyến) + OA = OM = R → EO trung trực AM → đi qua I → O, E, I thẳng hàng.\n\nCâu b: $\\widehat{AMB} = 90°$ (chắn nửa đường tròn) → AM ⊥ MB. EO ⊥ AM → EO ∥ MB → góc AOE = góc MBP. △EAO ~ △MPB (g-g) → tỉ số. Dùng Thales với EA ∥ MP để chứng minh K trung điểm MP.\n\nCâu c: △AMB vuông tại M, góc MAB = 60° → AM = AB·cos60° = 2cm. △AMP vuông tại P → AP = 1cm, MP = √3cm. IK đường trung bình △AMP. Tứ giác AIKB hình thang với IK ∥ AB và KP ⊥ AB.",
+      "goi_y_cap_2": "Câu a:\n- $EA$ tiếp tuyến $(O)$ tại $A$ → $EA \\perp AB$ → $\\widehat{EAB} = 90°$ hay $\\widehat{QAP} = 90°$\n- $MP \\perp AB$ → $\\widehat{MPA} = 90°$\n- $MQ \\perp AE$ → $\\widehat{MQA} = 90°$\n- Tứ giác $APMQ$ có 3 góc vuông → hình chữ nhật\n- → 2 đường chéo $AM$ và $PQ$ cắt nhau tại trung điểm mỗi đường\n- $I$ là trung điểm $PQ$ → $I$ là trung điểm $AM$\n- $EA = EM$ (tính chất 2 tiếp tuyến cắt nhau), $OA = OM = R$ → $EO$ trung trực $AM$\n- $EO$ đi qua trung điểm $AM$ → $EO$ đi qua $I$ → $O, E, I$ thẳng hàng\n\nCâu b:\n- $\\widehat{AMB} = 90°$ (góc nội tiếp chắn nửa đường tròn $AB$) → $AM \\perp MB$\n- $EO$ trung trực $AM$ → $EO \\perp AM$\n- → $EO \\parallel MB$ (cùng vuông $AM$)\n- → $\\widehat{AOE} = \\widehat{MBP}$ (đồng vị)\n- Xét $\\triangle EAO$ và $\\triangle MPB$: $\\widehat{EAO} = \\widehat{MPB} = 90°$, $\\widehat{AOE} = \\widehat{PBM}$ (cmt)\n- → $\\triangle EAO \\sim \\triangle MPB$ (g-g)\n- → $\\dfrac{EA}{MP} = \\dfrac{AO}{PB} = \\dfrac{AB/2}{PB}$ → $\\dfrac{EA}{MP} = \\dfrac{AB}{2PB}$ → $\\dfrac{PB}{AB} = \\dfrac{MP}{2EA}$ (1)\n- $EA \\perp AB$ và $MP \\perp AB$ → $MP \\parallel EA$\n- Xét $\\triangle EAB$ có $PK \\parallel EA$ ($K \\in MP$), Thales: $\\dfrac{PK}{EA} = \\dfrac{BP}{BA}$ → $\\dfrac{PK}{EA} = \\dfrac{PB}{AB}$ (2)\n- (1)(2) → $\\dfrac{PK}{EA} = \\dfrac{MP}{2EA}$ → $PK = \\dfrac{MP}{2}$\n- $K$ thuộc $MP$ → $K$ là trung điểm $MP$\n\nCâu c:\n- $\\triangle AMB$ vuông tại $M$, $\\cos\\widehat{MAB} = \\dfrac{AM}{AB} = \\cos 60° = \\dfrac{1}{2}$\n- → $AM = AB \\cdot \\cos 60° = 4 \\cdot \\dfrac{1}{2} = 2$ cm\n- $\\triangle AMP$ vuông tại $P$: $\\cos\\widehat{MAP} = \\dfrac{AP}{AM} \\Rightarrow AP = 2 \\cdot \\dfrac{1}{2} = 1$ cm; $MP = AM \\sin 60° = \\sqrt{3}$ cm\n- $I$ trung điểm $AM$, $K$ trung điểm $MP$ → $IK$ đường trung bình $\\triangle AMP$\n- $IK \\parallel AP$ và $IK = \\dfrac{AP}{2} = \\dfrac{1}{2}$ cm\n- $IK \\parallel AB$ → tứ giác $AIKB$ là hình thang\n- $MP \\perp AB$ tại $P$, $K \\in MP$ → $KP \\perp AB$ → $KP$ là chiều cao hình thang\n- $KP = \\dfrac{MP}{2} = \\dfrac{\\sqrt{3}}{2}$ cm\n- $S_{AIKB} = \\dfrac{(IK + AB) \\cdot KP}{2} = \\dfrac{(1/2 + 4) \\cdot \\sqrt{3}/2}{2} = \\dfrac{9/2 \\cdot \\sqrt{3}/2}{2} = \\dfrac{9\\sqrt{3}}{8}$ cm²",
+      "loi_giai_day_du": "**Câu a) APMQ là hình chữ nhật và O, E, I thẳng hàng:**\n\n$EA$ là tiếp tuyến của $(O)$ tại $A \\Rightarrow EA \\perp AB \\Rightarrow \\widehat{EAB} = 90°$ hay $\\widehat{QAP} = 90°$.\n\n$MP \\perp AB$ tại $P \\Rightarrow \\widehat{MPA} = 90°$.\n\n$MQ \\perp AE$ tại $Q \\Rightarrow \\widehat{MQA} = 90°$.\n\nTứ giác $APMQ$ có $\\widehat{QAP} = \\widehat{MPA} = \\widehat{MQA} = 90°$ → $APMQ$ là hình chữ nhật.\n\n$\\Rightarrow$ Hai đường chéo $AM$ và $PQ$ cắt nhau tại trung điểm mỗi đường.\n\nMà $I$ là trung điểm $PQ$ → $I$ là trung điểm $AM$.\n\n$\\begin{cases} EA = EM \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OA = OM = R \\end{cases}$\n\n$\\Rightarrow EO$ là trung trực của $AM$ → $EO$ đi qua trung điểm $AM$.\n\nMà $I$ là trung điểm $AM$ → ba điểm $O, E, I$ thẳng hàng.\n\n**Câu b) $\\triangle EAO \\sim \\triangle MPB$, K là trung điểm MP:**\n\n$\\widehat{AMB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$) $\\Rightarrow AM \\perp MB$.\n\n$EO$ trung trực $AM \\Rightarrow EO \\perp AM \\Rightarrow EO \\parallel MB$ (cùng vuông góc $AM$).\n\n$\\Rightarrow \\widehat{AOE} = \\widehat{MBP}$ (hai góc đồng vị).\n\nXét $\\triangle EAO$ và $\\triangle MPB$:\n$\\begin{cases} \\widehat{EAO} = \\widehat{MPB} = 90° \\\\ \\widehat{AOE} = \\widehat{MBP} \\text{ (cmt)} \\end{cases}$\n\n$\\Rightarrow \\triangle EAO \\sim \\triangle MPB$ (g-g)\n\n$\\Rightarrow \\dfrac{EA}{MP} = \\dfrac{AO}{PB} = \\dfrac{AB/2}{PB} \\Rightarrow \\dfrac{EA}{MP} = \\dfrac{AB}{2PB}$\n\n$\\Rightarrow \\dfrac{PB}{AB} = \\dfrac{MP}{2EA}$ (1).\n\n$EA \\perp AB$ và $MP \\perp AB$ → $MP \\parallel EA$.\n\nXét $\\triangle EAB$ có $PK \\parallel EA$ ($K \\in MP$, do $K$ thuộc $EB$ và $MP$). Theo định lý Thales:\n$$\\dfrac{PK}{EA} = \\dfrac{BP}{BA} = \\dfrac{PB}{AB}$$ (2)\n\nTừ (1) và (2): $\\dfrac{PK}{EA} = \\dfrac{MP}{2EA} \\Rightarrow PK = \\dfrac{MP}{2}$.\n\nMà $K$ thuộc $MP$ nên $K$ là trung điểm $MP$.\n\n**Câu c) Tính IK và diện tích AIKB:**\n\n$\\triangle AMB$ vuông tại $M$: $\\cos\\widehat{MAB} = \\dfrac{AM}{AB} \\Rightarrow AM = AB \\cdot \\cos 60° = 4 \\cdot \\dfrac{1}{2} = 2$ cm.\n\n$\\triangle AMP$ vuông tại $P$:\n$$AP = AM \\cdot \\cos 60° = 2 \\cdot \\dfrac{1}{2} = 1 \\text{ cm}$$\n$$MP = AM \\cdot \\sin 60° = 2 \\cdot \\dfrac{\\sqrt{3}}{2} = \\sqrt{3} \\text{ cm}$$\n\n$I$ là trung điểm $AM$, $K$ là trung điểm $MP$ (cmt) → $IK$ là đường trung bình của $\\triangle AMP$.\n\n$$IK \\parallel AP \\text{ và } IK = \\dfrac{AP}{2} = \\boxed{\\dfrac{1}{2} \\text{ cm}}$$\n\n$IK \\parallel AP \\Rightarrow IK \\parallel AB$ → tứ giác $AIKB$ là hình thang.\n\n$KP \\perp AB$ tại $P$ ($K \\in MP$, $MP \\perp AB$) → $KP$ là chiều cao hình thang.\n\n$KP = \\dfrac{MP}{2} = \\dfrac{\\sqrt{3}}{2}$ cm.\n\nDiện tích hình thang $AIKB$:\n$$S_{AIKB} = \\dfrac{(IK + AB) \\cdot KP}{2} = \\dfrac{\\left(\\dfrac{1}{2} + 4\\right) \\cdot \\dfrac{\\sqrt{3}}{2}}{2} = \\dfrac{\\dfrac{9}{2} \\cdot \\dfrac{\\sqrt{3}}{2}}{2} = \\boxed{\\dfrac{9\\sqrt{3}}{8} \\text{ cm}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O) đường kính AB, M trên (O), tiếp tuyến tại A và M cắt tại E, MP ⊥ AB tại P, MQ ⊥ AE tại Q, I trung điểm PQ, K = EB ∩ MP.",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết tại sao APMQ có 3 góc vuông.", "Em không nhớ tính chất trung trực.", "Câu c phức tạp quá."],
+        "dinh_huong": ["Câu a em định 3 góc vuông → HCN — đúng không?", "Câu b em định EO ∥ MB → △EAO ~ △MPB — đúng chứ?", "Câu c em định IK đường trung bình △AMP — đúng hướng không?"],
+        "kiem_tra": ["Em ra APMQ là HCN, O E I thẳng hàng — đúng không?", "Em ra K trung điểm MP — đúng chưa?", "Em ra $S_{AIKB} = 9\\sqrt{3}/8$ — đáp án có đúng không?"],
+        "go_bi": ["Em không nhận ra Thales với MP ∥ EA.", "Em quên cos 60° = 1/2.", "Em không tính được KP = MP/2."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-21/bai7-duongtron.png"
+    }
+  ]
+}

@@ -1,0 +1,349 @@
+{
+  "de_so": 19,
+  "cum": 7,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $(P): y = \\dfrac{1}{2}x^2$.\n\na) Vẽ đồ thị hàm số đã cho trên mặt phẳng tọa độ.\n\nb) Tìm điểm $A$ (khác gốc tọa độ) thuộc $(P)$ có tung độ gấp đôi hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị",
+        "'Tung độ gấp đôi hoành độ' → $y = 2x$",
+        "Giải phương trình bậc hai",
+        "Loại nghiệm $x = 0$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0"
+      ],
+      "dap_so": "Tọa độ điểm $A(4; 8)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4.\n\nCâu b: $y = 2x$, thay vào (P): $\\dfrac{1}{2}x^2 = 2x$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = 8$; $x = -2 \\to y = 2$; $x = 0 \\to y = 0$; $x = 2 \\to y = 2$; $x = 4 \\to y = 8$\n\nCâu b:\n- $\\dfrac{1}{2}x^2 = 2x \\Leftrightarrow \\dfrac{1}{2}x^2 - 2x = 0 \\Leftrightarrow x(\\dfrac{1}{2}x - 2) = 0$\n- $x_1 = 0$ (loại) hoặc $x_2 = 4$\n- $x = 4 \\Rightarrow y = 8$\n- $A(4; 8)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{1}{2}x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol bề lõm lên trên, đỉnh tại $O$.\n\n**Câu b) Tìm điểm A:**\n\nVì điểm $A$ có tung độ gấp đôi hoành độ nên $y = 2x$.\n\nTa có phương trình $\\dfrac{1}{2}x^2 = 2x$\n\n$\\dfrac{1}{2}x^2 - 2x = 0$\n\n$x_1 = 0$; $x_2 = 4$\n\nVì $A$ khác gốc tọa độ nên $x \\neq 0$, suy ra $x = 4$.\n\nVới $x = 4$ suy ra $y = 8$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{A(4; 8)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol (P): y = x²/2 bề lõm lên trên.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết viết tung độ gấp đôi hoành độ là gì.",
+          "Em không biết phân tích thành tích.",
+          "Em không biết loại nghiệm nào."
+        ],
+        "dinh_huong": [
+          "Em định viết $y = 2x$ — đúng không?",
+          "Em định nhân 2 hai vế bỏ phân số — đúng chứ?",
+          "Em định loại $x = 0$ vì A khác O — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 2 nghiệm $x = 0$ và $x = 4$ — đúng không?",
+          "Em loại $x = 0$, nhận $x = 4$ — đúng chưa?",
+          "Em ra $A(4; 8)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'tung độ gấp đôi hoành độ' với $x = 2y$.",
+          "Em không biết phân tích thành tích.",
+          "Em không loại $x = 0$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-19/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A",
+      "de_bai": "Cho phương trình: $2x^2 - 4x + 1 = 0$.\n\na) Chứng tỏ phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính $A = \\dfrac{x_1 - 2x_2}{x_1} - \\dfrac{2x_1 - x_2}{x_2}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Quy đồng phân thức"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Quy đồng"
+      ],
+      "dap_so": "$A = -10$",
+      "goi_y_cap_1": "Câu a: Δ = 16 - 8 = 8 > 0.\n\nCâu b: Quy đồng theo $x_1 x_2$ → $A = \\dfrac{2x_1 x_2 - 2(x_1^2 + x_2^2)}{x_1 x_2}$.",
+      "goi_y_cap_2": "Câu a:\n- $\\Delta = 16 - 8 = 8 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = 2$, $x_1 x_2 = \\dfrac{1}{2}$\n- $x_1^2 + x_2^2 = 4 - 1 = 3$\n- $A = \\dfrac{x_2(x_1 - 2x_2) - x_1(2x_1 - x_2)}{x_1 x_2} = \\dfrac{2 x_1 x_2 - 2(x_1^2 + x_2^2)}{x_1 x_2}$\n- $A = \\dfrac{2 \\cdot 0{,}5 - 2 \\cdot 3}{0{,}5} = \\dfrac{1 - 6}{0{,}5} = -10$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $2x^2 - 4x + 1 = 0$ với $a = 2; b = -4; c = 1$.\n\n$\\Delta = b^2 - 4ac = 16 - 8 = 8 > 0$.\n\nVậy phương trình có 2 nghiệm phân biệt $x_1, x_2$.\n\n**Câu b) Tính A:**\n\nTheo Viète: $x_1 + x_2 = 2$, $x_1 x_2 = \\dfrac{1}{2}$.\n\n$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 4 - 1 = 3$.\n\n$$A = \\dfrac{x_2(x_1 - 2x_2) - x_1(2x_1 - x_2)}{x_1 x_2} = \\dfrac{x_1 x_2 - 2x_2^2 - 2x_1^2 + x_1 x_2}{x_1 x_2}$$\n\n$$= \\dfrac{2x_1 x_2 - 2(x_1^2 + x_2^2)}{x_1 x_2} = \\dfrac{2 \\cdot \\dfrac{1}{2} - 2 \\cdot 3}{\\dfrac{1}{2}} = \\boxed{-10}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ Viète.",
+          "Em không biết quy đồng biểu thức A.",
+          "Em không biết khai triển tử thức."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng mẫu chung là $x_1 x_2$ — đúng không?",
+          "Em định tính $x_1^2 + x_2^2 = 3$ trước — đúng chứ?",
+          "Em định khai triển tử $x_1 x_2 - 2x_2^2 - 2x_1^2 + x_1 x_2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = 2$, $x_1 x_2 = 1/2$ — đúng không?",
+          "Em ra tử thức $= 2x_1 x_2 - 2(x_1^2+x_2^2)$ — đúng chưa?",
+          "Em ra $A = -10$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quy đồng sai: lấy mẫu chung là $x_1 \\cdot x_2$ nhưng tử thức không đổi dấu.",
+          "Em quên trừ $2x_1 x_2$ trong $(x_1+x_2)^2$.",
+          "Em chia $\\dfrac{a}{1/2}$ sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.0,
+      "chu_de": "Bài toán cổ - Trẻ chăn trâu",
+      "de_bai": "Có một số trẻ chăn trâu trên một cánh đồng. Nếu mỗi trẻ cưỡi 1 con trâu thì có 1 trẻ không có trâu cưỡi. Nếu hai trẻ cưỡi 1 con trâu thì có 1 trâu không có trẻ cưỡi. Hỏi có bao nhiêu trẻ chăn trâu và bao nhiêu con trâu?",
+      "phuong_phap_duoc_dung": [
+        "Đặt 2 ẩn",
+        "Hệ phương trình bậc nhất 2 ẩn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình"
+      ],
+      "dap_so": "4 trẻ chăn trâu và 3 con trâu.",
+      "goi_y_cap_1": "Gọi $x$ trẻ, $y$ trâu. ĐK 1: $x - y = 1$. ĐK 2: 2 trẻ cưỡi 1 trâu → trẻ cưỡi $2(y-1)$ ⇒ $x = 2(y-1)$.",
+      "goi_y_cap_2": "- $x$ (trẻ), $y$ (trâu), $x, y \\in \\mathbb{N}^*$\n- (1): $x - y = 1$\n- (2): $x = 2(y-1) \\Rightarrow x - 2y = -2$\n- Hệ: $\\begin{cases}x-y=1 \\\\ x-2y=-2\\end{cases} \\Rightarrow \\begin{cases}x=4 \\\\ y=3\\end{cases}$",
+      "loi_giai_day_du": "Gọi $x$ (trẻ) là số trẻ chăn trâu, $y$ (con) là số con trâu ($x, y \\in \\mathbb{N}^*$).\n\nVì nếu mỗi trẻ cưỡi 1 con trâu thì có 1 trẻ không có trâu nên số trẻ nhiều hơn số trâu là 1:\n$$x - y = 1 \\quad (1)$$\n\nVì nếu hai trẻ cưỡi 1 con trâu thì có 1 trâu không có trẻ cưỡi (tức là thừa 1 con trâu), nên số trâu dùng để cưỡi là $y - 1$. Khi đó số trẻ cưỡi hết số trâu đó là $2(y-1)$:\n$$x = 2(y - 1) \\Rightarrow x - 2y = -2 \\quad (2)$$\n\nTừ (1) và (2):\n$$\\begin{cases} x - y = 1 \\\\ x - 2y = -2 \\end{cases} \\Rightarrow \\begin{cases} x = 4 \\\\ y = 3 \\end{cases}$$\n\nVậy có $\\boxed{4}$ trẻ chăn trâu và $\\boxed{3}$ con trâu.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đặt ẩn nào.",
+          "Em không hiểu '1 trẻ không có trâu' nghĩa là gì.",
+          "Em không hiểu '2 trẻ cưỡi 1 trâu' lập phương trình ra sao."
+        ],
+        "dinh_huong": [
+          "Em định đặt $x$ trẻ, $y$ trâu — đúng không?",
+          "Em định viết $x - y = 1$ cho điều 1 — đúng chứ?",
+          "Em định viết $x = 2(y-1)$ cho điều 2 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ $\\begin{cases}x-y=1 \\\\ x-2y=-2\\end{cases}$ — đúng không?",
+          "Em ra $x = 4, y = 3$ — đúng chưa?",
+          "Em kết luận 4 trẻ, 3 trâu — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm '1 trâu không có trẻ' với '1 trẻ không có trâu'.",
+          "Em viết $x = 2y$ thay vì $x = 2(y-1)$.",
+          "Em không kiểm tra điều kiện $x, y$ là số tự nhiên."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Đất ông Quốc",
+      "de_bai": "Ông Quốc có một mảnh đất hình chữ nhật có chiều rộng là 8 m và chiều dài là 20 m. Nhà nước làm một con đường đi ngang qua mảnh đất của ông Quốc và thu hồi một phần đất của ông Quốc (phần hình tam giác). Phần đất không bị thu hồi có kích thước như hình vẽ (phần tô đậm).\n\na) Viết biểu thức $T$ (thu gọn) biểu thị diện tích đất bị thu hồi của nhà ông Quốc theo biến $x$ (với $0 < x < 8$).\n\nb) Ông Quốc được đền bù số tiền 455 triệu đồng cho diện tích đất bị thu hồi. Tìm giá trị $x$ (m) biết giá đền bù đất bị thu hồi là 13 triệu đồng/m².",
+      "phuong_phap_duoc_dung": [
+        "Phần thu hồi là tam giác vuông có 2 cạnh: dài $20 - 2x$ và rộng $8 - x$",
+        "$T = \\dfrac{1}{2}(20-2x)(8-x)$",
+        "Phương trình bậc hai từ $T = 35$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích tam giác vuông",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $T = x^2 - 18x + 80$. b) $x = 3$.",
+      "goi_y_cap_1": "Câu a: Phần đất thu hồi là tam giác vuông. Cạnh nằm trên chiều dài: $20 - 2x$, cạnh nằm trên chiều rộng: $8 - x$. $T = (1/2)(20-2x)(8-x)$.\n\nCâu b: $S$ = 455:13 = 35 m². Lập phương trình $T = 35$.",
+      "goi_y_cap_2": "Câu a:\n- Hai cạnh góc vuông: $20 - 2x$ và $8 - x$\n- $T = \\dfrac{1}{2}(20-2x)(8-x) = (10-x)(8-x) = 80 - 10x - 8x + x^2$\n- $T = x^2 - 18x + 80$\n\nCâu b:\n- $S = 455 : 13 = 35$ m²\n- $x^2 - 18x + 80 = 35 \\Leftrightarrow x^2 - 18x + 45 = 0$\n- $x_1 = 15$ (loại), $x_2 = 3$ (nhận do $0 < x < 8$)",
+      "loi_giai_day_du": "**Câu a) Viết biểu thức T:**\n\nQuan sát hình vẽ, phần đất bị thu hồi là hình tam giác vuông tại góc trên bên phải của mảnh đất hình chữ nhật.\n\nĐộ dài cạnh góc vuông thứ nhất (nằm trên chiều dài) là $20 - 2x$ (m).\n\nĐộ dài cạnh góc vuông thứ hai (nằm trên chiều rộng) là $8 - x$ (m).\n\nDiện tích đất bị thu hồi là:\n$$T = \\dfrac{1}{2}(20-2x)(8-x) = (10-x)(8-x) = 80 - 10x - 8x + x^2$$\n$$T = \\boxed{x^2 - 18x + 80}$$\n\n**Câu b) Tìm x:**\n\nDiện tích đất bị thu hồi thực tế là:\n$$S = 455 : 13 = 35 \\text{ (m}^2\\text{)}$$\n\nTa có phương trình:\n$$x^2 - 18x + 80 = 35$$\n$$x^2 - 18x + 45 = 0$$\n$$x_1 = 15; x_2 = 3$$\n\nVì $0 < x < 8$ nên loại $x = 15$, nhận $x = 3$.\n\nVậy giá trị cần tìm là $\\boxed{x = 3}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh đất HCN dài 20m rộng 8m, phần thu hồi (tam giác vuông trên bên phải) có cạnh 2x trên chiều dài và x trên chiều rộng.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết phần thu hồi là hình gì.",
+          "Em không tính được cạnh đáy và cạnh chiều cao.",
+          "Em không biết tính diện tích thực tế từ tiền đền bù."
+        ],
+        "dinh_huong": [
+          "Em định lấy 2 cạnh góc vuông là $20-2x$ và $8-x$ — đúng không?",
+          "Em định $T = (1/2) \\cdot a \\cdot b$ — đúng chứ?",
+          "Em định $S$ thực tế $= 455/13 = 35$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $T = x^2 - 18x + 80$ — đúng không?",
+          "Em ra $x^2 - 18x + 45 = 0$ — đúng chưa?",
+          "Em ra $x = 3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên chia 2 cho công thức diện tích tam giác.",
+          "Em không loại nghiệm $x = 15$.",
+          "Em nhân $(10-x)(8-x)$ sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-19/bai4-datong.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Bồn xe trụ + 2 nửa cầu",
+      "de_bai": "Một xe bồn chở nước sạch cho một khu chung cư có 200 hộ dân. Bồn xe có kích thước như hình vẽ, mỗi đầu của bồn xe là 1 nửa hình cầu. Xe chở đầy bồn nước và lượng nước chia đều cho từng hộ dân. Tính xem mỗi hộ dân được nhận bao nhiêu lít nước sạch (làm tròn kết quả đến hàng phần chục).\n\nKích thước: tổng chiều dài 3,62m, đường kính 1,8m.\n\n(Biết công thức thể tích hình trụ $V = \\pi R^2 h$ và công thức thể tích hình cầu $V = \\dfrac{4}{3}\\pi R^3$ với $\\pi \\approx 3{,}14$).",
+      "phuong_phap_duoc_dung": [
+        "$R = 1{,}8/2 = 0{,}9$ m",
+        "Chiều cao trụ $= 3{,}62 - 2 \\cdot 0{,}9 = 1{,}82$ m",
+        "$V = \\pi R^2 h + \\dfrac{4}{3}\\pi R^3$",
+        "Đổi m³ sang lít rồi chia 200 hộ"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình cầu",
+        "Đổi đơn vị 1 m³ = 1000 lít"
+      ],
+      "dap_so": "Mỗi hộ nhận khoảng 38,4 lít nước sạch.",
+      "goi_y_cap_1": "R = 0,9m, h trụ = 3,62 - 2·0,9 = 1,82m. V = πR²h + (4/3)πR³ ≈ 7,68 m³ = 7681 lít. Chia 200 hộ ≈ 38,4 lít.",
+      "goi_y_cap_2": "- $R = 1{,}8/2 = 0{,}9$ m\n- $h_{trụ} = 3{,}62 - 2 \\cdot 0{,}9 = 1{,}82$ m\n- $V_{trụ} = \\pi R^2 h = 3{,}14 \\cdot 0{,}81 \\cdot 1{,}82$\n- $V_{2 nửa cầu} = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3} \\cdot 3{,}14 \\cdot 0{,}729$\n- $V_{tổng} \\approx 7{,}681068$ m³ = 7681,068 lít\n- $7681{,}068 / 200 = 38{,}40534 \\approx 38{,}4$ lít",
+      "loi_giai_day_du": "Đường kính của hình trụ là 1,8 m nên bán kính đáy là $R = 1{,}8 : 2 = 0{,}9$ (m).\n\nChiều cao của phần hình trụ là $h = 3{,}62 - 2 \\cdot 0{,}9 = 1{,}82$ (m).\n\nThể tích của bồn chứa nước là:\n$$V = \\pi R^2 h + \\dfrac{4}{3}\\pi R^3$$\n$$V \\approx 3{,}14 \\cdot 0{,}9^2 \\cdot 1{,}82 + \\dfrac{4}{3} \\cdot 3{,}14 \\cdot 0{,}9^3$$\n$$V \\approx 7{,}681068 \\text{ (m}^3\\text{)}$$\n\nĐổi 7,681068 m³ = 7681,068 lít.\n\nSố lít nước sạch mỗi hộ dân nhận được là:\n$$7681{,}068 : 200 = 38{,}40534 \\text{ (lít)}$$\n\nLàm tròn đến hàng phần chục: $\\boxed{38{,}4}$ lít.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bồn xe gồm phần trụ ở giữa + 2 nửa cầu 2 đầu, tổng dài 3,62m, đường kính 1,8m.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tách bồn xe thành các hình gì.",
+          "Em không biết tính chiều cao phần trụ.",
+          "Em quên đổi m³ sang lít."
+        ],
+        "dinh_huong": [
+          "Em định tách bồn = trụ + 2 nửa cầu (= 1 cầu) — đúng không?",
+          "Em định h trụ = 3,62 - 2·0,9 = 1,82m — đúng chứ?",
+          "Em định 1 m³ = 1000 lít — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V \\approx 7{,}68$ m³ — đúng không?",
+          "Em ra $V \\approx 7681$ lít — đúng chưa?",
+          "Em ra mỗi hộ ≈ 38,4 lít — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không trừ 2R cho chiều cao trụ.",
+          "Em chỉ tính 1 nửa cầu thay vì 2 (= 1 cầu nguyên).",
+          "Em không đổi 1m³ = 1000 lít."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-19/bai5-bonxe.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép + Xác suất thẻ thăm",
+      "de_bai": "Biểu đồ cột kép biểu diễn số lượng học sinh tham gia \"Ngày hội xanh\" của một trường THCS:\n- Khối 6: 6 nam, 8 nữ\n- Khối 7: 9 nam, 7 nữ\n- Khối 8: 8 nam, 9 nữ\n- Khối 9: 8 nam, 7 nữ\n\na) Hãy cho biết tổng số học sinh tham gia là bao nhiêu? Khối lớp mấy có sự chênh lệch nhiều nhất về số học sinh nam và số học sinh nữ?\n\nb) Một chiếc hộp chứa 40 thẻ thăm cùng hình dạng và kích thước. Các thẻ thăm được ghi số lần lượt từ 1 đến 40; hai thẻ thăm khác nhau thì ghi hai số khác nhau. Lấy ngẫu nhiên 1 thẻ thăm trong hộp. Tính xác suất:\n- $A$: \"Số xuất hiện trên thẻ thăm lớn hơn 30\".\n- $B$: \"Số xuất hiện trên thẻ thăm là số chẵn nhỏ hơn 30\".",
+      "phuong_phap_duoc_dung": [
+        "Cộng theo khối + chênh lệch tuyệt đối",
+        "Đếm số nguyên trong khoảng",
+        "Đếm số chẵn trong khoảng"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thống kê",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) Tổng 62 HS, K6 và K7 chênh lệch nhiều nhất (2 HS). b) $P(A) = 1/4$, $P(B) = 7/20$.",
+      "goi_y_cap_1": "Câu a: K6: 14, K7: 16, K8: 17, K9: 15. Tổng 62. Chênh lệch K6 = 2, K7 = 2, K8 = 1, K9 = 1. K6 và K7 chênh nhiều nhất.\n\nCâu b: A: 31-40, có 10 số. B: 2,4,...,28, có 14 số.",
+      "goi_y_cap_2": "Câu a:\n- Khối 6: $6+8 = 14$, chênh lệch $|8-6| = 2$\n- Khối 7: $9+7 = 16$, chênh lệch $|9-7| = 2$\n- Khối 8: $8+9 = 17$, chênh lệch $|9-8| = 1$\n- Khối 9: $8+7 = 15$, chênh lệch $|8-7| = 1$\n- Tổng: $14+16+17+15 = 62$\n- Khối 6 và 7 chênh lệch nhiều nhất (= 2)\n\nCâu b:\n- $n(\\Omega) = 40$\n- $A$: số > 30 = {31, 32, ..., 40} → $n(A) = 10$, $P(A) = 10/40 = 1/4$\n- $B$: số chẵn < 30 = {2, 4, 6, ..., 28} → $n(B) = (28-2)/2 + 1 = 14$, $P(B) = 14/40 = 7/20$",
+      "loi_giai_day_du": "**Câu a) Tổng số HS và chênh lệch:**\n\nDựa vào biểu đồ:\n- ✓ Khối 6: 6 nam, 8 nữ. Tổng: $6 + 8 = 14$ (HS). Chênh lệch: $|8-6| = 2$.\n- ✓ Khối 7: 9 nam, 7 nữ. Tổng: $9 + 7 = 16$ (HS). Chênh lệch: $|9-7| = 2$.\n- ✓ Khối 8: 8 nam, 9 nữ. Tổng: $8 + 9 = 17$ (HS). Chênh lệch: $|9-8| = 1$.\n- ✓ Khối 9: 8 nam, 7 nữ. Tổng: $8 + 7 = 15$ (HS). Chênh lệch: $|8-7| = 1$.\n\nTổng số học sinh tham gia: $14 + 16 + 17 + 15 = \\boxed{62}$ học sinh.\n\nKhối có chênh lệch cao nhất là 2 → $\\boxed{\\text{Khối 6 và Khối 7}}$.\n\n**Câu b) Tính xác suất:**\n\nVì hộp chứa 40 thẻ ghi số từ 1 đến 40 nên $n(\\Omega) = 40$.\n\n***Biến cố A: \"Số trên thẻ lớn hơn 30\".***\n\nCác số > 30: $\\{31; 32; 33; \\ldots; 40\\}$.\n\n$n(A) = 40 - 31 + 1 = 10$.\n\n$$P(A) = \\dfrac{10}{40} = \\boxed{\\dfrac{1}{4}}$$\n\n***Biến cố B: \"Số chẵn nhỏ hơn 30\".***\n\nCác số chẵn < 30: $\\{2; 4; 6; \\ldots; 28\\}$.\n\n$n(B) = \\dfrac{28-2}{2} + 1 = 14$.\n\n$$P(B) = \\dfrac{14}{40} = \\boxed{\\dfrac{7}{20}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS Nam (cột trắng) và Nữ (cột chấm) tham gia Ngày hội xanh theo 4 khối 6, 7, 8, 9.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc biểu đồ.",
+          "Em không hiểu 'chênh lệch' là gì.",
+          "Em không biết đếm số chẵn nhỏ hơn 30."
+        ],
+        "dinh_huong": [
+          "Em định cộng nam + nữ cho từng khối — đúng không?",
+          "Em định lấy chênh lệch = |nam - nữ| — đúng chứ?",
+          "Em định B: liệt kê {2,4,...,28} — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 62, K6 và K7 chênh lệch 2 — đúng không?",
+          "Em ra $P(A) = 1/4$ — đúng chưa?",
+          "Em ra $P(B) = 7/20$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm số chẵn từ 0 đến 30 (sai vì có 0 và 30).",
+          "Em chỉ chọn 1 khối có chênh lệch (thiếu Khối 7 hoặc K6).",
+          "Em không rút gọn $14/40 = 7/20$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-19/bai6-bieudocotkep.png"
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tiếp tuyến và phần chung 2 đường tròn",
+      "de_bai": "Từ điểm $M$ nằm ngoài $(O; R)$, vẽ hai tiếp tuyến $MA, MB$ của $(O)$ ($A, B$ là các tiếp điểm). Gọi $H$ là giao điểm của $MO$ và $AB$, vẽ đường kính $AC$.\n\na) Chứng minh bốn điểm $M, A, O, B$ cùng thuộc một đường tròn và xác định tâm $I$ của đường tròn này.\n\nb) Chứng minh: $OM \\parallel BC$ và $AM \\cdot AC = OM \\cdot AB$.\n\nc) Cho $OM = 2R$. Tính diện tích phần chung của hai đường tròn $(O)$ và $(I)$.",
+      "phuong_phap_duoc_dung": [
+        "△MAO, △MBO đều vuông → nội tiếp đường tròn đường kính MO",
+        "OM trung trực AB → OM ⊥ AB và H trung điểm AB",
+        "Góc nội tiếp chắn nửa đường tròn → BC ⊥ AB → OM ∥ BC",
+        "△MAO ~ △AHO → MA·AO = MO·AH; OA = AC/2, AB = 2AH → MA·AC = OM·AB",
+        "Góc AOM, AOB và phần chung 2 đường tròn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp",
+        "Tam giác đồng dạng",
+        "Hình viên phân"
+      ],
+      "dap_so": "a) Tâm $I$ là trung điểm $MO$. c) $S = R^2 \\left(\\dfrac{2\\pi}{3} - \\dfrac{\\sqrt{3}}{2}\\right)$.",
+      "goi_y_cap_1": "Câu a: △MAO, △MBO đều vuông tại A, B → nội tiếp đường tròn đường kính MO. I = trung điểm MO.\n\nCâu b: OM trung trực AB → OM ⊥ AB tại H. Góc ABC = 90° → BC ⊥ AB. Suy ra OM ∥ BC. △MAO ~ △AHO (g-g) → MA·AO = MO·AH. Thay AC = 2AO, AB = 2AH → MA·AC = OM·AB.\n\nCâu c: $\\cos AOM = OA/OM = R/(2R) = 1/2$ → góc AOM = 60°, AOB = 120°. (I) bán kính R, OI = R nên (O), (I) cắt nhau tại A, B. Phần chung = 2 hình viên phân = 2(S quạt 120° của (O) - S△OAB).",
+      "goi_y_cap_2": "Câu a:\n- △MAO vuông tại A (MA tiếp tuyến) → nội tiếp đường tròn đường kính MO (1)\n- △MBO vuông tại B → nội tiếp đường tròn đường kính MO (2)\n- (1)(2) → 4 điểm M, A, O, B thuộc đường tròn đường kính MO\n- Tâm I = trung điểm MO\n\nCâu b:\n- $MA = MB$ (tính chất 2 tiếp tuyến); $OA = OB = R$ → OM trung trực AB → $OM \\perp AB$ tại H\n- $\\widehat{ABC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AC) → $BC \\perp AB$\n- Cùng vuông góc AB → $OM \\parallel BC$\n- H trung điểm AB → $AB = 2AH$\n- O trung điểm AC → $AC = 2AO$\n- △MAO và △AHO: $\\widehat{AOM}$ chung, $\\widehat{MAO} = \\widehat{AHO} = 90°$ → △MAO ~ △AHO (g-g)\n- → $\\dfrac{MA}{AH} = \\dfrac{MO}{AO}$ → $MA \\cdot AO = MO \\cdot AH$\n- → $MA \\cdot 2AO = MO \\cdot 2AH$ → $MA \\cdot AC = OM \\cdot AB$\n\nCâu c:\n- △MAO vuông tại A có $OM = 2R, OA = R$\n- $\\cos\\widehat{AOM} = OA/OM = 1/2$ → $\\widehat{AOM} = 60°$\n- △MAO = △MBO (c-c-c) → $\\widehat{BOM} = 60°$ → $\\widehat{AOB} = 120°$\n- Đường tròn (I) đường kính MO = 2R, bán kính $R_{(I)} = R$\n- $OI = R$ (I trung điểm MO) → (O) và (I) cắt nhau tại A, B\n- Phần chung = 2 hình viên phân ứng với cung AB\n- $S_{quạt OAB}$ của (O) (góc 120°) $= \\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$\n- △AOH vuông tại H: $OH = R\\cos 60° = R/2$, $AH = R\\sin 60° = R\\sqrt{3}/2 \\Rightarrow AB = R\\sqrt{3}$\n- $S_{△OAB} = \\dfrac{1}{2}AB \\cdot OH = \\dfrac{1}{2} \\cdot R\\sqrt{3} \\cdot \\dfrac{R}{2} = \\dfrac{R^2\\sqrt{3}}{4}$\n- Diện tích 1 hình viên phân = $\\dfrac{\\pi R^2}{3} - \\dfrac{R^2\\sqrt{3}}{4}$\n- $S = 2 \\left(\\dfrac{\\pi R^2}{3} - \\dfrac{R^2\\sqrt{3}}{4}\\right) = \\dfrac{2\\pi R^2}{3} - \\dfrac{R^2\\sqrt{3}}{2} = R^2\\left(\\dfrac{2\\pi}{3} - \\dfrac{\\sqrt{3}}{2}\\right)$",
+      "loi_giai_day_du": "**Câu a) 4 điểm M, A, O, B đồng viên:**\n\nXét $(O)$ có $MA$ là tiếp tuyến tại $A$ nên $MA \\perp OA$ tại $A$.\n\n$\\triangle MAO$ vuông tại $A$ nên nội tiếp đường tròn đường kính $MO$ (1).\n\nXét $(O)$ có $MB$ là tiếp tuyến tại $B$ nên $MB \\perp OB$ tại $B$.\n\n$\\triangle MBO$ vuông tại $B$ nên nội tiếp đường tròn đường kính $MO$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $M, A, O, B$ cùng thuộc một đường tròn đường kính $MO$.\n\nTâm $I$ của đường tròn này là trung điểm của $MO$.\n\n**Câu b) Chứng minh $OM \\parallel BC$ và $AM \\cdot AC = OM \\cdot AB$:**\n\nTa có $\\begin{cases} MA = MB \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OA = OB = R \\end{cases}$\n\n$\\Rightarrow OM$ là trung trực của $AB$ $\\Rightarrow OM \\perp AB$ tại $H$.\n\n$\\widehat{ABC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AC$).\n\n$\\Rightarrow BC \\perp AB$.\n\nTa có $\\begin{cases} OM \\perp AB \\\\ BC \\perp AB \\end{cases} \\Rightarrow OM \\parallel BC$.\n\nVì $OM$ là trung trực $AB$ nên $H$ là trung điểm $AB$ $\\Rightarrow AB = 2AH$.\n\nVì $AC$ là đường kính của $(O)$ nên $O$ là trung điểm $AC$ $\\Rightarrow AC = 2AO$.\n\nXét $\\triangle MAO$ và $\\triangle AHO$:\n$\\begin{cases} \\widehat{AOM} \\text{ (góc chung)} \\\\ \\widehat{MAO} = \\widehat{AHO} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle MAO \\sim \\triangle AHO$ (g-g)\n\n$\\Rightarrow \\dfrac{MA}{AH} = \\dfrac{MO}{AO} \\Rightarrow MA \\cdot AO = MO \\cdot AH$\n\n$\\Rightarrow MA \\cdot (2AO) = MO \\cdot (2AH)$\n\n$\\Rightarrow \\boxed{MA \\cdot AC = OM \\cdot AB}$.\n\n**Câu c) Tính diện tích phần chung 2 đường tròn:**\n\n$\\triangle MAO$ vuông tại $A$ có $OM = 2R$, $OA = R$.\n\n$\\cos\\widehat{AOM} = \\dfrac{OA}{OM} = \\dfrac{R}{2R} = \\dfrac{1}{2}$\n\nSuy ra $\\widehat{AOM} = 60°$.\n\n$\\triangle MAO = \\triangle MBO$ (c-c-c) $\\Rightarrow \\widehat{BOM} = 60° \\Rightarrow \\widehat{AOB} = 120°$.\n\nĐường tròn $(I)$ ngoại tiếp tứ giác $MAOB$ có đường kính $MO = 2R$ nên bán kính $R_{(I)} = R$.\n\nVì $(O)$ và $(I)$ cùng bán kính $R$ và khoảng cách tâm $OI = R$ (do $I$ là trung điểm $MO$), nên hai đường tròn cắt nhau tại $A$ và $B$.\n\nDiện tích phần chung là tổng diện tích hai hình viên phân cung $AB$ bằng nhau.\n\nDiện tích hình quạt $OAB$ của đường tròn $(O)$ là:\n$$S_q = \\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$$\n\nTrong $\\triangle AOH$ vuông tại $H$:\n$OH = OA \\cdot \\cos 60° = \\dfrac{R}{2}$.\n$AH = OA \\cdot \\sin 60° = \\dfrac{R\\sqrt{3}}{2} \\Rightarrow AB = 2AH = R\\sqrt{3}$.\n\nDiện tích tam giác $OAB$ là:\n$$S_{\\triangle OAB} = \\dfrac{1}{2}AB \\cdot OH = \\dfrac{1}{2} \\cdot R\\sqrt{3} \\cdot \\dfrac{R}{2} = \\dfrac{R^2\\sqrt{3}}{4}$$\n\nDiện tích một hình viên phân giới hạn bởi dây $AB$ và cung nhỏ $AB$ là:\n$$S_{vp} = S_q - S_{\\triangle OAB} = \\dfrac{\\pi R^2}{3} - \\dfrac{R^2\\sqrt{3}}{4}$$\n\nDiện tích phần chung của hai đường tròn là:\n$$S = 2 \\cdot S_{vp} = \\dfrac{2\\pi R^2}{3} - \\dfrac{R^2\\sqrt{3}}{2}$$\n\nVậy diện tích phần chung là $\\boxed{R^2\\left(\\dfrac{2\\pi}{3} - \\dfrac{\\sqrt{3}}{2}\\right)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), điểm M ngoài (O), tiếp tuyến MA và MB (A, B tiếp điểm), AC đường kính, H = MO ∩ AB, I trung điểm MO.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tại sao 4 điểm M, A, O, B đồng viên.",
+          "Em không nhớ vì sao OM ⊥ AB.",
+          "Em không biết bắt đầu câu c từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định 2 tam giác vuông cùng cạnh huyền MO — đúng không?",
+          "Câu b em định OM trung trực AB → OM ⊥ AB; △MAO ~ △AHO — đúng chứ?",
+          "Câu c em định cos AOM = 1/2 → góc 60° — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra I = trung điểm MO, bán kính R — đúng không?",
+          "Em ra $MA \\cdot AC = OM \\cdot AB$ — đúng chưa?",
+          "Em ra $S = R^2(2\\pi/3 - \\sqrt{3}/2)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra góc AOB = 120°.",
+          "Em quên (O) và (I) cùng bán kính R và OI = R.",
+          "Em chỉ tính 1 viên phân, không nhân 2."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-19/bai7-tieptuyen.png"
+    }
+  ]
+}

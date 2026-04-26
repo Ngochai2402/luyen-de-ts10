@@ -1,0 +1,210 @@
+{
+  "de_so": 20,
+  "cum": 7,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho parabol $(P): y = 2x^2$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm những điểm $M$ thuộc $(P)$ thoả điều kiện tung độ lớn hơn hoành độ 1 đơn vị.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị",
+        "'Tung độ lớn hơn hoành độ 1 đơn vị' → $y - x = 1$ → $y = x + 1$",
+        "Giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax²"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $(1; 2)$ và $\\left(-\\dfrac{1}{2}; \\dfrac{1}{2}\\right)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -2, -1, 0, 1, 2.\n\nCâu b: $y = x + 1$, thay vào (P): $x + 1 = 2x^2$.",
+      "goi_y_cap_2": "Câu a: $x = -2 \\to y = 8$; $x = -1 \\to y = 2$; $x = 0 \\to y = 0$; $x = 1 \\to y = 2$; $x = 2 \\to y = 8$.\n\nCâu b:\n- $y = x + 1$ thay vào (P): $x + 1 = 2x^2 \\Leftrightarrow 2x^2 - x - 1 = 0$\n- $x_1 = 1$, $x_2 = -1/2$\n- $x_1 = 1 \\Rightarrow y_1 = 2$\n- $x_2 = -1/2 \\Rightarrow y_2 = 1/2$\n- 2 điểm: $(1; 2)$ và $(-1/2; 1/2)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = 2x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol bề lõm lên trên.\n\n**Câu b) Tìm điểm M:**\n\nVì điểm cần tìm có tung độ lớn hơn hoành độ 1 đơn vị nên $y = x + 1$.\n\nTa có phương trình $x + 1 = 2x^2$\n\n$2x^2 - x - 1 = 0$\n\n$x_1 = 1$; $x_2 = -\\dfrac{1}{2}$\n\nVới $x_1 = 1 \\Rightarrow y_1 = 2$.\n\nVới $x_2 = -\\dfrac{1}{2} \\Rightarrow y_2 = \\dfrac{1}{2}$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(1; 2)}$ và $\\boxed{\\left(-\\dfrac{1}{2}; \\dfrac{1}{2}\\right)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol (P): y = 2x² bề lõm lên trên.",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết viết 'tung độ lớn hơn hoành độ 1' ra sao.", "Em không nhớ Δ.", "Em không biết phương trình có 2 nghiệm hay 1."],
+        "dinh_huong": ["Em định $y = x + 1$ — đúng không?", "Em định lập phương trình $2x^2 - x - 1 = 0$ — đúng chứ?", "Em định nhận cả 2 nghiệm — đúng hướng không?"],
+        "kiem_tra": ["Em ra $x = 1$ và $x = -1/2$ — đúng không?", "Em ra 2 điểm $(1; 2)$, $(-1/2; 1/2)$ — đúng chưa?", "Em không quên điểm $(-1/2; 1/2)$ — đáp án có đúng không?"],
+        "go_bi": ["Em viết $y - x = 1$ thay vì $y = x + 1$ là đúng cả 2 — chỉ cần biến đổi.", "Em chỉ nhận $x = 1$ mà bỏ $x = -1/2$.", "Em tính $\\Delta$ sai dấu."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-20/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A phức tạp",
+      "de_bai": "Cho phương trình: $3x^2 - 7x + 3 = 0$.\n\na) Chứng minh phương trình có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình. Tính giá trị biểu thức $A = \\dfrac{18x_2}{5x_1 - x_2 + \\dfrac{7}{3}} + \\dfrac{18x_1}{5x_2 - x_1 + \\dfrac{7}{3}}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète: $x_1 + x_2 = 7/3$",
+        "Thay $\\dfrac{7}{3} = x_1 + x_2$ vào mẫu để rút gọn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Quy đồng phân thức"
+      ],
+      "dap_so": "$A = \\dfrac{31}{3}$",
+      "goi_y_cap_1": "Câu a: Δ = 49 - 36 = 13 > 0.\n\nCâu b: Mẫu thứ 1: $5x_1 - x_2 + (x_1+x_2) = 6x_1$. Tương tự mẫu 2 = $6x_2$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 49 - 36 = 13 > 0$.\n\nCâu b:\n- Viète: $x_1 + x_2 = 7/3$, $x_1 x_2 = 1$\n- Thay $7/3 = x_1 + x_2$ vào: $5x_1 - x_2 + (x_1+x_2) = 6x_1$\n- Tương tự mẫu 2: $5x_2 - x_1 + (x_1+x_2) = 6x_2$\n- $A = \\dfrac{18x_2}{6x_1} + \\dfrac{18x_1}{6x_2} = \\dfrac{3x_2}{x_1} + \\dfrac{3x_1}{x_2} = \\dfrac{3(x_1^2+x_2^2)}{x_1 x_2}$\n- $x_1^2 + x_2^2 = (7/3)^2 - 2 \\cdot 1 = 49/9 - 2 = 31/9$\n- $A = \\dfrac{3 \\cdot 31/9}{1} = \\dfrac{31}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\n$3x^2 - 7x + 3 = 0$ với $a = 3; b = -7; c = 3$.\n\n$\\Delta = 49 - 36 = 13 > 0$ → 2 nghiệm phân biệt.\n\n**Câu b) Tính A:**\n\nTheo Viète: $x_1 + x_2 = \\dfrac{7}{3}$, $x_1 x_2 = 1$.\n\n$x_1^2 + x_2^2 = \\left(\\dfrac{7}{3}\\right)^2 - 2 \\cdot 1 = \\dfrac{31}{9}$.\n\nThay $\\dfrac{7}{3} = x_1 + x_2$ vào mẫu:\n$$5x_1 - x_2 + (x_1 + x_2) = 6x_1$$\n$$5x_2 - x_1 + (x_1 + x_2) = 6x_2$$\n\nDo đó:\n$$A = \\dfrac{18x_2}{6x_1} + \\dfrac{18x_1}{6x_2} = \\dfrac{3x_2}{x_1} + \\dfrac{3x_1}{x_2} = \\dfrac{3(x_1^2 + x_2^2)}{x_1 x_2}$$\n\nThế giá trị:\n$$A = \\dfrac{3 \\cdot \\dfrac{31}{9}}{1} = \\boxed{\\dfrac{31}{3}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": ["Em không biết tại sao $7/3$ liên quan tới Viète.", "Em không nhớ Viète.", "Em không biết bắt đầu rút gọn từ đâu."],
+        "dinh_huong": ["Em định thay $7/3 = x_1 + x_2$ vào mẫu — đúng không?", "Em định mẫu 1 = $6x_1$ — đúng chứ?", "Em định gộp $\\dfrac{x_1^2+x_2^2}{x_1 x_2}$ — đúng hướng không?"],
+        "kiem_tra": ["Em ra Viète $x_1+x_2 = 7/3$, $x_1 x_2 = 1$ — đúng không?", "Em ra mẫu rút gọn $6x_1$ và $6x_2$ — đúng chưa?", "Em ra $A = 31/3$ — đáp án có đúng không?"],
+        "go_bi": ["Em không nhận ra trick thay $7/3$ vào mẫu.", "Em rút gọn $\\dfrac{18}{6} = 2$ thay vì 3.", "Em chia $\\dfrac{31/9}{1}$ ra $31/9$ thay vì $31/3$ (quên nhân 3)."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Phổ điểm + Xác suất thực nghiệm",
+      "de_bai": "Lớp 9A làm bài kiểm tra môn Toán cuối kì 2. Các kết quả sau khi có điểm được giáo viên môn Toán thể hiện trong biểu đồ đoạn thẳng sau:\n\n| Điểm | dưới 5 | 5,0 | 5,5 | 6,0 | 6,5 | 7,0 | 7,5 | 8,0 | 8,5 | 9,0 | 9,5 | 10 |\n|---|---|---|---|---|---|---|---|---|---|---|---|---|\n| Số bài | 0 | 4 | 10 | 15 | 8 | 7 | 3 | 2 | 1 | 1 | 1 | 1 |\n\na) Tìm giá trị trung bình cộng về điểm số của lớp 9A.\n\nb) Tính xác suất thực nghiệm của biến cố $A$: \"Bạn lớp 9A có điểm số là 6,5 điểm\".\n\nc) Tính xác suất thực nghiệm của biến cố $B$: \"Bạn lớp 9A có điểm số là điểm giỏi, 8 điểm trở lên\".",
+      "phuong_phap_duoc_dung": [
+        "Tổng số HS = tổng tần số",
+        "Trung bình cộng = tổng (điểm × tần số) / tổng",
+        "Xác suất thực nghiệm = số bài thoả / tổng"
+      ],
+      "kien_thuc_lien_quan": [
+        "Trung bình cộng",
+        "Xác suất thực nghiệm"
+      ],
+      "dap_so": "a) $\\overline{X} = \\dfrac{683}{106}$. b) $P(A) = \\dfrac{8}{53}$. c) $P(B) = \\dfrac{6}{53}$.",
+      "goi_y_cap_1": "Tổng = 4+10+15+8+7+3+2+1+1+1+1 = 53. Tổng điểm = 5·4 + 5,5·10 + ... = 341,5. TB = 341,5/53 = 683/106. P(A) = 8/53. P(B) = (2+1+1+1+1)/53 = 6/53.",
+      "goi_y_cap_2": "- $n(\\Omega) = 4+10+15+8+7+3+2+1+1+1+1 = 53$\n- Tổng điểm: $5 \\cdot 4 + 5{,}5 \\cdot 10 + 6 \\cdot 15 + 6{,}5 \\cdot 8 + 7 \\cdot 7 + 7{,}5 \\cdot 3 + 8 \\cdot 2 + 8{,}5 \\cdot 1 + 9 \\cdot 1 + 9{,}5 \\cdot 1 + 10 \\cdot 1$\n- $= 20 + 55 + 90 + 52 + 49 + 22{,}5 + 16 + 8{,}5 + 9 + 9{,}5 + 10 = 341{,}5$\n- TB: $\\overline{X} = \\dfrac{341{,}5}{53} = \\dfrac{683}{106}$\n- $A$: 6,5 điểm → 8 HS → $P(A) = 8/53$\n- $B$: ≥ 8 điểm = $\\{8; 8{,}5; 9; 9{,}5; 10\\}$ → $2+1+1+1+1 = 6$ → $P(B) = 6/53$",
+      "loi_giai_day_du": "Tổng số học sinh lớp 9A: $n(\\Omega) = 4+10+15+8+7+3+2+1+1+1+1 = 53$ (học sinh).\n\n**Câu a) Trung bình cộng:**\n\nTổng điểm: $S = 5 \\cdot 4 + 5{,}5 \\cdot 10 + 6 \\cdot 15 + 6{,}5 \\cdot 8 + 7 \\cdot 7 + 7{,}5 \\cdot 3 + 8 \\cdot 2 + 8{,}5 \\cdot 1 + 9 \\cdot 1 + 9{,}5 \\cdot 1 + 10 \\cdot 1 = 341{,}5$.\n\n$$\\overline{X} = \\dfrac{341{,}5}{53} = \\boxed{\\dfrac{683}{106}}$$\n\n**Câu b) P(A):**\n\nSố HS có điểm 6,5 là 8 → $n(A) = 8$.\n\n$$P(A) = \\boxed{\\dfrac{8}{53}}$$\n\n**Câu c) P(B):**\n\nSố HS có điểm giỏi (≥ 8 điểm): $\\{8; 8{,}5; 9; 9{,}5; 10\\}$ → $2+1+1+1+1 = 6$ HS.\n\n$$P(B) = \\boxed{\\dfrac{6}{53}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột phổ điểm KT môn Toán lớp 9A: dưới 5 (0), 5 (4), 5,5 (10), 6 (15), 6,5 (8), 7 (7), 7,5 (3), 8 (2), 8,5 (1), 9 (1), 9,5 (1), 10 (1).",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết đếm tổng số HS.", "Em không nhớ công thức trung bình cộng.", "Em không hiểu 'điểm giỏi 8 điểm trở lên'."],
+        "dinh_huong": ["Em định cộng tần số = 53 — đúng không?", "Em định trung bình = (Σ điểm × tần số)/Σ tần số — đúng chứ?", "Em định B: ≥ 8 điểm là 6 HS — đúng hướng không?"],
+        "kiem_tra": ["Em ra tổng điểm = 341,5 — đúng không?", "Em ra trung bình $\\approx 6{,}44$ — đúng chưa?", "Em ra $P(B) = 6/53$ — đáp án có đúng không?"],
+        "go_bi": ["Em quên điểm 8 (chỉ tính 8,5 trở lên).", "Em không rút gọn 341,5/53.", "Em nhầm số bài có điểm 6,5 với 6,0."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-20/bai3-phodiem.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Khối gỗ HCN khoét lập phương",
+      "de_bai": "Từ một khối gỗ hình hộp chữ nhật có chiều dài, chiều rộng và chiều cao lần lượt là $x + 5$; $x + 2$ và $x$ (mét). Người ta khoét đi một lỗ có dạng hình lập phương cạnh là $x - 1$ (mét).\n\na) Viết biểu thức $A$ biểu thị phần thể tích còn lại của khối gỗ.\n\nb) Biết thể tích còn lại của khối gỗ là $7$ m³. Tính giá trị của $x$.",
+      "phuong_phap_duoc_dung": [
+        "$V_1 = (x+5)(x+2)x$",
+        "$V_2 = (x-1)^3$",
+        "$A = V_1 - V_2$",
+        "Giải phương trình $A = 7$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hằng đẳng thức $(a-b)^3$",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $A = 10x^2 + 7x + 1$. b) Không có giá trị $x$ thoả mãn.",
+      "goi_y_cap_1": "Câu a: $V_1 = x(x+5)(x+2) = x^3 + 7x^2 + 10x$. $V_2 = (x-1)^3 = x^3 - 3x^2 + 3x - 1$. $A = V_1 - V_2$.\n\nCâu b: $A = 7 \\Rightarrow 10x^2 + 7x - 6 = 0$. Δ tính ra... cả 2 nghiệm không thoả x > 1.",
+      "goi_y_cap_2": "Câu a:\n- $V_1 = x(x+5)(x+2) = x(x^2 + 7x + 10) = x^3 + 7x^2 + 10x$\n- $V_2 = (x-1)^3 = x^3 - 3x^2 + 3x - 1$\n- $A = V_1 - V_2 = 10x^2 + 7x + 1$\n\nCâu b:\n- ĐK: $x - 1 > 0 \\Rightarrow x > 1$\n- $10x^2 + 7x + 1 = 7 \\Leftrightarrow 10x^2 + 7x - 6 = 0$\n- $x_1 = 0{,}5$ (loại), $x_2 = -1{,}2$ (loại)\n- Không có giá trị $x$ thoả",
+      "loi_giai_day_du": "**Câu a) Viết biểu thức A:**\n\nThể tích khối gỗ HHCN ban đầu:\n$$V_1 = x(x+5)(x+2) = x(x^2 + 7x + 10) = x^3 + 7x^2 + 10x \\text{ (m}^3\\text{)}$$\n\nThể tích phần lỗ khoét hình lập phương:\n$$V_2 = (x-1)^3 = x^3 - 3x^2 + 3x - 1 \\text{ (m}^3\\text{)}$$\n\nBiểu thức $A$ biểu thị phần thể tích còn lại:\n$$A = V_1 - V_2 = (x^3 + 7x^2 + 10x) - (x^3 - 3x^2 + 3x - 1)$$\n$$= x^3 + 7x^2 + 10x - x^3 + 3x^2 - 3x + 1$$\n$$A = \\boxed{10x^2 + 7x + 1}$$\n\n**Câu b) Tìm x:**\n\nVì cạnh lập phương là $x - 1$ nên ĐK: $x - 1 > 0 \\Rightarrow x > 1$.\n\nThể tích còn lại là $7$ m³ nên:\n$$10x^2 + 7x + 1 = 7$$\n$$10x^2 + 7x - 6 = 0$$\n$$x_1 = 0{,}5 \\text{ (không thoả mãn } x > 1\\text{)}$$\n$$x_2 = -1{,}2 \\text{ (không thoả mãn } x > 1\\text{)}$$\n\nVậy $\\boxed{\\text{không có giá trị } x}$ thoả mãn yêu cầu đề bài.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Khối gỗ HCN dài $x+5$, rộng $x+2$, cao $x$, có lỗ hình lập phương cạnh $x-1$ khoét trên đỉnh.",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết khai triển $(x-1)^3$.", "Em không nhớ HHCN có 3 cạnh.", "Em không kiểm tra điều kiện $x$."],
+        "dinh_huong": ["Em định $V_1 = x(x+5)(x+2)$ — đúng không?", "Em định khai triển $(x-1)^3$ rồi trừ — đúng chứ?", "Em định ĐK $x > 1$ — đúng hướng không?"],
+        "kiem_tra": ["Em ra $A = 10x^2 + 7x + 1$ — đúng không?", "Em ra phương trình $10x^2 + 7x - 6 = 0$ — đúng chưa?", "Em ra cả 2 nghiệm đều không thoả — đáp án có đúng không?"],
+        "go_bi": ["Em không khai triển $(x-1)^3$ đúng.", "Em không kiểm tra ĐK x > 1.", "Em rút sai dấu khi tính $V_1 - V_2$."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-20/bai4-khoigo.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Khối hộp khoét nửa trụ đúc bi cầu",
+      "de_bai": "Một khối hộp chữ nhật (đặc ruột) bằng sắt với kích thước ba cạnh là $12$ cm, $10$ cm, $7$ cm bị khoét bởi một nửa hình trụ có đường kính $4$ cm và chiều dài $12$ cm.\n\na) Tính thể tích của khối kim loại còn lại (làm tròn kết quả đến hàng đơn vị).\n\nb) Nếu nấu nóng chảy khối kim loại còn lại này để đúc các viên bi sắt hình cầu có bán kính $1$ cm. Hỏi có thể đúc được nhiều nhất bao nhiêu viên bi sắt như thế?",
+      "phuong_phap_duoc_dung": [
+        "$V_{HCN} = 12 \\cdot 10 \\cdot 7$",
+        "$V_{nửa trụ} = \\dfrac{1}{2}\\pi R^2 h$",
+        "$V_{còn} = V_{HCN} - V_{nửa trụ}$",
+        "$V_{bi} = \\dfrac{4}{3}\\pi r^3$",
+        "Số bi = $V_{còn} / V_{bi}$ (làm tròn xuống)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình hộp, nửa trụ, hình cầu"
+      ],
+      "dap_so": "a) $V \\approx 765$ cm³. b) Đúc được nhiều nhất $182$ viên bi.",
+      "goi_y_cap_1": "Câu a: $V_{HCN} = 840$. $V_{nửa trụ} = (1/2)\\pi \\cdot 4 \\cdot 12 = 24\\pi$. $V$ còn = $840 - 24\\pi \\approx 765$.\n\nCâu b: $V_{bi} = (4/3)\\pi$. Số bi = $(840 - 24\\pi)/(4\\pi/3) \\approx 182,5 \\to 182$.",
+      "goi_y_cap_2": "Câu a:\n- $V_{HCN} = 12 \\cdot 10 \\cdot 7 = 840$ cm³\n- Bán kính nửa trụ $R = 4/2 = 2$ cm\n- $V_{nửa trụ} = \\dfrac{1}{2}\\pi R^2 h = \\dfrac{1}{2} \\cdot \\pi \\cdot 4 \\cdot 12 = 24\\pi$ cm³\n- $V_{còn} = 840 - 24\\pi \\approx 765$ cm³\n\nCâu b:\n- $V_{bi} = \\dfrac{4}{3}\\pi \\cdot 1^3 = \\dfrac{4}{3}\\pi$ cm³\n- $n = \\dfrac{840 - 24\\pi}{4\\pi/3} \\approx 182{,}5$\n- Đúc được nhiều nhất $182$ viên bi",
+      "loi_giai_day_du": "**Câu a) Thể tích kim loại còn lại:**\n\n$V_{HCN} = 12 \\cdot 10 \\cdot 7 = 840$ cm³.\n\nBán kính nửa hình trụ: $R = 4 : 2 = 2$ cm.\n\nThể tích nửa hình trụ:\n$$V_{trụ} = \\dfrac{1}{2}\\pi R^2 h = \\dfrac{1}{2}\\pi \\cdot 2^2 \\cdot 12 = 24\\pi \\text{ cm}^3$$\n\nThể tích kim loại còn lại:\n$$V = V_{HCN} - V_{trụ} = 840 - 24\\pi \\approx \\boxed{765 \\text{ cm}^3}$$\n\n**Câu b) Số viên bi đúc được:**\n\nThể tích một viên bi hình cầu:\n$$V_{bi} = \\dfrac{4}{3}\\pi r^3 = \\dfrac{4}{3}\\pi \\text{ cm}^3$$\n\nSố viên bi đúc được:\n$$n = \\dfrac{V}{V_{bi}} = \\dfrac{840 - 24\\pi}{\\dfrac{4}{3}\\pi} \\approx 182{,}5$$\n\nVậy có thể đúc được nhiều nhất $\\boxed{182}$ viên bi.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Khối hộp 12×10×7 cm, có nửa trụ (đường kính 4cm, dài 12cm) khoét trên mặt trên.",
+      "cau_dan": {
+        "khoi_dong": ["Em không nhớ V hình HCN.", "Em không hiểu 'nửa trụ' là gì.", "Em không biết làm tròn cho số bi."],
+        "dinh_huong": ["Em định $V_{HCN} = a \\cdot b \\cdot c$ — đúng không?", "Em định nửa trụ = $(1/2)\\pi R^2 h$ — đúng chứ?", "Em định làm tròn xuống số bi — đúng hướng không?"],
+        "kiem_tra": ["Em ra $V$ còn $\\approx 765$ — đúng không?", "Em ra $n \\approx 182{,}5$ — đúng chưa?", "Em ra $182$ viên — đáp án có đúng không?"],
+        "go_bi": ["Em quên chia 2 cho V nửa trụ.", "Em làm tròn lên 183 (sai vì không đủ).", "Em nhầm $r^3 = 1$ thay vì r = 1."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-20/bai5-khoihop.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hai thùng dầu",
+      "de_bai": "Có hai chiếc thùng, thùng thứ nhất đang chứa $95$ lít dầu, thùng hai chứa $80$ lít dầu. Người ta lấy bớt dầu ở hai thùng, nếu thùng thứ nhất lấy ra ít hơn thùng thứ hai $5$ lít thì khi đó hai lần số dầu còn lại thùng thứ hai nhiều hơn số dầu còn lại thùng thứ nhất là $40$ lít. Hỏi số lít dầu còn lại ở thùng thứ hai sau khi lấy ra là bao nhiêu?",
+      "phuong_phap_duoc_dung": [
+        "Đặt $x$ lít lấy thùng 1, $y$ lít lấy thùng 2",
+        "Hệ phương trình: $y - x = 5$ và $2(80-y) - (95-x) = 40$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất 2 ẩn"
+      ],
+      "dap_so": "Số dầu còn lại thùng thứ hai là $60$ lít.",
+      "goi_y_cap_1": "Đặt $x$ lít từ thùng 1, $y$ lít từ thùng 2. PT1: $y - x = 5$. PT2: $2(80-y) - (95-x) = 40$. Còn lại thùng 2 = $80 - y$.",
+      "goi_y_cap_2": "- $x$ lít lấy ra từ thùng 1, $y$ lít lấy từ thùng 2 ($0 < x < 95, 5 < y < 80$)\n- (1): $y - x = 5$\n- (2): $2(80-y) - (95-x) = 40 \\Rightarrow 160 - 2y - 95 + x = 40 \\Rightarrow x - 2y = -25$\n- Wait: $160 - 2y - 95 + x = 40 \\Rightarrow x - 2y + 65 = 40 \\Rightarrow x - 2y = -25$\n- Hmm PDF ghi $x - 2y = -17$, em thử lại: $x = y - 5$ thay vào (2): $(y-5) - 2y = -25 \\Rightarrow -y = -20 \\Rightarrow y = 20, x = 15$\n- Số dầu còn lại thùng 2 = $80 - 20 = 60$ lít",
+      "loi_giai_day_du": "Gọi $x$ (lít) là số dầu lấy ra từ thùng thứ nhất, $y$ (lít) là số dầu lấy ra từ thùng thứ hai ($0 < x < 95$, $5 < y < 80$).\n\nSố dầu còn lại ở thùng thứ nhất là $95 - x$ (lít).\n\nSố dầu còn lại ở thùng thứ hai là $80 - y$ (lít).\n\nVì thùng thứ nhất lấy ra ít hơn thùng thứ hai 5 lít:\n$$y - x = 5 \\quad (1)$$\n\nVì hai lần số dầu còn lại thùng thứ hai nhiều hơn số dầu còn lại thùng thứ nhất là 40 lít:\n$$2(80 - y) - (95 - x) = 40$$\n$$160 - 2y - 95 + x = 40$$\n$$x - 2y = -25 \\quad (2)$$\n\nTừ (1) và (2):\n$$\\begin{cases} y - x = 5 \\\\ x - 2y = -25 \\end{cases} \\Rightarrow \\begin{cases} x = 15 \\\\ y = 20 \\end{cases}$$\n\n*(Ghi chú: PDF gốc giải ra $x = 15, y = 20$ với hệ số khác trong PT2.)*\n\nSố dầu còn lại ở thùng thứ hai là $80 - 20 = \\boxed{60}$ lít.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": ["Em không biết đặt ẩn nào.", "Em không biết viết phương trình '2 lần số còn lại thùng 2'.", "Em không biết câu hỏi cuối là gì."],
+        "dinh_huong": ["Em định $x, y$ là số dầu lấy ra — đúng không?", "Em định PT1: $y - x = 5$ — đúng chứ?", "Em định PT2: $2(80-y) - (95-x) = 40$ — đúng hướng không?"],
+        "kiem_tra": ["Em ra $x = 15, y = 20$ — đúng không?", "Em ra số còn lại thùng 2 = $80 - 20 = 60$ — đúng chưa?", "Em không kết luận nhầm số còn lại thùng 1 — đáp án có đúng không?"],
+        "go_bi": ["Em đặt $x, y$ là số còn lại thay vì số lấy ra.", "Em quên chuyển vế khi viết PT2.", "Em kết luận nhầm thùng 1 thay vì thùng 2."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tiếp tuyến và đường trung trực",
+      "de_bai": "Từ điểm $A$ ở ngoài đường tròn $(O; R)$, kẻ hai tiếp tuyến $AB, AC$ đến $(O)$, ($B, C$ là tiếp điểm). Gọi $H$ là giao điểm của $OA$ và $BC$.\n\na) Chứng minh: $OA$ là đường trung trực của $BC$ và tứ giác $OBAC$ nội tiếp.\n\nb) Chứng minh: $R = \\dfrac{(AC + AB) \\cdot OH}{BC}$.\n\nc) Trên đoạn $AH$ lấy điểm $D$ sao cho $HB = HD$, qua $D$ kẻ $DE \\perp OA$ ($E \\in AB$), gọi $I$ là trung điểm của $OE$, cho $R = 5$ cm. Tính số đo góc $\\widehat{BHI}$ và độ dài cạnh $BE$.",
+      "phuong_phap_duoc_dung": [
+        "AB = AC, OB = OC → OA trung trực BC",
+        "△OBA, △OCA vuông → nội tiếp đường tròn đường kính OA",
+        "△OHB ~ △OBA (g-g) → OH·OA = OB·BH (R · BH = AB · OH)",
+        "△HBI = △HDI (c-c-c) → HI phân giác → góc BHI = 45°",
+        "Tứ giác OBED nội tiếp đường tròn đường kính OE → OBE cân tại B"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Tam giác đồng dạng",
+        "Tứ giác nội tiếp",
+        "Tam giác cân"
+      ],
+      "dap_so": "c) $\\widehat{BHI} = 45°$, $BE = 5$ cm.",
+      "goi_y_cap_1": "Câu a: AB = AC (2 tiếp tuyến) + OB = OC = R → OA trung trực BC. Tứ giác OBAC: 2 góc B và C bằng 90° → nội tiếp đường tròn đk OA.\n\nCâu b: △OHB ~ △OBA → OH·OA = OB·BH = R·BH → R·BH = AB·OH → R = AB·OH/BH = (AB+AC)·OH/(2BH) = (AB+AC)·OH/BC.\n\nCâu c: H trung điểm BC, BHD vuông tại H với HB = HD → △BHD vuông cân → góc HDB = 45°. Tứ giác OBDE nội tiếp (cùng vuông tại D, B). △HBI = △HDI (c-c-c) → HI phân giác BHD = 90°/2 = 45°. △OBE vuông tại B có $\\widehat{OEB} = 45°$ → vuông cân → BE = OB = R = 5cm.",
+      "goi_y_cap_2": "Câu a:\n- $AB = AC$ (2 tiếp tuyến cắt nhau), $OB = OC = R$ → $OA$ trung trực $BC$ → $OA \\perp BC$ tại $H$\n- $\\triangle OBA$ vuông tại $B$ → nội tiếp đường tròn đường kính $OA$\n- $\\triangle OCA$ vuông tại $C$ → nội tiếp đường tròn đường kính $OA$\n- → 4 điểm $O, B, A, C$ thuộc đường tròn đường kính $OA$ → tứ giác $OBAC$ nội tiếp\n\nCâu b:\n- $H$ trung điểm $BC$ → $BC = 2BH$\n- $\\triangle OHB$ và $\\triangle OBA$: $\\widehat{BOA}$ chung, $\\widehat{OHB} = \\widehat{OBA} = 90°$\n- → $\\triangle OHB \\sim \\triangle OBA$ (g-g)\n- → $\\dfrac{OH}{OB} = \\dfrac{BH}{AB}$ → $OH \\cdot AB = OB \\cdot BH = R \\cdot BH$\n- → $R = \\dfrac{AB \\cdot OH}{BH}$\n- Nhân tử và mẫu với 2: $R = \\dfrac{2AB \\cdot OH}{2BH} = \\dfrac{2AB \\cdot OH}{BC}$\n- Mà $AB = AC$: $R = \\dfrac{(AB+AC) \\cdot OH}{BC}$\n\nCâu c (1):\n- $\\triangle ODE$ vuông tại $D$ có $DI$ trung tuyến → $ID = OE/2$\n- $\\triangle OBE$ vuông tại $B$ có $BI$ trung tuyến → $IB = OE/2$\n- → $IB = ID$\n- $\\triangle HBI$ và $\\triangle HDI$: $HB = HD$ (gt), $HI$ chung, $IB = ID$\n- → $\\triangle HBI = \\triangle HDI$ (c-c-c)\n- → $\\widehat{BHI} = \\widehat{DHI}$ → $HI$ phân giác $\\widehat{BHD}$\n- $\\widehat{BHI} = \\dfrac{1}{2}\\widehat{BHD} = \\dfrac{1}{2} \\cdot 90° = 45°$\n\nCâu c (2):\n- $HB = HD$ (gt), $\\widehat{BHD} = 90°$ (do $OA \\perp BC$) → $\\triangle HBD$ vuông cân tại $H$\n- $\\widehat{HDB} = 45°$\n- $\\triangle OBE$ vuông tại $B$ (tính chất tiếp tuyến)\n- $\\triangle ODE$ vuông tại $D$ (do $DE \\perp OA$)\n- → 4 điểm $O, B, E, D$ cùng thuộc đường tròn đường kính $OE$\n- $\\widehat{OEB} = \\widehat{ODB} = 45°$ (cùng chắn $OB$)\n- $\\triangle OBE$ vuông tại $B$ có $\\widehat{OEB} = 45°$ → vuông cân tại $B$\n- → $BE = OB = R = 5$ cm",
+      "loi_giai_day_du": "**Câu a) OA trung trực BC, OBAC nội tiếp:**\n\n$\\begin{cases} AB = AC \\text{ (2 tiếp tuyến cắt nhau)} \\\\ OB = OC = R \\end{cases}$\n\n$\\Rightarrow OA$ trung trực của $BC \\Rightarrow OA \\perp BC$ tại $H$.\n\n$\\triangle OBA$ vuông tại $B$ (do $AB$ tiếp tuyến) → nội tiếp đường tròn đường kính $OA$ (1).\n\n$\\triangle OCA$ vuông tại $C$ → nội tiếp đường tròn đường kính $OA$ (2).\n\nTừ (1)(2) → 4 điểm $O, B, A, C$ thuộc đường tròn đường kính $OA$ → tứ giác $OBAC$ nội tiếp.\n\n**Câu b) Chứng minh $R = \\dfrac{(AC+AB) \\cdot OH}{BC}$:**\n\n$H$ là trung điểm $BC$ → $BC = 2BH$.\n\nXét $\\triangle OHB$ và $\\triangle OBA$:\n$\\begin{cases} \\widehat{BOA} \\text{ (góc chung)} \\\\ \\widehat{OHB} = \\widehat{OBA} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle OHB \\sim \\triangle OBA$ (g-g)\n\n$\\Rightarrow \\dfrac{OH}{OB} = \\dfrac{BH}{AB} \\Rightarrow OH \\cdot AB = OB \\cdot BH = R \\cdot BH$\n\n$\\Rightarrow R = \\dfrac{AB \\cdot OH}{BH}$\n\nNhân tử và mẫu với 2:\n$$R = \\dfrac{2AB \\cdot OH}{2BH} = \\dfrac{2AB \\cdot OH}{BC}$$\n\nMà $AB = AC$:\n$$\\boxed{R = \\dfrac{(AB + AC) \\cdot OH}{BC}}$$\n\n**Câu c) Tính góc BHI và độ dài BE:**\n\n***Tính $\\widehat{BHI}$:***\n\n$\\triangle ODE$ vuông tại $D$ có $DI$ là trung tuyến $\\Rightarrow ID = \\dfrac{OE}{2}$.\n\n$\\triangle OBE$ vuông tại $B$ có $BI$ là trung tuyến $\\Rightarrow IB = \\dfrac{OE}{2}$.\n\nSuy ra $IB = ID$.\n\nXét $\\triangle HBI$ và $\\triangle HDI$:\n$\\begin{cases} HB = HD \\text{ (giả thiết)} \\\\ HI \\text{ chung} \\\\ IB = ID \\text{ (cmt)} \\end{cases}$\n\n$\\Rightarrow \\triangle HBI = \\triangle HDI$ (c-c-c)\n\n$\\Rightarrow \\widehat{BHI} = \\widehat{DHI}$ → $HI$ là phân giác của $\\widehat{BHD}$.\n\n$\\Rightarrow \\widehat{BHI} = \\dfrac{1}{2}\\widehat{BHD} = \\dfrac{1}{2} \\cdot 90° = \\boxed{45°}$.\n\n***Tính $BE$:***\n\n$\\triangle HBD$ có $HB = HD$ (giả thiết) và $\\widehat{BHD} = 90°$ → vuông cân tại $H$.\n\n$\\Rightarrow \\widehat{HDB} = 45°$.\n\n$\\triangle OBE$ vuông tại $B$ (tính chất tiếp tuyến) → nội tiếp đường tròn đường kính $OE$ (3).\n\n$\\triangle ODE$ vuông tại $D$ → nội tiếp đường tròn đường kính $OE$ (4).\n\nTừ (3)(4) → 4 điểm $O, B, E, D$ cùng thuộc đường tròn đường kính $OE$.\n\n$\\widehat{OEB} = \\widehat{ODB} = 45°$ (cùng chắn cung $OB$).\n\n$\\triangle OBE$ vuông tại $B$ có $\\widehat{OEB} = 45°$ → vuông cân tại $B$.\n\n$\\Rightarrow BE = OB = R = \\boxed{5 \\text{ cm}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), A ngoài (O), AB và AC tiếp tuyến (B, C tiếp điểm), H = OA ∩ BC, D trên AH với HB = HD, DE ⊥ OA (E ∈ AB), I trung điểm OE.",
+      "cau_dan": {
+        "khoi_dong": ["Em không biết tại sao OA trung trực BC.", "Em không biết bắt đầu chứng minh OBAC nội tiếp.", "Câu c phức tạp quá."],
+        "dinh_huong": ["Câu a em định AB = AC + OB = OC = R → OA trung trực — đúng không?", "Câu b em định △OHB ~ △OBA (g-g) — đúng chứ?", "Câu c em định △HBI = △HDI (c-c-c) — đúng hướng không?"],
+        "kiem_tra": ["Em ra OBAC nội tiếp đường tròn đường kính OA — đúng không?", "Em ra $R = (AB+AC) \\cdot OH / BC$ — đúng chưa?", "Em ra $\\widehat{BHI} = 45°$, $BE = 5$ cm — đáp án có đúng không?"],
+        "go_bi": ["Em không nhận ra △HBD vuông cân tại H.", "Em không kết hợp 4 điểm O, B, E, D đồng viên.", "Em quên BI = OE/2 (trung tuyến cạnh huyền)."],
+        "loi_giai": ["📎 Xem gợi ý cấp 1.", "📎 Xem gợi ý cấp 2.", "📎 Xem lời giải đầy đủ."]
+      },
+      "hinh_anh": "/images/de-20/bai7-tieptuyen.png"
+    }
+  ]
+}

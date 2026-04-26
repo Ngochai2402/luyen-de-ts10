@@ -1,0 +1,344 @@
+{
+  "de_so": 22,
+  "cum": 8,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = -\\dfrac{1}{2}x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P): y = -\\dfrac{1}{2}x^2$.\n\nb) Tìm tọa độ các điểm $M$ thuộc $(P)$ (khác gốc tọa độ) có hoành độ bằng tung độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị",
+        "'Hoành độ bằng tung độ' → $y = x$",
+        "Giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $M(-2; -2)$.",
+      "goi_y_cap_1": "Câu a: Bảng với x = -2, -1, 0, 1, 2.\n\nCâu b: $y = x$ thay vào (P): $x = -\\dfrac{1}{2}x^2$.",
+      "goi_y_cap_2": "Câu a:\n- $x=-2 \\to y=-2$; $x=-1 \\to y=-1/2$; $x=0 \\to y=0$; $x=1 \\to y=-1/2$; $x=2 \\to y=-2$\n\nCâu b:\n- $y = x$ → $x = -\\dfrac{1}{2}x^2$\n- $\\dfrac{1}{2}x^2 + x = 0 \\Leftrightarrow x(x+2) = 0$\n- $x_1 = 0$ (loại), $x_2 = -2$\n- $x = -2 \\Rightarrow y = -2$\n- $M(-2; -2)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{1}{2}x^2$ | $-2$ | $-\\dfrac{1}{2}$ | $0$ | $-\\dfrac{1}{2}$ | $-2$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm xuống dưới.\n\n**Câu b) Tìm điểm M:**\n\nVì điểm $M$ có hoành độ bằng tung độ nên $y = x$.\n\nTa có phương trình $x = -\\dfrac{1}{2}x^2$\n\n$\\dfrac{1}{2}x^2 + x = 0$\n\nSuy ra $x = 0$ hoặc $x = -2$.\n\nVới $x = 0 \\Rightarrow y = 0$ (loại vì $M$ khác gốc tọa độ).\n\nVới $x = -2 \\Rightarrow y = -2$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{M(-2; -2)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = -x²/2 bề lõm quay xuống dưới.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'hoành độ bằng tung độ' viết ra sao.",
+          "Em không biết phân tích thành tích.",
+          "Em không biết loại nghiệm nào."
+        ],
+        "dinh_huong": [
+          "Em định viết $y = x$ — đúng không?",
+          "Em định nhân 2 hai vế bỏ mẫu — đúng chứ?",
+          "Em định loại $x = 0$ vì M khác gốc — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 + 2x = 0$ — đúng không?",
+          "Em ra $x = -2$ — đúng chưa?",
+          "Em ra $M(-2; -2)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không phân tích được thành tích.",
+          "Em quên loại $x = 0$.",
+          "Em nhầm dấu trong phương trình."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1.",
+          "📎 Xem gợi ý cấp 2.",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-22/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A",
+      "de_bai": "Cho phương trình $x^2 - 4x + 2 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt.\n\nb) Gọi $x_1, x_2$ là hai nghiệm của phương trình, không giải phương trình, tính giá trị của biểu thức $A = (x_1 - x_2)^2 - x_1 - x_2$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "$(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4 x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hằng đẳng thức"
+      ],
+      "dap_so": "$A = 4$",
+      "goi_y_cap_1": "Câu a: Δ = 16 - 8 = 8 > 0.\n\nCâu b: $(x_1-x_2)^2 = (x_1+x_2)^2 - 4 x_1 x_2$. Trừ thêm $(x_1 + x_2)$.",
+      "goi_y_cap_2": "Câu a:\n- $a=1, b=-4, c=2$\n- $\\Delta = 16 - 8 = 8 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = 4$, $x_1 x_2 = 2$\n- $(x_1 - x_2)^2 = (x_1+x_2)^2 - 4 x_1 x_2 = 16 - 8 = 8$\n- $A = 8 - 4 = 4$",
+      "loi_giai_day_du": "**Câu a)** $a=1, b=-4, c=2$, $\\Delta = 16 - 8 = 8 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b)** Theo định lý Viète:\n$$x_1 + x_2 = 4, \\quad x_1 x_2 = 2$$\n\nTa có $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 16 - 4 = 12$.\n\nBiến đổi $A$:\n$$A = (x_1 - x_2)^2 - (x_1 + x_2)$$\n$$= (x_1^2 + x_2^2) - 2x_1 x_2 - (x_1 + x_2)$$\n$$= 12 - 2 \\cdot 2 - 4 = \\boxed{4}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ Viète.",
+          "Em không nhớ hằng đẳng thức $(x_1-x_2)^2$.",
+          "Em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định dùng $(x_1-x_2)^2 = (x_1+x_2)^2 - 4 x_1 x_2$ — đúng không?",
+          "Em định trừ thêm $(x_1+x_2)$ — đúng chứ?",
+          "Em định tính từng phần — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2=4$, $x_1 x_2=2$ — đúng không?",
+          "Em ra $(x_1-x_2)^2 = 8$ — đúng chưa?",
+          "Em ra $A = 4$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm dấu khi mở ngoặc.",
+          "Em viết hằng đẳng thức sai.",
+          "Em quên trừ tổng $x_1+x_2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1.",
+          "📎 Xem gợi ý cấp 2.",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ đường máy tính - Xác suất",
+      "de_bai": "Cho biểu đồ đoạn thẳng biểu diễn số lượng máy tính để bàn và máy tính xách tay được bán ra trong 6 tháng cuối năm của một công ty $X$. Số lượng tính theo đơn vị cái.\n\n| Tháng | Để bàn | Xách tay |\n|---|---|---|\n| 7 | 80 | 38 |\n| 8 | 41 | 27 |\n| 9 | 23 | 49 |\n| 10 | 20 | 64 |\n| 11 | 14 | 55 |\n| 12 | 7 | 76 |\n\na) Trong 6 tháng cuối năm, tháng nào có sự chênh lệch giữa số lượng máy tính xách tay và máy tính để bàn được bán ra là nhiều nhất?\n\nb) Chọn ngẫu nhiên 1 tháng trong 6 tháng cuối năm, tính xác suất của các biến cố sau:\n- $A$: \"Tháng được chọn có số lượng máy tính để bàn mà công ty bán ít nhất 20 cái\".\n- $B$: \"Tháng được chọn có tỉ lệ số lượng máy tính xách tay và máy tính để bàn mà công ty bán được lớn hơn 2\".",
+      "phuong_phap_duoc_dung": [
+        "Tính chênh lệch |Để bàn - Xách tay|",
+        "P(A): tháng có để bàn ≥ 20",
+        "P(B): tháng có xách tay/để bàn > 2"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ đoạn thẳng",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) Tháng 12 (chênh lệch 69). b) $P(A) = \\dfrac{2}{3}$, $P(B) = \\dfrac{2}{3}$.",
+      "goi_y_cap_1": "Câu a: Lập bảng chênh lệch. T7:42, T8:14, T9:26, T10:44, T11:41, T12:69.\n\nCâu b: Tháng để bàn ≥ 20: T7, T8, T9, T10 (4 tháng). Tháng tỉ lệ > 2: T9 (49/23), T10 (64/20), T11 (55/14), T12 (76/7).",
+      "goi_y_cap_2": "Câu a:\n- T7: |80-38|=42, T8: 14, T9: 26, T10: 44, T11: 41, T12: 69\n- → Tháng 12 chênh lệch nhiều nhất\n\nCâu b:\n- $n(\\Omega) = 6$\n- A: để bàn ≥ 20: T7 (80), T8 (41), T9 (23), T10 (20) → 4 tháng → $P(A) = 4/6 = 2/3$\n- B kiểm tra tỉ lệ xách tay/để bàn:\n  - T7: 38/80 < 1 (loại)\n  - T8: 27/41 < 1 (loại)\n  - T9: 49/23 ≈ 2,13 > 2 (nhận)\n  - T10: 64/20 = 3,2 > 2 (nhận)\n  - T11: 55/14 ≈ 3,9 > 2 (nhận)\n  - T12: 76/7 ≈ 10,8 > 2 (nhận)\n- → 4 tháng → $P(B) = 4/6 = 2/3$",
+      "loi_giai_day_du": "**Câu a)** Bảng chênh lệch:\n\n| Tháng | Để bàn | Xách tay | Chênh lệch |\n|---|---|---|---|\n| 7 | 80 | 38 | 42 |\n| 8 | 41 | 27 | 14 |\n| 9 | 23 | 49 | 26 |\n| 10 | 20 | 64 | 44 |\n| 11 | 14 | 55 | 41 |\n| 12 | 7 | 76 | 69 |\n\nVậy tháng có sự chênh lệch nhiều nhất là $\\boxed{\\text{Tháng 12}}$ (69).\n\n**Câu b)** $n(\\Omega) = 6$.\n\n***Biến cố A: \"số máy tính để bàn ≥ 20 cái\".***\n\nCác tháng thỏa mãn: Tháng 7 (80), Tháng 8 (41), Tháng 9 (23), Tháng 10 (20).\n\nSố kết quả thuận lợi: $n(A) = 4$.\n\n$$P(A) = \\dfrac{4}{6} = \\boxed{\\dfrac{2}{3}}$$\n\n***Biến cố B: \"tỉ lệ xách tay/để bàn > 2\".***\n\nKiểm tra tỉ lệ:\n- Tháng 7: $38/80 < 1$ (loại)\n- Tháng 8: $27/41 < 1$ (loại)\n- Tháng 9: $49/23 \\approx 2{,}13 > 2$ (nhận)\n- Tháng 10: $64/20 = 3{,}2 > 2$ (nhận)\n- Tháng 11: $55/14 \\approx 3{,}9 > 2$ (nhận)\n- Tháng 12: $76/7 \\approx 10{,}8 > 2$ (nhận)\n\nSố kết quả thuận lợi: $n(B) = 4$.\n\n$$P(B) = \\dfrac{4}{6} = \\boxed{\\dfrac{2}{3}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ đường máy tính để bàn (cam) và xách tay (xanh) trong 6 tháng cuối năm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính chênh lệch.",
+          "Em không hiểu 'tỉ lệ > 2' nghĩa là gì.",
+          "Em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định lập bảng chênh lệch — đúng không?",
+          "Em định P(A) = (số tháng thỏa)/6 — đúng chứ?",
+          "Em định kiểm tra xách tay/để bàn > 2 cho từng tháng — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra T12 chênh nhiều nhất — đúng không?",
+          "Em ra $P(A) = 2/3$ — đúng chưa?",
+          "Em ra $P(B) = 2/3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm tỉ lệ để bàn/xách tay thay vì xách tay/để bàn.",
+          "Em không loại tháng có tỉ lệ < 1.",
+          "Em đếm cả T8 vào B (sai vì 27/41 < 1)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1.",
+          "📎 Xem gợi ý cấp 2.",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-22/bai3-bieudoduong.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vườn HCN có lối đi (chữ thập)",
+      "de_bai": "Một mảnh vườn hình chữ nhật có chiều rộng bằng $a$ (m), chiều dài hơn chiều rộng 6m. Bác Tư làm một lối đi rộng $x$ (m) cho khu vườn như hình vẽ (phần không tô đậm) (với $a > 0$ và $0 < x < a$). Phần còn lại của mảnh vườn bác Tư dùng để trồng rau.\n\na) Hãy viết biểu thức (thu gọn) theo $x$ và $a$ biểu thị diện tích phần còn lại dùng để trồng rau.\n\nb) Tính diện tích đất dùng để trồng rau khi $a = 30$ m; $x = 1$ m.",
+      "phuong_phap_duoc_dung": [
+        "Phần đất trồng rau tương ứng HCN (a-x) × (a-x+6)",
+        "Khai triển hoặc thay số trực tiếp"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật"
+      ],
+      "dap_so": "a) $S = (a-x)(a-x+6) = (a-x)^2 + 6(a-x)$. b) $S = 1015$ m².",
+      "goi_y_cap_1": "Câu a: Phần trồng rau dồn lại = HCN có rộng (a-x), dài (a+6-x).\n\nCâu b: Thay $a=30, x=1$: $S = 29 \\cdot 35$.",
+      "goi_y_cap_2": "Câu a:\n- Chiều rộng vườn: $a$ m, chiều dài: $a + 6$ m\n- Phần trồng rau dồn lại tương ứng HCN có:\n  - Chiều rộng: $a - x$\n  - Chiều dài: $(a+6) - x = a - x + 6$\n- $S = (a-x)(a-x+6) = (a-x)^2 + 6(a-x)$\n\nCâu b:\n- Thay $a = 30, x = 1$:\n- $S = (30-1)(30-1+6) = 29 \\cdot 35 = 1015$ m²",
+      "loi_giai_day_du": "**Câu a)** Chiều rộng của mảnh vườn là $a$ (m). Chiều dài của mảnh vườn là $a + 6$ (m).\n\nDiện tích phần đất trồng rau tương ứng với một hình chữ nhật có:\n- Chiều rộng là $a - x$ (m).\n- Chiều dài là $(a + 6) - x = a - x + 6$ (m).\n\nBiểu thức biểu thị diện tích phần còn lại dùng để trồng rau là:\n$$\\boxed{S = (a - x)(a - x + 6) = (a - x)^2 + 6(a - x) \\text{ (m}^2\\text{)}}$$\n\n**Câu b)** Thay $a = 30$ và $x = 1$ vào biểu thức $S$, ta có:\n$$S = (30 - 1)(30 - 1 + 6) = 29 \\cdot 35 = \\boxed{1015 \\text{ (m}^2\\text{)}}$$\n\nVậy diện tích đất dùng để trồng rau là $1015$ m².",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết phần trồng rau gộp lại thế nào.",
+          "Em không biết viết chiều dài theo $a$.",
+          "Em không biết thay số ra sao."
+        ],
+        "dinh_huong": [
+          "Em định gộp 4 phần đất thành 1 HCN (a-x)(a-x+6) — đúng không?",
+          "Em định khai triển ra $(a-x)^2 + 6(a-x)$ — đúng chứ?",
+          "Em định thay $a=30, x=1$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = (a-x)(a-x+6)$ — đúng không?",
+          "Em ra $S = 1015$ m² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không gộp được 4 mảnh thành 1 HCN.",
+          "Em viết chiều dài $a+6$ thay vì $a-x+6$.",
+          "Em nhân ngoặc sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1.",
+          "📎 Xem gợi ý cấp 2.",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Trụ ngoại tiếp nón",
+      "de_bai": "Cho hình trụ có hai đáy là hình tròn $(O; R)$ và $(O'; R)$ và hình nón có đỉnh là $O'$, đáy là hình tròn $(O; R)$ như Hình 2.\n\na) Từ miếng xốp hình trụ, người ta gọt bỏ để tạo thành khối xốp hình nón. Tính thể tích phần bị gọt bỏ đi. Biết $R = 10$ cm và $OO' = 8$ cm.\n\nb) Nếu bán kính $R$ giảm một nửa thì thể tích hình trụ thay đổi như nào?",
+      "phuong_phap_duoc_dung": [
+        "$V_{trụ} = \\pi R^2 h$",
+        "$V_{nón} = \\dfrac{1}{3}\\pi R^2 h$",
+        "$V_{bỏ} = V_{trụ} - V_{nón} = \\dfrac{2}{3}\\pi R^2 h$",
+        "Bán kính giảm nửa → V trụ giảm 4 lần"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình nón"
+      ],
+      "dap_so": "a) $V_{bỏ} = \\dfrac{1600\\pi}{3}$ cm³. b) Thể tích trụ giảm đi 4 lần.",
+      "goi_y_cap_1": "Câu a: V trụ = π·100·8 = 800π. V nón = 800π/3. V bỏ = 800π - 800π/3 = 1600π/3.\n\nCâu b: $V_2 = \\pi (R/2)^2 h = \\dfrac{1}{4}\\pi R^2 h = \\dfrac{1}{4} V_1$ → giảm 4 lần.",
+      "goi_y_cap_2": "Câu a:\n- $V_{trụ} = \\pi R^2 h = \\pi \\cdot 10^2 \\cdot 8 = 800\\pi$ cm³\n- $V_{nón} = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{800\\pi}{3}$ cm³\n- $V_{bỏ} = V_{trụ} - V_{nón} = 800\\pi - \\dfrac{800\\pi}{3} = \\dfrac{1600\\pi}{3}$ cm³\n\nCâu b:\n- $R' = R/2$\n- $V_2 = \\pi (R/2)^2 h = \\dfrac{\\pi R^2 h}{4} = \\dfrac{V_1}{4}$\n- → V trụ giảm 4 lần",
+      "loi_giai_day_du": "**Câu a) Thể tích phần bị gọt bỏ:**\n\nThể tích của hình trụ là:\n$$V_{trụ} = \\pi R^2 h = \\pi \\cdot 10^2 \\cdot 8 = 800\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích của khối nón là:\n$$V_{nón} = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi \\cdot 10^2 \\cdot 8 = \\dfrac{800\\pi}{3} \\text{ (cm}^3\\text{)}$$\n\nThể tích phần xốp bị gọt bỏ là:\n$$V_{bỏ} = V_{trụ} - V_{nón} = 800\\pi - \\dfrac{800\\pi}{3} = \\boxed{\\dfrac{1600\\pi}{3} \\text{ (cm}^3\\text{)}}$$\n\n**Câu b)** Ta có công thức thể tích hình trụ ban đầu là $V_1 = \\pi R^2 h$.\n\nKhi bán kính giảm một nửa, bán kính mới là $R' = \\dfrac{R}{2}$.\n\nThể tích hình trụ lúc sau là:\n$$V_2 = \\pi (R')^2 h = \\pi \\left(\\dfrac{R}{2}\\right)^2 h = \\pi \\cdot \\dfrac{R^2}{4} \\cdot h = \\dfrac{1}{4}\\pi R^2 h$$\n\nSuy ra $V_2 = \\dfrac{1}{4}V_1$.\n\nVậy thể tích hình trụ sẽ $\\boxed{\\text{giảm đi 4 lần}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình trụ R=10cm, h=OO'=8cm chứa hình nón có đỉnh O' và đáy (O; R).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ V trụ và V nón.",
+          "Em không biết câu b làm gì.",
+          "Em không biết bắt đầu tính từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định V bỏ = V trụ - V nón — đúng không?",
+          "Em định bán kính giảm nửa nên R² giảm 4 lần — đúng chứ?",
+          "Em định lấy hệ số R² ra để so sánh — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra V bỏ = $1600\\pi/3$ — đúng không?",
+          "Em ra giảm 4 lần — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm V nón = πR²h (quên 1/3).",
+          "Em không biết $(R/2)^2 = R^2/4$.",
+          "Em viết giảm 2 lần (sai - phải là 4 lần)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1.",
+          "📎 Xem gợi ý cấp 2.",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-22/bai5-trunon.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Đổ nước qua lại 3 lần",
+      "de_bai": "Có hai thùng cùng chứa nước. Người ta đổ từ từ thùng thứ nhất sang thùng thứ hai một lượng nước bằng với lượng nước thùng thứ hai đang có, tiếp tục đổ nước từ thùng thứ hai sang thùng thứ nhất một lượng nước bằng với lượng nước thùng thứ nhất đang có, sau đó đổ từ thùng thứ nhất sang thùng thứ hai một lượng nước bằng với lượng nước thùng thứ hai đang có. Cuối cùng cả hai thùng đều chứa 160 lít nước. Hỏi lúc đầu mỗi thùng chứa bao nhiêu nước?",
+      "phuong_phap_duoc_dung": [
+        "Đặt $x, y$ là lượng nước ban đầu",
+        "Lần 1 (1→2 lượng = y): T1 còn $x-y$, T2 có $2y$",
+        "Lần 2 (2→1 lượng = x-y): T1 có $2(x-y) = 2x-2y$, T2 còn $2y - (x-y) = 3y-x$",
+        "Lần 3 (1→2 lượng = 3y-x): T1 còn $2x-2y - (3y-x) = 3x-5y$, T2 có $2(3y-x) = 6y-2x$",
+        "Hệ phương trình"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất 2 ẩn"
+      ],
+      "dap_so": "Lúc đầu thùng thứ nhất chứa 220 lít, thùng thứ hai chứa 100 lít.",
+      "goi_y_cap_1": "Đặt $x, y$. Theo dõi từng lần đổ. Sau 3 lần: T1 = $3x-5y$, T2 = $6y-2x$. Cả 2 thùng = 160.",
+      "goi_y_cap_2": "- Gọi $x$ (lít) là thể tích thùng 1, $y$ (lít) là thể tích thùng 2 ($x, y > 0$)\n- Lần 1 (đổ T1 → T2 lượng = $y$): T1 còn $x-y$, T2 có $2y$\n- Lần 2 (đổ T2 → T1 lượng = $x-y$): T1 có $(x-y) + (x-y) = 2x-2y$, T2 còn $2y - (x-y) = 3y-x$\n- Lần 3 (đổ T1 → T2 lượng = $3y-x$): T1 còn $(2x-2y) - (3y-x) = 3x-5y$, T2 có $2(3y-x) = 6y-2x$\n- Phương trình: $3x - 5y = 160$ (1) và $6y - 2x = 160$ (2)\n- Hệ: $\\begin{cases} 3x - 5y = 160 \\\\ -2x + 6y = 160 \\end{cases} \\Rightarrow \\begin{cases} x = 220 \\\\ y = 100 \\end{cases}$",
+      "loi_giai_day_du": "Gọi $x$ (lít) là lượng nước ban đầu của thùng thứ nhất ($x > 0$).\n\nGọi $y$ (lít) là lượng nước ban đầu của thùng thứ hai ($y > 0$).\n\n**Lần đổ 1:** Đổ từ T1 → T2 một lượng bằng lượng nước T2 đang có ($y$ lít).\n- T1 còn lại: $x - y$ (lít)\n- T2 có: $y + y = 2y$ (lít)\n\n**Lần đổ 2:** Đổ từ T2 → T1 một lượng bằng lượng nước T1 đang có ($x-y$ lít).\n- T1 có: $(x-y) + (x-y) = 2x - 2y$ (lít)\n- T2 còn: $2y - (x-y) = 3y - x$ (lít)\n\n**Lần đổ 3:** Đổ từ T1 → T2 một lượng bằng lượng nước T2 đang có ($3y-x$ lít).\n- T1 còn: $(2x-2y) - (3y-x) = 3x - 5y$ (lít)\n- T2 có: $(3y-x) + (3y-x) = 6y - 2x$ (lít)\n\nSau 3 lần đổ, T1 có 160 lít nên: $3x - 5y = 160$ (1)\n\nSau 3 lần đổ, T2 có 160 lít nên: $6y - 2x = 160$ (2)\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} 3x - 5y = 160 \\\\ -2x + 6y = 160 \\end{cases} \\Rightarrow \\begin{cases} x = 220 \\\\ y = 100 \\end{cases}$$\n\nVậy lúc đầu thùng thứ nhất chứa $\\boxed{220}$ lít nước, thùng thứ hai chứa $\\boxed{100}$ lít nước.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết theo dõi từng lần đổ.",
+          "Em không biết đặt ẩn cho biến nào.",
+          "Em không lập được phương trình."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x, y$ ban đầu — đúng không?",
+          "Em định theo dõi T1, T2 sau từng lần đổ — đúng chứ?",
+          "Em định lập 2 phương trình từ trạng thái cuối — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ $3x-5y=160$, $-2x+6y=160$ — đúng không?",
+          "Em ra $x=220, y=100$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'lượng = T2 đang có' với 'lượng = nửa T2'.",
+          "Em không trừ đúng khi đổ qua lại.",
+          "Em không viết được biểu thức sau lần 2, 3."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1.",
+          "📎 Xem gợi ý cấp 2.",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn, tiếp tuyến và tam giác đều",
+      "de_bai": "Cho $(O; R)$ có đường kính $AC$. Trên $(O)$ lấy điểm $D$ sao cho $AD = R$, tiếp tuyến tại $A$ của $(O)$ cắt tia $CD$ tại $B$. Dựng $AE \\perp BO$ tại $E$.\n\na) Chứng minh: $\\widehat{ADC} = 90°$ và tứ giác $ABDE$ nội tiếp đường tròn.\n\nb) Tia $DE$ cắt $(O)$ tại $K$ ($K \\ne D$), vẽ đường kính $KH$ của $(O)$. Chứng minh: $\\widehat{ADE} = \\widehat{OAE}$ và 3 điểm $A, E, H$ thẳng hàng.\n\nc) Kẻ $OF \\perp BC$ tại $F$, tia $OF$ cắt $AH$ tại $I$, tia $ID$ cắt $AB$ tại $J$. Chứng minh $IJ$ là tiếp tuyến của $(O)$ và tính diện tích $\\triangle IJA$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "Góc nội tiếp chắn nửa đường tròn = 90°",
+        "Tam giác có đỉnh kề nhìn cạnh dưới góc 90° → nội tiếp",
+        "Tam giác đồng dạng",
+        "Tam giác đều AOD (AD=AO=OD=R) → AOD=60°",
+        "OD ⊥ IJ (qua biến đổi đối xứng)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp",
+        "Tam giác đồng dạng",
+        "Tiếp tuyến đường tròn",
+        "Tam giác đều"
+      ],
+      "dap_so": "c) $S_{\\triangle IJA} = \\dfrac{R^2 \\sqrt{3}}{3}$.",
+      "goi_y_cap_1": "Câu a: $\\widehat{ADC} = 90°$ (góc nội tiếp chắn nửa đường tròn). △ADB vuông tại D + △AEB vuông tại E → tứ giác ABDE nội tiếp đường tròn đường kính AB.\n\nCâu b: Tứ giác ABDE nội tiếp → ADE = ABE (cùng chắn AE). △OAB vuông tại A có đường cao AE → ABE = OAE. Suy ra ADE = OAE. Xét đường tròn (O): ADK = AHK (cùng chắn AK). Mà ADK = ADE (D, E, K thẳng hàng) → OAE = AHK. △OAH cân tại O → OAH = OHA hay OAH = AHK. Suy ra OAE = OAH → A, E, H thẳng hàng.\n\nCâu c: △AOD đều (3 cạnh = R) → AOD = 60°. Cộng góc → AOJ = 30°. Trong △OAJ vuông tại A: $AJ = OA \\tan 30° = R\\sqrt{3}/3$. Tam giác đồng dạng → IC ∥ AB. Khoảng cách từ I đến AB = AC = 2R. $S_{IJA} = (1/2) \\cdot AJ \\cdot 2R = R^2\\sqrt{3}/3$.",
+      "goi_y_cap_2": "Câu a:\n- $\\widehat{ADC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AC$)\n- $\\widehat{ADB} = 90°$ (kề bù với $\\widehat{ADC}$)\n- $\\triangle ADB$ vuông tại $D$ → nội tiếp đường tròn đường kính $AB$ (1)\n- $\\triangle AEB$ vuông tại $E$ (do $AE \\perp BO$) → nội tiếp đường tròn đường kính $AB$ (2)\n- (1)(2) → 4 điểm $A, B, D, E$ cùng thuộc đường tròn đường kính $AB$ → tứ giác $ABDE$ nội tiếp\n\nCâu b:\n- Tứ giác $ABDE$ nội tiếp → $\\widehat{ADE} = \\widehat{ABE}$ (cùng chắn cung $AE$)\n- $\\triangle OAB$ vuông tại $A$, đường cao $AE$ → $\\widehat{ABE} = \\widehat{OAE}$ (cùng phụ $\\widehat{AOB}$)\n- → $\\widehat{ADE} = \\widehat{OAE}$\n- Trong $(O)$: $\\widehat{ADK} = \\widehat{AHK}$ (cùng chắn cung $AK$)\n- Mà $\\widehat{ADK} = \\widehat{ADE}$ (do $D, E, K$ thẳng hàng) → $\\widehat{OAE} = \\widehat{AHK}$\n- $\\triangle OAH$ cân tại $O$ ($OA = OH = R$) → $\\widehat{OAH} = \\widehat{OHA} = \\widehat{AHK}$\n- → $\\widehat{OAE} = \\widehat{OAH}$\n- $A, E, H$ thẳng hàng\n\nCâu c:\n- $AD = AO = OD = R$ → $\\triangle AOD$ đều → $\\widehat{AOD} = 60°$\n- $OF \\perp BC$ và $AD \\perp BC$ (do $\\widehat{ADC} = 90°$) → $OF \\parallel AD$\n- $\\widehat{FOC} = \\widehat{DAC} = 60°$ (đồng vị)\n- $\\widehat{AOF} = 180° - 60° = 120°$\n- $OD$ chia đôi $\\widehat{AOF}$ → $OD$ phân giác $\\widehat{AOI}$ (vì $I \\in OF$)\n- $\\triangle OAJ = \\triangle ODJ$ (c-g-c) → $\\widehat{ODJ} = \\widehat{OAJ} = 90°$\n- → $OD \\perp IJ$ tại $D$, mà $D \\in (O)$ → $IJ$ là tiếp tuyến của $(O)$\n- $\\widehat{AOJ} = \\dfrac{1}{2}\\widehat{AOD} = 30°$\n- $\\triangle OAJ$ vuông tại $A$: $AJ = OA \\tan 30° = R \\cdot \\dfrac{\\sqrt{3}}{3} = \\dfrac{R\\sqrt{3}}{3}$\n- $I$ thuộc đường thẳng vuông góc $AC$ tại $C$ (qua tính chất $OI = 2R$ và đồng dạng) → $IC \\parallel AB$\n- Chiều cao từ $I$ xuống $AB$ = $AC = 2R$\n- $S_{IJA} = \\dfrac{1}{2} \\cdot AJ \\cdot 2R = \\dfrac{1}{2} \\cdot \\dfrac{R\\sqrt{3}}{3} \\cdot 2R = \\dfrac{R^2\\sqrt{3}}{3}$",
+      "loi_giai_day_du": "**Câu a)** Xét $(O)$ có $\\widehat{ADC}$ là góc nội tiếp chắn nửa đường tròn đường kính $AC$.\n\nSuy ra $\\widehat{ADC} = 90°$.\n\nTa có $\\widehat{ADB} = 90°$ (kề bù với $\\widehat{ADC}$).\n\n$\\triangle ADB$ vuông tại $D$, suy ra $\\triangle ADB$ nội tiếp đường tròn đường kính $AB$ (1).\n\n$\\triangle AEB$ vuông tại $E$ (do $AE \\perp BO$), suy ra $\\triangle AEB$ nội tiếp đường tròn đường kính $AB$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $A, B, D, E$ cùng thuộc một đường tròn đường kính $AB$. Vậy tứ giác $ABDE$ nội tiếp. □\n\n**Câu b) Chứng minh $\\widehat{ADE} = \\widehat{OAE}$ và 3 điểm A, E, H thẳng hàng:**\n\nTứ giác $ABDE$ nội tiếp (cmt) $\\Rightarrow \\widehat{ADE} = \\widehat{ABE}$ (cùng chắn cung $AE$).\n\n$\\triangle OAB$ vuông tại $A$ (do $AB$ là tiếp tuyến), có đường cao $AE$ ($AE \\perp BO$).\n\n$\\Rightarrow \\widehat{ABE} = \\widehat{OAE}$ (cùng phụ với $\\widehat{AOB}$).\n\nSuy ra $\\widehat{ADE} = \\widehat{OAE}$.\n\nTrong $(O)$, ta có $\\widehat{ADK} = \\widehat{AHK}$ (hai góc nội tiếp cùng chắn cung $AK$).\n\nMà $\\widehat{ADK} = \\widehat{ADE}$ (do $D, E, K$ thẳng hàng).\n\nSuy ra $\\widehat{OAE} = \\widehat{AHK}$.\n\nLại có $\\triangle OAH$ cân tại $O$ (do $OA = OH = R$) $\\Rightarrow \\widehat{OAH} = \\widehat{OHA}$ hay $\\widehat{OAH} = \\widehat{AHK}$.\n\nDo đó $\\widehat{OAE} = \\widehat{OAH}$.\n\nHai tia $AE, AH$ cùng nằm trên một nửa mặt phẳng bờ $AC$ và tạo với tia $OA$ các góc bằng nhau nên $A, E, H$ thẳng hàng. □\n\n**Câu c) Chứng minh IJ là tiếp tuyến và tính diện tích △IJA:**\n\n***Chứng minh IJ là tiếp tuyến:***\n\nTa có $AD = AO = OD = R \\Rightarrow \\triangle AOD$ đều $\\Rightarrow \\widehat{AOD} = 60°$.\n\nTa có $OF \\perp BC$ và $AD \\perp BC$ (do $\\widehat{ADC} = 90°$) $\\Rightarrow OF \\parallel AD$.\n\nSuy ra $\\widehat{FOC} = \\widehat{DAC} = 60°$ (hai góc đồng vị).\n\nTa có $\\widehat{AOF} = 180° - \\widehat{FOC} = 120°$.\n\nDo đó tia $OD$ nằm giữa hai tia $OA, OF$ và $\\widehat{AOD} = \\dfrac{1}{2}\\widehat{AOF}$ ($60° = \\dfrac{1}{2} \\cdot 120°$).\n\nSuy ra $OD$ là tia phân giác của $\\widehat{AOF}$ (hay $\\widehat{AOI}$).\n\nXét $\\triangle OAJ$ và $\\triangle ODJ$: $OA = OD = R$, $OJ$ chung, $\\widehat{AOJ} = \\widehat{DOJ}$\n\n$\\Rightarrow \\triangle OAJ = \\triangle ODJ$ (c-g-c)\n\n$\\Rightarrow \\widehat{ODJ} = \\widehat{OAJ} = 90°$.\n\n$\\Rightarrow OD \\perp IJ$ tại $D$. Mà $D \\in (O)$.\n\nVậy $IJ$ là tiếp tuyến của $(O)$. □\n\n***Tính diện tích △IJA:***\n\nVì $\\triangle OAJ = \\triangle ODJ$ (cmt) $\\Rightarrow OJ$ là phân giác của $\\widehat{AOD}$.\n\n$\\Rightarrow \\widehat{AOJ} = \\dfrac{1}{2}\\widehat{AOD} = \\dfrac{1}{2} \\cdot 60° = 30°$.\n\nXét $\\triangle OAJ$ vuông tại $A$: $AJ = OA \\cdot \\tan 30° = R \\cdot \\dfrac{\\sqrt{3}}{3}$.\n\nTa có $I$ thuộc tia $AH$, $J$ thuộc tia $ID$. Dễ dàng chứng minh $I$ thuộc đường thẳng vuông góc với $AC$ tại $C$ (do tính chất $OI = 2R$ và tam giác đồng dạng).\n\nSuy ra $IC \\parallel AB$ (cùng vuông góc với $AC$).\n\nDo đó, khoảng cách từ điểm $I$ đến đường thẳng $AB$ chính là khoảng cách giữa hai đường thẳng song song $IC$ và $AB$, bằng độ dài đoạn $AC$.\n\nChiều cao hạ từ $I$ xuống $AB$ là $h = AC = 2R$.\n\nDiện tích $\\triangle IJA$ là:\n$$S_{IJA} = \\dfrac{1}{2} \\cdot AJ \\cdot h = \\dfrac{1}{2} \\cdot \\dfrac{R\\sqrt{3}}{3} \\cdot 2R = \\boxed{\\dfrac{R^2\\sqrt{3}}{3}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) đường kính AC, D trên (O) với AD=R, B trên tia CD và tiếp tuyến tại A, E giao AE với BO, K giao DE với (O), H đường kính KH, F giao OF với BC, I giao OF với AH, J giao ID với AB.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu chứng minh nội tiếp.",
+          "Em không biết tam giác AOD là tam giác gì.",
+          "Câu c phức tạp quá."
+        ],
+        "dinh_huong": [
+          "Câu a em định 2 tam giác vuông cùng cạnh huyền AB — đúng không?",
+          "Câu b em định △OAB vuông + đường cao AE → cùng phụ AOB — đúng chứ?",
+          "Câu c em định △AOD đều → AOD = 60° — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra ABDE nội tiếp đường kính AB — đúng không?",
+          "Em ra A, E, H thẳng hàng — đúng chưa?",
+          "Em ra $S = R^2\\sqrt{3}/3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra △AOD đều.",
+          "Em không biết OD ⊥ IJ ⇒ IJ tiếp tuyến.",
+          "Em không tính được AJ qua $\\tan 30°$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1.",
+          "📎 Xem gợi ý cấp 2.",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-22/bai7-duongtron.png"
+    }
+  ]
+}
