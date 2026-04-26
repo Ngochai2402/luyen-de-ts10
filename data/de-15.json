@@ -1,0 +1,362 @@
+{
+  "de_so": 15,
+  "cum": 5,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Trong mặt phẳng tọa độ $Oxy$ cho Parabol $(P): y = -\\dfrac{1}{4}x^2$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ $Oxy$.\n\nb) Tìm tọa độ các điểm $M$ thuộc $(P)$ (khác gốc tọa độ) có hoành độ bằng 2 lần tung độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol bề lõm xuống dưới",
+        "Thay $x = 2y$ vào (P)",
+        "Giải phương trình bậc hai và loại $x = 0$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0 (parabol bề lõm xuống dưới)",
+        "Điểm thuộc đồ thị thỏa mãn phương trình",
+        "Phương trình bậc hai dạng tích"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $M(-2; -1)$.",
+      "goi_y_cap_1": "Câu a: Lập bảng với x = -4, -2, 0, 2, 4. Parabol bề lõm xuống dưới.\n\nCâu b: 'Hoành độ bằng 2 lần tung độ' nghĩa là $x = 2y$ → $y = \\dfrac{1}{2}x$. Thay vào (P), loại $x = 0$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = -4$; $x = -2 \\to y = -1$; $x = 0 \\to y = 0$; $x = 2 \\to y = -1$; $x = 4 \\to y = -4$\n\nCâu b:\n- $x = 2y$ → $y = \\dfrac{1}{2}x$\n- Thay vào (P): $\\dfrac{1}{2}x = -\\dfrac{1}{4}x^2$\n- $\\dfrac{1}{4}x^2 + \\dfrac{1}{2}x = 0$\n- $x_1 = 0$ (loại), $x_2 = -2$ (nhận)\n- $x = -2 \\Rightarrow y = -1$\n- Vậy $M(-2; -1)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{1}{4}x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm xuống dưới.\n\n**Câu b) Tìm điểm M:**\n\nGọi $M(x; y)$ là điểm cần tìm thuộc $(P)$.\n\nVì điểm $M$ có hoành độ bằng 2 lần tung độ nên $x = 2y$, hay $y = \\dfrac{1}{2}x$.\n\n$\\dfrac{1}{2}x = -\\dfrac{1}{4}x^2$\n\n$\\dfrac{1}{4}x^2 + \\dfrac{1}{2}x = 0$\n\n$x_1 = 0$ hoặc $x_2 = -2$.\n\nVì $M$ khác gốc tọa độ nên loại $x_1 = 0$, nhận $x_2 = -2$.\n\nVới $x = -2 \\Rightarrow y = \\dfrac{1}{2}(-2) = -1$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{M(-2; -1)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = -x²/4 bề lõm quay xuống dưới trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết vẽ parabol $y = -x^2/4$.",
+          "'Hoành độ bằng 2 lần tung độ' viết công thức ra sao?",
+          "Tại sao cần loại $x = 0$?"
+        ],
+        "dinh_huong": [
+          "Em định lập bảng với x = -4, -2, 0, 2, 4 — đúng không?",
+          "Em định viết $x = 2y$ rồi đổi thành $y = \\dfrac{1}{2}x$ — đúng chứ?",
+          "Em định loại $x = 0$ vì M khác gốc tọa độ — đúng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 2 nghiệm $x = 0$ và $x = -2$ — đúng không?",
+          "Em ra điểm $M(-2; -1)$ — đáp án có đúng không?",
+          "Parabol có đỉnh tại O bề lõm xuống dưới — đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $x = 2y$ với $y = 2x$.",
+          "Em nhận điểm $(0; 0)$ (vì quên đề bảo khác gốc tọa độ).",
+          "Em không biết đưa về dạng tích."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-15/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - 2 nghiệm trái dấu",
+      "de_bai": "Cho phương trình: $x^2 + x - 2026 = 0$ $(*)$ ($x$ là ẩn số).\n\na) Chứng minh phương trình $(*)$ có hai nghiệm trái dấu $x_1; x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức:\n$$B = x_1\\left(x_1 + \\dfrac{2025}{2026} x_2\\right) + x_2^2$$",
+      "phuong_phap_duoc_dung": [
+        "Hai nghiệm trái dấu khi $a \\cdot c < 0$",
+        "Định lý Viète",
+        "$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2$",
+        "Biến đổi đại số"
+      ],
+      "kien_thuc_lien_quan": [
+        "Điều kiện 2 nghiệm trái dấu: $P = x_1 x_2 < 0$",
+        "Định lý Viète",
+        "Hằng đẳng thức"
+      ],
+      "dap_so": "$B = 2028$",
+      "goi_y_cap_1": "Câu a: Tính $a \\cdot c = 1 \\cdot (-2026) = -2026 < 0$ → 2 nghiệm trái dấu.\n\nCâu b: Khai triển $B = x_1^2 + \\dfrac{2025}{2026}x_1 x_2 + x_2^2 = (x_1^2 + x_2^2) + \\dfrac{2025}{2026}x_1 x_2$.",
+      "goi_y_cap_2": "Câu a:\n- $a = 1; b = 1; c = -2026$\n- $a \\cdot c = -2026 < 0$\n- Vậy phương trình có 2 nghiệm trái dấu\n\nCâu b:\n- Viète: $x_1 + x_2 = -1$, $x_1 x_2 = -2026$\n- $x_1^2 + x_2^2 = (-1)^2 - 2(-2026) = 4053$\n- Khai triển: $B = x_1^2 + \\dfrac{2025}{2026}x_1 x_2 + x_2^2 = (x_1^2 + x_2^2) + \\dfrac{2025}{2026}x_1 x_2$\n- Thay: $B = 4053 + \\dfrac{2025}{2026}(-2026) = 4053 - 2025 = 2028$",
+      "loi_giai_day_du": "**Câu a) Chứng minh 2 nghiệm trái dấu:**\n\nTa có $a \\cdot c = 1 \\cdot (-2026) = -2026 < 0$.\n\nVậy phương trình luôn có hai nghiệm trái dấu $x_1, x_2$. □\n\n**Câu b) Tính B:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = -1 \\\\ x_1 x_2 = \\dfrac{c}{a} = -2026 \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = (-1)^2 - 2(-2026) = 4053$.\n\nKhai triển:\n$$B = x_1\\left(x_1 + \\dfrac{2025}{2026}x_2\\right) + x_2^2 = x_1^2 + \\dfrac{2025}{2026}x_1 x_2 + x_2^2$$\n\n$$B = (x_1^2 + x_2^2) + \\dfrac{2025}{2026}x_1 x_2$$\n\nThay giá trị:\n$$B = 4053 + \\dfrac{2025}{2026} \\cdot (-2026) = 4053 - 2025 = \\boxed{2028}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết điều kiện 2 nghiệm trái dấu.",
+          "Em quên cách khai triển $B$.",
+          "Em không nhớ Viète với phương trình này."
+        ],
+        "dinh_huong": [
+          "Em định dùng $a \\cdot c < 0$ để chứng minh 2 nghiệm trái dấu — đúng không?",
+          "Em định khai triển $B = x_1^2 + \\dfrac{2025}{2026}x_1 x_2 + x_2^2$ — đúng chứ?",
+          "Em định gộp $(x_1^2 + x_2^2) + \\dfrac{2025}{2026}x_1 x_2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1 + x_2 = -1$, $x_1 x_2 = -2026$ — đúng không?",
+          "Em ra $x_1^2 + x_2^2 = 4053$ — đúng chưa?",
+          "Em ra $B = 2028$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên nhân $\\dfrac{2025}{2026}$ với $-2026$ ra $-2025$.",
+          "Em phá ngoặc thiếu hạng tử $\\dfrac{2025}{2026}x_1 x_2$.",
+          "Em nhầm dấu: $-2 \\cdot (-2026) = -4052$ thay vì $+4052$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép Nam/Nữ - Xác suất",
+      "de_bai": "Biểu đồ cột kép biểu diễn số lượng học sinh tham gia giải thi đấu thể thao cấp Phường của một trường trung học cơ sở.\n\n| Khối | Nam | Nữ |\n|---|---|---|\n| 6 | 6 | 8 |\n| 7 | 9 | 7 |\n| 8 | 8 | 9 |\n| 9 | 8 | 7 |\n\nNhà trường cần chọn ra một em bất kì để tham dự \"Lễ tuyên dương thành tích thể thao\".\n\na) Tính tổng số học sinh tham gia thi đấu thể thao tại trường.\n\nb) Tính xác suất của biến cố $A$: \"Học sinh được chọn là học sinh nam\".\n\nc) Tính xác suất của biến cố $B$: \"Học sinh được chọn đang học lớp 9\".",
+      "phuong_phap_duoc_dung": [
+        "Đọc biểu đồ cột kép",
+        "Cộng tổng từng khối/giới tính",
+        "Công thức xác suất cổ điển"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Xác suất cổ điển P(A) = n(A)/n(Ω)"
+      ],
+      "dap_so": "a) 62 HS. b) $P(A) = \\dfrac{1}{2}$. c) $P(B) = \\dfrac{15}{62}$.",
+      "goi_y_cap_1": "Câu a: Tổng = (6+8) + (9+7) + (8+9) + (8+7) = 62.\n\nCâu b: Tổng nam = 6+9+8+8 = 31. P(A) = 31/62 = 1/2.\n\nCâu c: HS lớp 9 = 8+7 = 15. P(B) = 15/62.",
+      "goi_y_cap_2": "Câu a:\n- Khối 6: 6+8 = 14\n- Khối 7: 9+7 = 16\n- Khối 8: 8+9 = 17\n- Khối 9: 8+7 = 15\n- Tổng: $n(\\Omega) = 14+16+17+15 = 62$\n\nCâu b:\n- $n(A) = 6+9+8+8 = 31$\n- $P(A) = \\dfrac{31}{62} = \\dfrac{1}{2}$\n\nCâu c:\n- $n(B) = 8+7 = 15$\n- $P(B) = \\dfrac{15}{62}$",
+      "loi_giai_day_du": "**Câu a) Tổng số HS tham gia:**\n\nDựa vào biểu đồ, số học sinh tham gia của từng khối là:\n- Khối 6: $6 + 8 = 14$\n- Khối 7: $9 + 7 = 16$\n- Khối 8: $8 + 9 = 17$\n- Khối 9: $8 + 7 = 15$\n\nKhông gian mẫu $n(\\Omega) = 14 + 16 + 17 + 15 = \\boxed{62}$ học sinh.\n\n**Câu b) Tính P(A):**\n\nGọi $A$ là biến cố \"Học sinh được chọn là học sinh nam\".\n\nSố học sinh nam là $6 + 9 + 8 + 8 = 31$.\n\nSuy ra $n(A) = 31$.\n\n$$P(A) = \\dfrac{31}{62} = \\boxed{\\dfrac{1}{2}}$$\n\n**Câu c) Tính P(B):**\n\nGọi $B$ là biến cố \"Học sinh được chọn đang học lớp 9\".\n\nSố học sinh lớp 9 tham gia là $15$.\n\nSuy ra $n(B) = 15$.\n\n$$P(B) = \\boxed{\\dfrac{15}{62}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS Nam/Nữ tham gia thể thao theo 4 khối (6, 7, 8, 9).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc biểu đồ cột kép.",
+          "Em không biết cách tính tổng từng khối.",
+          "Em không hiểu 'không gian mẫu' là gì."
+        ],
+        "dinh_huong": [
+          "Em định cộng nam + nữ cho từng khối — đúng không?",
+          "Câu b em định lấy tổng nam / tổng tất cả — đúng chứ?",
+          "Câu c em định lấy HS khối 9 / 62 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 62 — đúng không?",
+          "Em ra $P(A) = 1/2$ — đúng chưa?",
+          "Em ra $P(B) = 15/62$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đọc biểu đồ sai số liệu.",
+          "Em quên rút gọn $\\dfrac{31}{62} = \\dfrac{1}{2}$.",
+          "Em đếm sai khối 9 chỉ tính nam hoặc chỉ nữ."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-15/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Hình học - Vườn hình bán nguyệt kết hợp quạt tròn",
+      "de_bai": "Sơ đồ bên dưới cho thấy một khu vườn hình bán nguyệt $SRT$ với tâm $O$ và bán kính $12$ m. Khu vực $PQR$ được bao phủ bởi cỏ là một khu vực hình quạt tròn với tâm $Q$ và bán kính $16$ m và $O$ là trung điểm của $PQ$. Mảng màu vàng đậm được rào lại và trồng hoa. Cho rằng chiều dài vòng cung $PR$ là $14$ m.\n\nHãy tính:\n\na) Chiều dài của hàng rào được sử dụng để rào khu vực trồng hoa.\n\nb) Diện tích khu vực trồng hoa (kết quả làm tròn đến hàng phần mười).",
+      "phuong_phap_duoc_dung": [
+        "Tính các đoạn từ trung điểm và bán kính",
+        "Chu vi nửa đường tròn = πR",
+        "Diện tích nửa đường tròn = (1/2)πR²",
+        "Diện tích quạt tròn = (1/2) · r · l (với l là độ dài cung)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hình bán nguyệt và hình quạt tròn",
+        "Trung điểm đoạn thẳng",
+        "Công thức diện tích/chu vi cung tròn"
+      ],
+      "dap_so": "a) $L = 12\\pi + 38$ m. b) $S_{hoa} \\approx 114{,}2$ m².",
+      "goi_y_cap_1": "Câu a: O trung điểm PQ → OP = OQ = QP/2 = 8m. SP = OS - OP = 12 - 8 = 4m. QT = OT - OQ = 12 - 8 = 4m. Hàng rào = cung SRT (nửa chu vi) + SP + QT + cung PR + QR = 12π + 4 + 4 + 14 + 16.\n\nCâu b: S khu vực hoa = S nửa hình bán nguyệt - S quạt tròn (PQR). S bán nguyệt = (1/2)π(12)². S quạt = (1/2)·16·14.",
+      "goi_y_cap_2": "Câu a:\n- $O$ là trung điểm $PQ$ → $OP = OQ$\n- Khu vực $PQR$ là hình quạt tâm $Q$, bán kính $QP = QR = 16$ m\n- $OP = QP/2 = 8$ m\n- $OS = OT = 12$ m (bán kính)\n- $SP = OS - OP = 12 - 8 = 4$ m\n- $QT = OT - OQ = 12 - 8 = 4$ m\n- Hàng rào gồm: cung $SRT$ + $SP$ + $QT$ + cung $PR$ + $QR$\n- Cung $SRT$ = $\\pi R = 12\\pi$ m\n- $L = 12\\pi + 4 + 4 + 14 + 16 = 12\\pi + 38$ m\n\nCâu b:\n- $S_{bn} = \\dfrac{1}{2}\\pi R^2 = \\dfrac{1}{2}\\pi \\cdot 12^2 = 72\\pi$ m²\n- $S_{cỏ} = \\dfrac{1}{2} r \\cdot l = \\dfrac{1}{2} \\cdot 16 \\cdot 14 = 112$ m²\n- $S_{hoa} = 72\\pi - 112 \\approx 226{,}2 - 112 = 114{,}2$ m²",
+      "loi_giai_day_du": "**Câu a) Chiều dài hàng rào:**\n\nTheo đề bài, $O$ là trung điểm của $PQ$ nên $OP = OQ$.\n\nKhu vực $PQR$ là hình quạt tròn tâm $Q$, bán kính $QP = QR = 16$ m.\n\nSuy ra $OP = \\dfrac{QP}{2} = \\dfrac{16}{2} = 8$ m.\n\nTa có bán kính đường tròn tâm $O$ là $R = 12$ m nên $OS = OT = 12$ m.\n\nĐộ dài đoạn $SP = OS - OP = 12 - 8 = 4$ m.\n\nĐộ dài đoạn $QT = OT - OQ = 12 - 8 = 4$ m.\n\nHàng rào bao gồm: cung $SRT$, đoạn $SP$, đoạn $QT$, cung $PR$ và đoạn $QR$.\n\nChiều dài cung $SRT$ là $\\pi R = 12\\pi$ m.\n\nChiều dài hàng rào là:\n$$L = 12\\pi + SP + QT + \\text{cung } PR + QR = 12\\pi + 4 + 4 + 14 + 16$$\n$$\\boxed{L = 12\\pi + 38 \\text{ (m)}}$$\n\n**Câu b) Diện tích khu vực trồng hoa:**\n\nDiện tích hình bán nguyệt tâm $O$, bán kính $R = 12$ m là:\n$$S_{bn} = \\dfrac{1}{2}\\pi R^2 = \\dfrac{1}{2}\\pi \\cdot 12^2 = 72\\pi \\text{ (m}^2\\text{)}$$\n\nDiện tích khu vực cỏ (hình quạt tròn tâm $Q$, bán kính $r = 16$ m, cung $l = 14$ m) là:\n$$S_{cỏ} = \\dfrac{1}{2} r \\cdot l = \\dfrac{1}{2} \\cdot 16 \\cdot 14 = 112 \\text{ (m}^2\\text{)}$$\n\nDiện tích khu vực trồng hoa là:\n$$S_{hoa} = S_{bn} - S_{cỏ} = 72\\pi - 112 \\text{ (m}^2\\text{)}$$\n\nLàm tròn đến hàng phần mười:\n$$S_{hoa} \\approx 226{,}2 - 112 = \\boxed{114{,}2 \\text{ m}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Khu vườn hình bán nguyệt SRT tâm O bán kính 12m, bên trong có hình quạt tròn PQR tâm Q bán kính 16m (màu xanh lá - cỏ); phần màu vàng (hoa) ở 2 góc cạnh.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết hàng rào gồm những đoạn nào.",
+          "Em quên công thức S quạt tròn theo cung.",
+          "Em không hiểu vì sao $OP = 8$ m."
+        ],
+        "dinh_huong": [
+          "Em định dùng O trung điểm PQ → OP = QP/2 = 8m — đúng không?",
+          "Em định liệt kê hàng rào: cung SRT + SP + QT + cung PR + QR — đúng chứ?",
+          "Câu b em định lấy S bán nguyệt - S quạt tròn — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $L = 12\\pi + 38$ m — đúng không?",
+          "Em ra $S_{cỏ} = 112$ m² — đúng chưa?",
+          "Em ra $S_{hoa} \\approx 114{,}2$ m² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên đoạn SP và QT trong hàng rào.",
+          "Em dùng công thức S quạt = $\\dfrac{\\pi r^2 n}{360}$ thay vì $\\dfrac{1}{2} r l$.",
+          "Em nhầm tâm Q có bán kính 12 thay vì 16."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-15/bai4-vuonbannguyet.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Hộp kem và cây kem (nón + nửa cầu)",
+      "de_bai": "Một hộp kem hình hộp chữ nhật có kích thước $15$ cm $\\times 20$ cm $\\times 12$ cm đựng đầy kem. Kem sẽ được người bán hàng chia vào các bánh ốc quế hình nón, phần kem đựng đầy trong bánh và phần kem nhô lên là nửa hình cầu có đường kính bằng miệng bánh là $6$ cm. Chiều cao của cả phần bánh và kem là $15$ cm.\n\na) Tính thể tích của kem chứa đầy trong một cây kem như hình? (Kết quả làm tròn đến hàng phần trăm)\n\nb) Tính số que kem có thể chia được từ hộp kem? Biết rằng người bán hàng đã chia kem vào bánh ốc quế ít hơn $5\\%$ so với thể tích kem chứa đầy trong một cây kem.\n\nCác công thức:\n- Thể tích hình hộp chữ nhật: $V = a \\cdot b \\cdot c$\n- Thể tích hình nón: $V = \\dfrac{1}{3}\\pi R^2 h$\n- Thể tích hình cầu: $V = \\dfrac{4}{3}\\pi R^3$ (lấy $\\pi \\approx 3{,}14$)",
+      "phuong_phap_duoc_dung": [
+        "Bán kính = đường kính / 2",
+        "Chiều cao nón = chiều cao tổng - bán kính cầu",
+        "$V_{kem} = V_{nón} + V_{nửa cầu}$",
+        "Số que = V hộp / V thực tế chia"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình hộp chữ nhật, hình nón, hình cầu",
+        "Phần trăm",
+        "Làm tròn xuống số nguyên"
+      ],
+      "dap_so": "a) $V_{kem} = 169{,}56$ cm³. b) Có thể chia được 22 que kem.",
+      "goi_y_cap_1": "Câu a: R = 6/2 = 3cm. Chiều cao nón = 15 - 3 = 12 cm. V nón + V nửa cầu.\n\nCâu b: V hộp = 15·20·12 = 3600 cm³. V thực tế = V kem · 95%. Số que = V hộp / V thực tế, làm tròn xuống.",
+      "goi_y_cap_2": "Câu a:\n- $R = 6/2 = 3$ cm\n- $h_{nón} = 15 - 3 = 12$ cm\n- $V_{nón} = \\dfrac{1}{3}\\pi R^2 h \\approx \\dfrac{1}{3} \\cdot 3{,}14 \\cdot 9 \\cdot 12 = 113{,}04$ cm³\n- $V_{cầu} = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 27 \\approx 56{,}52$ cm³\n- $V_{kem} = 113{,}04 + 56{,}52 = 169{,}56$ cm³\n\nCâu b:\n- $V_{hộp} = 15 \\cdot 20 \\cdot 12 = 3600$ cm³\n- $V_{thực tế} = 169{,}56 \\cdot 95\\% = 161{,}082$ cm³\n- $n = 3600 / 161{,}082 \\approx 22{,}35$\n- Lấy phần nguyên: 22 que kem",
+      "loi_giai_day_du": "**Câu a) Thể tích kem trong một cây kem:**\n\nBán kính đáy của phần kem hình nón (và phần nửa hình cầu) là:\n$$R = 6 : 2 = 3 \\text{ (cm)}$$\n\nChiều cao của phần kem hình nón là:\n$$h = 15 - 3 = 12 \\text{ (cm)}$$\n\nThể tích của phần kem hình nón:\n$$V_{nón} = \\dfrac{1}{3}\\pi R^2 h \\approx \\dfrac{1}{3} \\cdot 3{,}14 \\cdot 3^2 \\cdot 12 = 113{,}04 \\text{ (cm}^3\\text{)}$$\n\nThể tích phần kem nửa hình cầu:\n$$V_{cầu} = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 \\approx \\dfrac{2}{3} \\cdot 3{,}14 \\cdot 3^3 = 56{,}52 \\text{ (cm}^3\\text{)}$$\n\nThể tích kem trong một cây kem:\n$$V_{kem} = 113{,}04 + 56{,}52 = \\boxed{169{,}56 \\text{ cm}^3}$$\n\n**Câu b) Số que kem có thể chia được:**\n\nThể tích hộp kem:\n$$V_{hộp} = 15 \\cdot 20 \\cdot 12 = 3600 \\text{ (cm}^3\\text{)}$$\n\nVì người bán hàng chia kem vào bánh ốc quế ít hơn 5% so với thể tích chứa đầy, nên lượng kem thực tế trong một cây kem là:\n$$V_{thực tế} = 169{,}56 \\cdot (100\\% - 5\\%) = 161{,}082 \\text{ (cm}^3\\text{)}$$\n\nSố que kem có thể chia được:\n$$n = 3600 : 161{,}082 \\approx 22{,}35 \\text{ (cây)}$$\n\nVậy người bán hàng có thể chia được $\\boxed{22}$ que kem.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hộp kem hình chữ nhật 15×20×12 cm và 1 cây kem (bánh nón + nửa cầu) đường kính 6cm, cao 15cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết cây kem chia thành mấy phần.",
+          "Em quên công thức V nón.",
+          "Em không hiểu 'ít hơn 5%' nghĩa là gì."
+        ],
+        "dinh_huong": [
+          "Em định tách V kem = V nón + V nửa cầu — đúng không?",
+          "Em định tính chiều cao nón = 15 - R = 12 cm — đúng chứ?",
+          "Câu b em định nhân V kem với 95% để được V thực tế — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_{kem} = 169{,}56$ cm³ — đúng không?",
+          "Em ra $V_{thực tế} = 161{,}082$ cm³ — đúng chưa?",
+          "Em ra 22 que kem — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm chiều cao nón = 15 cm thay vì 15-R.",
+          "Em làm tròn lên thành 23 (sai vì không đủ kem).",
+          "Em quên chia 2 cho thể tích hình cầu."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-15/bai5-hopkem.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Toán logic - Giải đấu cờ vua vòng tròn",
+      "de_bai": "Trong một giải đấu cờ vua có $5$ vận động viên thi đấu vòng tròn một lượt; nghĩa là mỗi vận động viên đấu với $4$ vận động viên còn lại mỗi người một trận. Với cách tính điểm cho từng vận động viên như sau: Mỗi trận thắng thì được cộng $1{,}0$ điểm, mỗi trận hoà thì được cộng $0{,}5$ điểm, mỗi trận thua thì không có điểm. Biết rằng, sau khi kết thúc giải đấu mỗi vận động viên đều nhận được số điểm khác nhau và được xếp hạng từ cao đến thấp là nhất, nhì, ba, tư, năm dựa vào số điểm đạt được. Ngoài ra:\n- Vận động viên xếp hạng nhất không hoà trận nào.\n- Vận động viên xếp hạng nhì không thua trận nào.\n- Vận động viên xếp hạng tư không thắng trận nào.\n\na) Giải đấu đã tổ chức tất cả bao nhiêu trận đấu? Vận động viên xếp hạng nhất được bao nhiêu điểm?\n\nb) Em hãy xác định điểm số của mỗi vận động viên còn lại (hạng nhì, hạng ba, hạng tư, hạng năm) và chi tiết kết quả các trận đấu của từng vận động viên.",
+      "phuong_phap_duoc_dung": [
+        "Số trận đấu = $C_5^2 = 10$",
+        "Tổng điểm của giải = số trận × 1 (vì mỗi trận tổng 1 điểm)",
+        "Phân tích logic: VĐV1 không hòa → điểm nguyên",
+        "VĐV2 không thua → chỉ thắng/hòa",
+        "VĐV4 không thắng → chỉ hòa/thua"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tổ hợp",
+        "Suy luận logic",
+        "Phương trình tổng/hiệu"
+      ],
+      "dap_so": "a) 10 trận, VĐV hạng nhất = 3 điểm. b) Hạng nhì 2,5đ; hạng ba 2đ; hạng tư 1,5đ; hạng năm 1đ.",
+      "goi_y_cap_1": "Câu a: Số trận = 4+3+2+1 = 10. Tổng điểm = 10. VĐV1 không hòa → điểm nguyên. VĐV1 phải thua VĐV2 (vì VĐV2 không thua) → VĐV1 thắng nhiều nhất 3 trận → 3 điểm.\n\nCâu b: Tổng 4 VĐV còn lại = 10-3 = 7. VĐV2 không thua → có thể thắng 1, hòa 3 → 2,5đ. Sau đó suy luận tiếp các bộ điểm 2,5; 2; 1,5; 1.",
+      "goi_y_cap_2": "Câu a:\n- Số trận: $4+3+2+1 = 10$ trận (mỗi VĐV đấu với 4 người, mỗi cặp 1 trận)\n- Tổng điểm cả giải = $10 \\times 1 = 10$ điểm (mỗi trận tổng = 1)\n- VĐV1 không hòa → điểm là số nguyên (chỉ có thắng/thua → mỗi trận 0 hoặc 1 điểm)\n- VĐV2 không thua → trận giữa VĐV1 và VĐV2: VĐV2 không thua, VĐV1 không hòa → VĐV2 thắng VĐV1\n- VĐV1 thua VĐV2 → VĐV1 tối đa thắng 3 trận (VĐV3, 4, 5) → tối đa 3 điểm\n- Nếu VĐV1 < 3 thì khó thỏa $A_1 > A_2 > ...$ → VĐV1 = 3 điểm\n\nCâu b:\n- Tổng 4 người còn lại: $10 - 3 = 7$ điểm\n- $3 > A_2 > A_3 > A_4 > A_5$, các điểm là bội của 0,5\n- VĐV2 không thua → đã thắng VĐV1 (1 điểm), còn 3 trận với 3,4,5\n- $A_2 = 1 + $ điểm 3 trận còn lại\n- Bộ điểm thỏa tổng=7, giảm dần, < 3: $2{,}5; 2{,}0; 1{,}5; 1{,}0$\n- Kiểm tra:\n  - $A_2 = 2{,}5$: thắng VĐV1, hòa 3, 4, 5 (thỏa không thua)\n  - $A_4 = 1{,}5$: VĐV4 không thắng → 3 hòa, 1 thua. Hòa VĐV2 (0,5đ), thua VĐV1 (0đ), còn lại 1đ chia cho 2 trận với VĐV3, 5 → hòa 3, hòa 5 (thỏa)\n  - $A_5 = 1{,}0$: thua VĐV1, hòa 2, hòa 4, thua VĐV3 → 0+0,5+0+0,5 = 1\n  - $A_3 = 2{,}0$: thua VĐV1, hòa 2, hòa 4, thắng VĐV5 → 0+0,5+0,5+1 = 2",
+      "loi_giai_day_du": "**Câu a) Số trận đấu và điểm VĐV nhất:**\n\nSố trận đấu của giải là $4 + 3 + 2 + 1 = \\boxed{10}$ trận.\n\nGọi điểm số của 5 vận động viên xếp hạng từ nhất đến năm lần lượt là $A_1, A_2, A_3, A_4, A_5$.\n\nTổng số điểm của cả giải đấu là $10 \\times 1 = 10$ điểm (vì mỗi trận tổng điểm 2 người luôn là 1).\n\nSuy ra $A_1 + A_2 + A_3 + A_4 + A_5 = 10$.\n\nVĐV xếp hạng nhất (VĐV 1) không hòa trận nào, nên điểm số của VĐV 1 chỉ có thể là tổng của các trận thắng (1 điểm) và thua (0 điểm). Do đó $A_1$ phải là số nguyên.\n\nVĐV hạng nhì (VĐV 2) không thua trận nào, nên VĐV 2 chỉ có thắng hoặc hòa.\n\nXét trận đấu giữa VĐV 1 và VĐV 2: Vì VĐV 1 không hòa, VĐV 2 không thua nên kết quả trận này bắt buộc là **VĐV 2 thắng VĐV 1 thua**.\n\nDo đó VĐV 1 thua ít nhất 1 trận (thua VĐV 2), nên điểm tối đa của VĐV 1 là 3 điểm (3 thắng, 1 thua).\n\nNếu $A_1 < 3$ (ví dụ $A_1 = 2$), thì tổng điểm các người sau sẽ lớn, khó thỏa $A_1 > A_2 > \\ldots$. Ta kiểm tra trường hợp $A_1 = 3$ trước.\n\nVới $A_1 = 3$ (Thắng 3, Thua 1), VĐV 1 đã thắng VĐV 3, 4, 5 và thua VĐV 2.\n\nVậy vận động viên xếp hạng nhất được $\\boxed{3}$ điểm.\n\n**Câu b) Điểm số của 4 VĐV còn lại:**\n\nTa có $A_1 = 3$. Tổng điểm 4 người còn lại là $10 - 3 = 7$ điểm.\n\n$3 > A_2 > A_3 > A_4 > A_5$ và các điểm số là bội của $0{,}5$.\n\nVĐV 2 không thua trận nào, đã thắng VĐV 1. Còn lại 3 trận đấu với VĐV 3, 4, 5.\n\nĐiểm $A_2 = 1$ (thắng VĐV 1) + điểm 3 trận còn lại.\n\nNếu VĐV 2 thắng thêm 1 trận nữa thì $A_2 \\geq 2$, có thể áp sát $A_1$. Ta thử trường hợp các điểm số cách đều hoặc sít sao để tổng bằng 7.\n\nBộ số thoả tổng bằng 7 và thứ tự giảm dần nhỏ hơn 3 là: $2{,}5; 2{,}0; 1{,}5; 1{,}0$.\n\nKiểm tra các điều kiện:\n- ✓ $A_2 = 2{,}5$: Thắng VĐV 1, hoà VĐV 3, 4, 5 (Không thua trận nào - **Thoả mãn**).\n- ✓ $A_4 = 1{,}5$: VĐV 4 không thắng trận nào, đã thắng VĐV 1. Các trận của VĐV 4: Thua VĐV 1, Hoà VĐV 2 (do VĐV 2 hoà 3 trận cuối). Còn lại gặp VĐV 3 và VĐV 5. Để được $1{,}5$ điểm thì VĐV 4 phải có 3 trận hoà, 1 trận thua. Tức là VĐV 4 hoà VĐV 2, 3, 5 và thua VĐV 1. (Thoả mãn điều kiện không thắng trận nào).\n- ✓ $A_5 = 1{,}0$: Thua VĐV 1, Hoà VĐV 2, Hoà VĐV 4. Trận cuối gặp VĐV 3 phải thua để tổng là 1. (Thua VĐV 1 và VĐV 3, Hoà VĐV 2 và VĐV 4).\n- ✓ $A_3 = 2{,}0$: Thua VĐV 1, Hoà VĐV 2, Hoà VĐV 4, Thắng VĐV 5. Tổng: $0 + 0{,}5 + 0{,}5 + 1 = 2$. (Thoả mãn).\n\nVậy điểm số và kết quả cụ thể như sau:\n- VĐV hạng nhì: $\\boxed{2{,}5}$ điểm (Thắng nhất; Hoà ba, tư, năm).\n- VĐV hạng ba: $\\boxed{2{,}0}$ điểm (Thắng năm; Hoà nhì, tư; Thua nhất).\n- VĐV hạng tư: $\\boxed{1{,}5}$ điểm (Hoà nhì, ba, năm; Thua nhất).\n- VĐV hạng năm: $\\boxed{1{,}0}$ điểm (Hoà nhì, tư; Thua nhất, ba).",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính số trận đấu vòng tròn.",
+          "Em không hiểu 'không hòa', 'không thua', 'không thắng' nghĩa là gì.",
+          "Em không biết bắt đầu suy luận từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định tính số trận = $C_5^2 = 10$ — đúng không?",
+          "Em định kết luận VĐV1 thua VĐV2 từ điều kiện đề bài — đúng chứ?",
+          "Em định thử bộ điểm $2{,}5; 2; 1{,}5; 1$ rồi kiểm tra — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 10 trận, VĐV1 = 3 điểm — đúng không?",
+          "Em ra điểm hạng nhì = 2,5 — đúng chưa?",
+          "Em kiểm tra tổng 3+2,5+2+1,5+1 = 10 — đúng không?"
+        ],
+        "go_bi": [
+          "Em quên rằng VĐV1 phải thua VĐV2.",
+          "Em không nhận ra điểm $A_1$ phải là số nguyên.",
+          "Em đếm trận VĐV4 thiếu, không thỏa 'không thắng'."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tiếp tuyến và đường tròn (hình viên phân)",
+      "de_bai": "Từ điểm $A$ nằm ngoài đường tròn $(O; R)$, vẽ tiếp tuyến $AB$ và đường kính $BC$. $AC$ cắt $(O)$ tại $D$. Vẽ $BH \\perp AO$ tại $H$ và điểm $M$ là trung điểm $AB$.\n\na) Chứng minh: $BD \\perp AC$ tại $D$ và bốn điểm $A, B, H, D$ cùng thuộc một đường tròn.\n\nb) Chứng minh: $OB^2 = OH \\cdot OA$ và $\\widehat{OHC} = \\widehat{AHD}$.\n\nc) Khi $AH = 12$ cm và $OH = 9$ cm. Tính diện tích hình viên phân giới hạn bởi cung nhỏ $BD$ và dây $BD$. (Kết quả làm tròn đến hàng phần trăm).",
+      "phuong_phap_duoc_dung": [
+        "Góc nội tiếp chắn nửa đường tròn = 90°",
+        "Tứ giác có 2 đỉnh kề nhìn 1 cạnh dưới góc 90° → nội tiếp",
+        "Tam giác đồng dạng (g-g, c-g-c)",
+        "Hệ thức trong tam giác vuông",
+        "Diện tích hình viên phân = S quạt - S tam giác"
+      ],
+      "kien_thuc_lien_quan": [
+        "Góc nội tiếp",
+        "Tứ giác nội tiếp",
+        "Định lý Pythagore",
+        "Diện tích quạt tròn, tam giác đều",
+        "Hình viên phân"
+      ],
+      "dap_so": "c) $S \\approx 17{,}12$ cm².",
+      "goi_y_cap_1": "Câu a: $\\widehat{BDC} = 90°$ (góc nội tiếp chắn nửa đường tròn) → BD ⊥ AC. △ABH vuông tại H và △ADB vuông tại D → cùng nội tiếp đường tròn đường kính AB → A, B, H, D đồng viên.\n\nCâu b: $\\triangle OBH \\sim \\triangle OAB$ (g-g) → $OB^2 = OH \\cdot OA$. Từ $OC = OB$ → $OC^2 = OH \\cdot OA$ → $\\triangle OHC \\sim \\triangle OCA$ (c-g-c) → $\\widehat{OHC} = \\widehat{OCA}$. Sau đó dùng $\\widehat{ABD} = \\widehat{BCD}$ (cùng phụ $\\widehat{DBC}$) và tứ giác ABHD nội tiếp.\n\nCâu c: $OA = 21, OB = R = \\sqrt{189}$. Tính $AB = 6\\sqrt{7}, BC = 6\\sqrt{21}, AC = 12\\sqrt{7}$. Tính $BD = 3\\sqrt{21} = R$ → $\\triangle OBD$ đều → $\\widehat{BOD} = 60°$. Diện tích quạt - diện tích tam giác đều.",
+      "goi_y_cap_2": "Câu a:\n- $\\widehat{BDC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính BC)\n- → $BD \\perp AC$ tại $D$\n- $\\triangle ABH$ vuông tại $H$ → nội tiếp đường tròn đường kính $AB$ (1)\n- $\\triangle ADB$ vuông tại $D$ → nội tiếp đường tròn đường kính $AB$ (2)\n- Từ (1), (2): A, B, H, D cùng thuộc đường tròn đường kính $AB$\n\nCâu b:\n- Xét $\\triangle OBH$ và $\\triangle OAB$:\n  - $\\widehat{BOA}$ chung\n  - $\\widehat{BHO} = \\widehat{OBA} = 90°$\n- → $\\triangle OBH \\sim \\triangle OAB$ (g-g) → $OB^2 = OH \\cdot OA$\n- $OC = OB = R$ → $OC^2 = OH \\cdot OA$ → $\\dfrac{OH}{OC} = \\dfrac{OC}{OA}$\n- $\\triangle OHC \\sim \\triangle OCA$ (c-g-c) → $\\widehat{OHC} = \\widehat{OCA}$ (3)\n- $\\widehat{ABD} = \\widehat{BCD}$ (cùng phụ $\\widehat{DBC}$) (4)\n- Tứ giác ABHD nội tiếp → $\\widehat{ABD} = \\widehat{AHD}$ (cùng chắn cung AD) (5)\n- Từ (3), (4), (5): $\\widehat{OHC} = \\widehat{AHD}$\n\nCâu c:\n- $OA = AH + OH = 12 + 9 = 21$ cm\n- $OB^2 = OH \\cdot OA = 9 \\cdot 21 = 189$ → $OB = R = \\sqrt{189}$\n- $\\triangle ABO$ vuông tại $B$: $AB^2 = OA^2 - OB^2 = 441 - 189 = 252$ → $AB = 6\\sqrt{7}$\n- $BC = 2R = 2\\sqrt{189} = 6\\sqrt{21}$\n- $\\triangle ABC$ vuông tại $B$: $AC^2 = AB^2 + BC^2 = 252 + 756 = 1008$ → $AC = 12\\sqrt{7}$\n- $S_{ABC} = \\dfrac{1}{2}AB \\cdot BC = \\dfrac{1}{2}AC \\cdot BD$\n- → $BD = \\dfrac{AB \\cdot BC}{AC} = \\dfrac{6\\sqrt{7} \\cdot 6\\sqrt{21}}{12\\sqrt{7}} = 3\\sqrt{21}$\n- $BD = OB = OD = R = \\sqrt{189} = 3\\sqrt{21}$ → $\\triangle OBD$ đều → $\\widehat{BOD} = 60°$\n- $S_{quạt} = \\dfrac{\\pi R^2 \\cdot 60}{360} = \\dfrac{189\\pi}{6} = \\dfrac{63\\pi}{2}$\n- $S_{\\triangle OBD\\,đều} = \\dfrac{R^2 \\sqrt{3}}{4} = \\dfrac{189\\sqrt{3}}{4}$\n- $S_{viên phân} = S_q - S_{\\triangle} = \\dfrac{63\\pi}{2} - \\dfrac{189\\sqrt{3}}{4} \\approx 98{,}96 - 81{,}84 = 17{,}12$ cm²",
+      "loi_giai_day_du": "**Câu a) Chứng minh $BD \\perp AC$ và A, B, H, D đồng viên:**\n\nTa có $\\widehat{BDC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $BC$).\n\nSuy ra $BD \\perp AC$ tại $D$. □\n\nXét tứ giác $ABHD$:\n- $\\triangle ABH$ vuông tại $H$ (do $BH \\perp AO$) → $\\triangle ABH$ nội tiếp đường tròn đường kính $AB$ (1).\n- $\\triangle ADB$ vuông tại $D$ (do $BD \\perp AC$) → $\\triangle ADB$ nội tiếp đường tròn đường kính $AB$ (2).\n\nTừ (1) và (2) suy ra bốn điểm $A, B, H, D$ cùng thuộc một đường tròn đường kính $AB$. □\n\n**Câu b) Chứng minh $OB^2 = OH \\cdot OA$ và $\\widehat{OHC} = \\widehat{AHD}$:**\n\n*Chứng minh $OB^2 = OH \\cdot OA$:*\n\nXét $\\triangle OBH$ và $\\triangle OAB$:\n- $\\widehat{BOA}$ là góc chung\n- $\\widehat{BHO} = \\widehat{OBA} = 90°$\n\n$\\Rightarrow \\triangle OBH \\sim \\triangle OAB$ (g-g) $\\Rightarrow \\dfrac{OB}{OA} = \\dfrac{OH}{OB} \\Rightarrow OB^2 = OH \\cdot OA$. □\n\n*Chứng minh $\\widehat{OHC} = \\widehat{AHD}$:*\n\nTa có $OC = OB = R$ nên $OC^2 = OB^2$.\n\nMà $OB^2 = OH \\cdot OA$ (cmt) nên $OC^2 = OH \\cdot OA \\Rightarrow \\dfrac{OH}{OC} = \\dfrac{OC}{OA}$.\n\nXét $\\triangle OHC$ và $\\triangle OCA$:\n- $\\widehat{COA}$ là góc chung\n- $\\dfrac{OH}{OC} = \\dfrac{OC}{OA}$\n\n$\\Rightarrow \\triangle OHC \\sim \\triangle OCA$ (c-g-c) $\\Rightarrow \\widehat{OHC} = \\widehat{OCA}$ (3).\n\nTa có $\\widehat{ABD} = \\widehat{BCD}$ (cùng phụ $\\widehat{DBC}$) (4).\n\nTứ giác $ABHD$ nội tiếp (chứng minh ở câu a).\n\n$\\Rightarrow \\widehat{ABD} = \\widehat{AHD}$ (hai góc nội tiếp cùng chắn cung $AD$) (5).\n\nTừ (3), (4) và (5) suy ra $\\widehat{OHC} = \\widehat{AHD}$. □\n\n**Câu c) Tính diện tích hình viên phân:**\n\nTa có $OA = AH + OH = 12 + 9 = 21$ (cm).\n\n$OB^2 = OH \\cdot OA = 9 \\cdot 21 = 189 \\Rightarrow OB = R = \\sqrt{189}$ (cm).\n\nXét $\\triangle ABO$ vuông tại $B$ (do $AB$ là tiếp tuyến):\n$$OA^2 = AB^2 + OB^2 \\text{ (định lý Pythagore)}$$\n$$\\Rightarrow AB^2 = OA^2 - OB^2 = 21^2 - 189 = 252$$\n$$\\Rightarrow AB = \\sqrt{252} = 6\\sqrt{7} \\text{ (cm)}$$\n\nVì $BC$ là đường kính nên $BC = 2R = 2\\sqrt{189} = 6\\sqrt{21}$ (cm).\n\nXét $\\triangle ABC$ vuông tại $B$ (do $AB \\perp BC$):\n$$AC^2 = AB^2 + BC^2 \\text{ (định lý Pythagore)}$$\n$$\\Rightarrow AC^2 = 252 + 756 = 1008 \\Rightarrow AC = \\sqrt{1008} = 12\\sqrt{7} \\text{ (cm)}$$\n\nTa có diện tích $\\triangle ABC$ được tính bằng hai cách:\n$$S_{ABC} = \\dfrac{1}{2}AB \\cdot BC = \\dfrac{1}{2}AC \\cdot BD \\text{ (do } BD \\perp AC\\text{)}$$\n$$\\Rightarrow AB \\cdot BC = AC \\cdot BD$$\n$$\\Rightarrow BD = \\dfrac{AB \\cdot BC}{AC} = \\dfrac{6\\sqrt{7} \\cdot 6\\sqrt{21}}{12\\sqrt{7}} = \\dfrac{36\\sqrt{21}}{12} = 3\\sqrt{21} \\text{ (cm)}$$\n\nTa có $BD = OB = OD = R = 3\\sqrt{21}$ cm.\n\nDo đó $\\triangle OBD$ là tam giác đều $\\Rightarrow \\widehat{BOD} = 60°$.\n\nDiện tích hình quạt tròn giới hạn bởi cung nhỏ $BD$:\n$$S_q = \\dfrac{\\pi R^2 n}{360} = \\dfrac{\\pi \\cdot 189 \\cdot 60}{360} = \\dfrac{189\\pi}{6} = \\dfrac{63\\pi}{2} \\text{ (cm}^2\\text{)}$$\n\nDiện tích tam giác đều $OBD$ cạnh $R$:\n$$S_{\\triangle OBD} = \\dfrac{R^2 \\sqrt{3}}{4} = \\dfrac{189\\sqrt{3}}{4} \\text{ (cm}^2\\text{)}$$\n\nDiện tích hình viên phân cần tìm là:\n$$S = S_q - S_{\\triangle OBD} = \\dfrac{63\\pi}{2} - \\dfrac{189\\sqrt{3}}{4} \\approx 98{,}96 - 81{,}84 = \\boxed{17{,}12 \\text{ cm}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), điểm A ngoài, tiếp tuyến AB, đường kính BC, AC cắt (O) tại D, BH ⊥ AO tại H, M trung điểm AB.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu từ đâu.",
+          "Em không nhớ góc nội tiếp chắn nửa đường tròn = 90°.",
+          "Em không hiểu hình viên phân là gì."
+        ],
+        "dinh_huong": [
+          "Câu a em định dùng góc nội tiếp 90° để có $BD \\perp AC$ — đúng không?",
+          "Câu b em định dùng đồng dạng OBH với OAB — đúng chứ?",
+          "Câu c em định tính BD bằng diện tích △ABC tính 2 cách — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra A, B, H, D đồng viên đường kính AB — đúng không?",
+          "Em ra $OB^2 = OH \\cdot OA = 189$ — đúng chưa?",
+          "Em ra $S \\approx 17{,}12$ cm² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết hình viên phân = quạt - tam giác.",
+          "Em không nhận ra △OBD đều.",
+          "Em tính BD sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-15/bai7-tieptuyen.png"
+    }
+  ]
+}

@@ -1,0 +1,351 @@
+{
+  "de_so": 17,
+  "cum": 6,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = 2x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ trên mặt phẳng tọa độ $Oxy$.\n\nb) Tìm điểm thuộc $(P)$ khác gốc tọa độ có tung độ và hoành độ là hai số đối nhau.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị",
+        "'Tung độ và hoành độ là hai số đối nhau' → $y = -x$",
+        "Giải phương trình bậc hai",
+        "Loại nghiệm $x = 0$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Hai số đối nhau"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $\\left(-\\dfrac{1}{2}; \\dfrac{1}{2}\\right)$.",
+      "goi_y_cap_1": "Câu a: Bảng với x = -2, -1, 0, 1, 2.\n\nCâu b: Hai số đối nhau → $y = -x$. Thay vào (P): $-x = 2x^2$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -2 \\to y = 8$; $x = -1 \\to y = 2$; $x = 0 \\to y = 0$; $x = 1 \\to y = 2$; $x = 2 \\to y = 8$\n\nCâu b:\n- $y = -x$ thay vào (P): $-x = 2x^2$\n- $2x^2 + x = 0 \\Leftrightarrow x(2x + 1) = 0$\n- $x_1 = 0$ (loại) hoặc $x_2 = -\\dfrac{1}{2}$\n- $x = -\\dfrac{1}{2} \\Rightarrow y = \\dfrac{1}{2}$\n- Điểm cần tìm $\\left(-\\dfrac{1}{2}; \\dfrac{1}{2}\\right)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = 2x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm điểm cần tìm:**\n\nVì điểm cần tìm có tung độ và hoành độ là hai số đối nhau nên ta có $y = -x$.\n\nTa có phương trình $-x = 2x^2$\n\n$2x^2 + x = 0$\n\n$x_1 = 0$ ; $x_2 = -\\dfrac{1}{2}$\n\nVì điểm cần tìm khác gốc tọa độ nên loại $x_1 = 0$, nhận $x_2 = -\\dfrac{1}{2}$.\n\nVới $x_2 = -\\dfrac{1}{2}$ suy ra $y_2 = -\\left(-\\dfrac{1}{2}\\right) = \\dfrac{1}{2}$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{\\left(-\\dfrac{1}{2}; \\dfrac{1}{2}\\right)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = 2x² bề lõm quay lên trên.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'hai số đối nhau' nghĩa là gì.",
+          "Em không biết viết $y$ theo $x$.",
+          "Em không biết loại nghiệm nào."
+        ],
+        "dinh_huong": [
+          "Em định viết $y = -x$ — đúng không?",
+          "Em định thay vào (P) — đúng chứ?",
+          "Em định loại $x = 0$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra 2 nghiệm $x = 0$ và $x = -1/2$ — đúng không?",
+          "Em loại $x = 0$, nhận $x = -1/2$ — đúng chưa?",
+          "Em ra điểm $(-1/2; 1/2)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'đối nhau' với 'bằng nhau'.",
+          "Em không biết phân tích thành tích $x(2x+1) = 0$.",
+          "Em không loại $x = 0$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-17/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức kết hợp với 1/x",
+      "de_bai": "Cho phương trình $3x^2 + 5x - 6 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức $A = x_1^2 + x_2^2 - \\dfrac{1}{x_1} - \\dfrac{1}{x_2}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "$\\dfrac{1}{x_1} + \\dfrac{1}{x_2} = \\dfrac{x_1+x_2}{x_1 x_2}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Quy đồng phân thức"
+      ],
+      "dap_so": "$A = \\dfrac{107}{18}$",
+      "goi_y_cap_1": "Câu a: Δ = 25 + 72 = 97 > 0.\n\nCâu b: Tách $A = (x_1^2 + x_2^2) - \\dfrac{x_1 + x_2}{x_1 x_2}$. Dùng Viète.",
+      "goi_y_cap_2": "Câu a:\n- $a = 3; b = 5; c = -6$\n- $\\Delta = 25 + 72 = 97 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = -\\dfrac{5}{3}$, $x_1 x_2 = -2$\n- $x_1^2 + x_2^2 = \\left(-\\dfrac{5}{3}\\right)^2 - 2(-2) = \\dfrac{25}{9} + 4 = \\dfrac{61}{9}$\n- $\\dfrac{1}{x_1} + \\dfrac{1}{x_2} = \\dfrac{x_1+x_2}{x_1 x_2} = \\dfrac{-5/3}{-2} = \\dfrac{5}{6}$\n- $A = \\dfrac{61}{9} - \\dfrac{5}{6} = \\dfrac{122 - 15}{18} = \\dfrac{107}{18}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $3x^2 + 5x - 6 = 0$ với $a = 3; b = 5; c = -6$.\n\n$\\Delta = b^2 - 4ac = 5^2 - 4 \\cdot 3 \\cdot (-6) = 25 + 72 = 97 > 0$.\n\nVì $\\Delta > 0$ nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = -\\dfrac{5}{3} \\\\ x_1 x_2 = -\\dfrac{6}{3} = -2 \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = \\left(-\\dfrac{5}{3}\\right)^2 - 2(-2) = \\dfrac{61}{9}$.\n\nBiến đổi biểu thức $A$:\n$$A = (x_1^2 + x_2^2) - \\left(\\dfrac{1}{x_1} + \\dfrac{1}{x_2}\\right)$$\n$$= (x_1^2 + x_2^2) - \\dfrac{x_1 + x_2}{x_1 x_2}$$\n\nThế giá trị:\n$$A = \\dfrac{61}{9} - \\dfrac{-5/3}{-2} = \\dfrac{61}{9} - \\dfrac{5}{6} = \\dfrac{122 - 15}{18} = \\boxed{\\dfrac{107}{18}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng $\\dfrac{1}{x_1} + \\dfrac{1}{x_2}$.",
+          "Em quên Viète.",
+          "Em không biết bắt đầu biến đổi từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng để có $\\dfrac{x_1+x_2}{x_1 x_2}$ — đúng không?",
+          "Em định dùng $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$ — đúng chứ?",
+          "Em định tính 2 phần riêng rồi trừ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = -5/3$, $x_1 x_2 = -2$ — đúng không?",
+          "Em ra $x_1^2 + x_2^2 = 61/9$ — đúng chưa?",
+          "Em ra $A = 107/18$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm dấu khi tính $\\dfrac{-5/3}{-2}$.",
+          "Em quy đồng phân số sai.",
+          "Em không trừ mà cộng nhầm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Bảng giá xăng dầu - Xác suất",
+      "de_bai": "Bảng số liệu dưới đây cho biết giá cả và lượng tiêu thụ của các loại xăng dầu trong một năm.\n\n| Loại xăng | Giá (VNĐ/lít) | Lượng tiêu thụ (lít/năm) |\n|---|---|---|\n| A95 | 25.100 | 3.500 |\n| A92 | 23.700 | 4.000 |\n| Diesel | 22.450 | 1.200 |\n| E5 (xăng sinh học) | 24.500 | 1.000 |\n| E10 (xăng sinh học) | 24.850 | 800 |\n\na) Hãy cho biết doanh thu của từng loại xăng và xác định loại xăng có doanh thu cao nhất.\n\nb) Người ta chọn ngẫu nhiên một loại xăng trong danh sách trên, với xác suất tỉ lệ thuận với lượng tiêu thụ của từng loại. Hãy tính xác suất của các biến cố sau:\n- $A$: \"Xăng được chọn là xăng A95\".\n- $B$: \"Xăng được chọn là xăng sinh học\".\n- $C$: \"Xăng được chọn có giá không thấp hơn 24.500 VNĐ/lít\".",
+      "phuong_phap_duoc_dung": [
+        "Doanh thu = giá × lượng tiêu thụ",
+        "Tổng tiêu thụ làm không gian mẫu",
+        "P = lượng tiêu thụ của biến cố / tổng"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tỉ lệ thuận",
+        "Xác suất tỉ lệ thuận"
+      ],
+      "dap_so": "a) A92 doanh thu cao nhất (94.800.000 VNĐ). b) $P(A) = \\dfrac{1}{3}$, $P(B) = \\dfrac{6}{35}$, $P(C) = \\dfrac{53}{105}$.",
+      "goi_y_cap_1": "Câu a: Doanh thu = giá × tiêu thụ. So sánh 5 doanh thu, A92 cao nhất.\n\nCâu b: Tổng tiêu thụ = 10500. P(A) = 3500/10500. P(B) = (E5+E10)/10500 = 1800/10500. P(C) = các loại có giá ≥ 24500: A95 (25100), E5 (24500), E10 (24850). Tổng = 5300/10500.",
+      "goi_y_cap_2": "Câu a:\n- A95: $25100 \\cdot 3500 = 87\\,850\\,000$ VNĐ\n- A92: $23700 \\cdot 4000 = 94\\,800\\,000$ VNĐ ✓ (cao nhất)\n- Diesel: $22450 \\cdot 1200 = 26\\,940\\,000$ VNĐ\n- E5: $24500 \\cdot 1000 = 24\\,500\\,000$ VNĐ\n- E10: $24850 \\cdot 800 = 19\\,880\\,000$ VNĐ\n\nCâu b:\n- $n(\\Omega) = 3500+4000+1200+1000+800 = 10500$\n- $P(A) = \\dfrac{3500}{10500} = \\dfrac{1}{3}$\n- $P(B) = \\dfrac{1000+800}{10500} = \\dfrac{1800}{10500} = \\dfrac{6}{35}$\n- $P(C)$: giá $\\geq 24500$ → A95, E5, E10. Tiêu thụ $= 3500+1000+800 = 5300$\n- $P(C) = \\dfrac{5300}{10500} = \\dfrac{53}{105}$",
+      "loi_giai_day_du": "**Câu a) Doanh thu từng loại xăng:**\n\n- ✓ A95: $25\\,100 \\cdot 3\\,500 = 87\\,850\\,000$ (VNĐ)\n- ✓ A92: $23\\,700 \\cdot 4\\,000 = 94\\,800\\,000$ (VNĐ)\n- ✓ Diesel: $22\\,450 \\cdot 1\\,200 = 26\\,940\\,000$ (VNĐ)\n- ✓ E5: $24\\,500 \\cdot 1\\,000 = 24\\,500\\,000$ (VNĐ)\n- ✓ E10: $24\\,850 \\cdot 800 = 19\\,880\\,000$ (VNĐ)\n\nSo sánh doanh thu các loại xăng, ta thấy xăng A92 có doanh thu cao nhất ($94\\,800\\,000$ VNĐ).\n\nVậy loại xăng có doanh thu cao nhất là $\\boxed{\\text{A92}}$.\n\n**Câu b) Tính xác suất:**\n\nTổng lượng tiêu thụ của tất cả các loại xăng (không gian mẫu) là:\n$$n(\\Omega) = 3\\,500 + 4\\,000 + 1\\,200 + 1\\,000 + 800 = 10\\,500 \\text{ (lít)}$$\n\n***Biến cố A: \"Xăng được chọn là xăng A95\".***\n\nLượng tiêu thụ xăng A95 là $3\\,500$ lít.\n\n$$P(A) = \\dfrac{3\\,500}{10\\,500} = \\boxed{\\dfrac{1}{3}}$$\n\n***Biến cố B: \"Xăng được chọn là xăng sinh học\".***\n\nCác loại xăng sinh học gồm E5 và E10.\n\nLượng tiêu thụ xăng sinh học là $1\\,000 + 800 = 1\\,800$ (lít).\n\n$$P(B) = \\dfrac{1\\,800}{10\\,500} = \\boxed{\\dfrac{6}{35}}$$\n\n***Biến cố C: \"Xăng được chọn có giá không thấp hơn 24.500 VNĐ/lít\".***\n\nCác loại xăng có giá từ $24\\,500$ VNĐ trở lên gồm: A95 ($25\\,100$), E5 ($24\\,500$), E10 ($24\\,850$).\n\nTổng lượng tiêu thụ các loại này là $3\\,500 + 1\\,000 + 800 = 5\\,300$ (lít).\n\n$$P(C) = \\dfrac{5\\,300}{10\\,500} = \\boxed{\\dfrac{53}{105}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính doanh thu thế nào.",
+          "Em không hiểu 'xác suất tỉ lệ thuận với lượng tiêu thụ' nghĩa là gì.",
+          "Em không biết 'không thấp hơn' nghĩa là gì."
+        ],
+        "dinh_huong": [
+          "Em định doanh thu = giá × tiêu thụ — đúng không?",
+          "Em định không gian mẫu = tổng tiêu thụ — đúng chứ?",
+          "Em định 'không thấp hơn 24500' = $\\geq 24500$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra A92 cao nhất — đúng không?",
+          "Em ra $P(A) = 1/3$ — đúng chưa?",
+          "Em ra $P(C) = 53/105$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm thiếu loại xăng cho biến cố C.",
+          "Em không rút gọn $1800/10500 = 6/35$.",
+          "Em nhầm 'không thấp hơn' = $> 24500$ thay vì $\\geq$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Phễu hình nón và ống nghiệm",
+      "de_bai": "Thầy dạy môn Hóa sử dụng một ống nghiệm hình trụ đang chứa dung dịch Copper (II) Sulfate ($CuSO_4$) có thể tích $67$ ml. Đổ toàn bộ lượng chất lỏng có trong ống nghiệm vào trong một cốc phễu hình nón (Xem hình vẽ) có bán kính mặt đáy là $3$ cm, và cao $6$ cm tính từ mặt đáy đến đỉnh hình nón.\n\nQuang và Thái đã phát biểu ý kiến của mình với thầy như sau:\n- Bạn Quang cho rằng: Phễu sẽ đủ lớn để chứa được toàn bộ nước trong ống nghiệm hình trụ đổ qua.\n- Bạn Thái cho rằng: Phễu không đủ lớn để chứa nước trong ống nghiệm hình trụ đổ qua và sẽ bị tràn ra ngoài.\n\nBằng các phép tính, em hãy cho biết bạn nào đã trả lời đúng? Biết công thức tính thể tích hình nón: $V = \\dfrac{1}{3}\\pi R^2 \\cdot h$, với $R$ là bán kính hình tròn đáy, $h$ là chiều cao hình nón.",
+      "phuong_phap_duoc_dung": [
+        "Tính V phễu hình nón",
+        "So sánh với 67 ml = 67 cm³",
+        "1 ml = 1 cm³"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình nón",
+        "Đổi đơn vị ml ↔ cm³"
+      ],
+      "dap_so": "Bạn Thái đúng (V phễu $\\approx 56{,}52$ ml < 67 ml).",
+      "goi_y_cap_1": "V nón = (1/3)π·3²·6 = 18π ≈ 56,52 cm³ = 56,52 ml. So sánh với 67 ml.",
+      "goi_y_cap_2": "- $V_{nón} = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi \\cdot 9 \\cdot 6 = 18\\pi$ cm³\n- Lấy $\\pi \\approx 3{,}14$: $V_{nón} \\approx 18 \\cdot 3{,}14 = 56{,}52$ cm³ = 56,52 ml\n- $V_{lỏng} = 67$ ml\n- $56{,}52 < 67$ → V nón < V lỏng → tràn → Bạn Thái đúng",
+      "loi_giai_day_du": "Thể tích tối đa của chiếc phễu hình nón là:\n$$V_{nón} = \\dfrac{1}{3}\\pi R^2 h = \\dfrac{1}{3}\\pi \\cdot 3^2 \\cdot 6 = 18\\pi \\text{ (cm}^3\\text{)}$$\n\nLấy $\\pi \\approx 3{,}14$, ta có:\n$$V_{nón} \\approx 18 \\cdot 3{,}14 = 56{,}52 \\text{ (cm}^3\\text{)} = 56{,}52 \\text{ (ml)}$$\n\nThể tích lượng chất lỏng trong ống nghiệm là $V_{lỏng} = 67$ ml.\n\nVì $56{,}52 < 67$ nên $V_{nón} < V_{lỏng}$.\n\nVậy phễu không đủ lớn để chứa hết nước và sẽ bị tràn ra ngoài. Do đó, bạn Thái đã trả lời đúng.\n\nKết luận: $\\boxed{\\text{Bạn Thái đúng}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bên trái: ống nghiệm hình trụ chứa dung dịch CuSO₄ thể tích 67 ml. Bên phải: phễu hình nón đáy r=3cm, cao 6cm, có nước chiết xuống.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức V hình nón.",
+          "Em không biết đổi ml sang cm³.",
+          "Em không biết bắt đầu so sánh từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định tính V phễu trước — đúng không?",
+          "Em định lấy π ≈ 3,14 — đúng chứ?",
+          "Em định so sánh V phễu với 67 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra V phễu = 18π cm³ — đúng không?",
+          "Em ra $V_{nón} \\approx 56{,}52$ ml — đúng chưa?",
+          "Em kết luận Thái đúng — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 1 ml = 0,001 cm³ thay vì = 1 cm³.",
+          "Em quên chia 3 trong công thức V hình nón.",
+          "Em ra V phễu > 67 (sai do dùng V trụ thay vì V nón)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-17/bai4-pheunon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Trồng cây (phương trình bậc hai)",
+      "de_bai": "Một người dự định trồng $126$ cây theo thời gian định trước. Nhưng do thời tiết xấu nên mỗi ngày trồng được ít hơn $5$ cây, vì thế khi trồng xong chậm mất $5$ ngày so với dự kiến. Hỏi thực tế mỗi ngày người đó trồng được bao nhiêu cây?",
+      "phuong_phap_duoc_dung": [
+        "Đặt $x$ = số cây thực tế mỗi ngày",
+        "Số cây dự định mỗi ngày = $x + 5$",
+        "Thời gian thực tế - thời gian dự định = 5",
+        "$\\dfrac{126}{x} - \\dfrac{126}{x+5} = 5$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Phương trình bậc hai",
+        "Quan hệ thời gian = công việc / năng suất"
+      ],
+      "dap_so": "Thực tế mỗi ngày trồng được 9 cây.",
+      "goi_y_cap_1": "Đặt $x$ là số cây/ngày thực tế. Số cây/ngày dự định = $x + 5$. Lập phương trình thời gian.",
+      "goi_y_cap_2": "- Gọi $x$ (cây) là số cây thực tế trồng mỗi ngày ($x \\in \\mathbb{N}^*$)\n- Số cây dự định trồng mỗi ngày: $x + 5$\n- Thời gian thực tế: $\\dfrac{126}{x}$ (ngày)\n- Thời gian dự định: $\\dfrac{126}{x+5}$ (ngày)\n- $\\dfrac{126}{x} - \\dfrac{126}{x+5} = 5$\n- $126(x+5) - 126x = 5x(x+5)$\n- $630 = 5x^2 + 25x$\n- $x^2 + 5x - 126 = 0$\n- $x = 9$ (nhận) hoặc $x = -14$ (loại)\n- Vậy mỗi ngày trồng 9 cây",
+      "loi_giai_day_du": "Gọi $x$ (cây) là số cây thực tế người đó trồng được mỗi ngày ($x \\in \\mathbb{N}^*$).\n\nVì thực tế trồng ít hơn dự định 5 cây nên số cây dự định trồng mỗi ngày là $x + 5$ (cây).\n\nThời gian thực tế để trồng xong $126$ cây là $\\dfrac{126}{x}$ (ngày).\n\nThời gian dự định để trồng xong $126$ cây là $\\dfrac{126}{x+5}$ (ngày).\n\nVì thời gian thực tế chậm hơn dự định 5 ngày nên ta có phương trình:\n$$\\dfrac{126}{x} - \\dfrac{126}{x+5} = 5$$\n\n$$126(x+5) - 126x = 5x(x+5)$$\n\n$$126x + 630 - 126x = 5x^2 + 25x$$\n\n$$5x^2 + 25x - 630 = 0$$\n\n$$x^2 + 5x - 126 = 0$$\n\n$$x = 9 \\text{ hoặc } x = -14$$\n\nVì $x > 0$ nên nhận $x = 9$, loại $x = -14$.\n\nVậy thực tế mỗi ngày người đó trồng được $\\boxed{9}$ cây.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bài này phải đặt ẩn nào.",
+          "Em không biết viết quan hệ thời gian = công việc / năng suất.",
+          "Em không biết bắt đầu lập phương trình từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x$ = số cây/ngày thực tế — đúng không?",
+          "Em định số cây/ngày dự định = $x + 5$ — đúng chứ?",
+          "Em định T thực - T dự định = 5 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $\\dfrac{126}{x} - \\dfrac{126}{x+5} = 5$ — đúng không?",
+          "Em ra phương trình $x^2 + 5x - 126 = 0$ — đúng chưa?",
+          "Em ra $x = 9$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quy đồng phân số sai.",
+          "Em nhầm 'ít hơn 5' thành 'gấp 5 lần'.",
+          "Em không loại nghiệm âm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Kho hàng nhập gạo (lũy thừa + bất phương trình)",
+      "de_bai": "Một kho hàng nhập gạo (trong kho chưa có gạo) trong $4$ ngày liên tiếp và mỗi ngày (từ ngày thứ hai) đều nhập một lượng gạo bằng $120\\%$ lượng gạo đã nhập vào kho trong ngày trước đó. Biết rằng ngày thứ 3, sau khi nhập xong thì trong kho có tất cả $91$ tấn gạo.\n\na) Tính lượng gạo kho hàng nhập ngày thứ nhất.\n\nb) Sau đó, vào ngày thứ 5, kho ngừng nhập và xuất một lượng gạo bằng $a\\%$ lượng gạo có trong kho. Hỏi giá trị $a$ nằm trong khoảng nào (làm tròn kết quả đến hàng đơn vị) để lượng gạo còn lại trong kho nằm trong khoảng từ $74$ tấn đến $94$ tấn?",
+      "phuong_phap_duoc_dung": [
+        "Đặt $x$ = lượng gạo ngày 1",
+        "Ngày 2 = $1{,}2x$, ngày 3 = $1{,}44x$",
+        "Tổng 3 ngày đầu = 91 → $x = 25$",
+        "Ngày 4 = $1{,}728x = 43{,}2$ → tổng 4 ngày = 134,2",
+        "Bất phương trình $74 \\leq 134{,}2 - 1{,}342a \\leq 94$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Lũy thừa của tỉ lệ phần trăm",
+        "Bất phương trình bậc nhất",
+        "Đặt biến cho ẩn"
+      ],
+      "dap_so": "a) 25 tấn. b) $30 \\leq a \\leq 45$.",
+      "goi_y_cap_1": "Câu a: Đặt $x$ = ngày 1. Ngày 2 = 1,2x. Ngày 3 = 1,44x. Tổng = 3,64x = 91 → $x = 25$.\n\nCâu b: Ngày 4 = 1,728·25 = 43,2. Sau 4 ngày kho có 91 + 43,2 = 134,2. Xuất ngày 5 = 134,2·a%. Còn lại = 134,2(1 - a/100) = 134,2 - 1,342a. Bất pt: 74 ≤ 134,2 - 1,342a ≤ 94.",
+      "goi_y_cap_2": "Câu a:\n- Gọi $x$ (tấn) là lượng gạo nhập ngày 1 ($x > 0$)\n- Ngày 2: $120\\% \\cdot x = 1{,}2x$\n- Ngày 3: $120\\% \\cdot 1{,}2x = 1{,}44x$\n- Tổng 3 ngày = 91: $x + 1{,}2x + 1{,}44x = 91$\n- $3{,}64x = 91 \\Rightarrow x = 25$ (tấn)\n\nCâu b:\n- Ngày 4: $1{,}2 \\cdot 1{,}44x = 1{,}728 \\cdot 25 = 43{,}2$ tấn\n- Tổng kho sau 4 ngày: $91 + 43{,}2 = 134{,}2$ tấn\n- Xuất ngày 5: $134{,}2 \\cdot a\\% = 1{,}342a$ tấn\n- Còn lại: $134{,}2 - 1{,}342a$ tấn\n- $74 \\leq 134{,}2 - 1{,}342a \\leq 94$\n- $-60{,}2 \\leq -1{,}342a \\leq -40{,}2$\n- $\\dfrac{40{,}2}{1{,}342} \\leq a \\leq \\dfrac{60{,}2}{1{,}342}$\n- $29{,}955... \\leq a \\leq 44{,}858...$\n- Làm tròn: $30 \\leq a \\leq 45$",
+      "loi_giai_day_du": "**Câu a) Lượng gạo nhập ngày 1:**\n\nGọi $x$ (tấn) là lượng gạo nhập vào ngày thứ nhất ($x > 0$).\n\nLượng gạo nhập vào ngày thứ hai là: $120\\% \\cdot x = 1{,}2x$ (tấn).\n\nLượng gạo nhập vào ngày thứ ba là: $120\\% \\cdot 1{,}2x = 1{,}44x$ (tấn).\n\nTổng lượng gạo trong kho sau ngày thứ ba là $91$ tấn, ta có phương trình:\n$$x + 1{,}2x + 1{,}44x = 91$$\n$$3{,}64x = 91$$\n$$x = 25 \\text{ (nhận)}$$\n\nVậy lượng gạo nhập ngày thứ nhất là $\\boxed{25}$ tấn.\n\n**Câu b) Tìm khoảng giá trị a:**\n\nLượng gạo nhập vào ngày thứ tư là:\n$$1{,}2 \\cdot 1{,}44 \\cdot 25 = 1{,}728 \\cdot 25 = 43{,}2 \\text{ (tấn)}$$\n\nTổng lượng gạo có trong kho sau 4 ngày là:\n$$91 + 43{,}2 = 134{,}2 \\text{ (tấn)}$$\n\nLượng gạo xuất đi trong ngày thứ 5 là $134{,}2 \\cdot a\\% = 1{,}342a$ (tấn).\n\nLượng gạo còn lại trong kho là $134{,}2 - 1{,}342a$ (tấn).\n\nTheo đề bài, lượng gạo còn lại nằm trong khoảng từ $74$ đến $94$ tấn nên:\n$$74 \\leq 134{,}2 - 1{,}342a \\leq 94$$\n$$-60{,}2 \\leq -1{,}342a \\leq -40{,}2$$\n$$\\dfrac{60{,}2}{1{,}342} \\geq a \\geq \\dfrac{40{,}2}{1{,}342}$$\n$$44{,}858\\ldots \\geq a \\geq 29{,}955\\ldots$$\n\nLàm tròn kết quả đến hàng đơn vị, ta được $30 \\leq a \\leq 45$.\n\nVậy giá trị $a$ nằm trong khoảng $\\boxed{[30; 45]}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính lượng gạo ngày 2, ngày 3.",
+          "Em không hiểu '120% so với ngày trước' là gì.",
+          "Câu b em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định ngày 2 = 1,2x và ngày 3 = 1,44x — đúng không?",
+          "Em định tổng 3 ngày = 91 để tìm $x$ — đúng chứ?",
+          "Câu b em định lập bất phương trình kép — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x = 25$ — đúng không?",
+          "Em ra ngày 4 = 43,2 tấn — đúng chưa?",
+          "Em ra $30 \\leq a \\leq 45$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $1{,}2 \\cdot 1{,}2 = 1{,}24$ thay vì $1{,}44$.",
+          "Em không lấy phép chia $40{,}2 / 1{,}342$.",
+          "Em đảo dấu khi chia âm sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Cát tuyến và đường tròn (5 điểm đồng viên)",
+      "de_bai": "Cho đường tròn $(O; R)$. Lấy điểm $A$ nằm ngoài $(O)$ sao cho $OA = 2R$. Từ $A$ vẽ hai tiếp tuyến $AB, AC$ với $(O)$ ($B, C$ là hai tiếp điểm). Vẽ cát tuyến qua $A$ cắt đường tròn $(O)$ tại $D$ và $E$ ($O$ nằm trong $\\widehat{BAE}$; $D$ nằm giữa $A$ và $E$). Vẽ $OI$ vuông góc với $DE$ tại $I$.\n\na) Chứng minh: 5 điểm $A, B, O, I, C$ cùng thuộc một đường tròn. Xác định tâm $K$ và bán kính của đường tròn này.\n\nb) Chứng minh: $AB^2 = AD \\cdot AE$.\n\nc) Tính diện tích phần hình tròn giới hạn bởi cung nhỏ $OC$ và dây cung $OC$ của $(K)$ biết $R = 5{,}1$ cm và $\\pi \\approx 3{,}14$ (làm tròn đến chữ số thập phân thứ hai).",
+      "phuong_phap_duoc_dung": [
+        "Tam giác có góc 90° → nội tiếp đường tròn đường kính cạnh huyền",
+        "5 điểm đồng viên trên đường tròn đường kính AO",
+        "Tam giác đồng dạng (hệ thức tiếp tuyến - cát tuyến)",
+        "Tam giác đều → diện tích",
+        "Diện tích hình quạt - tam giác đều"
+      ],
+      "kien_thuc_lien_quan": [
+        "5 điểm đồng viên",
+        "Hệ thức tiếp tuyến - cát tuyến",
+        "Diện tích hình quạt"
+      ],
+      "dap_so": "a) Tâm $K$ là trung điểm $AO$, bán kính $= R$. b) $AB^2 = AD \\cdot AE$. c) $S \\approx 2{,}35$ cm².",
+      "goi_y_cap_1": "Câu a: △ABO, △ACO, △AIO đều vuông → cùng nội tiếp đường tròn đường kính AO. Tâm K = trung điểm AO. Bán kính = OA/2 = R.\n\nCâu b: Vẽ đường kính BF. △ABD ~ △AEB (g-g) → AB² = AD·AE.\n\nCâu c: Trong △ACO vuông tại C: $\\sin\\widehat{OAC} = OC/OA = R/2R = 1/2 → \\widehat{OAC} = 30°$. Đường tròn (K) có KO = KC = R, OC = R → △KOC đều → góc OKC = 60°. S = S quạt 60° - S tam giác đều cạnh R.",
+      "goi_y_cap_2": "Câu a:\n- $\\triangle ABO$ vuông tại B (AB tiếp tuyến) → nội tiếp đường tròn đường kính AO (1)\n- $\\triangle ACO$ vuông tại C → nội tiếp đường tròn đường kính AO (2)\n- $\\triangle AIO$ vuông tại I → nội tiếp đường tròn đường kính AO (3)\n- (1)(2)(3) → 5 điểm A, B, O, I, C cùng thuộc đường tròn đường kính AO\n- Tâm $K$ là trung điểm $AO$, bán kính $\\dfrac{OA}{2} = \\dfrac{2R}{2} = R$\n\nCâu b:\n- Vẽ đường kính $BF$\n- $\\triangle BDF$ nội tiếp đường tròn (O) có $BF$ là đường kính → vuông tại D\n- $\\widehat{ABD} = \\widehat{BFD}$ (cùng phụ $\\widehat{DBF}$)\n- $\\widehat{BFD} = \\widehat{BED}$ (góc nội tiếp cùng chắn cung BD)\n- → $\\widehat{ABD} = \\widehat{AEB}$\n- $\\triangle ABD$ và $\\triangle AEB$: $\\widehat{BAE}$ chung, $\\widehat{ABD} = \\widehat{AEB}$\n- → $\\triangle ABD \\sim \\triangle AEB$ (g-g) → $AB^2 = AD \\cdot AE$\n\nCâu c:\n- Đường tròn $(K)$ có bán kính $R$\n- Trong $\\triangle ACO$ vuông tại C: $\\sin\\widehat{OAC} = \\dfrac{OC}{OA} = \\dfrac{R}{2R} = \\dfrac{1}{2}$ → $\\widehat{OAC} = 30°$\n- Trong (K): $KO = KC = R$, mà $OC = R$ (bán kính (O)) → $\\triangle KOC$ đều → $\\widehat{OKC} = 60°$\n- $S_q = \\dfrac{\\pi R^2 \\cdot 60}{360} = \\dfrac{\\pi R^2}{6}$\n- $S_{\\triangle KOC} = \\dfrac{R^2 \\sqrt{3}}{4}$\n- $S = S_q - S_{\\triangle} = \\dfrac{\\pi R^2}{6} - \\dfrac{R^2 \\sqrt{3}}{4} = R^2 \\left(\\dfrac{2\\pi - 3\\sqrt{3}}{12}\\right)$\n- $R = 5{,}1$, $\\pi \\approx 3{,}14$:\n- $S = (5{,}1)^2 \\cdot \\left(\\dfrac{3{,}14}{6} - \\dfrac{\\sqrt{3}}{4}\\right) \\approx 26{,}01 \\cdot (0{,}5233 - 0{,}4330) = 26{,}01 \\cdot 0{,}0903 \\approx 2{,}35$ cm²",
+      "loi_giai_day_du": "**Câu a) Chứng minh 5 điểm đồng viên:**\n\nTa có $\\triangle ABO$ vuông tại $B$ (vì $AB$ là tiếp tuyến của $(O)$ tại $B$).\n\nSuy ra $\\triangle ABO$ nội tiếp đường tròn đường kính $AO$ (1).\n\nTa có $\\triangle ACO$ vuông tại $C$ (vì $AC$ là tiếp tuyến của $(O)$ tại $C$).\n\nSuy ra $\\triangle ACO$ nội tiếp đường tròn đường kính $AO$ (2).\n\nTa có $\\triangle AIO$ vuông tại $I$ (vì $OI \\perp DE$ tại $I$).\n\nSuy ra $\\triangle AIO$ nội tiếp đường tròn đường kính $AO$ (3).\n\nTừ (1), (2), (3) suy ra 5 điểm $A, B, O, I, C$ cùng thuộc đường tròn đường kính $AO$.\n\nTâm $K$ là trung điểm của $AO$.\n\nBán kính là $\\dfrac{OA}{2} = \\dfrac{2R}{2} = \\boxed{R}$.\n\n**Câu b) Chứng minh $AB^2 = AD \\cdot AE$:**\n\nVẽ đường kính $BF$ của đường tròn $(O)$.\n\nTa có $\\triangle BDF$ nội tiếp đường tròn $(O)$ có cạnh $BF$ là đường kính.\n\nSuy ra $\\triangle BDF$ vuông tại $D$.\n\nSuy ra $\\widehat{ABD} = \\widehat{BFD}$ (cùng phụ với $\\widehat{DBF}$).\n\nMà $\\widehat{BFD} = \\widehat{BED}$ (hai góc nội tiếp cùng chắn cung $BD$).\n\nSuy ra $\\widehat{ABD} = \\widehat{BED}$ hay $\\widehat{ABD} = \\widehat{AEB}$.\n\nXét $\\triangle ABD$ và $\\triangle AEB$:\n$\\begin{cases} \\widehat{BAE} \\text{ (góc chung)} \\\\ \\widehat{ABD} = \\widehat{AEB} \\text{ (cmt)} \\end{cases}$\n\n$\\Rightarrow \\triangle ABD \\sim \\triangle AEB$ (g-g)\n\n$\\Rightarrow \\dfrac{AB}{AE} = \\dfrac{AD}{AB} \\Rightarrow \\boxed{AB^2 = AD \\cdot AE}$.\n\n**Câu c) Tính diện tích phần hình tròn:**\n\nTheo câu a, đường tròn $(K)$ đi qua $O$ và $C$, có bán kính $R_K = R$.\n\nTrong $\\triangle ACO$ vuông tại $C$:\n$$\\sin\\widehat{OAC} = \\dfrac{OC}{OA} = \\dfrac{R}{2R} = \\dfrac{1}{2}$$\n\nSuy ra $\\widehat{OAC} = 30°$.\n\nXét đường tròn $(K)$, ta có $KO = KC = R_K = R$.\n\nMặt khác $OC = R$ (bán kính đường tròn $(O)$).\n\nSuy ra $KO = KC = OC = R$.\n\nDo đó $\\triangle KOC$ là tam giác đều $\\Rightarrow \\widehat{OKC} = 60°$.\n\nDiện tích hình quạt tròn $KOC$ ứng với cung nhỏ $OC$ của đường tròn $(K)$ là:\n$$S_{quat} = \\dfrac{\\pi R^2 \\cdot 60}{360} = \\dfrac{\\pi R^2}{6}$$\n\nDiện tích tam giác đều $KOC$ là:\n$$S_{\\triangle KOC} = \\dfrac{R^2 \\sqrt{3}}{4}$$\n\nDiện tích phần hình tròn cần tìm là:\n$$S = S_{quat} - S_{\\triangle KOC} = \\dfrac{\\pi R^2}{6} - \\dfrac{R^2 \\sqrt{3}}{4} = R^2 \\left(\\dfrac{2\\pi - 3\\sqrt{3}}{12}\\right)$$\n\nThay số $R = 5{,}1$ cm và $\\pi \\approx 3{,}14$:\n$$S = (5{,}1)^2 \\cdot \\left(\\dfrac{3{,}14}{6} - \\dfrac{\\sqrt{3}}{4}\\right) \\approx \\boxed{2{,}35 \\text{ cm}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), A ngoài (O) với OA=2R, tiếp tuyến AB, AC (B, C tiếp điểm), cát tuyến qua A cắt (O) tại D và E, OI ⊥ DE tại I, BF đường kính (O).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu chứng minh 5 điểm đồng viên.",
+          "Em không biết kẻ thêm gì cho câu b.",
+          "Câu c em không biết tam giác KOC là tam giác gì."
+        ],
+        "dinh_huong": [
+          "Câu a em định dùng 3 tam giác vuông cùng cạnh huyền AO — đúng không?",
+          "Câu b em định kẻ đường kính BF — đúng chứ?",
+          "Câu c em định tam giác KOC đều → góc OKC = 60° — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra K = trung điểm AO, bán kính R — đúng không?",
+          "Em ra $AB^2 = AD \\cdot AE$ — đúng chưa?",
+          "Em ra $S \\approx 2{,}35$ cm² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra OC = R = bán kính của đường tròn (K).",
+          "Em không tính được góc OAC = 30°.",
+          "Em không nhớ S tam giác đều cạnh $a$ là $\\dfrac{a^2\\sqrt{3}}{4}$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-17/bai7-cattuyen.png"
+    }
+  ]
+}

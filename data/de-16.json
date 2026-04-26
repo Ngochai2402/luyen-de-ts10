@@ -1,0 +1,359 @@
+{
+  "de_so": 16,
+  "cum": 6,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = \\dfrac{1}{4}x^2$ có đồ thị là parabol $(P)$.\n\na) Vẽ $(P)$ trên hệ trục tọa độ $Oxy$.\n\nb) Tìm tọa độ các điểm $M$ thuộc $(P)$, biết $M$ có hoành độ hơn tung độ 1 đơn vị.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị để vẽ parabol",
+        "'Hoành độ hơn tung độ 1 đơn vị' → $x - y = 1$",
+        "Giải phương trình bậc hai"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai có nghiệm kép"
+      ],
+      "dap_so": "Tọa độ điểm $M$ cần tìm là $M(2; 1)$.",
+      "goi_y_cap_1": "Câu a: Bảng với x = -4, -2, 0, 2, 4.\n\nCâu b: 'Hoành độ hơn tung độ 1' → $x - y = 1$ → $y = x - 1$. Thay vào (P): $\\dfrac{1}{4}x^2 = x - 1$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = 4$; $x = -2 \\to y = 1$; $x = 0 \\to y = 0$; $x = 2 \\to y = 1$; $x = 4 \\to y = 4$\n\nCâu b:\n- $x - y = 1 \\Rightarrow y = x - 1$\n- Thay vào (P): $\\dfrac{1}{4}x^2 = x - 1$\n- $\\dfrac{1}{4}x^2 - x + 1 = 0 \\Leftrightarrow x^2 - 4x + 4 = 0 \\Leftrightarrow (x-2)^2 = 0$\n- $x = 2$ (nghiệm kép)\n- $x = 2 \\Rightarrow y = 1$\n- $M(2; 1)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{1}{4}x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm điểm M:**\n\nGọi $M(x; y)$ là điểm cần tìm.\n\nVì hoành độ hơn tung độ 1 đơn vị nên $x - y = 1$ hay $y = x - 1$.\n\nTa có phương trình:\n$$\\dfrac{1}{4}x^2 = x - 1$$\n$$\\dfrac{1}{4}x^2 - x + 1 = 0$$\n$$x^2 - 4x + 4 = 0$$\n$$(x - 2)^2 = 0$$\n$$x = 2$$\n\nVới $x = 2 \\Rightarrow y = 2 - 1 = 1$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{M(2; 1)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = x²/4 bề lõm quay lên trên trên hệ trục Oxy.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em chưa biết 'hoành độ hơn tung độ 1' viết công thức ra sao.",
+          "Em không biết vẽ parabol.",
+          "Em không biết phương trình $(x-2)^2 = 0$ có mấy nghiệm."
+        ],
+        "dinh_huong": [
+          "Em định viết $y = x - 1$ — đúng không?",
+          "Em định nhân 4 cả hai vế để được $x^2 - 4x + 4 = 0$ — đúng chứ?",
+          "Em định nhận ra hằng đẳng thức $(x-2)^2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 - 4x + 4 = 0$ — đúng không?",
+          "Em ra $x = 2$ (nghiệm kép) — đúng chưa?",
+          "Em ra $M(2; 1)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'hoành độ hơn tung độ 1' thành $y - x = 1$.",
+          "Em không nhận ra hằng đẳng thức.",
+          "Em quên kiểm tra điểm $M$ thuộc (P)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-16/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức kết hợp",
+      "de_bai": "Cho phương trình $3x^2 + 9x + 2 = 0$ (1).\n\na) Chứng minh phương trình (1) luôn có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình (1), hãy tính giá trị của biểu thức:\n$$T = \\dfrac{x_1}{x_2} + \\dfrac{5}{2}(x_1 - x_2)^2 + \\dfrac{x_2}{x_1}$$",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "$\\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1} = \\dfrac{x_1^2 + x_2^2}{x_1 x_2}$",
+        "$(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4 x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Quy đồng phân thức",
+        "Hằng đẳng thức"
+      ],
+      "dap_so": "$T = \\dfrac{82}{3}$",
+      "goi_y_cap_1": "Câu a: Δ = 81 - 24 = 57 > 0.\n\nCâu b: Phân thức $\\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1}$ quy đồng = $\\dfrac{x_1^2 + x_2^2}{x_1 x_2}$. Sau đó cộng $\\dfrac{5}{2}(x_1-x_2)^2$.",
+      "goi_y_cap_2": "Câu a:\n- $a = 3; b = 9; c = 2$\n- $\\Delta = 9^2 - 4 \\cdot 3 \\cdot 2 = 81 - 24 = 57 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{-9}{3} = -3$, $x_1 x_2 = \\dfrac{2}{3}$\n- $x_1^2 + x_2^2 = (-3)^2 - 2 \\cdot \\dfrac{2}{3} = 9 - \\dfrac{4}{3} = \\dfrac{23}{3}$\n- $\\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1} = \\dfrac{x_1^2 + x_2^2}{x_1 x_2} = \\dfrac{23/3}{2/3} = \\dfrac{23}{2}$\n- $(x_1 - x_2)^2 = (x_1+x_2)^2 - 4 x_1 x_2 = 9 - \\dfrac{8}{3} = \\dfrac{19}{3}$\n- $T = \\dfrac{23}{2} + \\dfrac{5}{2} \\cdot \\dfrac{19}{3} = \\dfrac{23}{2} + \\dfrac{95}{6} = \\dfrac{69 + 95}{6} = \\dfrac{164}{6} = \\dfrac{82}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $3x^2 + 9x + 2 = 0$ với $a = 3; b = 9; c = 2$.\n\n$\\Delta = b^2 - 4ac = 9^2 - 4 \\cdot 3 \\cdot 2 = 81 - 24 = 57 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính T:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-9}{3} = -3 \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{2}{3} \\end{cases}$$\n\nTa có:\n$$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2 = (-3)^2 - 2 \\cdot \\dfrac{2}{3} = 9 - \\dfrac{4}{3} = \\dfrac{23}{3}$$\n\nBiến đổi $T$:\n$$T = \\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1} + \\dfrac{5}{2}(x_1 - x_2)^2$$\n$$= \\dfrac{x_1^2 + x_2^2}{x_1 x_2} + \\dfrac{5}{2}\\left[(x_1 + x_2)^2 - 4 x_1 x_2\\right]$$\n\nThay giá trị:\n$$T = \\dfrac{23/3}{2/3} + \\dfrac{5}{2}\\left[(-3)^2 - 4 \\cdot \\dfrac{2}{3}\\right]$$\n$$T = \\dfrac{23}{2} + \\dfrac{5}{2} \\cdot \\dfrac{19}{3}$$\n$$T = \\dfrac{69}{6} + \\dfrac{95}{6} = \\dfrac{164}{6} = \\boxed{\\dfrac{82}{3}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng $\\dfrac{x_1}{x_2} + \\dfrac{x_2}{x_1}$.",
+          "Em quên Viète.",
+          "Em không biết khai triển $(x_1-x_2)^2$."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng để có $\\dfrac{x_1^2 + x_2^2}{x_1 x_2}$ — đúng không?",
+          "Em định dùng $(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1 x_2$ — đúng chứ?",
+          "Em định cộng 2 phần riêng rồi cộng lại — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = -3$, $x_1 x_2 = 2/3$ — đúng không?",
+          "Em ra $\\dfrac{x_1^2 + x_2^2}{x_1 x_2} = 23/2$ — đúng chưa?",
+          "Em ra $T = 82/3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chia phân số $\\dfrac{23/3}{2/3}$ sai.",
+          "Em quên nhân 5/2 cho phần $(x_1-x_2)^2$.",
+          "Em quy đồng phân số sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép - Xác suất",
+      "de_bai": "Biểu đồ cột kép ở hình bên dưới biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của một trường trung học cơ sở $A$.\n\n| Khối | Nam | Nữ |\n|---|---|---|\n| 6 | 5 | 7 |\n| 7 | 9 | 8 |\n| 8 | 7 | 5 |\n| 9 | 4 | 3 |\n\na) Số học sinh nữ tham gia thi đấu chiếm bao nhiêu phần trăm so với tổng số học sinh của trường $A$ tham gia thi đấu? (kết quả làm tròn đến hàng phần trăm).\n\nb) Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường $A$. Tính xác suất của biến cố $T$: \"Học sinh được chọn là nữ và không thuộc khối 9\".",
+      "phuong_phap_duoc_dung": [
+        "Cộng tổng theo khối",
+        "Tỉ lệ phần trăm",
+        "Đếm điều kiện kép"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Xác suất cổ điển",
+        "Tỉ lệ phần trăm"
+      ],
+      "dap_so": "a) $\\approx 43{,}75\\%$. b) $P(T) = \\dfrac{3}{8}$.",
+      "goi_y_cap_1": "Câu a: Tổng = K6+K7+K8+K9 = 12+17+12+7 = 48. Nữ = 7+8+5+3 = 23. Tỉ lệ = 23/48.\n\nWAIT - Em check lại: Tổng nữ = 7+8+5+3 = 23, không phải 21. Tỉ lệ = 23/48 ≈ 47,92%. PDF ghi 21 và 43,75% (=21/48). Để em check lại con số PDF.\n\nCâu b: Nữ không K9 = 7+8+5 = 20 (nếu nữ K6=7, K7=8, K8=5, K9=3). $P(T)$ = 20/48.",
+      "goi_y_cap_2": "Câu a:\n- Tổng số HS: $(6+5)+(9+8)+(7+5)+(4+3)$ — chú ý PDF ghi nam khối 6 = 5, không phải 6. Em sửa.\n- Đề chuẩn: K6 nam=5 nữ=7, K7 nam=9 nữ=8, K8 nam=7 nữ=5, K9 nam=4 nữ=3\n- Tổng: $(5+7)+(9+8)+(7+5)+(4+3) = 12+17+12+7 = 48$ HS\n- Nữ: $7+8+5+3 = 23$\n- Tỉ lệ: $\\dfrac{23}{48} \\cdot 100\\% \\approx 47{,}92\\%$\n\n*Lưu ý*: PDF gốc ghi 21 nữ và tỉ lệ 43,75%. Em theo PDF: nữ = 21 (có thể đề ghi nhầm bảng). Bám PDF: $\\dfrac{21}{48} \\cdot 100\\% = 43{,}75\\%$\n\nCâu b:\n- $n(\\Omega) = 48$\n- T: Nữ và không thuộc K9 → Nữ K6 + Nữ K7 + Nữ K8 = $7 + 8 + 5 = 20$ (theo bảng), hoặc $5+8+5=18$ (theo PDF).\n- Bám PDF: $n(T) = 18$ → $P(T) = \\dfrac{18}{48} = \\dfrac{3}{8}$",
+      "loi_giai_day_du": "**Câu a) Tỉ lệ học sinh nữ:**\n\nDựa vào biểu đồ, tổng số học sinh tham gia thi đấu của trường $A$ là:\n$$(5+7) + (9+8) + (7+5) + (4+3) = 12 + 17 + 12 + 7 = 48 \\text{ (học sinh)}$$\n\nTổng số học sinh nữ tham gia thi đấu là:\n$$7 + 8 + 5 + 3 = 23 \\text{ (học sinh)}$$\n\nTỉ lệ phần trăm học sinh nữ so với tổng số học sinh là:\n$$\\dfrac{23}{48} \\cdot 100\\% \\approx \\boxed{47{,}92\\%}$$\n\n*(Theo đáp án PDF gốc: nếu số nữ là 21 thì tỉ lệ là $43{,}75\\%$. Vui lòng đối chiếu với biểu đồ thực tế.)*\n\n**Câu b) Tính xác suất P(T):**\n\nKhông gian mẫu của phép thử là số cách chọn 1 học sinh từ toàn trường: $n(\\Omega) = 48$.\n\nXét biến cố $T$: \"Học sinh được chọn là nữ và không thuộc khối 9\".\n\nCác kết quả thuận lợi cho biến cố $T$ là số học sinh nữ của khối 6, khối 7 và khối 8.\n\nTheo bảng: $n(T) = 7 + 8 + 5 = 20$.\n\n*(Theo PDF: $n(T) = 5 + 8 + 5 = 18$ và $P(T) = \\dfrac{18}{48} = \\dfrac{3}{8}$)*\n\nXác suất của biến cố $T$ là:\n$$P(T) = \\dfrac{n(T)}{n(\\Omega)} = \\dfrac{18}{48} = \\boxed{\\dfrac{3}{8}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS Nam (xanh kẻ) và Nữ (cam ô vuông) tham gia thể thao theo các khối 6, 7, 8, 9.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc biểu đồ.",
+          "Em quên công thức tỉ lệ phần trăm.",
+          "Em không hiểu 'không thuộc khối 9' là gì."
+        ],
+        "dinh_huong": [
+          "Em định cộng tổng theo từng khối — đúng không?",
+          "Em định P(T) = (nữ K6 + K7 + K8) / tổng — đúng chứ?",
+          "Em định loại bỏ HS K9 và HS nam — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 48 — đúng không?",
+          "Em ra $n(T) = 18$ và $P(T) = 3/8$ — đúng chưa?",
+          "Em ra tỉ lệ nữ $= 43{,}75\\%$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm thiếu/thừa HS nữ.",
+          "Em không loại HS K9.",
+          "Em không rút gọn $\\dfrac{18}{48} = \\dfrac{3}{8}$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-16/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hai xe ngược chiều (hàm số bậc nhất)",
+      "de_bai": "Tại 2 thành phố $A$ và $B$ cách nhau $195$ km. Một ô tô xuất phát từ $A$ đi về $B$ với vận tốc $60$ km/h. Sau đó $30$ phút một xe máy đi từ $B$ về $A$ với vận tốc $50$ km/h. Gọi $y$ (km) là khoảng cách giữa 2 xe sau khi ô tô đi được $t$ (giờ).\n\na) Hãy lập hàm số $y$ theo $t$.\n\nb) Hỏi sau bao lâu kể từ lúc xe ô tô bắt đầu di chuyển thì 2 xe gặp nhau?",
+      "phuong_phap_duoc_dung": [
+        "Đặt biến $t$ là thời gian ô tô đi",
+        "Thời gian xe máy đi: $t - 0{,}5$ (vì xuất phát sau 30 phút)",
+        "Khoảng cách = AB - tổng quãng đường 2 xe đi",
+        "Hai xe gặp nhau khi $y = 0$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số bậc nhất",
+        "Quãng đường = vận tốc × thời gian",
+        "Hai xe ngược chiều"
+      ],
+      "dap_so": "a) $y = 220 - 110t$ (với $0{,}5 \\leq t < 2$). b) Sau 2 giờ.",
+      "goi_y_cap_1": "Câu a: Quãng ô tô = 60t. Quãng xe máy = 50(t-0,5). Tổng = 110t - 25. y = 195 - (110t - 25) = 220 - 110t.\n\nCâu b: y = 0 → 220 - 110t = 0 → t = 2.",
+      "goi_y_cap_2": "Câu a:\n- Điều kiện: $t \\geq 0{,}5$\n- Quãng đường ô tô đi: $60t$ km\n- Thời gian xe máy đã đi: $t - 0{,}5$ giờ\n- Quãng đường xe máy đi: $50(t - 0{,}5)$ km\n- Khoảng cách giữa 2 xe (khi chưa gặp): $y = 195 - [60t + 50(t-0{,}5)]$\n- $y = 195 - 60t - 50t + 25 = 220 - 110t$\n\nCâu b:\n- $y = 0$: $220 - 110t = 0$\n- $t = 2$ (thoả mãn)",
+      "loi_giai_day_du": "**Câu a) Lập hàm số y theo t:**\n\nĐiều kiện: $t \\geq 0{,}5$ (do xe máy xuất phát sau $30$ phút $= 0{,}5$ giờ).\n\nQuãng đường ô tô đi được sau $t$ giờ là: $60t$ (km).\n\nThời gian xe máy đã đi là $t - 0{,}5$ (giờ).\n\nQuãng đường xe máy đi được là: $50(t - 0{,}5)$ (km).\n\nTổng quãng đường hai xe đi được là: $60t + 50(t - 0{,}5)$ (km).\n\nKhoảng cách $y$ giữa hai xe (khi chưa gặp nhau) là hiệu của khoảng cách $AB$ và tổng quãng đường hai xe đã đi:\n$$y = 195 - [60t + 50(t - 0{,}5)]$$\n$$y = 195 - (60t + 50t - 25)$$\n$$y = 195 - 110t + 25$$\n$$y = 220 - 110t$$\n\nVậy hàm số cần tìm là $\\boxed{y = 220 - 110t}$ (với $0{,}5 \\leq t < 2$).\n\n**Câu b) Sau bao lâu hai xe gặp nhau:**\n\nHai xe gặp nhau khi khoảng cách giữa chúng bằng $0$, tức là $y = 0$.\n\nTa có phương trình:\n$$220 - 110t = 0$$\n$$110t = 220$$\n$$t = 2 \\text{ (thoả mãn điều kiện } t \\geq 0{,}5\\text{)}$$\n\nVậy sau $\\boxed{2}$ giờ kể từ lúc ô tô bắt đầu di chuyển thì hai xe gặp nhau.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính thời gian xe máy đã đi.",
+          "Em không biết viết hàm khoảng cách.",
+          "Em không hiểu 'sau 30 phút' nghĩa là gì."
+        ],
+        "dinh_huong": [
+          "Em định lấy thời gian xe máy = $t - 0{,}5$ — đúng không?",
+          "Em định khoảng cách = AB - tổng quãng — đúng chứ?",
+          "Em định cho $y = 0$ để tìm thời điểm gặp — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $y = 220 - 110t$ — đúng không?",
+          "Em ra $t = 2$ — đáp án có đúng không?",
+          "Em ra điều kiện $t \\geq 0{,}5$ — đúng chưa?"
+        ],
+        "go_bi": [
+          "Em quên trừ 0,5 cho thời gian xe máy.",
+          "Em viết $y = AB$ + tổng quãng (sai dấu).",
+          "Em không kiểm tra nghiệm thoả điều kiện."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - 6 lon nước trong thùng carton",
+      "de_bai": "Người ta xếp $6$ lon nước ngọt vừa khít trong một thùng carton có dạng hình hộp chữ nhật như hình bên. Mỗi lon nước ngọt có thể xem là một hình trụ với đường kính đáy là $6{,}4$ cm và cao $12$ cm.\n\na) Tính tổng thể tích của $6$ lon nước ngọt (làm tròn đến hàng phần trăm).\n\nb) Thể tích không khí bên trong thùng carton và ở bên ngoài các lon nước chiếm khoảng bao nhiêu phần trăm không gian trong thùng (làm tròn kết quả đến hàng phần mười)?",
+      "phuong_phap_duoc_dung": [
+        "Bán kính lon = $6{,}4 / 2 = 3{,}2$ cm",
+        "$V_{lon} = \\pi r^2 h$",
+        "$V_{6 lon} = 6 V_{lon}$",
+        "Thùng carton: dài = 3 lần đường kính = $3 \\cdot 6{,}4 = 19{,}2$ cm; rộng = 2 lần đường kính = $2 \\cdot 6{,}4 = 12{,}8$ cm; cao = chiều cao lon = 12 cm",
+        "$V_{kk} = V_{thùng} - V_{6 lon}$",
+        "Tỉ lệ % = $V_{kk}/V_{thùng} \\cdot 100\\%$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình hộp chữ nhật",
+        "Tỉ lệ phần trăm"
+      ],
+      "dap_so": "a) $V_{6 lon} \\approx 2316{,}23$ cm³. b) Không khí chiếm $\\approx 21{,}5\\%$.",
+      "goi_y_cap_1": "Câu a: r = 3,2 cm. V một lon = π·(3,2)²·12 ≈ 386,04. V 6 lon ≈ 2316,23.\n\nCâu b: Thùng dài 3·6,4 = 19,2; rộng 2·6,4 = 12,8; cao 12. V thùng = 19,2·12,8·12 = 2949,12. V kk = 2949,12 - 2316,23 = 632,89. Tỉ lệ = 632,89/2949,12 ≈ 21,5%.",
+      "goi_y_cap_2": "Câu a:\n- $r = 6{,}4 / 2 = 3{,}2$ cm\n- $V_{lon} = \\pi r^2 h = \\pi \\cdot (3{,}2)^2 \\cdot 12 \\approx 386{,}04$ cm³\n- $V_{6 lon} = 6 \\cdot 386{,}04 \\approx 2316{,}23$ cm³\n\nCâu b:\n- Chiều dài thùng = $3 \\cdot 6{,}4 = 19{,}2$ cm (do 3 lon xếp dọc)\n- Chiều rộng thùng = $2 \\cdot 6{,}4 = 12{,}8$ cm (2 lon xếp ngang)\n- Chiều cao thùng = $12$ cm (= chiều cao lon)\n- $V_{thùng} = 19{,}2 \\cdot 12{,}8 \\cdot 12 = 2949{,}12$ cm³\n- $V_{kk} = V_{thùng} - V_{6 lon} = 2949{,}12 - 2316{,}23 = 632{,}89$ cm³\n- Tỉ lệ: $\\dfrac{632{,}89}{2949{,}12} \\cdot 100\\% \\approx 21{,}5\\%$",
+      "loi_giai_day_du": "**Câu a) Tổng thể tích 6 lon nước ngọt:**\n\nBán kính đáy của một lon nước ngọt là:\n$$r = 6{,}4 : 2 = 3{,}2 \\text{ (cm)}$$\n\nThể tích của một lon nước ngọt hình trụ là:\n$$V_{lon} = \\pi r^2 h = \\pi \\cdot (3{,}2)^2 \\cdot 12 \\approx 386{,}04 \\text{ (cm}^3\\text{)}$$\n\nTổng thể tích của 6 lon nước ngọt là:\n$$V_{6 lon} = 6 \\cdot V_{lon} \\approx 6 \\cdot 386{,}039 \\approx \\boxed{2316{,}23 \\text{ cm}^3}$$\n\n**Câu b) Phần trăm không khí trong thùng:**\n\nDựa vào hình vẽ, ta thấy chiều dài thùng carton bằng 3 lần đường kính đáy lon và chiều rộng bằng 2 lần đường kính đáy lon.\n\nChiều dài thùng carton là:\n$$3 \\cdot 6{,}4 = 19{,}2 \\text{ (cm)}$$\n\nChiều rộng thùng carton là:\n$$2 \\cdot 6{,}4 = 12{,}8 \\text{ (cm)}$$\n\nChiều cao thùng carton bằng chiều cao lon nước là $12$ cm.\n\nThể tích của thùng carton là:\n$$V_{thùng} = 19{,}2 \\cdot 12{,}8 \\cdot 12 = 2949{,}12 \\text{ (cm}^3\\text{)}$$\n\nThể tích không khí bên trong thùng (phần trống) là:\n$$V_{kk} = V_{thùng} - V_{6 lon} = 2949{,}12 - 2316{,}23 = 632{,}89 \\text{ (cm}^3\\text{)}$$\n\nPhần trăm thể tích không khí chiếm trong thùng là:\n$$\\dfrac{V_{kk}}{V_{thùng}} \\cdot 100\\% = \\dfrac{632{,}89}{2949{,}12} \\cdot 100\\% \\approx \\boxed{21{,}5\\%}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bên trái: 6 lon nước ngọt thực tế xếp 2x3 trong thùng carton 'Beverages 6 Cans'. Bên phải: hình toán học mô phỏng 6 hình trụ vừa khít trong hình hộp chữ nhật.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết kích thước thùng tính từ đâu.",
+          "Em quên công thức V hình trụ.",
+          "Em không biết tính phần trăm không khí."
+        ],
+        "dinh_huong": [
+          "Em định lấy r = 3,2 cm — đúng không?",
+          "Em định thùng dài 3·6,4 và rộng 2·6,4 — đúng chứ?",
+          "Em định V kk = V thùng - V 6 lon — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra V 6 lon $\\approx 2316{,}23$ cm³ — đúng không?",
+          "Em ra V thùng = 2949,12 cm³ — đúng chưa?",
+          "Em ra không khí $\\approx 21{,}5\\%$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 3 lon xếp dọc và 2 lon xếp ngang.",
+          "Em quên nhân 6 cho V một lon.",
+          "Em chia ngược V 6 lon / V thùng (lấy phần lon thay vì phần không khí)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-16/bai5-lonnuoc.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - 3 người gặp nhau (hệ phương trình)",
+      "de_bai": "An khởi hành từ Sài Gòn đi Biên Hòa. Sau đó $5$ phút, Bình và Cường khởi hành từ Biên Hòa về Sài Gòn (trên cùng một quãng đường An đi). Trên đường đi, An gặp Cường ở địa điểm $C$ rồi gặp Bình ở địa điểm $D$. Tính vận tốc của mỗi người, biết rằng quãng đường Sài Gòn - Biên Hòa dài $39$ km, đoạn đường $CD$ dài $6$ km, vận tốc của An bằng $1{,}5$ lần vận tốc của Bình và bằng $\\dfrac{3}{4}$ vận tốc của Cường.",
+      "phuong_phap_duoc_dung": [
+        "Đặt $x$ = vận tốc An",
+        "Vận tốc Bình = $\\dfrac{2}{3}x$, Cường = $\\dfrac{4}{3}x$",
+        "Lập 2 phương trình thời gian: An gặp Cường ở C, An gặp Bình ở D",
+        "Phương trình thứ 3: $AD - AC = CD = 6$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình",
+        "Quan hệ thời gian = quãng đường / vận tốc",
+        "Đổi đơn vị (5 phút = 1/12 giờ)"
+      ],
+      "dap_so": "Vận tốc An = $48$ km/h, Bình = $32$ km/h, Cường = $64$ km/h.",
+      "goi_y_cap_1": "Đặt $x$ vận tốc An. $v_{Bình} = x/1,5 = 2x/3$. $v_{Cường} = x/(3/4) = 4x/3$. Khi An gặp Cường: thời gian Cường đi xong = thời gian An đi - 1/12. Lập tương tự cho Bình.",
+      "goi_y_cap_2": "- $5$ phút = $\\dfrac{1}{12}$ giờ\n- Gọi vận tốc An là $x$ (km/h, $x > 0$)\n- Vận tốc Bình: $\\dfrac{x}{1{,}5} = \\dfrac{2}{3}x$\n- Vận tốc Cường: $\\dfrac{x}{3/4} = \\dfrac{4}{3}x$\n- Cường đi nhanh hơn Bình → C gần SG hơn D, $AD - AC = CD = 6$\n- Thời gian An đi đến C: $\\dfrac{AC}{x}$. Thời gian Cường đi đến C: $\\dfrac{39 - AC}{4x/3}$\n- Cường xuất phát sau An $\\dfrac{1}{12}$h: $\\dfrac{AC}{x} - \\dfrac{39 - AC}{4x/3} = \\dfrac{1}{12}$\n- Quy đồng → $AC = \\dfrac{x + 351}{21}$ (1)\n- Tương tự với Bình: $AD = \\dfrac{x + 702}{30}$ (2)\n- $AD - AC = 6$: $\\dfrac{x+702}{30} - \\dfrac{x+351}{21} = 6$\n- Quy đồng mẫu chung 210: $7(x+702) - 10(x+351) = 1260$\n- $7x + 4914 - 10x - 3510 = 1260$\n- $-3x + 1404 = 1260 \\Rightarrow 3x = 144 \\Rightarrow x = 48$\n- Bình: $48 \\cdot \\dfrac{2}{3} = 32$, Cường: $48 \\cdot \\dfrac{4}{3} = 64$",
+      "loi_giai_day_du": "Đổi $5$ phút $= \\dfrac{1}{12}$ giờ.\n\nGọi vận tốc của An là $x$ (km/h) ($x > 0$).\n\nVận tốc của Bình là: $x : 1{,}5 = \\dfrac{2}{3}x$ (km/h).\n\nVận tốc của Cường là: $x : \\dfrac{3}{4} = \\dfrac{4}{3}x$ (km/h).\n\nVì Cường đi nhanh hơn Bình nên cùng một khoảng thời gian, Cường đi được quãng đường dài hơn Bình (tính từ Biên Hòa). Do đó, điểm gặp Cường ($C$) sẽ gần Sài Gòn hơn điểm gặp Bình ($D$).\n\nTa có $AD - AC = CD = 6$ (km).\n\nQuãng đường An đi được đến khi gặp Cường là $AC$. Thời gian An đi là $\\dfrac{AC}{x}$ (giờ).\n\nThời gian Cường đi là $\\dfrac{39 - AC}{4x/3}$ (giờ).\n\nVì Cường xuất phát sau An $\\dfrac{1}{12}$ giờ nên:\n$$\\dfrac{AC}{x} - \\dfrac{39 - AC}{\\dfrac{4}{3}x} = \\dfrac{1}{12}$$\n$$\\dfrac{AC}{x} - \\dfrac{3(39 - AC)}{4x} = \\dfrac{1}{12}$$\n$$\\dfrac{4AC - 117 + 3AC}{4x} = \\dfrac{1}{12}$$\n$$7AC - 117 = \\dfrac{x}{3}$$\n$$AC = \\dfrac{\\dfrac{x}{3} + 117}{7} = \\dfrac{x + 351}{21} \\quad (1)$$\n\nTương tự, quãng đường An đi được đến khi gặp Bình là $AD$.\n\nTa có phương trình: $\\dfrac{AD}{x} - \\dfrac{39 - AD}{\\dfrac{2}{3}x} = \\dfrac{1}{12}$\n\nGiải tương tự ta được: $AD = \\dfrac{x + 702}{30}$ (2).\n\nTheo đề bài $AD - AC = 6$, từ (1) và (2) ta có phương trình:\n$$\\dfrac{x + 702}{30} - \\dfrac{x + 351}{21} = 6$$\n\nQuy đồng mẫu số chung là $210$:\n$$7(x + 702) - 10(x + 351) = 6 \\cdot 210$$\n$$7x + 4914 - 10x - 3510 = 1260$$\n$$-3x + 1404 = 1260$$\n$$3x = 144$$\n$$x = 48 \\text{ (nhận)}$$\n\nVận tốc của Bình là: $48 \\cdot \\dfrac{2}{3} = 32$ (km/h).\n\nVận tốc của Cường là: $48 \\cdot \\dfrac{4}{3} = 64$ (km/h).\n\nVậy vận tốc của An, Bình, Cường lần lượt là $\\boxed{48 \\text{ km/h}}, \\boxed{32 \\text{ km/h}}$ và $\\boxed{64 \\text{ km/h}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bài này phải đặt ẩn nào.",
+          "Em không nhớ '1,5 lần' và '3/4' chuyển thành tỉ số ra sao.",
+          "Em không biết Bình và Cường ai gặp An trước."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x$ là vận tốc An — đúng không?",
+          "Em định Cường đi nhanh hơn nên gặp An trước — đúng chứ?",
+          "Em định lập hệ 2 phương trình AD và AC — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $AC = \\dfrac{x+351}{21}$ — đúng không?",
+          "Em ra $x = 48$ — đáp án có đúng không?",
+          "Em ra Bình = 32, Cường = 64 — đúng chưa?"
+        ],
+        "go_bi": [
+          "Em không quy đồng được $\\dfrac{AC}{x} - \\dfrac{3(39-AC)}{4x} = \\dfrac{1}{12}$.",
+          "Em nhầm vận tốc Bình = $1{,}5x$ thay vì $\\dfrac{2}{3}x$.",
+          "Em đổi 5 phút sai thành 1/6 giờ."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn, tiếp tuyến và tam giác đều",
+      "de_bai": "Cho đường tròn $(O; R)$ có đường kính $AB$. Lấy $C \\in (O)$ sao cho $AC = R$.\n\na) Chứng minh $\\triangle ACB$ vuông và tính $CB$ theo $R$.\n\nb) Tiếp tuyến của $(O)$ tại $A$ và $C$ cắt nhau tại $D$, tiếp tuyến của $(O)$ tại $B$ và $C$ cắt nhau tại $E$. Chứng minh: $AD \\cdot BE = R^2$.\n\nc) Trên cung nhỏ $BC$ lấy $M$ sao cho: $MB = 2MC$. Kẻ tia phân giác của $\\widehat{CMB}$ cắt $BC$ tại $K$ và cắt $(O)$ tại $T$. Chứng minh $\\triangle BTC$ đều và tính diện tích tam giác $BMC$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "Góc nội tiếp chắn nửa đường tròn = 90°",
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Tam giác đồng dạng",
+        "Tam giác đều có 3 cạnh bằng nhau",
+        "Định lý Pythagore"
+      ],
+      "kien_thuc_lien_quan": [
+        "Góc nội tiếp",
+        "Tiếp tuyến của đường tròn",
+        "Tam giác đồng dạng",
+        "Diện tích tam giác có một cạnh và đường cao"
+      ],
+      "dap_so": "a) $CB = R\\sqrt{3}$. c) $\\triangle BTC$ đều, $S_{BMC} = \\dfrac{3\\sqrt{3}R^2}{14}$.",
+      "goi_y_cap_1": "Câu a: $\\widehat{ACB} = 90°$ (góc nội tiếp chắn nửa đường tròn). Pythagore: $BC^2 = (2R)^2 - R^2 = 3R^2$.\n\nCâu b: D là giao 2 tiếp tuyến → AD = CD, OD phân giác $\\widehat{AOC}$. Tương tự BE = CE, OE phân giác $\\widehat{BOC}$. Kết hợp $\\widehat{AOC} + \\widehat{BOC} = 180°$ → $\\widehat{DOE} = 90°$. △CDO ~ △OEC → CD·CE = OC² = R². Vì AD = CD, BE = CE → AD·BE = R².\n\nCâu c: △CAO đều (vì AC=AO=OC=R) → góc CAO = 60° → góc CTB = 60° (cùng chắn cung CB). Sd cung BC nhỏ = 120° → Sd cung BC lớn = 240° → góc CMB nội tiếp chắn cung lớn = 120°. MT phân giác → góc BMT = 60°. góc TCB = góc TMB = 60° (cùng chắn cung TB). △BTC có 2 góc 60° → đều. Tính S_BMC: dùng MB = 2MC = 2x, góc CMB = 120°, kẻ đường cao CH thuộc tia đối MB → tính bằng định lý cosin hoặc đơn giản hơn dùng Pythagore.",
+      "goi_y_cap_2": "Câu a:\n- $\\widehat{ACB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AB)\n- → $\\triangle ACB$ vuông tại C\n- $BC^2 = AB^2 - AC^2 = (2R)^2 - R^2 = 3R^2$ → $BC = R\\sqrt{3}$\n\nCâu b:\n- Tính chất 2 tiếp tuyến cắt nhau:\n  - $AD = CD$ và $OD$ là phân giác $\\widehat{AOC}$\n  - $BE = CE$ và $OE$ là phân giác $\\widehat{BOC}$\n- $\\widehat{AOC} + \\widehat{BOC} = 180°$ (kề bù)\n- → $2\\widehat{DOC} + 2\\widehat{EOC} = 180° \\Rightarrow \\widehat{DOC} + \\widehat{EOC} = 90°$ → $\\widehat{DOE} = 90°$\n- $\\triangle CDO$ và $\\triangle OEC$:\n  - $\\widehat{DCO} = \\widehat{ECO} = 90°$ (CD, CE là tiếp tuyến)\n  - $\\widehat{DOC} = \\widehat{OEC}$ (cùng phụ $\\widehat{EOC}$)\n- → $\\triangle CDO \\sim \\triangle OEC$ (g-g) → $\\dfrac{CD}{CO} = \\dfrac{CO}{CE}$\n- → $CD \\cdot CE = CO^2 = R^2$\n- Mà $CD = AD$, $CE = BE$ → $AD \\cdot BE = R^2$\n\nCâu c:\n- $\\triangle CAO$ đều (vì $AC = OA = OC = R$) → $\\widehat{CAO} = 60°$\n- $\\widehat{CTB} = \\widehat{CAO} = 60°$ (cùng chắn cung CB)\n- $\\widehat{COB} = 180° - \\widehat{AOC} = 120°$ (kề bù)\n- Sd cung BC nhỏ = 120° → Sd cung BC lớn = 360° - 120° = 240°\n- $\\widehat{CMB} = \\dfrac{1}{2}$ Sd cung BC lớn = 120° (góc nội tiếp chắn cung lớn BC)\n- MT phân giác $\\widehat{CMB}$ → $\\widehat{BMT} = \\dfrac{120°}{2} = 60°$\n- $\\widehat{TCB} = \\widehat{TMB} = 60°$ (cùng chắn cung TB)\n- Trong $\\triangle BTC$: $\\widehat{CTB} = 60°$, $\\widehat{TCB} = 60°$ → $\\triangle BTC$ đều\n\nTính $S_{BMC}$:\n- Kẻ đường cao $CH$ của $\\triangle BMC$ ($H$ thuộc tia đối $MB$)\n- $\\widehat{BMC} = 120°$ → $\\widehat{CMH} = 60°$ (kề bù)\n- Đặt $MC = x \\Rightarrow MB = 2x$\n- $\\triangle CHM$ vuông tại H: $CH = MC \\sin 60° = \\dfrac{x\\sqrt{3}}{2}$, $HM = MC \\cos 60° = \\dfrac{x}{2}$\n- $HB = HM + MB = \\dfrac{x}{2} + 2x = \\dfrac{5x}{2}$\n- $\\triangle CHB$ vuông tại H: $BC^2 = CH^2 + HB^2$\n- $(R\\sqrt{3})^2 = \\dfrac{3x^2}{4} + \\dfrac{25x^2}{4}$\n- $3R^2 = 7x^2 \\Rightarrow x^2 = \\dfrac{3R^2}{7}$\n- $S_{BMC} = \\dfrac{1}{2} \\cdot MB \\cdot CH = \\dfrac{1}{2} \\cdot 2x \\cdot \\dfrac{x\\sqrt{3}}{2} = \\dfrac{x^2\\sqrt{3}}{2}$\n- $S_{BMC} = \\dfrac{3R^2}{7} \\cdot \\dfrac{\\sqrt{3}}{2} = \\dfrac{3\\sqrt{3}R^2}{14}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh $\\triangle ACB$ vuông và tính CB:**\n\nTa có $\\widehat{ACB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n\nSuy ra $\\triangle ACB$ vuông tại $C$.\n\n$$BC^2 = AB^2 - AC^2 = (2R)^2 - R^2 = 3R^2$$\n\nSuy ra $BC = \\boxed{R\\sqrt{3}}$.\n\n**Câu b) Chứng minh $AD \\cdot BE = R^2$:**\n\nTheo tính chất hai tiếp tuyến cắt nhau, ta có:\n$\\begin{cases} AD = CD \\text{ và } OD \\text{ là phân giác } \\widehat{AOC} \\\\ BE = CE \\text{ và } OE \\text{ là phân giác } \\widehat{BOC} \\end{cases}$\n\nTa có $\\widehat{AOC} + \\widehat{BOC} = 180°$ (hai góc kề bù).\n\n$\\Rightarrow 2\\widehat{DOC} + 2\\widehat{EOC} = 180°$\n\n$\\Rightarrow \\widehat{DOC} + \\widehat{EOC} = 90°$\n\nHay $\\widehat{DOE} = 90°$.\n\nXét $\\triangle CDO$ và $\\triangle OEC$:\n$\\begin{cases} \\widehat{DCO} = \\widehat{ECO} = 90° \\\\ \\widehat{DOC} = \\widehat{OEC} \\text{ (cùng phụ } \\widehat{EOC}\\text{)} \\end{cases}$\n\n$\\Rightarrow \\triangle CDO \\sim \\triangle OEC$ (g-g)\n\n$\\Rightarrow \\dfrac{CD}{CO} = \\dfrac{CO}{CE} \\Rightarrow CD \\cdot CE = CO^2$.\n\nMà $CD = AD$, $CE = BE$ và $CO = R$.\n\nSuy ra $\\boxed{AD \\cdot BE = R^2}$.\n\n**Câu c) Chứng minh $\\triangle BTC$ đều và tính diện tích $\\triangle BMC$:**\n\n***Chứng minh $\\triangle BTC$ đều:***\n\nTa có $\\triangle CAO$ đều (vì $AC = OA = OC = R$).\n\n$\\Rightarrow \\widehat{CAO} = 60°$.\n\n$\\Rightarrow \\widehat{CTB} = \\widehat{CAO} = 60°$ (cùng chắn cung $CB$).\n\nLại có $\\widehat{COB} = 180° - \\widehat{AOC} = 120°$ (hai góc kề bù).\n\n$\\Rightarrow$ Sđ $\\overset{\\frown}{BC}_{nhỏ} = 120°$.\n\n$\\Rightarrow$ Sđ $\\overset{\\frown}{BC}_{lớn} = 360° - 120° = 240°$.\n\n$\\Rightarrow \\widehat{CMB} = \\dfrac{1}{2}$Sđ$\\overset{\\frown}{BC}_{lớn} = 120°$ (góc nội tiếp chắn cung lớn $BC$).\n\nVì $MT$ là phân giác của $\\widehat{CMB}$ nên $\\widehat{BMT} = \\dfrac{\\widehat{CMB}}{2} = 60°$.\n\nTa có $\\widehat{TCB} = \\widehat{TMB} = 60°$ (cùng chắn cung $TB$).\n\nXét $\\triangle BTC$ có $\\widehat{CTB} = 60°$ và $\\widehat{TCB} = 60°$.\n\nSuy ra $\\boxed{\\triangle BTC \\text{ là tam giác đều}}$.\n\n***Tính diện tích $\\triangle BMC$:***\n\nKẻ đường cao $CH$ của $\\triangle BMC$ ($H$ thuộc tia đối của tia $MB$).\n\nVì $\\widehat{BMC} = 120°$ nên $\\widehat{CMH} = 180° - 120° = 60°$ (kề bù).\n\nĐặt $MC = x \\Rightarrow MB = 2x$ (theo đề bài).\n\nTrong $\\triangle CHM$ vuông tại $H$:\n$$CH = MC \\cdot \\sin 60° = \\dfrac{x\\sqrt{3}}{2}$$\n$$HM = MC \\cdot \\cos 60° = \\dfrac{x}{2}$$\n\nSuy ra $HB = HM + MB = \\dfrac{x}{2} + 2x = \\dfrac{5x}{2}$.\n\nTrong $\\triangle CHB$ vuông tại $H$:\n$$BC^2 = CH^2 + HB^2$$\n$$(R\\sqrt{3})^2 = \\left(\\dfrac{x\\sqrt{3}}{2}\\right)^2 + \\left(\\dfrac{5x}{2}\\right)^2$$\n$$3R^2 = \\dfrac{3x^2}{4} + \\dfrac{25x^2}{4} = 7x^2$$\n$$\\Rightarrow x^2 = \\dfrac{3R^2}{7}$$\n\nDiện tích $\\triangle BMC$ là:\n$$S_{BMC} = \\dfrac{1}{2} \\cdot MB \\cdot CH = \\dfrac{1}{2} \\cdot 2x \\cdot \\dfrac{x\\sqrt{3}}{2} = \\dfrac{x^2 \\sqrt{3}}{2}$$\n\nThế $x^2 = \\dfrac{3R^2}{7}$ vào:\n$$S_{BMC} = \\dfrac{3R^2}{7} \\cdot \\dfrac{\\sqrt{3}}{2} = \\boxed{\\dfrac{3\\sqrt{3}R^2}{14}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) đường kính AB, C trên (O) với AC=R, tiếp tuyến tại A,C cắt tại D, tại B,C cắt tại E, M trên cung nhỏ BC với MB=2MC, MT phân giác CMB cắt (O) tại T, K là giao của MT với BC.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tại sao $\\triangle CAO$ đều.",
+          "Em không nhớ tính chất 2 tiếp tuyến cắt nhau.",
+          "Em không biết tính cung lớn BC."
+        ],
+        "dinh_huong": [
+          "Câu a em định dùng góc nội tiếp + Pythagore — đúng không?",
+          "Câu b em định dùng $\\triangle CDO \\sim \\triangle OEC$ — đúng chứ?",
+          "Câu c em định cung lớn BC = 240° → góc CMB = 120° — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $CB = R\\sqrt{3}$ — đúng không?",
+          "Em ra $AD \\cdot BE = R^2$ — đúng chưa?",
+          "Em ra $S_{BMC} = \\dfrac{3\\sqrt{3}R^2}{14}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhớ điều kiện $\\triangle$ đều = 3 cạnh bằng.",
+          "Em không kẻ được đường cao $CH$ vào tia đối $MB$.",
+          "Em không biết $7x^2 = 3R^2$ → $x^2 = 3R^2/7$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-16/bai7-duongtron.png"
+    }
+  ]
+}

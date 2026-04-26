@@ -1,0 +1,355 @@
+{
+  "de_so": 18,
+  "cum": 6,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $(P): y = \\dfrac{2}{3}x^2$.\n\na) Vẽ $(P)$ trên mặt phẳng toạ độ.\n\nb) Tìm điểm thuộc $(P)$ sao cho hoành độ khác $0$ và gấp $2$ lần tung độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị",
+        "'Hoành độ gấp 2 lần tung độ' → $x = 2y$",
+        "Giải phương trình bậc hai",
+        "Loại nghiệm $x = 0$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax²"
+      ],
+      "dap_so": "Toạ độ điểm cần tìm là $\\left(\\dfrac{3}{4}; \\dfrac{3}{8}\\right)$.",
+      "goi_y_cap_1": "Câu a: Bảng với x = -3, -1,5, 0, 1,5, 3.\n\nCâu b: $x = 2y$ → $y = x/2$. Thay vào (P): $\\dfrac{x}{2} = \\dfrac{2}{3}x^2$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -3 \\to y = 6$; $x = -1{,}5 \\to y = 1{,}5$; $x = 0 \\to y = 0$; $x = 1{,}5 \\to y = 1{,}5$; $x = 3 \\to y = 6$\n\nCâu b:\n- $x = 2y \\Rightarrow y = \\dfrac{x}{2}$\n- $\\dfrac{1}{2}x = \\dfrac{2}{3}x^2$\n- $\\dfrac{2}{3}x^2 - \\dfrac{1}{2}x = 0$\n- Nhân 6: $4x^2 - 3x = 0 \\Leftrightarrow x(4x - 3) = 0$\n- $x_1 = 0$ (loại), $x_2 = \\dfrac{3}{4}$\n- $y = \\dfrac{1}{2} \\cdot \\dfrac{3}{4} = \\dfrac{3}{8}$\n- Điểm $\\left(\\dfrac{3}{4}; \\dfrac{3}{8}\\right)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-3$ | $-1{,}5$ | $0$ | $1{,}5$ | $3$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{2}{3}x^2$ | $6$ | $1{,}5$ | $0$ | $1{,}5$ | $6$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm điểm cần tìm:**\n\nVì hoành độ gấp 2 lần tung độ nên $x = 2y$ hay $y = \\dfrac{1}{2}x$.\n\nTa có phương trình:\n$$\\dfrac{1}{2}x = \\dfrac{2}{3}x^2$$\n$$\\dfrac{2}{3}x^2 - \\dfrac{1}{2}x = 0$$\n$$x_1 = 0 \\text{ , } x_2 = \\dfrac{3}{4}$$\n\nVì hoành độ khác $0$ nên nhận $x = \\dfrac{3}{4}$.\n\nVới $x = \\dfrac{3}{4}$ suy ra $y = \\dfrac{3}{8}$.\n\nVậy toạ độ điểm cần tìm là $\\boxed{\\left(\\dfrac{3}{4}; \\dfrac{3}{8}\\right)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = 2x²/3 bề lõm quay lên trên.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'hoành độ gấp 2 lần tung độ' viết ra sao.",
+          "Em không biết phân tích thành tích.",
+          "Em không biết loại nghiệm nào."
+        ],
+        "dinh_huong": [
+          "Em định viết $y = x/2$ — đúng không?",
+          "Em định nhân 6 hai vế để bỏ mẫu — đúng chứ?",
+          "Em định loại $x = 0$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $4x^2 - 3x = 0$ — đúng không?",
+          "Em ra $x = 3/4$ — đúng chưa?",
+          "Em ra điểm $(3/4; 3/8)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $x = 2y$ với $y = 2x$.",
+          "Em không phân tích được thành tích.",
+          "Em không loại $x = 0$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-18/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A và B (lập phương)",
+      "de_bai": "Cho phương trình $3x^2 - 9x + 4 = 0$.\n\na) Chứng minh phương trình luôn có 2 nghiệm phân biệt.\n\nb) Gọi $x_1, x_2$ là hai nghiệm của phương trình, không giải phương trình hãy tính giá trị biểu thức $A = x_1(x_1 - 3x_2) + x_2^2 + 2x_1 x_2$ và $B = x_1^3 + x_2^3$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Khai triển A và rút gọn",
+        "Hằng đẳng thức $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 + x_2^2 - x_1 x_2)$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hằng đẳng thức bậc 3"
+      ],
+      "dap_so": "$A = 5$, $B = 15$.",
+      "goi_y_cap_1": "Câu a: Δ = 81 - 48 = 33 > 0.\n\nCâu b: A = $x_1^2 - 3x_1 x_2 + x_2^2 + 2x_1 x_2$ = $(x_1^2 + x_2^2) - x_1 x_2$. \nB = $(x_1 + x_2)(x_1^2 + x_2^2 - x_1 x_2)$.",
+      "goi_y_cap_2": "Câu a:\n- $a = 3; b = -9; c = 4$\n- $\\Delta = 81 - 48 = 33 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = 3$, $x_1 x_2 = \\dfrac{4}{3}$\n- $x_1^2 + x_2^2 = 9 - \\dfrac{8}{3} = \\dfrac{19}{3}$\n- $A = x_1^2 - 3x_1 x_2 + x_2^2 + 2x_1 x_2 = (x_1^2 + x_2^2) - x_1 x_2 = \\dfrac{19}{3} - \\dfrac{4}{3} = 5$\n- $B = (x_1+x_2)(x_1^2 + x_2^2 - x_1 x_2) = 3 \\cdot \\left(\\dfrac{19}{3} - \\dfrac{4}{3}\\right) = 3 \\cdot 5 = 15$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $3x^2 - 9x + 4 = 0$ với $a = 3; b = -9; c = 4$.\n\n$\\Delta = b^2 - 4ac = (-9)^2 - 4 \\cdot 3 \\cdot 4 = 33 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A và B:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-(-9)}{3} = 3 \\\\ x_1 x_2 = \\dfrac{4}{3} \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 3^2 - 2 \\cdot \\dfrac{4}{3} = \\dfrac{19}{3}$.\n\n***Tính A:***\n$$A = x_1(x_1 - 3x_2) + x_2^2 + 2x_1 x_2$$\n$$= x_1^2 - 3x_1 x_2 + x_2^2 + 2x_1 x_2$$\n$$= (x_1^2 + x_2^2) - x_1 x_2$$\n$$= \\dfrac{19}{3} - \\dfrac{4}{3} = \\boxed{5}$$\n\n***Tính B:***\n$$B = x_1^3 + x_2^3 = (x_1 + x_2)(x_1^2 + x_2^2 - x_1 x_2)$$\n$$= 3 \\cdot \\left(\\dfrac{19}{3} - \\dfrac{4}{3}\\right) = 3 \\cdot 5 = \\boxed{15}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ Viète.",
+          "Em không biết khai triển A.",
+          "Em không nhớ hằng đẳng thức $x_1^3 + x_2^3$."
+        ],
+        "dinh_huong": [
+          "Em định khai triển A để có $(x_1^2+x_2^2) - x_1 x_2$ — đúng không?",
+          "Em định dùng $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 - x_1 x_2 + x_2^2)$ — đúng chứ?",
+          "Em định tính $x_1^2 + x_2^2 = 19/3$ trước — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = 3$, $x_1 x_2 = 4/3$ — đúng không?",
+          "Em ra $A = 5$ — đúng chưa?",
+          "Em ra $B = 15$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không gộp $-3x_1 x_2 + 2x_1 x_2 = -x_1 x_2$.",
+          "Em nhầm $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 + x_1 x_2 + x_2^2)$ (sai dấu).",
+          "Em quy đồng phân số sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép theo tổ - Xác suất",
+      "de_bai": "Biểu đồ dưới đây biểu diễn số học sinh ở mỗi tổ của lớp 9A của trường THCS Hoàng Văn Thụ.\n\n| Tổ | Tổ 1 | Tổ 2 | Tổ 3 | Tổ 4 |\n|---|---|---|---|---|\n| Nam | 4 | 6 | 6 | 5 |\n| Nữ | 5 | 4 | 5 | 6 |\n\na) Hãy lập bảng tần số thống kê số học sinh ở mỗi tổ của lớp 9A và cho biết lớp 9A có bao nhiêu học sinh.\n\nb) Giáo viên chủ nhiệm thực hiện chọn ngẫu nhiên một em học sinh của lớp 9A để tham gia đội hình rước đuốc trong Hội trại \"Ra Khơi - Lần 2\" năm 2025. Tính xác suất của các biến cố:\n- $A$: \"Học sinh được chọn thuộc tổ 1\".\n- $B$: \"Học sinh được chọn là học sinh nữ thuộc tổ 3 hoặc tổ 4\".",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng tần số",
+        "Cộng tổng theo tổ",
+        "Đếm điều kiện kép cho biến cố B"
+      ],
+      "kien_thuc_lien_quan": [
+        "Bảng tần số",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) Lớp 9A có 41 học sinh. b) $P(A) = \\dfrac{9}{41}$, $P(B) = \\dfrac{11}{41}$.",
+      "goi_y_cap_1": "Câu a: Tổng từng tổ: T1=9, T2=10, T3=11, T4=11. Tổng lớp = 41.\n\nCâu b: P(A) = 9/41. P(B) = (nữ T3 + nữ T4)/41 = (5+6)/41.",
+      "goi_y_cap_2": "Câu a:\n| Tổ | T1 | T2 | T3 | T4 |\n|---|---|---|---|---|\n| Nam | 4 | 6 | 6 | 5 |\n| Nữ | 5 | 4 | 5 | 6 |\n| Tổng | 9 | 10 | 11 | 11 |\n- Tổng = $9 + 10 + 11 + 11 = 41$\n\nCâu b:\n- $n(\\Omega) = 41$\n- A: thuộc tổ 1 → $n(A) = 4 + 5 = 9$, $P(A) = \\dfrac{9}{41}$\n- B: nữ thuộc T3 hoặc T4 → $n(B) = 5 + 6 = 11$, $P(B) = \\dfrac{11}{41}$",
+      "loi_giai_day_du": "**Câu a) Lập bảng tần số:**\n\nDựa vào biểu đồ, ta có bảng thống kê:\n\n| Tổ | Tổ 1 | Tổ 2 | Tổ 3 | Tổ 4 |\n|---|---|---|---|---|\n| Nam | 4 | 6 | 6 | 5 |\n| Nữ | 5 | 4 | 5 | 6 |\n| **Tổng** | **9** | **10** | **11** | **11** |\n\nTổng số học sinh lớp 9A là: $9 + 10 + 11 + 11 = \\boxed{41}$ (học sinh).\n\n**Câu b) Tính xác suất:**\n\nKhông gian mẫu: chọn ngẫu nhiên 1 học sinh từ 41 học sinh.\n\nSố phần tử của không gian mẫu là $n(\\Omega) = 41$.\n\n***Xét biến cố A: \"Học sinh được chọn thuộc tổ 1\".***\n\nSố học sinh thuộc tổ 1 là $4 + 5 = 9$ (học sinh).\n\nSố kết quả thuận lợi cho biến cố $A$ là $n(A) = 9$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\boxed{\\dfrac{9}{41}}$$\n\n***Xét biến cố B: \"Học sinh được chọn là học sinh nữ thuộc tổ 3 hoặc tổ 4\".***\n\nSố học sinh nữ thuộc tổ 3 là 5 học sinh.\n\nSố học sinh nữ thuộc tổ 4 là 6 học sinh.\n\nSố kết quả thuận lợi cho biến cố $B$ là $n(B) = 5 + 6 = 11$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\boxed{\\dfrac{11}{41}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS Nam (kẻ chéo) và Nữ (ô vuông đen) theo 4 tổ của lớp 9A.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết lập bảng tần số.",
+          "Em không biết đếm tổng tổ 1.",
+          "Em không hiểu 'nữ thuộc tổ 3 hoặc tổ 4' nghĩa là gì."
+        ],
+        "dinh_huong": [
+          "Em định cộng nam + nữ cho từng tổ — đúng không?",
+          "Em định P(A) = (HS tổ 1)/41 — đúng chứ?",
+          "Em định P(B) = (nữ T3 + nữ T4)/41 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 41 — đúng không?",
+          "Em ra $P(A) = 9/41$ — đúng chưa?",
+          "Em ra $P(B) = 11/41$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ tính nữ T3 (quên nữ T4).",
+          "Em đếm cả nam T3 và T4 (sai vì biến cố B chỉ cần nữ).",
+          "Em rút gọn $9/41$ nhưng phân số này đã tối giản."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-18/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Bể chứa nước (bất phương trình)",
+      "de_bai": "Một nhóm tình nguyện viên trẻ ở vùng lũ lụt miền Trung muốn xây dựng một bể chứa nước sạch tạm thời cho bà con. Bể có dạng hình hộp chữ nhật với chiều cao là $2$ mét. Đáy bể là hình chữ nhật, có chiều dài hơn chiều rộng $2$ mét. Để đảm bảo chi phí và lượng nước sạch cho các hộ gia đình, họ muốn diện tích xung quanh bể không vượt quá $32$ mét vuông.\n\na) Hãy viết biểu thức dạng khai triển tính diện tích xung quanh $S$ của bể theo chiều rộng $x$ (mét) của đáy bể.\n\nb) Tính chiều rộng tối đa của bể để đảm bảo diện tích xung quanh không vượt quá $32$ mét vuông và chi phí xây dựng bể nước với chiều rộng tối đa vừa tìm được. Biết rằng chi phí xây dựng bể được tính dựa vào thể tích của bể và mỗi mét khối thể tích bể có chi phí khoảng $500\\,000$ đồng.",
+      "phuong_phap_duoc_dung": [
+        "Diện tích xung quanh = chu vi đáy × chiều cao",
+        "Chu vi đáy = $2(x + (x+2)) = 4x + 4$",
+        "$S = h \\cdot$ chu vi $= 2(4x+4) = 8x + 8$",
+        "Bất phương trình $8x + 8 \\leq 32$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích xung quanh hình hộp chữ nhật",
+        "Bất phương trình bậc nhất",
+        "Thể tích hình hộp chữ nhật"
+      ],
+      "dap_so": "a) $S = 8x + 8$ (m²). b) Chiều rộng tối đa = 3m, chi phí = 15.000.000 đồng.",
+      "goi_y_cap_1": "Câu a: Chu vi đáy = 2(x + x+2) = 4x+4. S xung quanh = h × chu vi = 2(4x+4) = 8x+8.\n\nCâu b: $8x + 8 \\leq 32 \\Rightarrow x \\leq 3$. V = 5·3·2 = 30. Chi phí = 30·500000.",
+      "goi_y_cap_2": "Câu a:\n- Gọi $x$ (m) chiều rộng đáy ($x > 0$)\n- Chiều dài đáy: $x + 2$ (m)\n- Chiều cao: $h = 2$ m\n- $S_{xq} = 2 \\cdot h \\cdot (x + (x+2)) = 2 \\cdot 2 \\cdot (2x + 2) = 4(2x + 2) = 8x + 8$ (m²)\n\nCâu b:\n- $8x + 8 \\leq 32 \\Rightarrow 8x \\leq 24 \\Rightarrow x \\leq 3$\n- Chiều rộng tối đa = 3 m, dài = 5 m\n- $V = 5 \\cdot 3 \\cdot 2 = 30$ m³\n- Chi phí = $30 \\cdot 500\\,000 = 15\\,000\\,000$ đồng",
+      "loi_giai_day_du": "**Câu a) Viết biểu thức S:**\n\nGọi $x$ (m) là chiều rộng của đáy bể ($x > 0$).\n\nChiều dài của đáy bể là $x + 2$ (m).\n\nChiều cao của bể là $h = 2$ (m).\n\nDiện tích xung quanh của bể là:\n$$S = 2 \\cdot 2 \\cdot (x + 2 + x) = 4(2x + 2) = \\boxed{8x + 8 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Chiều rộng tối đa và chi phí:**\n\nĐể diện tích xung quanh không vượt quá $32$ mét vuông, ta có bất phương trình:\n$$8x + 8 \\leq 32$$\n$$8x \\leq 24$$\n$$x \\leq 3$$\n\nVậy chiều rộng tối đa của bể là $3$ (m).\n\nKhi chiều rộng là $3$ m, chiều dài là $3 + 2 = 5$ (m).\n\nThể tích của bể nước là:\n$$V = \\text{dài} \\cdot \\text{rộng} \\cdot \\text{cao} = 5 \\cdot 3 \\cdot 2 = 30 \\text{ (m}^3\\text{)}$$\n\nChi phí xây dựng bể nước là:\n$$T = 30 \\cdot 500\\,000 = 15\\,000\\,000 \\text{ (đồng)}$$\n\nKết luận: Chiều rộng tối đa là $\\boxed{3}$ m và chi phí là $\\boxed{15\\,000\\,000}$ đồng.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức diện tích xung quanh hình hộp chữ nhật.",
+          "Em không biết viết chiều dài theo chiều rộng.",
+          "Em không biết bắt đầu lập biểu thức từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định chiều dài = $x + 2$ — đúng không?",
+          "Em định $S = 2h \\cdot (a+b)$ — đúng chứ?",
+          "Em định lập bất phương trình $S \\leq 32$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = 8x + 8$ — đúng không?",
+          "Em ra $x \\leq 3$ — đúng chưa?",
+          "Em ra chi phí 15 triệu đồng — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên nhân 2 cho h khi tính $S_{xq}$.",
+          "Em viết chiều dài = $x \\cdot 2$ thay vì $x + 2$.",
+          "Em không tính được V."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Trái dừa và chai (cầu + trụ)",
+      "de_bai": "Một cơ sở sản xuất nước dừa đóng chai sử dụng trái dừa xiêm của Bến Tre để lấy nước và đóng vào chai bán trên thị trường. Mỗi trái dừa xiêm mà cơ sở dùng có thể tích gần bằng một hình cầu với đường kính $18$ cm, trong đó phần vỏ dày $2$ cm.\n\na) Giả sử phần nước dừa bên trong có dạng hình cầu đồng tâm với trái dừa. Tính thể tích phần nước dừa trong mỗi trái dừa. (Kết quả làm tròn đến hàng phần trăm của cm³).\n\nb) Sau khi lấy nước dừa, cơ sở sử dụng chai thủy tinh đặc biệt có dạng hình trụ, đường kính đáy $7$ cm, chiều cao $12$ cm. Mỗi chai chỉ chứa $90\\%$ thể tích của nó để tránh tràn khi đóng nắp. Hỏi cần ít nhất bao nhiêu chai để chứa hết nước dừa của $100$ trái dừa xiêm có kích thước như trên? Biết công thức tính thể tích hình cầu là $V_{cầu} = \\dfrac{4}{3}\\pi R^3$, với $R$ là bán kính hình cầu và công thức tính thể tích hình trụ là $V_{trụ} = \\pi r^2 h$, với $r$ là bán kính đáy hình trụ, $h$ là chiều cao hình trụ.",
+      "phuong_phap_duoc_dung": [
+        "Bán kính nước dừa = (R ngoài) - 2 = 9 - 2 = 7",
+        "$V_{nước} = \\dfrac{4}{3}\\pi R^3$",
+        "$V_{chai} = \\pi r^2 h$",
+        "$V_{chứa} = 90\\% V_{chai}$",
+        "Số chai = ceil(tổng nước / V chứa)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình cầu, hình trụ",
+        "Làm tròn lên (số nguyên)"
+      ],
+      "dap_so": "a) $V_{nước} \\approx 1436{,}76$ cm³. b) Cần ít nhất 346 chai.",
+      "goi_y_cap_1": "Câu a: R ngoài = 9, R trong = 7. V = (4/3)π·7³ = 1372π/3.\n\nCâu b: r = 3,5. V chai = π·(3,5)²·12 = 147π. V chứa = 132,3π. V tổng 100 trái = 100·1372π/3 = 137200π/3. Số chai = (137200π/3)/(132,3π) ≈ 345,68 → 346.",
+      "goi_y_cap_2": "Câu a:\n- $R_{ngoài} = 18/2 = 9$ cm\n- Vỏ dày 2 cm → $R_{trong} = 9 - 2 = 7$ cm\n- $V_{nước} = \\dfrac{4}{3}\\pi \\cdot 7^3 = \\dfrac{1372\\pi}{3}$ cm³\n- $\\pi \\approx 3{,}14159$: $V_{nước} \\approx 1436{,}76$ cm³\n\nCâu b:\n- $r = 7/2 = 3{,}5$ cm\n- $V_{chai} = \\pi \\cdot (3{,}5)^2 \\cdot 12 = 147\\pi$ cm³\n- $V_{chứa} = 90\\% \\cdot 147\\pi = 132{,}3\\pi$ cm³\n- 100 trái: $V_{tổng} = 100 \\cdot \\dfrac{1372\\pi}{3} = \\dfrac{137200\\pi}{3}$ cm³\n- Số chai: $n = \\dfrac{137200\\pi/3}{132{,}3\\pi} = \\dfrac{137200}{3 \\cdot 132{,}3} = \\dfrac{137200}{396{,}9} \\approx 345{,}68$\n- Số chai phải nguyên dương → cần ít nhất $346$ chai",
+      "loi_giai_day_du": "**Câu a) Thể tích nước dừa:**\n\nBán kính của trái dừa (tính cả vỏ) là:\n$$R_{ngoài} = 18 : 2 = 9 \\text{ (cm)}$$\n\nVì vỏ dày $2$ cm nên bán kính phần nước dừa bên trong là:\n$$R = 9 - 2 = 7 \\text{ (cm)}$$\n\nThể tích phần nước dừa trong mỗi trái dừa là:\n$$V_{nước} = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3}\\pi \\cdot 7^3 = \\dfrac{1372}{3}\\pi \\text{ (cm}^3\\text{)}$$\n\nLàm tròn kết quả đến hàng phần trăm ($\\pi \\approx 3{,}141\\ldots$):\n$$V_{nước} \\approx \\boxed{1436{,}76 \\text{ cm}^3}$$\n\n**Câu b) Số chai cần dùng:**\n\nBán kính đáy của chai thủy tinh là $r = 7 : 2 = 3{,}5$ (cm).\n\nThể tích toàn bộ của mỗi chai thủy tinh là:\n$$V_{chai} = \\pi r^2 h = \\pi \\cdot (3{,}5)^2 \\cdot 12 = 147\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích thực tế nước dừa được chứa trong mỗi chai (90% thể tích chai) là:\n$$V_{chứa} = 147\\pi \\cdot 90\\% = 132{,}3\\pi \\text{ (cm}^3\\text{)}$$\n\nTổng thể tích nước dừa thu được từ $100$ trái dừa là:\n$$V_{tổng} = 100 \\cdot \\dfrac{1372}{3}\\pi = \\dfrac{137\\,200}{3}\\pi \\text{ (cm}^3\\text{)}$$\n\nSố chai cần thiết để chứa hết lượng nước dừa là:\n$$n = \\dfrac{V_{tổng}}{V_{chứa}} = \\dfrac{\\dfrac{137\\,200}{3}\\pi}{132{,}3\\pi} = \\dfrac{137\\,200}{396{,}9} \\approx 345{,}68$$\n\nVì số chai phải là số nguyên dương nên ta cần ít nhất $\\boxed{346}$ chai.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bên trái: mặt cắt ngang trái dừa, vỏ dày 2cm, đường kính ngoài 18cm. Bên phải: chai thủy tinh hình trụ d=7cm, h=12cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết R nước dừa tính từ đâu.",
+          "Em không biết tính 90% thể tích.",
+          "Em không nhớ làm tròn lên hay xuống cho số chai."
+        ],
+        "dinh_huong": [
+          "Em định lấy R nước = 9 - 2 = 7 cm — đúng không?",
+          "Em định V chứa = 90% × V chai — đúng chứ?",
+          "Em định làm tròn lên 346 (vì 345 không đủ) — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra V nước $\\approx 1436{,}76$ cm³ — đúng không?",
+          "Em ra V chứa = 132,3π — đúng chưa?",
+          "Em ra cần 346 chai — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm R nước = 9 + 2 thay vì 9 - 2.",
+          "Em quên nhân 100 trái.",
+          "Em làm tròn xuống 345 (sai vì không đủ chai)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-18/bai5-traidua.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán logic - Tính chẵn lẻ (sinh nhật bạn Anh)",
+      "de_bai": "Lớp 9A có $37$ học sinh gồm $20$ bạn nam. Nhân dịp sinh nhật bạn Anh trong lớp, các bạn đều có gửi lời chúc và nhiều món quà cho bạn Anh. Giáo viên tặng cho bạn Anh một phần quà, đồng thời cũng tặng cho mỗi bạn còn lại nếu là nam nhận $3$ cái bánh và nếu là nữ thì nhận $2$ viên kẹo màu xanh hoặc $4$ viên kẹo màu đỏ. Biết số bánh bằng số kẹo. Hỏi bạn Anh là nam hay nữ?",
+      "phuong_phap_duoc_dung": [
+        "Xét 2 trường hợp: Anh là nam và Anh là nữ",
+        "Trường hợp Anh nam → tổng kẹo = số lẻ → vô lý vì $2a + 4b$ là chẵn",
+        "Trường hợp Anh nữ → giải hệ phương trình"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tính chẵn lẻ",
+        "Hệ phương trình bậc nhất 2 ẩn"
+      ],
+      "dap_so": "Bạn Anh là nữ.",
+      "goi_y_cap_1": "Số nữ = 37 - 20 = 17. Trường hợp 1: Anh nam → 19 nam, 17 nữ → bánh = 57, cần kẹo = 57. Đặt $a, b$ số bạn nữ nhận 2 và 4 viên: $a+b = 17$, $2a+4b = 57$ → vô nghiệm vì $2(a+2b) = 57$ lẻ. Trường hợp 2: Anh nữ → 20 nam, 16 nữ → bánh = 60, kẹo = 60. Hệ: $x+y=16$, $2x+4y=60$ → $x=2, y=14$. Hợp lý.",
+      "goi_y_cap_2": "- Số nữ lớp 9A = $37 - 20 = 17$\n\n**Trường hợp 1: Anh là nam.**\n- Số nam còn lại nhận bánh: $20 - 1 = 19$\n- Tổng số bánh: $19 \\cdot 3 = 57$\n- Số nữ còn lại nhận kẹo: $17$\n- Gọi $a$ là số nữ nhận 2 viên kẹo, $b$ là số nữ nhận 4 viên kẹo ($a, b \\in \\mathbb{N}$)\n- $a + b = 17$\n- $2a + 4b = 57 \\Leftrightarrow 2(a + 2b) = 57$\n- Vế trái chẵn, vế phải lẻ → vô lý → Anh không thể là nam\n\n**Trường hợp 2: Anh là nữ.**\n- Số nam còn lại: $20$\n- Tổng bánh: $20 \\cdot 3 = 60$\n- Số nữ còn lại: $17 - 1 = 16$\n- Gọi $x$ là số nữ nhận 2 viên, $y$ là số nữ nhận 4 viên\n- $x + y = 16$, $2x + 4y = 60$\n- Giải: $x = 2, y = 14$ (số tự nhiên hợp lý)\n\nVậy bạn Anh là **nữ**.",
+      "loi_giai_day_du": "Số học sinh nữ của lớp 9A là $37 - 20 = 17$ (học sinh).\n\nTa xét hai trường hợp đối với giới tính của bạn Anh:\n\n**Trường hợp 1: Giả sử bạn Anh là nam.**\n\nSố bạn nam còn lại trong lớp (được nhận bánh) là $20 - 1 = 19$ (bạn).\n\nTổng số bánh các bạn nam nhận được là $19 \\cdot 3 = 57$ (cái).\n\nSố bạn nữ còn lại trong lớp (được nhận kẹo) là $17$ (bạn).\n\nGọi $a$ là số bạn nữ nhận 2 viên kẹo và $b$ là số bạn nữ nhận 4 viên kẹo ($a, b \\in \\mathbb{N}$).\n\nTổng số bạn nữ là $a + b = 17$.\n\nTổng số kẹo nhận được là $2a + 4b$.\n\nVì số bánh bằng số kẹo nên ta có phương trình:\n$$2a + 4b = 57$$\n$$2(a + 2b) = 57$$\n\nTa thấy vế trái $2(a + 2b)$ là số chẵn, còn vế phải $57$ là số lẻ.\n\nĐiều này vô lý, nên bạn Anh không thể là nam.\n\n**Trường hợp 2: Giả sử bạn Anh là nữ.**\n\nSố bạn nam còn lại trong lớp là $20$ (bạn).\n\nTổng số bánh các bạn nam nhận được là $20 \\cdot 3 = 60$ (cái).\n\nSố bạn nữ còn lại trong lớp (trừ bạn Anh) là $17 - 1 = 16$ (bạn).\n\nGọi $x$ (bạn) là số bạn nữ nhận 2 viên kẹo và $y$ (bạn) là số bạn nữ nhận 4 viên kẹo ($x, y \\in \\mathbb{N}$).\n\nVì tổng số bạn nữ nhận kẹo là 16 và tổng số kẹo bằng số bánh ($60$ cái), ta có hệ phương trình:\n$$\\begin{cases} x + y = 16 \\\\ 2x + 4y = 60 \\end{cases} \\Rightarrow \\begin{cases} x = 2 \\\\ y = 14 \\end{cases}$$\n\nVì tìm được số lượng học sinh là số tự nhiên hợp lý nên giả thiết này đúng.\n\nVậy bạn Anh là $\\boxed{\\text{nữ}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bài này phải đặt ẩn nào.",
+          "Em không biết bắt đầu phân tích từ đâu.",
+          "Em không hiểu vì sao $2(a+2b) = 57$ vô lý."
+        ],
+        "dinh_huong": [
+          "Em định xét 2 trường hợp Anh nam/nữ — đúng không?",
+          "Em định gọi $a, b$ số bạn nữ nhận 2 và 4 viên — đúng chứ?",
+          "Em định dùng tính chẵn lẻ để loại trường hợp Anh nam — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra trường hợp Anh nam vô lý — đúng không?",
+          "Em ra hệ $x + y = 16, 2x + 4y = 60$ — đúng chưa?",
+          "Em ra Anh là nữ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết VT chẵn ≠ VP lẻ → vô nghiệm.",
+          "Em không kiểm tra Anh có thuộc nhóm nữ → bị tính 2 lần.",
+          "Em quên trừ 1 cho bạn Anh ở trường hợp 2."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Nửa đường tròn và tiếp tuyến",
+      "de_bai": "Cho nửa đường tròn tâm $O$ đường kính $AB$. Trên tiếp tuyến tại $B$ của nửa đường tròn tâm $O$ lấy điểm $M$. Qua $M$ kẻ tiếp tuyến tại $C$ của nửa đường tròn này ($C$ khác $B$). Đoạn thẳng $AM$ cắt nửa đường tròn tâm $O$ tại $D$ ($D$ khác $A$). Gọi $I$ là trung điểm $AD$, $H$ là giao điểm của $OM$ và $BC$.\n\na) Chứng minh rằng tứ giác $MCOB$ nội tiếp và tứ giác $MCIO$ nội tiếp.\n\nb) Gọi $K$ là giao điểm của tia $OI$ và đường thẳng $BC$. Chứng minh rằng $OH \\cdot OM = OC^2$ và $KD$ là tiếp tuyến của nửa đường tròn tâm $O$.\n\nc) Giả sử $BM = AB = 2R$. Hãy tính phần diện tích của tam giác $KAD$ không thuộc nửa đường tròn tâm $O$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "Tứ giác có 2 đỉnh kề nhìn 1 cạnh dưới góc 90° → nội tiếp",
+        "Tam giác đồng dạng",
+        "Tam giác cân, tam giác đều",
+        "Hệ thức $OH \\cdot OM = OC^2 = OD^2$",
+        "Tam giác đồng dạng → góc 90° → KD là tiếp tuyến",
+        "S vuông AKDO - S quạt AOD"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp",
+        "Tam giác đồng dạng",
+        "Tiếp tuyến của đường tròn",
+        "Diện tích hình quạt"
+      ],
+      "dap_so": "c) $S = R^2 - \\dfrac{\\pi R^2}{4}$.",
+      "goi_y_cap_1": "Câu a: △MCO vuông tại C, △MBO vuông tại B → MCOB nội tiếp. △MCO vuông tại C, △MIO vuông tại I (do OI ⊥ AD) → MCIO nội tiếp.\n\nCâu b: △OHC ~ △OCM (g-g) → OH·OM = OC². Sau đó △OHK ~ △OIM → OI·OK = OH·OM = OD². Từ tỉ số → △OID ~ △ODK (c-g-c) → góc ODK = 90° → KD ⊥ OD → KD tiếp tuyến.\n\nCâu c: △ABM vuông cân tại B (AB=BM=2R) → góc MAB = 45°. △OAD cân tại O, OI ⊥ AD → góc OAD = góc ODA = 45° → góc AOD = 90°. △OAK = △ODK (c-c-c) → góc OAK = góc ODK = 90°. AKDO có 3 góc 90° → hình chữ nhật, mà OA = OD = R → hình vuông. S vuông = R². S quạt 90° = πR²/4. Phần ngoài = R² - πR²/4.",
+      "goi_y_cap_2": "Câu a:\n- $\\triangle MCO$ vuông tại C (MC tiếp tuyến) → nội tiếp đường tròn đường kính MO (1)\n- $\\triangle MBO$ vuông tại B (MB tiếp tuyến) → nội tiếp đường tròn đường kính MO (2)\n- (1)(2) → M, C, O, B cùng thuộc đường tròn đường kính MO → MCOB nội tiếp\n- $OA = OD = R$ → $\\triangle OAD$ cân tại O\n- I trung điểm AD → OI là trung tuyến đồng thời là đường cao → $OI \\perp AD$ → $\\widehat{MIO} = 90°$\n- $\\triangle MCO$ và $\\triangle MIO$ đều vuông → cùng nội tiếp đường tròn đường kính MO → MCIO nội tiếp\n\nCâu b:\n- $MB = MC$ (tính chất 2 tiếp tuyến cắt nhau), $OB = OC = R$ → $OM$ là trung trực $BC$ → $OM \\perp BC$ tại $H$\n- $\\triangle OHC$ và $\\triangle OCM$: $\\widehat{MOC}$ chung, $\\widehat{OHC} = \\widehat{OCM} = 90°$\n- → $\\triangle OHC \\sim \\triangle OCM$ (g-g) → $\\dfrac{OH}{OC} = \\dfrac{OC}{OM}$\n- → $OH \\cdot OM = OC^2 = R^2 = OD^2$\n- $\\triangle OHK$ và $\\triangle OIM$: $\\widehat{HOM}$ chung, $\\widehat{OHK} = \\widehat{OIM} = 90°$\n- → $\\triangle OHK \\sim \\triangle OIM$ (g-g) → $OH \\cdot OM = OI \\cdot OK$\n- → $OI \\cdot OK = OD^2 \\Rightarrow \\dfrac{OI}{OD} = \\dfrac{OD}{OK}$\n- $\\triangle OID$ và $\\triangle ODK$: $\\widehat{KOD}$ chung, $\\dfrac{OI}{OD} = \\dfrac{OD}{OK}$\n- → $\\triangle OID \\sim \\triangle ODK$ (c-g-c) → $\\widehat{ODK} = \\widehat{OID} = 90°$\n- → $KD \\perp OD$ tại D → KD là tiếp tuyến của (O)\n\nCâu c:\n- $\\triangle ABM$: $AB = BM = 2R$, $\\widehat{ABM} = 90°$ → vuông cân tại B → $\\widehat{MAB} = 45°$\n- $\\triangle OAD$: $OA = OD = R$ → cân tại O, có $\\widehat{OAD} = \\widehat{MAB} = 45°$\n- → $\\widehat{ODA} = 45°$ → $\\widehat{AOD} = 90°$\n- $\\triangle OAD$ vuông cân tại O\n- OI là trung tuyến đồng thời là trung trực\n- $\\triangle OAK$ và $\\triangle ODK$: $OA = OD = R$, OK chung, $KA = KD$ (do K trên trung trực AD)\n- → $\\triangle OAK = \\triangle ODK$ (c-c-c) → $\\widehat{OAK} = \\widehat{ODK} = 90°$\n- Tứ giác AKDO có 3 góc 90° ($\\widehat{AOD}, \\widehat{ODK}, \\widehat{OAK}$) → hình chữ nhật\n- Mà $OA = OD = R$ → AKDO là hình vuông\n- $S_{AKDO} = OA^2 = R^2$\n- $S_q = \\dfrac{\\pi R^2 \\cdot 90}{360} = \\dfrac{\\pi R^2}{4}$\n- Phần $\\triangle KAD$ không thuộc nửa đường tròn = $S_{AKDO} - S_q = R^2 - \\dfrac{\\pi R^2}{4}$",
+      "loi_giai_day_du": "**Câu a) Tứ giác MCOB và MCIO nội tiếp:**\n\n***Xét tứ giác MCOB:***\n\nTa có $\\triangle MCO$ vuông tại $C$ (do $MC$ là tiếp tuyến).\n\nSuy ra $\\triangle MCO$ nội tiếp đường tròn đường kính $MO$ (1).\n\nTa có $\\triangle MBO$ vuông tại $B$ (do $MB$ là tiếp tuyến).\n\nSuy ra $\\triangle MBO$ nội tiếp đường tròn đường kính $MO$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $M, C, O, B$ cùng thuộc đường tròn đường kính $MO$.\n\nVậy tứ giác $MCOB$ nội tiếp.\n\n***Xét tứ giác MCIO:***\n\nTa có $OA = OD = R$ nên $\\triangle OAD$ cân tại $O$.\n\nMà $I$ là trung điểm $AD$ nên $OI$ là đường trung tuyến đồng thời là đường cao.\n\nSuy ra $OI \\perp AD \\Rightarrow \\widehat{MIO} = 90°$.\n\nTa có $\\triangle MCO$ vuông tại $C$ (chứng minh trên).\n\nSuy ra $\\triangle MCO$ nội tiếp đường tròn đường kính $MO$ (3).\n\nTa có $\\triangle MIO$ vuông tại $I$.\n\nSuy ra $\\triangle MIO$ nội tiếp đường tròn đường kính $MO$ (4).\n\nTừ (3) và (4) suy ra 4 điểm $M, C, I, O$ cùng thuộc đường tròn đường kính $MO$.\n\nVậy tứ giác $MCIO$ nội tiếp.\n\n**Câu b) Chứng minh $OH \\cdot OM = OC^2$ và KD là tiếp tuyến:**\n\nTa có $\\begin{cases} MB = MC \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OB = OC = R \\end{cases}$\n\n$\\Rightarrow OM$ là trung trực của $BC \\Rightarrow OM \\perp BC$ tại $H$.\n\nXét $\\triangle OHC$ và $\\triangle OMC$:\n$\\begin{cases} \\widehat{MOC} \\text{ (góc chung)} \\\\ \\widehat{OHC} = \\widehat{OCM} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle OHC \\sim \\triangle OMC$ (g-g)\n\n$\\Rightarrow \\dfrac{OH}{OC} = \\dfrac{OC}{OM} \\Rightarrow \\boxed{OH \\cdot OM = OC^2}$.\n\nTa có $OC = OD = R$ nên $OH \\cdot OM = OD^2$.\n\nXét $\\triangle OHK$ và $\\triangle OIM$:\n$\\begin{cases} \\widehat{HOM} \\text{ (góc chung)} \\\\ \\widehat{OHK} = \\widehat{OIM} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle OHK \\sim \\triangle OIM$ (g-g)\n\n$\\Rightarrow \\dfrac{OH}{OI} = \\dfrac{OK}{OM} \\Rightarrow OH \\cdot OM = OI \\cdot OK$.\n\nVậy $OI \\cdot OK = OD^2 \\Rightarrow \\dfrac{OI}{OD} = \\dfrac{OD}{OK}$.\n\nXét $\\triangle OID$ và $\\triangle ODK$:\n$\\begin{cases} \\widehat{KOD} \\text{ (góc chung)} \\\\ \\dfrac{OI}{OD} = \\dfrac{OD}{OK} \\end{cases}$\n\n$\\Rightarrow \\triangle OID \\sim \\triangle ODK$ (c-g-c)\n\n$\\Rightarrow \\widehat{ODK} = \\widehat{OID} = 90°$.\n\n$\\Rightarrow KD \\perp OD$ tại $D$.\n\nVậy $KD$ là tiếp tuyến của nửa đường tròn tâm $O$.\n\n**Câu c) Tính diện tích phần $\\triangle KAD$ không thuộc nửa đường tròn:**\n\nTa có $\\triangle ABM$ vuông tại $B$ và $AB = BM = 2R$.\n\nSuy ra $\\triangle ABM$ vuông cân tại $B \\Rightarrow \\widehat{MAB} = 45°$.\n\n$\\triangle OAD$ có $OA = OD = R$ nên cân tại $O$.\n\n$\\Rightarrow \\widehat{ODA} = \\widehat{DAO} = 45°$.\n\n$\\Rightarrow \\triangle OAD$ vuông cân tại $O$.\n\nMà $OI$ là trung tuyến nên $OI$ là đường trung trực của $AD$.\n\nXét $\\triangle OAK$ và $\\triangle ODK$:\n$\\begin{cases} OA = OD = R \\\\ OK \\text{ chung} \\\\ KA = KD \\text{ (vì K thuộc trung trực AD)} \\end{cases}$\n\n$\\Rightarrow \\triangle OAK = \\triangle ODK$ (c-c-c)\n\n$\\Rightarrow \\widehat{OAK} = \\widehat{ODK} = 90°$ (hai góc tương ứng).\n\nXét tứ giác $AKDO$ có:\n$\\begin{cases} \\widehat{AOD} = 90° \\\\ \\widehat{ODK} = 90° \\\\ \\widehat{OAK} = 90° \\end{cases}$\n\nSuy ra tứ giác $AKDO$ là hình chữ nhật.\n\nLại có $OA = OD = R$ nên $AKDO$ là hình vuông.\n\nDiện tích hình vuông $AKDO$ là $S_{AKDO} = OA^2 = R^2$.\n\nDiện tích hình quạt tròn $AOD$ (ứng với góc ở tâm $90°$) là:\n$$S_q = \\dfrac{\\pi R^2 \\cdot 90}{360} = \\dfrac{\\pi R^2}{4}$$\n\nPhần diện tích của tam giác $KAD$ không thuộc nửa đường tròn bằng diện tích tứ giác $AKDO$ trừ đi diện tích hình quạt tròn $AOD$ (do tứ giác $AKDO$ bao chứa hình quạt tròn $AOD$):\n$$S = S_{AKDO} - S_q = R^2 - \\dfrac{\\pi R^2}{4}$$\n\nVậy diện tích cần tìm là $\\boxed{R^2 - \\dfrac{\\pi R^2}{4}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Nửa đường tròn (O) đường kính AB, MB tiếp tuyến tại B, MC tiếp tuyến tại C, AM cắt (O) tại D, I trung điểm AD, H giao OM với BC, K giao OI với BC.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu chứng minh nội tiếp.",
+          "Em không biết vì sao OI ⊥ AD.",
+          "Câu c phức tạp quá, em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định 3 tam giác vuông cùng cạnh huyền MO — đúng không?",
+          "Câu b em định OH·OM = OC² rồi suy ra OI·OK = OD² — đúng chứ?",
+          "Câu c em định AKDO là hình vuông — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra MCOB, MCIO đều nội tiếp — đúng không?",
+          "Em ra KD ⊥ OD → KD tiếp tuyến — đúng chưa?",
+          "Em ra $S = R^2 - \\dfrac{\\pi R^2}{4}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết AKDO có 3 góc vuông là hình chữ nhật.",
+          "Em không nhận ra △ABM vuông cân.",
+          "Em quên trừ S quạt khỏi S vuông."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-18/bai7-tieptuyen.png"
+    }
+  ]
+}
