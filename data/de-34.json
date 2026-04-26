@@ -1,0 +1,375 @@
+{
+  "de_so": 34,
+  "cum": 12,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho parabol $(P): y = \\dfrac{x^2}{4}$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm những điểm $M$ thuộc $(P)$ có tung độ bằng hai lần hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Tung độ bằng 2 lần hoành độ → $y = 2x$",
+        "Thay vào (P): $2x = \\dfrac{1}{4}x^2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $(0; 0)$ và $(8; 16)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = 4, 1, 0, 1, 4.\n\nCâu b: $y = 2x$. $2x = x^2/4 \\Rightarrow x^2 - 8x = 0 \\Rightarrow x = 0$ hoặc $x = 8$.",
+      "goi_y_cap_2": "Câu a: $y$ tại $x = ±4: y = 4$, $x = ±2: y = 1$, $x = 0: y = 0$.\n\nCâu b:\n- $y = 2x$\n- $2x = \\dfrac{x^2}{4} \\Rightarrow -\\dfrac{1}{4}x^2 + 2x = 0$\n- $x_1 = 0$ (loại nếu khác gốc), $x_2 = 8$\n- Đề không yêu cầu khác gốc → nhận cả hai\n- $(0;0)$ và $(8; 16)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{4}$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ M:**\n\nVì tung độ bằng hai lần hoành độ nên $y = 2x$.\n\nTa có phương trình $2x = \\dfrac{1}{4}x^2$\n$$-\\dfrac{1}{4}x^2 + 2x = 0$$\n$$x_1 = 0; \\quad x_2 = 8$$\n\nVới $x_1 = 0 \\Rightarrow y_1 = 0$.\nVới $x_2 = 8 \\Rightarrow y_2 = 16$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(8; 16)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x²/4 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = 4, 1, 0, 1, 4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tung độ là gì.",
+          "Em không biết bảng giá trị bắt đầu từ đâu.",
+          "Em không hiểu '$y$ bằng 2 lần $x$'."
+        ],
+        "dinh_huong": [
+          "Em định 'tung độ = 2 hoành độ' = $y = 2x$ — đúng không?",
+          "Em định lập phương trình $2x = x^2/4$ — đúng chứ?",
+          "Em định nhận cả $(0;0)$ vì không yêu cầu khác gốc — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 - 8x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = 8$ — đúng chưa?",
+          "Em ra $(0;0)$ và $(8;16)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm thay $y = x/2$ thay vì $y = 2x$.",
+          "Em không tìm ra $x = 8$.",
+          "Em loại $(0;0)$ một cách nhầm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-34/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức M có hằng số 2025, 2026",
+      "de_bai": "Cho phương trình $2x^2 - 9x + 3 = 0$.\n\na) Chứng tỏ phương trình có hai nghiệm là $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức $M = x_1(2025 - x_1) + x_2(2026 - x_2) - x_2$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Khai triển: $M = 2025x_1 - x_1^2 + 2026x_2 - x_2^2 - x_2 = 2025(x_1+x_2) - (x_1^2+x_2^2)$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hằng đẳng thức"
+      ],
+      "dap_so": "$M = \\dfrac{36381}{4}$",
+      "goi_y_cap_1": "Δ = 81 - 24 = 57 > 0. Viète: $x_1+x_2 = 9/2$, $x_1 x_2 = 3/2$. $x_1^2+x_2^2 = 81/4 - 3 = 69/4$. $M = 2025x_1 - x_1^2 + 2026x_2 - x_2^2 - x_2 = 2025x_1 + 2025x_2 - (x_1^2+x_2^2) = 2025(x_1+x_2) - (x_1^2+x_2^2) = 2025 \\cdot 9/2 - 69/4 = 36381/4$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 81 - 24 = 57 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = \\dfrac{9}{2}$, $x_1 x_2 = \\dfrac{3}{2}$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\dfrac{81}{4} - 3 = \\dfrac{69}{4}$\n- $M = 2025x_1 - x_1^2 + 2026x_2 - x_2^2 - x_2$\n- $= 2025x_1 - x_1^2 + 2025x_2 - x_2^2$\n- $= 2025(x_1 + x_2) - (x_1^2 + x_2^2)$\n- $= 2025 \\cdot \\dfrac{9}{2} - \\dfrac{69}{4} = \\dfrac{36450 - 69}{4} = \\dfrac{36381}{4}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $2x^2 - 9x + 3 = 0$ với $a = 2; b = -9; c = 3$.\n\n$\\Delta = (-9)^2 - 4 \\cdot 2 \\cdot 3 = 57 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính M:**\n\nTheo định lý Viète:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{9}{2} \\\\ x_1 x_2 = \\dfrac{3}{2} \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\left(\\dfrac{9}{2}\\right)^2 - 2 \\cdot \\dfrac{3}{2} = \\dfrac{69}{4}$.\n\nTa có:\n$$M = x_1(2025 - x_1) + x_2(2026 - x_2) - x_2$$\n$$= 2025x_1 - x_1^2 + 2026x_2 - x_2^2 - x_2$$\n$$= 2025x_1 - x_1^2 + 2025x_2 - x_2^2$$\n$$= 2025(x_1 + x_2) - (x_1^2 + x_2^2)$$\n$$= 2025 \\cdot \\dfrac{9}{2} - \\dfrac{69}{4} = \\boxed{\\dfrac{36381}{4}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu khai triển M từ đâu.",
+          "Em không nhận ra $2026x_2 - x_2 = 2025x_2$.",
+          "Em quên Viète với $a = 2$."
+        ],
+        "dinh_huong": [
+          "Em định khai triển $M = 2025x_1 - x_1^2 + 2026x_2 - x_2^2 - x_2$ — đúng không?",
+          "Em định gộp $2026x_2 - x_2 = 2025x_2$ — đúng chứ?",
+          "Em định gộp $2025(x_1+x_2)$ và $(x_1^2+x_2^2)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = 9/2$, $x_1 x_2 = 3/2$ — đúng không?",
+          "Em ra $x_1^2+x_2^2 = 69/4$ — đúng chưa?",
+          "Em ra $M = 36381/4$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra $2026x_2 - x_2 = 2025x_2$.",
+          "Em quên chia 2 trong Viète.",
+          "Em tính sai $36450 - 69 = 36381$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.0,
+      "chu_de": "Xác suất - Nhóm 10 HS từ 3 trường",
+      "de_bai": "Trong một nhóm gồm $10$ học sinh lớp 9 có $5$ bạn học trường Quang Trung; $3$ bạn học trường Nguyễn Huệ và $2$ bạn học trường Tây Sơn. Chọn ngẫu nhiên $1$ học sinh trong $10$ học sinh đó.\n\na) Không gian mẫu của phép thử có bao nhiêu phần tử?\n\nb) Tính xác suất của mỗi biến cố sau:\n- $A$: \"Bạn học sinh được chọn học trường Quang Trung\".\n- $B$: \"Bạn học sinh được chọn không học trường Tây Sơn\".",
+      "phuong_phap_duoc_dung": [
+        "$n(\\Omega) = 10$",
+        "$n(A) = 5$ → $P(A) = 5/10 = 1/2$",
+        "$n(B) = 10 - 2 = 8$ → $P(B) = 8/10 = 4/5$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) $n(\\Omega) = 10$. b) $P(A) = \\dfrac{1}{2}$, $P(B) = \\dfrac{4}{5}$.",
+      "goi_y_cap_1": "$n(\\Omega) = 10$. $n(A) = 5 → P(A) = 1/2$. $n(B) = 10 - 2 = 8 → P(B) = 4/5$.",
+      "goi_y_cap_2": "Câu a:\n- $\\Omega = \\{Q_1, ..., Q_5, N_1, N_2, N_3, T_1, T_2\\}$\n- $n(\\Omega) = 10$\n\nCâu b:\n- $n(A) = 5$ (5 HS Quang Trung)\n- $P(A) = \\dfrac{5}{10} = \\dfrac{1}{2}$\n- $n(B) = 10 - 2 = 8$ (10 trừ 2 HS Tây Sơn)\n- $P(B) = \\dfrac{8}{10} = \\dfrac{4}{5}$",
+      "loi_giai_day_du": "**Câu a) Số phần tử không gian mẫu:**\n\nKí hiệu các học sinh trường Quang Trung là $Q_1, Q_2, Q_3, Q_4, Q_5$; trường Nguyễn Huệ là $N_1, N_2, N_3$; trường Tây Sơn là $T_1, T_2$.\n\nKhông gian mẫu: $\\Omega = \\{Q_1, Q_2, Q_3, Q_4, Q_5, N_1, N_2, N_3, T_1, T_2\\}$.\n\nSố phần tử của không gian mẫu là $n(\\Omega) = \\boxed{10}$.\n\n**Câu b) Tính xác suất:**\n\n***Biến cố A:* Học trường Quang Trung**\n\nVì có 5 bạn học trường Quang Trung nên khả năng thuận lợi của biến cố $A$ là $n(A) = 5$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{5}{10} = \\boxed{\\dfrac{1}{2}}$$\n\n***Biến cố B:* Không học trường Tây Sơn**\n\nVì có $10 - 2 = 8$ bạn không học trường Tây Sơn nên khả năng thuận lợi của biến cố $B$ là $n(B) = 8$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{8}{10} = \\boxed{\\dfrac{4}{5}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết liệt kê không gian mẫu.",
+          "Em không hiểu 'không học trường Tây Sơn'.",
+          "Em không biết rút gọn phân số."
+        ],
+        "dinh_huong": [
+          "Em định $n(\\Omega) = 10$ vì có 10 HS — đúng không?",
+          "Em định $n(A) = 5$ — đúng chứ?",
+          "Em định $n(B) = 10 - 2 = 8$ vì có 2 bạn Tây Sơn — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $n(\\Omega) = 10$ — đúng không?",
+          "Em ra $P(A) = 1/2$ — đúng chưa?",
+          "Em ra $P(B) = 4/5$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm sai n(B) là 2 (số Tây Sơn).",
+          "Em không rút gọn phân số.",
+          "Em nhầm $P(B)$ là phần bù của xác suất chọn Tây Sơn."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.5,
+      "chu_de": "Bài toán thực tế - Mảnh vườn HCN với lối đi chữ thập",
+      "de_bai": "Một mảnh vườn hình chữ nhật có chiều rộng bằng $a$ (m), chiều dài hơn chiều rộng $6$ (m). Người ta làm lối đi rộng $x$ (m) (như hình).\n\na) Viết biểu thức biểu thị diện tích phần còn lại của mảnh vườn.\n\nb) Tính diện tích phần còn lại khi $a = 30$ m và $x = 1$ m.",
+      "phuong_phap_duoc_dung": [
+        "Phần còn lại 4 HCN nhỏ ghép thành HCN lớn",
+        "Chiều rộng còn lại = $a - x$",
+        "Chiều dài còn lại = $a + 6 - x$",
+        "$S = (a-x)(a+6-x)$",
+        "$a=30, x=1$: $S = 29 \\cdot 35 = 1015$ m²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật"
+      ],
+      "dap_so": "a) $S = (a-x)(a+6-x)$ (m²). b) $S = 1015$ m².",
+      "goi_y_cap_1": "Câu a: $S = (a-x)(a+6-x)$. Câu b: $a=30, x=1$ → $S = 29 \\cdot 35 = 1015$ m².",
+      "goi_y_cap_2": "Câu a:\n- Chiều dài mảnh vườn: $a + 6$ (m)\n- 4 HCN nhỏ ghép thành 1 HCN lớn\n- Chiều rộng phần còn lại: $a - x$ (m)\n- Chiều dài phần còn lại: $a + 6 - x$ (m)\n- $S = (a-x)(a+6-x)$ (m²)\n\nCâu b: $a = 30, x = 1$\n- $S = (30-1)(30+6-1) = 29 \\cdot 35 = 1015$ m²",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích:**\n\nChiều dài của mảnh vườn hình chữ nhật là $a + 6$ (m).\n\nPhần còn lại của mảnh vườn sau khi làm lối đi gồm 4 hình chữ nhật nhỏ, có thể dồn lại thành một hình chữ nhật lớn.\n\nChiều rộng của hình chữ nhật phần còn lại là $a - x$ (m).\nChiều dài của hình chữ nhật phần còn lại là $a + 6 - x$ (m).\n\nBiểu thức biểu thị diện tích phần còn lại của mảnh vườn là:\n$$S = \\boxed{(a - x)(a + 6 - x) \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tính diện tích khi a = 30, x = 1:**\n\n$$S = (30 - 1)(30 + 6 - 1) = 29 \\cdot 35 = \\boxed{1015 \\text{ m}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh vườn HCN với chiều rộng a, chiều dài a+6, có lối đi chữ thập rộng x ở giữa, chia mảnh vườn thành 4 phần.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết phần còn lại là gì sau khi trừ lối đi.",
+          "Em không thấy 4 HCN nhỏ ghép thành 1 HCN lớn.",
+          "Em không biết chiều dài hơn chiều rộng 6m."
+        ],
+        "dinh_huong": [
+          "Em định chiều dài = $a + 6$ — đúng không?",
+          "Em định 4 HCN nhỏ → 1 HCN lớn $(a-x)(a+6-x)$ — đúng chứ?",
+          "Em định thay $a = 30, x = 1$ → $29 \\cdot 35$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = (a-x)(a+6-x)$ — đúng không?",
+          "Em ra $29 \\cdot 35 = 1015$ — đúng chưa?",
+          "Em đáp án 1015 m² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nghĩ ra cách dồn 4 HCN thành 1 HCN.",
+          "Em tính trừ lối đi như diện tích chữ thập (sai).",
+          "Em quên thay $a + 6 = 36$ rồi $-x$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-34/bai4-manhvuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Bình hình trụ chứa nước - Úp ngược",
+      "de_bai": "Hình bên miêu tả một chiếc bình có chứa nước khi được đặt thẳng đứng và khi bị úp ngược, phần chứa nước là phần gạch chéo, các số đo được cho như hình vẽ (đường kính đáy 8cm, mực nước cao 10cm khi đứng, phần trống trên cao 15cm khi úp). Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$ với $r, h$ lần lượt là bán kính và chiều cao của hình trụ.\n\na) Tính thể tích nước trong bình. (kết quả làm tròn đến hàng phần trăm, đơn vị cm³)\n\nb) Nếu dùng bình nước này đựng đầy nước rồi rót đầy vào các ly hình lập phương có cạnh $4$ cm thì rót tối đa đầy được bao nhiêu ly? (kết quả làm tròn đến hàng đơn vị). Biết thể tích hình lập phương là $V = a^3$ với $a$ là độ dài cạnh hình lập phương.",
+      "phuong_phap_duoc_dung": [
+        "Bán kính đáy: $R = 8/2 = 4$ cm",
+        "$V_{nước} = \\pi \\cdot 4^2 \\cdot 10 = 160\\pi \\approx 502{,}65$ cm³",
+        "$V_{trống} = \\pi \\cdot 4^2 \\cdot 15 = 240\\pi$ cm³",
+        "$V_{bình} = 160\\pi + 240\\pi = 400\\pi$ cm³",
+        "$V_{ly} = 4^3 = 64$ cm³",
+        "Số ly = $400\\pi / 64 \\approx 19{,}63$ → 19 ly"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình lập phương",
+        "Bảo toàn thể tích khi úp ngược"
+      ],
+      "dap_so": "a) $V_{nước} \\approx 502{,}65$ cm³. b) Tối đa 19 ly.",
+      "goi_y_cap_1": "Câu a: $R = 4$. $V_{nước} = \\pi \\cdot 16 \\cdot 10 = 160\\pi \\approx 502,65$ cm³.\n\nCâu b: Khi úp, phần trống = $\\pi \\cdot 16 \\cdot 15 = 240\\pi$. $V_{bình} = 160\\pi + 240\\pi = 400\\pi$. $V_{ly} = 64$. Số ly = $400\\pi/64 \\approx 19,63$ → 19 ly.",
+      "goi_y_cap_2": "Câu a:\n- $R = 8/2 = 4$ (cm)\n- $V_{nước} = \\pi R^2 h = \\pi \\cdot 4^2 \\cdot 10 = 160\\pi \\approx 502{,}65$ (cm³)\n\nCâu b:\n- Khi úp ngược, phần trống ở trên có dạng hình trụ với h=15, R=4\n- $V_{trống} = \\pi \\cdot 4^2 \\cdot 15 = 240\\pi$ (cm³)\n- $V_{bình} = V_{nước} + V_{trống} = 160\\pi + 240\\pi = 400\\pi$ (cm³)\n- $V_{ly} = 4^3 = 64$ (cm³)\n- Số ly = $\\dfrac{400\\pi}{64} \\approx 19{,}63$ → tối đa 19 ly đầy",
+      "loi_giai_day_du": "**Câu a) Thể tích nước trong bình:**\n\nBán kính đáy của bình nước là $R = \\dfrac{8}{2} = 4$ (cm).\n\nThể tích nước trong bình (ở dạng hình trụ đáy dưới) là:\n$$V_{nước} = \\pi R^2 h = \\pi \\cdot 4^2 \\cdot 10 = 160\\pi \\text{ (cm}^3\\text{)}$$\n\nLàm tròn đến hàng phần trăm, ta được: $V_{nước} \\approx \\boxed{502{,}65}$ (cm³).\n\n**Câu b) Số ly nước rót được:**\n\nKhi úp ngược bình, phần không gian trống ở trên có dạng hình trụ với chiều cao $15$ cm và bán kính đáy $4$ cm.\n\nThể tích phần trống trong bình là:\n$$V_{trống} = \\pi \\cdot 4^2 \\cdot 15 = 240\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích của toàn bộ bình nước là:\n$$V_{bình} = V_{nước} + V_{trống} = 160\\pi + 240\\pi = 400\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích của một ly hình lập phương là $V_{ly} = 4^3 = 64$ (cm³).\n\nSố ly nước rót được là $\\dfrac{400\\pi}{64} \\approx 19{,}63$ (ly).\n\nVì cần rót đầy ly nên số ly nước rót tối đa đầy được là $\\boxed{19}$ ly.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bình thẳng (mực nước 10cm, đường kính đáy 8cm) và bình úp ngược (phần trống cao 15cm).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết nước úp ngược thành phần trống.",
+          "Em quên công thức V hình trụ.",
+          "Em không biết thể tích bình bảo toàn."
+        ],
+        "dinh_huong": [
+          "Em định $R = 8/2 = 4$ — đúng không?",
+          "Em định khi úp, phần trống = trụ 15cm × R=4 — đúng chứ?",
+          "Em định $V_{bình}$ = nước + trống — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_{nước} = 160\\pi$ — đúng không?",
+          "Em ra $V_{bình} = 400\\pi$ — đúng chưa?",
+          "Em ra 19 ly — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra phần trống cũng là trụ.",
+          "Em làm tròn sai 19,63 thành 20 (sai - phải làm tròn xuống 19).",
+          "Em quên đường kính # bán kính."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-34/bai5-binh.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - 2 tổ sản xuất vượt mức (hệ phương trình)",
+      "de_bai": "Theo kế hoạch hai tổ sản xuất $700$ sản phẩm trong một thời gian nhất định. Do áp dụng kĩ thuật mới nên tổ I đã vượt mức $12\\%$ còn tổ II giảm $5\\%$ số sản phẩm so với kế hoạch. Tuy nhiên trong thời gian quy định cả hai tổ đã hoàn thành vượt mức $16$ sản phẩm. Hỏi số sản phẩm vượt mức của tổ I và số sản phẩm bị giảm của tổ II so với kế hoạch ban đầu?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x, y$ kế hoạch tổ I, II",
+        "$x + y = 700$",
+        "$0{,}12x - 0{,}05y = 16$",
+        "Hệ → $x = 300, y = 400$",
+        "Vượt tổ I: $300 \\cdot 12\\% = 36$",
+        "Giảm tổ II: $400 \\cdot 5\\% = 20$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất 2 ẩn",
+        "Phần trăm"
+      ],
+      "dap_so": "Tổ I vượt 36 sản phẩm; tổ II giảm 20 sản phẩm.",
+      "goi_y_cap_1": "Gọi $x, y$ kế hoạch tổ I, II. Hệ: $x+y = 700$ và $0,12x - 0,05y = 16$ → $x = 300, y = 400$. Vượt tổ I: 36. Giảm tổ II: 20.",
+      "goi_y_cap_2": "- Gọi $x$ (sản phẩm) là số SP tổ I theo kế hoạch, $y$ là số SP tổ II ($x, y \\in \\mathbb{N}^*, x, y < 700$)\n- Kế hoạch: $x + y = 700$ (1)\n- Tổ I vượt mức $12\\%$: $0{,}12x$ sản phẩm\n- Tổ II giảm $5\\%$: $0{,}05y$ sản phẩm\n- Tổng vượt mức: $12\\%x - 5\\%y = 16$ hay $0{,}12x - 0{,}05y = 16$ (2)\n- Hệ → $x = 300, y = 400$\n- Vượt tổ I: $300 \\cdot 12\\% = 36$ SP\n- Giảm tổ II: $400 \\cdot 5\\% = 20$ SP",
+      "loi_giai_day_du": "Gọi $x$ (sản phẩm) là số sản phẩm tổ I sản xuất theo kế hoạch, $y$ (sản phẩm) là số sản phẩm tổ II sản xuất theo kế hoạch ($x, y \\in \\mathbb{N}^*$, $x, y < 700$).\n\nVì theo kế hoạch hai tổ sản xuất 700 sản phẩm nên:\n$$x + y = 700 \\quad (1)$$\n\nSố sản phẩm tổ I làm vượt mức so với kế hoạch là $12\\%x$ (sản phẩm).\nSố sản phẩm tổ II làm giảm so với kế hoạch là $5\\%y$ (sản phẩm).\n\nVì trong thời gian quy định cả hai tổ đã hoàn thành vượt mức 16 sản phẩm nên:\n$$12\\%x - 5\\%y = 16 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} x + y = 700 \\\\ 12\\%x - 5\\%y = 16 \\end{cases} \\Rightarrow \\begin{cases} x = 300 \\\\ y = 400 \\end{cases}$$\n\nSố sản phẩm vượt mức của tổ I là $300 \\cdot 12\\% = 36$ (sản phẩm).\nSố sản phẩm bị giảm của tổ II là $400 \\cdot 5\\% = 20$ (sản phẩm).\n\nVậy số sản phẩm vượt mức của tổ I là $\\boxed{36}$ (sản phẩm) và số sản phẩm bị giảm của tổ II là $\\boxed{20}$ (sản phẩm).",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'vượt mức 12%' là gì.",
+          "Em không biết bắt đầu lập phương trình.",
+          "Em quên 16 = vượt - giảm."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x, y$ kế hoạch — đúng không?",
+          "Em định $x + y = 700$ — đúng chứ?",
+          "Em định $0{,}12x - 0{,}05y = 16$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ 2 phương trình — đúng không?",
+          "Em ra $x = 300, y = 400$ — đúng chưa?",
+          "Em ra vượt 36, giảm 20 — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm tổng vượt = 16 thay vì hiệu.",
+          "Em quên nhân % cuối cùng để ra số SP cụ thể.",
+          "Em đảo dấu trong $12\\%x - 5\\%y$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn đường kính AB - Tiếp tuyến Ax, By - E ngoài",
+      "de_bai": "Cho đường tròn $(O; R)$ đường kính $AB$. Vẽ hai tiếp tuyến $Ax$ và $By$. Điểm $E$ thuộc tia $BA$, sao cho $A$ là trung điểm của $EO$. Từ $E$ vẽ tiếp tuyến $EM$ ($M$ là tiếp điểm) cắt $Ax$ tại $C$ và $By$ tại $D$.\n\na) Chứng minh tứ giác $OMDB$ là tứ giác nội tiếp đường tròn.\n\nb) Đoạn thẳng $AM$ cắt $OC$ tại $I$, đoạn thẳng $MB$ cắt $OD$ tại $K$. Chứng minh tứ giác $OKMI$ là hình chữ nhật và tam giác $OKI$ đồng dạng với tam giác $OCD$.\n\nc) Tính diện tích tứ giác $KICD$ và bán kính của đường tròn ngoại tiếp tứ giác $KICD$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "MD tiếp tuyến → OMD = 90°; BD tiếp tuyến → OBD = 90°",
+        "→ M, B cùng nhìn OD góc 90° → OMDB nội tiếp đường kính OD",
+        "CM = CA, OM = OA = R → OC trung trực AM → OC ⊥ AM tại I → OIM = 90°",
+        "DM = DB, OM = OB = R → OD trung trực MB → OD ⊥ MB tại K → OKM = 90°",
+        "AMB = 90° (chắn nửa AB) → IMK = 90°",
+        "OKMI có 3 góc vuông → hình chữ nhật",
+        "△OIM ~ △OMC (g-g, MOC chung, OIM=OMC=90°) → $OM^2 = OI \\cdot OC$",
+        "△OKM ~ △OMD → $OM^2 = OK \\cdot OD$",
+        "→ $OI \\cdot OC = OK \\cdot OD$ → △OKI ~ △OCD (c-g-c)",
+        "EO = 2R, △EMO vuông M, cos EOM = OM/EO = 1/2 → EOM = 60° → AOM = 60° → MOB = 120°",
+        "△OAC = △OMC (ch-cgv) → AOC = MOC = AOM/2 = 30°",
+        "△OAC vuông A: $OC = OA/\\cos 30° = 2R\\sqrt 3/3$",
+        "△OBD = △OMD → BOD = MOD = MOB/2 = 60°",
+        "△OBD vuông B: $OD = OB/\\cos 60° = 2R$",
+        "COD = COM + MOD = 30° + 60° = 90° → △OCD vuông O",
+        "$S_{OCD} = \\dfrac{1}{2} OC \\cdot OD = \\dfrac{1}{2} \\cdot \\dfrac{2R\\sqrt 3}{3} \\cdot 2R = \\dfrac{2R^2\\sqrt 3}{3}$",
+        "Tỉ số đồng dạng $k = OK/OD = OI/OC$",
+        "OM² = OI·OC → $OI = OM²/OC = R²/(2R\\sqrt 3/3) = R\\sqrt 3/2$",
+        "$k = OI/OD = (R\\sqrt 3/2)/(2R) = \\sqrt 3/4$",
+        "$S_{OKI} = k² \\cdot S_{OCD} = 3/16 \\cdot 2R²\\sqrt 3/3 = R²\\sqrt 3/8$",
+        "$S_{KICD} = S_{OCD} - S_{OKI} = 2R²\\sqrt 3/3 - R²\\sqrt 3/8 = 13R²\\sqrt 3/24$",
+        "Bán kính đường tròn ngoại tiếp KICD: dùng tâm là điểm cách đều IC và KD",
+        "$R_{KICD} = R\\sqrt{57}/6$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Trung trực, hệ thức lượng",
+        "Tam giác đồng dạng",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "c) $S_{KICD} = \\dfrac{13R^2\\sqrt{3}}{24}$, bán kính = $\\dfrac{R\\sqrt{57}}{6}$.",
+      "goi_y_cap_1": "Câu a: OMD = 90° (MD tiếp tuyến), OBD = 90° (BD tiếp tuyến) → OMDB nội tiếp đường kính OD.\n\nCâu b: OC trung trực AM (CM=CA, OM=OA=R) → OIM=90°. OD trung trực MB → OKM=90°. AMB=90° (chắn nửa AB) → IMK=90°. OKMI có 3 góc vuông → hình chữ nhật. △OIM ~ △OMC → $OM^2 = OI \\cdot OC$. △OKM ~ △OMD → $OM^2 = OK \\cdot OD$. → $OI/OD = OK/OC$ + COD chung → △OKI ~ △OCD.\n\nCâu c: A trung điểm EO, OA=R → EO=2R. △EMO vuông M, cos EOM = OM/EO = 1/2 → EOM = 60°. AOM = 60° → MOB = 120°. △OAC = △OMC (ch-cgv) → AOC = MOC = 30°. OC = OA/cos30° = 2R√3/3. △OBD = △OMD → BOD = MOD = 60°. OD = 2R. COD = 90°. $S_{OCD} = 2R²√3/3$. $OI = R²/OC = R√3/2$. $k = OI/OD = √3/4$. $S_{OKI} = 3/16 \\cdot 2R²√3/3 = R²√3/8$. $S_{KICD} = 13R²√3/24$. Bán kính ngoại tiếp KICD = $R\\sqrt{57}/6$.",
+      "goi_y_cap_2": "Câu a:\n- MD tiếp tuyến tại M → $\\widehat{OMD} = 90°$ → △OMD nội tiếp đường kính OD\n- BD tiếp tuyến tại B → $\\widehat{OBD} = 90°$ → △OBD nội tiếp đường kính OD\n- → 4 điểm O, M, D, B cùng đường tròn đường kính OD → OMDB nội tiếp\n\nCâu b:\n- CM = CA (2 tiếp tuyến cắt nhau), OM = OA = R → OC trung trực AM → OC ⊥ AM tại I → $\\widehat{OIM} = 90°$\n- DM = DB (2 tiếp tuyến cắt nhau), OM = OB = R → OD trung trực MB → OD ⊥ MB tại K → $\\widehat{OKM} = 90°$\n- $\\widehat{AMB} = 90°$ (góc nội tiếp chắn nửa đường tròn) → $\\widehat{IMK} = 90°$\n- OKMI có 3 góc vuông → hình chữ nhật\n- △OIM ~ △OMC (g-g, MOC chung, OIM = OMC = 90°) → $OM^2 = OI \\cdot OC$\n- △OKM ~ △OMD → $OM^2 = OK \\cdot OD$\n- → $OI \\cdot OC = OK \\cdot OD$ → $\\dfrac{OK}{OC} = \\dfrac{OI}{OD}$\n- △OKI và △OCD có COD chung và tỉ số trên → △OKI ~ △OCD (c-g-c)\n\nCâu c:\n- A trung điểm EO, OA = R → EO = 2R\n- △EMO vuông M: $\\cos\\widehat{EOM} = OM/EO = R/(2R) = 1/2 \\Rightarrow \\widehat{EOM} = 60°$\n- E, A, O, B thẳng hàng nên $\\widehat{AOM} = 60° \\Rightarrow \\widehat{MOB} = 120°$\n- △OAC = △OMC (ch-cgv) → $\\widehat{AOC} = \\widehat{MOC} = \\widehat{AOM}/2 = 30°$\n- △OAC vuông A: $OC = OA/\\cos 30° = R/(\\sqrt 3/2) = 2R\\sqrt 3/3$\n- △OBD = △OMD → $\\widehat{BOD} = \\widehat{MOD} = \\widehat{MOB}/2 = 60°$\n- △OBD vuông B: $OD = OB/\\cos 60° = R/(1/2) = 2R$\n- $\\widehat{COD} = \\widehat{COM} + \\widehat{MOD} = 30° + 60° = 90°$\n- $S_{OCD} = \\dfrac{1}{2} OC \\cdot OD = \\dfrac{1}{2} \\cdot \\dfrac{2R\\sqrt 3}{3} \\cdot 2R = \\dfrac{2R^2\\sqrt 3}{3}$\n- $OI = OM^2/OC = R^2/(2R\\sqrt 3/3) = R\\sqrt 3/2$\n- Tỉ số: $k = OI/OD = (R\\sqrt 3/2)/(2R) = \\sqrt 3/4$\n- $S_{OKI} = k^2 \\cdot S_{OCD} = 3/16 \\cdot 2R^2\\sqrt 3/3 = R^2\\sqrt 3/8$\n- $S_{KICD} = S_{OCD} - S_{OKI} = \\dfrac{2R^2\\sqrt 3}{3} - \\dfrac{R^2\\sqrt 3}{8} = \\dfrac{13R^2\\sqrt 3}{24}$\n- Bán kính ngoại tiếp KICD: gọi N là tâm. $NP^2 + PC^2 = NC^2$, $NQ^2 + QD^2 = ND^2$, hình chữ nhật OPNQ → tính ra $NC = R\\sqrt{57}/6$",
+      "loi_giai_day_du": "**Câu a) Chứng minh OMDB nội tiếp:**\n\nVì $MD$ là tiếp tuyến của $(O)$ tại $M$ nên $\\widehat{OMD} = 90°$.\n\n$\\triangle OMD$ vuông tại $M$ → nội tiếp đường tròn đường kính $OD$ (1).\n\nVì $BD$ là tiếp tuyến của $(O)$ tại $B$ nên $\\widehat{OBD} = 90°$.\n\n$\\triangle OBD$ vuông tại $B$ → nội tiếp đường tròn đường kính $OD$ (2).\n\nTừ (1) và (2): 4 điểm $O, M, D, B$ cùng thuộc một đường tròn đường kính $OD$. Suy ra tứ giác $OMDB$ nội tiếp.\n\n**Câu b) OKMI hình chữ nhật và △OKI ~ △OCD:**\n\nTa có $\\begin{cases} CM = CA \\text{ (2 tiếp tuyến cắt nhau)} \\\\ OM = OA = R \\end{cases}$\n\n$\\Rightarrow OC$ trung trực $AM \\Rightarrow OC \\perp AM$ tại $I \\Rightarrow \\widehat{OIM} = 90°$.\n\nTa có $\\begin{cases} DM = DB \\\\ OM = OB = R \\end{cases} \\Rightarrow OD$ trung trực $MB \\Rightarrow OD \\perp MB$ tại $K \\Rightarrow \\widehat{OKM} = 90°$.\n\n$\\widehat{AMB} = 90°$ (góc nội tiếp chắn nửa đường tròn AB) → $\\widehat{IMK} = 90°$.\n\nTứ giác $OKMI$ có 3 góc vuông $\\widehat{OIM}, \\widehat{OKM}, \\widehat{IMK}$ → là hình chữ nhật.\n\nXét △OIM và △OMC: $\\widehat{MOC}$ chung, $\\widehat{OIM} = \\widehat{OMC} = 90°$ → △OIM ~ △OMC (g-g) → $OM^2 = OI \\cdot OC$.\n\nXét △OKM và △OMD: $\\widehat{MOD}$ chung, $\\widehat{OKM} = \\widehat{OMD} = 90°$ → △OKM ~ △OMD (g-g) → $OM^2 = OK \\cdot OD$.\n\nSuy ra $OI \\cdot OC = OK \\cdot OD \\Rightarrow \\dfrac{OK}{OC} = \\dfrac{OI}{OD}$.\n\nXét △OKI và △OCD: $\\widehat{COD}$ chung, $\\dfrac{OK}{OC} = \\dfrac{OI}{OD}$ → △OKI ~ △OCD (c-g-c).\n\n**Câu c) Diện tích KICD và bán kính ngoại tiếp:**\n\nVì $A$ là trung điểm $EO$ và $OA = R$ nên $EO = 2R$.\n\n△EMO vuông tại $M$: $\\cos\\widehat{EOM} = \\dfrac{OM}{EO} = \\dfrac{R}{2R} = \\dfrac{1}{2}$ → $\\widehat{EOM} = 60°$.\n\nDo $E, A, O, B$ thẳng hàng nên $\\widehat{AOM} = 60° \\Rightarrow \\widehat{MOB} = 120°$.\n\n△OAC = △OMC (ch-cgv) → $\\widehat{AOC} = \\widehat{MOC} = \\dfrac{1}{2}\\widehat{AOM} = 30°$.\n\n△OAC vuông tại $A$: $OC = \\dfrac{OA}{\\cos 30°} = \\dfrac{2R\\sqrt 3}{3}$.\n\n△OBD = △OMD → $\\widehat{BOD} = \\widehat{MOD} = \\dfrac{1}{2}\\widehat{BOM} = 60°$.\n\n△OBD vuông tại $B$: $OD = \\dfrac{OB}{\\cos 60°} = 2R$.\n\n$\\widehat{COD} = \\widehat{COM} + \\widehat{MOD} = 30° + 60° = 90°$.\n\n△OCD vuông tại O nên: $S_{OCD} = \\dfrac{1}{2}OC \\cdot OD = \\dfrac{1}{2} \\cdot \\dfrac{2R\\sqrt 3}{3} \\cdot 2R = \\dfrac{2R^2\\sqrt 3}{3}$.\n\n$OI = \\dfrac{OM^2}{OC} = \\dfrac{R^2}{2R\\sqrt 3/3} = \\dfrac{R\\sqrt 3}{2}$.\n\nVì △OKI ~ △OCD với tỉ số $k = \\dfrac{OI}{OD} = \\dfrac{R\\sqrt 3/2}{2R} = \\dfrac{\\sqrt 3}{4}$.\n\n$S_{OKI} = k^2 S_{OCD} = \\dfrac{3}{16} \\cdot \\dfrac{2R^2\\sqrt 3}{3} = \\dfrac{R^2\\sqrt 3}{8}$.\n\nDiện tích tứ giác $KICD$ là:\n$$S = S_{OCD} - S_{OKI} = \\dfrac{2R^2\\sqrt 3}{3} - \\dfrac{R^2\\sqrt 3}{8} = \\boxed{\\dfrac{13R^2\\sqrt 3}{24}}$$\n\nGọi $P$ là trung điểm $IC$, $Q$ là trung điểm $KD$, $N$ là tâm đường tròn ngoại tiếp $KICD$. Khi đó OPNQ là hình chữ nhật.\n\n$OQ = \\dfrac{OK + OD}{2} = \\dfrac{R/2 + 2R}{2} = \\dfrac{5R}{4}$.\n\n$PC = \\dfrac{OC - OI}{2} = \\dfrac{2R\\sqrt 3/3 - R\\sqrt 3/2}{2} = \\dfrac{R\\sqrt 3}{12}$.\n\n$NP = OQ = \\dfrac{5R}{4}$.\n\nTrong △NPC vuông tại $P$:\n$NC^2 = NP^2 + PC^2 = \\left(\\dfrac{5R}{4}\\right)^2 + \\left(\\dfrac{R\\sqrt 3}{12}\\right)^2 = \\dfrac{19R^2}{12}$\n\n$NC = \\dfrac{R\\sqrt{57}}{6}$.\n\nVậy bán kính đường tròn ngoại tiếp tứ giác $KICD$ là $\\boxed{\\dfrac{R\\sqrt{57}}{6}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) đường kính AB, tiếp tuyến Ax, By. E ngoài đường tròn (A trung điểm EO). EM tiếp tuyến cắt Ax tại C, By tại D. AM cắt OC tại I, MB cắt OD tại K.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất hai tiếp tuyến cắt nhau.",
+          "Em không hiểu vì sao OMDB đồng viên.",
+          "Câu c em không biết bắt đầu tính COD."
+        ],
+        "dinh_huong": [
+          "Câu a em định OMDB nội tiếp đường kính OD — đúng không?",
+          "Câu b em định OKMI có 3 góc vuông → HCN — đúng chứ?",
+          "Câu c em định EOM = 60° từ cos = 1/2 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra △OKI ~ △OCD (c-g-c) — đúng không?",
+          "Em ra $S_{KICD} = 13R^2\\sqrt 3/24$ — đúng chưa?",
+          "Em ra bán kính = $R\\sqrt{57}/6$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không tính được COD bằng cách cộng góc.",
+          "Em không thấy △OCD vuông O.",
+          "Em không tìm được tâm N của đường tròn ngoại tiếp KICD."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-34/bai7-tieptuyen.png"
+    }
+  ]
+}

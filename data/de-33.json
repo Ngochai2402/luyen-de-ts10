@@ -1,0 +1,366 @@
+{
+  "de_so": 33,
+  "cum": 11,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = \\dfrac{1}{3}x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm tọa độ các điểm thuộc $(P)$ sao cho hoành độ và tung độ của điểm đó đối nhau.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -6, -3, 0, 3, 6)",
+        "Hoành độ và tung độ đối nhau → $y = -x$",
+        "Thay vào (P): $-x = \\dfrac{1}{3}x^2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Đối nhau: $y = -x$"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$ và $(-3; 3)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -6, -3, 0, 3, 6 → y = 12, 3, 0, 3, 12.\n\nCâu b: 'Đối nhau' → $y = -x$. Thay vào: $-x = \\dfrac{1}{3}x^2 \\Rightarrow \\dfrac{1}{3}x^2 + x = 0$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -6 \\to y = 12$; $x = -3 \\to y = 3$; $x = 0 \\to y = 0$; $x = 3 \\to y = 3$; $x = 6 \\to y = 12$\n\nCâu b:\n- $y = -x$ (đối nhau)\n- $-x = \\dfrac{1}{3}x^2 \\Rightarrow \\dfrac{1}{3}x^2 + x = 0$\n- $x_1 = 0$ hoặc $x_2 = -3$\n- $(0; 0)$ và $(-3; 3)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-6$ | $-3$ | $0$ | $3$ | $6$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{1}{3}x^2$ | $12$ | $3$ | $0$ | $3$ | $12$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì hoành độ và tung độ của điểm đối nhau nên $y = -x$.\n\nTa có phương trình $-x = \\dfrac{1}{3}x^2$\n$$\\dfrac{1}{3}x^2 + x = 0$$\n$$x = 0 \\text{ hoặc } x = -3$$\n\nVới $x_1 = 0 \\Rightarrow y_1 = 0$.\nVới $x_2 = -3 \\Rightarrow y_2 = 3$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(-3; 3)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x²/3 trên hệ trục Oxy với x = -6, -3, 0, 3, 6 và y = 12, 3, 0, 3, 12.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'hoành độ và tung độ đối nhau'.",
+          "Em không biết bảng giá trị bắt đầu từ x nào.",
+          "Em không biết bề lõm parabol khi $a > 0$."
+        ],
+        "dinh_huong": [
+          "Em định 'đối nhau' = $y = -x$ — đúng không?",
+          "Em định lấy bảng x = -6, -3, 0, 3, 6 vì $1/3$ — đúng chứ?",
+          "Em định nhận cả $(0;0)$ vì đề không yêu cầu khác gốc — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{x^2}{3} + x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = -3$ — đúng chưa?",
+          "Em ra $(0; 0)$ và $(-3; 3)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'đối nhau' thành 'bằng nhau' (y = x).",
+          "Em quên dấu cộng trong $1/3 \\cdot x^2 + x$.",
+          "Em bỏ điểm $(0;0)$ vì nghĩ không tính."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-33/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A phân thức $x_1^2/x_2 + x_2^2/x_1$",
+      "de_bai": "Cho phương trình $-5x^2 + 3x + 4 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức $A = \\dfrac{x_1^2}{x_2} + \\dfrac{x_2^2}{x_1}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Quy đồng: $A = \\dfrac{x_1^3 + x_2^3}{x_1 x_2}$",
+        "$x_1^3 + x_2^3 = (x_1 + x_2)(x_1^2 - x_1 x_2 + x_2^2) = (x_1+x_2)[(x_1+x_2)^2 - 3x_1 x_2]$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hằng đẳng thức $a^3+b^3$"
+      ],
+      "dap_so": "$A = -\\dfrac{207}{100}$",
+      "goi_y_cap_1": "Δ = 9 + 80 = 89 > 0. Viète: $x_1+x_2 = 3/5$, $x_1 x_2 = -4/5$. $x_1^2 + x_2^2 = 9/25 + 8/5 = 49/25$. $A = (x_1^3+x_2^3)/(x_1 x_2) = (x_1+x_2)(x_1^2 - x_1 x_2 + x_2^2)/(x_1 x_2) = \\dfrac{3/5 \\cdot (49/25 - (-4/5))}{-4/5} = \\dfrac{3/5 \\cdot 69/25}{-4/5} = -207/100$.",
+      "goi_y_cap_2": "Câu a:\n- $\\Delta = 3^2 - 4 \\cdot (-5) \\cdot 4 = 9 + 80 = 89 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-3}{-5} = \\dfrac{3}{5}$, $x_1 x_2 = \\dfrac{c}{a} = \\dfrac{4}{-5} = -\\dfrac{4}{5}$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = \\dfrac{9}{25} - 2 \\cdot \\left(-\\dfrac{4}{5}\\right) = \\dfrac{9}{25} + \\dfrac{8}{5} = \\dfrac{49}{25}$\n- $A = \\dfrac{x_1^2}{x_2} + \\dfrac{x_2^2}{x_1} = \\dfrac{x_1^3 + x_2^3}{x_1 x_2}$\n- $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 - x_1 x_2 + x_2^2) = \\dfrac{3}{5} \\cdot \\left(\\dfrac{49}{25} + \\dfrac{4}{5}\\right) = \\dfrac{3}{5} \\cdot \\dfrac{69}{25} = \\dfrac{207}{125}$\n- $A = \\dfrac{207/125}{-4/5} = -\\dfrac{207}{125} \\cdot \\dfrac{5}{4} = -\\dfrac{207}{100}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $-5x^2 + 3x + 4 = 0$ với $a = -5; b = 3; c = 4$.\n\n$\\Delta = b^2 - 4ac = 3^2 - 4 \\cdot (-5) \\cdot 4 = 9 + 80 = 89 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{3}{5} \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{-4}{5} \\end{cases}$$\n\nTa có $x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2 = \\left(\\dfrac{3}{5}\\right)^2 - 2 \\cdot \\left(\\dfrac{-4}{5}\\right) = \\dfrac{49}{25}$.\n\nQuy đồng:\n$$A = \\dfrac{x_1^2}{x_2} + \\dfrac{x_2^2}{x_1} = \\dfrac{x_1^3 + x_2^3}{x_1 x_2}$$\n\n$$= \\dfrac{(x_1 + x_2)(x_1^2 - x_1 x_2 + x_2^2)}{x_1 x_2}$$\n\n$$= \\dfrac{\\dfrac{3}{5} \\cdot \\left(\\dfrac{49}{25} - \\dfrac{-4}{5}\\right)}{\\dfrac{-4}{5}} = \\boxed{-\\dfrac{207}{100}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng phân thức trong A.",
+          "Em quên Viète với $a = -5$.",
+          "Em không nhớ hằng đẳng thức $a^3+b^3$."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng tử $x_1^3 + x_2^3$, mẫu $x_1 x_2$ — đúng không?",
+          "Em định phân tích $x_1^3 + x_2^3 = (x_1+x_2)(x_1^2 - x_1 x_2 + x_2^2)$ — đúng chứ?",
+          "Em định Viète $x_1+x_2 = 3/5$, $x_1 x_2 = -4/5$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète đúng dấu — đúng không?",
+          "Em ra $x_1^2 + x_2^2 = 49/25$ — đúng chưa?",
+          "Em ra $A = -207/100$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm dấu khi $a = -5$ và $c = 4$.",
+          "Em không biết tách $x_1^2 - x_1 x_2 + x_2^2$.",
+          "Em quên chia phân số $\\dfrac{...}{x_1 x_2}$ với $x_1 x_2 < 0$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Lớp 40 HS, kết quả KT Toán",
+      "de_bai": "Trong một lớp có $40$ học sinh, kết quả kiểm tra Toán được phân loại như sau:\n- Loại Giỏi: $8$ học sinh.\n- Loại Khá: $14$ học sinh.\n- Loại Đạt: $12$ học sinh.\n- Loại Chưa đạt: $6$ học sinh.\n\na) Tính tỉ lệ phần trăm học sinh ở mỗi loại học lực.\n\nb) Chọn ngẫu nhiên $1$ học sinh trong lớp. Tính xác suất của biến cố: \"Học sinh được chọn thuộc loại Khá hoặc Giỏi\".\n\nc) Chọn ngẫu nhiên $1$ học sinh trong lớp. Biết rằng học sinh được chọn không thuộc loại Chưa đạt, tính xác suất của biến cố: \"Học sinh đó thuộc loại Giỏi.\"",
+      "phuong_phap_duoc_dung": [
+        "Tỉ lệ % = số HS / 40 · 100%",
+        "P(A) = (8+14)/40 = 22/40 = 11/20",
+        "Xác suất có điều kiện: $n(\\Omega') = 40 - 6 = 34$, $n(B) = 8$, $P(B) = 8/34 = 4/17$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tỉ lệ phần trăm",
+        "Xác suất cổ điển",
+        "Xác suất có điều kiện"
+      ],
+      "dap_so": "a) G=20%, K=35%, Đ=30%, CĐ=15%. b) $P(A) = \\dfrac{11}{20}$. c) $P(B) = \\dfrac{4}{17}$.",
+      "goi_y_cap_1": "Câu a: Giỏi: 8/40 = 20%. Khá: 14/40 = 35%. Đạt: 12/40 = 30%. CĐ: 6/40 = 15%.\n\nCâu b: $n(A) = 14 + 8 = 22 → P(A) = 22/40 = 11/20$.\n\nCâu c: Không gian mẫu thu hẹp $n(\\Omega') = 40 - 6 = 34$. $n(B) = 8 → P(B) = 8/34 = 4/17$.",
+      "goi_y_cap_2": "Câu a:\n- Giỏi: $\\dfrac{8}{40} \\cdot 100\\% = 20\\%$\n- Khá: $\\dfrac{14}{40} \\cdot 100\\% = 35\\%$\n- Đạt: $\\dfrac{12}{40} \\cdot 100\\% = 30\\%$\n- Chưa đạt: $\\dfrac{6}{40} \\cdot 100\\% = 15\\%$\n\nCâu b:\n- $n(\\Omega) = 40$\n- $n(A) = 14 + 8 = 22$ (Khá hoặc Giỏi)\n- $P(A) = \\dfrac{22}{40} = \\dfrac{11}{20}$\n\nCâu c:\n- Vì học sinh không thuộc Chưa đạt nên không gian mẫu lúc này: $n(\\Omega') = 40 - 6 = 34$\n- $n(B) = 8$ (lớp có 8 HS Giỏi)\n- $P(B) = \\dfrac{8}{34} = \\dfrac{4}{17}$",
+      "loi_giai_day_du": "**Câu a) Tỉ lệ % HS ở mỗi loại:**\n\n- Tỉ lệ phần trăm học sinh loại Giỏi là: $\\dfrac{8}{40} \\cdot 100\\% = \\boxed{20\\%}$\n- Tỉ lệ phần trăm học sinh loại Khá là: $\\dfrac{14}{40} \\cdot 100\\% = \\boxed{35\\%}$\n- Tỉ lệ phần trăm học sinh loại Đạt là: $\\dfrac{12}{40} \\cdot 100\\% = \\boxed{30\\%}$\n- Tỉ lệ phần trăm học sinh loại Chưa đạt là: $\\dfrac{6}{40} \\cdot 100\\% = \\boxed{15\\%}$\n\n**Câu b) Xác suất Khá hoặc Giỏi:**\n\nKhông gian mẫu khi chọn ngẫu nhiên 1 học sinh là $n(\\Omega) = 40$.\n\nGọi $A$ là biến cố: \"Học sinh được chọn thuộc loại Khá hoặc Giỏi\".\n\nSố khả năng thuận lợi của biến cố $A$ là $n(A) = 14 + 8 = 22$ (do lớp có 14 học sinh Khá và 8 học sinh Giỏi).\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{22}{40} = \\boxed{\\dfrac{11}{20}}$$\n\n**Câu c) Xác suất có điều kiện - Giỏi khi không Chưa đạt:**\n\nGọi $B$ là biến cố: \"Học sinh đó thuộc loại Giỏi\" trong điều kiện học sinh được chọn không thuộc loại Chưa đạt.\n\nVì học sinh được chọn không thuộc loại Chưa đạt nên không gian mẫu lúc này là:\n$$n(\\Omega') = 40 - 6 = 34$$\n\nSố khả năng thuận lợi của biến cố $B$ là $n(B) = 8$ (do lớp có 8 học sinh Giỏi).\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega')} = \\dfrac{8}{34} = \\boxed{\\dfrac{4}{17}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính tỉ lệ %.",
+          "Em không hiểu 'Khá hoặc Giỏi' phải cộng cả hai.",
+          "Em không hiểu xác suất có điều kiện."
+        ],
+        "dinh_huong": [
+          "Em định % = (số HS / 40) × 100% — đúng không?",
+          "Em định $n(A)$ = số Khá + số Giỏi — đúng chứ?",
+          "Em định $n(\\Omega')$ = 40 - 6 = 34 ở câu c — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra G=20%, K=35%, Đ=30%, CĐ=15% (cộng = 100%) — đúng không?",
+          "Em ra $P(A) = 11/20$ — đúng chưa?",
+          "Em ra $P(B) = 4/17$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ tính $P(A)$ Khá hoặc Giỏi riêng (sai).",
+          "Em không thu hẹp không gian mẫu ở câu c.",
+          "Em không rút gọn $22/40 = 11/20$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Khu đất HCN với phần đất hình vuông trồng cây",
+      "de_bai": "Anh Ba có một khu đất hình chữ nhật. Anh dự định dành một phần đất hình vuông để trồng cây, phần diện tích còn lại dùng để lát gạch. Các kích thước của khu đất được cho như hình bên (chiều rộng = $x + 3$, chiều dài = $x + 7$, phần đất hình vuông cạnh $x$).\n\na) Lập biểu thức $A$ theo $x$ tính diện tích phần đất để lát gạch.\n\nb) Biết diện tích phần đất lát gạch là $51$ m². Tính chu vi khu đất trồng cây.",
+      "phuong_phap_duoc_dung": [
+        "$A = (x+7)(x+3) - x^2 = x^2 + 10x + 21 - x^2 = 10x + 21$",
+        "$10x + 21 = 51 \\Rightarrow 10x = 30 \\Rightarrow x = 3$",
+        "Chu vi vườn cây = $4 \\cdot 3 = 12$ m"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình vuông",
+        "Chu vi hình vuông"
+      ],
+      "dap_so": "a) $A = 10x + 21$ (m²). b) Chu vi vườn cây = $12$ m.",
+      "goi_y_cap_1": "Câu a: $A = (x+7)(x+3) - x^2 = x^2 + 10x + 21 - x^2 = 10x + 21$.\n\nCâu b: $10x + 21 = 51 \\Rightarrow x = 3$. Chu vi = 4·3 = 12 m.",
+      "goi_y_cap_2": "Câu a:\n- ĐK: $x > 0$\n- $S_{HCN} = (x+7)(x+3) = x^2 + 10x + 21$ (m²)\n- $S_{vuông} = x^2$ (m²)\n- $A = S_{HCN} - S_{vuông} = (x+7)(x+3) - x^2$\n- $= x^2 + 10x + 21 - x^2 = 10x + 21$ (m²)\n\nCâu b:\n- $10x + 21 = 51 \\Rightarrow 10x = 30 \\Rightarrow x = 3$ (nhận)\n- Cạnh khu đất trồng cây = $x = 3$ m\n- Chu vi = $4 \\cdot 3 = 12$ m",
+      "loi_giai_day_du": "**Câu a) Biểu thức A:**\n\nGọi $x$ (m) là cạnh của phần đất hình vuông dùng để trồng cây (Điều kiện: $x > 0$).\n\nKích thước chiều dài của khu đất hình chữ nhật là $x + 7$ (m).\nKích thước chiều rộng của khu đất hình chữ nhật là $x + 3$ (m).\n\nDiện tích của cả khu đất hình chữ nhật là $(x + 7)(x + 3)$ (m²).\nDiện tích phần đất hình vuông để trồng cây là $x^2$ (m²).\n\nBiểu thức $A$ tính diện tích phần đất để lát gạch theo $x$ là:\n$$A = (x + 7)(x + 3) - x^2$$\n$$= x^2 + 3x + 7x + 21 - x^2$$\n$$= \\boxed{10x + 21 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Chu vi khu đất trồng cây:**\n\nVì diện tích phần đất lát gạch là $51$ m² nên ta có phương trình:\n$$10x + 21 = 51$$\n$$10x = 30$$\n$$x = 3 \\text{ (nhận)}$$\n\nVậy cạnh của khu đất trồng cây hình vuông là $3$ (m).\n\nChu vi của khu đất trồng cây là $3 \\cdot 4 = \\boxed{12 \\text{ (m)}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Khu đất HCN có chiều dài 7m + cạnh hình vuông x, chiều rộng 3m + cạnh hình vuông x. Phần hình vuông cạnh x ở góc dưới trái.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không tìm được kích thước HCN.",
+          "Em không biết phần lát gạch = phần HCN - phần vuông.",
+          "Em không khai triển được $(x+7)(x+3)$."
+        ],
+        "dinh_huong": [
+          "Em định chiều dài = $x + 7$, chiều rộng = $x + 3$ — đúng không?",
+          "Em định $A = (x+7)(x+3) - x^2$ — đúng chứ?",
+          "Em định $A = 10x + 21$ → tìm $x = 3$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $A = 10x + 21$ — đúng không?",
+          "Em ra $x = 3$ — đúng chưa?",
+          "Em ra chu vi = 12 m — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên triệt tiêu $x^2$.",
+          "Em nhầm chu vi = $x \\cdot 4 = 12$ thay vì cạnh.",
+          "Em không loại nghiệm âm hoặc nhầm chu vi với diện tích."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-33/bai4-khudat.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Bồn chứa nước trụ + nón",
+      "de_bai": "Một bồn chứa nước gồm hai phần ghép liền nhau:\n- Phần dưới là hình trụ có bán kính đáy $r = 1{,}5$ (m), chiều cao $h$ (m).\n- Phần trên là hình nón có chung đáy với hình trụ, chiều cao của hình nón là $\\dfrac{h}{2}$ (m).\n\na) Viết biểu thức thể tích bồn chứa $V$ theo $h$.\n\nb) Biết thể tích bồn chứa là $V = 9\\pi$ (m³). Người ta sơn toàn bộ mặt ngoài của bồn chứa (không sơn mặt đáy dưới). Tính diện tích cần sơn của bồn chứa và làm tròn kết quả đến hàng đơn vị.",
+      "phuong_phap_duoc_dung": [
+        "$V_{trụ} = \\pi r^2 h = \\dfrac{9}{4}\\pi h$",
+        "$V_{nón} = \\dfrac{1}{3}\\pi r^2 \\cdot \\dfrac{h}{2} = \\dfrac{3}{8}\\pi h$",
+        "$V = \\dfrac{9}{4}\\pi h + \\dfrac{3}{8}\\pi h = \\dfrac{21}{8}\\pi h$",
+        "$\\dfrac{21}{8}\\pi h = 9\\pi → h = 24/7$",
+        "Đường sinh nón: $l = \\sqrt{r^2 + (h/2)^2}$ với $h/2 = 12/7$ → $l = \\sqrt{1{,}5^2 + (12/7)^2} = 3\\sqrt{113}/14$",
+        "$S_{xq trụ} = 2\\pi r h = 72\\pi/7$",
+        "$S_{xq nón} = \\pi r l = 9\\sqrt{113}\\pi/28$",
+        "$S = 72\\pi/7 + 9\\sqrt{113}\\pi/28 \\approx 43{,}047 → 43$ m²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình nón",
+        "Diện tích xung quanh hình trụ, hình nón",
+        "Định lý Pythagore (đường sinh nón)"
+      ],
+      "dap_so": "a) $V = \\dfrac{21}{8}\\pi h$ (m³). b) Diện tích sơn ≈ $43$ m².",
+      "goi_y_cap_1": "Câu a: $V_{trụ} = \\pi (1,5)^2 h = \\dfrac{9}{4}\\pi h$. $V_{nón} = \\dfrac{1}{3}\\pi (1,5)^2 \\cdot h/2 = \\dfrac{3}{8}\\pi h$. $V = \\dfrac{21}{8}\\pi h$.\n\nCâu b: $\\dfrac{21}{8}\\pi h = 9\\pi → h = 24/7$. Đường sinh = $\\sqrt{1,5^2 + (12/7)^2} = 3\\sqrt{113}/14$. $S_{trụ} = 2\\pi \\cdot 1,5 \\cdot 24/7 = 72\\pi/7$. $S_{nón} = \\pi \\cdot 1,5 \\cdot 3\\sqrt{113}/14 = 9\\sqrt{113}\\pi/28$. $S = 72\\pi/7 + 9\\sqrt{113}\\pi/28 \\approx 43,047 \\approx 43$ m².",
+      "goi_y_cap_2": "Câu a:\n- $V_{trụ} = \\pi r^2 h = \\pi \\cdot (1{,}5)^2 \\cdot h = \\dfrac{9}{4}\\pi h$ (m³)\n- $V_{nón} = \\dfrac{1}{3}\\pi r^2 \\cdot \\dfrac{h}{2} = \\dfrac{1}{3}\\pi \\cdot (1{,}5)^2 \\cdot \\dfrac{h}{2} = \\dfrac{3}{8}\\pi h$ (m³)\n- $V = V_{trụ} + V_{nón} = \\dfrac{9}{4}\\pi h + \\dfrac{3}{8}\\pi h = \\dfrac{21}{8}\\pi h$ (m³)\n\nCâu b:\n- $\\dfrac{21}{8}\\pi h = 9\\pi \\Rightarrow h = \\dfrac{72}{21} = \\dfrac{24}{7}$ (m)\n- $S_{xq trụ} = 2\\pi r h = 2\\pi \\cdot 1{,}5 \\cdot \\dfrac{24}{7} = \\dfrac{72}{7}\\pi$ (m²)\n- Chiều cao nón: $\\dfrac{h}{2} = \\dfrac{12}{7}$ (m)\n- Đường sinh: $l = \\sqrt{r^2 + (h/2)^2} = \\sqrt{(1{,}5)^2 + \\left(\\dfrac{12}{7}\\right)^2} = \\sqrt{\\dfrac{9}{4} + \\dfrac{144}{49}} = \\dfrac{3\\sqrt{113}}{14}$ (m)\n- $S_{xq nón} = \\pi r l = \\pi \\cdot 1{,}5 \\cdot \\dfrac{3\\sqrt{113}}{14} = \\dfrac{9\\sqrt{113}}{28}\\pi$ (m²)\n- $S = S_{xq trụ} + S_{xq nón} = \\dfrac{72}{7}\\pi + \\dfrac{9\\sqrt{113}}{28}\\pi \\approx 43{,}047$ (m²)\n- Làm tròn đến hàng đơn vị: $S \\approx 43$ m²",
+      "loi_giai_day_du": "**Câu a) Biểu thức thể tích:**\n\nThể tích phần hình trụ là:\n$$V_{trụ} = \\pi r^2 h = \\pi \\cdot (1{,}5)^2 \\cdot h = \\dfrac{9}{4}\\pi h \\text{ (m}^3\\text{)}$$\n\nThể tích phần hình nón là:\n$$V_{nón} = \\dfrac{1}{3}\\pi r^2 \\cdot \\dfrac{h}{2} = \\dfrac{1}{3}\\pi \\cdot (1{,}5)^2 \\cdot \\dfrac{h}{2} = \\dfrac{3}{8}\\pi h \\text{ (m}^3\\text{)}$$\n\nBiểu thức thể tích bồn chứa $V$ theo $h$ là:\n$$V = V_{trụ} + V_{nón} = \\dfrac{9}{4}\\pi h + \\dfrac{3}{8}\\pi h = \\boxed{\\dfrac{21}{8}\\pi h \\text{ (m}^3\\text{)}}$$\n\n**Câu b) Diện tích cần sơn:**\n\nTheo đề bài, ta có $V = 9\\pi$.\n\nSuy ra $\\dfrac{21}{8}\\pi h = 9\\pi$, do đó $h = \\dfrac{9 \\cdot 8}{21} = \\dfrac{24}{7}$ (m).\n\nDiện tích mặt ngoài phần hình trụ (không tính 2 đáy) là:\n$$S_{xq trụ} = 2\\pi r h = 2\\pi \\cdot 1{,}5 \\cdot \\dfrac{24}{7} = \\dfrac{72}{7}\\pi \\text{ (m}^2\\text{)}$$\n\nChiều cao phần hình nón là $\\dfrac{h}{2} = \\dfrac{12}{7}$ (m).\n\nĐộ dài đường sinh của phần hình nón là:\n$$l = \\sqrt{r^2 + \\left(\\dfrac{h}{2}\\right)^2} = \\sqrt{(1{,}5)^2 + \\left(\\dfrac{12}{7}\\right)^2} = \\sqrt{\\dfrac{9}{4} + \\dfrac{144}{49}} = \\dfrac{3\\sqrt{113}}{14} \\text{ (m)}$$\n\nDiện tích mặt ngoài phần hình nón (diện tích xung quanh) là:\n$$S_{xq nón} = \\pi r l = \\pi \\cdot 1{,}5 \\cdot \\dfrac{3\\sqrt{113}}{14} = \\dfrac{9\\sqrt{113}}{28}\\pi \\text{ (m}^2\\text{)}$$\n\nDiện tích cần sơn của bồn chứa là:\n$$S = S_{xq trụ} + S_{xq nón} = \\dfrac{72}{7}\\pi + \\dfrac{9\\sqrt{113}}{28}\\pi \\approx 43{,}047 \\text{ (m}^2\\text{)}$$\n\nLàm tròn kết quả đến hàng đơn vị, diện tích cần sơn của bồn chứa là $\\boxed{43 \\text{ m}^2}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bồn chứa gồm hình trụ phía dưới (cao h, bán kính r) và hình nón phía trên (cao h/2, chung đáy).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức V hình trụ, V hình nón.",
+          "Em không biết hai phần ghép liền nhau cộng V.",
+          "Em không biết tính đường sinh nón qua Pythagore."
+        ],
+        "dinh_huong": [
+          "Em định $V = V_{trụ} + V_{nón} = \\dfrac{21}{8}\\pi h$ — đúng không?",
+          "Em định không sơn 2 đáy + đáy chung — đúng chứ?",
+          "Em định đường sinh = $\\sqrt{r^2 + (h/2)^2}$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V = \\dfrac{21}{8}\\pi h$ — đúng không?",
+          "Em ra $h = 24/7$ — đúng chưa?",
+          "Em ra $S \\approx 43$ m² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em sơn cả đáy dưới (không tính).",
+          "Em quên đường sinh ≠ chiều cao.",
+          "Em không tính được $\\sqrt{113}/14$ chính xác."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-33/bai5-bonchua.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Tàu hỏa qua cầu (hệ phương trình)",
+      "de_bai": "Một đoàn tàu hỏa đang chạy với vận tốc không đổi đi qua một cây cầu dài $600$ mét. Từ lúc đầu tàu bắt đầu lên cầu cho đến khi toa cuối cùng ra khỏi cầu mất đúng $40$ giây. Cũng đoàn tàu đó, khi vượt qua một người lái xe mô tô đang chạy cùng chiều với vận tốc $36$ km/h (chạy song song với đường tàu) thì mất $20$ giây (tính từ lúc đầu tàu ngang với đuôi xe mô tô đến khi toa cuối cùng vượt qua đầu xe mô tô). Coi xe mô tô là một điểm chuyển động (chiều dài không đáng kể). Thiết lập hệ phương trình để tính vận tốc và chiều dài của đoàn tàu, sau đó tính hai đại lượng đó.",
+      "phuong_phap_duoc_dung": [
+        "Đổi 36 km/h = 10 m/s",
+        "Gọi $x$ (m/s) vận tốc tàu, $y$ (m) chiều dài tàu",
+        "Qua cầu: $40x = y + 600 \\Rightarrow 40x - y = 600$",
+        "Vượt xe mô tô: $20x = 200 + y \\Rightarrow 20x - y = 200$",
+        "Hệ → $x = 20$ m/s, $y = 200$ m"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất 2 ẩn",
+        "Đổi đơn vị km/h sang m/s",
+        "Chuyển động cùng chiều (vận tốc tương đối)"
+      ],
+      "dap_so": "Vận tốc tàu = $20$ m/s, chiều dài tàu = $200$ m.",
+      "goi_y_cap_1": "Đổi 36 km/h = 10 m/s. Gọi x m/s vận tốc, y m chiều dài. Qua cầu: $40x = y + 600$. Vượt mô tô (cùng chiều): $20(x-10) = y → 20x - 20·10 = y → 20x - y = 200$. Hệ → $x = 20$, $y = 200$.",
+      "goi_y_cap_2": "- Đổi 36 km/h = 10 m/s\n- Gọi $x$ (m/s) là vận tốc đoàn tàu, $y$ (m) là chiều dài đoàn tàu ($x > 10, y > 0$)\n- *Qua cầu:* Quãng đường tàu đi = chiều dài cầu + chiều dài tàu\n- $40x = y + 600 \\Rightarrow 40x - y = 600$ (1)\n- *Vượt xe mô tô:* Quãng đường xe mô tô đi = $20 \\cdot 10 = 200$ m. Quãng đường tàu đi = chiều dài tàu + quãng xe mô tô\n- $20x = 200 + y \\Rightarrow 20x - y = 200$ (2)\n- Hệ → $\\begin{cases} x = 20 \\\\ y = 200 \\end{cases}$",
+      "loi_giai_day_du": "Gọi $x$ (m/s) là vận tốc của đoàn tàu, $y$ (m) là chiều dài của đoàn tàu ($x > 10, y > 0$).\n\nĐổi $36$ km/h $= 10$ m/s.\n\nQuãng đường tàu đi được khi qua cây cầu dài $600$ m là $y + 600$ (m).\n\nVì từ lúc đầu tàu bắt đầu lên cầu cho đến khi toa cuối cùng ra khỏi cầu mất đúng $40$ giây nên ta có phương trình:\n$$40x = y + 600 \\text{ hay } 40x - y = 600 \\quad (1)$$\n\nQuãng đường xe mô tô đi được trong $20$ giây là $20 \\cdot 10 = 200$ (m).\n\nVì tàu vượt qua xe mô tô chạy cùng chiều mất $20$ giây nên quãng đường tàu đi được trong $20$ giây bằng tổng quãng đường xe mô tô đi được và chiều dài đoàn tàu, ta có phương trình:\n$$20x = 200 + y \\text{ hay } 20x - y = 200 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} 40x - y = 600 \\\\ 20x - y = 200 \\end{cases} \\Rightarrow \\begin{cases} x = 20 \\\\ y = 200 \\end{cases} \\text{ (nhận)}$$\n\nVậy vận tốc của đoàn tàu là $\\boxed{20 \\text{ m/s}}$, chiều dài của đoàn tàu là $\\boxed{200 \\text{ m}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đổi 36 km/h sang m/s.",
+          "Em không hiểu 'qua cầu' đoàn tàu đi quãng đường bằng cầu + tàu.",
+          "Em không hiểu 'vượt xe mô tô cùng chiều'."
+        ],
+        "dinh_huong": [
+          "Em định 36 km/h = 10 m/s — đúng không?",
+          "Em định khi qua cầu: $40x = y + 600$ — đúng chứ?",
+          "Em định khi vượt xe mô tô: $20x = 200 + y$ (xe đi 200m) — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ 2 phương trình bậc nhất — đúng không?",
+          "Em ra $x = 20, y = 200$ — đúng chưa?",
+          "Em phân biệt được vận tốc và chiều dài — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không tính quãng xe mô tô đã đi.",
+          "Em nhầm 'vượt' với 'gặp nhau ngược chiều'.",
+          "Em quên đổi km/h sang m/s."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn, OA > 2R, hai tiếp tuyến + đường kính",
+      "de_bai": "Cho đường tròn $(O; R)$ và điểm $A$ nằm ngoài đường tròn sao cho $OA > 2R$. Kẻ hai tiếp tuyến $AB, AC$ với đường tròn ($B, C$ là các tiếp điểm). Đoạn thẳng $OA$ cắt dây cung $BC$ tại $H$. Vẽ đường kính $CD$ của đường tròn $(O)$. Đường thẳng $AD$ cắt đường tròn $(O)$ tại điểm thứ hai là $E$ ($E$ khác $D$).\n\na) Chứng minh bốn điểm $A, B, O, C$ cùng thuộc một đường tròn và $BD \\parallel OA$.\n\nb) Chứng minh hệ thức $AH \\cdot AO = AE \\cdot AD$ và chứng minh $\\widehat{AHE} = \\widehat{ADO}$.\n\nc) Cho $OA = 3R$. Tính theo $R$ độ dài đoạn thẳng $BC$ và diện tích của tứ giác $ABOC$.",
+      "phuong_phap_duoc_dung": [
+        "△ABO vuông B, △ACO vuông C → ABOC nội tiếp đường kính AO",
+        "AB=AC, OB=OC=R → OA trung trực BC → OA ⊥ BC tại H",
+        "DBC = 90° (chắn nửa CD) → BD ⊥ BC, mà OA ⊥ BC → BD // OA",
+        "△ABO vuông B, đường cao BH → $AB^2 = AH \\cdot AO$",
+        "CED = 90° (chắn nửa CD) → △ACE và △ADC: AEC = ACD = 90°, CAD chung → đồng dạng → $AC^2 = AE \\cdot AD$",
+        "AB = AC → $AB^2 = AC^2$ → $AH \\cdot AO = AE \\cdot AD$",
+        "→ AH/AD = AE/AO + góc HAO chung → △AHE ~ △ADO (c-g-c) → AHE = ADO",
+        "Khi OA = 3R: △ABO vuông B: $AB^2 = OA^2 - OB^2 = 9R^2 - R^2 = 8R^2$ → $AB = 2R\\sqrt 2$",
+        "△ABO = △ACO (ch-cgv) → $S_{ABOC} = 2 S_{ABO} = 2 \\cdot \\dfrac{1}{2} AB \\cdot OB = AB \\cdot R = 2R^2\\sqrt 2$",
+        "Tính BC qua hệ thức lượng: BH·OA = AB·BO → BH = $AB \\cdot BO / OA = 2R\\sqrt 2 \\cdot R / 3R = 2R\\sqrt 2/3$ → $BC = 2BH = 4R\\sqrt 2/3$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Tứ giác nội tiếp đường kính",
+        "Hệ thức lượng tam giác vuông",
+        "Tam giác đồng dạng",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "c) $BC = \\dfrac{4R\\sqrt{2}}{3}$ và $S_{ABOC} = 2R^2\\sqrt{2}$.",
+      "goi_y_cap_1": "Câu a: △ABO, △ACO vuông B, C → 4 điểm A, B, O, C đồng viên đường kính AO. AB=AC, OB=OC=R → OA trung trực BC → OA ⊥ BC. DBC = 90° (chắn nửa CD) → BD ⊥ BC. Cùng vuông góc BC → BD // OA.\n\nCâu b: △ABO vuông B đường cao BH: $AB^2 = AH \\cdot AO$. CED=90° (chắn nửa CD) → △ACE ~ △ADC (g-g, AEC=ACD=90°, CAD chung) → $AC^2 = AE \\cdot AD$. Mà AB = AC → $AH \\cdot AO = AE \\cdot AD → AH/AD = AE/AO$. △AHE ~ △ADO (c-g-c, HAO chung) → AHE = ADO.\n\nCâu c: $AB^2 = 9R^2 - R^2 = 8R^2$ → $AB = 2R\\sqrt 2$. $S_{ABOC} = 2 \\cdot S_{ABO} = AB \\cdot OB = 2R^2\\sqrt 2$. BC: hệ thức lượng AB·BO = AO·BH → BH = $2R\\sqrt 2 \\cdot R / 3R = 2R\\sqrt 2/3$. $BC = 2BH = 4R\\sqrt 2/3$.",
+      "goi_y_cap_2": "Câu a:\n- △ABO vuông tại B (AB tiếp tuyến) → nội tiếp đường tròn đường kính AO (1)\n- △ACO vuông tại C (AC tiếp tuyến) → nội tiếp đường tròn đường kính AO (2)\n- (1)(2): A, B, O, C đồng viên đường kính AO\n- AB = AC (2 tiếp tuyến cắt nhau), OB = OC = R\n- → OA trung trực BC → OA ⊥ BC tại H\n- $\\widehat{DBC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính CD)\n- → BD ⊥ BC. Mà OA ⊥ BC → BD // OA\n\nCâu b:\n- △ABO vuông tại B, BH là đường cao (OA ⊥ BC)\n- → $AB^2 = AH \\cdot AO$ (hệ thức lượng)\n- $\\widehat{CED} = 90°$ (góc nội tiếp chắn nửa đường tròn CD)\n- Xét △ACE và △ADC:\n  - $\\widehat{CAD}$ chung\n  - $\\widehat{AEC} = \\widehat{ACD} = 90°$\n  - → △ACE ~ △ADC (g-g)\n- → $\\dfrac{AC}{AD} = \\dfrac{AE}{AC} \\Rightarrow AC^2 = AE \\cdot AD$\n- Mà AB = AC nên $AB^2 = AE \\cdot AD$\n- Suy ra $AH \\cdot AO = AE \\cdot AD$\n- → $\\dfrac{AH}{AD} = \\dfrac{AE}{AO}$\n- Xét △AHE và △ADO:\n  - $\\widehat{HAO}$ chung\n  - $\\dfrac{AH}{AD} = \\dfrac{AE}{AO}$\n  - → △AHE ~ △ADO (c-g-c)\n- → $\\widehat{AHE} = \\widehat{ADO}$\n\nCâu c:\n- △ABO vuông tại B, OA = 3R, OB = R\n- $AB^2 = OA^2 - OB^2 = 9R^2 - R^2 = 8R^2 \\Rightarrow AB = 2R\\sqrt 2$\n- △ABO = △ACO (cạnh huyền - cạnh góc vuông), $\\widehat{ABO} = \\widehat{ACO} = 90°$\n- $S_{ABOC} = 2 \\cdot S_{ABO} = 2 \\cdot \\dfrac{1}{2} \\cdot AB \\cdot OB = AB \\cdot R = 2R^2\\sqrt 2$\n- *Tính BC:* Hệ thức lượng △ABO vuông B đường cao BH:\n- $\\dfrac{1}{BH^2} = \\dfrac{1}{AB^2} + \\dfrac{1}{OB^2}$ hoặc $AB \\cdot BO = AO \\cdot BH$\n- $BH = \\dfrac{AB \\cdot BO}{AO} = \\dfrac{2R\\sqrt 2 \\cdot R}{3R} = \\dfrac{2R\\sqrt 2}{3}$\n- $BC = 2BH = \\dfrac{4R\\sqrt 2}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh ABOC đồng viên và BD // OA:**\n\n$\\triangle ABO$ vuông tại $B$ (vì $AB$ là tiếp tuyến của $(O)$), suy ra $\\triangle ABO$ nội tiếp đường tròn đường kính $AO$ (1).\n\n$\\triangle ACO$ vuông tại $C$ (vì $AC$ là tiếp tuyến của $(O)$), suy ra $\\triangle ACO$ nội tiếp đường tròn đường kính $AO$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $A, B, O, C$ cùng thuộc một đường tròn đường kính $AO$.\n\nTa có $\\begin{cases} AB = AC \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OB = OC = R \\end{cases}$\n\n$\\Rightarrow OA$ là trung trực của $BC \\Rightarrow OA \\perp BC$ tại $H$.\n\n$\\widehat{DBC} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $CD$).\n\n$\\Rightarrow BD \\perp BC$.\n\nTa có $\\begin{cases} BD \\perp BC \\\\ OA \\perp BC \\end{cases} \\Rightarrow BD \\parallel OA$.\n\n**Câu b) Chứng minh hệ thức và góc bằng nhau:**\n\nXét $\\triangle ABH$ và $\\triangle AOB$:\n$\\begin{cases} \\widehat{OAB} \\text{ chung} \\\\ \\widehat{AHB} = \\widehat{ABO} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle ABH \\sim \\triangle AOB$ (g-g)\n\n$\\Rightarrow \\dfrac{AH}{AB} = \\dfrac{AB}{AO} \\Rightarrow AB^2 = AH \\cdot AO$.\n\nTa có $\\widehat{CED} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $CD$).\n\nXét $\\triangle ACE$ và $\\triangle ADC$:\n$\\begin{cases} \\widehat{CAD} \\text{ chung} \\\\ \\widehat{AEC} = \\widehat{ACD} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle ACE \\sim \\triangle ADC$ (g-g)\n\n$\\Rightarrow \\dfrac{AC}{AD} = \\dfrac{AE}{AC} \\Rightarrow AC^2 = AE \\cdot AD$.\n\nMà $AB = AC$ nên $AB^2 = AC^2 = AE \\cdot AD$.\n\nTừ đó suy ra $AH \\cdot AO = AE \\cdot AD$.\n\n$\\Rightarrow \\dfrac{AH}{AD} = \\dfrac{AE}{AO}$.\n\nXét $\\triangle AHE$ và $\\triangle ADO$:\n$\\begin{cases} \\widehat{HAO} \\text{ chung} \\\\ \\dfrac{AH}{AD} = \\dfrac{AE}{AO} \\end{cases}$\n\n$\\Rightarrow \\triangle AHE \\sim \\triangle ADO$ (c-g-c)\n\n$\\Rightarrow \\widehat{AHE} = \\widehat{ADO}$.\n\n**Câu c) Tính BC và $S_{ABOC}$ khi OA = 3R:**\n\n$\\triangle ABO$ vuông tại $B$:\n$$AO^2 = AB^2 + OB^2 \\text{ (Pythagore)}$$\n$$(3R)^2 = AB^2 + R^2$$\n$$AB^2 = 8R^2 \\Rightarrow AB = 2R\\sqrt{2}$$\n\nXét $\\triangle ABO$ và $\\triangle ACO$:\n$\\begin{cases} \\widehat{ABO} = \\widehat{ACO} = 90° \\\\ AO \\text{ cạnh chung} \\\\ OB = OC = R \\end{cases}$\n\n$\\Rightarrow \\triangle ABO = \\triangle ACO$ (cạnh huyền - cạnh góc vuông).\n\nDiện tích $\\triangle ABO$ là:\n$$S_{ABO} = \\dfrac{1}{2} \\cdot AB \\cdot OB = \\dfrac{1}{2} \\cdot 2R\\sqrt{2} \\cdot R = R^2\\sqrt{2}$$\n\nDiện tích tứ giác $ABOC$ là:\n$$S_{ABOC} = S_{ABO} + S_{ACO} = 2 S_{ABO} = \\boxed{2R^2\\sqrt{2}}$$\n\n**Tính BC:**\n\nTrong $\\triangle ABO$ vuông tại $B$ có $BH$ là đường cao, theo hệ thức lượng:\n$$AB \\cdot BO = AO \\cdot BH$$\n$$BH = \\dfrac{AB \\cdot BO}{AO} = \\dfrac{2R\\sqrt{2} \\cdot R}{3R} = \\dfrac{2R\\sqrt{2}}{3}$$\n\nVì $H$ là trung điểm của $BC$ nên:\n$$BC = 2BH = \\boxed{\\dfrac{4R\\sqrt{2}}{3}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), A ngoài đường tròn với OA > 2R. AB, AC tiếp tuyến tại B, C. CD đường kính. AD cắt (O) tại E. OA cắt BC tại H.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất 2 tiếp tuyến cắt nhau.",
+          "Em không hiểu vì sao 4 điểm đồng viên.",
+          "Câu c em không tính được AB."
+        ],
+        "dinh_huong": [
+          "Câu a em định ABOC đồng viên đường kính AO + BD//OA — đúng không?",
+          "Câu b em định $AB^2 = AH·AO$ và $AC^2 = AE·AD$ + AB=AC — đúng chứ?",
+          "Câu c em định $S_{ABOC} = 2 S_{ABO}$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra ABOC nội tiếp + BD // OA — đúng không?",
+          "Em ra △AHE ~ △ADO (c-g-c) — đúng chưa?",
+          "Em ra $BC = \\dfrac{4R\\sqrt 2}{3}$ và $S = 2R^2\\sqrt 2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được △ACE ~ △ADC để có $AC^2 = AE·AD$.",
+          "Em không liên kết AB = AC để chuyển sang $AH·AO = AE·AD$.",
+          "Em quên hệ thức lượng tam giác vuông để tính BH."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-33/bai7-duongtron.png"
+    }
+  ]
+}

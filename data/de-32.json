@@ -1,0 +1,364 @@
+{
+  "de_so": 32,
+  "cum": 11,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số: $y = \\dfrac{1}{2}x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị hàm số đã cho trên mặt phẳng tọa độ.\n\nb) Tìm tọa độ những điểm thuộc $(P)$ khác gốc tọa độ và sao cho tung độ bằng hai lần hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Tung độ bằng 2 lần hoành độ → $y = 2x$",
+        "Thay vào (P): $2x = \\dfrac{1}{2}x^2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai dạng $x(ax - b) = 0$"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $(4; 8)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = 8, 2, 0, 2, 8.\n\nCâu b: 'Tung độ = 2 hoành độ' → $y = 2x$. Thay vào: $2x = \\dfrac{1}{2}x^2 \\Rightarrow \\dfrac{1}{2}x^2 - 2x = 0$. Loại $x=0$ vì khác gốc.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = 8$; $x = -2 \\to y = 2$; $x = 0 \\to y = 0$; $x = 2 \\to y = 2$; $x = 4 \\to y = 8$\n\nCâu b:\n- $y = 2x$\n- $2x = \\dfrac{1}{2}x^2 \\Rightarrow \\dfrac{1}{2}x^2 - 2x = 0$\n- $x = 0$ (loại) hoặc $x = 4$\n- Với $x = 4 \\Rightarrow y = 8$\n- Tọa độ: $(4; 8)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{1}{2}x^2$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì tung độ bằng hai lần hoành độ nên $y = 2x$.\n\nTa có phương trình $2x = \\dfrac{1}{2}x^2$\n$$\\dfrac{1}{2}x^2 - 2x = 0$$\n$$x = 0 \\text{ hoặc } x = 4$$\n\nVới $x = 0 \\Rightarrow y = 0$ (loại vì đề yêu cầu khác gốc tọa độ).\nVới $x = 4 \\Rightarrow y = 8$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{(4; 8)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x²/2 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = 8, 2, 0, 2, 8.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tung độ bằng 2 lần hoành độ'.",
+          "Em không biết loại $x = 0$.",
+          "Em không biết bắt đầu lập bảng giá trị từ x nào."
+        ],
+        "dinh_huong": [
+          "Em định 'tung = 2 hoành' = $y = 2x$ — đúng không?",
+          "Em định lấy bảng x = -4, -2, 0, 2, 4 — đúng chứ?",
+          "Em định loại $(0;0)$ vì khác gốc — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{x^2}{2} - 2x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = 4$ — đúng chưa?",
+          "Em ra $(4; 8)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'tung = 2 hoành' thành $x = 2y$.",
+          "Em quên loại $(0;0)$ vì khác gốc tọa độ.",
+          "Em không biết đặt $x$ làm thừa số chung."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-32/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A",
+      "de_bai": "Cho phương trình $2x^2 - 6x + 1 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức $A = 3x_1^2 x_2 + 3x_1 x_2^2 - x_1 - x_2$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Đặt nhân tử chung: $A = 3x_1 x_2(x_1 + x_2) - (x_1 + x_2) = (x_1 + x_2)(3x_1 x_2 - 1)$",
+        "Thay số"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Đặt nhân tử chung"
+      ],
+      "dap_so": "$A = \\dfrac{3}{2}$",
+      "goi_y_cap_1": "Δ = 36 - 8 = 28 > 0. Viète: $x_1+x_2 = 3$, $x_1 x_2 = 1/2$. $A = 3x_1 x_2(x_1+x_2) - (x_1+x_2) = (x_1+x_2)(3x_1 x_2 - 1) = 3 \\cdot (3/2 - 1) = 3 \\cdot 1/2 = 3/2$.",
+      "goi_y_cap_2": "- Δ = $36 - 8 = 28 > 0$\n- Viète: $x_1+x_2 = 3$, $x_1 x_2 = \\dfrac{1}{2}$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 9 - 1 = 8$\n- $A = 3x_1^2 x_2 + 3x_1 x_2^2 - x_1 - x_2$\n- $= 3x_1 x_2(x_1 + x_2) - (x_1 + x_2)$\n- $= (x_1 + x_2)(3x_1 x_2 - 1)$\n- $= 3 \\cdot \\left(3 \\cdot \\dfrac{1}{2} - 1\\right) = 3 \\cdot \\dfrac{1}{2} = \\dfrac{3}{2}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $2x^2 - 6x + 1 = 0$ với $a = 2; b = -6; c = 1$.\n\n$\\Delta = b^2 - 4ac = (-6)^2 - 4 \\cdot 2 \\cdot 1 = 36 - 8 = 28 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = 3 \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{1}{2} \\end{cases}$$\n\nTa có:\n$$A = 3x_1^2 x_2 + 3x_1 x_2^2 - x_1 - x_2$$\n$$A = 3x_1 x_2(x_1 + x_2) - (x_1 + x_2)$$\n$$A = (x_1 + x_2)(3x_1 x_2 - 1)$$\n$$A = 3 \\cdot \\left(3 \\cdot \\dfrac{1}{2} - 1\\right) = 3 \\cdot \\left(\\dfrac{3}{2} - 1\\right) = 3 \\cdot \\dfrac{1}{2} = \\boxed{\\dfrac{3}{2}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy nhân tử chung.",
+          "Em quên Viète với $a = 2$.",
+          "Em không biết phân tích $3x_1^2 x_2 + 3x_1 x_2^2$."
+        ],
+        "dinh_huong": [
+          "Em định đặt $3x_1 x_2$ làm nhân tử chung — đúng không?",
+          "Em định đặt $(x_1 + x_2)$ làm nhân tử chung lần 2 — đúng chứ?",
+          "Em định ra $(x_1+x_2)(3x_1 x_2 - 1)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète $x_1+x_2 = 3$, $x_1x_2 = 1/2$ — đúng không?",
+          "Em ra $A = (x_1+x_2)(3x_1x_2 - 1)$ — đúng chưa?",
+          "Em ra $A = 3/2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được dạng $x_1+x_2$ chung trong A.",
+          "Em không phân tích được $3x_1^2 x_2 + 3x_1 x_2^2 = 3x_1 x_2 (x_1+x_2)$.",
+          "Em quên dấu trừ $(x_1 + x_2)$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Xác suất - Hộp 40 quả bóng đánh số 1 đến 40",
+      "de_bai": "Một chiếc hộp chứa $40$ quả bóng cùng hình dạng và kích thước. Các quả bóng được ghi số lần lượt từ $1$ đến $40$; hai quả bóng khác nhau thì ghi hai số khác nhau. Lấy ngẫu nhiên $1$ quả bóng trong hộp. Tính xác suất của mỗi biến cố sau:\n\na) Số xuất hiện trên quả bóng lớn hơn $30$.\n\nb) Số xuất hiện trên quả bóng là số chẵn nhỏ hơn $30$.",
+      "phuong_phap_duoc_dung": [
+        "$n(\\Omega) = 40$",
+        "A: số > 30 → {31, 32, ..., 40} → 10 số",
+        "B: chẵn < 30 → {2, 4, 6, ..., 28} → 14 số",
+        "Xác suất cổ điển"
+      ],
+      "kien_thuc_lien_quan": [
+        "Xác suất cổ điển",
+        "Đếm số nguyên trong tập hợp"
+      ],
+      "dap_so": "a) $P(A) = \\dfrac{1}{4}$. b) $P(B) = \\dfrac{7}{20}$.",
+      "goi_y_cap_1": "$n(\\Omega) = 40$. A = {31...40} → $n(A) = 10$ → $P(A) = 10/40 = 1/4$. B = {2, 4,..., 28} → $n(B) = 14$ → $P(B) = 14/40 = 7/20$.",
+      "goi_y_cap_2": "- Số phần tử không gian mẫu: $n(\\Omega) = 40$\n\nCâu a:\n- A = {31; 32; 33; 34; 35; 36; 37; 38; 39; 40}\n- $n(A) = 10$\n- $P(A) = \\dfrac{10}{40} = \\dfrac{1}{4}$\n\nCâu b:\n- B = {2; 4; 6; 8; 10; 12; 14; 16; 18; 20; 22; 24; 26; 28}\n- $n(B) = 14$\n- $P(B) = \\dfrac{14}{40} = \\dfrac{7}{20}$",
+      "loi_giai_day_du": "Không gian mẫu của phép thử là số cách lấy ngẫu nhiên $1$ quả bóng từ $40$ quả bóng.\n\nSố phần tử của không gian mẫu là $n(\\Omega) = 40$.\n\n**Câu a) Số xuất hiện > 30:**\n\nGọi $A$ là biến cố: \"Số xuất hiện trên quả bóng lớn hơn $30$\".\n\nCác kết quả thuận lợi cho biến cố $A$ là $A = \\{31; 32; 33; 34; 35; 36; 37; 38; 39; 40\\}$.\n\nSố kết quả thuận lợi: $n(A) = 10$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{10}{40} = \\boxed{\\dfrac{1}{4}}$$\n\n**Câu b) Số chẵn < 30:**\n\nGọi $B$ là biến cố: \"Số xuất hiện trên quả bóng là số chẵn nhỏ hơn $30$\".\n\nCác kết quả thuận lợi cho biến cố $B$ là $B = \\{2; 4; 6; 8; 10; 12; 14; 16; 18; 20; 22; 24; 26; 28\\}$.\n\nSố kết quả thuận lợi: $n(B) = 14$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{14}{40} = \\boxed{\\dfrac{7}{20}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tập A có bao nhiêu phần tử.",
+          "Em nhầm 'lớn hơn 30' với 'từ 30 trở lên'.",
+          "Em không liệt kê được số chẵn < 30."
+        ],
+        "dinh_huong": [
+          "Em định A = {31, 32,..., 40} có 10 số — đúng không?",
+          "Em định B = {2, 4,..., 28} có 14 số — đúng chứ?",
+          "Em định $P = n(A)/n(\\Omega)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $n(\\Omega) = 40$ — đúng không?",
+          "Em ra $P(A) = 1/4$ — đúng chưa?",
+          "Em ra $P(B) = 7/20$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm sai số chẵn nhỏ hơn 30 (phải là 14, không phải 15).",
+          "Em quên rút gọn $14/40 = 7/20$.",
+          "Em tính 'lớn hơn 30' bao gồm 30 (sai)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Vòng xuyến hoa hồng và hoa cúc",
+      "de_bai": "Tại một giao lộ, có một vòng xuyến được thiết kế gồm hình tròn có bán kính là $a$ (mét), được trồng hoa hồng và hình vành khuyên có độ rộng là $a-1$ (mét) bao quanh hình tròn đó như hình vẽ bên mô tả. Phần đất hình vành khuyên được trồng hoa cúc.\n\na) Viết biểu thức $M$ theo biến $a$ biểu diễn diện tích phần đất trồng hoa cúc.\n\nb) Biết rằng diện tích phần đất trồng hoa hồng bằng với diện tích phần đất trồng hoa cúc và $a > 1$. Tính giá trị của $a$ (làm tròn kết quả đến hàng phần mười).",
+      "phuong_phap_duoc_dung": [
+        "Bán kính ngoài = $a + (a-1) = 2a - 1$",
+        "S hình tròn ngoài = $\\pi(2a-1)^2$",
+        "S hình tròn trong (hoa hồng) = $\\pi a^2$",
+        "S vành khuyên (hoa cúc) M = $\\pi(2a-1)^2 - \\pi a^2 = \\pi(3a^2 - 4a + 1)$",
+        "$\\pi a^2 = \\pi(3a^2 - 4a + 1) \\Rightarrow 2a^2 - 4a + 1 = 0 \\Rightarrow a = (2+\\sqrt{2})/2 \\approx 1{,}7$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình tròn, hình vành khuyên",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $M = \\pi(3a^2 - 4a + 1)$ (m²). b) $a \\approx 1{,}7$ m.",
+      "goi_y_cap_1": "Câu a: Bán kính ngoài = $2a - 1$. M = $\\pi(2a-1)^2 - \\pi a^2 = \\pi(3a^2 - 4a + 1)$.\n\nCâu b: $\\pi a^2 = \\pi(3a^2 - 4a + 1) \\Rightarrow 2a^2 - 4a + 1 = 0 \\Rightarrow a = (2 \\pm \\sqrt 2)/2$. Vì $a > 1$ → $a = (2+\\sqrt 2)/2 \\approx 1,7$.",
+      "goi_y_cap_2": "Câu a:\n- Bán kính hình tròn ngoài: $a + (a-1) = 2a - 1$ (m)\n- $S_{ngoài} = \\pi(2a-1)^2$ (m²)\n- $S_{trong} = \\pi a^2$ (m²)\n- $M = S_{ngoài} - S_{trong} = \\pi(2a-1)^2 - \\pi a^2 = \\pi[(2a-1)^2 - a^2]$\n- $= \\pi(4a^2 - 4a + 1 - a^2) = \\pi(3a^2 - 4a + 1)$ (m²)\n\nCâu b: $a > 1$\n- $\\pi a^2 = \\pi(3a^2 - 4a + 1)$\n- $a^2 = 3a^2 - 4a + 1$\n- $2a^2 - 4a + 1 = 0$\n- $a = \\dfrac{2 + \\sqrt{2}}{2} \\approx 1{,}7$ (nhận) hoặc $a = \\dfrac{2 - \\sqrt{2}}{2} \\approx 0{,}3$ (loại vì $a < 1$)",
+      "loi_giai_day_du": "**Câu a) Biểu thức M:**\n\nBán kính hình tròn ngoài là $a + (a-1) = 2a - 1$ (m).\n\nDiện tích hình tròn ngoài là $\\pi(2a-1)^2$ (m²).\n\nDiện tích hình tròn trong (trồng hoa hồng) là $\\pi a^2$ (m²).\n\nDiện tích phần đất trồng hoa cúc là:\n$$M = \\pi(2a-1)^2 - \\pi a^2 = \\pi[(2a-1)^2 - a^2]$$\n$$= \\pi(4a^2 - 4a + 1 - a^2) = \\boxed{\\pi(3a^2 - 4a + 1) \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tính giá trị của $a$:**\n\nGọi $a$ (m) là bán kính hình tròn trong ($a > 1$).\n\nDiện tích phần đất trồng hoa hồng là $\\pi a^2$ (m²).\n\nDiện tích phần đất trồng hoa cúc là $\\pi(3a^2 - 4a + 1)$ (m²).\n\nVì diện tích phần đất trồng hoa hồng bằng diện tích phần đất trồng hoa cúc nên:\n$$\\pi a^2 = \\pi(3a^2 - 4a + 1)$$\n$$a^2 = 3a^2 - 4a + 1$$\n$$2a^2 - 4a + 1 = 0$$\n$$a = \\dfrac{2 + \\sqrt{2}}{2} \\text{ hoặc } a = \\dfrac{2 - \\sqrt{2}}{2}$$\n\nVới $a = \\dfrac{2 + \\sqrt{2}}{2} \\approx 1{,}7$ (nhận).\n\nVới $a = \\dfrac{2 - \\sqrt{2}}{2} \\approx 0{,}3 < 1$ (loại).\n\nVậy $a \\approx \\boxed{1{,}7}$ (m).",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Vòng xuyến giao lộ: hình tròn trong bán kính a (hoa hồng đỏ), vành khuyên rộng a-1 (hoa cúc trắng-vàng), bao quanh.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không tính được bán kính hình tròn ngoài.",
+          "Em không nhớ công thức diện tích hình tròn.",
+          "Em quên khai triển $(2a-1)^2$."
+        ],
+        "dinh_huong": [
+          "Em định bán kính ngoài = $a + (a-1) = 2a-1$ — đúng không?",
+          "Em định M = S ngoài - S trong — đúng chứ?",
+          "Em định lập phương trình $\\pi a^2 = \\pi(3a^2 - 4a + 1)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $M = \\pi(3a^2 - 4a + 1)$ — đúng không?",
+          "Em ra $2a^2 - 4a + 1 = 0$ — đúng chưa?",
+          "Em ra $a \\approx 1{,}7$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm bán kính ngoài là $a-1$ thay vì $2a-1$.",
+          "Em không loại nghiệm $a < 1$.",
+          "Em khai triển sai $(2a-1)^2 = 4a^2 - 4a + 1$ thành $4a^2 - 1$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-32/bai4-vongxuyen.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Trường THCS đi ngoại khóa bằng ô tô",
+      "de_bai": "Một trường THCS chuẩn bị đi ngoại khóa bằng ô tô. Nếu mỗi ô tô chở $22$ học sinh thì thừa $1$ học sinh. Nếu bớt đi $1$ ô tô thì có thể phân phối đều tất cả các học sinh lên các ô tô còn lại. Hỏi có bao nhiêu học sinh đi ngoại khóa và có bao nhiêu ô tô? Biết rằng mỗi ô tô chỉ chở không quá $30$ học sinh.",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ = số ô tô, $y$ = số HS",
+        "Mỗi xe chở 22, thừa 1 → $y = 22x + 1$",
+        "Bớt 1 xe → chia đều: $\\dfrac{y}{x-1} \\in \\mathbb{N}$",
+        "$\\dfrac{22x+1}{x-1} = 22 + \\dfrac{23}{x-1}$ → $(x-1) | 23$ → $x-1 \\in \\{1, 23\\}$",
+        "$x = 2$: y = 45 (loại vì 45 > 30)",
+        "$x = 24$: y = 529, mỗi xe = 23 (≤30, nhận)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Số nguyên tố",
+        "Phương trình nghiệm nguyên",
+        "Điều kiện chia hết"
+      ],
+      "dap_so": "Có 24 ô tô và 529 học sinh đi ngoại khóa.",
+      "goi_y_cap_1": "Gọi $x$ ô tô, $y$ HS. $y = 22x+1$. Bớt 1 xe → $\\dfrac{y}{x-1} = 22 + \\dfrac{23}{x-1}$ ∈ ℕ → $x-1 \\in \\{1, 23\\}$. $x=2$ → $y=45$ (mỗi xe 45>30 loại). $x=24$ → $y=529$, mỗi xe 23 (≤30 nhận).",
+      "goi_y_cap_2": "- Gọi $x$ (xe) là số ô tô, $y$ (HS) là số học sinh ($x \\in \\mathbb{N}^*, x > 1, y \\in \\mathbb{N}^*$)\n- Mỗi xe chở 22, thừa 1: $y = 22x + 1$ (1)\n- Bớt 1 xe → mỗi xe chở $\\dfrac{y}{x-1}$ HS\n- $\\dfrac{y}{x-1} = \\dfrac{22x+1}{x-1} = \\dfrac{22(x-1) + 23}{x-1} = 22 + \\dfrac{23}{x-1}$\n- Để chia đều: $\\dfrac{23}{x-1} \\in \\mathbb{N}$\n- 23 là số nguyên tố nên $x - 1 \\in \\{1; 23\\}$\n- TH1: $x - 1 = 1 \\Rightarrow x = 2$, $y = 45$. Mỗi xe lúc sau: $45/1 = 45 > 30$ (loại)\n- TH2: $x - 1 = 23 \\Rightarrow x = 24$, $y = 529$. Mỗi xe lúc sau: $529/23 = 23 \\leq 30$ (nhận)",
+      "loi_giai_day_du": "Gọi $x$ (xe) là số ô tô, $y$ (học sinh) là số học sinh đi ngoại khóa ($x \\in \\mathbb{N}^*$, $x > 1$, $y \\in \\mathbb{N}^*$).\n\nVì mỗi ô tô chở $22$ học sinh thì thừa $1$ học sinh nên:\n$$y = 22x + 1 \\quad (1)$$\n\nKhi bớt đi $1$ ô tô thì số ô tô còn lại là $x - 1$ (xe).\n\nSố học sinh trên mỗi xe khi đó là $\\dfrac{y}{x-1}$ (học sinh).\n\nĐể phân phối đều thì $\\dfrac{y}{x-1}$ phải là số tự nhiên.\n\nThay (1) vào ta có:\n$$\\dfrac{y}{x-1} = \\dfrac{22x + 1}{x-1} = \\dfrac{22(x-1) + 23}{x-1} = 22 + \\dfrac{23}{x-1}$$\n\nĐể $\\dfrac{y}{x-1} \\in \\mathbb{N}$ thì $(x-1) | 23$.\n\nVì $23$ là số nguyên tố nên $(x-1) \\in \\{1; 23\\}$.\n\n**TH1:** $x - 1 = 1 \\Rightarrow x = 2$ (xe).\n\nSuy ra $y = 22 \\cdot 2 + 1 = 45$ (học sinh).\n\nSố học sinh trên mỗi xe lúc sau là $\\dfrac{45}{1} = 45 > 30$ (loại).\n\n**TH2:** $x - 1 = 23 \\Rightarrow x = 24$ (xe).\n\nSuy ra $y = 22 \\cdot 24 + 1 = 529$ (học sinh).\n\nSố học sinh trên mỗi xe lúc sau là $\\dfrac{529}{23} = 23 \\leq 30$ (nhận).\n\nVậy có $\\boxed{24}$ ô tô và $\\boxed{529}$ học sinh đi ngoại khóa.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết gọi ẩn nào.",
+          "Em không hiểu 'thừa 1 HS' nghĩa là gì.",
+          "Em không biết tách phân thức $\\dfrac{22x+1}{x-1}$."
+        ],
+        "dinh_huong": [
+          "Em định $y = 22x + 1$ — đúng không?",
+          "Em định $\\dfrac{y}{x-1} \\in \\mathbb{N}$ → $(x-1) | 23$ — đúng chứ?",
+          "Em định loại TH1 vì 45 > 30 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $\\dfrac{22x+1}{x-1} = 22 + \\dfrac{23}{x-1}$ — đúng không?",
+          "Em ra $x \\in \\{2; 24\\}$ — đúng chưa?",
+          "Em ra 24 ô tô và 529 HS — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không tách $\\dfrac{22x+1}{x-1} = 22 + \\dfrac{23}{x-1}$.",
+          "Em quên kiểm tra điều kiện 'mỗi xe ≤ 30'.",
+          "Em không nhận ra 23 là số nguyên tố."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - So sánh 2 gói cước viễn thông",
+      "de_bai": "Một hãng viễn thông nước ngoài có hai gói cước như sau:\n\n| Gói cước A | Gói cước B |\n|---|---|\n| Cước thuê bao hàng tháng 32 USD | Cước thuê bao hàng tháng là 44 USD |\n| 45 phút miễn phí | Không có phút miễn phí |\n| 0,4 USD cho mỗi phút thêm | 0,25 USD/phút |\n\nNếu khách hàng chỉ gọi tối đa là $180$ phút trong $1$ tháng thì nên dùng gói cước nào? Nếu khách hàng gọi $500$ phút trong $1$ tháng thì nên dùng gói cước nào?",
+      "phuong_phap_duoc_dung": [
+        "TH1: 180 phút",
+        "Gói A: $32 + (180-45) \\cdot 0,4 = 32 + 54 = 86$ USD",
+        "Gói B: $44 + 180 \\cdot 0,25 = 44 + 45 = 89$ USD",
+        "→ Gói A rẻ hơn",
+        "TH2: 500 phút",
+        "Gói A: $32 + (500-45) \\cdot 0,4 = 32 + 182 = 214$ USD",
+        "Gói B: $44 + 500 \\cdot 0,25 = 44 + 125 = 169$ USD",
+        "→ Gói B rẻ hơn"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tính toán số học",
+        "So sánh hai biểu thức"
+      ],
+      "dap_so": "TH1 (180 phút): nên dùng gói A. TH2 (500 phút): nên dùng gói B.",
+      "goi_y_cap_1": "TH1 (180 phút): A = $32 + 135 \\cdot 0,4 = 86$ USD; B = $44 + 180 \\cdot 0,25 = 89$ USD → A.\n\nTH2 (500 phút): A = $32 + 455 \\cdot 0,4 = 214$ USD; B = $44 + 500 \\cdot 0,25 = 169$ USD → B.",
+      "goi_y_cap_2": "**TH1: 180 phút**\n- Gói A: cước thuê bao + (180 - 45) phút × 0,4\n- = $32 + 135 \\cdot 0{,}4 = 32 + 54 = 86$ USD\n- Gói B: cước thuê bao + 180 phút × 0,25\n- = $44 + 45 = 89$ USD\n- $86 < 89$ → dùng gói A\n\n**TH2: 500 phút**\n- Gói A: $32 + 455 \\cdot 0{,}4 = 32 + 182 = 214$ USD\n- Gói B: $44 + 500 \\cdot 0{,}25 = 44 + 125 = 169$ USD\n- $169 < 214$ → dùng gói B",
+      "loi_giai_day_du": "**Trường hợp 1: Khách hàng gọi 180 phút trong 1 tháng**\n\nChi phí gói cước A:\nSố phút phải trả cước: $180 - 45 = 135$ (phút).\nTổng chi phí: $32 + 135 \\times 0{,}4 = 32 + 54 = 86$ (USD).\n\nChi phí gói cước B:\n$44 + 180 \\times 0{,}25 = 44 + 45 = 89$ (USD).\n\nVì $86 < 89$ nên khách hàng nên dùng $\\boxed{\\text{gói cước A}}$.\n\n**Trường hợp 2: Khách hàng gọi 500 phút trong 1 tháng**\n\nChi phí gói cước A:\nSố phút phải trả cước: $500 - 45 = 455$ (phút).\nTổng chi phí: $32 + 455 \\times 0{,}4 = 32 + 182 = 214$ (USD).\n\nChi phí gói cước B:\n$44 + 500 \\times 0{,}25 = 44 + 125 = 169$ (USD).\n\nVì $169 < 214$ nên khách hàng nên dùng $\\boxed{\\text{gói cước B}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính tiền gói A.",
+          "Em không hiểu '45 phút miễn phí' nghĩa là gì.",
+          "Em không biết bắt đầu so sánh từ đâu."
+        ],
+        "dinh_huong": [
+          "Em định gói A: $32 + (số\\,phút - 45) \\cdot 0{,}4$ — đúng không?",
+          "Em định gói B: $44 + số\\,phút \\cdot 0{,}25$ — đúng chứ?",
+          "Em định so sánh tiền 2 gói rồi chọn rẻ hơn — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra TH1: A=86, B=89 → A — đúng không?",
+          "Em ra TH2: A=214, B=169 → B — đúng chưa?",
+          "Em hiểu được vì sao đổi gói khi tăng số phút?"
+        ],
+        "go_bi": [
+          "Em quên trừ 45 phút miễn phí ở gói A.",
+          "Em nhầm tính cả 180 phút × 0,4.",
+          "Em không cộng cước thuê bao."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nhọn nội tiếp + đường cao + tứ giác BCEF, AEHF nội tiếp",
+      "de_bai": "Cho tam giác $ABC$ có ba góc nhọn ($AB < AC$) nội tiếp đường tròn $(O; R)$. Kẻ đường cao $BE$ và $CF$ cắt nhau tại $H$. Gọi $M, I$ lần lượt là trung điểm của $BC$ và $AH$.\n\na) Chứng minh các tứ giác $BCEF, AEHF$ nội tiếp và $AF \\cdot AB = AE \\cdot AC$.\n\nb) Gọi $N$ là giao điểm của $AH$ và $EF$, $K$ là giao điểm của đường thẳng $BC$ và đường thẳng $EF$. Chứng minh $MN$ vuông góc $KI$.\n\nc) Cho $\\widehat{BAC} = 60°$. Tính độ dài $BC$ và diện tích hình quạt $OBC$ của $(O)$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "△BFC vuông tại F, △BEC vuông tại E → BCEF nội tiếp đường kính BC, tâm M",
+        "△AFH vuông tại F, △AEH vuông tại E → AEHF nội tiếp đường kính AH, tâm I",
+        "△ABE ~ △ACF (g-g, BAC chung, AEB=AFC=90°) → AB/AC = AE/AF → AF·AB = AE·AC",
+        "AEHF nội tiếp tâm I → IE = IF; BCEF nội tiếp tâm M → ME = MF → IM trung trực EF → IM ⊥ EF",
+        "K, N ∈ EF → KN ⊥ IM. AH ⊥ BC (H trực tâm). Trong △KIM: KN, IN là 2 đường cao → N trực tâm → MN ⊥ KI",
+        "BAC = 60° → BOC = 120° (góc ở tâm). △OBC cân tại O, kẻ OM ⊥ BC. BOM = 60°. BM = R sin 60° = R√3/2. BC = R√3",
+        "S quạt = πR²·120/360 = πR²/3"
+      ],
+      "kien_thuc_lien_quan": [
+        "Góc nội tiếp",
+        "Tứ giác nội tiếp",
+        "Tam giác đồng dạng",
+        "Đường trung trực",
+        "Trực tâm tam giác",
+        "Diện tích hình quạt"
+      ],
+      "dap_so": "c) $BC = R\\sqrt{3}$, $S_{quạt} = \\dfrac{\\pi R^2}{3}$.",
+      "goi_y_cap_1": "Câu a: △BFC, △BEC vuông F, E → BCEF nội tiếp đường kính BC. △AFH, △AEH vuông F, E → AEHF nội tiếp đường kính AH. △ABE ~ △ACF (g-g) → AF·AB = AE·AC.\n\nCâu b: AEHF nội tiếp tâm I → IE=IF. BCEF nội tiếp tâm M → ME=MF. → IM trung trực EF → IM ⊥ EF. K, N trên EF → KN ⊥ IM. AH ⊥ BC tại N (qua trực tâm) → IN ⊥ KM. △KIM có KN, IN là đường cao → N trực tâm → MN ⊥ KI.\n\nCâu c: BAC = 60° → BOC = 120° (góc ở tâm). Kẻ OM ⊥ BC. △OBC cân O. BOM = 60°. BM = R sin 60° = R√3/2 → BC = 2BM = R√3. S quạt = $\\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$.",
+      "goi_y_cap_2": "Câu a:\n- △BFC vuông tại F (CF là đường cao) → nội tiếp đường tròn đường kính BC (1)\n- △BEC vuông tại E (BE là đường cao) → nội tiếp đường tròn đường kính BC (2)\n- (1)(2) → B, F, E, C đồng viên → BCEF nội tiếp\n- △AFH vuông tại F (CF ⊥ AB) → nội tiếp đường kính AH (3)\n- △AEH vuông tại E (BE ⊥ AC) → nội tiếp đường kính AH (4)\n- (3)(4) → A, E, H, F đồng viên → AEHF nội tiếp\n- Xét △ABE và △ACF:\n  - $\\widehat{BAC}$ chung\n  - $\\widehat{AEB} = \\widehat{AFC} = 90°$\n  - → △ABE ~ △ACF (g-g)\n- → $\\dfrac{AB}{AC} = \\dfrac{AE}{AF}$ → $AF \\cdot AB = AE \\cdot AC$\n\nCâu b:\n- AEHF nội tiếp đường kính AH có tâm I → IE = IF (bán kính)\n- BCEF nội tiếp đường kính BC có tâm M → ME = MF (bán kính)\n- → IM là trung trực EF → IM ⊥ EF\n- K, N ∈ EF nên KN ⊥ IM\n- AH ⊥ BC tại đường cao thứ 3 (H trực tâm △ABC). I, N ∈ AH; M, K ∈ BC → IN ⊥ KM\n- Xét △KIM:\n  - KN ⊥ IM tại N\n  - IN ⊥ KM\n  - → N là trực tâm △KIM\n- → MN ⊥ KI\n\nCâu c:\n- $\\widehat{BOC} = 2 \\widehat{BAC} = 120°$ (góc ở tâm gấp đôi góc nội tiếp)\n- Kẻ OM ⊥ BC tại M\n- △OBC cân tại O (OB = OC = R), OM là đường cao → OM cũng là phân giác\n- $\\widehat{BOM} = \\dfrac{120°}{2} = 60°$\n- △OBM vuông tại M: $\\sin\\widehat{BOM} = \\dfrac{BM}{OB} \\Rightarrow BM = R \\sin 60° = \\dfrac{R\\sqrt{3}}{2}$\n- $BC = 2BM = R\\sqrt{3}$\n- $S_{quạt} = \\dfrac{\\pi R^2 \\cdot n}{360} = \\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh BCEF, AEHF nội tiếp và $AF \\cdot AB = AE \\cdot AC$:**\n\n$\\triangle BFC$ vuông tại $F$ (do $CF$ là đường cao) suy ra $\\triangle BFC$ nội tiếp đường tròn đường kính $BC$ (1).\n\n$\\triangle BEC$ vuông tại $E$ (do $BE$ là đường cao) suy ra $\\triangle BEC$ nội tiếp đường tròn đường kính $BC$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $B, C, E, F$ cùng thuộc một đường tròn đường kính $BC$. Suy ra tứ giác $BCEF$ nội tiếp.\n\n$\\triangle AFH$ vuông tại $F$ (do $CF \\perp AB$) suy ra $\\triangle AFH$ nội tiếp đường tròn đường kính $AH$ (3).\n\n$\\triangle AEH$ vuông tại $E$ (do $BE \\perp AC$) suy ra $\\triangle AEH$ nội tiếp đường tròn đường kính $AH$ (4).\n\nTừ (3) và (4) suy ra 4 điểm $A, E, H, F$ cùng thuộc một đường tròn đường kính $AH$. Suy ra tứ giác $AEHF$ nội tiếp.\n\nXét $\\triangle ABE$ và $\\triangle ACF$:\n$\\begin{cases} \\widehat{BAC} \\text{ chung} \\\\ \\widehat{AEB} = \\widehat{AFC} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle ABE \\sim \\triangle ACF$ (g-g)\n\n$\\Rightarrow \\dfrac{AB}{AC} = \\dfrac{AE}{AF} \\Rightarrow AF \\cdot AB = AE \\cdot AC$.\n\n**Câu b) Chứng minh $MN \\perp KI$:**\n\nTheo câu a, tứ giác $AEHF$ nội tiếp đường tròn đường kính $AH$.\nMà $I$ là trung điểm $AH$ nên $I$ là tâm đường tròn ngoại tiếp tứ giác $AEHF$.\nSuy ra $IE = IF$ (bán kính).\n\nTheo câu a, tứ giác $BCEF$ nội tiếp đường tròn đường kính $BC$.\nMà $M$ là trung điểm $BC$ nên $M$ là tâm đường tròn ngoại tiếp tứ giác $BCEF$.\nSuy ra $ME = MF$ (bán kính).\n\nTa có $\\begin{cases} IE = IF \\\\ ME = MF \\end{cases} \\Rightarrow IM$ là trung trực của $EF \\Rightarrow IM \\perp EF$.\n\nMà $K, N$ thuộc $EF$ nên $KN \\perp IM$.\n\nTa có $AH \\perp BC$ (do $H$ là trực tâm $\\triangle ABC$). Mà $N, I$ thuộc $AH$ và $K, M$ thuộc $BC$ nên $IN \\perp KM$.\n\nXét $\\triangle KIM$:\n- $KN$ là đường cao (do $KN \\perp IM$)\n- $IN$ là đường cao (do $IN \\perp KM$)\n- $KN$ cắt $IN$ tại $N$.\n\nSuy ra $N$ là trực tâm của $\\triangle KIM$.\n\n$\\Rightarrow MN \\perp KI$ (tính chất trực tâm).\n\n**Câu c) Tính BC và diện tích hình quạt:**\n\n$\\widehat{BOC} = 2\\widehat{BAC} = 2 \\cdot 60° = 120°$ (góc ở tâm gấp đôi góc nội tiếp cùng chắn cung $BC$).\n\nKẻ $OM \\perp BC$ tại $M$.\n\nTa có $OB = OC = R$ suy ra $\\triangle OBC$ cân tại $O$.\nMà $OM$ là đường cao (do $OM \\perp BC$), suy ra $OM$ cũng là đường trung tuyến và đường phân giác của $\\triangle OBC$.\n\nSuy ra $M$ là trung điểm của $BC$ và $\\widehat{BOM} = \\dfrac{\\widehat{BOC}}{2} = 60°$.\n\nXét $\\triangle OBM$ vuông tại $M$:\n$$\\sin \\widehat{BOM} = \\dfrac{BM}{OB} \\Rightarrow BM = R \\sin 60° = R \\cdot \\dfrac{\\sqrt{3}}{2}$$\n\nVì $M$ là trung điểm $BC$ nên $BC = 2BM = \\boxed{R\\sqrt{3}}$.\n\nDiện tích hình quạt tròn $OBC$ là:\n$$S_q = \\dfrac{\\pi R^2 \\cdot n}{360} = \\dfrac{\\pi R^2 \\cdot 120}{360} = \\boxed{\\dfrac{\\pi R^2}{3}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nhọn nội tiếp (O;R), 2 đường cao BE và CF cắt nhau tại trực tâm H. M trung điểm BC, I trung điểm AH. N = AH ∩ EF, K = BC ∩ EF.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được BCEF có 2 góc vuông nhìn BC.",
+          "Em không hiểu I là tâm đường tròn ngoại tiếp AEHF.",
+          "Câu c em không biết góc BOC bằng bao nhiêu."
+        ],
+        "dinh_huong": [
+          "Câu a em định 4 điểm BCEF đồng viên đường kính BC — đúng không?",
+          "Câu b em định IM trung trực EF — đúng chứ?",
+          "Câu c em định BOC = 2·BAC = 120° — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra △ABE ~ △ACF (g-g) → $AF \\cdot AB = AE \\cdot AC$ — đúng không?",
+          "Em ra N là trực tâm △KIM — đúng chưa?",
+          "Em ra $BC = R\\sqrt{3}$ và $S_q = \\dfrac{\\pi R^2}{3}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy 2 đường cao IN và KN trong △KIM.",
+          "Em quên góc ở tâm gấp đôi góc nội tiếp.",
+          "Em không kẻ OM ⊥ BC để tính BC."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-32/bai7-tamgiac.png"
+    }
+  ]
+}
