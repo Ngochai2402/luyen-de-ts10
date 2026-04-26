@@ -1,0 +1,362 @@
+{
+  "de_so": 26,
+  "cum": 9,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.0,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho parabol $(P): y = \\dfrac{x^2}{4}$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm tọa độ các điểm $M$ thuộc $(P)$ có tung độ bằng $1$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Thay $y = 1$ vào $(P)$",
+        "Giải $\\dfrac{x^2}{4} = 1 \\Rightarrow x^2 = 4 \\Rightarrow x = \\pm 2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai cơ bản"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(2; 1)$ và $(-2; 1)$.",
+      "goi_y_cap_1": "Câu a: Bảng với x = -4, -2, 0, 2, 4 → y = 4, 1, 0, 1, 4.\n\nCâu b: $y = 1 \\Rightarrow \\dfrac{x^2}{4} = 1 \\Rightarrow x^2 = 4 \\Rightarrow x = 2$ hoặc $x = -2$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = 4$; $x = -2 \\to y = 1$; $x = 0 \\to y = 0$; $x = 2 \\to y = 1$; $x = 4 \\to y = 4$\n\nCâu b:\n- Vì $y = 1$ nên $\\dfrac{x^2}{4} = 1$\n- $\\dfrac{x^2}{4} - 1 = 0$\n- $x = 2$ hoặc $x = -2$\n- $(2; 1)$ và $(-2; 1)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{4}$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm lên trên.\n\n**Câu b) Tìm tọa độ điểm M:**\n\nVì điểm cần tìm có tung độ bằng $1$ nên $y = 1$.\n\nTa có phương trình $\\dfrac{x^2}{4} = 1$\n$$\\dfrac{x^2}{4} - 1 = 0$$\n$$x = 2 \\text{ hoặc } x = -2$$\n\nVới $x = 2 \\Rightarrow y = 1$.\nVới $x = -2 \\Rightarrow y = 1$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(2; 1)}$ và $\\boxed{(-2; 1)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hình vẽ parabol (P): y = x²/4 bề lõm quay lên trên với các điểm đặc trưng x = -4, -2, 0, 2, 4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tung độ bằng 1' nghĩa là gì.",
+          "Em không biết khai căn $x^2 = 4$.",
+          "Em quên có 2 nghiệm khi khai căn."
+        ],
+        "dinh_huong": [
+          "Em định thay $y = 1$ vào $(P)$ — đúng không?",
+          "Em định giải $x^2 = 4 \\Rightarrow x = \\pm 2$ — đúng chứ?",
+          "Em định ra 2 điểm $(2;1)$ và $(-2;1)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{x^2}{4} = 1$ — đúng không?",
+          "Em ra $x = 2$ và $x = -2$ — đúng chưa?",
+          "Em ra 2 điểm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ ra 1 nghiệm $x = 2$ mà quên $x = -2$.",
+          "Em nhầm 'tung độ' với 'hoành độ'.",
+          "Em quên kết luận 2 tọa độ điểm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-26/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A",
+      "de_bai": "Cho phương trình $x^2 - 10x - 11 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm phân biệt.\n\nb) Không giải phương trình, tính giá trị của biểu thức $A = (x_1 - 2024 x_2)x_2 + 2025 x_2^2 + x_1^2$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Khai triển: $A = x_1 x_2 + x_2^2 + x_1^2$",
+        "Dùng $(x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Biểu thức đối xứng"
+      ],
+      "dap_so": "$A = 111$",
+      "goi_y_cap_1": "Câu a: $\\Delta = 100 + 44 = 144 > 0$.\n\nCâu b: Khai triển: $A = x_1 x_2 - 2024 x_2^2 + 2025 x_2^2 + x_1^2 = x_1 x_2 + x_2^2 + x_1^2 = (x_1^2 + x_2^2) + x_1 x_2$. Viète $S = 10, P = -11$. $x_1^2 + x_2^2 = 100 + 22 = 122$. $A = 122 + (-11) = 111$.",
+      "goi_y_cap_2": "Câu a:\n- $a = 1, b = -10, c = -11$\n- $\\Delta = (-10)^2 - 4 \\cdot 1 \\cdot (-11) = 100 + 44 = 144 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = 10$, $x_1 x_2 = -11$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 100 + 22 = 122$\n- Khai triển: $A = (x_1 - 2024 x_2)x_2 + 2025 x_2^2 + x_1^2$\n- $A = x_1 x_2 - 2024 x_2^2 + 2025 x_2^2 + x_1^2$\n- $A = x_1 x_2 + x_2^2 + x_1^2$\n- $A = (x_1^2 + x_2^2) + x_1 x_2 = 122 + (-11) = 111$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $x^2 - 10x - 11 = 0$ với $a = 1, b = -10, c = -11$.\n\n$\\Delta = b^2 - 4ac = (-10)^2 - 4 \\cdot 1 \\cdot (-11) = 100 + 44 = 144 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-(-10)}{1} = 10 \\\\ x_1 x_2 = \\dfrac{c}{a} = -11 \\end{cases}$$\n\n$$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2x_1 x_2 = 10^2 - 2 \\cdot (-11) = 100 + 22 = 122$$\n\nKhai triển biểu thức $A$:\n$$A = (x_1 - 2024 x_2)x_2 + 2025 x_2^2 + x_1^2$$\n$$= x_1 x_2 - 2024 x_2^2 + 2025 x_2^2 + x_1^2$$\n$$= x_1 x_2 + x_2^2 + x_1^2$$\n$$= (x_1^2 + x_2^2) + x_1 x_2$$\n$$= 122 + (-11) = \\boxed{111}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết khai triển $(x_1 - 2024 x_2) x_2$.",
+          "Em quên công thức $x_1^2 + x_2^2$.",
+          "Em không nhận ra $-2024 x_2^2 + 2025 x_2^2 = x_2^2$."
+        ],
+        "dinh_huong": [
+          "Em định khai triển $(x_1 - 2024 x_2)x_2 = x_1 x_2 - 2024 x_2^2$ — đúng không?",
+          "Em định gộp $-2024 + 2025 = 1$ → còn $x_2^2$ — đúng chứ?",
+          "Em định dùng Viète để tính — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x_1^2 + x_2^2 = 122$ — đúng không?",
+          "Em ra $A = (x_1^2 + x_2^2) + x_1 x_2$ — đúng chưa?",
+          "Em ra $A = 111$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không gộp được hai số hạng $x_2^2$.",
+          "Em nhầm dấu Viète $x_1 x_2 = 11$ thay vì $-11$.",
+          "Em tính sai $(-10)^2 = -100$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ đoạn thẳng kết quả gieo xúc xắc",
+      "de_bai": "Bạn Long thực hiện gieo một con xúc xắc cân đối và đồng chất nhiều lần, các kết quả sau khi kết thúc việc gieo con xúc xắc được bạn Long thể hiện trong biểu đồ đoạn thẳng sau:\n\n| Mặt | 1 chấm | 2 chấm | 3 chấm | 4 chấm | 5 chấm | 6 chấm |\n|---|---|---|---|---|---|---|\n| Số lần | 3 | 5 | 3 | 8 | 5 | 6 |\n\na) Tìm tổng số lần gieo xúc xắc của bạn Long.\n\nb) Tính xác suất thực nghiệm của biến cố $A$: \"Số chấm xuất hiện trên mặt xúc xắc là số $4$\".\n\nc) Tính xác suất thực nghiệm của biến cố $B$: \"Số chấm xuất hiện trên mặt xúc xắc là một số không nhỏ hơn $3$\".",
+      "phuong_phap_duoc_dung": [
+        "Tổng số lần = tổng các giá trị",
+        "Biến cố A: chỉ mặt 4 chấm → 8 lần",
+        "Biến cố B: 'không nhỏ hơn 3' → mặt 3, 4, 5, 6 chấm",
+        "Xác suất = số lần thuận lợi / tổng số lần"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ đoạn thẳng",
+        "Xác suất thực nghiệm"
+      ],
+      "dap_so": "a) 30 lần. b) $P(A) = \\dfrac{4}{15}$. c) $P(B) = \\dfrac{11}{15}$.",
+      "goi_y_cap_1": "Câu a: $n(\\Omega) = 3 + 5 + 3 + 8 + 5 + 6 = 30$.\n\nCâu b: $n(A) = 8$ (mặt 4 chấm) → $P(A) = 8/30 = 4/15$.\n\nCâu c: 'Không nhỏ hơn 3' = các mặt 3, 4, 5, 6. $n(B) = 3 + 8 + 5 + 6 = 22$ → $P(B) = 22/30 = 11/15$.",
+      "goi_y_cap_2": "Câu a:\n- $n(\\Omega) = 3 + 5 + 3 + 8 + 5 + 6 = 30$ lần\n\nCâu b:\n- Biến cố $A$: mặt 4 chấm → $n(A) = 8$\n- $P(A) = \\dfrac{8}{30} = \\dfrac{4}{15}$\n\nCâu c:\n- Biến cố $B$: 'không nhỏ hơn 3' (≥ 3) gồm các mặt 3, 4, 5, 6 chấm\n- $n(B) = 3 + 8 + 5 + 6 = 22$\n- $P(B) = \\dfrac{22}{30} = \\dfrac{11}{15}$",
+      "loi_giai_day_du": "**Câu a) Tổng số lần gieo:**\n\nDựa vào biểu đồ, tổng số lần gieo xúc xắc là:\n$$n(\\Omega) = 3 + 5 + 3 + 8 + 5 + 6 = \\boxed{30} \\text{ (lần)}$$\n\n**Câu b) Tính P(A):**\n\nSố lần xuất hiện mặt $4$ chấm là $8$ lần, suy ra $n(A) = 8$.\n\nXác suất thực nghiệm của biến cố $A$ là:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{8}{30} = \\boxed{\\dfrac{4}{15}}$$\n\n**Câu c) Tính P(B):**\n\nCác mặt có số chấm không nhỏ hơn $3$ là: mặt $3$ chấm, $4$ chấm, $5$ chấm và $6$ chấm.\n\nSố lần xuất hiện các mặt có số chấm không nhỏ hơn $3$ là:\n$$n(B) = 3 + 8 + 5 + 6 = 22 \\text{ (lần)}$$\n\nXác suất thực nghiệm của biến cố $B$ là:\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{22}{30} = \\boxed{\\dfrac{11}{15}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ đoạn thẳng số lần xuất hiện mặt xúc xắc (1 chấm:3, 2 chấm:5, 3 chấm:3, 4 chấm:8, 5 chấm:5, 6 chấm:6).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'không nhỏ hơn 3' bao gồm những mặt nào.",
+          "Em không biết bắt đầu từ đâu.",
+          "Em quên rút gọn phân số."
+        ],
+        "dinh_huong": [
+          "Em định 'không nhỏ hơn 3' = mặt 3, 4, 5, 6 — đúng không?",
+          "Em định $P(A) = 8/30 = 4/15$ — đúng chứ?",
+          "Em định $P(B) = 22/30 = 11/15$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 30 — đúng không?",
+          "Em ra $P(A) = 4/15$ — đúng chưa?",
+          "Em ra $P(B) = 11/15$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em hiểu 'không nhỏ hơn 3' chỉ là mặt 4, 5, 6 (quên mặt 3).",
+          "Em quên rút gọn phân số.",
+          "Em cộng nhầm số lần."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-26/bai3-bieudothang.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.5,
+      "chu_de": "Bài toán thực tế - Mảnh đất HCN với phần nhà và sân vườn",
+      "de_bai": "Bác Vân có một mảnh đất hình chữ nhật với chiều dài $15$ m và chiều rộng $12$ m. Bác dự định xây nhà trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn như hình vẽ. Phần làm nhà có chiều rộng cách mép trên đất $x + 1$ m và chiều dài cách mép phải $x$ m.\n\na) Hãy viết biểu thức thu gọn tính diện tích sân vườn theo $x$.\n\nb) Biết diện tích làm nhà là $117$ m². Tìm giá trị của $x$.",
+      "phuong_phap_duoc_dung": [
+        "Diện tích đất = 15 × 12 = 180 m²",
+        "Chiều dài nhà = $15 - x$, chiều rộng nhà = $12 - (x+1) = 11 - x$",
+        "Diện tích nhà = $(15-x)(11-x)$",
+        "Diện tích sân vườn = 180 - diện tích nhà",
+        "Đặt phương trình tìm x"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai",
+        "Đặt điều kiện ràng buộc"
+      ],
+      "dap_so": "a) $S = -x^2 + 26x + 15$ (m²). b) $x = 2$ m.",
+      "goi_y_cap_1": "Câu a: S đất = 180. Chiều dài nhà = $15 - x$, chiều rộng nhà = $11 - x$. S nhà = $(15-x)(11-x) = 165 - 26x + x^2$. S sân vườn = $180 - S_{nhà} = -x^2 + 26x + 15$.\n\nCâu b: Điều kiện $0 < x < 11$. $(15-x)(11-x) = 117 \\Rightarrow x^2 - 26x + 48 = 0 \\Rightarrow x = 24$ (loại) hoặc $x = 2$ (nhận).",
+      "goi_y_cap_2": "Câu a:\n- Diện tích mảnh đất hình chữ nhật: $15 \\cdot 12 = 180$ (m²)\n- Chiều dài phần đất làm nhà: $15 - x$ (m)\n- Chiều rộng phần đất làm nhà: $12 - (x+1) = 11 - x$ (m)\n- Diện tích phần đất làm nhà: $(15-x)(11-x)$ (m²)\n- Diện tích sân vườn = hiệu giữa diện tích đất và diện tích nhà:\n- $S = 180 - (15-x)(11-x) = 180 - (165 - 15x - 11x + x^2) = 180 - (165 - 26x + x^2)$\n- $S = -x^2 + 26x + 15$ (m²)\n\nCâu b:\n- Điều kiện: $\\begin{cases} 15 - x > 0 \\\\ 11 - x > 0 \\end{cases} \\Rightarrow x < 11$. Kết hợp $x > 0$, ta có $0 < x < 11$\n- $(15-x)(11-x) = 117$\n- $x^2 - 26x + 165 = 117$\n- $x^2 - 26x + 48 = 0$\n- $x = 24$ (loại vì không thỏa điều kiện) hoặc $x = 2$ (nhận)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích sân vườn:**\n\nDiện tích mảnh đất hình chữ nhật là $15 \\cdot 12 = 180$ (m²).\n\nChiều dài của phần đất làm nhà là $15 - x$ (m).\n\nChiều rộng của phần đất làm nhà là $12 - (x+1) = 11 - x$ (m).\n\nDiện tích phần đất làm nhà là $(15-x)(11-x)$ (m²).\n\nDiện tích sân vườn là hiệu giữa diện tích mảnh đất và diện tích làm nhà:\n$$S = 180 - (15-x)(11-x)$$\n$$S = 180 - (165 - 15x - 11x + x^2)$$\n$$S = 180 - (165 - 26x + x^2)$$\n$$S = \\boxed{-x^2 + 26x + 15 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tìm x:**\n\nĐiều kiện: $\\begin{cases} 15 - x > 0 \\\\ 11 - x > 0 \\end{cases} \\Rightarrow x < 11$. Kết hợp $x > 0$, ta có $0 < x < 11$.\n\nTheo đề bài diện tích làm nhà là $117$ m² nên ta có phương trình:\n$$(15-x)(11-x) = 117$$\n$$x^2 - 26x + 165 = 117$$\n$$x^2 - 26x + 48 = 0$$\n$$x = 24 \\text{ hoặc } x = 2$$\n\nVới $x = 24$ (loại vì không thỏa mãn điều kiện).\n\nVới $x = 2$ (nhận).\n\nVậy giá trị cần tìm là $\\boxed{x = 2 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh đất HCN 15m × 12m, có 'Nhà' nằm ở góc dưới-trái và 'Sân vườn' nằm ở góc trên-phải hình chữ L. Phần nhà cách mép trên x+1 m, cách mép phải x m.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu cách phần nhà và sân vườn xếp nhau.",
+          "Em không biết tính chiều rộng nhà.",
+          "Em không đặt được điều kiện cho x."
+        ],
+        "dinh_huong": [
+          "Em định chiều dài nhà = $15 - x$ — đúng không?",
+          "Em định chiều rộng nhà = $11 - x$ — đúng chứ?",
+          "Em định lập phương trình $(15-x)(11-x) = 117$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = -x^2 + 26x + 15$ — đúng không?",
+          "Em ra phương trình $x^2 - 26x + 48 = 0$ — đúng chưa?",
+          "Em ra $x = 2$ (loại $x = 24$) — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên trừ thêm 1 (chiều rộng = $12 - (x+1)$, không phải $12 - x$).",
+          "Em chọn nhầm $x = 24$ vì không kiểm tra điều kiện.",
+          "Em không nhận ra cần đặt điều kiện $x < 11$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-26/bai4-manhdat.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học thực tế - Ao nửa hình cầu, xe tải chở đất",
+      "de_bai": "Để phòng tránh trẻ em bị đuối nước, người ta quyết định dùng đất để lấp một cái ao dạng nửa hình cầu, mặt ao hình tròn có đường kính $10$ m.\n\na) Tính thể tích nước trong ao theo m³. Giả sử mực nước trong ao bằng với mặt đất xung quanh và các sinh vật, vật thể khác trong ao có thể tích không đáng kể. (Cho biết công thức tính thể tích hình cầu là $V = \\dfrac{4}{3}\\pi R^3$, trong đó $R$ là bán kính hình cầu. Kết quả làm tròn đến hàng phần mười).\n\nb) Người ta thuê những xe tải có thùng xe dạng hình hộp chữ nhật, lòng trong thùng dài $9{,}9$ m, rộng $2{,}37$ m và cao $0{,}85$ m. Nhưng con đường từ nơi cung cấp đất đến ao bị giới hạn trọng tải của phương tiện tham gia giao thông nên xe chỉ chở được $85\\%$ thể tích của lòng trong thùng xe. Hỏi cần thuê ít nhất bao nhiêu xe để lấp đầy cái ao? (Đất chở trên xe gần được nén chặt và gần như không có khoảng trống trong khối đất).",
+      "phuong_phap_duoc_dung": [
+        "$R = 10/2 = 5$ m",
+        "Thể tích nửa hình cầu = $\\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi R^3$",
+        "Thể tích thực mỗi xe chở = thể tích thùng × 85%",
+        "Số xe = thể tích ao / thể tích mỗi xe (làm tròn lên)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích nửa hình cầu",
+        "Thể tích hình hộp chữ nhật",
+        "Tỉ lệ phần trăm",
+        "Làm tròn lên"
+      ],
+      "dap_so": "a) $V \\approx 261{,}8$ m³. b) Cần thuê ít nhất 16 xe.",
+      "goi_y_cap_1": "Câu a: $R = 5$ m. $V = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi \\cdot 5^3 = \\dfrac{250\\pi}{3} \\approx 261{,}8$ m³.\n\nCâu b: Thể tích thùng = $9{,}9 \\cdot 2{,}37 \\cdot 0{,}85 \\approx 19{,}94$ m³. Thực tế chở = $19{,}94 \\cdot 85\\% \\approx 16{,}95$ m³. Số xe = $261{,}8 : 16{,}95 \\approx 15{,}44$ → cần ít nhất 16 xe.",
+      "goi_y_cap_2": "Câu a:\n- Bán kính mặt ao: $R = 10 : 2 = 5$ m\n- Thể tích nửa hình cầu: $V = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 125 = \\dfrac{250\\pi}{3}$ m³\n- $V \\approx 261{,}8$ m³\n\nCâu b:\n- Thể tích lòng thùng xe: $V_{thùng} = 9{,}9 \\cdot 2{,}37 \\cdot 0{,}85 = 19{,}94355$ m³\n- Thể tích đất thực tế mỗi xe chở: $V_{xe} = 19{,}94355 \\cdot 85\\% \\approx 16{,}9520175$ m³\n- Số xe cần thuê: $n = \\dfrac{261{,}8}{16{,}9520175} \\approx 15{,}44$\n- Vì số lượng xe phải là số nguyên nên cần ít nhất $16$ xe",
+      "loi_giai_day_du": "**Câu a) Thể tích nước trong ao:**\n\nBán kính mặt ao là $R = 10 : 2 = 5$ (m).\n\nVì ao dạng nửa hình cầu nên thể tích của ao là:\n$$V = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3 = \\dfrac{2}{3}\\pi \\cdot 5^3 = \\dfrac{250}{3}\\pi \\text{ (m}^3\\text{)}$$\n\nLàm tròn kết quả đến chữ số thập phân thứ nhất:\n$$V \\approx \\boxed{261{,}8 \\text{ m}^3}$$\n\n**Câu b) Số xe cần thuê:**\n\nThể tích lòng thùng xe tải là:\n$$V_{thùng} = 9{,}9 \\cdot 2{,}37 \\cdot 0{,}85 = 19{,}94355 \\text{ (m}^3\\text{)}$$\n\nThể tích đất thực tế mỗi xe tải chở được là:\n$$V_{xe} = 19{,}94355 \\cdot 85\\% = 16{,}9520175 \\text{ (m}^3\\text{)}$$\n\nSố xe tải cần thuê để lấp đầy ao (sử dụng kết quả làm tròn ở câu a) là:\n$$n = \\dfrac{261{,}8}{16{,}9520175} \\approx 15{,}44$$\n\nVì số lượng xe phải là số nguyên nên cần ít nhất $\\boxed{16}$ xe.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Sơ đồ: Mương nước hình bán nguyệt rộng 10m bên trái và xe tải chở đất bên phải.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức nửa hình cầu.",
+          "Em không biết 85% nghĩa là gì khi tính xe.",
+          "Em không biết khi nào làm tròn lên."
+        ],
+        "dinh_huong": [
+          "Em định $V_{ao} = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi R^3$ — đúng không?",
+          "Em định $V_{xe}$ thực = $V_{thùng} \\cdot 85\\%$ — đúng chứ?",
+          "Em định $n = V_{ao} / V_{xe}$ làm tròn lên — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_{ao} \\approx 261{,}8$ m³ — đúng không?",
+          "Em ra $V_{xe} \\approx 16{,}95$ m³ — đúng chưa?",
+          "Em ra cần ít nhất 16 xe — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em dùng công thức cả hình cầu thay vì nửa.",
+          "Em làm tròn 15,44 thành 15 (phải lên 16).",
+          "Em nhân 85% sai chỗ (đáng lẽ × 0,85)."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-26/bai5-aoxetai.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Tối đa hóa thu nhập (cực trị hàm số bậc hai)",
+      "de_bai": "Một công ty quản lý bất động sản đang cho thuê $21$ căn hộ trong khu chung cư dân cư văn minh với giá $10$ triệu đồng/tháng. Tuy nhiên theo tình hình về biến động của thị trường thì họ dự định sẽ thay đổi tăng giá căn hộ cho thuê. Và theo thống kê thu thập được trong việc khảo sát về việc tăng mức giá thuê của các khu vực xung quanh, họ nhận thấy cứ trung bình mỗi lần tăng giá thêm $2$ triệu đồng thì các công ty quản lý bất động sản đó sẽ lại giảm đi $1$ căn hộ cho thuê. Hỏi mức giá thuê tối ưu hàng tháng của một căn hộ là bao nhiêu để tối đa hoá tổng thu nhập của khu chung cư đó khi công ty bất động sản này thực hiện hình thức tăng giá đã nêu?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ là số lần tăng giá ($x \\in \\mathbb{N}^*, x < 21$)",
+        "Giá mới: $10 + 2x$ triệu/tháng",
+        "Số căn còn cho thuê: $21 - x$",
+        "Tổng thu nhập $T = (10 + 2x)(21 - x) = -2(x-8)^2 + 338$",
+        "$T_{max} = 338$ khi $x = 8$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Cực trị hàm số bậc hai (đỉnh parabol)",
+        "Phép biến đổi tổng thành bình phương"
+      ],
+      "dap_so": "Mức giá thuê tối ưu là $26$ triệu đồng/tháng.",
+      "goi_y_cap_1": "Gọi $x$ = số lần tăng giá. Giá mới: $10 + 2x$. Số căn: $21 - x$. $T = (10 + 2x)(21 - x) = -2x^2 + 32x + 210 = -2(x-8)^2 + 338 \\le 338$. $T_{max} = 338$ khi $x = 8$. Giá tối ưu: $10 + 2 \\cdot 8 = 26$ triệu.",
+      "goi_y_cap_2": "- Gọi $x$ là số lần tăng giá thêm 2 triệu đồng ($x \\in \\mathbb{N}^*, x < 21$)\n- Mức giá thuê một căn hộ sau khi tăng: $10 + 2x$ (triệu đồng)\n- Số căn hộ cho thuê được sau khi tăng giá: $21 - x$ (căn)\n- Tổng thu nhập hàng tháng:\n- $T = (10 + 2x)(21 - x)$\n- $T = 210 - 10x + 42x - 2x^2$\n- $T = -2x^2 + 32x + 210$\n- $T = -2(x^2 - 16x) + 210$\n- $T = -2(x^2 - 16x + 64 - 64) + 210$\n- $T = -2(x - 8)^2 + 128 + 210$\n- $T = -2(x - 8)^2 + 338$\n- Vì $-2(x - 8)^2 \\le 0$ nên $T \\le 338$\n- Dấu '$=$' xảy ra khi $x = 8$ (nhận)\n- Giá thuê tối ưu: $10 + 2 \\cdot 8 = 26$ triệu đồng",
+      "loi_giai_day_du": "Gọi $x$ là số lần tăng giá thêm $2$ triệu đồng ($x \\in \\mathbb{N}^*, x < 21$).\n\nMức giá thuê một căn hộ sau khi tăng là $10 + 2x$ (triệu đồng).\n\nSố căn hộ cho thuê được sau khi thực hiện tăng giá là $21 - x$ (căn).\n\nTổng thu nhập hàng tháng của khu chung cư là:\n$$T = (10 + 2x)(21 - x)$$\n$$T = 210 - 10x + 42x - 2x^2$$\n$$T = -2x^2 + 32x + 210$$\n$$T = -2(x^2 - 16x) + 210$$\n$$T = -2(x^2 - 16x + 64 - 64) + 210$$\n$$T = -2(x - 8)^2 + 128 + 210$$\n$$T = -2(x - 8)^2 + 338$$\n\nVì $-2(x - 8)^2 \\le 0$ với mọi $x$, nên $T \\le 338$.\n\nDấu \"$=$\" xảy ra khi $x - 8 = 0$ hay $x = 8$ (nhận).\n\nVậy mức giá thuê tối ưu hàng tháng của một căn hộ để tối đa hóa thu nhập là:\n$$10 + 2 \\cdot 8 = \\boxed{26 \\text{ triệu đồng}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu lập biểu thức tổng thu nhập.",
+          "Em không biết biến đổi $-2x^2 + 32x + 210$ thành dạng bình phương.",
+          "Em không hiểu khi nào hàm số đạt giá trị lớn nhất."
+        ],
+        "dinh_huong": [
+          "Em định $T = (10 + 2x)(21 - x)$ — đúng không?",
+          "Em định biến đổi thành $-2(x - 8)^2 + 338$ — đúng chứ?",
+          "Em định $T_{max}$ khi $x = 8$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $T = -2x^2 + 32x + 210$ — đúng không?",
+          "Em ra $T = -2(x-8)^2 + 338$ — đúng chưa?",
+          "Em ra giá tối ưu = 26 triệu — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết hệ số $-2$ làm hàm số nghịch biến (max ở đỉnh).",
+          "Em quên cộng $10$ vào $2 \\cdot 8$ để ra giá thuê.",
+          "Em chỉ trả lời $x = 8$ chứ không tính giá."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nội tiếp đường tròn, đường cao, trực tâm",
+      "de_bai": "Cho tam giác $ABC$ có ba góc nhọn ($AB < AC$) nội tiếp đường tròn $(O; R)$. Kẻ đường cao $BE$ và $CF$ cắt nhau tại $H$. Gọi $M, I$ lần lượt là trung điểm của $BC$ và $AH$.\n\na) Chứng minh các tứ giác $BCEF$, $AEHF$ nội tiếp và $AF \\cdot AB = AE \\cdot AC$.\n\nb) Gọi $N$ là giao điểm của $AH$ và $EF$, $K$ là giao điểm của đường thẳng $BC$ và đường thẳng $EF$. Chứng minh $MN$ vuông góc với $KI$.\n\nc) Cho $\\widehat{BAC} = 60°$. Tính độ dài $BC$ và diện tích hình quạt $OBC$ của $(O)$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "Câu a: △BFC, △BEC vuông cùng cạnh huyền BC → BCEF nội tiếp đường tròn đường kính BC. △AFH, △AEH vuông cùng cạnh huyền AH → AEHF nội tiếp. △ABE ~ △ACF (g-g)",
+        "Câu b: M là tâm (BCEF) → MF = ME → M thuộc trung trực EF. I là tâm (AEHF) → IF = IE → I thuộc trung trực EF. → MI ⊥ EF tại N. Trong △KMI: MN ⊥ KI (vì MN ⊥ EF ⊃ KI và IN ⊥ KM)",
+        "Câu c: Góc nội tiếp 60° → góc ở tâm 120°. △OBC cân, kẻ OM trung tuyến. BC = 2BM = $R\\sqrt{3}$. Diện tích quạt = $\\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp",
+        "Trực tâm tam giác",
+        "Tam giác đồng dạng",
+        "Đường trung trực",
+        "Trực tâm trong △KMI",
+        "Góc ở tâm và góc nội tiếp",
+        "Diện tích hình quạt"
+      ],
+      "dap_so": "c) $BC = R\\sqrt{3}$, diện tích quạt $= \\dfrac{\\pi R^2}{3}$.",
+      "goi_y_cap_1": "Câu a: △BFC vuông tại F → nội tiếp đường tròn đường kính BC. △BEC vuông tại E → nội tiếp đường tròn đường kính BC. → 4 điểm B, F, E, C đồng viên đường tròn đường kính BC. △AFH, △AEH cùng vuông cạnh huyền AH → AEHF nội tiếp đường kính AH. △ABE ~ △ACF (g-g, chung góc A, $\\widehat{AEB} = \\widehat{AFC} = 90°$) → $AB/AC = AE/AF \\Rightarrow AF \\cdot AB = AE \\cdot AC$.\n\nCâu b: M trung điểm BC = tâm đường tròn ngoại tiếp BCEF → MF = ME → M trên trung trực EF. I trung điểm AH = tâm đường tròn ngoại tiếp AEHF → IF = IE → I trên trung trực EF. → MI là trung trực EF → MI ⊥ EF tại N. Trong △KMI: MN ⊥ EF tại N (N ∈ EF, EF ⊃ KI). IN ⊥ KM (do AH ⊥ BC, I,N ∈ AH, K,M ∈ BC). → N là trực tâm △KMI → MN ⊥ KI.\n\nCâu c: Góc ở tâm $\\widehat{BOC} = 2\\widehat{BAC} = 120°$. OB = OC = R → △OBC cân tại O. M là trung điểm BC → OM là đường cao và phân giác → $\\widehat{BOM} = 60°$. Trong △BOM vuông tại M: $BM = R\\sin 60° = R\\sqrt{3}/2$. $BC = 2BM = R\\sqrt{3}$. Diện tích quạt OBC = $\\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$.",
+      "goi_y_cap_2": "Câu a:\n- $\\triangle BFC$ vuông tại $F$ ($CF \\perp AB$) → nội tiếp đường tròn đường kính $BC$ (1)\n- $\\triangle BEC$ vuông tại $E$ ($BE \\perp AC$) → nội tiếp đường tròn đường kính $BC$ (2)\n- (1)(2) → $B, F, E, C$ đồng viên → tứ giác $BCEF$ nội tiếp\n- $\\triangle AFH$ vuông tại $F$ ($H \\in CF, CF \\perp AB$) → nội tiếp đường tròn đường kính $AH$ (3)\n- $\\triangle AEH$ vuông tại $E$ ($H \\in BE, BE \\perp AC$) → nội tiếp đường tròn đường kính $AH$ (4)\n- (3)(4) → $A, F, H, E$ đồng viên → tứ giác $AEHF$ nội tiếp\n- Xét $\\triangle ABE$ và $\\triangle ACF$:\n  - $\\widehat{BAC}$ chung\n  - $\\widehat{AEB} = \\widehat{AFC} = 90°$\n  - → $\\triangle ABE \\sim \\triangle ACF$ (g-g)\n- $\\dfrac{AB}{AC} = \\dfrac{AE}{AF} \\Rightarrow AF \\cdot AB = AE \\cdot AC$\n\nCâu b:\n- $M$ trung điểm $BC$ → $M$ là tâm đường tròn ngoại tiếp tứ giác $BCEF$\n- → $MF = ME$ (bán kính) → $M$ thuộc đường trung trực của $EF$\n- $I$ trung điểm $AH$ → $I$ là tâm đường tròn ngoại tiếp tứ giác $AEHF$\n- → $IF = IE$ (bán kính) → $I$ thuộc đường trung trực của $EF$\n- → $MI$ là đường trung trực của $EF \\Rightarrow MI \\perp EF$ tại $N$\n- Xét $\\triangle KMI$:\n  - $MN \\perp KI$ tại $N$? Cần CM\n  - $MN \\perp EF$ tại $N$ (vì $N \\in EF$ và $MI \\perp EF$)\n  - $IN \\perp KM$ (do $AH \\perp BC$ tại $D$, $I, N \\in AH$ và $K, M \\in BC$)\n- → $N$ là trực tâm $\\triangle KMI$ (giao điểm hai đường cao $MN$ và $IN$)\n- Suy ra đường cao thứ ba kẻ từ $M$ phải vuông góc với cạnh đối diện $KI$\n- Vậy $MN \\perp KI$\n\nCâu c:\n- Góc ở tâm $\\widehat{BOC}$ và góc nội tiếp $\\widehat{BAC}$ cùng chắn cung $BC$\n- $\\widehat{BOC} = 2 \\cdot \\widehat{BAC} = 2 \\cdot 60° = 120°$\n- $OB = OC = R$ → $\\triangle OBC$ cân tại $O$\n- $OM$ trung tuyến (M là trung điểm BC) → $OM$ vừa đường cao vừa phân giác\n- $\\widehat{BOM} = \\dfrac{1}{2}\\widehat{BOC} = 60°$\n- Trong $\\triangle BOM$ vuông tại $M$:\n- $\\sin\\widehat{BOM} = \\dfrac{BM}{OB} \\Rightarrow BM = R \\sin 60° = \\dfrac{R\\sqrt{3}}{2}$\n- $BC = 2BM = R\\sqrt{3}$\n- Diện tích hình quạt $OBC$:\n- $S = \\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh tứ giác BCEF, AEHF nội tiếp và $AF \\cdot AB = AE \\cdot AC$:**\n\n$\\triangle BFC$ vuông tại $F$ (do $CF \\perp AB$) suy ra $\\triangle BFC$ nội tiếp đường tròn đường kính $BC$ (1).\n\n$\\triangle BEC$ vuông tại $E$ (do $BE \\perp AC$) suy ra $\\triangle BEC$ nội tiếp đường tròn đường kính $BC$ (2).\n\nTừ (1) và (2) suy ra $4$ điểm $B, F, E, C$ cùng thuộc một đường tròn đường kính $BC$.\n\nSuy ra tứ giác $BCEF$ nội tiếp.\n\n$\\triangle AFH$ vuông tại $F$ (do $H \\in CF, CF \\perp AB$) suy ra $\\triangle AFH$ nội tiếp đường tròn đường kính $AH$ (3).\n\n$\\triangle AEH$ vuông tại $E$ (do $H \\in BE, BE \\perp AC$) suy ra $\\triangle AEH$ nội tiếp đường tròn đường kính $AH$ (4).\n\nTừ (3) và (4) suy ra $4$ điểm $A, F, H, E$ cùng thuộc một đường tròn đường kính $AH$.\n\nSuy ra tứ giác $AEHF$ nội tiếp.\n\nXét $\\triangle ABE$ và $\\triangle ACF$:\n\n$\\begin{cases} \\widehat{BAC} \\text{ (góc chung)} \\\\ \\widehat{AEB} = \\widehat{AFC} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle ABE \\sim \\triangle ACF$ (g-g)\n\n$\\Rightarrow \\dfrac{AB}{AC} = \\dfrac{AE}{AF} \\Rightarrow \\boxed{AF \\cdot AB = AE \\cdot AC}$\n\n**Câu b) Chứng minh $MN \\perp KI$:**\n\nTa có $M$ là trung điểm $BC$ nên $M$ là tâm đường tròn ngoại tiếp tứ giác $BCEF$.\n\n$\\Rightarrow MF = ME$ (bán kính) $\\Rightarrow M$ thuộc đường trung trực của $EF$.\n\nTa có $I$ là trung điểm $AH$ nên $I$ là tâm đường tròn ngoại tiếp tứ giác $AEHF$.\n\n$\\Rightarrow IF = IE$ (bán kính) $\\Rightarrow I$ thuộc đường trung trực của $EF$.\n\n$\\Rightarrow MI$ là đường trung trực của $EF \\Rightarrow MI \\perp EF$ tại $N$.\n\nXét $\\triangle KMI$ có:\n\n$MN \\perp KI$ tại $N$ (vì $N \\in EF$ và $MI \\perp EF$).\n\n$IN \\perp KM$ (do $AH \\perp BC$ tại $D$, $I, N \\in AH$ và $K, M \\in BC$).\n\n$\\Rightarrow N$ là trực tâm của $\\triangle KMI$ (giao điểm hai đường cao $MN$ và $IN$).\n\nSuy ra đường cao thứ ba kẻ từ $M$ phải vuông góc với cạnh đối diện $KI$.\n\nVậy $\\boxed{MN \\perp KI}$. □\n\n**Câu c) Tính BC và diện tích hình quạt OBC theo R:**\n\nGóc ở tâm $\\widehat{BOC}$ và góc nội tiếp $\\widehat{BAC}$ cùng chắn cung $BC$ trong $(O)$.\n\n$\\Rightarrow \\widehat{BOC} = 2 \\cdot \\widehat{BAC} = 2 \\cdot 60° = 120°$.\n\nTa có $OB = OC = R$ suy ra $\\triangle OBC$ cân tại $O$.\n\nMà $OM$ là đường trung tuyến ($M$ là trung điểm $BC$) nên $OM$ đồng thời là đường cao và đường phân giác của $\\widehat{BOC}$.\n\n$\\Rightarrow \\widehat{BOM} = \\dfrac{1}{2}\\widehat{BOC} = 60°$.\n\nTrong $\\triangle BOM$ vuông tại $M$:\n$$\\sin\\widehat{BOM} = \\dfrac{BM}{OB} \\Rightarrow BM = R \\cdot \\sin 60° = \\dfrac{R\\sqrt{3}}{2}$$\n\n$\\Rightarrow BC = 2 \\cdot BM = \\boxed{R\\sqrt{3}}$.\n\nDiện tích hình quạt $OBC$ của đường tròn $(O; R)$ là:\n$$S = \\dfrac{\\pi R^2 \\cdot 120}{360} = \\boxed{\\dfrac{\\pi R^2}{3}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nội tiếp (O;R), AB < AC. Đường cao BE (E trên AC) và CF (F trên AB) cắt nhau tại H. M trung điểm BC, I trung điểm AH. K là giao điểm BC và EF kéo dài, N là giao điểm AH và EF.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tâm đường tròn ngoại tiếp BCEF ở đâu.",
+          "Em không hiểu vì sao M, I cùng nằm trên trung trực EF.",
+          "Em không biết tính góc ở tâm thế nào."
+        ],
+        "dinh_huong": [
+          "Câu a em định 4 điểm B,F,E,C đồng viên đường kính BC — đúng không?",
+          "Câu b em định MI là trung trực EF rồi N trực tâm △KMI — đúng chứ?",
+          "Câu c em định góc tâm = $2 \\times 60° = 120°$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra △ABE ~ △ACF → $AF \\cdot AB = AE \\cdot AC$ — đúng không?",
+          "Em ra MN ⊥ KI dùng tính chất trực tâm — đúng chưa?",
+          "Em ra $BC = R\\sqrt{3}$, $S = \\dfrac{\\pi R^2}{3}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy M là tâm đường tròn (BCEF) vì M là trung điểm BC = đường kính.",
+          "Em không nhớ công thức diện tích quạt = $\\dfrac{\\pi R^2 \\cdot \\alpha}{360}$.",
+          "Em nhầm $\\widehat{BOC} = \\widehat{BAC}$ thay vì gấp đôi."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-26/bai7-tamgiac.png"
+    }
+  ]
+}

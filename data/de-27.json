@@ -1,0 +1,363 @@
+{
+  "de_so": 27,
+  "cum": 9,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = -\\dfrac{x^2}{4}$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm tọa độ các điểm thuộc $(P)$ có hoành độ và tung độ đối nhau.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "'Hoành độ và tung độ đối nhau' → $y = -x$",
+        "Thay vào (P): $-x = -\\dfrac{x^2}{4}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0",
+        "Đối nhau: $y = -x$"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(0; 0)$ và $(4; -4)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = -4, -1, 0, -1, -4.\n\nCâu b: 'Đối nhau' → $y = -x$. Thay vào: $-x = -\\dfrac{x^2}{4} \\Rightarrow \\dfrac{x^2}{4} - x = 0$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = -4$; $x = -2 \\to y = -1$; $x = 0 \\to y = 0$; $x = 2 \\to y = -1$; $x = 4 \\to y = -4$\n\nCâu b:\n- $y = -x$ (đối nhau)\n- $-x = -\\dfrac{1}{4}x^2 \\Rightarrow \\dfrac{1}{4}x^2 - x = 0$\n- $x_1 = 0$ hoặc $x_2 = 4$\n- $(0; 0)$ và $(4; -4)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{x^2}{4}$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm xuống dưới.\n\n**Câu b) Tìm tọa độ điểm M:**\n\nVì điểm cần tìm có hoành độ và tung độ đối nhau nên $y = -x$.\n\nTa có phương trình $-x = -\\dfrac{1}{4}x^2$\n$$\\dfrac{1}{4}x^2 - x = 0$$\n$$x_1 = 0 \\text{ ; } x_2 = 4$$\n\nVới $x_1 = 0 \\Rightarrow y_1 = 0$.\nVới $x_2 = 4 \\Rightarrow y_2 = -4$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(0; 0)}$ và $\\boxed{(4; -4)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = -x²/4 trên hệ trục Oxy với các điểm đặc trưng x = -4, -2, 0, 2, 4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'hoành độ và tung độ đối nhau'.",
+          "Em không biết bề lõm parabol.",
+          "Em không biết bắt đầu lập bảng giá trị từ x nào."
+        ],
+        "dinh_huong": [
+          "Em định 'đối nhau' = $y = -x$ — đúng không?",
+          "Em định lấy bảng x = -4, -2, 0, 2, 4 — đúng chứ?",
+          "Em định parabol bề lõm xuống vì $a < 0$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $\\dfrac{x^2}{4} - x = 0$ — đúng không?",
+          "Em ra $x = 0$ hoặc $x = 4$ — đúng chưa?",
+          "Em ra $(0; 0)$ và $(4; -4)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'đối nhau' thành 'bằng nhau' (y = x).",
+          "Em quên dấu trừ ở $a = -1/4$.",
+          "Em không loại $x = 0$ vì... thực ra phải nhận cả $(0;0)$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-27/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A",
+      "de_bai": "Cho phương trình: $4x^2 - 5x - 7 = 0$\n\na) Chứng minh phương trình có hai nghiệm phân biệt.\n\nb) Gọi $x_1, x_2$ là hai nghiệm của phương trình. Không giải phương trình, hãy tính giá trị của biểu thức\n$$A = (x_1 + 2x_2)(x_1 - x_2) - 3x_1(x_1 - x_2)$$",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "Phân tích A = $(x_1 - x_2)[(x_1 + 2x_2) - 3x_1] = (x_1 - x_2)(-2x_1 + 2x_2) = -2(x_1-x_2)^2$",
+        "$(x_1 - x_2)^2 = (x_1 + x_2)^2 - 4x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "$(x_1 - x_2)^2 = (x_1+x_2)^2 - 4x_1 x_2$"
+      ],
+      "dap_so": "$A = -\\dfrac{137}{8}$",
+      "goi_y_cap_1": "Câu a: $\\Delta = 25 + 112 = 137 > 0$.\n\nCâu b: Đặt nhân tử chung $(x_1 - x_2)$: $A = (x_1 - x_2)(x_1 + 2x_2 - 3x_1) = (x_1 - x_2)(-2x_1 + 2x_2) = -2(x_1 - x_2)^2$. Viète: $x_1 + x_2 = 5/4$, $x_1 x_2 = -7/4$. $(x_1 - x_2)^2 = 25/16 + 7 = 137/16$. $A = -2 \\cdot 137/16 = -137/8$.",
+      "goi_y_cap_2": "Câu a:\n- $a = 4; b = -5; c = -7$\n- $\\Delta = 25 - 4 \\cdot 4 \\cdot (-7) = 25 + 112 = 137 > 0$\n\nCâu b:\n- Viète: $x_1 + x_2 = \\dfrac{5}{4}$, $x_1 x_2 = -\\dfrac{7}{4}$\n- $A = (x_1 - x_2)(x_1 + 2x_2) - 3x_1(x_1 - x_2)$\n- $A = (x_1 - x_2)[(x_1 + 2x_2) - 3x_1]$\n- $A = (x_1 - x_2)(-2x_1 + 2x_2)$\n- $A = -2(x_1 - x_2)^2$\n- $A = -2[(x_1 + x_2)^2 - 4x_1 x_2] = -2\\left[\\left(\\dfrac{5}{4}\\right)^2 - 4 \\cdot \\left(-\\dfrac{7}{4}\\right)\\right]$\n- $A = -2 \\cdot \\dfrac{137}{16} = -\\dfrac{137}{8}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $4x^2 - 5x - 7 = 0$ với $a = 4; b = -5; c = -7$.\n\n$\\Delta = b^2 - 4ac = (-5)^2 - 4 \\cdot 4 \\cdot (-7) = 25 + 112 = 137 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{5}{4} \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{-7}{4} \\end{cases}$$\n\nTa có:\n$$A = (x_1 + 2x_2)(x_1 - x_2) - 3x_1(x_1 - x_2)$$\n$$A = (x_1 - x_2)[(x_1 + 2x_2) - 3x_1]$$\n$$A = (x_1 - x_2)(-2x_1 + 2x_2)$$\n$$A = -2(x_1 - x_2)(x_1 - x_2)$$\n$$A = -2(x_1 - x_2)^2$$\n$$A = -2\\left[(x_1 + x_2)^2 - 4x_1 x_2\\right]$$\n$$A = -2\\left[\\left(\\dfrac{5}{4}\\right)^2 - 4 \\cdot \\left(-\\dfrac{7}{4}\\right)\\right]$$\n$$A = -2\\left[\\dfrac{25}{16} + 7\\right] = -2 \\cdot \\dfrac{137}{16} = \\boxed{-\\dfrac{137}{8}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy nhân tử chung $(x_1 - x_2)$.",
+          "Em quên Viète với $a = 4$.",
+          "Em không biết $(x_1 - x_2)^2$ tính theo Viète."
+        ],
+        "dinh_huong": [
+          "Em định đặt $(x_1 - x_2)$ làm nhân tử chung — đúng không?",
+          "Em định rút gọn $(x_1 + 2x_2 - 3x_1) = -2(x_1 - x_2)$ — đúng chứ?",
+          "Em định dùng $(x_1-x_2)^2 = (x_1+x_2)^2 - 4x_1 x_2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $A = -2(x_1 - x_2)^2$ — đúng không?",
+          "Em ra $(x_1-x_2)^2 = 137/16$ — đúng chưa?",
+          "Em ra $A = -137/8$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được dạng $(x_1 - x_2)$ chung.",
+          "Em nhầm $(x_1 + 2x_2 - 3x_1) = 2x_2 - 2x_1 = -2(x_1 - x_2)$.",
+          "Em nhầm dấu Viète $x_1 x_2 = c/a = -7/4$ thành $7/4$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép thi đấu thể thao",
+      "de_bai": "Biểu đồ cột kép sau đây biểu diễn số lượng học sinh tham gia giải thi đấu thể thao của trường THCS A.\n\n| Khối | Nam | Nữ |\n|---|---|---|\n| 6 | 7 | 9 |\n| 7 | 9 | 7 |\n| 8 | 9 | 8 |\n| 9 | 9 | 8 |\n\na) Tính tổng số học sinh của trường THCS A tham gia giải thi đấu thể thao.\n\nb) Chọn ngẫu nhiên một học sinh tham gia giải thi đấu thể thao của trường đó. Tính xác suất của mỗi biến cố sau:\n- $A$: \"Học sinh được chọn là nam\".\n- $B$: \"Học sinh được chọn là nữ và không thuộc khối 9\".",
+      "phuong_phap_duoc_dung": [
+        "Tổng = 7+9 + 9+7 + 9+8 + 9+8 = 66",
+        "Số nam = 7+9+9+9 = 34 → P(A) = 34/66 = 17/33",
+        "Số nữ không K9 = 9+7+8 = 24 → P(B) = 24/66 = 4/11"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) 66 học sinh. b) $P(A) = \\dfrac{17}{33}$, $P(B) = \\dfrac{4}{11}$.",
+      "goi_y_cap_1": "Câu a: Tổng = $(7+9)+(9+7)+(9+8)+(9+8) = 66$.\n\nCâu b:\n- A: Tổng nam = 7+9+9+9 = 34 → $P(A) = 34/66 = 17/33$.\n- B: Nữ K6, K7, K8 = 9+7+8 = 24 → $P(B) = 24/66 = 4/11$.",
+      "goi_y_cap_2": "Câu a:\n- $n(\\Omega) = 7+9+9+7+9+8+9+8 = 66$ học sinh\n\nCâu b - A:\n- Số HS nam: $n(A) = 7+9+9+9 = 34$\n- $P(A) = \\dfrac{34}{66} = \\dfrac{17}{33}$\n\nCâu b - B:\n- Số HS nữ không K9 (gồm nữ K6, K7, K8): $n(B) = 9+7+8 = 24$\n- $P(B) = \\dfrac{24}{66} = \\dfrac{4}{11}$",
+      "loi_giai_day_du": "**Câu a) Tổng số học sinh:**\n\nTổng số học sinh của trường THCS A tham gia giải thi đấu thể thao là:\n$$7 + 9 + 9 + 7 + 9 + 8 + 9 + 8 = \\boxed{66} \\text{ (học sinh)}$$\n\n**Câu b) Tính xác suất:**\n\nSố phần tử của không gian mẫu là $n(\\Omega) = 66$.\n\n***Biến cố A:* \"Học sinh được chọn là nam\"**\n\nSố khả năng thuận lợi của biến cố $A$ là số học sinh nam tham gia thi đấu:\n$$n(A) = 7 + 9 + 9 + 9 = 34$$\n\nXác suất của biến cố $A$:\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{34}{66} = \\boxed{\\dfrac{17}{33}}$$\n\n***Biến cố B:* \"Học sinh được chọn là nữ và không thuộc khối 9\"**\n\nSố khả năng thuận lợi của biến cố $B$ là số học sinh nữ không thuộc khối 9 (gồm nữ khối 6, 7, 8):\n$$n(B) = 9 + 7 + 8 = 24$$\n\nXác suất của biến cố $B$:\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\dfrac{24}{66} = \\boxed{\\dfrac{4}{11}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép Nam và Nữ theo 4 khối 6, 7, 8, 9 (Nam: 7, 9, 9, 9; Nữ: 9, 7, 8, 8).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc biểu đồ cột kép.",
+          "Em nhầm Nam và Nữ.",
+          "Em không hiểu 'không thuộc khối 9'."
+        ],
+        "dinh_huong": [
+          "Em định cộng tất cả 8 cột = 66 — đúng không?",
+          "Em định Nam = 4 cột Nam = 34 — đúng chứ?",
+          "Em định Nữ không K9 = nữ K6+K7+K8 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng = 66 — đúng không?",
+          "Em ra $P(A) = 17/33$ — đúng chưa?",
+          "Em ra $P(B) = 4/11$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên rút gọn $34/66 = 17/33$.",
+          "Em tính 'không thuộc K9' bao gồm nam (sai - chỉ nữ).",
+          "Em đếm sai số nam khối 6 hoặc khối 7."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-27/bai3-bieudocotkep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Mảnh vườn HCN + hình thang",
+      "de_bai": "Mảnh vườn nhà ông Lâm gồm phần đất hình chữ nhật $ABCD$ và phần đất hình thang $CDEF$ có các kích thước được cho ở hình vẽ bên dưới ($DA = 50$ m, $AB = x$ m, $EF = 10$ m, $FC = x$ m, $\\widehat{DCF} = 90°$).\n\na) Tính diện tích mảnh vườn nhà ông Lâm theo $x$.\n\nb) Sau một vụ canh tác, ông Lâm thu được lợi nhuận $75$ triệu đồng. Tìm giá trị của $x$, biết rằng trong vụ đó, mỗi mét vuông đất thu được lợi nhuận $25\\,000$ đồng.",
+      "phuong_phap_duoc_dung": [
+        "S HCN ABCD = $50 \\cdot x = 50x$ m²",
+        "S hình thang CDEF (vuông tại C): hai đáy DC = x và EF = 10, chiều cao FC = x → $S = \\dfrac{(10 + x) \\cdot x}{2}$",
+        "Tổng S = $50x + \\dfrac{(10+x)x}{2} = \\dfrac{x^2}{2} + 55x$",
+        "Tổng S thực tế = $75 \\cdot 10^6 / 25\\,000 = 3000$ m²",
+        "$\\dfrac{x^2}{2} + 55x = 3000$ → $x^2 + 110x - 6000 = 0$ → $x = 40$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình thang",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = \\dfrac{x^2}{2} + 55x$ (m²). b) $x = 40$ m.",
+      "goi_y_cap_1": "Câu a: S HCN = 50x. S hình thang = $(10+x)x/2$. Tổng = $50x + 5x + x^2/2 = x^2/2 + 55x$.\n\nCâu b: 75 triệu / 25.000 = 3000 m². $x^2/2 + 55x = 3000 \\Rightarrow x^2 + 110x - 6000 = 0 \\Rightarrow x = 40$.",
+      "goi_y_cap_2": "Câu a:\n- $S_{ABCD} = AB \\cdot DA = x \\cdot 50 = 50x$ (m²)\n- Hình thang vuông CDEF (vuông tại C): 2 đáy DC = AB = x và EF = 10, chiều cao FC = x\n- $S_{CDEF} = \\dfrac{(DC + EF) \\cdot FC}{2} = \\dfrac{(x + 10) \\cdot x}{2}$ (m²)\n- $S = 50x + \\dfrac{(x+10)x}{2} = 50x + \\dfrac{x^2 + 10x}{2} = \\dfrac{x^2}{2} + 55x$ (m²)\n\nCâu b:\n- Đổi 75 triệu = 75 000 000 đồng\n- Tổng diện tích thực tế: $75\\,000\\,000 : 25\\,000 = 3000$ m²\n- $\\dfrac{x^2}{2} + 55x = 3000$\n- $x^2 + 110x - 6000 = 0$\n- $x_1 = 40$ (nhận) hoặc $x_2 = -150$ (loại)\n- Vậy $x = 40$",
+      "loi_giai_day_du": "**Câu a) Diện tích mảnh vườn theo $x$:**\n\nDiện tích phần đất hình chữ nhật $ABCD$ là $50x$ (m²).\n\nDiện tích phần đất hình thang $CDEF$ là $\\dfrac{(10 + x)x}{2}$ (m²).\n\nDiện tích mảnh vườn nhà ông Lâm theo $x$ là:\n$$S = 50x + \\dfrac{(10 + x)x}{2} = 50x + 5x + \\dfrac{x^2}{2} = \\boxed{\\dfrac{x^2}{2} + 55x \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tìm giá trị của $x$:**\n\nĐổi: $75$ triệu đồng $= 75\\,000\\,000$ đồng.\n\nTổng diện tích mảnh vườn thực tế là:\n$$75\\,000\\,000 : 25\\,000 = 3000 \\text{ (m}^2\\text{)}$$\n\nTa có phương trình:\n$$\\dfrac{x^2}{2} + 55x = 3000$$\n$$x^2 + 110x - 6000 = 0$$\n$$x_1 = 40 \\text{ (nhận) hoặc } x_2 = -150 \\text{ (loại)}$$\n\nVậy giá trị của $x$ là $\\boxed{40}$ m.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh vườn gồm HCN ABCD (DA = 50m, AB = x) và hình thang vuông CDEF (vuông tại C, EF = 10m, FC = x).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức diện tích hình thang.",
+          "Em không biết đâu là hai đáy của hình thang CDEF.",
+          "Em không biết đổi 75 triệu sang m²."
+        ],
+        "dinh_huong": [
+          "Em định 2 đáy hình thang là DC = x và EF = 10 — đúng không?",
+          "Em định chiều cao hình thang là FC = x — đúng chứ?",
+          "Em định 75tr / 25k = 3000 m² — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = \\dfrac{x^2}{2} + 55x$ — đúng không?",
+          "Em ra phương trình $x^2 + 110x - 6000 = 0$ — đúng chưa?",
+          "Em ra $x = 40$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 2 đáy hình thang là DA = 50 và EF = 10 (sai - DA chiều dài HCN).",
+          "Em nhầm chiều cao hình thang là DC.",
+          "Em quên rút gọn $50x + 5x = 55x$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-27/bai4-manhvuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Muỗng sữa hình trụ",
+      "de_bai": "Hiện nay, trên thị trường xuất hiện nhiều loại sữa kém chất lượng, không rõ nguồn gốc, gây ảnh hưởng nghiêm trọng đến sức khỏe, đặc biệt là trẻ em. Vì vậy, người tiêu dùng cần lựa chọn sản phẩm từ các thương hiệu uy tín, có tem chống hàng giả và thông tin rõ ràng. Bên cạnh đó, việc pha sữa đúng liều lượng theo hướng dẫn của nhà sản xuất cũng rất quan trọng để đảm bảo dinh dưỡng cho người sử dụng. Một hãng sữa trẻ em cung cấp muỗng chuyên dụng có dạng hình trụ để đong sữa, với đường kính đáy lòng muỗng là $3$ cm và chiều cao lòng muỗng là $2$ cm.\n\na) Tính thể tích của một muỗng sữa. (Kết quả làm tròn đến hàng phần trăm)\n\nb) Theo hướng dẫn sử dụng ghi trên nhãn hộp sữa: \"Pha $7$ muỗng sữa với $180$ ml nước chín ấm (khoảng $50°C$). Khuấy đều đến khi hòa tan hoàn toàn. Dùng $2$ ly mỗi ngày. Sử dụng ngay sau khi pha.\" Cô Mai mua một hộp sữa có khối lượng tịnh $1{,}5$ kg, biết rằng $1$ gram bột sữa tương đương khoảng $1{,}754$ ml thể tích. Hỏi với hộp sữa này, cô Mai có thể cho con uống đủ tối đa bao nhiêu ngày, nếu mỗi lần pha đều tuân theo đúng tỷ lệ và liều lượng hướng dẫn? Biết công thức tính thể tích hình trụ là $V = \\pi r^2 h$.",
+      "phuong_phap_duoc_dung": [
+        "$V_{muỗng} = \\pi (1{,}5)^2 \\cdot 2 = 4{,}5\\pi \\approx 14{,}14$ cm³",
+        "Đổi 1,5 kg = 1500 g → V bột sữa = $1500 \\cdot 1{,}754 = 2631$ ml",
+        "1 cm³ = 1 ml → V 1 muỗng = 4,5π ml",
+        "V dùng/ngày = $2 \\cdot 7 \\cdot 4{,}5\\pi = 63\\pi$ ml",
+        "Số ngày = $2631 / (63\\pi) \\approx 13{,}29$ → 13 ngày"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ",
+        "Đổi đơn vị g sang ml"
+      ],
+      "dap_so": "a) $V \\approx 14{,}14$ cm³. b) 13 ngày.",
+      "goi_y_cap_1": "Câu a: $r = 1,5$, $h = 2$. $V = \\pi (1,5)^2 \\cdot 2 = 4,5\\pi \\approx 14,14$ cm³.\n\nCâu b: 1,5 kg = 1500 g. V bột = $1500 \\cdot 1,754 = 2631$ ml. V mỗi muỗng = $4,5\\pi$ ml (vì 1cm³=1ml). Mỗi ngày 2 ly × 7 muỗng = 14 muỗng → V/ngày = $14 \\cdot 4,5\\pi = 63\\pi$ ml. Số ngày = $2631 / 63\\pi \\approx 13,29$ → 13 ngày (lấy tròn xuống).",
+      "goi_y_cap_2": "Câu a:\n- $r = 3/2 = 1,5$ cm\n- $V = \\pi r^2 h = \\pi \\cdot (1,5)^2 \\cdot 2 = 4,5\\pi \\approx 14,14$ cm³\n\nCâu b:\n- Đổi 1,5 kg = 1500 g\n- V bột sữa: $1500 \\cdot 1,754 = 2631$ ml\n- 1 cm³ = 1 ml → V 1 muỗng = $4,5\\pi$ ml\n- Mỗi ngày: 2 ly × 7 muỗng/ly = 14 muỗng → V/ngày = $14 \\cdot 4,5\\pi = 63\\pi$ ml\n- Số ngày = $\\dfrac{2631}{63\\pi} \\approx 13,29$\n- Số ngày tối đa (tròn xuống) = 13 ngày",
+      "loi_giai_day_du": "**Câu a) Thể tích một muỗng sữa:**\n\nBán kính đáy lòng muỗng là $r = \\dfrac{3}{2} = 1{,}5$ (cm).\n\nThể tích của một muỗng sữa là:\n$$V = \\pi \\cdot (1{,}5)^2 \\cdot 2 = 4{,}5\\pi \\approx \\boxed{14{,}14 \\text{ (cm}^3\\text{)}}$$\n\n**Câu b) Số ngày tối đa cô Mai có thể cho con uống:**\n\nĐổi: $1{,}5$ kg $= 1500$ g.\n\nTổng thể tích bột sữa có trong hộp là:\n$$1500 \\cdot 1{,}754 = 2631 \\text{ (ml)}$$\n\nLưu ý: $1$ cm³ $= 1$ ml nên thể tích một muỗng sữa là $4{,}5\\pi$ ml.\n\nThể tích bột sữa cô Mai dùng cho con trong một ngày là:\n$$7 \\cdot 2 \\cdot 4{,}5\\pi = 63\\pi \\text{ (ml)}$$\n\nSố ngày cô Mai có thể cho con uống là:\n$$\\dfrac{2631}{63\\pi} \\approx 13{,}29 \\text{ (ngày)}$$\n\nVậy với hộp sữa này, cô Mai có thể cho con uống đủ tối đa $\\boxed{13}$ ngày.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hộp sữa Premium Nutrition và muỗng đong hình trụ với đường kính 3cm, chiều cao 2cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ công thức V hình trụ.",
+          "Em không biết cách đổi 1,5 kg sang g.",
+          "Em không biết 1 cm³ = 1 ml."
+        ],
+        "dinh_huong": [
+          "Em định $V = \\pi r^2 h$ với $r = 1,5$ — đúng không?",
+          "Em định tổng V bột sữa = $1500 \\cdot 1,754$ — đúng chứ?",
+          "Em định mỗi ngày dùng $14$ muỗng = $63\\pi$ ml — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V \\approx 14,14$ cm³ — đúng không?",
+          "Em ra V bột = 2631 ml — đúng chưa?",
+          "Em ra 13 ngày — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $r = 3$ thay vì 1,5.",
+          "Em quên 1 cm³ = 1 ml nên không quy đổi được.",
+          "Em làm tròn lên 14 ngày thay vì xuống 13 ngày."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-27/bai5-muongsua.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Quạt mini bán đợt 1 và đợt 2",
+      "de_bai": "Vào những ngày hè oi bức, quạt mini trở thành lựa chọn lý tưởng của nhiều người bởi thiết kế nhỏ gọn, tiết kiệm điện và tiện lợi khi mang theo trong các chuyến đi chơi, du lịch. Nắm bắt xu hướng đó, một cửa hàng điện máy đã nhập về một số quạt mini cùng loại và niêm yết giá bán $150$ nghìn đồng mỗi chiếc. Sau khi bán được một nửa số quạt, cửa hàng thu được $6$ triệu đồng tiền lãi, nên quyết định giảm giá $10\\%$ mỗi chiếc cho số quạt còn lại nhằm thu hút thêm khách hàng. Nhờ chiến lược này, toàn bộ số quạt còn lại được bán hết và thu thêm $4{,}5$ triệu đồng tiền lãi. Hỏi ban đầu cửa hàng đã nhập bao nhiêu chiếc quạt mini?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ là số quạt nhập ban đầu (chia hết cho 2)",
+        "Đợt 1: bán $x/2$ quạt giá 150k → lãi 6tr → giá nhập 1 quạt = $150 - \\dfrac{12000}{x}$",
+        "Đợt 2: bán $x/2$ giảm 10% = 135k → lãi 4,5tr → giá nhập = $135 - \\dfrac{9000}{x}$",
+        "Giá nhập 2 đợt như nhau → phương trình → $x = 200$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Phương trình bậc nhất một ẩn",
+        "Tỉ lệ phần trăm"
+      ],
+      "dap_so": "Cửa hàng đã nhập 200 chiếc quạt mini.",
+      "goi_y_cap_1": "Gọi $x$ là số quạt nhập ban đầu. Đợt 1 bán $x/2$ chiếc giá 150k, lãi 6.000k → tiền lãi 1 chiếc = $12000/x$ → giá nhập 1 chiếc = $150 - 12000/x$. Đợt 2 bán $x/2$ chiếc giá $135k$ (giảm 10%), lãi 4.500k → giá nhập = $135 - 9000/x$. Vì giá nhập như nhau: $150 - 12000/x = 135 - 9000/x$ → $15 = 3000/x$ → $x = 200$.",
+      "goi_y_cap_2": "- Gọi $x$ (chiếc) là số quạt cửa hàng nhập ban đầu ($x \\in \\mathbb{N}^*$, $x$ chia hết 2)\n- Đổi 6 triệu = 6000 nghìn, 4,5 triệu = 4500 nghìn\n- Đợt 1: bán $x/2$ chiếc giá 150 nghìn, lãi 6000 nghìn\n- Tiền lãi 1 chiếc đợt 1: $6000 : (x/2) = \\dfrac{12000}{x}$ (nghìn)\n- Giá nhập 1 chiếc theo đợt 1: $150 - \\dfrac{12000}{x}$ (nghìn)\n- Đợt 2: giá bán giảm 10% = $150 \\cdot 90\\% = 135$ (nghìn), bán $x/2$ chiếc, lãi 4500 nghìn\n- Tiền lãi 1 chiếc đợt 2: $4500 : (x/2) = \\dfrac{9000}{x}$ (nghìn)\n- Giá nhập 1 chiếc theo đợt 2: $135 - \\dfrac{9000}{x}$ (nghìn)\n- Vì giá nhập 1 chiếc là như nhau:\n- $150 - \\dfrac{12000}{x} = 135 - \\dfrac{9000}{x}$\n- $150x - 12000 = 135x - 9000$\n- $15x = 3000 \\Rightarrow x = 200$",
+      "loi_giai_day_du": "Gọi $x$ (chiếc) là số quạt mini cửa hàng đã nhập ban đầu ($x \\in \\mathbb{N}^*$, $x$ chia hết cho 2).\n\nĐổi: $6$ triệu đồng $= 6000$ nghìn đồng; $4{,}5$ triệu đồng $= 4500$ nghìn đồng.\n\nSố quạt bán ra trong mỗi đợt (một nửa số quạt) là $\\dfrac{x}{2}$ (chiếc).\n\nTiền lãi khi bán một chiếc quạt ở đợt đầu là: $6000 : \\dfrac{x}{2} = \\dfrac{12000}{x}$ (nghìn đồng).\n\nGiá nhập của một chiếc quạt tính theo đợt đầu là: $150 - \\dfrac{12000}{x}$ (nghìn đồng).\n\nGiá bán một chiếc quạt ở đợt sau (giảm $10\\%$) là: $150 \\cdot (1 - 10\\%) = 135$ (nghìn đồng).\n\nTiền lãi khi bán một chiếc quạt ở đợt sau là: $4500 : \\dfrac{x}{2} = \\dfrac{9000}{x}$ (nghìn đồng).\n\nGiá nhập của một chiếc quạt tính theo đợt sau là: $135 - \\dfrac{9000}{x}$ (nghìn đồng).\n\nVì giá nhập của mỗi chiếc quạt là như nhau nên ta có phương trình:\n$$150 - \\dfrac{12\\,000}{x} = 135 - \\dfrac{9\\,000}{x}$$\n$$150x - 12\\,000 = 135x - 9\\,000$$\n$$15x = 3\\,000$$\n$$x = 200 \\text{ (nhận)}$$\n\nVậy ban đầu cửa hàng đã nhập $\\boxed{200}$ chiếc quạt mini.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu lập phương trình từ đâu.",
+          "Em không biết tính 'lãi 1 chiếc'.",
+          "Em không hiểu 'giảm 10%' nghĩa là giá bán mới = bao nhiêu."
+        ],
+        "dinh_huong": [
+          "Em định gọi x là số quạt nhập, mỗi đợt bán x/2 — đúng không?",
+          "Em định giá nhập = giá bán - lãi mỗi chiếc — đúng chứ?",
+          "Em định lập phương trình giá nhập 2 đợt = nhau — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra giá đợt 2 = 135k — đúng không?",
+          "Em ra phương trình $150 - 12000/x = 135 - 9000/x$ — đúng chưa?",
+          "Em ra $x = 200$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'giảm 10%' = bớt 10 nghìn (sai - là $150 \\cdot 10\\% = 15$ nghìn).",
+          "Em chia tổng lãi cho x thay vì x/2.",
+          "Em quên đổi triệu sang nghìn."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn, hai tiếp tuyến từ điểm ngoài, OA=2R",
+      "de_bai": "Cho đường tròn $(O; R)$ và điểm $A$ sao cho $OA = 2R$. Từ điểm $A$, vẽ hai tiếp tuyến $AB, AC$ của $(O)$ ($B, C$ là các tiếp điểm). Đoạn thẳng $OA$ cắt $BC$ tại $H$.\n\na) Chứng minh tứ giác $ABOC$ nội tiếp và $OA$ vuông góc với $BC$.\n\nb) Vẽ đường kính $BD$ của đường tròn $(O)$. Gọi $E$ và $F$ lần lượt là giao điểm của $AD$ với $(O)$ và $BC$ ($E \\neq D$). Chứng minh $AB^2 = AH \\cdot AO$ và $\\widehat{AHE} = \\widehat{ADB}$.\n\nc) Gọi $I$ là giao điểm của $BE$ và $CD$. Chứng minh $IF \\parallel AB$ và tính độ dài $IF$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "Hai tiếp tuyến cắt nhau → ABO và ACO vuông tại B, C → 4 điểm A, B, O, C đồng viên đường kính AO",
+        "AB = AC, OB = OC = R → OA trung trực BC → OA ⊥ BC tại H",
+        "Hệ thức lượng △ABO vuông tại B, đường cao BH: $AB^2 = AH \\cdot AO$",
+        "BED = 90° (chắn nửa đường tròn) → BE ⊥ AD",
+        "△ABE ~ △ADB (g-g): $AB^2 = AE \\cdot AD$",
+        "→ $AH \\cdot AO = AE \\cdot AD$ → △AHE ~ △ADO (c-g-c) → AHE = ADO = ADB",
+        "F trực tâm △IBD → IF ⊥ BD, mà AB ⊥ BD → IF // AB",
+        "△DBA ~ △DMI để tìm IM, BM",
+        "Cuối: $IF = \\dfrac{2R\\sqrt{3}}{5}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tiếp tuyến cắt nhau",
+        "Tứ giác nội tiếp",
+        "Hệ thức lượng tam giác vuông",
+        "Tam giác đồng dạng",
+        "Trực tâm tam giác",
+        "Định lý Thales"
+      ],
+      "dap_so": "c) $IF = \\dfrac{2R\\sqrt{3}}{5}$.",
+      "goi_y_cap_1": "Câu a: △ABO vuông tại B, △ACO vuông tại C → đều nội tiếp đường kính AO → ABOC nội tiếp. AB=AC, OB=OC=R → OA trung trực BC → OA ⊥ BC.\n\nCâu b: △ABO vuông tại B đường cao BH: $AB^2 = AH \\cdot AO$. BED = 90° (chắn nửa đường tròn BD) → BE ⊥ AD. △ABE ~ △ADB (g-g) → $AB^2 = AE \\cdot AD$. Suy ra $AH \\cdot AO = AE \\cdot AD$ → $\\dfrac{AH}{AD} = \\dfrac{AE}{AO}$. △AHE ~ △ADO (c-g-c) → AHE = ADO = ADB.\n\nCâu c: BCD = 90° (chắn nửa đường tròn BD) → BC ⊥ CD. Trong △IBD: BC ⊥ ID và BE ⊥ AD nhưng IE ⊥ AD. Vậy F là trực tâm → IF ⊥ BD. Mà AB ⊥ BD (tại B) → IF // AB. Gọi M = IF ∩ BD. △DBA có FM // AB → $FM/AB = DM/DB$. △DMI ~ △OBA (g-g) → $MI/AB = DM/OB = 2 DM/DB$ → $MI = 2 FM$ → F trung điểm MI. △ABO vuông B: $AB^2 = OA^2 - OB^2 = 4R^2 - R^2 = 3R^2 → AB = R\\sqrt{3}$. tan AOB = AB/OB = √3. tan MDI = √3 (từ MDI = AOB) → DM = MI/√3. tan MBI = BAD = 2/√3 → BM = MI√3/2. BD = DM + BM = 2R → MI(1/√3 + √3/2) = 2R → $MI = \\dfrac{4R\\sqrt{3}}{5}$. $IF = MI/2 = \\dfrac{2R\\sqrt{3}}{5}$.",
+      "goi_y_cap_2": "Câu a:\n- AB tiếp tuyến tại B → △ABO vuông tại B → nội tiếp đường tròn đường kính AO\n- AC tiếp tuyến tại C → △ACO vuông tại C → nội tiếp đường tròn đường kính AO\n- → A, B, O, C cùng thuộc đường tròn đường kính AO → ABOC nội tiếp\n- $AB = AC$ (tính chất 2 tiếp tuyến cắt nhau), $OB = OC = R$\n- → OA là trung trực BC → $OA \\perp BC$ tại H\n\nCâu b:\n- $\\triangle ABO$ vuông tại B, đường cao BH: $AB^2 = AH \\cdot AO$ (hệ thức lượng)\n- $\\widehat{BED} = 90°$ (góc nội tiếp chắn nửa đường tròn BD) → $BE \\perp AD$\n- Xét $\\triangle ABE$ và $\\triangle ADB$:\n  - $\\widehat{BAD}$ chung\n  - $\\widehat{AEB} = \\widehat{ABD} = 90°$ (do BE⊥AD và AB tiếp tuyến → AB⊥OB → AB⊥BD vì BD đường kính)\n  - → $\\triangle ABE \\sim \\triangle ADB$ (g-g)\n- → $\\dfrac{AB}{AD} = \\dfrac{AE}{AB}$ → $AB^2 = AE \\cdot AD$\n- Suy ra $AH \\cdot AO = AE \\cdot AD$ → $\\dfrac{AH}{AD} = \\dfrac{AE}{AO}$\n- Xét $\\triangle AHE$ và $\\triangle ADO$:\n  - $\\widehat{DAO}$ chung\n  - $\\dfrac{AH}{AD} = \\dfrac{AE}{AO}$ (cmt)\n  - → $\\triangle AHE \\sim \\triangle ADO$ (c-g-c)\n  - → $\\widehat{AHE} = \\widehat{ADO}$ (hay $\\widehat{AHE} = \\widehat{ADB}$)\n\nCâu c:\n- $\\widehat{BCD} = 90°$ (góc nội tiếp chắn nửa đường tròn BD) → $BC \\perp CD$\n- Mà $I \\in CD$ nên $BC \\perp ID$\n- $\\widehat{BED} = 90°$ → $BE \\perp ED$. Mà $I \\in BE, A \\in ED$ → $IE \\perp AD$\n- Trong $\\triangle IBD$: $BC \\perp ID$ và $DE \\perp IB$ cắt nhau tại F\n- → F là trực tâm $\\triangle IBD$\n- Gọi M là giao của IF và BD → $IM \\perp BD$ tại M\n- $\\triangle ABO$ vuông tại B (AB tiếp tuyến) → $AB \\perp OB$ → $AB \\perp BD$\n- Có: $\\begin{cases} IF \\perp BD \\\\ AB \\perp BD \\end{cases} \\Rightarrow IF \\parallel AB$\n- → $FM \\parallel AB$\n- Xét $\\triangle DBA$ có $FM \\parallel AB$ (Thales): $\\dfrac{FM}{AB} = \\dfrac{DM}{DB}$\n- $\\triangle ABO$ vuông tại B, OA = 2R, OB = R: $AB^2 = OA^2 - OB^2 = 3R^2 \\Rightarrow AB = R\\sqrt{3}$\n- $\\tan \\widehat{AOB} = \\dfrac{AB}{OB} = \\sqrt{3}$\n- Tứ giác ABOC nội tiếp + OA⊥BC → các góc liên quan thiết lập được\n- $\\triangle DMI$ vuông tại M có $\\tan\\widehat{MDI}=\\sqrt 3 \\Rightarrow DM = \\dfrac{MI}{\\sqrt 3}$\n- $\\tan\\widehat{MBI} = \\dfrac{2}{\\sqrt 3}\\Rightarrow BM = \\dfrac{MI\\sqrt 3}{2}$\n- $BD = DM + BM = 2R$ $\\Rightarrow MI\\left(\\dfrac{1}{\\sqrt 3}+\\dfrac{\\sqrt 3}{2}\\right) = 2R$\n- $\\Rightarrow MI \\cdot \\dfrac{5}{2\\sqrt 3} = 2R \\Rightarrow MI = \\dfrac{4R\\sqrt{3}}{5}$\n- F là trung điểm MI → $IF = \\dfrac{MI}{2} = \\dfrac{2R\\sqrt{3}}{5}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh tứ giác $ABOC$ nội tiếp và $OA \\perp BC$:**\n\n$\\triangle ABO$ vuông tại $B$ (do $AB$ là tiếp tuyến của $(O)$), suy ra $\\triangle ABO$ nội tiếp đường tròn đường kính $AO$ (1).\n\n$\\triangle ACO$ vuông tại $C$ (do $AC$ là tiếp tuyến của $(O)$), suy ra $\\triangle ACO$ nội tiếp đường tròn đường kính $AO$ (2).\n\nTừ (1) và (2) suy ra 4 điểm $A, B, O, C$ cùng thuộc một đường tròn đường kính $AO$. Suy ra tứ giác $ABOC$ nội tiếp.\n\nTa có $\\begin{cases} AB = AC \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OB = OC = R \\end{cases}$\n\n$\\Rightarrow OA$ là trung trực của $BC \\Rightarrow OA \\perp BC$ tại $H$.\n\n**Câu b) Chứng minh $AB^2 = AH \\cdot AO$ và $\\widehat{AHE} = \\widehat{ADB}$:**\n\nXét $\\triangle ABO$ vuông tại $B$, có đường cao $BH$ (do $OA \\perp BC$ tại $H$).\n\nTheo hệ thức lượng trong tam giác vuông: $AB^2 = AH \\cdot AO$.\n\n$\\widehat{BED} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $BD$).\n\n$\\Rightarrow BE \\perp AD$.\n\nXét $\\triangle ABE$ và $\\triangle ADB$:\n$\\begin{cases} \\widehat{BAD} \\text{ chung} \\\\ \\widehat{AEB} = \\widehat{ABD} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle ABE \\sim \\triangle ADB$ (g-g)\n\n$\\Rightarrow \\dfrac{AB}{AD} = \\dfrac{AE}{AB} \\Rightarrow AB^2 = AE \\cdot AD$.\n\nSuy ra $AH \\cdot AO = AE \\cdot AD \\Rightarrow \\dfrac{AH}{AD} = \\dfrac{AE}{AO}$.\n\nXét $\\triangle AHE$ và $\\triangle ADO$:\n$\\begin{cases} \\widehat{DAO} \\text{ chung} \\\\ \\dfrac{AH}{AD} = \\dfrac{AE}{AO} \\text{ (chứng minh trên)} \\end{cases}$\n\n$\\Rightarrow \\triangle AHE \\sim \\triangle ADO$ (c-g-c)\n\n$\\Rightarrow \\widehat{AHE} = \\widehat{ADO}$ (hay $\\widehat{AHE} = \\widehat{ADB}$).\n\n**Câu c) Chứng minh $IF \\parallel AB$ và tính $IF$ theo $R$:**\n\n$\\widehat{BCD} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $BD$).\n\n$\\Rightarrow BC \\perp CD$. Mà $I \\in CD$ nên $BC \\perp ID$.\n\n$\\widehat{BED} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $BD$).\n\n$\\Rightarrow BE \\perp ED$. Mà $I \\in BE, A \\in ED$ nên $IE \\perp AD$.\n\nTrong $\\triangle IBD$, có $BC \\perp ID$ và $DE \\perp IB$ cắt nhau tại $F$.\n\n$\\Rightarrow F$ là trực tâm của $\\triangle IBD$.\n\nGọi $M$ là giao điểm của $IF$ và $BD \\Rightarrow IM \\perp BD$ tại $M$.\n\n$\\triangle ABO$ vuông tại $B$ (do $AB$ là tiếp tuyến của $(O)$).\n\n$\\Rightarrow AB \\perp OB$, suy ra $AB \\perp BD$.\n\nTa có $\\begin{cases} IF \\perp BD \\\\ AB \\perp BD \\end{cases} \\Rightarrow IF \\parallel AB$.\n\nSuy ra $FM \\parallel AB$.\n\nXét $\\triangle DBA$ có $FM \\parallel AB$, theo định lý Thales:\n$$\\dfrac{FM}{AB} = \\dfrac{DM}{DB}$$\n\nTa có $\\begin{cases} CD \\perp BC \\\\ OA \\perp BC \\text{ (chứng minh câu a)} \\end{cases} \\Rightarrow CD \\parallel OA$.\n\nSuy ra $\\widehat{MDI} = \\widehat{AOB}$ (hai góc đồng vị).\n\nXét $\\triangle DMI$ và $\\triangle OBA$:\n$\\begin{cases} \\widehat{DMI} = \\widehat{OBA} = 90° \\\\ \\widehat{MDI} = \\widehat{AOB} \\end{cases}$\n\n$\\Rightarrow \\triangle DMI \\sim \\triangle OBA$ (g-g)\n\n$\\Rightarrow \\dfrac{MI}{AB} = \\dfrac{DM}{OB}$.\n\nTa có $\\dfrac{MI}{AB} = \\dfrac{DM}{OB} = \\dfrac{DM}{\\dfrac{DB}{2}} = 2 \\cdot \\dfrac{DM}{DB} = 2 \\cdot \\dfrac{FM}{AB}$.\n\nSuy ra $MI = 2FM \\Rightarrow F$ là trung điểm của $MI$.\n\n**Tính $IF$:**\n\n$\\triangle ABO$ vuông tại $B$:\n$AB^2 = OA^2 - OB^2 = (2R)^2 - R^2 = 3R^2 \\Rightarrow AB = R\\sqrt{3}$.\n\nTrong $\\triangle ABO$ vuông tại $B$: $\\tan \\widehat{AOB} = \\dfrac{AB}{OB} = \\dfrac{R\\sqrt{3}}{R} = \\sqrt{3}$.\n\nTrong $\\triangle DMI$ vuông tại $M$: $\\tan \\widehat{MDI} = \\dfrac{MI}{DM}$.\n\nDo $\\widehat{MDI} = \\widehat{AOB}$ suy ra $\\tan \\widehat{MDI} = \\sqrt{3} \\Rightarrow \\dfrac{MI}{DM} = \\sqrt{3} \\Rightarrow DM = \\dfrac{MI}{\\sqrt{3}}$.\n\nTa có $\\widehat{MBI} = \\widehat{BAD}$ (cùng phụ $\\widehat{ABE}$).\n\n$\\triangle ABD$ vuông tại $B$: $\\tan \\widehat{BAD} = \\dfrac{BD}{AB} = \\dfrac{2R}{R\\sqrt{3}} = \\dfrac{2}{\\sqrt{3}}$.\n\nTrong $\\triangle MBI$ vuông tại $M$: $\\tan \\widehat{MBI} = \\dfrac{MI}{BM}$.\n\nDo $\\widehat{MBI} = \\widehat{BAD}$ suy ra $\\tan \\widehat{MBI} = \\dfrac{2}{\\sqrt{3}} \\Rightarrow \\dfrac{MI}{BM} = \\dfrac{2}{\\sqrt{3}} \\Rightarrow BM = \\dfrac{MI\\sqrt{3}}{2}$.\n\nTa có $BD = DM + BM \\Rightarrow 2R = \\dfrac{MI}{\\sqrt{3}} + \\dfrac{MI\\sqrt{3}}{2}$.\n\n$$2R = MI \\cdot \\dfrac{2 + 3}{2\\sqrt{3}} = MI \\cdot \\dfrac{5}{2\\sqrt{3}}$$\n\n$$\\Rightarrow MI = 2R \\cdot \\dfrac{2\\sqrt{3}}{5} = \\dfrac{4R\\sqrt{3}}{5}$$\n\nVì $F$ là trung điểm $MI$ nên:\n$$IF = \\dfrac{MI}{2} = \\boxed{\\dfrac{2R\\sqrt{3}}{5}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O), A ngoài đường tròn với OA = 2R, AB và AC tiếp tuyến tại B, C. BD đường kính. AD cắt (O) tại E và cắt BC tại F. BE cắt CD tại I.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ tính chất hai tiếp tuyến cắt nhau.",
+          "Em không biết hệ thức lượng trong tam giác vuông.",
+          "Câu c em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định 4 điểm A, B, O, C đồng viên đường kính AO — đúng không?",
+          "Câu b em định dùng $AB^2 = AH \\cdot AO$ và $AB^2 = AE \\cdot AD$ — đúng chứ?",
+          "Câu c em định F trực tâm △IBD → IF⊥BD → IF // AB — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra ABOC nội tiếp + OA ⊥ BC tại H — đúng không?",
+          "Em ra △AHE ~ △ADO (c-g-c) → góc bằng nhau — đúng chưa?",
+          "Em ra $IF = \\dfrac{2R\\sqrt{3}}{5}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy F là trực tâm △IBD.",
+          "Em không nhận ra CD // OA (cùng vuông góc BC).",
+          "Em không tính được tan các góc qua tam giác đồng dạng."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-27/bai7-duongtron.png"
+    }
+  ]
+}
