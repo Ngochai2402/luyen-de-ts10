@@ -1,0 +1,369 @@
+{
+  "de_so": 36,
+  "cum": 12,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = -\\dfrac{1}{4}x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục toạ độ.\n\nb) Tìm toạ độ các điểm thuộc $(P)$ có tung độ bằng $-2$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Cho $y = -2$: $-2 = -\\dfrac{1}{4}x^2 \\Rightarrow x^2 = 8$",
+        "$x = ±2\\sqrt{2}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a < 0",
+        "Phương trình $x^2 = a$"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(2\\sqrt{2}; -2)$ và $(-2\\sqrt{2}; -2)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = -4, -1, 0, -1, -4.\n\nCâu b: $y = -2$: $-2 = -\\dfrac{1}{4}x^2 \\Rightarrow x^2 = 8 \\Rightarrow x = ±2\\sqrt 2$.",
+      "goi_y_cap_2": "Câu a:\n- $x = -4 \\to y = -4$; $x = -2 \\to y = -1$; $x = 0 \\to y = 0$; $x = 2 \\to y = -1$; $x = 4 \\to y = -4$\n\nCâu b:\n- $-2 = -\\dfrac{1}{4}x^2$\n- $\\dfrac{1}{4}x^2 - 2 = 0 \\Rightarrow x^2 = 8$\n- $x_1 = 2\\sqrt 2$, $x_2 = -2\\sqrt 2$\n- $(2\\sqrt 2; -2)$ và $(-2\\sqrt 2; -2)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = -\\dfrac{1}{4}x^2$ | $-4$ | $-1$ | $0$ | $-1$ | $-4$ |\n\nVẽ parabol đi qua các điểm trên, đỉnh tại $O$, bề lõm xuống dưới.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì điểm thuộc $(P)$ có tung độ bằng $-2$ nên $y = -2$.\n\nTa có phương trình $-2 = -\\dfrac{1}{4}x^2$\n$$\\dfrac{1}{4}x^2 - 2 = 0$$\n$$x^2 = 8$$\n$$x_1 = 2\\sqrt{2}; \\quad x_2 = -2\\sqrt{2}$$\n\nVới $x_1 = 2\\sqrt 2 \\Rightarrow y_1 = -2$.\nVới $x_2 = -2\\sqrt 2 \\Rightarrow y_2 = -2$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(2\\sqrt{2}; -2)}$ và $\\boxed{(-2\\sqrt{2}; -2)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = -x²/4 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = -4, -1, 0, -1, -4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bắt đầu lập bảng từ đâu.",
+          "Em không biết phương trình $x^2 = 8$ có 2 nghiệm.",
+          "Em không biết $\\sqrt 8 = 2\\sqrt 2$."
+        ],
+        "dinh_huong": [
+          "Em định lập phương trình $-2 = -x^2/4$ — đúng không?",
+          "Em định ra $x^2 = 8 \\Rightarrow x = ±2\\sqrt 2$ — đúng chứ?",
+          "Em định nhận cả 2 nghiệm — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x^2 = 8$ — đúng không?",
+          "Em ra $x = ±2\\sqrt 2$ — đúng chưa?",
+          "Em ra 2 điểm $(±2\\sqrt 2; -2)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ lấy 1 nghiệm $x = 2\\sqrt 2$.",
+          "Em quên dấu trừ ở $a = -1/4$.",
+          "Em không rút gọn $\\sqrt 8 = 2\\sqrt 2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-36/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Phương trình tham số m",
+      "de_bai": "Cho phương trình: $x^2 - (m+1)x + m - 2 = 0$, với $m$ là tham số. (1)\n\na) Chứng minh phương trình (1) luôn có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Tính giá trị của biểu thức $A = x_1^2 + x_2^2$ theo $m$.",
+      "phuong_phap_duoc_dung": [
+        "Tính $\\Delta = (m-1)^2 + 8 > 0$ với mọi $m$",
+        "Định lý Viète: $x_1+x_2 = m+1$, $x_1 x_2 = m-2$",
+        "$A = x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$",
+        "$A = (m+1)^2 - 2(m-2) = m^2 + 2m + 1 - 2m + 4 = m^2 + 5$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hằng đẳng thức $x_1^2 + x_2^2$"
+      ],
+      "dap_so": "$A = m^2 + 5$",
+      "goi_y_cap_1": "Δ = (m+1)² - 4(m-2) = m² + 2m + 1 - 4m + 8 = m² - 2m + 9 = (m-1)² + 8 > 0 ∀m. Viète: $x_1+x_2 = m+1$, $x_1 x_2 = m-2$. $A = (m+1)^2 - 2(m-2) = m^2 + 5$.",
+      "goi_y_cap_2": "Câu a:\n- $\\Delta = (-(m+1))^2 - 4 \\cdot 1 \\cdot (m-2) = (m+1)^2 - 4(m-2)$\n- $= m^2 + 2m + 1 - 4m + 8 = m^2 - 2m + 9$\n- $= (m-1)^2 + 8 > 0$ với mọi $m$\n- → phương trình luôn có 2 nghiệm phân biệt\n\nCâu b:\n- Viète: $x_1 + x_2 = m+1$, $x_1 x_2 = m-2$\n- $A = x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$\n- $= (m+1)^2 - 2(m-2)$\n- $= m^2 + 2m + 1 - 2m + 4 = m^2 + 5$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $x^2 - (m+1)x + m - 2 = 0$ với $a = 1; b = -(m+1); c = m-2$.\n\n$\\Delta = (-(m+1))^2 - 4 \\cdot 1 \\cdot (m-2)$\n$\\Delta = m^2 + 2m + 1 - 4m + 8$\n$\\Delta = m^2 - 2m + 9$\n$\\Delta = (m-1)^2 + 8 > 0$ với mọi $m$.\n\nVì $\\Delta > 0$ với mọi $m$ nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A theo m:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = m+1 \\\\ x_1 x_2 = m-2 \\end{cases}$$\n\nTa có:\n$$A = x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2$$\n$$= (m+1)^2 - 2(m-2)$$\n$$= m^2 + 2m + 1 - 2m + 4$$\n$$= \\boxed{m^2 + 5}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính Δ với tham số $m$.",
+          "Em không biết phân tích $(m-1)^2 + 8$.",
+          "Em quên Viète với hệ số $-(m+1)$."
+        ],
+        "dinh_huong": [
+          "Em định Δ = $(m+1)^2 - 4(m-2)$ — đúng không?",
+          "Em định $\\Delta = (m-1)^2 + 8 > 0$ ∀m — đúng chứ?",
+          "Em định $A = (x_1+x_2)^2 - 2x_1x_2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra Viète: $x_1+x_2 = m+1$, $x_1 x_2 = m-2$ — đúng không?",
+          "Em ra $A = (m+1)^2 - 2(m-2)$ — đúng chưa?",
+          "Em ra $A = m^2 + 5$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được Δ là tổng bình phương + 8.",
+          "Em quên dấu trừ trong $b = -(m+1)$.",
+          "Em không khai triển $(m+1)^2 = m^2 + 2m + 1$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Xác suất - Bó hoa 5 đỏ + 3 vàng, chọn 4 bông",
+      "de_bai": "Một bó hoa gồm $5$ bông hoa màu đỏ và $3$ bông hoa màu vàng. Bạn Linh chọn ngẫu nhiên cùng lúc $4$ bông hoa từ bó hoa đó.\n\na) Liệt kê các cách chọn mà bạn Linh có thể thực hiện.\n\nb) Tính xác suất của mỗi biến cố sau:\n- $A$: \"Trong $4$ bông hoa được chọn ra, có đúng $1$ bông hoa màu đỏ\".\n- $B$: \"Trong $4$ bông hoa được chọn ra, có ít nhất $1$ bông hoa màu đỏ\".",
+      "phuong_phap_duoc_dung": [
+        "Liệt kê 4 trường hợp: (1Đ, 3V), (2Đ, 2V), (3Đ, 1V), (4Đ, 0V)",
+        "Tổng cách chọn: $C_5^1 \\cdot C_3^3 + C_5^2 \\cdot C_3^2 + C_5^3 \\cdot C_3^1 + C_5^4$",
+        "$= 5 + 30 + 30 + 5 = 70 → n(\\Omega) = 70$",
+        "$n(A) = 5 \\cdot 1 = 5 → P(A) = 5/70 = 1/14$",
+        "B: bó chỉ có 3 vàng, chọn 4 bông luôn có ít nhất 1 đỏ → biến cố chắc chắn → $P(B) = 1$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tổ hợp",
+        "Xác suất cổ điển",
+        "Biến cố chắc chắn"
+      ],
+      "dap_so": "a) 4 trường hợp. b) $P(A) = \\dfrac{1}{14}$, $P(B) = 1$.",
+      "goi_y_cap_1": "Câu a: 4 trường hợp: (1Đ,3V), (2Đ,2V), (3Đ,1V), (4Đ,0V).\n\nCâu b: Tổng = 5+30+30+5 = 70. $n(A) = 5 → P(A) = 5/70 = 1/14$. $B$: bó chỉ có 3 vàng → chọn 4 bông phải có ít nhất 1 đỏ → biến cố chắc chắn → $P(B) = 1$.",
+      "goi_y_cap_2": "Câu a:\n- 4 trường hợp: chọn 1 đỏ + 3 vàng; 2 đỏ + 2 vàng; 3 đỏ + 1 vàng; 4 đỏ + 0 vàng\n\nCâu b:\n- $n(\\Omega) = C_5^1 \\cdot C_3^3 + C_5^2 \\cdot C_3^2 + C_5^3 \\cdot C_3^1 + C_5^4$\n- $= 5 \\cdot 1 + 10 \\cdot 3 + 10 \\cdot 3 + 5 = 5 + 30 + 30 + 5 = 70$\n- $n(A) = C_5^1 \\cdot C_3^3 = 5$\n- $P(A) = \\dfrac{5}{70} = \\dfrac{1}{14}$\n- $B$: bó hoa chỉ có 3 bông vàng nên khi chọn 4 bông luôn có ít nhất 1 đỏ\n- → $B$ là biến cố chắc chắn → $P(B) = 1$",
+      "loi_giai_day_du": "**Câu a) Liệt kê các cách chọn:**\n\nCác cách chọn (trường hợp) 4 bông hoa từ bó hoa gồm 5 bông đỏ và 3 bông vàng là:\n- Chọn 1 bông hoa màu đỏ và 3 bông hoa màu vàng.\n- Chọn 2 bông hoa màu đỏ và 2 bông hoa màu vàng.\n- Chọn 3 bông hoa màu đỏ và 1 bông hoa màu vàng.\n- Chọn 4 bông hoa màu đỏ và 0 bông hoa màu vàng.\n\n**Câu b) Tính xác suất:**\n\n***Biến cố A:* Có đúng 1 bông đỏ**\n\nSố kết quả thuận lợi cho biến cố $A$ là số cách chọn 1 bông đỏ và 3 bông vàng: $5 \\cdot 1 = 5$ (cách).\n\nSố cách chọn 2 bông đỏ, 2 bông vàng là $10 \\cdot 3 = 30$ (cách).\n\nSố cách chọn 3 bông đỏ, 1 bông vàng là $10 \\cdot 3 = 30$ (cách).\n\nSố cách chọn 4 bông đỏ là $5$ (cách).\n\nSố phần tử của không gian mẫu là $n(\\Omega) = 5 + 30 + 30 + 5 = 70$.\n\n$$P(A) = \\dfrac{5}{70} = \\boxed{\\dfrac{1}{14}}$$\n\n***Biến cố B:* Có ít nhất 1 bông đỏ**\n\nVì bó hoa chỉ có 3 bông màu vàng, nên khi chọn ngẫu nhiên 4 bông hoa luôn có ít nhất 1 bông màu đỏ.\n\nSuy ra $B$ là biến cố chắc chắn.\n\nXác suất của biến cố $B$ là $P(B) = \\boxed{1}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết liệt kê các trường hợp.",
+          "Em không nhớ công thức $C_n^k$.",
+          "Em không hiểu 'biến cố chắc chắn'."
+        ],
+        "dinh_huong": [
+          "Em định 4 trường hợp (1Đ-3V) đến (4Đ-0V) — đúng không?",
+          "Em định B = 1 vì bó chỉ có 3 vàng — đúng chứ?",
+          "Em định $C_5^1 \\cdot C_3^3 = 5$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $n(\\Omega) = 70$ — đúng không?",
+          "Em ra $n(A) = 5$ — đúng chưa?",
+          "Em ra $P(A) = 1/14, P(B) = 1$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm sai $C_5^2 = 10$ thay vì 10.",
+          "Em quên rằng B là biến cố chắc chắn.",
+          "Em không rút gọn $5/70 = 1/14$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Viên xúc xắc thả vào ly nước",
+      "de_bai": "Khi thả chìm hoàn toàn một viên xúc xắc nhỏ hình lập phương vào một ly nước có dạng hình trụ thì người ta thấy nước trong ly dâng lên $0{,}5$ cm và không tràn ra ngoài. Biết diện tích đáy của ly nước bằng $250$ cm². Hỏi cạnh của viên xúc xắc dài bao nhiêu centimet?",
+      "phuong_phap_duoc_dung": [
+        "V phần nước dâng = V xúc xắc",
+        "$V = S_{đáy} \\cdot h_{dâng} = 250 \\cdot 0{,}5 = 125$ cm³",
+        "$a^3 = 125 \\Rightarrow a = 5$ cm"
+      ],
+      "kien_thuc_lien_quan": [
+        "Bảo toàn thể tích chất lỏng",
+        "Thể tích hình lập phương",
+        "Căn bậc ba"
+      ],
+      "dap_so": "Cạnh xúc xắc = $5$ cm.",
+      "goi_y_cap_1": "$V = 250 \\cdot 0,5 = 125$ cm³. $a^3 = 125 \\Rightarrow a = 5$ cm.",
+      "goi_y_cap_2": "- Thể tích phần nước dâng lên = thể tích viên xúc xắc\n- $V = S_{đáy} \\cdot h_{dâng} = 250 \\cdot 0{,}5 = 125$ cm³\n- Gọi $a$ (cm) là cạnh xúc xắc ($a > 0$)\n- $a^3 = 125 \\Rightarrow a = 5$ cm",
+      "loi_giai_day_du": "Thể tích phần nước dâng lên bằng thể tích của viên xúc xắc.\n\nThể tích viên xúc xắc là:\n$$V = 250 \\cdot 0{,}5 = 125 \\text{ (cm}^3\\text{)}$$\n\nGọi $a$ (cm) là độ dài cạnh của viên xúc xắc ($a > 0$).\n\nTa có phương trình: $a^3 = 125$\n$$a = 5 \\text{ (nhận)}$$\n\nVậy cạnh của viên xúc xắc dài $\\boxed{5 \\text{ cm}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Ly nước hình trụ chứa viên xúc xắc lập phương màu đỏ ở đáy, nước dâng lên 0,5 cm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bảo toàn thể tích.",
+          "Em quên công thức V hình lập phương.",
+          "Em không tính được căn bậc 3."
+        ],
+        "dinh_huong": [
+          "Em định V xúc xắc = V nước dâng — đúng không?",
+          "Em định $V = 250 \\cdot 0,5 = 125$ — đúng chứ?",
+          "Em định $a^3 = 125 \\Rightarrow a = 5$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V = 125$ cm³ — đúng không?",
+          "Em ra $a^3 = 125$ — đúng chưa?",
+          "Em ra $a = 5$ cm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm V xúc xắc = $a^2$ thay vì $a^3$.",
+          "Em quên rằng V = $S_{đáy} \\cdot h$.",
+          "Em không tìm ra căn bậc 3 của 125."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-36/bai4-xucxac.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Phòng họp 500 chỗ kê thêm dãy",
+      "de_bai": "Một phòng họp có $500$ chỗ ngồi. Do phải xếp $616$ chỗ ngồi người ta kê thêm $3$ dãy ghế và mỗi dãy xếp thêm $2$ chỗ. Tính số dãy ghế lúc đầu của phòng họp.",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ là số dãy ghế lúc đầu",
+        "Số chỗ/dãy lúc đầu: $500/x$",
+        "Lúc sau: $(x+3)$ dãy, mỗi dãy $500/x + 2$ chỗ",
+        "$(x+3)(500/x + 2) = 616$",
+        "$500 + 2x + 1500/x + 6 = 616$",
+        "$2x^2 - 110x + 1500 = 0 \\Rightarrow x^2 - 55x + 750 = 0$",
+        "$x = 30$ (loại vì $500/30 \\notin \\mathbb{N}^*$) hoặc $x = 25$ (nhận)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Phương trình bậc hai",
+        "Điều kiện $500/x$ là số tự nhiên (ước của 500)"
+      ],
+      "dap_so": "Lúc đầu phòng họp có $25$ dãy ghế.",
+      "goi_y_cap_1": "Gọi $x$ dãy ghế lúc đầu. Số chỗ/dãy = $500/x$. Lúc sau: $(x+3)$ dãy, mỗi dãy $500/x + 2$. $(x+3)(500/x + 2) = 616 \\Rightarrow x^2 - 55x + 750 = 0 \\Rightarrow x = 30$ (loại - 500/30 ko nguyên) hoặc $x = 25$ (nhận).",
+      "goi_y_cap_2": "- Gọi $x$ (dãy) là số dãy ghế lúc đầu ($x \\in \\mathbb{N}^*$, $x$ là ước của 500)\n- Số chỗ ngồi trên mỗi dãy ghế lúc đầu: $\\dfrac{500}{x}$ (chỗ)\n- Số dãy ghế lúc sau: $x + 3$ (dãy)\n- Số chỗ ngồi trên mỗi dãy ghế lúc sau: $\\dfrac{500}{x} + 2$ (chỗ)\n- Vì lúc sau có 616 chỗ ngồi:\n- $(x+3)\\left(\\dfrac{500}{x} + 2\\right) = 616$\n- $500 + 2x + \\dfrac{1500}{x} + 6 = 616$\n- $2x - 110 + \\dfrac{1500}{x} = 0$\n- $2x^2 - 110x + 1500 = 0$\n- $x^2 - 55x + 750 = 0$\n- $x = 30$ (loại vì $\\dfrac{500}{30} \\notin \\mathbb{N}^*$) hoặc $x = 25$ (nhận)",
+      "loi_giai_day_du": "Gọi $x$ (dãy) là số dãy ghế lúc đầu của phòng họp ($x \\in \\mathbb{N}^*$, $x$ là ước của $500$).\n\nSố chỗ ngồi trên mỗi dãy ghế lúc đầu là $\\dfrac{500}{x}$ (chỗ).\n\nSố dãy ghế lúc sau là $x + 3$ (dãy).\n\nSố chỗ ngồi trên mỗi dãy ghế lúc sau là $\\dfrac{500}{x} + 2$ (chỗ).\n\nVì lúc sau phòng họp có $616$ chỗ ngồi nên ta có phương trình:\n$$(x+3)\\left(\\dfrac{500}{x} + 2\\right) = 616$$\n$$500 + 2x + \\dfrac{1500}{x} + 6 = 616$$\n$$2x - 110 + \\dfrac{1500}{x} = 0$$\n$$2x^2 - 110x + 1500 = 0$$\n$$x^2 - 55x + 750 = 0$$\n\n$x = 30$ (loại vì $\\dfrac{500}{30} \\notin \\mathbb{N}^*$) hoặc $x = 25$ (nhận).\n\nVậy lúc đầu phòng họp có $\\boxed{25}$ dãy ghế.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết gọi ẩn nào.",
+          "Em không hiểu '500 chỗ ngồi' chia đều cho các dãy.",
+          "Em không biết bắt đầu lập phương trình."
+        ],
+        "dinh_huong": [
+          "Em định $x$ là số dãy lúc đầu — đúng không?",
+          "Em định số chỗ/dãy = $500/x$ — đúng chứ?",
+          "Em định $(x+3)(500/x + 2) = 616$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 - 55x + 750 = 0$ — đúng không?",
+          "Em ra $x = 30$ hoặc $x = 25$ — đúng chưa?",
+          "Em loại $x = 30$ vì 500/30 ko nguyên — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không loại $x = 30$ (sai - 500/30 ko nguyên).",
+          "Em quên khai triển $(x+3)(500/x + 2)$.",
+          "Em không nhân chéo dẫn đến phương trình bậc 2."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Mảnh vườn HCN trồng hoa, trồng cỏ",
+      "de_bai": "Bác Nam có một mảnh vườn hình chữ nhật. Bác chia mảnh vườn này ra làm hai khu đất hình chữ nhật. Khu thứ nhất dùng để trồng cỏ. Khu thứ hai dùng để trồng hoa (với các kích thước có trong hình vẽ: chiều dài tổng cộng $2y+12$ m, chiều dài khu hoa $2x$ m, chiều rộng $y+1$ m).\n\na) Biểu diễn diện tích khu đất dùng để trồng hoa và diện tích khu đất dùng để trồng cỏ theo $x; y$.\n\nb) Tính diện tích mảnh vườn hình chữ nhật của bác Nam với $x = 4$ và $y = 4$.",
+      "phuong_phap_duoc_dung": [
+        "Khu hoa: chiều dài $2x$, chiều rộng $y+1$ → $S_{hoa} = 2x(y+1)$",
+        "Khu cỏ: chiều dài $2y+12-2x$, chiều rộng $y+1$ → $S_{cỏ} = (2y+12-2x)(y+1)$",
+        "$x=4, y=4$: chiều dài tổng = $2 \\cdot 4 + 12 = 20$, chiều rộng = $4+1 = 5$",
+        "$S_{vườn} = 20 \\cdot 5 = 100$ m²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật"
+      ],
+      "dap_so": "a) $S_{hoa} = 2x(y+1)$, $S_{cỏ} = (2y+12-2x)(y+1)$ m². b) $S_{vườn} = 100$ m².",
+      "goi_y_cap_1": "Câu a: $S_{hoa} = 2x(y+1)$. Chiều dài khu cỏ = $2y+12-2x$. $S_{cỏ} = (2y+12-2x)(y+1)$.\n\nCâu b: $x=4, y=4$: chiều dài tổng = 20m, chiều rộng = 5m. $S = 20 \\cdot 5 = 100$ m².",
+      "goi_y_cap_2": "Câu a:\n- Diện tích khu đất dùng để trồng hoa: $S_{hoa} = 2x(y+1)$ (m²)\n- Chiều dài khu đất trồng cỏ: $2y+12-2x$ (m)\n- Diện tích khu đất dùng để trồng cỏ: $S_{cỏ} = (2y+12-2x)(y+1)$ (m²)\n\nCâu b:\n- Khi $x = 4$ và $y = 4$:\n- Chiều dài tổng cộng của mảnh vườn HCN: $2 \\cdot 4 + 12 = 20$ (m)\n- Chiều rộng của mảnh vườn HCN: $4 + 1 = 5$ (m)\n- $S = 20 \\cdot 5 = 100$ m²",
+      "loi_giai_day_du": "**Câu a) Biểu diễn diện tích:**\n\nDiện tích khu đất dùng để trồng hoa là:\n$$S_{hoa} = 2x(y+1) \\text{ (m}^2\\text{)}$$\n\nChiều dài của khu đất trồng cỏ là $2y + 12 - 2x$ (m).\n\nDiện tích khu đất dùng để trồng cỏ là:\n$$S_{cỏ} = (2y + 12 - 2x)(y+1) \\text{ (m}^2\\text{)}$$\n\n**Câu b) Diện tích khi x = 4, y = 4:**\n\nKhi $x = 4$ và $y = 4$, chiều dài tổng cộng của mảnh vườn hình chữ nhật là:\n$$2 \\cdot 4 + 12 = 20 \\text{ (m)}$$\n\nChiều rộng của mảnh vườn hình chữ nhật là:\n$$4 + 1 = 5 \\text{ (m)}$$\n\nDiện tích của toàn bộ mảnh vườn hình chữ nhật là:\n$$S = 20 \\cdot 5 = \\boxed{100 \\text{ m}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh vườn HCN chia thành 2 phần: khu trồng cỏ (xanh lá, chiều dài 2x) và khu trồng hoa (hồng nhạt, chiều dài y+1). Chiều dài tổng cộng 2y+12.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết kích thước nào áp dụng cho khu nào.",
+          "Em nhầm chiều dài và chiều rộng.",
+          "Em không tính được chiều dài khu cỏ."
+        ],
+        "dinh_huong": [
+          "Em định khu hoa có chiều dài $2x$, chiều rộng $y+1$ — đúng không?",
+          "Em định chiều dài khu cỏ = $2y+12-2x$ — đúng chứ?",
+          "Em định $S_{vườn} = $ tổng × rộng — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S_{hoa} = 2x(y+1)$ — đúng không?",
+          "Em ra $S_{cỏ} = (2y+12-2x)(y+1)$ — đúng chưa?",
+          "Em ra $S_{vườn} = 100$ m² với $x=y=4$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm chiều rộng là $y$ thay vì $y+1$.",
+          "Em không cộng được $2 \\cdot 4 + 12 = 20$.",
+          "Em quên $(y+1)$ chung khi tính $S_{cỏ}$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-36/bai6-manhvuon.png"
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn (O) đường kính AB - Dây CD vuông góc - $AF = R\\sqrt 3$",
+      "de_bai": "Cho đường tròn $(O)$ đường kính $AB$. Gọi $H$ là điểm nằm giữa $O$ và $B$. Kẻ dây $CD$ vuông góc với $AB$ tại $H$. Trên cung nhỏ $AC$ lấy điểm $E$, kẻ $CK$ vuông góc với $AE$ tại $K$. Đường thẳng $DE$ cắt $CK$ tại $F$.\n\na) Chứng minh tứ giác $AHCK$ là tứ giác nội tiếp.\n\nb) Chứng minh rằng $AH \\cdot AB = AD^2$.\n\nc) Giả sử $H$ là trung điểm của $OB$. Tính độ dài cạnh $AF$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "AHC = 90° (CD ⊥ AB tại H), AKC = 90° (CK ⊥ AE)",
+        "△AHC vuông H, △AKC vuông K → đồng viên đường kính AC → AHCK nội tiếp",
+        "ADB = 90° (chắn nửa đường tròn AB)",
+        "△ADH vuông H, △ABD: DAB chung, AHD = ADB = 90° → △ADH ~ △ABD (g-g)",
+        "→ $AH \\cdot AB = AD^2$",
+        "Câu c: AHCK nội tiếp → CHK = CAK (cùng chắn cung CK)",
+        "CAK = CDE (cùng chắn cung CE trong (O))",
+        "→ CHK = CDE → HK // DE (đồng vị) → HK // FD",
+        "△OCD cân O (OC=OD=R), AB ⊥ CD tại H → OH đường cao + trung tuyến → H trung điểm CD",
+        "△CFD: H trung điểm CD, HK // FD → K trung điểm FC (đường trung bình)",
+        "△AFC có AK đường cao (CK ⊥ AE) đồng thời trung tuyến (K trung điểm FC) → △AFC cân A → AF = AC",
+        "△ACD có AH đường cao + trung tuyến → △ACD cân A → AC = AD",
+        "→ AF = AD",
+        "H trung điểm OB → OH = R/2 → AH = AO + OH = R + R/2 = 3R/2",
+        "$AD^2 = AH \\cdot AB = 3R/2 \\cdot 2R = 3R^2 → AD = R\\sqrt 3$",
+        "→ $AF = R\\sqrt 3$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tam giác đồng dạng (g-g)",
+        "Đường trung bình tam giác",
+        "Tam giác cân, đường cao trung tuyến"
+      ],
+      "dap_so": "c) $AF = R\\sqrt{3}$.",
+      "goi_y_cap_1": "Câu a: AHC = 90°, AKC = 90° → △AHC, △AKC đồng viên đường kính AC → AHCK nội tiếp.\n\nCâu b: ADB = 90° (chắn nửa AB). △ADH ~ △ABD (g-g, DAB chung, AHD = ADB = 90°) → $AH \\cdot AB = AD^2$.\n\nCâu c: AHCK nội tiếp → CHK = CAK = CDE → HK // DE. H trung điểm CD (do OH ⊥ CD). △CFD có HK//FD, H trung điểm CD → K trung điểm FC. △AFC: AK đường cao + trung tuyến → cân A → AF = AC. △ACD: AH cao + trung tuyến → cân A → AC = AD. → AF = AD. AH = R + R/2 = 3R/2. $AD^2 = AH \\cdot AB = 3R/2 \\cdot 2R = 3R^2 \\Rightarrow AD = R\\sqrt 3 = AF$.",
+      "goi_y_cap_2": "Câu a:\n- $CD \\perp AB$ tại $H \\Rightarrow \\widehat{AHC} = 90°$\n- $CK \\perp AE$ tại $K \\Rightarrow \\widehat{AKC} = 90°$\n- △AHC vuông tại H → nội tiếp đường tròn đường kính AC (1)\n- △AKC vuông tại K → nội tiếp đường tròn đường kính AC (2)\n- (1)(2): A, H, C, K cùng đường tròn đường kính AC → AHCK nội tiếp\n\nCâu b:\n- $\\widehat{ADB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AB)\n- △ADH và △ABD: $\\widehat{DAB}$ chung, $\\widehat{AHD} = \\widehat{ADB} = 90°$\n- → △ADH ~ △ABD (g-g)\n- → $\\dfrac{AD}{AB} = \\dfrac{AH}{AD} \\Rightarrow AH \\cdot AB = AD^2$\n\nCâu c:\n- AHCK nội tiếp → $\\widehat{CHK} = \\widehat{CAK}$ (cùng chắn cung CK)\n- $\\widehat{CAK} = \\widehat{CDE}$ (cùng chắn cung CE trong (O))\n- → $\\widehat{CHK} = \\widehat{CDE}$ → HK // DE (vị trí đồng vị)\n- → HK // FD\n- OC = OD = R → △OCD cân tại O. $AB \\perp CD$ tại H → OH đường cao = trung tuyến → H trung điểm CD\n- △CFD: H trung điểm CD, HK // FD → K trung điểm FC (đường trung bình)\n- △AFC: AK đường cao (CK ⊥ AE → AK ⊥ FC) + trung tuyến (K trung điểm FC) → cân A → AF = AC\n- △ACD: AH đường cao + trung tuyến → cân A → AC = AD\n- → AF = AC = AD\n- H trung điểm OB → OH = R/2\n- AH = AO + OH = R + R/2 = 3R/2\n- $AD^2 = AH \\cdot AB = \\dfrac{3R}{2} \\cdot 2R = 3R^2 \\Rightarrow AD = R\\sqrt 3$\n- → $AF = R\\sqrt 3$",
+      "loi_giai_day_du": "**Câu a) Chứng minh AHCK nội tiếp:**\n\nTa có $CD \\perp AB$ tại $H \\Rightarrow \\widehat{AHC} = 90°$.\n\nTa có $CK \\perp AE$ tại $K \\Rightarrow \\widehat{AKC} = 90°$.\n\n△AHC vuông tại H → nội tiếp đường tròn đường kính AC (1).\n\n△AKC vuông tại K → nội tiếp đường tròn đường kính AC (2).\n\nTừ (1) và (2): 4 điểm A, H, C, K cùng thuộc một đường tròn đường kính AC. Suy ra tứ giác $AHCK$ nội tiếp.\n\n**Câu b) Chứng minh $AH \\cdot AB = AD^2$:**\n\nTa có $\\widehat{ADB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AB).\n\nXét △ADH và △ABD:\n$\\begin{cases} \\widehat{DAB} \\text{ chung} \\\\ \\widehat{AHD} = \\widehat{ADB} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle ADH \\sim \\triangle ABD$ (g-g)\n\n$\\Rightarrow \\dfrac{AD}{AB} = \\dfrac{AH}{AD} \\Rightarrow AH \\cdot AB = AD^2$.\n\n**Câu c) Tính AF khi H là trung điểm OB:**\n\nTứ giác AHCK nội tiếp (chứng minh trên) $\\Rightarrow \\widehat{CHK} = \\widehat{CAK}$ (hai góc nội tiếp cùng chắn cung CK).\n\nMà $\\widehat{CAK} = \\widehat{CDE}$ (hai góc nội tiếp cùng chắn cung CE của đường tròn $(O)$).\n\n$\\Rightarrow \\widehat{CHK} = \\widehat{CDE}$.\n\nMà hai góc này ở vị trí đồng vị nên $HK \\parallel DE$, hay $HK \\parallel FD$.\n\nTa có $OC = OD = R$ suy ra △OCD cân tại O. Mà $OH$ là đường cao (do $AB \\perp CD$ tại H) suy ra $OH$ cũng là đường trung tuyến của △OCD. $\\Rightarrow H$ là trung điểm của CD.\n\nXét △CFD có:\n- $H$ là trung điểm của CD\n- $HK \\parallel FD$\n- $\\Rightarrow K$ là trung điểm của FC (tính chất đường trung bình của tam giác).\n\nXét △AFC có:\n- $AK$ là đường cao (do $CK \\perp AE$ tại $K \\Rightarrow AK \\perp FC$)\n- $AK$ là đường trung tuyến (do $K$ là trung điểm của FC)\n- $\\Rightarrow$ △AFC cân tại $A$ $\\Rightarrow AF = AC$.\n\n△ACD có $AH$ là đường cao cũng là trung tuyến $\\Rightarrow$ △ACD cân tại $A$ $\\Rightarrow AC = AD$.\n\nVậy $AC = AF = AD$.\n\n$H$ là trung điểm $OB \\Rightarrow OH = \\dfrac{R}{2}$.\n\n$AH = AO + OH = R + \\dfrac{R}{2} = \\dfrac{3R}{2}$.\n\nTa có:\n$$AD^2 = AH \\cdot AB = \\dfrac{3R}{2} \\cdot 2R = 3R^2$$\n$$\\Rightarrow AD = R\\sqrt{3}$$\n\nVậy độ dài cạnh $AF$ là $\\boxed{R\\sqrt{3}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O) đường kính AB. CD ⊥ AB tại H (giữa O và B). E trên cung nhỏ AC, K thuộc AE với CK ⊥ AE. F là giao DE và CK.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được AHCK có 2 góc vuông cùng nhìn AC.",
+          "Em không nhớ tính chất đường trung bình tam giác.",
+          "Câu c em không biết bắt đầu từ đâu."
+        ],
+        "dinh_huong": [
+          "Câu a em định AHCK đồng viên đường kính AC — đúng không?",
+          "Câu b em định △ADH ~ △ABD (g-g) — đúng chứ?",
+          "Câu c em định AF = AC = AD và tính AD² = AH·AB — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra AHCK nội tiếp — đúng không?",
+          "Em ra $AD^2 = AH \\cdot AB$ — đúng chưa?",
+          "Em ra $AF = R\\sqrt 3$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được HK // FD nên không có đường trung bình.",
+          "Em không nhận ra tam giác cân từ đường cao + trung tuyến.",
+          "Em không tính đúng AH = 3R/2."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-36/bai7-duongtron.png"
+    }
+  ]
+}

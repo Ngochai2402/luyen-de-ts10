@@ -1,0 +1,373 @@
+{
+  "de_so": 37,
+  "cum": 13,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $(P): y = \\dfrac{x^2}{2}$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm điểm thuộc đồ thị $(P)$ sao cho hoành độ và tung độ có tổng bằng $12$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Hoành độ + tung độ = 12: $x + y = 12 \\Rightarrow y = 12 - x$",
+        "Thay vào (P): $12 - x = \\dfrac{x^2}{2} \\Rightarrow x^2 + 2x - 24 = 0$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(4; 8)$ và $(-6; 18)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = 8, 2, 0, 2, 8.\n\nCâu b: $x + y = 12 \\Rightarrow y = 12 - x$. Thay vào: $12 - x = x^2/2 \\Rightarrow x^2 + 2x - 24 = 0 \\Rightarrow x = 4$ hoặc $x = -6$.",
+      "goi_y_cap_2": "Câu a: $x = ±4: y = 8$; $x = ±2: y = 2$; $x = 0: y = 0$.\n\nCâu b:\n- $x + y = 12 \\Rightarrow y = 12 - x$\n- $12 - x = \\dfrac{x^2}{2} \\Rightarrow x^2 + 2x - 24 = 0$\n- $x_1 = 4 \\Rightarrow y_1 = 8$\n- $x_2 = -6 \\Rightarrow y_2 = 18$\n- $(4; 8)$ và $(-6; 18)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{2}$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì hoành độ và tung độ có tổng bằng $12$ nên $x + y = 12 \\Rightarrow y = 12 - x$.\n\nTa có phương trình $12 - x = \\dfrac{x^2}{2}$\n$$x^2 + 2x - 24 = 0$$\n$$x_1 = 4 \\text{ hoặc } x_2 = -6$$\n\nVới $x_1 = 4 \\Rightarrow y_1 = 8$.\nVới $x_2 = -6 \\Rightarrow y_2 = 18$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(4; 8)}$ và $\\boxed{(-6; 18)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x²/2 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = 8, 2, 0, 2, 8.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tổng = 12'.",
+          "Em không biết bảng giá trị bắt đầu từ đâu.",
+          "Em không khai triển được phương trình."
+        ],
+        "dinh_huong": [
+          "Em định 'tổng = 12' = $x + y = 12$ — đúng không?",
+          "Em định $y = 12 - x$ thay vào (P) — đúng chứ?",
+          "Em định ra phương trình $x^2 + 2x - 24 = 0$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 + 2x - 24 = 0$ — đúng không?",
+          "Em ra $x = 4$ hoặc $x = -6$ — đúng chưa?",
+          "Em ra $(4;8)$ và $(-6;18)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 'tổng' thành 'tích'.",
+          "Em quên dấu trừ ở $-x$.",
+          "Em không tính được $y_2 = 12 - (-6) = 18$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-37/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A phân thức $3x_1/x_2 + 3x_2/x_1$",
+      "de_bai": "Cho phương trình $3x^2 - 11x - 15 = 0$.\n\na) Chứng minh phương trình trên có $2$ nghiệm là $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức $A = \\dfrac{3x_1}{x_2} + \\dfrac{3x_2}{x_1}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète",
+        "$A = \\dfrac{3x_1^2 + 3x_2^2}{x_1 x_2} = \\dfrac{3(x_1^2 + x_2^2)}{x_1 x_2}$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète"
+      ],
+      "dap_so": "$A = -\\dfrac{211}{15}$",
+      "goi_y_cap_1": "Δ = 121 + 180 = 301 > 0. Viète: $x_1+x_2 = 11/3$, $x_1 x_2 = -5$. $x_1^2+x_2^2 = 121/9 + 10 = 211/9$. $A = 3 \\cdot 211/9 / (-5) = -211/15$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = (-11)^2 - 4 \\cdot 3 \\cdot (-15) = 121 + 180 = 301 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = \\dfrac{11}{3}$, $x_1 x_2 = \\dfrac{-15}{3} = -5$\n- $x_1^2 + x_2^2 = \\left(\\dfrac{11}{3}\\right)^2 - 2 \\cdot (-5) = \\dfrac{121}{9} + 10 = \\dfrac{211}{9}$\n- $A = \\dfrac{3x_1}{x_2} + \\dfrac{3x_2}{x_1} = \\dfrac{3x_1^2 + 3x_2^2}{x_1 x_2} = \\dfrac{3(x_1^2+x_2^2)}{x_1 x_2}$\n- $A = \\dfrac{3 \\cdot 211/9}{-5} = -\\dfrac{211}{15}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $3x^2 - 11x - 15 = 0$ với $a = 3; b = -11; c = -15$.\n\n$\\Delta = b^2 - 4ac = (-11)^2 - 4 \\cdot 3 \\cdot (-15) = 301 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{11}{3} \\\\ x_1 x_2 = -5 \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2 x_1 x_2 = \\left(\\dfrac{11}{3}\\right)^2 - 2(-5) = \\dfrac{211}{9}$.\n\nTa có:\n$$A = \\dfrac{3x_1}{x_2} + \\dfrac{3x_2}{x_1} = \\dfrac{3x_1^2 + 3x_2^2}{x_1 x_2} = \\dfrac{3(x_1^2 + x_2^2)}{x_1 x_2}$$\n$$= \\dfrac{3 \\cdot \\dfrac{211}{9}}{-5} = \\boxed{-\\dfrac{211}{15}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng $\\dfrac{3x_1}{x_2} + \\dfrac{3x_2}{x_1}$.",
+          "Em quên Viète với $a = 3$.",
+          "Em không nhớ $x_1^2+x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng tử $3(x_1^2+x_2^2)$, mẫu $x_1 x_2$ — đúng không?",
+          "Em định Viète $x_1+x_2 = 11/3$, $x_1 x_2 = -5$ — đúng chứ?",
+          "Em định nhân 3 ra ngoài — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x_1^2+x_2^2 = 211/9$ — đúng không?",
+          "Em ra $A = 3 \\cdot 211/9 / (-5) = -211/15$ — đúng chưa?",
+          "Em ra $A = -211/15$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên dấu âm khi $x_1 x_2 = -5$.",
+          "Em không nhân 3 vào tử.",
+          "Em không rút gọn $3 \\cdot 211/9 / 5 = 211/15$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Xác suất - Đĩa tròn xoay 10 ô",
+      "de_bai": "Hình bên mô tả một đĩa tròn bằng bìa cứng được chia làm mười phần bằng nhau và ghi các số $1; 2; 3; 4; 5; 6; 7; 8; 9; 10$. Chiếc kim được gắn cố định vào trục quay ở tâm của đĩa. Quay đĩa tròn một lần.\n\na) Mô tả không gian mẫu của phép thử. Không gian mẫu có bao nhiêu phần tử?\n\nb) Tính xác suất của mỗi biến cố sau:\n- $A$: \"Mũi tên chỉ vào hình quạt ghi số là hợp số\".\n- $B$: \"Mũi tên chỉ vào hình quạt ghi số là số chính phương\".\n- $C$: \"Mũi tên chỉ vào hình quạt ghi số là chia hết cho $5$\".",
+      "phuong_phap_duoc_dung": [
+        "$\\Omega = \\{1, 2, ..., 10\\}, n(\\Omega) = 10$",
+        "A: hợp số = {4, 6, 8, 9, 10} → $n(A) = 5$, $P(A) = 1/2$",
+        "B: số chính phương = {1, 4, 9} → $n(B) = 3$, $P(B) = 3/10$",
+        "C: chia hết 5 = {5, 10} → $n(C) = 2$, $P(C) = 1/5$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Xác suất cổ điển",
+        "Hợp số, số chính phương, chia hết"
+      ],
+      "dap_so": "a) $n(\\Omega) = 10$. b) $P(A) = \\dfrac{1}{2}$, $P(B) = \\dfrac{3}{10}$, $P(C) = \\dfrac{1}{5}$.",
+      "goi_y_cap_1": "$\\Omega = \\{1,...,10\\}, n(\\Omega) = 10$. A: hợp số {4,6,8,9,10} → $P(A) = 5/10 = 1/2$. B: chính phương {1,4,9} → $P(B) = 3/10$. C: chia 5 = {5,10} → $P(C) = 2/10 = 1/5$.",
+      "goi_y_cap_2": "Câu a:\n- $\\Omega = \\{1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\}$\n- $n(\\Omega) = 10$\n\nCâu b:\n- *A:* hợp số là số chia hết cho số khác 1 và chính nó = {4, 6, 8, 9, 10}\n- $n(A) = 5$, $P(A) = 5/10 = 1/2$\n- *B:* số chính phương = {1, 4, 9}\n- $n(B) = 3$, $P(B) = 3/10$\n- *C:* chia hết cho 5 = {5, 10}\n- $n(C) = 2$, $P(C) = 2/10 = 1/5$",
+      "loi_giai_day_du": "**Câu a) Mô tả không gian mẫu:**\n\nKhông gian mẫu của phép thử là tập hợp các số ghi trên đĩa tròn:\n$$\\Omega = \\{1; 2; 3; 4; 5; 6; 7; 8; 9; 10\\}$$\n\nSố phần tử của không gian mẫu là $n(\\Omega) = \\boxed{10}$.\n\n**Câu b) Tính xác suất:**\n\n***Biến cố A:* hợp số**\n\nCác khả năng thuận lợi cho biến cố $A$ là $4; 6; 8; 9; 10$. Suy ra $n(A) = 5$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{5}{10} = \\boxed{\\dfrac{1}{2}}$$\n\n***Biến cố B:* số chính phương**\n\nCác khả năng thuận lợi cho biến cố $B$ là $1; 4; 9$. Suy ra $n(B) = 3$.\n\n$$P(B) = \\dfrac{n(B)}{n(\\Omega)} = \\boxed{\\dfrac{3}{10}}$$\n\n***Biến cố C:* chia hết cho 5**\n\nCác khả năng thuận lợi cho biến cố $C$ là $5; 10$. Suy ra $n(C) = 2$.\n\n$$P(C) = \\dfrac{n(C)}{n(\\Omega)} = \\dfrac{2}{10} = \\boxed{\\dfrac{1}{5}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đĩa tròn xoay 10 ô (số 1 đến 10) chia đều thành các hình quạt màu, có kim quay ở tâm.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết hợp số là gì.",
+          "Em không biết số chính phương là gì.",
+          "Em không biết liệt kê các số chia hết cho 5."
+        ],
+        "dinh_huong": [
+          "Em định hợp số = {4, 6, 8, 9, 10} — đúng không?",
+          "Em định chính phương = {1, 4, 9} — đúng chứ?",
+          "Em định chia hết 5 = {5, 10} — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $P(A) = 1/2$ — đúng không?",
+          "Em ra $P(B) = 3/10$ — đúng chưa?",
+          "Em ra $P(C) = 1/5$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên 1 không phải hợp số (nhưng là chính phương).",
+          "Em đếm sai số chính phương.",
+          "Em không rút gọn phân số."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-37/bai3-diatron.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Công viên HCN với đài phun nước hình tròn",
+      "de_bai": "Một công viên hình chữ nhật có chiều rộng là $x$ (m), chiều dài gấp rưỡi chiều rộng. Ở giữa công viên, người ta xây một đài phun nước hình tròn, có đường kính bằng chiều rộng của công viên.\n\na) Hãy viết biểu thức $S$ biểu diễn diện tích phần còn lại của công viên (phần không có đài phun nước) theo $x$.\n\nb) Biết diện tích phần còn lại của công viên là $471{,}5$ m². Tính kích thước công viên (lấy $\\pi = 3{,}14$).",
+      "phuong_phap_duoc_dung": [
+        "Chiều dài = $1{,}5x$",
+        "Bán kính đài = $x/2$",
+        "$S = 1{,}5x^2 - \\pi (x/2)^2 = 1{,}5x^2 - \\pi x^2/4 = (1{,}5 - \\pi/4)x^2$",
+        "$(1{,}5 - 3{,}14/4)x^2 = 471{,}5 \\Rightarrow 0{,}715 x^2 = 471{,}5$",
+        "$x^2 = 94300/143 \\Rightarrow x = \\sqrt{94300/143}$",
+        "Chiều dài = $1{,}5x = 3/2 \\sqrt{94300/143}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình tròn",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = (1{,}5 - \\dfrac{\\pi}{4})x^2$ m². b) Chiều rộng $\\sqrt{\\dfrac{94300}{143}}$ m, chiều dài $\\dfrac{3}{2}\\sqrt{\\dfrac{94300}{143}}$ m.",
+      "goi_y_cap_1": "Câu a: Chiều dài = 1,5x. Bán kính = x/2. $S = 1,5x^2 - \\pi x^2/4 = (1,5 - \\pi/4)x^2$.\n\nCâu b: $0,715x^2 = 471,5 \\Rightarrow x^2 = 94300/143 \\Rightarrow x = \\sqrt{94300/143}$. Chiều dài = $3/2 \\cdot \\sqrt{94300/143}$.",
+      "goi_y_cap_2": "Câu a:\n- Chiều dài công viên: $1{,}5x$ (m)\n- Diện tích công viên: $x \\cdot 1{,}5x = 1{,}5x^2$ (m²)\n- Bán kính đài phun nước: $x/2$ (m)\n- Diện tích đài: $\\pi (x/2)^2 = \\dfrac{\\pi x^2}{4}$ (m²)\n- $S = 1{,}5x^2 - \\dfrac{\\pi}{4}x^2 = \\left(1{,}5 - \\dfrac{\\pi}{4}\\right)x^2$ (m²)\n\nCâu b: ĐK: $x > 0$\n- $\\left(1{,}5 - \\dfrac{3{,}14}{4}\\right)x^2 = 471{,}5$\n- $0{,}715 x^2 = 471{,}5$\n- $x^2 = \\dfrac{94300}{143}$\n- $x = \\sqrt{\\dfrac{94300}{143}}$ (nhận, $x > 0$)\n- Chiều dài: $1{,}5 \\cdot \\sqrt{\\dfrac{94300}{143}} = \\dfrac{3}{2}\\sqrt{\\dfrac{94300}{143}}$ (m)",
+      "loi_giai_day_du": "**Câu a) Biểu thức S:**\n\nChiều dài của công viên là $1{,}5x$ (m).\nDiện tích của công viên là $x \\cdot 1{,}5x = 1{,}5x^2$ (m²).\n\nBán kính của đài phun nước hình tròn là $\\dfrac{x}{2}$ (m).\nDiện tích của đài phun nước là $\\pi \\cdot \\left(\\dfrac{x}{2}\\right)^2 = \\dfrac{\\pi}{4}x^2$ (m²).\n\nBiểu thức $S$ biểu diễn diện tích phần còn lại của công viên theo $x$ là:\n$$S = 1{,}5x^2 - \\dfrac{\\pi}{4}x^2 = \\boxed{\\left(1{,}5 - \\dfrac{\\pi}{4}\\right)x^2}$$\n\n**Câu b) Tính kích thước công viên:**\n\nĐiều kiện của ẩn $x$ là $x > 0$.\n\nTheo đề bài, với $\\pi = 3{,}14$ ta có phương trình:\n$$\\left(1{,}5 - \\dfrac{3{,}14}{4}\\right)x^2 = 471{,}5$$\n$$0{,}715 x^2 - 471{,}5 = 0$$\n$$x_1 = \\sqrt{\\dfrac{94300}{143}} \\text{ (nhận)}; \\quad x_2 = -\\sqrt{\\dfrac{94300}{143}} \\text{ (loại)}$$\n\nVới $x = \\sqrt{\\dfrac{94300}{143}}$, suy ra chiều dài của công viên là $1{,}5 \\cdot \\sqrt{\\dfrac{94300}{143}} = \\dfrac{3}{2}\\sqrt{\\dfrac{94300}{143}}$ (m).\n\nVậy kích thước của công viên là chiều rộng $\\boxed{\\sqrt{\\dfrac{94300}{143}} \\text{ m}}$ và chiều dài $\\boxed{\\dfrac{3}{2}\\sqrt{\\dfrac{94300}{143}} \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Công viên HCN (chiều rộng x, chiều dài 1,5x) với đài phun nước hình tròn ở giữa (đường kính = chiều rộng).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'gấp rưỡi' = 1,5 lần.",
+          "Em không biết bán kính = đường kính/2.",
+          "Em không nhớ S hình tròn = $\\pi r^2$."
+        ],
+        "dinh_huong": [
+          "Em định chiều dài = $1{,}5x$ — đúng không?",
+          "Em định bán kính = $x/2$ — đúng chứ?",
+          "Em định $S = 1{,}5x^2 - \\pi x^2/4$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = (1{,}5 - \\pi/4)x^2$ — đúng không?",
+          "Em ra $0{,}715 x^2 = 471{,}5$ — đúng chưa?",
+          "Em ra $x = \\sqrt{94300/143}$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm bán kính = $x$ thay vì $x/2$.",
+          "Em quên thay $\\pi = 3{,}14$.",
+          "Em không loại nghiệm âm."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-37/bai4-congvien.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Bình trụ + viên bi cầu",
+      "de_bai": "Một bình hình trụ có đường kính đáy $1$ dm, chiều cao $0{,}8$ dm bên trong có chứa viên bi hình cầu có bán kính $3$ cm. Hỏi phải đổ vào bình bao nhiêu lít nước để nước đầy bình (làm tròn đến chữ số thập phân thứ nhất). Cho biết thể tích hình trụ là $V = \\pi r^2 h$, thể tích hình cầu là $V = \\dfrac{4}{3}\\pi R^3$.",
+      "phuong_phap_duoc_dung": [
+        "Đổi 3cm = 0,3dm",
+        "$r_{trụ} = 1/2 = 0{,}5$ dm",
+        "$V_1 = \\pi (0{,}5)^2 \\cdot 0{,}8 = 0{,}2\\pi$ dm³",
+        "$V_2 = \\dfrac{4}{3}\\pi (0{,}3)^3 = 0{,}036\\pi$ dm³",
+        "$V_{nước} = V_1 - V_2 = 0{,}164\\pi \\approx 0{,}515$ lít → 0,5 lít"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình cầu",
+        "Đổi đơn vị cm sang dm",
+        "Đổi dm³ sang lít"
+      ],
+      "dap_so": "Cần đổ khoảng $0{,}5$ lít nước.",
+      "goi_y_cap_1": "Đổi 3cm = 0,3dm. $r_{trụ} = 0,5$. $V_1 = \\pi(0,5)^2 \\cdot 0,8 = 0,2\\pi$. $V_2 = \\dfrac{4}{3}\\pi(0,3)^3 = 0,036\\pi$. $V_{nước} = 0,164\\pi \\approx 0,515 \\approx 0,5$ lít.",
+      "goi_y_cap_2": "- Đổi $3$ cm = $0{,}3$ dm\n- Bán kính đáy bình trụ: $r = 1:2 = 0{,}5$ dm\n- $V_1 = \\pi r^2 h = \\pi \\cdot (0{,}5)^2 \\cdot 0{,}8 = 0{,}2\\pi$ dm³\n- $V_2 = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3}\\pi \\cdot (0{,}3)^3 = 0{,}036\\pi$ dm³\n- $V_{nước} = V_1 - V_2 = 0{,}2\\pi - 0{,}036\\pi = 0{,}164\\pi$ dm³\n- Đổi $0{,}164\\pi$ dm³ = $0{,}164\\pi$ lít\n- $0{,}164\\pi \\approx 0{,}515 \\approx 0{,}5$ lít",
+      "loi_giai_day_du": "Đổi $3$ cm $= 0{,}3$ dm.\n\nBán kính đáy của bình hình trụ là $r = 1 : 2 = 0{,}5$ (dm).\n\nThể tích của bình hình trụ là:\n$$V_1 = \\pi r^2 h = \\pi \\cdot (0{,}5)^2 \\cdot 0{,}8 = 0{,}2\\pi \\text{ (dm}^3\\text{)}$$\n\nThể tích của viên bi hình cầu là:\n$$V_2 = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3}\\pi \\cdot (0{,}3)^3 = 0{,}036\\pi \\text{ (dm}^3\\text{)}$$\n\nThể tích nước cần đổ vào bình để đầy bình là:\n$$V = V_1 - V_2 = 0{,}2\\pi - 0{,}036\\pi = 0{,}164\\pi \\text{ (dm}^3\\text{)}$$\n\nĐổi $0{,}164\\pi$ dm³ $= 0{,}164\\pi$ lít.\n\nTa có $0{,}164\\pi \\approx 0{,}515 \\approx 0{,}5$ (lít).\n\nVậy cần đổ vào bình khoảng $\\boxed{0{,}5}$ lít nước.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Bình hình trụ đường kính 1dm, cao 0,8dm có viên bi cầu màu đỏ bên trong.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đổi cm sang dm.",
+          "Em không nhớ V hình trụ và hình cầu.",
+          "Em không biết 1 dm³ = 1 lít."
+        ],
+        "dinh_huong": [
+          "Em định 3cm = 0,3dm — đúng không?",
+          "Em định $V_{nước} = V_{trụ} - V_{bi}$ — đúng chứ?",
+          "Em định 1 dm³ = 1 lít — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_1 = 0{,}2\\pi$ — đúng không?",
+          "Em ra $V_2 = 0{,}036\\pi$ — đúng chưa?",
+          "Em ra $V_{nước} \\approx 0{,}5$ lít — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên đổi đơn vị về dm thống nhất.",
+          "Em nhầm V trụ là V bi.",
+          "Em không hiểu 1 dm³ = 1 lít."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-37/bai5-binh.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Mua quạt máy + ấm đun siêu tốc giảm giá",
+      "de_bai": "Bác Tư đến siêu thị mua một cái quạt máy và một ấm đun siêu tốc với tổng số tiền theo giá niêm yết là $630$ nghìn đồng. Tuy nhiên, trong tuần lễ tri ân khách hàng nên siêu thị đã giảm giá quạt máy $15\\%$ và giảm giá ấm đun siêu tốc $12\\%$ so với giá niêm yết của từng sản phẩm. Nên Bác Tư chỉ phải trả $543$ nghìn đồng khi mua hai sản phẩm trên. Hỏi giá niêm yết (khi chưa giảm giá) của một cái quạt máy là bao nhiêu?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ là giá quạt, $y$ là giá ấm",
+        "$x + y = 630$",
+        "$0{,}85x + 0{,}88y = 543$",
+        "Hệ → $x = 380, y = 250$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất",
+        "Phần trăm giảm giá"
+      ],
+      "dap_so": "Giá niêm yết quạt máy = $380 000$ đồng.",
+      "goi_y_cap_1": "Gọi $x$ giá quạt, $y$ giá ấm. Hệ: $x+y = 630$ và $0,85x + 0,88y = 543$ → $x = 380, y = 250$.",
+      "goi_y_cap_2": "- Gọi $x$ (nghìn đồng) là giá niêm yết quạt máy, $y$ là giá niêm yết ấm đun siêu tốc ($0 < x, y < 630$)\n- Giá quạt sau giảm 15%: $0{,}85x$\n- Giá ấm sau giảm 12%: $0{,}88y$\n- Hệ phương trình:\n- $\\begin{cases} x + y = 630 \\\\ 0{,}85x + 0{,}88y = 543 \\end{cases}$\n- → $x = 380, y = 250$",
+      "loi_giai_day_du": "Gọi $x$ (nghìn đồng) là giá niêm yết của một cái quạt máy, $y$ (nghìn đồng) là giá niêm yết của một ấm đun siêu tốc ($0 < x, y < 630$).\n\nGiá của quạt máy sau khi giảm $15\\%$ là $100\\%x - 15\\%x = 85\\%x = 0{,}85x$ (nghìn đồng).\nGiá của ấm đun siêu tốc sau khi giảm $12\\%$ là $100\\%y - 12\\%y = 88\\%y = 0{,}88y$ (nghìn đồng).\n\nVì tổng số tiền mua hai sản phẩm theo giá niêm yết là $630$ nghìn đồng nên:\n$$x + y = 630 \\quad (1)$$\n\nVì Bác Tư chỉ phải trả $543$ nghìn đồng sau khi đã giảm giá nên:\n$$0{,}85x + 0{,}88y = 543 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} x + y = 630 \\\\ 0{,}85x + 0{,}88y = 543 \\end{cases} \\Rightarrow \\begin{cases} x = 380 \\\\ y = 250 \\end{cases}$$\n\nVậy giá niêm yết của một cái quạt máy là $\\boxed{380\\,000 \\text{ đồng}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'giảm 15%' là gì.",
+          "Em không biết bắt đầu lập phương trình.",
+          "Em không nhớ 100% - 15% = 85%."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x, y$ là giá niêm yết — đúng không?",
+          "Em định $x + y = 630$ — đúng chứ?",
+          "Em định $0{,}85x + 0{,}88y = 543$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ 2 phương trình bậc nhất — đúng không?",
+          "Em ra $x = 380, y = 250$ — đúng chưa?",
+          "Em ra giá quạt = 380 000 đồng — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm giảm 15% thành $0{,}15x$ thay vì $0{,}85x$.",
+          "Em quên đổi từ nghìn đồng sang đồng.",
+          "Em nhầm vai trò $x, y$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn (O) - 2 tiếp tuyến AB, AC + đường thẳng d",
+      "de_bai": "Cho điểm $A$ nằm ngoài một đường tròn $(O; R)$ sao cho $OA = 2R$. Kẻ hai tiếp tuyến $AB, AC$ với đường tròn $(O; R)$ ($B, C$ là các tiếp điểm), tia $AO$ cắt $BC$ tại $I$. Điểm $H$ thuộc đoạn thẳng $BI$ ($H$ khác $B$ và $I$). Đường thẳng $d$ vuông góc với $OH$ tại $H$; $d$ cắt $AB, AC$ lần lượt tại $P$ và $Q$.\n\na) Chứng minh tứ giác $OHBP$ nội tiếp đường tròn.\n\nb) Chứng minh rằng: $OP = OQ$.\n\nc) Khi $H$ là trung điểm của đoạn thẳng $BI$, tính độ dài đoạn thẳng $BC$ và diện tích của $\\triangle OPQ$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "OBP = 90° (AB tiếp tuyến), OHP = 90° (d ⊥ OH)",
+        "△OBP, △OHP nội tiếp đường kính OP → 4 điểm O, H, B, P đồng viên đường kính OP → OHBP nội tiếp",
+        "AB = AC, OB = OC = R → OA trung trực BC → OA ⊥ BC tại I",
+        "△OCQ vuông C → nội tiếp đường kính OQ",
+        "△OHQ vuông H → nội tiếp đường kính OQ → OHCQ nội tiếp",
+        "OHBP: OPH = OBC (cùng chắn cung OH)",
+        "OHCQ: OQH = OCB (cùng chắn cung OH)",
+        "OB = OC → OBC = OCB → OPH = OQH → △OPQ cân O → OP = OQ",
+        "Câu c: OA = 2R, △BOA vuông B: cos BOA = R/2R = 1/2 → BOA = 60°",
+        "△OBI vuông I: OI = OB cos 60° = R/2; BI = OB sin 60° = R√3/2",
+        "BC = 2BI = R√3",
+        "△OHP ~ △OIB (g-g, OHP = OIB = 90°, OPH = OBI cùng chắn cung OH)",
+        "→ PH/BI = OH/OI → PH = OH·BI/OI",
+        "H trung điểm BI → IH = BI/2 = R√3/4",
+        "△OIH vuông I: $OH^2 = OI^2 + IH^2 = R²/4 + 3R²/16 = 7R²/16$ → OH = R√7/4",
+        "PH = (R√7/4)·(R√3/2)/(R/2) = R√21/4",
+        "△OPQ cân O, OH đường cao + trung tuyến → PQ = 2PH = R√21/2",
+        "$S_{OPQ} = \\dfrac{1}{2} OH \\cdot PQ = \\dfrac{1}{2} \\cdot R√7/4 \\cdot R√21/2 = 7R²√3/16$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Tam giác đồng dạng",
+        "Định lý Pythagore",
+        "Tam giác cân, đường cao = trung tuyến"
+      ],
+      "dap_so": "c) $BC = R\\sqrt{3}$, $S_{OPQ} = \\dfrac{7R^2\\sqrt{3}}{16}$.",
+      "goi_y_cap_1": "Câu a: △OBP vuông B, △OHP vuông H → đồng viên đường kính OP → OHBP nội tiếp.\n\nCâu b: AB=AC, OB=OC=R → OA trung trực BC → OA ⊥ BC. Tương tự OHCQ nội tiếp. OPH = OBC, OQH = OCB. OB=OC → OBC=OCB → OPH=OQH → △OPQ cân O → OP=OQ.\n\nCâu c: cos BOA = R/2R = 1/2 → BOA = 60°. OI = R/2, BI = R√3/2 → BC = R√3. △OHP ~ △OIB (g-g) → PH = OH·BI/OI. IH = R√3/4. $OH^2 = R²/4 + 3R²/16 = 7R²/16$ → OH = R√7/4. PH = R√21/4. PQ = R√21/2. $S = \\dfrac{1}{2}·R√7/4·R√21/2 = 7R²√3/16$.",
+      "goi_y_cap_2": "Câu a:\n- △OBP vuông tại B (AB tiếp tuyến) → nội tiếp đường tròn đường kính OP (1)\n- △OHP vuông tại H (d ⊥ OH) → nội tiếp đường tròn đường kính OP (2)\n- (1)(2): O, H, B, P đồng viên đường kính OP → OHBP nội tiếp\n\nCâu b:\n- AB = AC (2 tiếp tuyến cắt nhau), OB = OC = R → OA trung trực BC → OA ⊥ BC tại I\n- △OCQ vuông C, △OHQ vuông H → đồng viên đường kính OQ → OHCQ nội tiếp\n- OHBP nội tiếp → $\\widehat{OPH} = \\widehat{OBC}$ (cùng chắn cung OH)\n- OHCQ nội tiếp → $\\widehat{OQH} = \\widehat{OCB}$ (cùng chắn cung OH)\n- OB = OC = R → △OBC cân O → $\\widehat{OBC} = \\widehat{OCB}$\n- → $\\widehat{OPH} = \\widehat{OQH}$ → △OPQ cân O → OP = OQ\n\nCâu c:\n- △BOA vuông B (AB tiếp tuyến): $\\cos\\widehat{BOA} = \\dfrac{OB}{OA} = \\dfrac{R}{2R} = \\dfrac{1}{2}$ → $\\widehat{BOA} = 60°$\n- △OBI vuông I: $OI = OB \\cos 60° = R/2$, $BI = OB \\sin 60° = R\\sqrt 3/2$\n- OA trung trực BC → I trung điểm BC → $BC = 2BI = R\\sqrt 3$\n- △OHP ~ △OIB (g-g, OHP = OIB = 90°, OPH = OBI cùng chắn cung OH)\n- → $\\dfrac{PH}{BI} = \\dfrac{OH}{OI}$ → $PH = \\dfrac{OH \\cdot BI}{OI}$\n- H trung điểm BI → $IH = BI/2 = R\\sqrt 3/4$\n- △OIH vuông I: $OH^2 = OI^2 + IH^2 = (R/2)^2 + (R\\sqrt 3/4)^2 = R^2/4 + 3R^2/16 = 7R^2/16$\n- $OH = R\\sqrt 7/4$\n- $PH = \\dfrac{(R\\sqrt 7/4) \\cdot (R\\sqrt 3/2)}{R/2} = \\dfrac{R\\sqrt{21}}{4}$\n- △OPQ cân O, OH đường cao = trung tuyến → $PQ = 2PH = R\\sqrt{21}/2$\n- $S_{OPQ} = \\dfrac{1}{2} OH \\cdot PQ = \\dfrac{1}{2} \\cdot \\dfrac{R\\sqrt 7}{4} \\cdot \\dfrac{R\\sqrt{21}}{2} = \\dfrac{R^2 \\sqrt{147}}{16} = \\dfrac{7R^2\\sqrt 3}{16}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh OHBP nội tiếp:**\n\n△OBP vuông tại B (vì AB là tiếp tuyến của (O) tại B) → nội tiếp đường tròn đường kính OP (1).\n\n△OHP vuông tại H (vì $d \\perp OH$ tại H) → nội tiếp đường tròn đường kính OP (2).\n\nTừ (1) và (2): 4 điểm O, H, B, P cùng thuộc đường tròn đường kính OP. Suy ra OHBP nội tiếp.\n\n**Câu b) Chứng minh OP = OQ:**\n\nTa có $\\begin{cases} AB = AC \\text{ (2 tiếp tuyến cắt nhau)} \\\\ OB = OC = R \\end{cases}$\n\n$\\Rightarrow OA$ trung trực $BC \\Rightarrow OA \\perp BC$ tại $I$.\n\n△OCQ vuông tại C (AC tiếp tuyến) → nội tiếp đường tròn đường kính OQ (3).\n△OHQ vuông tại H (d ⊥ OH) → nội tiếp đường tròn đường kính OQ (4).\nTừ (3) và (4): 4 điểm O, H, C, Q đồng viên đường kính OQ → OHCQ nội tiếp.\n\nTứ giác $OHBP$ nội tiếp → $\\widehat{OPH} = \\widehat{OBC} = \\dfrac{1}{2}\\overset{\\frown}{OH}$.\n\nTứ giác $OHCQ$ nội tiếp → $\\widehat{OQH} = \\widehat{OCB} = \\dfrac{1}{2}\\overset{\\frown}{OH}$.\n\n$OB = OC = R \\Rightarrow \\triangle OBC$ cân tại $O \\Rightarrow \\widehat{OBC} = \\widehat{OCB}$.\n\nVậy $\\widehat{OPH} = \\widehat{OQH} \\Rightarrow \\triangle OPQ$ cân tại $O \\Rightarrow OP = OQ$.\n\n**Câu c) Tính BC và $S_{OPQ}$:**\n\n△BOA vuông tại B: $\\cos\\widehat{BOA} = \\dfrac{OB}{OA} = \\dfrac{R}{2R} = \\dfrac{1}{2}$ → $\\widehat{BOA} = 60°$.\n\n△OBI vuông tại I: $OI = OB \\cos 60° = \\dfrac{R}{2}$, $BI = OB \\sin 60° = \\dfrac{R\\sqrt 3}{2}$.\n\nVì OA trung trực BC nên I trung điểm BC, suy ra $BC = 2BI = R\\sqrt 3$.\n\nVậy độ dài $BC$ là $\\boxed{R\\sqrt 3}$.\n\nXét △OHP và △OIB:\n$\\begin{cases} \\widehat{OHP} = \\widehat{OIB} = 90° \\\\ \\widehat{OPH} = \\widehat{OBI} = \\dfrac{1}{2}\\overset{\\frown}{OH} \\end{cases}$\n\n$\\Rightarrow \\triangle OHP \\sim \\triangle OIB$ (g-g)\n\n$\\Rightarrow \\dfrac{PH}{BI} = \\dfrac{OH}{OI} \\Rightarrow PH = \\dfrac{OH \\cdot BI}{OI}$.\n\nVì $H$ là trung điểm $BI$ nên $IH = \\dfrac{BI}{2} = \\dfrac{R\\sqrt 3}{4}$.\n\n△OIH vuông tại I:\n$$OH^2 = OI^2 + IH^2 = \\left(\\dfrac{R}{2}\\right)^2 + \\left(\\dfrac{R\\sqrt 3}{4}\\right)^2 = \\dfrac{7R^2}{16}$$\n$$OH = \\dfrac{R\\sqrt 7}{4}$$\n\nThay vào: $PH = \\dfrac{\\dfrac{R\\sqrt 7}{4} \\cdot \\dfrac{R\\sqrt 3}{2}}{\\dfrac{R}{2}} = \\dfrac{R\\sqrt{21}}{4}$.\n\n△OPQ cân tại O có OH là đường cao cũng là trung tuyến → $PQ = 2PH = \\dfrac{R\\sqrt{21}}{2}$.\n\nDiện tích △OPQ là:\n$$S = \\dfrac{1}{2} OH \\cdot PQ = \\dfrac{1}{2} \\cdot \\dfrac{R\\sqrt 7}{4} \\cdot \\dfrac{R\\sqrt{21}}{2} = \\boxed{\\dfrac{7R^2\\sqrt 3}{16}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R), A ngoài đường tròn (OA = 2R). AB, AC tiếp tuyến tại B, C. AO cắt BC tại I. H trên đoạn BI, đường thẳng d ⊥ OH tại H cắt AB tại P, AC tại Q.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được OHBP có 2 góc vuông cùng nhìn OP.",
+          "Em không hiểu vì sao OP = OQ.",
+          "Câu c em không tính được OH."
+        ],
+        "dinh_huong": [
+          "Câu a em định OHBP đồng viên đường kính OP — đúng không?",
+          "Câu b em định △OPQ cân O qua tứ giác nội tiếp — đúng chứ?",
+          "Câu c em định △OHP ~ △OIB — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra OHBP nội tiếp — đúng không?",
+          "Em ra $BC = R\\sqrt 3$ — đúng chưa?",
+          "Em ra $S_{OPQ} = 7R^2\\sqrt 3/16$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được OHCQ cũng nội tiếp.",
+          "Em không tính đúng OH qua Pythagore.",
+          "Em quên rằng △OPQ cân nên PQ = 2PH."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-37/bai7-duongtron.png"
+    }
+  ]
+}
