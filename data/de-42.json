@@ -1,0 +1,374 @@
+{
+  "de_so": 42,
+  "cum": 14,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho Parabol $(P): y = x^2$.\n\na) Vẽ đồ thị $(P): y = x^2$ trên hệ trục tọa độ $Oxy$.\n\nb) Tìm tọa độ các điểm thuộc $(P)$ có tung độ bằng $12$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -2, -1, 0, 1, 2)",
+        "$y = 12$ → $x^2 = 12 \\Rightarrow x = ±2\\sqrt{3}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình $x^2 = a$"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(2\\sqrt{3}; 12)$ và $(-2\\sqrt{3}; 12)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -2, -1, 0, 1, 2 → y = 4, 1, 0, 1, 4.\n\nCâu b: $y = 12$: $x^2 = 12 \\Rightarrow x = ±2\\sqrt 3$. → $(±2\\sqrt 3; 12)$.",
+      "goi_y_cap_2": "Câu a:\n- $x = ±2: y = 4$; $x = ±1: y = 1$; $x = 0: y = 0$\n\nCâu b:\n- $y = 12 \\Rightarrow x^2 = 12$\n- $x_1 = 2\\sqrt 3$, $x_2 = -2\\sqrt 3$\n- $(2\\sqrt 3; 12)$ và $(-2\\sqrt 3; 12)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì điểm cần tìm có tung độ bằng $12$ nên $y = 12$.\n\nTa có phương trình $x^2 = 12$\n$$x_1 = 2\\sqrt{3}; \\quad x_2 = -2\\sqrt{3}$$\n\nVới $x_1 = 2\\sqrt 3 \\Rightarrow y_1 = 12$.\nVới $x_2 = -2\\sqrt 3 \\Rightarrow y_2 = 12$.\n\nVậy tọa độ các điểm cần thỏa yêu cầu đề bài là $\\boxed{(2\\sqrt{3}; 12)}$ và $\\boxed{(-2\\sqrt{3}; 12)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x² trên hệ trục Oxy với x = -2, -1, 0, 1, 2 và y = 4, 1, 0, 1, 4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bảng giá trị.",
+          "Em không biết $\\sqrt{12} = 2\\sqrt 3$.",
+          "Em không biết phương trình có 2 nghiệm."
+        ],
+        "dinh_huong": [
+          "Em định lập phương trình $x^2 = 12$ — đúng không?",
+          "Em định ra $x = ±2\\sqrt 3$ — đúng chứ?",
+          "Em định nhận cả 2 nghiệm — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x^2 = 12$ — đúng không?",
+          "Em ra $x = ±2\\sqrt 3$ — đúng chưa?",
+          "Em ra 2 điểm $(±2\\sqrt 3; 12)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ lấy 1 nghiệm.",
+          "Em không rút gọn $\\sqrt{12} = 2\\sqrt 3$.",
+          "Em viết tọa độ ngược."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-42/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức Q phân thức",
+      "de_bai": "Cho phương trình $x^2 - 3x - 10 = 0$.\n\na) Chứng tỏ phương trình trên có hai nghiệm phân biệt $x_1; x_2$.\n\nb) Không giải phương trình, tính giá trị của biểu thức $Q = \\dfrac{x_1 + 1}{x_2} + \\dfrac{x_2 + 1}{x_1}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète: $x_1 + x_2 = 3$, $x_1 x_2 = -10$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 29$",
+        "$Q = \\dfrac{x_1(x_1+1) + x_2(x_2+1)}{x_1 x_2} = \\dfrac{(x_1^2 + x_2^2) + (x_1 + x_2)}{x_1 x_2}$",
+        "$Q = \\dfrac{29 + 3}{-10} = -\\dfrac{16}{5}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète"
+      ],
+      "dap_so": "$Q = -\\dfrac{16}{5}$",
+      "goi_y_cap_1": "Δ = 9 + 40 = 49 > 0. Viète: $x_1+x_2 = 3$, $x_1 x_2 = -10$. $x_1^2+x_2^2 = 29$. $Q = (29+3)/(-10) = -16/5$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 9 + 40 = 49 > 0$.\n\nCâu b:\n- Viète: $x_1 + x_2 = 3$, $x_1 x_2 = -10$\n- $x_1^2 + x_2^2 = 3^2 - 2 \\cdot (-10) = 29$\n- Quy đồng: $Q = \\dfrac{x_1(x_1+1) + x_2(x_2+1)}{x_1 x_2} = \\dfrac{x_1^2 + x_1 + x_2^2 + x_2}{x_1 x_2}$\n- $= \\dfrac{(x_1^2 + x_2^2) + (x_1 + x_2)}{x_1 x_2} = \\dfrac{29 + 3}{-10} = -\\dfrac{16}{5}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $x^2 - 3x - 10 = 0$ với $a = 1, b = -3, c = -10$.\n\n$\\Delta = b^2 - 4ac = (-3)^2 - 4 \\cdot 1 \\cdot (-10) = 49 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính Q:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = 3 \\\\ x_1 x_2 = \\dfrac{c}{a} = -10 \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1 + x_2)^2 - 2 x_1 x_2 = 3^2 - 2 \\cdot (-10) = 29$.\n\nTa có:\n$$Q = \\dfrac{x_1+1}{x_2} + \\dfrac{x_2+1}{x_1} = \\dfrac{x_1(x_1+1) + x_2(x_2+1)}{x_1 x_2}$$\n$$= \\dfrac{x_1^2 + x_1 + x_2^2 + x_2}{x_1 x_2} = \\dfrac{(x_1^2 + x_2^2) + (x_1 + x_2)}{x_1 x_2}$$\n$$= \\dfrac{29 + 3}{-10} = \\boxed{-\\dfrac{16}{5}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng phân thức.",
+          "Em quên Viète.",
+          "Em không nhận ra cộng được $(x_1^2+x_2^2) + (x_1+x_2)$."
+        ],
+        "dinh_huong": [
+          "Em định quy đồng tử $x_1(x_1+1) + x_2(x_2+1)$ — đúng không?",
+          "Em định Viète $x_1+x_2 = 3$, $x_1 x_2 = -10$ — đúng chứ?",
+          "Em định gộp $(x_1^2+x_2^2) + (x_1+x_2)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x_1^2 + x_2^2 = 29$ — đúng không?",
+          "Em ra tử = $29 + 3 = 32$ — đúng chưa?",
+          "Em ra $Q = -16/5$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên dấu trừ ở $x_1 x_2 = -10$.",
+          "Em không nhận ra tử = $(x_1^2+x_2^2)+(x_1+x_2)$.",
+          "Em không rút gọn $32/-10 = -16/5$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê + Xác suất - Tần số tương đối + 20 thẻ",
+      "de_bai": "a) Bạn Minh hỏi $40$ bạn học sinh bất kì về môn học mà bạn đó yêu thích nhất. Kết quả thống kê được ghi lại ở bảng sau:\n\n| Môn học | Toán | Ngữ Văn | Lịch sử | Thể dục |\n|---|---|---|---|---|\n| Số học sinh yêu thích | 11 | 8 | 9 | 12 |\n\nHãy chỉ ra tần số và tính tần số tương đối của môn Lịch sử.\n\nb) Trong một hộp có $20$ chiếc thẻ cùng loại, được ghi số từ $1$ đến $20$. Hai thẻ khác nhau ghi số khác nhau. Bạn Hà rút ngẫu nhiên một thẻ trong hộp rồi ghi lại số. Hãy tính xác suất của biến cố $A$: \"Số ghi trên thẻ là số lớn hơn $15$\".",
+      "phuong_phap_duoc_dung": [
+        "Tần số Lịch sử = 9",
+        "Tần số tương đối = 9/40 × 100% = 22,5%",
+        "$n(\\Omega) = 20$",
+        "A = {16, 17, 18, 19, 20} → $n(A) = 5$",
+        "$P(A) = 5/20 = 1/4$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tần số, tần số tương đối",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "a) Tần số = 9, tần số tương đối = 22,5%. b) $P(A) = \\dfrac{1}{4}$.",
+      "goi_y_cap_1": "Câu a: Tần số = 9, tần số tương đối = 9/40 × 100% = 22,5%.\n\nCâu b: $n(\\Omega) = 20$. A = {16,17,18,19,20} → $n(A) = 5$. $P(A) = 5/20 = 1/4$.",
+      "goi_y_cap_2": "Câu a:\n- Tần số môn Lịch sử = $9$\n- Tần số tương đối = $\\dfrac{9}{40} \\cdot 100\\% = 22{,}5\\%$\n\nCâu b:\n- $\\Omega = \\{1, 2, ..., 20\\}$, $n(\\Omega) = 20$\n- A: số lớn hơn 15 = $\\{16, 17, 18, 19, 20\\}$\n- $n(A) = 5$\n- $P(A) = 5/20 = 1/4$",
+      "loi_giai_day_du": "**Câu a) Tần số môn Lịch sử:**\n\nTần số của môn Lịch sử là $\\boxed{9}$.\n\nTần số tương đối của môn Lịch sử là:\n$$\\dfrac{9}{40} \\cdot 100\\% = \\boxed{22{,}5\\%}$$\n\n**Câu b) Xác suất biến cố A:**\n\nKhông gian mẫu $n(\\Omega)$ là tập hợp các số từ $1$ đến $20$.\n\n$\\Omega = \\{1; 2; 3; 4; 5; 6; 7; 8; 9; 10; 11; 12; 13; 14; 15; 16; 17; 18; 19; 20\\}$ nên $n(\\Omega) = 20$.\n\nGọi $A$ là biến cố: \"Số ghi trên thẻ là số lớn hơn $15$\".\n\nCác kết quả thuận lợi cho biến cố $A$ là các số lớn hơn $15$ trong hộp: $A = \\{16; 17; 18; 19; 20\\}$.\n\nSuy ra $n(A) = 5$.\n\n$$P(A) = \\dfrac{n(A)}{n(\\Omega)} = \\dfrac{5}{20} = \\boxed{\\dfrac{1}{4}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tần số là gì.",
+          "Em không hiểu tần số tương đối.",
+          "Em không liệt kê được các số > 15."
+        ],
+        "dinh_huong": [
+          "Em định tần số = số HS thích Lịch sử = 9 — đúng không?",
+          "Em định tần số tương đối = 9/40 × 100% — đúng chứ?",
+          "Em định liệt kê {16, 17, 18, 19, 20} — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tần số = 9 — đúng không?",
+          "Em ra 22,5% — đúng chưa?",
+          "Em ra $P(A) = 1/4$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm tần số với tần số tương đối.",
+          "Em đếm thiếu số > 15 (chỉ 16-19, không có 20).",
+          "Em không rút gọn 5/20 = 1/4."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Sân HCN với bồn hoa hình tròn ở góc",
+      "de_bai": "Một cái sân hình chữ nhật có độ dài của một cạnh như hình vẽ. Ở góc sân, người ta làm một bồn hoa hình tròn có bán kính $x$ mét ($x > 0$). Biết bồn hoa tiếp xúc với $2$ cạnh của sân hình chữ nhật và khoảng cách từ cạnh (chiều dài) của sân hình chữ nhật đến đường tròn là $2$ mét (xem hình minh họa).\n\nBồn hoa nằm trong sân, tâm cách 2 cạnh của sân (chiều rộng và 1 đầu chiều dài) là $x$ m, cách cạnh chiều dài còn lại là $x + 2$ m. Chiều dài sân là $1{,}57x + 10$ m.\n\na) Viết biểu thức biểu thị diện tích đất còn lại sau khi đã xây bồn hoa.\n\nb) Hãy tính bán kính của bồn hoa hình tròn biết diện tích đất còn lại sau khi xây bồn hoa là $54{,}71$ m². (Làm tròn kết quả đến chữ số thập phân thứ nhất, $\\pi \\approx 3{,}14$).",
+      "phuong_phap_duoc_dung": [
+        "Chiều rộng sân = $x + (x + 2) = 2x + 2$",
+        "$S_{sân} = (1{,}57x + 10)(2x + 2)$",
+        "$S_{bồn} = \\pi x^2$",
+        "$S = (1{,}57x + 10)(2x + 2) - \\pi x^2$",
+        "Với $\\pi = 3{,}14$, $S = 54{,}71$:",
+        "$(1{,}57x+10)(2x+2) - 3{,}14 x^2 = 54{,}71$",
+        "$3{,}14 x^2 + 3{,}14 x + 20x + 20 - 3{,}14 x^2 = 54{,}71$",
+        "$23{,}14 x + 20 = 54{,}71 \\Rightarrow x = 34{,}71/23{,}14 \\approx 1{,}5$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình tròn",
+        "Phương trình bậc nhất"
+      ],
+      "dap_so": "a) $S = (1{,}57x + 10)(2x + 2) - \\pi x^2$ (m²). b) Bán kính bồn hoa $\\approx 1{,}5$ m.",
+      "goi_y_cap_1": "Câu a: Chiều rộng = $2x + 2$. $S = (1,57x+10)(2x+2) - \\pi x^2$.\n\nCâu b: $(1,57x+10)(2x+2) - 3,14 x^2 = 54,71 \\Rightarrow 23,14x + 20 = 54,71 \\Rightarrow x \\approx 1,5$ m.",
+      "goi_y_cap_2": "Câu a:\n- Chiều rộng sân = $x + (x + 2) = 2x + 2$ (m)\n- $S_{sân} = (1{,}57x + 10)(2x + 2)$ m²\n- $S_{bồn} = \\pi x^2$ m²\n- $S = (1{,}57x + 10)(2x + 2) - \\pi x^2$ m²\n\nCâu b: Với $\\pi = 3{,}14$, $S = 54{,}71$\n- $(1{,}57x + 10)(2x + 2) - 3{,}14 x^2 = 54{,}71$\n- $3{,}14 x^2 + 3{,}14 x + 20x + 20 - 3{,}14 x^2 = 54{,}71$\n- $23{,}14 x + 20 = 54{,}71$\n- $23{,}14 x = 34{,}71$\n- $x = 34{,}71/23{,}14 \\approx 1{,}5$ m",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích đất còn lại:**\n\nChiều rộng của sân hình chữ nhật là $2x + 2$ (m).\n\nDiện tích sân hình chữ nhật là $(1{,}57x + 10)(2x + 2)$ (m²).\n\nDiện tích bồn hoa hình tròn là $\\pi x^2$ (m²).\n\nBiểu thức biểu thị diện tích đất còn lại sau khi đã xây bồn hoa là:\n$$S = \\boxed{(1{,}57x + 10)(2x + 2) - \\pi x^2 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Bán kính bồn hoa:**\n\nTa có $S = 54{,}71$ và $\\pi \\approx 3{,}14$, thay vào biểu thức ta có:\n$$(1{,}57x + 10)(2x + 2) - 3{,}14 x^2 = 54{,}71$$\n$$3{,}14 x^2 + 3{,}14 x + 20x + 20 - 3{,}14 x^2 = 54{,}71$$\n$$23{,}14 x + 20 = 54{,}71$$\n$$23{,}14 x = 34{,}71$$\n$$x = \\dfrac{34{,}71}{23{,}14} \\approx 1{,}5$$\n\nVậy bán kính của bồn hoa hình tròn là $\\boxed{1{,}5 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Sân HCN chiều dài $1{,}57x + 10$ m + bồn hoa hình tròn bán kính $x$ ở góc, cách chiều dài 2m.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính chiều rộng từ thông tin '2m và x'.",
+          "Em không nhớ S hình tròn.",
+          "Em không khai triển được tích."
+        ],
+        "dinh_huong": [
+          "Em định chiều rộng = $2x + 2$ — đúng không?",
+          "Em định $S = S_{sân} - S_{bồn}$ — đúng chứ?",
+          "Em định khai triển và rút gọn → $23{,}14x + 20 = 54{,}71$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = (1{,}57x+10)(2x+2) - \\pi x^2$ — đúng không?",
+          "Em ra $23{,}14 x = 34{,}71$ — đúng chưa?",
+          "Em ra $x \\approx 1{,}5$ m — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm chiều rộng = $x + 2$.",
+          "Em không thấy được $3{,}14 x^2$ triệt tiêu.",
+          "Em không bấm máy đúng $34{,}71/23{,}14$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-42/bai4-bonhoa.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - 2 quả bóng cầu trong hộp trụ",
+      "de_bai": "Người ta xếp hai quả bóng có dạng hình cầu có cùng bán kính $R$ vào một chiếc hộp hình trụ sao cho các quả bóng đều tiếp xúc với hai đáy, đồng thời hai quả bóng tiếp xúc với nhau và mỗi quả bóng đều tiếp xúc với đường sinh của hình trụ (hình vẽ). Biết thể tích của chiếc hộp hình trụ là $120$ cm³. Tính thể tích của mỗi quả bóng. (Công thức tính thể tích hình trụ là $V = \\pi R^2 h$ với $R$ là bán kính đáy, $h$ là chiều cao của hình trụ. Công thức tính thể tích hình cầu $V = \\dfrac{4}{3}\\pi R^3$ với $R$ là bán kính hình cầu).",
+      "phuong_phap_duoc_dung": [
+        "Vì 2 bóng tiếp xúc 2 đáy → $h = 2R$",
+        "Vì 2 bóng tiếp xúc nhau và đường sinh trụ → $R_{trụ} = 2R$ (đường kính trụ = đường kính 2 bóng đặt cạnh nhau)",
+        "Sai - cần xét lại. 2 bóng có cùng bán kính R, đặt vào hộp trụ. Mỗi quả tiếp xúc 2 đáy → mỗi đáy có 2 điểm tiếp xúc → hình trụ phải có chiều cao = 2R (đường kính 1 bóng)",
+        "Mỗi quả tiếp xúc đường sinh trụ → bán kính trụ = R (mỗi bóng đặt sát thành)",
+        "Hai bóng tiếp xúc nhau → 2 bóng đặt cạnh nhau theo chiều ngang → bán kính trụ = 2R (đường kính trụ chứa được 2 bóng cạnh nhau)",
+        "Lời giải mẫu: $h = 2R$ (vì 2 bóng cùng tiếp xúc 2 đáy có nghĩa các quả bóng cao bằng đường kính), $R_{trụ} = 2R$ (2 bóng kề nhau vừa khít)",
+        "$V_{trụ} = \\pi (2R)^2 \\cdot 2R = 8\\pi R^3 = 120$",
+        "$\\pi R^3 = 15$",
+        "$V_{cầu} = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3} \\cdot 15 = 20$ cm³"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình cầu",
+        "Quan hệ tiếp xúc"
+      ],
+      "dap_so": "Thể tích mỗi quả bóng = $20$ cm³.",
+      "goi_y_cap_1": "Vì 2 bóng tiếp xúc 2 đáy → $h = 2R$. Vì 2 bóng tiếp xúc nhau và đường sinh → $R_{trụ} = 2R$. $V_{trụ} = \\pi (2R)^2 \\cdot 2R = 8\\pi R^3 = 120 \\Rightarrow \\pi R^3 = 15$. $V_{cầu} = \\dfrac{4}{3} \\cdot 15 = 20$ cm³.",
+      "goi_y_cap_2": "- Vì hai quả bóng đều tiếp xúc với hai đáy của hộp hình trụ nên chiều cao của hình trụ là $h = 2R$\n- Vì hai quả bóng tiếp xúc với nhau và mỗi quả bóng đều tiếp xúc với đường sinh của hình trụ nên bán kính đáy của hình trụ là $R_{trụ} = 2R$\n- Thể tích hộp: $V_{trụ} = \\pi R_{trụ}^2 \\cdot h = \\pi (2R)^2 \\cdot 2R = 8\\pi R^3$\n- Theo đề: $8\\pi R^3 = 120 \\Rightarrow \\pi R^3 = 15$\n- $V_{cầu} = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3} \\cdot 15 = 20$ cm³",
+      "loi_giai_day_du": "Vì hai quả bóng đều tiếp xúc với hai đáy của hộp hình trụ nên chiều cao của hình trụ là $h = 2R$.\n\nVì hai quả bóng tiếp xúc với nhau và mỗi quả bóng đều tiếp xúc với đường sinh của hình trụ nên bán kính đáy của hình trụ là $R_{trụ} = 2R$.\n\nThể tích của chiếc hộp hình trụ là:\n$$V_{trụ} = \\pi \\cdot R_{trụ}^2 \\cdot h = \\pi \\cdot (2R)^2 \\cdot 2R = 8\\pi R^3$$\n\nTheo đề bài ta có $8\\pi R^3 = 120$, suy ra $\\pi R^3 = 15$.\n\nThể tích của mỗi quả bóng (hình cầu) là:\n$$V_{cầu} = \\dfrac{4}{3}\\pi R^3 = \\dfrac{4}{3} \\cdot 15 = \\boxed{20 \\text{ cm}^3}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hộp hình trụ chứa 2 quả bóng cầu cùng bán kính R, tiếp xúc 2 đáy + tiếp xúc nhau + tiếp xúc đường sinh.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tiếp xúc 2 đáy' nghĩa là gì.",
+          "Em không hình dung được vị trí 2 bóng trong trụ.",
+          "Em không nhớ V cầu, V trụ."
+        ],
+        "dinh_huong": [
+          "Em định $h = 2R$ — đúng không?",
+          "Em định $R_{trụ} = 2R$ (2 bóng kề nhau) — đúng chứ?",
+          "Em định $V_{trụ} = 8\\pi R^3$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $\\pi R^3 = 15$ — đúng không?",
+          "Em ra $V_{cầu} = \\dfrac{4}{3} \\cdot 15$ — đúng chưa?",
+          "Em ra V = 20 cm³ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm $R_{trụ} = R$ (chỉ 1 bóng).",
+          "Em nhầm $h = R$.",
+          "Em không tách được $\\pi R^3$ ra để dùng trong V cầu."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-42/bai5-bong.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Bác An vay tiền với lãi kép 2 năm",
+      "de_bai": "Bác An vay ở một ngân hàng $100$ triệu đồng để sản xuất trong thời hạn một năm. Tuy nhiên do việc làm ăn khó khăn nên bác được gia hạn thêm một năm nữa với lãi suất vẫn như cũ, số tiền lãi của năm đầu được gộp vào với tiền vốn để tính lãi năm sau. Hết hai năm bác An phải trả tất cả $118\\,810\\,000$ đồng. Hỏi lãi suất cho vay của ngân hàng đó là bao nhiêu phần trăm trong một năm?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ (%) là lãi suất",
+        "Sau năm 1: $100\\,000\\,000 \\cdot (1 + x/100)$",
+        "Sau năm 2 (lãi kép): $100\\,000\\,000 \\cdot (1 + x/100)^2$",
+        "$100\\,000\\,000 (1 + x/100)^2 = 118\\,810\\,000$",
+        "$(1 + x/100)^2 = 1{,}1881$",
+        "$x^2 + 200x - 1881 = 0$",
+        "$x = 9$ (nhận) hoặc $x = -209$ (loại)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Lãi kép",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Lãi suất = $9\\%$ trong một năm.",
+      "goi_y_cap_1": "Gọi $x$ (%) là lãi suất. $100\\,000\\,000 (1 + x/100)^2 = 118\\,810\\,000 \\Rightarrow x^2 + 200x - 1881 = 0 \\Rightarrow x = 9$ (nhận) hoặc $-209$ (loại).",
+      "goi_y_cap_2": "- Gọi $x$ (%) là lãi suất ($x > 0$)\n- Số tiền vốn + lãi sau năm 1: $100\\,000\\,000 \\cdot (1 + x/100)$\n- Số tiền vốn + lãi sau năm 2: $100\\,000\\,000 (1 + x/100)^2$\n- $100\\,000\\,000 (1 + x/100)^2 = 118\\,810\\,000$\n- Khai triển: $100\\,000\\,000 (1 + 2x/100 + x^2/10\\,000) = 118\\,810\\,000$\n- $10\\,000 x^2 + 2\\,000\\,000 x + 100\\,000\\,000 - 118\\,810\\,000 = 0$\n- $10\\,000 x^2 + 2\\,000\\,000 x - 18\\,810\\,000 = 0$\n- $x^2 + 200x - 1881 = 0$\n- $x = 9$ (nhận) hoặc $x = -209$ (loại)",
+      "loi_giai_day_du": "Gọi $x$ (%) là lãi suất cho vay của ngân hàng đó trong một năm ($x > 0$).\n\nSố tiền vốn và lãi bác An phải trả sau năm thứ nhất là:\n$$100\\,000\\,000 + 100\\,000\\,000 \\cdot \\dfrac{x}{100} = 100\\,000\\,000 \\left(1 + \\dfrac{x}{100}\\right) \\text{ (đồng)}$$\n\nSố tiền vốn và lãi bác An phải trả sau năm thứ hai là:\n$$100\\,000\\,000 \\left(1 + \\dfrac{x}{100}\\right) + 100\\,000\\,000 \\left(1 + \\dfrac{x}{100}\\right) \\cdot \\dfrac{x}{100} = 100\\,000\\,000 \\left(1 + \\dfrac{x}{100}\\right)^2 \\text{ (đồng)}$$\n\nVì hết hai năm bác An phải trả tất cả $118\\,810\\,000$ đồng nên ta có phương trình:\n$$100\\,000\\,000 \\left(1 + \\dfrac{x}{100}\\right)^2 = 118\\,810\\,000$$\n$$100\\,000\\,000 \\left(1 + \\dfrac{2x}{100} + \\dfrac{x^2}{10\\,000}\\right) - 118\\,810\\,000 = 0$$\n$$10\\,000 x^2 + 2\\,000\\,000 x + 100\\,000\\,000 - 118\\,810\\,000 = 0$$\n$$10\\,000 x^2 + 2\\,000\\,000 x - 18\\,810\\,000 = 0$$\n$$x^2 + 200x - 1881 = 0$$\n\nSuy ra $x_1 = 9$ (nhận) hoặc $x_2 = -209$ (loại).\n\nVậy lãi suất cho vay của ngân hàng đó là $\\boxed{9\\%}$ trong một năm.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'lãi gộp vào vốn' nghĩa là gì.",
+          "Em không biết bắt đầu lập phương trình.",
+          "Em không nhớ công thức lãi kép."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x$ là lãi suất % — đúng không?",
+          "Em định $100M \\cdot (1 + x/100)^2 = 118{,}81M$ — đúng chứ?",
+          "Em định khai triển bình phương — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 + 200x - 1881 = 0$ — đúng không?",
+          "Em ra $x = 9$ hoặc $x = -209$ — đúng chưa?",
+          "Em ra $x = 9\\%$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm lãi đơn (chỉ × 2) thay vì lãi kép.",
+          "Em không loại nghiệm âm.",
+          "Em không khai triển đúng $(1 + x/100)^2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn (O) + tiếp tuyến MP, MQ + cát tuyến MAB",
+      "de_bai": "Từ điểm $M$ nằm ngoài đường tròn $(O)$, kẻ đến $(O)$ các tiếp tuyến $MP, MQ$ và cát tuyến $MAB$ không đi qua tâm ($A, B, P, Q$ thuộc $(O)$). Gọi $I$ là trung điểm của $AB, E$ là giao điểm của $PQ$ và $AB$.\n\na) Chứng minh tứ giác $MPOQ$ nội tiếp và $OM \\perp PQ$.\n\nb) Chứng minh $MP^2 = MI \\cdot ME$.\n\nc) Giả sử $PB = a$ và $A$ là trung điểm của $MB$. Tính $AP$ theo $a$.",
+      "phuong_phap_duoc_dung": [
+        "△MPO vuông P (MP tiếp tuyến) → nội tiếp đường kính MO",
+        "△MQO vuông Q → nội tiếp đường kính MO → MPOQ nội tiếp",
+        "MP = MQ, OP = OQ → OM trung trực PQ → OM ⊥ PQ",
+        "I trung điểm AB → OI ⊥ AB → △MOI vuông I → nội tiếp đường kính MO",
+        "5 điểm M, P, I, O, Q đồng viên đường kính MO",
+        "MIP = MQP (cùng chắn cung MP), MP = MQ → △MPQ cân M → MPQ = MQP → MIP = MQP",
+        "△MPE ~ △MIP (g-g, PME chung, MPE = MIP) → $MP^2 = MI \\cdot ME$",
+        "Câu c: vẽ đường kính PK. PAK = 90° (chắn nửa) → MPA = AKP (cùng phụ APK)",
+        "PBA = AKP (cùng chắn cung PA) → MPA = PBA = MBP",
+        "△MPA ~ △MBP (g-g) → $MP^2 = MA \\cdot MB$ và $MP/MB = PA/PB$",
+        "A trung điểm MB → MB = 2 MA → $MP^2 = MA \\cdot 2 MA = 2 MA^2 \\Rightarrow MP = MA\\sqrt 2$",
+        "$\\dfrac{MA}{MP} = \\dfrac{PA}{PB} \\Rightarrow \\dfrac{MA}{MA\\sqrt 2} = \\dfrac{PA}{a} \\Rightarrow PA = \\dfrac{a}{\\sqrt 2} = \\dfrac{a\\sqrt 2}{2}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Tam giác đồng dạng",
+        "Đường kính qua trung điểm dây",
+        "Tam giác cân"
+      ],
+      "dap_so": "c) $AP = \\dfrac{a\\sqrt{2}}{2}$.",
+      "goi_y_cap_1": "Câu a: △MPO vuông P, △MQO vuông Q → đồng viên đường kính MO → MPOQ nội tiếp. MP=MQ, OP=OQ → OM trung trực PQ → OM ⊥ PQ.\n\nCâu b: I trung điểm AB → OI ⊥ AB → △MOI nội tiếp đường kính MO → 5 điểm M,P,I,O,Q đồng viên. MIP = MQP (cùng chắn cung MP). △MPQ cân M → MPQ = MQP → MIP = MPQ. △MPE ~ △MIP (g-g) → $MP^2 = MI \\cdot ME$.\n\nCâu c: vẽ PK đường kính. PAK = 90°. MPA = AKP. PBA = AKP. → MPA = MBP. △MPA ~ △MBP (g-g) → $MP^2 = MA \\cdot MB$. A trung điểm MB → MB = 2MA → $MP^2 = 2MA^2 \\Rightarrow MP = MA\\sqrt 2$. $MA/MP = PA/PB \\Rightarrow PA = a/\\sqrt 2 = a\\sqrt 2/2$.",
+      "goi_y_cap_2": "Câu a:\n- △MPO vuông P (MP tiếp tuyến) → nội tiếp đường kính MO (1)\n- △MQO vuông Q (MQ tiếp tuyến) → nội tiếp đường kính MO (2)\n- (1)(2): M, P, O, Q cùng đường tròn đường kính MO → MPOQ nội tiếp\n- MP = MQ (2 tiếp tuyến cắt nhau), OP = OQ = R → OM trung trực PQ → OM ⊥ PQ\n\nCâu b:\n- OA = OB = R → △OAB cân O\n- OI là đường trung tuyến (I trung điểm AB) → OI cũng là đường cao → OI ⊥ AB tại I\n- △MOI vuông I → nội tiếp đường kính MO\n- Kết hợp với MPOQ nội tiếp → 5 điểm M, P, I, O, Q cùng đường kính MO\n- $\\widehat{MIP} = \\widehat{MQP}$ (cùng chắn cung MP)\n- MP = MQ → △MPQ cân M → $\\widehat{MPQ} = \\widehat{MQP}$\n- → $\\widehat{MIP} = \\widehat{MPQ}$\n- Xét △MPE và △MIP: $\\widehat{PME}$ chung, $\\widehat{MPE} = \\widehat{MIP}$\n- → △MPE ~ △MIP (g-g) → $\\dfrac{MP}{MI} = \\dfrac{ME}{MP} \\Rightarrow MP^2 = MI \\cdot ME$\n\nCâu c:\n- Vẽ đường kính PK của (O)\n- $\\widehat{PAK} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính PK)\n- $\\widehat{MPA} = \\widehat{AKP}$ (cùng phụ với $\\widehat{APK}$)\n- $\\widehat{PBA} = \\widehat{AKP}$ (2 góc nội tiếp cùng chắn cung PA)\n- → $\\widehat{MPA} = \\widehat{PBA} = \\widehat{MBP}$\n- △MPA và △MBP: $\\widehat{PMA}$ chung, $\\widehat{MPA} = \\widehat{MBP}$\n- → △MPA ~ △MBP (g-g)\n- → $\\dfrac{MP}{MB} = \\dfrac{MA}{MP} = \\dfrac{PA}{PB}$\n- Từ $\\dfrac{MP}{MB} = \\dfrac{MA}{MP} \\Rightarrow MP^2 = MA \\cdot MB$\n- A trung điểm MB → MB = 2MA → $MP^2 = MA \\cdot 2MA = 2MA^2 \\Rightarrow MP = MA\\sqrt 2$\n- Từ $\\dfrac{MA}{MP} = \\dfrac{PA}{PB}$, thay $MP = MA\\sqrt 2$ và $PB = a$:\n- $\\dfrac{MA}{MA\\sqrt 2} = \\dfrac{PA}{a} \\Rightarrow \\dfrac{1}{\\sqrt 2} = \\dfrac{PA}{a} \\Rightarrow PA = \\dfrac{a}{\\sqrt 2} = \\dfrac{a\\sqrt 2}{2}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh MPOQ nội tiếp và OM ⊥ PQ:**\n\nTa có $MP$ là tiếp tuyến của $(O)$ nên $MP \\perp OP$ tại $P$.\n△MPO vuông tại $P$ → nội tiếp đường tròn đường kính $MO$ (1).\n\nTa có $MQ$ là tiếp tuyến của $(O)$ nên $MQ \\perp OQ$ tại $Q$.\n△MQO vuông tại $Q$ → nội tiếp đường tròn đường kính $MO$ (2).\n\nTừ (1) và (2): 4 điểm $M, P, O, Q$ cùng thuộc một đường tròn đường kính $MO$. Suy ra tứ giác $MPOQ$ nội tiếp.\n\nTa có $\\begin{cases} MP = MQ \\text{ (tính chất 2 tiếp tuyến cắt nhau)} \\\\ OP = OQ = R \\end{cases}$\n\n$\\Rightarrow OM$ là trung trực của $PQ$ $\\Rightarrow OM \\perp PQ$.\n\n**Câu b) Chứng minh $MP^2 = MI \\cdot ME$:**\n\nTa có $OA = OB = R$ suy ra △OAB cân tại $O$.\n\nMà $OI$ là đường trung tuyến (do $I$ là trung điểm $AB$) nên $OI$ là đường cao của △OAB.\n$\\Rightarrow OI \\perp AB$ tại $I$.\n\n△MOI vuông tại $I$ (do $OI \\perp AB$) → nội tiếp đường tròn đường kính $MO$.\n\nKết hợp với tứ giác $MPOQ$ nội tiếp đường tròn đường kính $MO$ (chứng minh trên), suy ra $5$ điểm $M, P, I, O, Q$ cùng thuộc đường tròn đường kính $MO$.\n\n$\\widehat{MIP} = \\widehat{MQP} = \\dfrac{1}{2}\\overset{\\frown}{MP}$.\n\n$MP = MQ \\Rightarrow$ △MPQ cân tại $M \\Rightarrow \\widehat{MPQ} = \\widehat{MQP}$.\n\nSuy ra $\\widehat{MIP} = \\widehat{MPQ}$.\n\nXét △MPE và △MIP:\n$\\begin{cases} \\widehat{PME} \\text{ (góc chung)} \\\\ \\widehat{MPE} = \\widehat{MIP} \\text{ (chứng minh trên)} \\end{cases}$\n\n$\\Rightarrow$ △MPE ~ △MIP (g-g)\n\n$\\Rightarrow \\dfrac{MP}{MI} = \\dfrac{ME}{MP} \\Rightarrow MP^2 = MI \\cdot ME$.\n\n**Câu c) Tính AP theo a:**\n\nVẽ đường kính $PK$ của đường tròn $(O)$.\n\nXét đường tròn $(O)$, $\\widehat{PAK} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $PK$).\n\nSuy ra $\\widehat{MPA} = \\widehat{AKP}$ (cùng phụ với $\\widehat{APK}$).\n\nMà $\\widehat{PBA} = \\widehat{AKP}$ (hai góc nội tiếp cùng chắn $\\overset{\\frown}{PA}$).\n\nSuy ra $\\widehat{MPA} = \\widehat{PBA}$, hay $\\widehat{MPA} = \\widehat{MBP}$.\n\nXét △MPA và △MBP:\n$\\begin{cases} \\widehat{PMA} \\text{ (góc chung)} \\\\ \\widehat{MPA} = \\widehat{MBP} \\text{ (chứng minh trên)} \\end{cases}$\n\n$\\Rightarrow$ △MPA ~ △MBP (g-g)\n\n$\\Rightarrow \\dfrac{MP}{MB} = \\dfrac{MA}{MP} = \\dfrac{PA}{PB}$.\n\nTừ $\\dfrac{MP}{MB} = \\dfrac{MA}{MP} \\Rightarrow MP^2 = MA \\cdot MB$.\n\nTheo đề bài, $A$ là trung điểm của $MB$ nên $MB = 2MA$.\n\nSuy ra $MP^2 = MA \\cdot 2MA = 2MA^2 \\Rightarrow MP = MA\\sqrt 2$.\n\nTừ $\\dfrac{MA}{MP} = \\dfrac{PA}{PB}$, thay $MP = MA\\sqrt 2$ và $PB = a$ ta được:\n$$\\dfrac{MA}{MA\\sqrt 2} = \\dfrac{PA}{a} \\Rightarrow \\dfrac{1}{\\sqrt 2} = \\dfrac{PA}{a} \\Rightarrow PA = \\dfrac{a}{\\sqrt 2} = \\dfrac{a\\sqrt 2}{2}$$\n\nVậy $AP = \\boxed{\\dfrac{a\\sqrt 2}{2}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O), M ngoài đường tròn. MP, MQ tiếp tuyến. Cát tuyến MAB không qua O. I trung điểm AB. E giao của PQ và AB.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được MPOQ đồng viên đường kính MO.",
+          "Em không nhớ tính chất đường kính qua trung điểm dây.",
+          "Câu c em không biết vẽ thêm đường phụ."
+        ],
+        "dinh_huong": [
+          "Câu a em định MPOQ đồng viên đường kính MO + OM trung trực PQ — đúng không?",
+          "Câu b em định 5 điểm M,P,I,O,Q đồng viên — đúng chứ?",
+          "Câu c em định vẽ đường kính PK + △MPA ~ △MBP — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra MPOQ nội tiếp + OM ⊥ PQ — đúng không?",
+          "Em ra $MP^2 = MI \\cdot ME$ — đúng chưa?",
+          "Em ra $AP = a\\sqrt 2/2$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không nhận ra OI ⊥ AB.",
+          "Em không nhớ rằng tam giác cân có 2 góc đáy bằng nhau.",
+          "Em không tính được tỉ số $MA/MP = 1/\\sqrt 2$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-42/bai7-tieptuyen.png"
+    }
+  ]
+}

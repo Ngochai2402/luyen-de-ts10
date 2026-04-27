@@ -1,0 +1,372 @@
+{
+  "de_so": 44,
+  "cum": 15,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho parabol $(P): y = \\dfrac{x^2}{2}$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm trên $(P)$ những điểm có tung độ bằng $\\dfrac{2}{9}$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Tung độ = 2/9 → $y = 2/9$",
+        "Thay vào (P): $\\dfrac{x^2}{2} = \\dfrac{2}{9}$",
+        "$x^2 = 4/9 \\Rightarrow x = ±2/3$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $\\left(\\dfrac{2}{3}; \\dfrac{2}{9}\\right)$ và $\\left(-\\dfrac{2}{3}; \\dfrac{2}{9}\\right)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = 8, 2, 0, 2, 8.\n\nCâu b: $y = 2/9$. $\\dfrac{x^2}{2} = \\dfrac{2}{9} \\Rightarrow x^2 = 4/9 \\Rightarrow x = ±2/3$. → $(±2/3; 2/9)$.",
+      "goi_y_cap_2": "Câu a: $x = ±4: y = 8$; $x = ±2: y = 2$; $x = 0: y = 0$.\n\nCâu b:\n- $y = 2/9$\n- $\\dfrac{x^2}{2} = \\dfrac{2}{9} \\Rightarrow \\dfrac{x^2}{2} - \\dfrac{2}{9} = 0$\n- $x_1 = 2/3$; $x_2 = -2/3$\n- $(2/3; 2/9)$ và $(-2/3; 2/9)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{x^2}{2}$ | $8$ | $2$ | $0$ | $2$ | $8$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ điểm:**\n\nVì điểm cần tìm có tung độ bằng $\\dfrac{2}{9}$ nên ta có $y = \\dfrac{2}{9}$.\n\nTa có phương trình $\\dfrac{x^2}{2} = \\dfrac{2}{9}$\n$$\\dfrac{x^2}{2} - \\dfrac{2}{9} = 0$$\n$$x_1 = \\dfrac{2}{3}; \\quad x_2 = -\\dfrac{2}{3}$$\n\nVậy tọa độ các điểm cần tìm là $\\boxed{\\left(\\dfrac{2}{3}; \\dfrac{2}{9}\\right)}$ và $\\boxed{\\left(-\\dfrac{2}{3}; \\dfrac{2}{9}\\right)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x²/2 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = 8, 2, 0, 2, 8.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bảng giá trị.",
+          "Em không biết giải $x^2 = 4/9$.",
+          "Em không hiểu căn bậc hai của phân số."
+        ],
+        "dinh_huong": [
+          "Em định $y = 2/9$ — đúng không?",
+          "Em định lập phương trình $x^2/2 = 2/9$ — đúng chứ?",
+          "Em định 2 nghiệm $x = ±2/3$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 = 4/9$ — đúng không?",
+          "Em ra $x = ±2/3$ — đúng chưa?",
+          "Em ra $(±2/3; 2/9)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ lấy 1 nghiệm dương.",
+          "Em quên rằng $\\sqrt{4/9} = 2/3$.",
+          "Em sai khi quy đồng $x^2/2 = 2/9$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-44/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức P bậc 2",
+      "de_bai": "Cho phương trình $x^2 - 5x - 7 = 0$.\n\na) Chứng tỏ phương trình trên có hai nghiệm phân biệt.\n\nb) Gọi $x_1, x_2$ là hai nghiệm của phương trình. Không giải phương trình, tính giá trị của biểu thức $P = 2x_1(x_1 - x_2 + 3) + x_2(6 - x_1 + 2x_2)$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète: $x_1+x_2 = 5$, $x_1 x_2 = -7$",
+        "$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 25 - 2(-7) = 39$",
+        "Khai triển P: $P = 2x_1^2 - 2x_1 x_2 + 6x_1 + 6x_2 - x_1 x_2 + 2x_2^2$",
+        "$P = 2(x_1^2 + x_2^2) - 3 x_1 x_2 + 6(x_1+x_2) = 2 \\cdot 39 - 3(-7) + 6 \\cdot 5 = 78 + 21 + 30 = 129$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète"
+      ],
+      "dap_so": "$P = 129$",
+      "goi_y_cap_1": "Δ = 25 + 28 = 53 > 0. Viète: $x_1+x_2 = 5$, $x_1 x_2 = -7$. $x_1^2+x_2^2 = 39$. $P = 2(x_1^2+x_2^2) - 3 x_1 x_2 + 6(x_1+x_2) = 78 + 21 + 30 = 129$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 25 + 28 = 53 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = 5$, $x_1 x_2 = -7$\n- $x_1^2 + x_2^2 = 5^2 - 2(-7) = 39$\n- Khai triển:\n  - $P = 2x_1^2 - 2x_1 x_2 + 6x_1 + 6x_2 - x_1 x_2 + 2x_2^2$\n  - $P = 2(x_1^2 + x_2^2) - 3 x_1 x_2 + 6(x_1+x_2)$\n  - $= 2 \\cdot 39 - 3(-7) + 6 \\cdot 5 = 78 + 21 + 30 = 129$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $x^2 - 5x - 7 = 0$ với $a = 1; b = -5; c = -7$.\n\n$\\Delta = b^2 - 4ac = (-5)^2 - 4 \\cdot 1 \\cdot (-7) = 25 + 28 = 53 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính P:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = 5 \\\\ x_1 x_2 = \\dfrac{c}{a} = -7 \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2 = 5^2 - 2(-7) = 39$.\n\nBiến đổi biểu thức $P$:\n$$P = 2x_1^2 - 2x_1 x_2 + 6x_1 + 6x_2 - x_1 x_2 + 2x_2^2$$\n$$P = 2(x_1^2 + x_2^2) - 3x_1 x_2 + 6(x_1 + x_2)$$\n\nThay giá trị vào biểu thức ta được:\n$$P = 2 \\cdot 39 - 3 \\cdot (-7) + 6 \\cdot 5 = 78 + 21 + 30 = \\boxed{129}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết khai triển $2x_1(x_1 - x_2 + 3)$.",
+          "Em quên Viète.",
+          "Em không nhóm được $x_1^2 + x_2^2$."
+        ],
+        "dinh_huong": [
+          "Em định khai triển hết rồi nhóm theo Viète — đúng không?",
+          "Em định nhóm $2(x_1^2 + x_2^2) - 3 x_1 x_2 + 6(x_1+x_2)$ — đúng chứ?",
+          "Em định Viète $x_1+x_2 = 5$, $x_1 x_2 = -7$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x_1^2 + x_2^2 = 39$ — đúng không?",
+          "Em ra $P = 78 + 21 + 30$ — đúng chưa?",
+          "Em ra $P = 129$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên dấu khi mở ngoặc.",
+          "Em nhầm $-3 x_1 x_2 = -3(-7) = 21$.",
+          "Em không cộng được 78 + 21 + 30."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Xác suất - Hộp 52 thẻ ghi số 1-52",
+      "de_bai": "Một hộp kín có $52$ tấm thẻ cùng loại, mỗi thẻ được ghi một trong các số $1, 2, 3, \\ldots, 52$; hai thẻ khác nhau thì ghi hai số khác nhau. Rút ngẫu nhiên $1$ thẻ trong hộp. Tính xác suất của mỗi biến cố sau:\n\na) $A$: \"Số xuất hiện trên thẻ được rút ra là số có chữ số tận cùng bằng $5$\".\n\nb) $B$: \"Số xuất hiện trên thẻ được rút ra là số có hai chữ số\".\n\nc) $C$: \"Số xuất hiện trên thẻ được rút ra là số có hai chữ số sao cho tích các chữ số bằng $6$\".",
+      "phuong_phap_duoc_dung": [
+        "$n(\\Omega) = 52$",
+        "A: tận cùng 5 = {5, 15, 25, 35, 45} → $n(A) = 5$, $P(A) = 5/52$",
+        "B: số có 2 chữ số = từ 10 đến 52 → $n(B) = 52 - 10 + 1 = 43$, $P(B) = 43/52$",
+        "C: $\\overline{ab}$ với $a \\cdot b = 6$, $1 \\leq a \\leq 5$, $0 \\leq b \\leq 9$",
+        "(a,b) = (1,6), (2,3), (3,2) → các số 16, 23, 32 → $n(C) = 3$, $P(C) = 3/52$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Xác suất cổ điển",
+        "Số có 2 chữ số"
+      ],
+      "dap_so": "a) $P(A) = \\dfrac{5}{52}$. b) $P(B) = \\dfrac{43}{52}$. c) $P(C) = \\dfrac{3}{52}$.",
+      "goi_y_cap_1": "Câu a: Tận cùng 5 = {5,15,25,35,45} → $P(A) = 5/52$.\n\nCâu b: Số 2 chữ số từ 10 đến 52 → $P(B) = 43/52$.\n\nCâu c: $a \\cdot b = 6$ với $\\overline{ab} \\leq 52$: (1,6)→16, (2,3)→23, (3,2)→32, loại (6,1)→61 vì >52 → $P(C) = 3/52$.",
+      "goi_y_cap_2": "$n(\\Omega) = 52$.\n\nCâu a:\n- Số tận cùng 5: {5, 15, 25, 35, 45}\n- $n(A) = 5$, $P(A) = 5/52$\n\nCâu b:\n- Số có 2 chữ số: từ 10 đến 52\n- $n(B) = 52 - 10 + 1 = 43$, $P(B) = 43/52$\n\nCâu c:\n- Số có 2 chữ số $\\overline{ab}$ với $a \\cdot b = 6$\n- ĐK: $1 \\leq a \\leq 5$, $0 \\leq b \\leq 9$\n- Cặp $(a,b)$: $(1,6), (2,3), (3,2)$\n- Loại $(6,1)$ vì $61 > 52$\n- Các số: 16, 23, 32 → $n(C) = 3$, $P(C) = 3/52$",
+      "loi_giai_day_du": "**Câu a) Xác suất biến cố A:**\n\nKhông gian mẫu $n(\\Omega) = 52$.\n\nCác số có chữ số tận cùng bằng $5$ trong hộp là: $5; 15; 25; 35; 45$.\n\nSuy ra $n(A) = 5$.\n\n$$P(A) = \\boxed{\\dfrac{5}{52}}$$\n\n**Câu b) Xác suất biến cố B:**\n\nCác số có hai chữ số trong hộp là các số từ $10$ đến $52$.\n\nSuy ra $n(B) = 52 - 10 + 1 = 43$.\n\n$$P(B) = \\boxed{\\dfrac{43}{52}}$$\n\n**Câu c) Xác suất biến cố C:**\n\nGọi số có hai chữ số cần tìm là $\\overline{ab}$ ($1 \\leq a \\leq 5; 0 \\leq b \\leq 9$).\n\nTa có $a \\cdot b = 6$. Các cặp số $(a, b)$ thỏa mãn là $(1, 6), (2, 3), (3, 2)$.\n\n(Loại cặp $(6, 1)$ vì $61 > 52$).\n\nCác kết quả thuận lợi cho biến cố $C$ là: $16; 23; 32$. Suy ra $n(C) = 3$.\n\n$$P(C) = \\boxed{\\dfrac{3}{52}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết liệt kê số tận cùng 5.",
+          "Em không biết đếm số có 2 chữ số từ 10 đến 52.",
+          "Em không tìm được cặp $a \\cdot b = 6$."
+        ],
+        "dinh_huong": [
+          "Em định liệt kê số tận cùng 5 từ 5 đến 45 — đúng không?",
+          "Em định đếm 52-10+1 = 43 — đúng chứ?",
+          "Em định loại cặp (6,1) → 61 vì > 52 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $P(A) = 5/52$ — đúng không?",
+          "Em ra $P(B) = 43/52$ — đúng chưa?",
+          "Em ra $P(C) = 3/52$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm thiếu hoặc thừa số tận cùng 5.",
+          "Em không loại 61 (vì > 52).",
+          "Em quên rằng $\\overline{ab}$ thì $a \\geq 1$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Khu vườn HCN + hồ tròn + kho vuông",
+      "de_bai": "Trong một khu vườn hình chữ nhật có chiều dài là $x$ (m) và chiều rộng là $y$ (m), chú Bình xây một cái hồ hình tròn tiếp xúc với các cạnh của khu vườn và dành một phần đất hình vuông cạnh $2$ mét để làm kho chứa đồ như hình vẽ.\n\na) Viết biểu thức tính diện tích phần còn lại của khu vườn sau khi xây hồ và làm kho chứa đồ theo $x$ và $y$.\n\nb) Biết rằng khu vườn hình chữ nhật có chiều dài gấp ba lần chiều rộng và diện tích phần còn lại của khu vườn là $1380{,}275$ (m²). Tìm các chiều dài, chiều rộng ban đầu của khu vườn. (Lấy giá trị $\\pi \\approx 3{,}14$).",
+      "phuong_phap_duoc_dung": [
+        "$S_{vườn} = x \\cdot y$",
+        "Hồ tiếp xúc các cạnh chiều rộng → đường kính = y → bán kính = y/2",
+        "$S_{hồ} = \\pi (y/2)^2 = \\pi y^2/4$",
+        "$S_{kho} = 2^2 = 4$",
+        "$S = xy - \\pi y^2/4 - 4$",
+        "$x = 3y$, thay $\\pi = 3{,}14$: $3y \\cdot y - 3{,}14 y^2/4 - 4 = 1380{,}275$",
+        "$3y^2 - 0{,}785 y^2 = 1384{,}275$ → $2{,}215 y^2 = 1384{,}275$ → $y^2 = 625$ → $y = 25$",
+        "$x = 75$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình tròn, hình vuông",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = xy - \\dfrac{\\pi y^2}{4} - 4$ (m²). b) Chiều rộng $25$ m, chiều dài $75$ m.",
+      "goi_y_cap_1": "Câu a: $S = xy - \\pi y^2/4 - 4$.\n\nCâu b: $x = 3y$. $3y^2 - 0,785 y^2 - 4 = 1380,275 \\Rightarrow 2,215 y^2 = 1384,275 \\Rightarrow y^2 = 625 \\Rightarrow y = 25$. $x = 75$.",
+      "goi_y_cap_2": "Câu a:\n- $S_{vườn} = x \\cdot y$ (m²)\n- Hồ tròn tiếp xúc các cạnh chiều rộng → đường kính = $y$, bán kính = $y/2$\n- $S_{hồ} = \\pi (y/2)^2 = \\dfrac{\\pi y^2}{4}$ (m²)\n- $S_{kho} = 2^2 = 4$ (m²)\n- $S = xy - \\dfrac{\\pi y^2}{4} - 4$ (m²)\n\nCâu b:\n- Chiều dài gấp ba chiều rộng: $x = 3y$\n- $3y \\cdot y - \\dfrac{3{,}14 y^2}{4} - 4 = 1380{,}275$\n- $3y^2 - 0{,}785 y^2 = 1384{,}275$\n- $y^2 = 625 \\Rightarrow y = 25$ (m)\n- $x = 75$ (m)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích còn lại:**\n\nDiện tích khu vườn hình chữ nhật là $S_{hcn} = x \\cdot y$ (m²).\n\nVì hồ hình tròn tiếp xúc với các cạnh chiều rộng của khu vườn nên đường kính hồ bằng $y$ (m).\n\nBán kính hồ là $R = \\dfrac{y}{2}$ (m).\n\nDiện tích hồ hình tròn là:\n$$S_{hồ} = \\pi \\left(\\dfrac{y}{2}\\right)^2 = \\dfrac{\\pi y^2}{4} \\text{ (m}^2\\text{)}$$\n\nDiện tích kho chứa đồ hình vuông là $S_{kho} = 2^2 = 4$ (m²).\n\nBiểu thức tính diện tích phần còn lại của khu vườn là:\n$$\\boxed{S = xy - \\dfrac{\\pi y^2}{4} - 4 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tìm chiều dài, chiều rộng:**\n\nVì chiều dài gấp ba lần chiều rộng nên $x = 3y$.\n\nTheo đề bài, diện tích phần còn lại là $1380{,}275$ m² và $\\pi \\approx 3{,}14$, ta có phương trình:\n$$3y \\cdot y - \\dfrac{3{,}14 \\cdot y^2}{4} - 4 = 1380{,}275$$\n$$3y^2 - 0{,}785 y^2 = 1384{,}275$$\n$$2{,}215 y^2 = 1384{,}275$$\n$$y^2 = 625$$\n$$y = 25 \\text{ (vì } y > 0\\text{)}$$\n\nSuy ra chiều rộng là $25$ m.\nChiều dài khu vườn là $x = 3 \\cdot 25 = 75$ (m).\n\nVậy chiều rộng khu vườn là $\\boxed{25 \\text{ m}}$ và chiều dài là $\\boxed{75 \\text{ m}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Khu vườn HCN x × y với hồ tròn tiếp xúc 2 cạnh chiều rộng + kho vuông cạnh 2m ở góc.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết hồ tiếp xúc các cạnh nghĩa là gì.",
+          "Em không biết bán kính = đường kính/2.",
+          "Em không nhớ S vuông = cạnh²."
+        ],
+        "dinh_huong": [
+          "Em định bán kính = $y/2$ — đúng không?",
+          "Em định $S = xy - $ S hồ - S kho — đúng chứ?",
+          "Em định $x = 3y$ rồi thế vào — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = xy - \\pi y^2/4 - 4$ — đúng không?",
+          "Em ra $y^2 = 625$ — đúng chưa?",
+          "Em ra $y = 25$, $x = 75$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm bán kính = $y$ thay vì $y/2$.",
+          "Em quên trừ 4.",
+          "Em không tính đúng $3 - 0{,}785 = 2{,}215$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-44/bai4-vuon.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Thùng nước hình trụ + bể chứa",
+      "de_bai": "Một thùng đựng nước có dạng hình trụ chiều cao là $h = 35$ cm và bán kính đáy $r = 15$ cm.\n\na) Tính thể tích của thùng.\n\nb) Người ta sử dụng thùng trên để múc nước đổ vào một bể chứa có dung tích $1$ m³. Hỏi cần phải đổ ít nhất bao nhiêu thùng thì đầy bể chứa? Biết rằng mỗi lần xách người ta chỉ đổ đầy $90\\%$ thùng để nước không đổ ra ngoài. Biết công thức tính thể tích hình trụ là $V = \\pi R^2 h$. (Lấy $\\pi \\approx 3{,}14$).",
+      "phuong_phap_duoc_dung": [
+        "$V = \\pi r^2 h = \\pi \\cdot 15^2 \\cdot 35 = 7875\\pi$ cm³",
+        "$V \\approx 7875 \\cdot 3{,}14 = 24727{,}5$ cm³",
+        "Đổi 1 m³ = 1 000 000 cm³",
+        "$V_{nước/lần} = 90\\% V \\approx 22254{,}75$ cm³",
+        "Số thùng = $1\\,000\\,000 / 22254{,}75 \\approx 44{,}93$ → 45 thùng"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ",
+        "Đổi đơn vị m³ sang cm³"
+      ],
+      "dap_so": "a) $V \\approx 24\\,727{,}5$ cm³. b) Cần ít nhất $45$ thùng.",
+      "goi_y_cap_1": "Câu a: $V = \\pi \\cdot 15^2 \\cdot 35 = 7875\\pi \\approx 24727,5$ cm³.\n\nCâu b: 1 m³ = 10⁶ cm³. Mỗi lần đổ $0,9 V \\approx 22254,75$ cm³. Số thùng = $10^6/22254,75 \\approx 44,93$ → 45 thùng.",
+      "goi_y_cap_2": "Câu a:\n- $V = \\pi r^2 h = \\pi \\cdot 15^2 \\cdot 35 = 7875\\pi$ cm³\n- Thay $\\pi \\approx 3{,}14$: $V \\approx 7875 \\cdot 3{,}14 = 24\\,727{,}5$ cm³\n\nCâu b:\n- Đổi 1 m³ = 1 000 000 cm³\n- $V_{nước}$ mỗi lần (90%) = $0{,}9 \\cdot 24\\,727{,}5 = 22\\,254{,}75$ cm³\n- Số thùng cần đổ = $\\dfrac{1\\,000\\,000}{22\\,254{,}75} \\approx 44{,}93$\n- Vì cần đủ nước nên cần ít nhất 45 thùng",
+      "loi_giai_day_du": "**Câu a) Thể tích thùng:**\n\nThể tích của thùng nước là:\n$$V = \\pi r^2 h = \\pi \\cdot 15^2 \\cdot 35 = 7875\\pi \\text{ (cm}^3\\text{)}$$\n\nThay $\\pi \\approx 3{,}14$:\n$$V \\approx 7875 \\cdot 3{,}14 = \\boxed{24\\,727{,}5 \\text{ cm}^3}$$\n\n**Câu b) Số thùng cần đổ:**\n\nĐổi $1$ m³ = $1\\,000\\,000$ cm³.\n\nThể tích nước xách được trong mỗi lần (90% thùng) là:\n$$V_{nước} = 90\\% \\cdot V \\approx 0{,}9 \\cdot 24\\,727{,}5 = 22\\,254{,}75 \\text{ (cm}^3\\text{)}$$\n\nSố thùng nước ít nhất cần đổ để đầy bể là:\n$$n = \\dfrac{1\\,000\\,000}{22\\,254{,}75} \\approx 44{,}93 \\text{ (thùng)}$$\n\nVì số lần đổ phải là số nguyên nên ta cần đổ ít nhất $45$ thùng.\n\nVậy cần phải đổ ít nhất $\\boxed{45 \\text{ thùng}}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Thùng nước hình trụ chiều cao h = 35cm, bán kính đáy r = 15cm, mực nước ở 90% thùng.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ V hình trụ.",
+          "Em không biết đổi 1 m³ ra cm³.",
+          "Em quên 90% nghĩa là 0,9."
+        ],
+        "dinh_huong": [
+          "Em định $V = \\pi r^2 h$ — đúng không?",
+          "Em định 1 m³ = 10⁶ cm³ — đúng chứ?",
+          "Em định làm tròn lên 45 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V \\approx 24727{,}5$ — đúng không?",
+          "Em ra số thùng ≈ 44,93 — đúng chưa?",
+          "Em ra cần 45 thùng — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm 1 m³ = 10⁶ cm³ thành 10⁴ hoặc 10⁵.",
+          "Em làm tròn xuống 44 (sai - phải làm tròn lên).",
+          "Em quên nhân 90%."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-44/bai5-thung.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hai xe ngược chiều",
+      "de_bai": "Một xe khách đi từ tỉnh $A$ đến tỉnh $B$. Cùng lúc đó, một xe chở hàng đi từ tỉnh $B$ về tỉnh $A$. Cả hai xe đi với vận tốc không đổi. Sau khi gặp nhau được $2$ giờ thì hai xe cách nhau $280$ km. Kể từ khi gặp nhau, xe khách chạy thêm $9$ giờ nữa thì đến $B$, còn xe chở hàng thì chạy thêm $16$ giờ nữa mới đến $A$. Tính vận tốc của mỗi xe.",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ (km/h) là vận tốc xe khách, $y$ (km/h) là vận tốc xe chở hàng",
+        "Sau gặp nhau 2h: $2x + 2y = 280 \\Rightarrow x + y = 140$",
+        "Quãng đường từ chỗ gặp đến B: $9x$ (xe khách đi 9h) = $2y$ (xe hàng đã đi 2h từ chỗ này theo hướng ngược lại)... thực ra: chỗ gặp đến B = quãng đường xe hàng đã đi từ B đến chỗ gặp",
+        "Cùng thời gian khởi hành: $\\dfrac{16y}{x} = \\dfrac{9x}{y}$ → $16y^2 = 9x^2$ → $4y = 3x$ → $3x - 4y = 0$",
+        "Hệ → $x = 80, y = 60$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình bậc nhất",
+        "Bài toán chuyển động ngược chiều"
+      ],
+      "dap_so": "Vận tốc xe khách $80$ km/h, vận tốc xe chở hàng $60$ km/h.",
+      "goi_y_cap_1": "Gọi $x, y$ là vận tốc xe khách và xe chở hàng. Hệ: $x+y = 140$ (sau 2h cách 280km), $3x - 4y = 0$ (cùng thời gian khởi hành) → $x = 80, y = 60$ km/h.",
+      "goi_y_cap_2": "- Gọi $x$ (km/h) là vận tốc xe khách, $y$ (km/h) là vận tốc xe chở hàng ($x, y > 0$)\n- Sau gặp nhau 2h: $2x + 2y = 280 \\Rightarrow x + y = 140$ (1)\n- Từ chỗ gặp đến B: xe khách đi 9h → quãng đường $9x$ km. Đây cũng là quãng đường xe chở hàng đã đi từ B đến chỗ gặp.\n- Từ chỗ gặp đến A: xe chở hàng đi 16h → quãng đường $16y$ km. Đây cũng là quãng đường xe khách đã đi từ A đến chỗ gặp.\n- Vì 2 xe khởi hành cùng lúc, thời gian đi từ A và B đến chỗ gặp bằng nhau:\n  - Xe khách: $16y/x$\n  - Xe chở hàng: $9x/y$\n- $\\dfrac{16y}{x} = \\dfrac{9x}{y} \\Rightarrow 16y^2 = 9x^2 \\Rightarrow 4y = 3x \\Rightarrow 3x - 4y = 0$ (2)\n- Hệ: $\\begin{cases} x + y = 140 \\\\ 3x - 4y = 0 \\end{cases} \\Rightarrow \\begin{cases} x = 80 \\\\ y = 60 \\end{cases}$",
+      "loi_giai_day_du": "Gọi $x$ (km/h) là vận tốc của xe khách, $y$ (km/h) là vận tốc của xe chở hàng ($x, y > 0$).\n\nSau khi gặp nhau được $2$ giờ, xe khách đi được quãng đường là $2x$ (km) và xe chở hàng đi được quãng đường là $2y$ (km). Khi đó hai xe cách nhau $280$ km nên ta có phương trình:\n$$2x + 2y = 280 \\Rightarrow x + y = 140 \\quad (1)$$\n\nQuãng đường từ chỗ gặp nhau đến $B$ mà xe khách đi trong $9$ giờ là $9x$ (km). Đây chính là quãng đường mà xe chở hàng đã đi từ $B$ đến chỗ gặp nhau.\n\nQuãng đường từ chỗ gặp nhau đến $A$ mà xe chở hàng đi trong $16$ giờ là $16y$ (km). Đây chính là quãng đường mà xe khách đã đi từ $A$ đến chỗ gặp nhau.\n\nVì hai xe khởi hành cùng lúc nên thời gian hai xe đi từ lúc khởi hành đến lúc gặp nhau là bằng nhau. Ta có phương trình:\n$$\\dfrac{16y}{x} = \\dfrac{9x}{y} \\Rightarrow 16y^2 = 9x^2 \\Rightarrow 4y = 3x \\Rightarrow 3x - 4y = 0 \\quad (2)$$\n\nTừ (1) và (2) ta có hệ phương trình:\n$$\\begin{cases} x + y = 140 \\\\ 3x - 4y = 0 \\end{cases} \\Rightarrow \\begin{cases} x = 80 \\\\ y = 60 \\end{cases}$$\n\nVậy vận tốc xe khách là $\\boxed{80 \\text{ km/h}}$ và vận tốc xe chở hàng là $\\boxed{60 \\text{ km/h}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'sau khi gặp nhau 2 giờ cách nhau 280km'.",
+          "Em không biết tổng quãng đường hai xe đi tỉ lệ với vận tốc.",
+          "Em không biết bắt đầu lập phương trình."
+        ],
+        "dinh_huong": [
+          "Em định $x + y = 140$ (sau 2h cách nhau 280km) — đúng không?",
+          "Em định thời gian đi đến chỗ gặp bằng nhau — đúng chứ?",
+          "Em định $9x = $ quãng đường xe hàng đã đi — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra hệ với $3x - 4y = 0$ — đúng không?",
+          "Em ra $x = 80, y = 60$ — đúng chưa?",
+          "Em ra xe khách 80 km/h, xe hàng 60 km/h — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy quãng đường $9x$ = quãng đường xe hàng đã đi.",
+          "Em không lập được phương trình thời gian.",
+          "Em nhầm vai trò $x$ và $y$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Tam giác nhọn nội tiếp + 3 đường cao + đường kính AT",
+      "de_bai": "Cho tam giác nhọn $ABC$ ($AB < AC$) có ba đỉnh nằm trên đường tròn $(O)$. Các đường cao $AD, BE, CF$ của tam giác $ABC$ cắt nhau tại $H$. Vẽ đường kính $AT$ của đường tròn $(O)$.\n\na) Chứng minh tứ giác $BFEC$ nội tiếp một đường tròn và $AB \\cdot AC = AD \\cdot AT$.\n\nb) Tia $AD$ kéo dài cắt đường tròn $(O)$ tại $K$ ($K \\neq A$). Gọi $M$ là giao điểm thứ hai của $KE$ và đường tròn $(O)$. Chứng minh rằng $\\widehat{BMK} = \\widehat{HEF}$ và $D$ là trung điểm của $HK$.\n\nc) Giả sử $BC = R\\sqrt{3}$, tính diện tích hình viên phân giới hạn bởi cung $BC$ và dây căng cung $BC$ theo $R$.",
+      "phuong_phap_duoc_dung": [
+        "△BFC vuông F (CF đường cao) → nội tiếp đường kính BC",
+        "△BEC vuông E → nội tiếp đường kính BC → BFEC nội tiếp đường kính BC",
+        "ACT = 90° (chắn nửa AT)",
+        "△ABD và △ATC: ADB = ACT = 90°, ABD = ATC (cùng chắn cung AC)",
+        "→ △ABD ~ △ATC (g-g) → $AB/AT = AD/AC \\Rightarrow AB \\cdot AC = AD \\cdot AT$",
+        "Câu b: CHD = CBE = CBA (cùng phụ với ACB), CKD = CKA = CBA (cùng chắn cung AC)",
+        "→ CHD = CKD → △CHK cân C, CD đường cao = trung tuyến → D là trung điểm HK",
+        "BMK = BCK = (1/2)cung BK; △HCK cân C, CD đường cao = phân giác → BCK = BCH",
+        "Tứ giác BFEC: HEF = FEH = (cùng chắn FB) = FCB = HCB → HEF = BCH = BMK",
+        "Câu c: Kẻ OI ⊥ BC tại I → I trung điểm BC → BI = R√3/2",
+        "△OIB vuông I: $\\sin\\widehat{IOB} = BI/OB = \\sqrt 3/2$ → IOB = 60° → BOC = 120°",
+        "$S_{quạt} = \\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$",
+        "$OI^2 = R^2 - 3R^2/4 = R^2/4 \\Rightarrow OI = R/2$",
+        "$S_{△OBC} = \\dfrac{1}{2} BC \\cdot OI = \\dfrac{R^2 \\sqrt 3}{4}$",
+        "$S_{viên phân} = S_{quạt} - S_{△OBC} = R^2(\\dfrac{\\pi}{3} - \\dfrac{\\sqrt 3}{4})$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tam giác đồng dạng",
+        "Tam giác cân, đường cao = trung tuyến",
+        "Diện tích hình viên phân"
+      ],
+      "dap_so": "c) $S_{vp} = R^2 \\left(\\dfrac{\\pi}{3} - \\dfrac{\\sqrt{3}}{4}\\right)$.",
+      "goi_y_cap_1": "Câu a: △BFC vuông F, △BEC vuông E → BFEC đồng viên đường kính BC. △ABD ~ △ATC (g-g) → AB·AC = AD·AT.\n\nCâu b: CHD = CBA (cùng phụ ACB), CKD = CBA (cùng chắn cung AC) → CHD = CKD → △CHK cân C, CD đường cao = trung tuyến → D trung điểm HK. BMK = BCK = BCH (do CD phân giác △CHK cân) = HEF.\n\nCâu c: Kẻ OI ⊥ BC tại I → BI = R√3/2. sin IOB = √3/2 → IOB = 60° → BOC = 120°. $S_{quạt} = \\pi R^2/3$. OI = R/2. $S_{OBC} = R²\\sqrt 3/4$. $S_{vp} = R²(\\pi/3 - \\sqrt 3/4)$.",
+      "goi_y_cap_2": "Câu a:\n- △BFC vuông F (CF đường cao) → nội tiếp đường kính BC (1)\n- △BEC vuông E (BE đường cao) → nội tiếp đường kính BC (2)\n- (1)(2): B, F, E, C đồng viên đường kính BC → BFEC nội tiếp\n- $\\widehat{ACT} = 90°$ (chắn nửa AT)\n- Xét △ABD và △ATC:\n  - $\\widehat{ADB} = \\widehat{ACT} = 90°$\n  - $\\widehat{ABD} = \\widehat{ATC} = \\dfrac{1}{2}\\overset{\\frown}{AC}$\n  - → △ABD ~ △ATC (g-g)\n- → $\\dfrac{AB}{AT} = \\dfrac{AD}{AC} \\Rightarrow AB \\cdot AC = AD \\cdot AT$\n\nCâu b:\n- $\\widehat{CHD} = \\widehat{CBE} = \\widehat{CBA}$ (cùng phụ với $\\widehat{ACB}$)\n- $\\widehat{CKD} = \\widehat{CKA} = \\widehat{CBA}$ (góc nội tiếp cùng chắn cung AC)\n- → $\\widehat{CHD} = \\widehat{CKD}$ → △CHK cân tại C\n- CD đường cao → CD đồng thời là trung tuyến → D trung điểm HK\n- $\\widehat{BMK} = \\widehat{BCK} = \\dfrac{1}{2}\\overset{\\frown}{BK}$\n- △HCK cân C có CD là đường cao = phân giác → $\\widehat{BCK} = \\widehat{BCH}$\n- BFEC nội tiếp → $\\widehat{HEF} = \\widehat{FEH} = \\widehat{FCB} = \\widehat{HCB}$\n- → $\\widehat{BMK} = \\widehat{HEF}$\n\nCâu c:\n- Kẻ $OI \\perp BC$ tại I → I trung điểm BC → $BI = BC/2 = R\\sqrt 3/2$\n- △OIB vuông I: $\\sin\\widehat{IOB} = BI/OB = \\sqrt 3/2$ → $\\widehat{IOB} = 60°$ → $\\widehat{BOC} = 120°$\n- $S_q = \\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$\n- Pythagore: $OI^2 = OB^2 - BI^2 = R^2 - 3R^2/4 = R^2/4 \\Rightarrow OI = R/2$\n- $S_{△OBC} = \\dfrac{1}{2} \\cdot BC \\cdot OI = \\dfrac{1}{2} \\cdot R\\sqrt 3 \\cdot \\dfrac{R}{2} = \\dfrac{R^2\\sqrt 3}{4}$\n- $S_{viên phân} = S_q - S_{△OBC} = \\dfrac{\\pi R^2}{3} - \\dfrac{R^2\\sqrt 3}{4} = R^2\\left(\\dfrac{\\pi}{3} - \\dfrac{\\sqrt 3}{4}\\right)$",
+      "loi_giai_day_du": "**Câu a) Chứng minh BFEC nội tiếp và $AB \\cdot AC = AD \\cdot AT$:**\n\n△BFC vuông tại F (CF là đường cao) → nội tiếp đường tròn đường kính BC (1).\n\n△BEC vuông tại E (BE là đường cao) → nội tiếp đường tròn đường kính BC (2).\n\nTừ (1) và (2): 4 điểm $B, F, E, C$ cùng thuộc đường tròn đường kính $BC$. Suy ra tứ giác $BFEC$ nội tiếp.\n\n$\\widehat{ACT} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AT).\n\nXét △ABD và △ATC:\n$\\begin{cases} \\widehat{ADB} = \\widehat{ACT} = 90° \\\\ \\widehat{ABD} = \\widehat{ATC} = \\dfrac{1}{2}\\overset{\\frown}{AC} \\end{cases}$\n\n$\\Rightarrow \\triangle ABD \\sim \\triangle ATC$ (g-g)\n\n$\\Rightarrow \\dfrac{AB}{AT} = \\dfrac{AD}{AC} \\Rightarrow AB \\cdot AC = AD \\cdot AT$. □\n\n**Câu b) Chứng minh $\\widehat{BMK} = \\widehat{HEF}$ và D là trung điểm HK:**\n\nTa có $\\widehat{CHD} = \\widehat{CBE} = \\widehat{CBA}$ (cùng phụ với $\\widehat{ACB}$).\n\n$\\widehat{CKD} = \\widehat{CKA} = \\widehat{CBA}$ (góc nội tiếp cùng chắn cung $AC$).\n\nSuy ra $\\widehat{CHD} = \\widehat{CKD}$. Vậy △CHK cân tại C.\n\nMà $CD$ là đường cao nên $CD$ là đường trung tuyến của △CHK.\n\n$\\Rightarrow D$ là trung điểm của $HK$.\n\nTa có $\\widehat{BMK} = \\widehat{BCK} = \\dfrac{1}{2}\\overset{\\frown}{BK}$.\n\n△HCK cân tại C có $CD$ là đường cao cũng là phân giác $\\Rightarrow \\widehat{BCK} = \\widehat{BCH}$.\n\nTứ giác $BFEC$ nội tiếp $\\Rightarrow \\widehat{FEH} = \\widehat{FCB} = \\dfrac{1}{2}\\overset{\\frown}{FB}$.\n\nVậy $\\widehat{BMK} = \\widehat{HEF}$.\n\n**Câu c) Diện tích hình viên phân:**\n\nKẻ $OI \\perp BC$ tại $I$.\n\nVì $OB = OC = R$ nên △OBC cân tại O. Suy ra đường cao $OI$ đồng thời là trung tuyến $\\Rightarrow I$ là trung điểm $BC$.\n\n$\\Rightarrow BI = \\dfrac{BC}{2} = \\dfrac{R\\sqrt 3}{2}$.\n\nXét △OIB vuông tại I:\n$$\\sin\\widehat{IOB} = \\dfrac{BI}{OB} = \\dfrac{R\\sqrt 3/2}{R} = \\dfrac{\\sqrt 3}{2}$$\n$$\\Rightarrow \\widehat{IOB} = 60° \\Rightarrow \\widehat{BOC} = 120°$$\n\nDiện tích hình quạt tròn $OBKC$ là:\n$$S_q = \\dfrac{\\pi R^2 \\cdot 120}{360} = \\dfrac{\\pi R^2}{3}$$\n\nÁp dụng định lý Pythagore vào △OIB vuông tại I:\n$$OI^2 = OB^2 - BI^2 = R^2 - \\left(\\dfrac{R\\sqrt 3}{2}\\right)^2 = R^2 - \\dfrac{3R^2}{4} = \\dfrac{R^2}{4} \\Rightarrow OI = \\dfrac{R}{2}$$\n\nDiện tích △OBC là:\n$$S_{\\triangle OBC} = \\dfrac{1}{2} \\cdot BC \\cdot OI = \\dfrac{1}{2} \\cdot R\\sqrt 3 \\cdot \\dfrac{R}{2} = \\dfrac{R^2\\sqrt 3}{4}$$\n\nDiện tích hình viên phân cần tìm là:\n$$S_{vp} = S_q - S_{\\triangle OBC} = \\dfrac{\\pi R^2}{3} - \\dfrac{R^2\\sqrt 3}{4} = \\boxed{R^2\\left(\\dfrac{\\pi}{3} - \\dfrac{\\sqrt 3}{4}\\right)}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tam giác ABC nhọn (AB<AC) nội tiếp (O), 3 đường cao AD, BE, CF cắt tại H. Đường kính AT. AD kéo dài cắt (O) tại K. KE cắt (O) tại M.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được BFEC có 2 góc vuông cùng nhìn BC.",
+          "Câu b em không biết bắt đầu chứng minh CHK cân.",
+          "Câu c em không nhớ công thức diện tích hình viên phân."
+        ],
+        "dinh_huong": [
+          "Câu a em định BFEC đồng viên đường kính BC — đúng không?",
+          "Câu b em định △CHK cân C → CD trung tuyến — đúng chứ?",
+          "Câu c em định $S_{vp} = S_{quạt} - S_{△OBC}$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra BFEC nội tiếp + $AB \\cdot AC = AD \\cdot AT$ — đúng không?",
+          "Em ra D trung điểm HK + $\\widehat{BMK} = \\widehat{HEF}$ — đúng chưa?",
+          "Em ra $S_{vp} = R^2(\\pi/3 - \\sqrt 3/4)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được CD vừa là đường cao vừa là trung tuyến.",
+          "Em không tính được $\\widehat{BOC} = 120°$.",
+          "Em nhầm $S_{vp}$ với $S_{quạt}$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-44/bai7-tamgiac.png"
+    }
+  ]
+}

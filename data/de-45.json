@@ -1,0 +1,379 @@
+{
+  "de_so": 45,
+  "cum": 15,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = \\dfrac{1}{4}x^2$ có đồ thị $(P)$.\n\na) Vẽ đồ thị $(P)$ trên hệ trục tọa độ.\n\nb) Tìm tọa độ các điểm $M$ thuộc $(P)$ có tung độ bằng $4$.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -4, -2, 0, 2, 4)",
+        "Tung độ = 4 → $y = 4$",
+        "Thay vào (P): $4 = x^2/4 \\Rightarrow x^2 = 16 \\Rightarrow x = ±4$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ các điểm cần tìm là $(4; 4)$ và $(-4; 4)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -4, -2, 0, 2, 4 → y = 4, 1, 0, 1, 4.\n\nCâu b: $y = 4$. $4 = x^2/4 \\Rightarrow x^2 = 16 \\Rightarrow x = ±4$. → $(4; 4)$ và $(-4; 4)$.",
+      "goi_y_cap_2": "Câu a: $x = ±4: y = 4$; $x = ±2: y = 1$; $x = 0: y = 0$.\n\nCâu b:\n- $y = 4$\n- $4 = \\dfrac{1}{4}x^2 \\Rightarrow x^2 = 16$\n- $x = 4$ hoặc $x = -4$\n- Với $x = 4 \\Rightarrow y = 4$\n- Với $x = -4 \\Rightarrow y = 4$\n- $(4; 4)$ và $(-4; 4)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-4$ | $-2$ | $0$ | $2$ | $4$ |\n|---|---|---|---|---|---|\n| $y = \\dfrac{1}{4}x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ M:**\n\nVì điểm $M$ có tung độ bằng $4$ nên ta có $y = 4$.\n\nTa có phương trình $4 = \\dfrac{1}{4}x^2$\n$$x^2 = 16$$\n$$x = 4 \\text{ hoặc } x = -4$$\n\nVới $x = 4 \\Rightarrow y = 4$.\nVới $x = -4 \\Rightarrow y = 4$.\n\nVậy tọa độ các điểm cần tìm là $\\boxed{(4; 4)}$ và $\\boxed{(-4; 4)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x²/4 trên hệ trục Oxy với x = -4, -2, 0, 2, 4 và y = 4, 1, 0, 1, 4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết bảng giá trị.",
+          "Em không biết giải $x^2 = 16$.",
+          "Em quên 2 nghiệm $±4$."
+        ],
+        "dinh_huong": [
+          "Em định $y = 4$ — đúng không?",
+          "Em định $4 = x^2/4 \\Rightarrow x^2 = 16$ — đúng chứ?",
+          "Em định 2 nghiệm $x = ±4$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x^2 = 16$ — đúng không?",
+          "Em ra $x = ±4$ — đúng chưa?",
+          "Em ra $(±4; 4)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em chỉ ra 1 nghiệm dương.",
+          "Em quên rằng cả $±4$ đều có $y = 4$.",
+          "Em nhầm $4 \\cdot 4 = 16$ thành $4^2 = 16$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-45/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A bậc 2 + phân thức",
+      "de_bai": "Cho phương trình: $-3x^2 + x + 1 = 0$.\n\na) Chứng minh phương trình trên có hai nghiệm $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị biểu thức $A = x_1^2 + \\dfrac{2}{x_1} + x_2^2 + \\dfrac{2}{x_2}$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "Định lý Viète: $x_1+x_2 = 1/3$, $x_1 x_2 = -1/3$",
+        "$x_1^2 + x_2^2 = (1/3)^2 - 2(-1/3) = 1/9 + 2/3 = 7/9$",
+        "$\\dfrac{2}{x_1} + \\dfrac{2}{x_2} = \\dfrac{2(x_1+x_2)}{x_1 x_2} = \\dfrac{2 \\cdot 1/3}{-1/3} = -2$",
+        "$A = 7/9 - 2 = -11/9$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète"
+      ],
+      "dap_so": "$A = -\\dfrac{11}{9}$",
+      "goi_y_cap_1": "Δ = 1 + 12 = 13 > 0. Viète: $x_1+x_2 = 1/3$, $x_1 x_2 = -1/3$. $x_1^2+x_2^2 = 7/9$. $2/x_1 + 2/x_2 = 2(x_1+x_2)/(x_1 x_2) = -2$. $A = 7/9 - 2 = -11/9$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = 1^2 - 4 \\cdot (-3) \\cdot 1 = 13 > 0$.\n\nCâu b:\n- Viète: $x_1+x_2 = -1/(-3) = 1/3$, $x_1 x_2 = 1/(-3) = -1/3$\n- $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2 x_1 x_2 = (1/3)^2 - 2(-1/3) = 1/9 + 2/3 = 7/9$\n- $\\dfrac{2}{x_1} + \\dfrac{2}{x_2} = \\dfrac{2(x_1+x_2)}{x_1 x_2} = \\dfrac{2 \\cdot 1/3}{-1/3} = -2$\n- $A = (x_1^2 + x_2^2) + (\\dfrac{2}{x_1} + \\dfrac{2}{x_2}) = 7/9 + (-2) = -11/9$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nTa có $-3x^2 + x + 1 = 0$ với $a = -3; b = 1; c = 1$.\n\n$\\Delta = b^2 - 4ac = 1^2 - 4 \\cdot (-3) \\cdot 1 = 1 + 12 = 13 > 0$.\n\nVì $\\Delta > 0$ nên phương trình có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nTheo định lý Viète, ta có:\n$$\\begin{cases} x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{-1}{-3} = \\dfrac{1}{3} \\\\ x_1 x_2 = \\dfrac{c}{a} = \\dfrac{1}{-3} = -\\dfrac{1}{3} \\end{cases}$$\n\n$x_1^2 + x_2^2 = (x_1+x_2)^2 - 2 x_1 x_2 = \\left(\\dfrac{1}{3}\\right)^2 - 2 \\cdot \\left(-\\dfrac{1}{3}\\right) = \\dfrac{1}{9} + \\dfrac{2}{3} = \\dfrac{7}{9}$.\n\nBiến đổi biểu thức $A$:\n$$A = (x_1^2 + x_2^2) + \\left(\\dfrac{2}{x_1} + \\dfrac{2}{x_2}\\right) = (x_1^2 + x_2^2) + \\dfrac{2(x_1 + x_2)}{x_1 x_2}$$\n\nThế giá trị vào biểu thức:\n$$A = \\dfrac{7}{9} + \\dfrac{2 \\cdot \\dfrac{1}{3}}{-\\dfrac{1}{3}} = \\dfrac{7}{9} + (-2) = \\boxed{-\\dfrac{11}{9}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết quy đồng $\\dfrac{2}{x_1} + \\dfrac{2}{x_2}$.",
+          "Em quên Viète với $a = -3$.",
+          "Em không nhớ $x_1^2 + x_2^2 = (x_1+x_2)^2 - 2x_1 x_2$."
+        ],
+        "dinh_huong": [
+          "Em định Viète $x_1+x_2 = 1/3$, $x_1 x_2 = -1/3$ — đúng không?",
+          "Em định quy đồng tử $2(x_1+x_2)$, mẫu $x_1 x_2$ — đúng chứ?",
+          "Em định cộng hai phần $A = 7/9 + (-2)$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x_1^2 + x_2^2 = 7/9$ — đúng không?",
+          "Em ra $\\dfrac{2}{x_1} + \\dfrac{2}{x_2} = -2$ — đúng chưa?",
+          "Em ra $A = -11/9$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên dấu trừ ở $a = -3$ và $c = 1$.",
+          "Em không cộng đúng $1/9 + 2/3 = 7/9$.",
+          "Em không quy đồng $7/9 - 2 = -11/9$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ đoạn thẳng số ghi trên bóng",
+      "de_bai": "Bạn An thực hiện một trò chơi với một hộp có $6$ quả bóng được đánh số từ $1$ đến $6$. Bạn ấy lấy ngẫu nhiên một quả bóng, ghi lại số ghi trên bóng rồi bỏ lại vào hộp và lặp lại quá trình này nhiều lần. Kết quả thu được được thể hiện trong biểu đồ đoạn thẳng sau:\n\n| Số ghi | 1 | 2 | 3 | 4 | 5 | 6 |\n|---|---|---|---|---|---|---|\n| Số lần | 5 | 8 | 7 | 4 | 6 | 10 |\n\na) Tính giá trị trung bình cộng của các số ghi trên quả bóng đã rút ra trong trò chơi.\n\nb) Tính xác suất thực nghiệm của biến cố $A$: \"Số ghi trên bóng là số chẵn\".\n\nc) Tính xác suất thực nghiệm của biến cố $B$: \"Số ghi trên bóng là số nguyên tố nhỏ hơn $5$\".",
+      "phuong_phap_duoc_dung": [
+        "Tổng lần = 5+8+7+4+6+10 = 40",
+        "$\\bar X = (1·5 + 2·8 + 3·7 + 4·4 + 5·6 + 6·10)/40 = 148/40 = 3{,}7$",
+        "A: số chẵn = 2, 4, 6 → tần số = 8+4+10 = 22 → $P(A) = 22/40 = 11/20$",
+        "B: số nguyên tố < 5 = 2, 3 → tần số = 8+7 = 15 → $P(B) = 15/40 = 3/8$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Trung bình cộng",
+        "Xác suất thực nghiệm"
+      ],
+      "dap_so": "a) $\\bar X = 3{,}7$. b) $P(A) = \\dfrac{11}{20}$. c) $P(B) = \\dfrac{3}{8}$.",
+      "goi_y_cap_1": "Tổng = 40 lần. Câu a: $\\bar X = (1·5+2·8+3·7+4·4+5·6+6·10)/40 = 148/40 = 3,7$. Câu b: chẵn = 2,4,6 → 22 lần → $P(A) = 11/20$. Câu c: nguyên tố < 5 = 2,3 → 15 lần → $P(B) = 3/8$.",
+      "goi_y_cap_2": "Tổng số lần = $5 + 8 + 7 + 4 + 6 + 10 = 40$.\n\nCâu a:\n- Tổng các giá trị: $1·5 + 2·8 + 3·7 + 4·4 + 5·6 + 6·10 = 5 + 16 + 21 + 16 + 30 + 60 = 148$\n- $\\bar X = 148/40 = 3{,}7$\n\nCâu b:\n- Số chẵn: 2, 4, 6\n- Số lần xuất hiện: $8 + 4 + 10 = 22$\n- $P(A) = 22/40 = 11/20$\n\nCâu c:\n- Số nguyên tố < 5: 2, 3\n- Số lần xuất hiện: $8 + 7 = 15$\n- $P(B) = 15/40 = 3/8$",
+      "loi_giai_day_du": "**Câu a) Trung bình cộng:**\n\nDựa vào biểu đồ, tổng số lần thực hiện lấy bóng là:\n$$n = 5 + 8 + 7 + 4 + 6 + 10 = 40 \\text{ (lần)}$$\n\nTổng các giá trị của các số ghi trên bóng là:\n$$1 \\cdot 5 + 2 \\cdot 8 + 3 \\cdot 7 + 4 \\cdot 4 + 5 \\cdot 6 + 6 \\cdot 10 = 148$$\n\nGiá trị trung bình cộng của các số ghi trên quả bóng là:\n$$\\bar X = \\dfrac{148}{40} = \\boxed{3{,}7}$$\n\n**Câu b) Xác suất biến cố A:**\n\nCác số chẵn trên bóng là $2, 4, 6$.\n\nSố lần xuất hiện số chẵn là $8 + 4 + 10 = 22$ (lần).\n\nXác suất thực nghiệm của biến cố $A$ là:\n$$P(A) = \\dfrac{22}{40} = \\boxed{\\dfrac{11}{20}}$$\n\n**Câu c) Xác suất biến cố B:**\n\nCác số nguyên tố nhỏ hơn $5$ trên bóng là $2$ và $3$.\n\nSố lần xuất hiện số nguyên tố nhỏ hơn $5$ là $8 + 7 = 15$ (lần).\n\nXác suất thực nghiệm của biến cố $B$ là:\n$$P(B) = \\dfrac{15}{40} = \\boxed{\\dfrac{3}{8}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ đoạn thẳng số lần xuất hiện cho mỗi số 1-6: 5, 8, 7, 4, 6, 10.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết đọc biểu đồ đoạn thẳng.",
+          "Em không nhớ công thức trung bình cộng.",
+          "Em không biết số nguyên tố nhỏ hơn 5."
+        ],
+        "dinh_huong": [
+          "Em định tổng số lần = 40 — đúng không?",
+          "Em định nhân số ghi với số lần — đúng chứ?",
+          "Em định nguyên tố < 5 = {2, 3} — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $\\bar X = 3{,}7$ — đúng không?",
+          "Em ra $P(A) = 11/20$ — đúng chưa?",
+          "Em ra $P(B) = 3/8$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em đếm thiếu hoặc thừa lần.",
+          "Em quên 1 không phải nguyên tố.",
+          "Em không rút gọn $22/40 = 11/20$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-45/bai3-bieudo.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Mảnh đất HCN xây nhà",
+      "de_bai": "Cô Liên có một mảnh đất hình chữ nhật với kích thước như hình vẽ ($25 \\text{ m} \\times 20 \\text{ m}$). Cô Liên dự định xây nhà (phần tô đậm) trên mảnh đất đó và dành một phần diện tích đất để làm sân vườn như hình bên.\n\na) Viết biểu thức theo $x$ biểu diễn diện tích phần đất dùng để xây nhà và thu gọn biểu thức đó.\n\nb) Tìm $x$, biết diện tích đất làm nhà là $140$ m².",
+      "phuong_phap_duoc_dung": [
+        "Chiều rộng nhà: $20 - x$ (m)",
+        "Chiều dài nhà: $25 - (x + 1) = 24 - x$ (m)",
+        "$S = (24-x)(20-x) = x^2 - 44x + 480$",
+        "$x^2 - 44x + 480 = 140 \\Rightarrow x^2 - 44x + 340 = 0$",
+        "$x = 10$ (nhận) hoặc $x = 34$ (loại vì > 20)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = x^2 - 44x + 480$ (m²). b) $x = 10$ m.",
+      "goi_y_cap_1": "Câu a: Chiều rộng nhà = $20 - x$, chiều dài = $24 - x$. $S = (24-x)(20-x) = x^2 - 44x + 480$.\n\nCâu b: $x^2 - 44x + 340 = 0 \\Rightarrow x = 10$ (nhận) hoặc 34 (loại).",
+      "goi_y_cap_2": "Câu a:\n- Chiều rộng nhà: $20 - x$ (m)\n- Chiều dài nhà: $25 - (x + 1) = 24 - x$ (m)\n- $S = (24-x)(20-x) = 480 - 24x - 20x + x^2 = x^2 - 44x + 480$ (m²)\n\nCâu b: ĐK $0 < x < 20$\n- $x^2 - 44x + 480 = 140$\n- $x^2 - 44x + 340 = 0$\n- $x = 10$ (nhận) hoặc $x = 34$ (loại)",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích nhà:**\n\nDựa vào hình vẽ, ta có kích thước của phần đất hình chữ nhật dùng để xây nhà là:\n\nChiều rộng là $20 - x$ (m).\n\nChiều dài là $25 - (x + 1) = 24 - x$ (m).\n\nDiện tích phần đất dùng để xây nhà là:\n$$S = (24 - x)(20 - x) = 480 - 24x - 20x + x^2 = \\boxed{x^2 - 44x + 480 \\text{ (m}^2\\text{)}}$$\n\n**Câu b) Tìm x:**\n\nĐiều kiện: $\\begin{cases} 20 - x > 0 \\\\ 24 - x > 0 \\end{cases} \\Rightarrow x < 20$.\n\nVì diện tích đất làm nhà là $140$ m² nên ta có phương trình:\n$$x^2 - 44x + 480 = 140$$\n$$x^2 - 44x + 340 = 0$$\n$$x = 10 \\text{ hoặc } x = 34$$\n\nVới $x = 10$ (thỏa mãn).\nVới $x = 34$ (loại).\n\nVậy giá trị cần tìm là $\\boxed{x = 10}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Mảnh đất HCN 25m × 20m. Nhà (vùng tô đậm) cách cạnh trên x(m), cạnh phải x+1(m).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết tính chiều rộng/dài còn lại.",
+          "Em không loại nghiệm $x = 34$.",
+          "Em không khai triển được $(24-x)(20-x)$."
+        ],
+        "dinh_huong": [
+          "Em định chiều rộng nhà = $20 - x$ — đúng không?",
+          "Em định chiều dài nhà = $25 - (x+1) = 24 - x$ — đúng chứ?",
+          "Em định khai triển và thu gọn — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = x^2 - 44x + 480$ — đúng không?",
+          "Em ra $x^2 - 44x + 340 = 0$ — đúng chưa?",
+          "Em ra $x = 10$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không trừ $x+1$ cho chiều dài.",
+          "Em không loại $x = 34$ vì > 20.",
+          "Em khai triển sai."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-45/bai4-manhdat.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Hộp phô mai 8 miếng + giấy gói",
+      "de_bai": "Hộp phô mai hình trụ có đường kính đáy $12{,}2$ cm; chiều cao $2{,}4$ cm.\n\na) Biết rằng $8$ miếng phô mai được xếp nằm sát nhau vừa khít trong hộp. Hỏi thể tích một miếng phô mai là bao nhiêu? (làm tròn kết quả đến chữ số thập phân thứ nhất).\n\nb) Người ta gói từng miếng phô mai bằng một loại giấy đặc biệt. Giả sử phần giấy gói vừa khít miếng phô mai. Hãy tính diện tích phần giấy gói mỗi miếng phô mai (làm tròn kết quả đến hàng đơn vị).",
+      "phuong_phap_duoc_dung": [
+        "$R = 12{,}2/2 = 6{,}1$ cm",
+        "$V = \\pi R^2 h = \\pi \\cdot 6{,}1^2 \\cdot 2{,}4 = 89{,}304\\pi$ cm³",
+        "$V_1 = V/8 = 11{,}163\\pi \\approx 35{,}1$ cm³",
+        "Mỗi miếng = hình nêm (1/8 hình trụ)",
+        "$S_1$ (2 đáy quạt) = $2 \\cdot \\dfrac{1}{8}\\pi R^2 = \\dfrac{1}{4}\\pi \\cdot 6{,}1^2 = 9{,}3025\\pi$ cm²",
+        "$S_2$ (mặt cong = 1/8 mặt xq trụ) = $\\dfrac{1}{8} \\cdot 2\\pi R h = \\dfrac{1}{4}\\pi \\cdot 6{,}1 \\cdot 2{,}4 = 3{,}66\\pi$ cm²",
+        "$S_3$ (2 mặt phẳng bên = 2 HCN $R \\times h$) = $2 \\cdot 6{,}1 \\cdot 2{,}4 = 29{,}28$ cm²",
+        "$S = S_1 + S_2 + S_3 \\approx 70$ cm²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ",
+        "Hình nêm (1/8 hình trụ)",
+        "Diện tích quạt tròn"
+      ],
+      "dap_so": "a) $V_1 \\approx 35{,}1$ cm³. b) $S \\approx 70$ cm².",
+      "goi_y_cap_1": "Câu a: $R = 6,1$. $V = 89,304\\pi$. $V_1 = 11,163\\pi \\approx 35,1$ cm³.\n\nCâu b: Mỗi miếng = hình nêm. $S_1$ (2 quạt) = $9,3025\\pi$. $S_2$ (cong) = $3,66\\pi$. $S_3$ (2 phẳng) = $29,28$. $S \\approx 70$ cm².",
+      "goi_y_cap_2": "Câu a:\n- $R = 12{,}2/2 = 6{,}1$ cm\n- $V = \\pi R^2 h = \\pi \\cdot 6{,}1^2 \\cdot 2{,}4 = 89{,}304\\pi$ cm³\n- $V_1 = V/8 = 11{,}163\\pi \\approx 35{,}1$ cm³\n\nCâu b:\n- Mỗi miếng dạng hình nêm (1/8 hình trụ)\n- $S_1$ (2 đáy quạt, mỗi quạt 1/8 hình tròn):\n  - $S_1 = 2 \\cdot \\dfrac{1}{8}\\pi R^2 = \\dfrac{1}{4}\\pi \\cdot 6{,}1^2 = 9{,}3025\\pi$ cm²\n- $S_2$ (mặt cong = 1/8 diện tích xung quanh trụ):\n  - $S_2 = \\dfrac{1}{8} \\cdot 2\\pi R h = \\dfrac{1}{4}\\pi \\cdot 6{,}1 \\cdot 2{,}4 = 3{,}66\\pi$ cm²\n- $S_3$ (2 mặt bên phẳng = 2 HCN kích thước $R \\times h$):\n  - $S_3 = 2 \\cdot R \\cdot h = 2 \\cdot 6{,}1 \\cdot 2{,}4 = 29{,}28$ cm²\n- $S = S_1 + S_2 + S_3 = (9{,}3025 + 3{,}66)\\pi + 29{,}28 \\approx 70$ cm²",
+      "loi_giai_day_du": "**Câu a) Thể tích một miếng phô mai:**\n\nBán kính đáy của hộp phô mai là $R = 12{,}2/2 = 6{,}1$ (cm).\n\nThể tích của toàn bộ hộp phô mai là:\n$$V = \\pi R^2 h = \\pi \\cdot 6{,}1^2 \\cdot 2{,}4 = 89{,}304\\pi \\text{ (cm}^3\\text{)}$$\n\nVì có $8$ miếng phô mai xếp vừa khít trong hộp nên thể tích một miếng phô mai là:\n$$V_1 = \\dfrac{V}{8} = \\dfrac{89{,}304\\pi}{8} = 11{,}163\\pi \\approx \\boxed{35{,}1 \\text{ cm}^3}$$\n\n**Câu b) Diện tích giấy gói:**\n\nMỗi miếng phô mai có dạng hình nêm (hình trụ cắt theo góc ở tâm $45°$), diện tích phần giấy gói gồm ba phần.\n\nDiện tích hai mặt đáy (hai hình quạt tròn, mỗi hình quạt bằng $\\dfrac{1}{8}$ hình tròn):\n$$S_1 = 2 \\cdot \\dfrac{1}{8}\\pi R^2 = \\dfrac{1}{4}\\pi \\cdot 6{,}1^2 = 9{,}3025\\pi \\text{ (cm}^2\\text{)}$$\n\nDiện tích mặt cong xung quanh ($\\dfrac{1}{8}$ diện tích xung quanh hình trụ):\n$$S_2 = \\dfrac{1}{8} \\cdot 2\\pi R h = \\dfrac{1}{4}\\pi \\cdot 6{,}1 \\cdot 2{,}4 = 3{,}66\\pi \\text{ (cm}^2\\text{)}$$\n\nDiện tích hai mặt bên phẳng (hai hình chữ nhật kích thước $R \\times h$):\n$$S_3 = 2 \\cdot R \\cdot h = 2 \\cdot 6{,}1 \\cdot 2{,}4 = 29{,}28 \\text{ (cm}^2\\text{)}$$\n\nTổng diện tích phần giấy gói mỗi miếng phô mai là:\n$$S = S_1 + S_2 + S_3 = (9{,}3025 + 3{,}66)\\pi + 29{,}28 = 12{,}9625\\pi + 29{,}28 \\approx \\boxed{70 \\text{ cm}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hộp phô mai hình trụ d=12,2cm, h=2,4cm chia 8 miếng + 1 miếng đơn (hình nêm).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ V hình trụ.",
+          "Em không hiểu 'hình nêm' là gì.",
+          "Em không biết tính diện tích các mặt của hình nêm."
+        ],
+        "dinh_huong": [
+          "Em định $V = \\pi R^2 h$ rồi chia 8 — đúng không?",
+          "Em định mỗi miếng có 3 phần: 2 đáy quạt + 1 mặt cong + 2 mặt phẳng — đúng chứ?",
+          "Em định mỗi quạt = 1/8 hình tròn — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_1 \\approx 35{,}1$ — đúng không?",
+          "Em ra $S \\approx 70$ — đúng chưa?",
+          "Em ra giấy gói $\\approx$ 70 cm² — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên có 2 đáy quạt (không phải 1).",
+          "Em không tính 2 mặt phẳng bên (HCN).",
+          "Em quên rằng góc tâm 45° = 1/8 vòng tròn."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-45/bai5-phomai.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Hai máy in 3D công suất khác nhau",
+      "de_bai": "Trong phòng thực hành của trường, hai máy in 3D (gọi là Máy $A$ và Máy $B$) được giao nhiệm vụ in hai mô hình kiến trúc giống hệt nhau (cùng kích thước và độ phức tạp). Biết rằng, ở chế độ hoạt động bình thường, công suất in (tốc độ đùn nhựa) của Máy $A$ gấp $2$ lần Máy $B$. Tuy nhiên, nếu Máy $A$ bị nóng và chuyển sang chế độ \"làm mát\", công suất của nó chỉ còn bằng $\\dfrac{1}{4}$ so với công suất bình thường của chính nó. Cả hai máy bắt đầu in cùng một lúc. Máy $B$ hoạt động ổn định từ đầu đến cuối. Máy $A$ hoạt động bình thường được $2$ giờ thì bị quá nhiệt và tự động chuyển sang chế độ \"làm mát\" cho đến khi hoàn thành. Kết quả thật bất ngờ: Cả hai máy đều hoàn thành mô hình cùng một lúc. Hỏi tổng thời gian để in xong mô hình là bao nhiêu giờ?",
+      "phuong_phap_duoc_dung": [
+        "Gọi $x$ (mô hình/giờ) công suất Máy B, $y$ (giờ) tổng thời gian in",
+        "Công suất Máy A bình thường = $2x$",
+        "Công suất Máy A làm mát = $\\dfrac{1}{4} \\cdot 2x = \\dfrac{x}{2}$",
+        "Máy B: $xy = 1$",
+        "Máy A: $2x \\cdot 2 + \\dfrac{x}{2}(y-2) = 1$",
+        "Rút gọn pt 2: $4x + \\dfrac{xy}{2} - x = 1 \\Rightarrow 3x + \\dfrac{xy}{2} = 1$",
+        "Hệ → $x = 1/6, y = 6$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hệ phương trình",
+        "Bài toán năng suất"
+      ],
+      "dap_so": "Tổng thời gian = $6$ giờ.",
+      "goi_y_cap_1": "Gọi $x$ công suất Máy B (mô hình/h), $y$ tổng thời gian (h). Hệ: $xy = 1$ và $4x + (xy)/2 - x = 1$ → $3x + xy/2 = 1$ → $x = 1/6, y = 6$.",
+      "goi_y_cap_2": "- Gọi $x$ (mô hình/giờ) là công suất bình thường của Máy B, $y$ (giờ) là tổng thời gian in xong\n- ĐK: $x > 0, y > 2$\n- Công suất bình thường Máy A = $2x$\n- Công suất Máy A làm mát = $\\dfrac{1}{4} \\cdot 2x = \\dfrac{x}{2}$\n- Máy B in 1 mô hình: $xy = 1$ (1)\n- Máy A in 1 mô hình: $2x \\cdot 2 + \\dfrac{x}{2}(y-2) = 1$ → $4x + \\dfrac{xy}{2} - x = 1$ → $3x + \\dfrac{xy}{2} = 1$ (2)\n- Hệ: $\\begin{cases} xy = 1 \\\\ 3x + \\dfrac{xy}{2} = 1 \\end{cases} \\Rightarrow \\begin{cases} x = 1/6 \\\\ y = 6 \\end{cases}$",
+      "loi_giai_day_du": "Gọi $x$ (mô hình/giờ) là công suất in bình thường của Máy $B$, $y$ (giờ) là tổng thời gian in xong mô hình.\n\nĐiều kiện: $x > 0, y > 2$.\n\nCông suất in bình thường của Máy $A$ là $2x$ (mô hình/giờ).\n\nCông suất in chế độ \"làm mát\" của Máy $A$ là $\\dfrac{1}{4} \\cdot 2x = \\dfrac{1}{2}x$ (mô hình/giờ).\n\nVì Máy $B$ hoàn thành $1$ mô hình nên ta có phương trình:\n$$xy = 1 \\quad (1)$$\n\nVì Máy $A$ hoàn thành $1$ mô hình (2 giờ bình thường + $(y-2)$ giờ làm mát):\n$$2x \\cdot 2 + \\dfrac{1}{2}x(y - 2) = 1$$\n\nRút gọn phương trình thứ hai:\n$$4x + \\dfrac{xy}{2} - x = 1 \\Rightarrow 3x + \\dfrac{1}{2}xy = 1 \\quad (2)$$\n\nTa có hệ phương trình:\n$$\\begin{cases} xy = 1 \\\\ 3x + \\dfrac{1}{2}xy = 1 \\end{cases} \\Rightarrow \\begin{cases} x = \\dfrac{1}{6} \\\\ y = 6 \\end{cases} \\text{ (thỏa mãn)}$$\n\nVậy tổng thời gian để in xong mô hình là $\\boxed{6 \\text{ giờ}}$.",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu công suất là gì.",
+          "Em không biết bắt đầu lập phương trình.",
+          "Em không biết Máy A có 2 chế độ."
+        ],
+        "dinh_huong": [
+          "Em định gọi $x$ là công suất Máy B — đúng không?",
+          "Em định công suất Máy A bình thường = $2x$, làm mát = $x/2$ — đúng chứ?",
+          "Em định Máy B: $xy = 1$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình Máy A: $4x + \\dfrac{xy}{2} - x = 1$ — đúng không?",
+          "Em ra hệ với $xy = 1$ — đúng chưa?",
+          "Em ra $y = 6$ giờ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được Máy A có 2 giai đoạn 2h + (y-2)h.",
+          "Em nhầm 1/4 công suất bình thường là $x/2$ thay vì $x/4$.",
+          "Em không trừ $x$ khi rút gọn $4x + xy/2 - x$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn (O; 2,5cm), AB đường kính, AC = 4cm",
+      "de_bai": "Cho đường tròn $(O; 2{,}5 \\text{ cm})$ đường kính $AB$ và dây $AC$ có độ dài $4$ cm không đi qua tâm. Hai tiếp tuyến tại $A$ và tại $C$ của đường tròn cắt nhau ở $D$. Gọi $E$ là giao điểm của $OD$ và $AC$. Vẽ $CF \\perp AB$ tại $F$.\n\na) Chứng minh bốn điểm $O, A, C, D$ cùng nằm trên một đường tròn và $BC$ vuông góc với $AC$.\n\nb) Chứng minh $\\widehat{AOD} = \\widehat{ABC}$ và $CF \\cdot AB = CA \\cdot CB$.\n\nc) Vẽ $G$ là trung điểm của $CF$, $H$ là giao điểm của hai tia $AG$ và $DC$. Chứng minh $HB$ là tiếp tuyến của đường tròn $(O)$ và tính chu vi tứ giác $ABHD$.",
+      "phuong_phap_duoc_dung": [
+        "Câu a: DA tiếp tuyến → △OAD vuông A → nội tiếp đường kính OD",
+        "DC tiếp tuyến → △OCD vuông C → nội tiếp đường kính OD",
+        "→ O, A, C, D đồng viên đường kính OD",
+        "ACB = 90° (chắn nửa đường tròn AB) → BC ⊥ AC",
+        "Câu b: DA, DC tiếp tuyến cắt nhau → OD phân giác AOC → AOD = AOC/2",
+        "ABC = AOC/2 (góc nội tiếp = nửa góc tâm cùng chắn cung AC) → AOD = ABC",
+        "△ABC vuông C, CF đường cao: $S = \\dfrac{1}{2} CA \\cdot CB = \\dfrac{1}{2} CF \\cdot AB$ → $CF \\cdot AB = CA \\cdot CB$",
+        "Câu c: K giao tiếp tuyến tại B với DC → KB = KC. DA, CF, KB cùng ⊥ AB → DA // CF // KB",
+        "Thales → A, G, K thẳng hàng. H = AG ∩ DC = K → HB tiếp tuyến (O)",
+        "Tính chu vi: $AB = 5, AC = 4 \\Rightarrow BC = 3$",
+        "$AE = AC/2 = 2; OA = 2{,}5; OE = \\sqrt{6{,}25-4} = 1{,}5$",
+        "$OA^2 = OE \\cdot OD$ → $OD = 25/6$ → $AD = \\sqrt{OD^2 - OA^2} = 10/3 \\Rightarrow DC = 10/3$",
+        "CF = CA·CB/AB = 12/5 = 2,4; GC = CF/2 = 1,2",
+        "△HGC ~ △HAD (g-g) → $HC/HD = GC/AD = 1{,}2/(10/3) = 0{,}36$",
+        "$HC/(HC+CD) = 0{,}36 \\Rightarrow HC = 15/8$",
+        "$HB = HC = 15/8$ (2 tiếp tuyến cắt nhau từ H đến (O))",
+        "$HD = HC + CD = 15/8 + 10/3 = 125/24$",
+        "$P = AB + BH + HD + DA = 5 + 15/8 + 125/24 + 10/3 = 185/12$ cm"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Tính chất 2 tiếp tuyến cắt nhau",
+        "Định lý Thales",
+        "Hệ thức lượng tam giác vuông",
+        "Định lý Pythagore"
+      ],
+      "dap_so": "Chu vi tứ giác $ABHD = \\dfrac{185}{12}$ cm.",
+      "goi_y_cap_1": "Câu a: △OAD vuông A, △OCD vuông C → đồng viên đường kính OD. ACB = 90° (chắn nửa AB) → BC ⊥ AC.\n\nCâu b: OD phân giác AOC → AOD = AOC/2. ABC = AOC/2 → AOD = ABC. △ABC vuông C, CF đường cao → CF·AB = CA·CB.\n\nCâu c: K = giao tiếp tuyến tại B với DC. DA, CF, KB cùng ⊥ AB → DA//CF//KB. Thales → A,G,K thẳng → H trùng K → HB tiếp tuyến. Chu vi: $AB=5, BC=3, AD=DC=10/3, HB=HC=15/8, HD=125/24 \\Rightarrow P = 185/12$ cm.",
+      "goi_y_cap_2": "Câu a:\n- DA tiếp tuyến → △OAD vuông A → nội tiếp đường kính OD (1)\n- DC tiếp tuyến → △OCD vuông C → nội tiếp đường kính OD (2)\n- (1)(2): O, A, C, D đồng viên đường kính OD\n- $\\widehat{ACB} = 90°$ (chắn nửa đường tròn AB) → $BC \\perp AC$\n\nCâu b:\n- DA, DC là 2 tiếp tuyến cắt nhau → OD là phân giác $\\widehat{AOC}$ → $\\widehat{AOD} = \\dfrac{1}{2}\\widehat{AOC}$\n- $\\widehat{ABC} = \\dfrac{1}{2}\\widehat{AOC}$ (góc nội tiếp bằng nửa góc tâm cùng chắn cung AC)\n- Vậy $\\widehat{AOD} = \\widehat{ABC}$\n- △ABC vuông C, CF ⊥ AB. $S_{ABC} = \\dfrac{1}{2} CA \\cdot CB = \\dfrac{1}{2} CF \\cdot AB$ → $CF \\cdot AB = CA \\cdot CB$\n\nCâu c:\n- K = giao tiếp tuyến tại B với DC → KB = KC\n- DA ⊥ AB, CF ⊥ AB, KB ⊥ AB → DA // CF // KB\n- Thales (G trung điểm CF) → A, G, K thẳng hàng\n- H = AG ∩ DC → H ≡ K → HB là tiếp tuyến\n- $HB = KB = KC = HC$\n- Chu vi: $AB = 2 \\cdot 2{,}5 = 5$, $AC = 4$. Pythagore: $BC = \\sqrt{25-16} = 3$\n- AE = AC/2 = 2, OA = 2,5. $OE = \\sqrt{6{,}25-4} = 1{,}5$\n- $OA^2 = OE \\cdot OD \\Rightarrow OD = 6{,}25/1{,}5 = 25/6$\n- $AD = \\sqrt{OD^2 - OA^2} = \\sqrt{625/36 - 225/36} = 20/6 = 10/3$ → $DC = 10/3$\n- $CF = CA \\cdot CB/AB = 12/5 = 2{,}4$, $GC = 1{,}2$\n- △HGC ~ △HAD: $HC/HD = GC/AD = 1{,}2/(10/3) = 0{,}36$\n- $HC = 0{,}36(HC + 10/3)$ → $HC = 15/8$\n- $HD = HC + CD = 15/8 + 10/3 = 125/24$\n- $P = AB + BH + HD + DA = 5 + 15/8 + 125/24 + 10/3 = 185/12$ cm",
+      "loi_giai_day_du": "**Câu a) Chứng minh O, A, C, D đồng viên và $BC \\perp AC$:**\n\nDA là tiếp tuyến của (O) tại A → △OAD vuông tại A → nội tiếp đường tròn đường kính OD (1).\n\nDC là tiếp tuyến của (O) tại C → △OCD vuông tại C → nội tiếp đường tròn đường kính OD (2).\n\nTừ (1) và (2): 4 điểm $O, A, C, D$ cùng thuộc đường tròn đường kính $OD$.\n\nXét đường tròn $(O)$ có $AB$ là đường kính. Suy ra $\\widehat{ACB} = 90°$ (góc nội tiếp chắn nửa đường tròn). Vậy $BC \\perp AC$.\n\n**Câu b) Chứng minh $\\widehat{AOD} = \\widehat{ABC}$ và $CF \\cdot AB = CA \\cdot CB$:**\n\nTa có $DA, DC$ là hai tiếp tuyến cắt nhau nên $OD$ là phân giác của $\\widehat{AOC}$.\n\nSuy ra $\\widehat{AOD} = \\dfrac{1}{2}\\widehat{AOC}$.\n\nMà $\\widehat{ABC} = \\dfrac{1}{2}\\widehat{AOC}$ (góc nội tiếp bằng nửa góc ở tâm cùng chắn cung $AC$).\n\nVậy $\\widehat{AOD} = \\widehat{ABC}$.\n\nXét △ABC vuông tại C có $CF \\perp AB$. Diện tích tam giác $ABC$ là:\n$$S_{ABC} = \\dfrac{1}{2}CA \\cdot CB = \\dfrac{1}{2}CF \\cdot AB$$\n\nSuy ra $CF \\cdot AB = CA \\cdot CB$.\n\n**Câu c) Chứng minh HB tiếp tuyến và tính chu vi:**\n\n*Chứng minh HB là tiếp tuyến:*\n\nGọi $K$ là giao điểm của tiếp tuyến tại $B$ của $(O)$ và đường thẳng $DC$.\n\nTa có $KB = KC$ (tính chất hai tiếp tuyến cắt nhau).\n\nTa có $DA \\perp AB, CF \\perp AB, KB \\perp AB$ (tính chất tiếp tuyến). Suy ra $DA \\parallel CF \\parallel KB$.\n\nÁp dụng định lý Thales, chứng minh được ba điểm $A, G, K$ thẳng hàng.\n\nMà $H$ là giao điểm của $AG$ và $DC$. Suy ra $H$ trùng với $K$.\n\nVậy $HB = KB = KC = HC$. Vậy $HB$ là tiếp tuyến của $(O)$.\n\n*Tính chu vi tứ giác ABHD:*\n\n$AB = 2 \\cdot 2{,}5 = 5$ (cm). △ABC vuông tại C có $AC = 4$ cm, $AB = 5$ cm.\n\nPythagore: $BC = \\sqrt{AB^2 - AC^2} = \\sqrt{25 - 16} = 3$ (cm).\n\n*Tính AD:*\n\n△OAD vuông tại A có $AE \\perp OD$.\n\n$AE = AC/2 = 2$ cm (tính chất 2 tiếp tuyến cắt nhau, OD là trung trực AC).\n\n$OA = 2{,}5$ cm.\n\n△OAE vuông tại E: $OE = \\sqrt{OA^2 - AE^2} = \\sqrt{6{,}25 - 4} = 1{,}5$ (cm).\n\nHệ thức lượng trong △OAD vuông tại A: $OA^2 = OE \\cdot OD$\n\n$$OD = \\dfrac{OA^2}{OE} = \\dfrac{6{,}25}{1{,}5} = \\dfrac{25}{6} \\text{ (cm)}$$\n\n△OAD vuông tại A: $AD = \\sqrt{OD^2 - OA^2} = \\sqrt{\\dfrac{625}{36} - \\dfrac{225}{36}} = \\dfrac{20}{6} = \\dfrac{10}{3}$ (cm).\n\nSuy ra $DC = AD = \\dfrac{10}{3}$ (cm).\n\n*Tính HB:*\n\nTa có $CF \\parallel DA$. Xét △HGC và △HAD có $\\widehat{GHC} = \\widehat{AHD}$ (đối đỉnh), $\\widehat{HCG} = \\widehat{HDA}$ (so le trong).\n\nSuy ra △HGC ~ △HAD (g-g) → $\\dfrac{HC}{HD} = \\dfrac{GC}{AD}$.\n\nTa có $GC = \\dfrac{1}{2}CF$. △ABC vuông tại C có đường cao $CF$:\n$$CF = \\dfrac{CA \\cdot CB}{AB} = \\dfrac{4 \\cdot 3}{5} = 2{,}4 \\text{ (cm)}$$\n\nSuy ra $GC = 1{,}2$ cm.\n\n$\\dfrac{HC}{HC + CD} = \\dfrac{1{,}2}{10/3} = \\dfrac{3{,}6}{10} = 0{,}36$.\n\n$HC = 0{,}36(HC + \\dfrac{10}{3})$\n$0{,}64 HC = 1{,}2$\n$HC = \\dfrac{1{,}2}{0{,}64} = \\dfrac{15}{8}$ (cm).\n\nSuy ra $HB = HC = \\dfrac{15}{8}$ cm.\n\n$HD = HC + CD = \\dfrac{15}{8} + \\dfrac{10}{3} = \\dfrac{45 + 80}{24} = \\dfrac{125}{24}$ (cm).\n\n*Chu vi tứ giác ABHD:*\n$$P = AB + BH + HD + DA = 5 + \\dfrac{15}{8} + \\dfrac{125}{24} + \\dfrac{10}{3}$$\n$$P = \\dfrac{120 + 45 + 125 + 80}{24} = \\dfrac{370}{24} = \\boxed{\\dfrac{185}{12} \\text{ cm}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O; 2,5cm), đường kính AB. Dây AC = 4cm. DA, DC tiếp tuyến tại A, C cắt tại D. E = OD ∩ AC. CF ⊥ AB tại F. G trung điểm CF. H = AG ∩ DC.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được OACD đồng viên.",
+          "Câu b em không thấy AOD = AOC/2.",
+          "Câu c em không nhận ra H trùng K (giao tiếp tuyến tại B)."
+        ],
+        "dinh_huong": [
+          "Câu a em định OACD đồng viên đường kính OD — đúng không?",
+          "Câu b em định OD phân giác AOC → AOD = AOC/2 — đúng chứ?",
+          "Câu c em định DA // CF // KB → Thales → H = K — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra OACD nội tiếp + BC ⊥ AC — đúng không?",
+          "Em ra $CF \\cdot AB = CA \\cdot CB$ — đúng chưa?",
+          "Em ra $P = 185/12$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không tính đúng AD qua hệ thức lượng.",
+          "Em không nhận ra HC = HB.",
+          "Em quy đồng sai $5 + 15/8 + 125/24 + 10/3$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-45/bai7-duongtron.png"
+    }
+  ]
+}

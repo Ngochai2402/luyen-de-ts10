@@ -1,0 +1,368 @@
+{
+  "de_so": 43,
+  "cum": 15,
+  "nam_hoc": "2026-2027",
+  "nguon": "Hội đồng bộ môn Toán TP.HCM - Đề tham khảo tuyển sinh 10",
+  "bai": [
+    {
+      "bai_so": 1,
+      "diem": 1.5,
+      "chu_de": "Hàm số bậc hai - Đồ thị parabol",
+      "de_bai": "Cho hàm số $y = x^2$ có đồ thị là parabol $(P)$.\n\na) Vẽ đồ thị $(P)$ của hàm số trên.\n\nb) Tìm tọa độ các điểm $M$ thuộc $(P)$ (khác gốc tọa độ) có tung độ gấp $3$ lần hoành độ.",
+      "phuong_phap_duoc_dung": [
+        "Lập bảng giá trị (x = -2, -1, 0, 1, 2)",
+        "Tung độ gấp 3 hoành độ → $y = 3x$",
+        "Thay vào (P): $x^2 = 3x \\Rightarrow x^2 - 3x = 0$",
+        "$x = 0$ (loại) hoặc $x = 3$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hàm số y = ax² với a > 0",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "Tọa độ điểm cần tìm là $M(3; 9)$.",
+      "goi_y_cap_1": "Câu a: Bảng x = -2, -1, 0, 1, 2 → y = 4, 1, 0, 1, 4.\n\nCâu b: $y = 3x$. $x^2 = 3x \\Rightarrow x = 0$ (loại) hoặc $x = 3$ → $M(3; 9)$.",
+      "goi_y_cap_2": "Câu a: $x = ±2: y = 4$; $x = ±1: y = 1$; $x = 0: y = 0$.\n\nCâu b:\n- $y = 3x$\n- $x^2 = 3x \\Rightarrow x^2 - 3x = 0$\n- $x = 0$ (loại vì $M$ khác gốc) hoặc $x = 3$\n- $x = 3 \\Rightarrow y = 9$\n- $M(3; 9)$",
+      "loi_giai_day_du": "**Câu a) Vẽ đồ thị (P):**\n\nBảng giá trị:\n\n| $x$ | $-2$ | $-1$ | $0$ | $1$ | $2$ |\n|---|---|---|---|---|---|\n| $y = x^2$ | $4$ | $1$ | $0$ | $1$ | $4$ |\n\nVẽ parabol bề lõm lên trên, đỉnh O.\n\n**Câu b) Tìm tọa độ M:**\n\nVì điểm $M$ thuộc $(P)$ có tung độ gấp $3$ lần hoành độ nên $y = 3x$.\n\nTa có phương trình $x^2 = 3x$\n$$x^2 - 3x = 0$$\n\nSuy ra $x = 0$ (loại vì $M$ khác gốc tọa độ) hoặc $x = 3$.\n\nVới $x = 3 \\Rightarrow y = 9$.\n\nVậy tọa độ điểm cần tìm là $\\boxed{M(3; 9)}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Parabol y = x² trên hệ trục Oxy với x = -2, -1, 0, 1, 2 và y = 4, 1, 0, 1, 4.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'tung độ gấp 3 lần hoành độ'.",
+          "Em không biết bảng giá trị.",
+          "Em không biết loại $x = 0$."
+        ],
+        "dinh_huong": [
+          "Em định 'tung độ = 3 lần hoành độ' = $y = 3x$ — đúng không?",
+          "Em định lập phương trình $x^2 = 3x$ — đúng chứ?",
+          "Em định loại $x = 0$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra phương trình $x^2 - 3x = 0$ — đúng không?",
+          "Em ra $x = 3$ (nhận) — đúng chưa?",
+          "Em ra $M(3; 9)$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không loại $x = 0$ (vì $M$ khác gốc).",
+          "Em chỉ ra 1 nghiệm.",
+          "Em quên tính $y = 3 \\cdot 3 = 9$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-43/bai1-parabol.png"
+    },
+    {
+      "bai_so": 2,
+      "diem": 1.0,
+      "chu_de": "Định lý Viète - Biểu thức A có $x_1^2$ thay bằng $5x_1+7$",
+      "de_bai": "Cho phương trình: $3x^2 - 5x - 7 = 0$.\n\na) Chứng minh rằng phương trình trên luôn có hai nghiệm phân biệt $x_1, x_2$.\n\nb) Không giải phương trình, hãy tính giá trị của biểu thức: $A = 4x_1^2 + \\dfrac{5x_2}{3} - 5x_1$.",
+      "phuong_phap_duoc_dung": [
+        "Tính Δ",
+        "$x_1$ là nghiệm: $3x_1^2 - 5x_1 - 7 = 0 \\Rightarrow x_1^2 = \\dfrac{5x_1 + 7}{3}$",
+        "Định lý Viète: $x_1 + x_2 = 5/3$",
+        "Thay $x_1^2$ vào A → rút gọn: $A = \\dfrac{5(x_1+x_2) + 28}{3}$",
+        "$A = \\dfrac{5 \\cdot 5/3 + 28}{3} = \\dfrac{109}{9}$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Định lý Viète",
+        "Hạ bậc nghiệm bằng phương trình"
+      ],
+      "dap_so": "$A = \\dfrac{109}{9}$",
+      "goi_y_cap_1": "Δ = 25 + 84 = 109 > 0. $x_1$ là nghiệm: $x_1^2 = (5x_1+7)/3$. Viète: $x_1+x_2 = 5/3$. Thay vào: $A = 4(5x_1+7)/3 + 5x_2/3 - 5x_1 = (5(x_1+x_2)+28)/3 = (25/3+28)/3 = 109/9$.",
+      "goi_y_cap_2": "Câu a: $\\Delta = (-5)^2 - 4 \\cdot 3 \\cdot (-7) = 25 + 84 = 109 > 0$.\n\nCâu b:\n- Vì $x_1$ là nghiệm: $3x_1^2 - 5x_1 - 7 = 0 \\Rightarrow 3x_1^2 = 5x_1 + 7 \\Rightarrow x_1^2 = \\dfrac{5x_1 + 7}{3}$\n- Viète: $x_1 + x_2 = 5/3$\n- Thay $x_1^2 = \\dfrac{5x_1 + 7}{3}$ vào $A$:\n- $A = 4 \\cdot \\dfrac{5x_1 + 7}{3} + \\dfrac{5x_2}{3} - 5x_1 = \\dfrac{20x_1 + 28}{3} + \\dfrac{5x_2}{3} - \\dfrac{15x_1}{3}$\n- $= \\dfrac{20x_1 + 28 + 5x_2 - 15x_1}{3} = \\dfrac{5x_1 + 5x_2 + 28}{3} = \\dfrac{5(x_1+x_2) + 28}{3}$\n- $= \\dfrac{5 \\cdot 5/3 + 28}{3} = \\dfrac{25/3 + 84/3}{3} = \\dfrac{109/3}{3} = \\dfrac{109}{9}$",
+      "loi_giai_day_du": "**Câu a) Chứng minh có 2 nghiệm phân biệt:**\n\nPhương trình đã cho có $a = 3; b = -5; c = -7$.\n\n$\\Delta = b^2 - 4ac = (-5)^2 - 4 \\cdot 3 \\cdot (-7) = 25 + 84 = 109$.\n\nVì $\\Delta = 109 > 0$ nên phương trình luôn có hai nghiệm phân biệt $x_1, x_2$. □\n\n**Câu b) Tính A:**\n\nVì $x_1$ là nghiệm của phương trình nên:\n$$3x_1^2 - 5x_1 - 7 = 0 \\Rightarrow 3x_1^2 = 5x_1 + 7 \\Rightarrow x_1^2 = \\dfrac{5x_1 + 7}{3}$$\n\nTheo hệ thức Vi-ét, ta có: $x_1 + x_2 = \\dfrac{-b}{a} = \\dfrac{5}{3}$.\n\nThay $x_1^2 = \\dfrac{5x_1 + 7}{3}$ vào biểu thức $A$, ta được:\n$$A = 4 \\left(\\dfrac{5x_1 + 7}{3}\\right) + \\dfrac{5x_2}{3} - 5x_1 = \\dfrac{20x_1 + 28}{3} + \\dfrac{5x_2}{3} - \\dfrac{15x_1}{3}$$\n$$= \\dfrac{20x_1 + 28 + 5x_2 - 15x_1}{3} = \\dfrac{5x_1 + 5x_2 + 28}{3} = \\dfrac{5(x_1 + x_2) + 28}{3}$$\n\nThay $x_1 + x_2 = \\dfrac{5}{3}$ vào ta được:\n$$A = \\dfrac{5 \\cdot \\dfrac{5}{3} + 28}{3} = \\dfrac{\\dfrac{25}{3} + \\dfrac{84}{3}}{3} = \\dfrac{\\dfrac{109}{3}}{3} = \\boxed{\\dfrac{109}{9}}$$",
+      "co_hinh_ve": false,
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết hạ bậc $x_1^2$ bằng phương trình.",
+          "Em quên Viète với $a = 3$.",
+          "Em không gộp được $5x_1 + 5x_2$."
+        ],
+        "dinh_huong": [
+          "Em định $x_1^2 = (5x_1+7)/3$ — đúng không?",
+          "Em định gộp $20x_1 - 15x_1 = 5x_1$ rồi $5x_1 + 5x_2 = 5(x_1+x_2)$ — đúng chứ?",
+          "Em định Viète $x_1+x_2 = 5/3$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $x_1^2 = (5x_1+7)/3$ — đúng không?",
+          "Em ra $A = (5(x_1+x_2) + 28)/3$ — đúng chưa?",
+          "Em ra $A = 109/9$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết phương pháp 'hạ bậc' (dùng pt gốc).",
+          "Em quên rằng $25/3 + 28 = 25/3 + 84/3 = 109/3$.",
+          "Em chia nhầm dấu phân số."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      }
+    },
+    {
+      "bai_so": 3,
+      "diem": 1.5,
+      "chu_de": "Thống kê - Biểu đồ cột kép HS CLB cầu lông",
+      "de_bai": "Biểu đồ cột kép ở hình dưới biểu diễn số lượng học sinh tham gia câu lạc bộ cầu lông của một trường trung học cơ sở. Chọn ngẫu nhiên một học sinh tham gia câu lạc bộ cầu lông của trường đó. Tính xác suất của mỗi biến cố sau:\n\n| Khối | 6 | 7 | 8 | 9 |\n|---|---|---|---|---|\n| Nam | 10 | 12 | 7 | 5 |\n| Nữ | 8 | 15 | 6 | 7 |\n\n$A$: \"Học sinh được chọn là nữ\".\n\n$B$: \"Học sinh được chọn là nam và không thuộc khối $6$\".",
+      "phuong_phap_duoc_dung": [
+        "Tổng = (10+8)+(12+15)+(7+6)+(5+7) = 70",
+        "Nữ = 8+15+6+7 = 36 → P(A) = 36/70 = 18/35",
+        "Nam không thuộc K6 = 12+7+5 = 24 → P(B) = 24/70 = 12/35"
+      ],
+      "kien_thuc_lien_quan": [
+        "Biểu đồ cột kép",
+        "Xác suất cổ điển"
+      ],
+      "dap_so": "$P(A) = \\dfrac{18}{35}$, $P(B) = \\dfrac{12}{35}$.",
+      "goi_y_cap_1": "Tổng = 70. Nữ = 36 → P(A) = 18/35. Nam không K6 = 12+7+5 = 24 → P(B) = 24/70 = 12/35.",
+      "goi_y_cap_2": "- $n(\\Omega) = (10+8)+(12+15)+(7+6)+(5+7) = 18+27+13+12 = 70$\n- *A:* Số HS nữ = 8+15+6+7 = 36\n- $P(A) = 36/70 = 18/35$\n- *B:* Số HS nam không thuộc K6 = K7+K8+K9 = 12+7+5 = 24\n- $P(B) = 24/70 = 12/35$",
+      "loi_giai_day_du": "Tổng số học sinh tham gia câu lạc bộ là:\n$$n(\\Omega) = (10+8) + (12+15) + (7+6) + (5+7) = \\boxed{70 \\text{ học sinh}}$$\n\n**Biến cố A:** học sinh được chọn là nữ\n\nSố học sinh nữ tham gia câu lạc bộ là:\n$$n(A) = 8 + 15 + 6 + 7 = 36 \\text{ (học sinh)}$$\n\nXác suất của biến cố $A$:\n$$P(A) = \\dfrac{36}{70} = \\boxed{\\dfrac{18}{35}}$$\n\n**Biến cố B:** học sinh được chọn là nam và không thuộc khối 6\n\nSố học sinh nam không thuộc khối 6 (gồm khối 7, 8, 9) là:\n$$n(B) = 12 + 7 + 5 = 24 \\text{ (học sinh)}$$\n\nXác suất của biến cố $B$:\n$$P(B) = \\dfrac{24}{70} = \\boxed{\\dfrac{12}{35}}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Biểu đồ cột kép số HS CLB cầu lông 4 khối: K6 (Nam 10, Nữ 8); K7 (Nam 12, Nữ 15); K8 (Nam 7, Nữ 6); K9 (Nam 5, Nữ 7).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không hiểu 'không thuộc khối 6'.",
+          "Em không biết phân biệt nam/nữ.",
+          "Em không cộng đúng tổng."
+        ],
+        "dinh_huong": [
+          "Em định 'không thuộc K6' = K7 + K8 + K9 — đúng không?",
+          "Em định nữ là cột nữ 4 khối — đúng chứ?",
+          "Em định cộng đúng số nam K7+K8+K9 — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra tổng 70 — đúng không?",
+          "Em ra $P(A) = 18/35$ — đúng chưa?",
+          "Em ra $P(B) = 12/35$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên loại nam K6.",
+          "Em không rút gọn phân số.",
+          "Em đếm thiếu cột."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-43/bai3-bieudokep.png"
+    },
+    {
+      "bai_so": 4,
+      "diem": 1.0,
+      "chu_de": "Bài toán thực tế - Tấm bìa cắt 4 hình vuông góc tạo hộp",
+      "de_bai": "Một tấm bìa hình chữ nhật có chiều rộng $x$ (cm) và chiều dài hơn chiều rộng $5$ (cm). Người ta cắt bỏ bốn hình vuông nhỏ có cùng cạnh $2$ (cm) ở bốn góc để tạo thành một hộp không nắp.\n\na) Viết biểu thức thu gọn diện tích phần bìa còn lại theo $x$.\n\nb) Nếu diện tích phần bìa còn lại là $134$ cm². Tính chiều rộng và chiều dài của tấm bìa ban đầu.",
+      "phuong_phap_duoc_dung": [
+        "$S_{ban đầu} = x(x+5)$",
+        "$S_{4 vuông} = 4 \\cdot 2^2 = 16$",
+        "$S_{còn} = x(x+5) - 16 = x^2 + 5x - 16$",
+        "$x^2 + 5x - 16 = 134 \\Rightarrow x^2 + 5x - 150 = 0$",
+        "$x = 10$ (nhận) hoặc $x = -15$ (loại)"
+      ],
+      "kien_thuc_lien_quan": [
+        "Diện tích hình chữ nhật, hình vuông",
+        "Phương trình bậc hai"
+      ],
+      "dap_so": "a) $S = x^2 + 5x - 16$ (cm²). b) Chiều rộng $10$ cm, chiều dài $15$ cm.",
+      "goi_y_cap_1": "Câu a: $S = x(x+5) - 16 = x^2 + 5x - 16$.\n\nCâu b: $x^2 + 5x - 150 = 0 \\Rightarrow x = 10$ (nhận). Chiều rộng = 10, chiều dài = 15 cm.",
+      "goi_y_cap_2": "Câu a:\n- Chiều dài: $x + 5$ (cm)\n- $S_{ban đầu} = x(x+5)$ cm²\n- $S_{4 vuông} = 4 \\cdot 2^2 = 16$ cm²\n- $S = x(x+5) - 16 = x^2 + 5x - 16$ cm²\n\nCâu b: $S = 134$\n- $x^2 + 5x - 16 = 134$\n- $x^2 + 5x - 150 = 0$\n- $x_1 = 10$ (nhận); $x_2 = -15$ (loại)\n- Chiều rộng = 10, chiều dài = 15 cm",
+      "loi_giai_day_du": "**Câu a) Biểu thức diện tích phần bìa còn lại:**\n\nDiện tích tấm bìa hình chữ nhật ban đầu là $x(x+5)$ (cm²).\n\nDiện tích 4 hình vuông nhỏ ở bốn góc là $4 \\cdot 2^2 = 16$ (cm²).\n\nBiểu thức diện tích phần bìa còn lại:\n$$S = x(x+5) - 16 = \\boxed{x^2 + 5x - 16 \\text{ (cm}^2\\text{)}}$$\n\n**Câu b) Chiều rộng và chiều dài tấm bìa:**\n\nVì diện tích phần bìa còn lại là $134$ cm² nên ta có phương trình:\n$$x^2 + 5x - 16 = 134$$\n$$x^2 + 5x - 150 = 0$$\n$$x_1 = 10 \\text{ (nhận)}; \\quad x_2 = -15 \\text{ (loại)}$$\n\nVậy chiều rộng tấm bìa là $\\boxed{10}$ cm, chiều dài tấm bìa là $10 + 5 = \\boxed{15}$ cm.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Tấm bìa HCN chiều rộng x, chiều dài x+5, có 4 hình vuông cạnh 2cm cắt ở 4 góc (nét đứt).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết 'chiều dài hơn chiều rộng 5'.",
+          "Em quên S vuông = $a^2$.",
+          "Em không loại nghiệm âm."
+        ],
+        "dinh_huong": [
+          "Em định chiều dài = $x + 5$ — đúng không?",
+          "Em định $S_{4 vuông} = 4 \\cdot 4 = 16$ — đúng chứ?",
+          "Em định $S_{còn} = x(x+5) - 16$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = x^2 + 5x - 16$ — đúng không?",
+          "Em ra $x = 10$ — đúng chưa?",
+          "Em ra chiều dài = 15 cm — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em nhầm cắt 1 vuông thay vì 4.",
+          "Em không loại nghiệm âm.",
+          "Em quên cộng 5 vào $x$ để có chiều dài."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-43/bai4-tambia.png"
+    },
+    {
+      "bai_so": 5,
+      "diem": 1.0,
+      "chu_de": "Hình học không gian - Hộp mỹ phẩm trụ + nửa cầu",
+      "de_bai": "Một hộp đựng mỹ phẩm được thiết kế có thân hộp là hình trụ có bán kính đáy $r = 6$ cm, chiều cao $h = 5$ cm và nắp hộp là một nửa hình cầu (như hình vẽ).\n\na) Tính thể tích của hộp mỹ phẩm.\n\nb) Người ta cần sơn mặt ngoài của cái hộp đó (không sơn đáy) thì diện tích $S$ cần sơn là bao nhiêu?\n\n(Các kết quả làm tròn chính xác đến hàng phần trăm của đơn vị). Biết công thức tính thể tích khối trụ là $V = \\pi R^2 h$ ($R$ là bán kính đáy, $h$ là chiều cao); công thức tính thể tích hình cầu là $V = \\dfrac{4}{3}\\pi R^3$; công thức tính diện tích xung quanh hình trụ $S = 2\\pi Rh$, công thức tính diện tích mặt cầu: $S = 4\\pi R^2$.",
+      "phuong_phap_duoc_dung": [
+        "$V_1 = \\pi \\cdot 6^2 \\cdot 5 = 180\\pi$ cm³",
+        "$V_2 = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi \\cdot 6^3 = 144\\pi$ cm³",
+        "$V = 324\\pi \\approx 1017{,}88$ cm³",
+        "$S_1 = 2\\pi \\cdot 6 \\cdot 5 = 60\\pi$ cm² (xung quanh trụ)",
+        "$S_2 = \\dfrac{1}{2} \\cdot 4\\pi \\cdot 6^2 = 72\\pi$ cm² (nửa mặt cầu)",
+        "$S = 132\\pi \\approx 414{,}69$ cm²"
+      ],
+      "kien_thuc_lien_quan": [
+        "Thể tích hình trụ, hình cầu",
+        "Diện tích xung quanh hình trụ, mặt cầu"
+      ],
+      "dap_so": "a) $V \\approx 1017{,}88$ cm³. b) $S \\approx 414{,}69$ cm².",
+      "goi_y_cap_1": "Câu a: $V_1 = 180\\pi, V_2 = 144\\pi \\Rightarrow V = 324\\pi \\approx 1017,88$ cm³.\n\nCâu b: $S_1 = 60\\pi$ (xung quanh trụ), $S_2 = 72\\pi$ (nửa mặt cầu). $S = 132\\pi \\approx 414,69$ cm².",
+      "goi_y_cap_2": "Câu a:\n- $V_1 = \\pi r^2 h = \\pi \\cdot 6^2 \\cdot 5 = 180\\pi$ cm³ (thân trụ)\n- $V_2 = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi r^3 = \\dfrac{2}{3}\\pi \\cdot 216 = 144\\pi$ cm³ (nắp nửa cầu)\n- $V = V_1 + V_2 = 324\\pi \\approx 1017{,}88$ cm³\n\nCâu b: Sơn xung quanh trụ + nửa mặt cầu (không sơn đáy)\n- $S_1 = 2\\pi r h = 2\\pi \\cdot 6 \\cdot 5 = 60\\pi$ cm²\n- $S_2 = \\dfrac{1}{2} \\cdot 4\\pi r^2 = 2\\pi \\cdot 36 = 72\\pi$ cm²\n- $S = 60\\pi + 72\\pi = 132\\pi \\approx 414{,}69$ cm²",
+      "loi_giai_day_du": "**Câu a) Thể tích hộp mỹ phẩm:**\n\nThể tích phần thân hình trụ là:\n$$V_1 = \\pi r^2 h = \\pi \\cdot 6^2 \\cdot 5 = 180\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích phần nắp (nửa hình cầu) là:\n$$V_2 = \\dfrac{1}{2} \\cdot \\dfrac{4}{3}\\pi r^3 = \\dfrac{2}{3}\\pi \\cdot 6^3 = 144\\pi \\text{ (cm}^3\\text{)}$$\n\nThể tích của hộp mỹ phẩm là:\n$$V = V_1 + V_2 = 180\\pi + 144\\pi = 324\\pi \\approx \\boxed{1017{,}88 \\text{ cm}^3}$$\n\n**Câu b) Diện tích cần sơn:**\n\nDiện tích xung quanh phần thân hình trụ là:\n$$S_1 = 2\\pi r h = 2\\pi \\cdot 6 \\cdot 5 = 60\\pi \\text{ (cm}^2\\text{)}$$\n\nDiện tích mặt ngoài phần nắp (nửa mặt cầu) là:\n$$S_2 = \\dfrac{1}{2} \\cdot 4\\pi r^2 = 2\\pi \\cdot 6^2 = 72\\pi \\text{ (cm}^2\\text{)}$$\n\nDiện tích cần sơn là:\n$$S = S_1 + S_2 = 60\\pi + 72\\pi = 132\\pi \\approx \\boxed{414{,}69 \\text{ cm}^2}$$",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Hộp mỹ phẩm VÉLIA: thân trụ r=6cm, h=5cm, nắp nửa hình cầu.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không nhớ V trụ và V cầu.",
+          "Em không hiểu 'không sơn đáy'.",
+          "Em không biết V nắp = nửa V cầu."
+        ],
+        "dinh_huong": [
+          "Em định $V = V_{trụ} + V_{nửa cầu}$ — đúng không?",
+          "Em định $V_2 = \\dfrac{2}{3}\\pi r^3$ — đúng chứ?",
+          "Em định $S = S_{xq trụ} + S_{nửa cầu}$ (không cộng đáy) — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $V_1 = 180\\pi, V_2 = 144\\pi$ — đúng không?",
+          "Em ra $V \\approx 1017,88$ — đúng chưa?",
+          "Em ra $S \\approx 414,69$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em quên chia 2 cho V cầu (lấy nửa).",
+          "Em cộng cả diện tích đáy.",
+          "Em làm tròn sai chữ số thập phân."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-43/bai5-hop.png"
+    },
+    {
+      "bai_so": 6,
+      "diem": 1.0,
+      "chu_de": "Tối ưu - Dây thép 8m chia thành 2 hình vuông",
+      "de_bai": "Từ một dây thép $AC$ có chiều dài $8$ m, được chia làm hai phần $AB$ và $BC$. Mỗi phần $AB$ và $BC$ đều được uốn thành hình vuông. Đặt $AB = x$ (m), hỏi $x$ bằng bao nhiêu để tổng diện tích hai hình vuông là nhỏ nhất?",
+      "phuong_phap_duoc_dung": [
+        "$BC = 8 - x$",
+        "Cạnh hình vuông 1: $x/4$, cạnh hình vuông 2: $(8-x)/4$",
+        "$S = (x/4)^2 + ((8-x)/4)^2 = \\dfrac{x^2 + (8-x)^2}{16} = \\dfrac{2x^2 - 16x + 64}{16} = \\dfrac{x^2 - 8x + 32}{8}$",
+        "$S = \\dfrac{(x-4)^2 + 16}{8} = \\dfrac{(x-4)^2}{8} + 2 \\geq 2$",
+        "Dấu = khi $x = 4$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Hằng đẳng thức $(a-b)^2$",
+        "Tìm GTNN của hàm bậc 2"
+      ],
+      "dap_so": "$x = 4$ m thì tổng diện tích hai hình vuông nhỏ nhất.",
+      "goi_y_cap_1": "$S = (x/4)^2 + ((8-x)/4)^2 = (x^2 - 8x + 32)/8 = (x-4)^2/8 + 2 \\geq 2$. Dấu = khi $x = 4$.",
+      "goi_y_cap_2": "- ĐK: $0 < x < 8$\n- Cạnh hình vuông 1: $x/4$, cạnh hình vuông 2: $(8-x)/4$\n- $S = (x/4)^2 + ((8-x)/4)^2 = \\dfrac{x^2}{16} + \\dfrac{(8-x)^2}{16}$\n- $= \\dfrac{x^2 + (8-x)^2}{16} = \\dfrac{x^2 + 64 - 16x + x^2}{16} = \\dfrac{2x^2 - 16x + 64}{16} = \\dfrac{x^2 - 8x + 32}{8}$\n- $= \\dfrac{(x^2 - 8x + 16) + 16}{8} = \\dfrac{(x-4)^2 + 16}{8} = \\dfrac{(x-4)^2}{8} + 2$\n- Vì $(x-4)^2 \\geq 0$ nên $S \\geq 2$\n- Dấu = khi $x = 4$ (thỏa mãn)",
+      "loi_giai_day_du": "Điều kiện: $0 < x < 8$.\n\nCạnh của hình vuông thứ nhất (uốn từ đoạn $AB$) là $\\dfrac{x}{4}$ (m).\n\nDiện tích hình vuông thứ nhất là $\\left(\\dfrac{x}{4}\\right)^2 = \\dfrac{x^2}{16}$ (m²).\n\nĐộ dài đoạn dây còn lại $BC$ là $8 - x$ (m).\n\nCạnh của hình vuông thứ hai (uốn từ đoạn $BC$) là $\\dfrac{8-x}{4}$ (m).\n\nDiện tích hình vuông thứ hai là $\\left(\\dfrac{8-x}{4}\\right)^2 = \\dfrac{(8-x)^2}{16}$ (m²).\n\nTổng diện tích hai hình vuông là:\n$$S = \\dfrac{x^2}{16} + \\dfrac{(8-x)^2}{16} = \\dfrac{x^2 + 64 - 16x + x^2}{16} = \\dfrac{2x^2 - 16x + 64}{16} = \\dfrac{x^2 - 8x + 32}{8}$$\n\n$$S = \\dfrac{(x^2 - 8x + 16) + 16}{8} = \\dfrac{(x-4)^2 + 16}{8} = \\dfrac{(x-4)^2}{8} + 2$$\n\nVì $(x-4)^2 \\geq 0$ với mọi $x$ nên $S \\geq 2$.\n\nDấu \"=\" xảy ra khi $x - 4 = 0$, suy ra $x = 4$ (thỏa mãn điều kiện).\n\nVậy để tổng diện tích hai hình vuông nhỏ nhất thì $\\boxed{x = 4}$ (m).",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đoạn dây thép AC dài 8m chia tại B: AB = x (uốn thành hình vuông S₁ cạnh x/4), BC = 8-x (uốn thành hình vuông S₂ cạnh (8-x)/4).",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không biết cạnh hình vuông = chu vi/4.",
+          "Em không nhớ hằng đẳng thức $(a-b)^2 \\geq 0$.",
+          "Em không biết tìm GTNN."
+        ],
+        "dinh_huong": [
+          "Em định cạnh = $x/4$ và $(8-x)/4$ — đúng không?",
+          "Em định $S = $ tổng 2 diện tích — đúng chứ?",
+          "Em định biến đổi $(x-4)^2/8 + 2$ — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra $S = (x-4)^2/8 + 2$ — đúng không?",
+          "Em ra $S \\geq 2$ — đúng chưa?",
+          "Em ra $x = 4$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không biết hoàn thành bình phương.",
+          "Em quên rằng $(x-4)^2 \\geq 0$.",
+          "Em không kiểm tra điều kiện $0 < x < 8$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-43/bai6-daythep.png"
+    },
+    {
+      "bai_so": 7,
+      "diem": 3.0,
+      "chu_de": "Hình học - Đường tròn (O) đường kính AB - Tiếp tuyến tại A, AM=2R - Tính CHB",
+      "de_bai": "Cho đường tròn $(O; R)$ đường kính $AB$. Trên tiếp tuyến tại $A$ của đường tròn $(O; R)$, lấy $M$ sao cho $AM = 2R$, $MB$ cắt đường tròn $(O)$ tại $C$. Kẻ $AH$ vuông góc với $OM$ tại $H$.\n\na) Chứng minh tứ giác $AMCH$ nội tiếp và $\\widehat{MHC} = \\widehat{ABM}$.\n\nb) Chứng minh $MA^2 = MB \\cdot MC$ và $\\dfrac{MB}{MC} = \\dfrac{AB^2}{AC^2}$.\n\nc) Tính số đo $\\widehat{CHB}$.",
+      "phuong_phap_duoc_dung": [
+        "$\\widehat{ACB} = 90°$ (chắn nửa đường tròn) → AC ⊥ MB → △ACM vuông C → nội tiếp đường kính AM",
+        "△AHM vuông H → nội tiếp đường kính AM → AMCH nội tiếp",
+        "$\\widehat{MHC} = \\widehat{MAC}$ (cùng chắn cung MC), $\\widehat{MAC} = \\widehat{ABM}$ (cùng phụ $\\widehat{AMC}$) → $\\widehat{MHC} = \\widehat{ABM}$",
+        "△MAC ~ △MBA (g-g, M chung, $\\widehat{MAC} = \\widehat{MBA}$) → $MA^2 = MB \\cdot MC$",
+        "$\\dfrac{MA}{MB} \\cdot \\dfrac{MC}{MA} = \\dfrac{AC}{AB} \\cdot \\dfrac{AC}{AB} \\Rightarrow \\dfrac{MC}{MB} = \\dfrac{AC^2}{AB^2}$ → $\\dfrac{MB}{MC} = \\dfrac{AB^2}{AC^2}$",
+        "Câu c: $AM = AB = 2R$ → △MAB vuông cân A → $\\widehat{ABM} = 45°$ → $\\widehat{MHC} = 45°$",
+        "△OHA ~ △OAM (g-g) → $OA^2 = OH \\cdot OM$",
+        "$OB = OA$ → $OB^2 = OH \\cdot OM \\Rightarrow OB/OH = OM/OB$",
+        "△OHB ~ △OBM (c-g-c, O chung, $OB/OH = OM/OB$) → $\\widehat{OHB} = \\widehat{OBM} = 45°$",
+        "$\\widehat{CHB} = 180° - \\widehat{OHB} - \\widehat{MHC} = 180° - 45° - 45° = 90°$"
+      ],
+      "kien_thuc_lien_quan": [
+        "Tứ giác nội tiếp đường kính",
+        "Góc nội tiếp chắn nửa đường tròn",
+        "Tam giác đồng dạng",
+        "Tam giác vuông cân"
+      ],
+      "dap_so": "c) $\\widehat{CHB} = 90°$.",
+      "goi_y_cap_1": "Câu a: $\\widehat{ACB} = 90°$ → AC ⊥ MB → △ACM vuông C → △ACM, △AHM nội tiếp đường kính AM → AMCH nội tiếp. $\\widehat{MHC} = \\widehat{MAC} = \\widehat{ABM}$.\n\nCâu b: △MAC ~ △MBA (g-g) → $MA^2 = MB \\cdot MC$. Suy luận tỉ lệ → $MB/MC = AB^2/AC^2$.\n\nCâu c: $AM = AB = 2R$ → △MAB vuông cân → $\\widehat{ABM} = 45°$. △OHA ~ △OAM → $OA^2 = OH \\cdot OM$, mà $OA = OB$ → $OB^2 = OH \\cdot OM$. △OHB ~ △OBM (c-g-c) → $\\widehat{OHB} = 45°$. $\\widehat{CHB} = 180° - 45° - 45° = 90°$.",
+      "goi_y_cap_2": "Câu a:\n- $\\widehat{ACB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính AB) → $AC \\perp MB$ → $\\widehat{ACM} = 90°$\n- △ACM vuông tại C → nội tiếp đường tròn đường kính AM (1)\n- △AHM vuông tại H (do AH ⊥ OM) → nội tiếp đường tròn đường kính AM (2)\n- (1)(2): A, M, C, H đồng viên đường kính AM → AMCH nội tiếp\n- $\\widehat{MHC} = \\widehat{MAC}$ (2 góc nội tiếp cùng chắn cung MC)\n- $\\widehat{MAC} = \\widehat{ABM}$ (cùng phụ với $\\widehat{AMC}$)\n- → $\\widehat{MHC} = \\widehat{ABM}$\n\nCâu b:\n- △MAC và △MBA: $\\widehat{M}$ chung, $\\widehat{MAC} = \\widehat{MBA}$\n- → △MAC ~ △MBA (g-g)\n- → $\\dfrac{MA}{MB} = \\dfrac{MC}{MA} = \\dfrac{AC}{AB}$ → $MA^2 = MB \\cdot MC$\n- $\\dfrac{MA}{MB} \\cdot \\dfrac{MC}{MA} = \\dfrac{AC}{AB} \\cdot \\dfrac{AC}{AB}$\n- → $\\dfrac{MC}{MB} = \\dfrac{AC^2}{AB^2}$ → $\\dfrac{MB}{MC} = \\dfrac{AB^2}{AC^2}$\n\nCâu c:\n- △MAB vuông tại A có $AM = AB = 2R$ → △MAB vuông cân tại A\n- → $\\widehat{ABM} = 45°$ → $\\widehat{MHC} = 45°$\n- △OHA và △OAM: $\\widehat{O}$ chung, $\\widehat{OHA} = \\widehat{OAM} = 90°$ → △OHA ~ △OAM (g-g)\n- → $\\dfrac{OH}{OA} = \\dfrac{OA}{OM}$ → $OA^2 = OH \\cdot OM$\n- Mà $OA = OB = R$ → $OB^2 = OH \\cdot OM$ → $\\dfrac{OB}{OH} = \\dfrac{OM}{OB}$\n- △OHB và △OBM: $\\widehat{O}$ chung, $\\dfrac{OB}{OH} = \\dfrac{OM}{OB}$ → △OHB ~ △OBM (c-g-c)\n- → $\\widehat{OHB} = \\widehat{OBM} = \\widehat{ABM} = 45°$\n- $\\widehat{CHB} = 180° - \\widehat{OHB} - \\widehat{MHC} = 180° - 45° - 45° = 90°$",
+      "loi_giai_day_du": "**Câu a) Chứng minh AMCH nội tiếp và $\\widehat{MHC} = \\widehat{ABM}$:**\n\nTa có $\\widehat{ACB} = 90°$ (góc nội tiếp chắn nửa đường tròn đường kính $AB$).\n\nSuy ra $AC \\perp MB$ hay $\\widehat{ACM} = 90°$.\n\n△ACM vuông tại C → nội tiếp đường tròn đường kính AM (1).\n\n△AHM vuông tại H (do $AH \\perp OM$) → nội tiếp đường tròn đường kính AM (2).\n\nTừ (1) và (2): 4 điểm $A, M, C, H$ cùng thuộc đường tròn đường kính AM. Suy ra tứ giác $AMCH$ nội tiếp.\n\nTa có $\\widehat{MHC} = \\widehat{MAC}$ (hai góc nội tiếp cùng chắn cung $MC$).\n\n$\\widehat{MAC} = \\widehat{ABM}$ (cùng phụ với $\\widehat{AMC}$).\n\nVậy $\\widehat{MHC} = \\widehat{ABM}$.\n\n**Câu b) Chứng minh $MA^2 = MB \\cdot MC$ và $\\dfrac{MB}{MC} = \\dfrac{AB^2}{AC^2}$:**\n\nXét △MAC và △MBA:\n$\\begin{cases} \\widehat{M} \\text{ (góc chung)} \\\\ \\widehat{MAC} = \\widehat{MBA} \\text{ (cmt)} \\end{cases}$\n\n$\\Rightarrow \\triangle MAC \\sim \\triangle MBA$ (g-g)\n\n$\\Rightarrow \\dfrac{MA}{MB} = \\dfrac{MC}{MA} = \\dfrac{AC}{AB}$\n\n$\\Rightarrow MA^2 = MB \\cdot MC$.\n\nTa có $\\dfrac{MA}{MB} \\cdot \\dfrac{MC}{MA} = \\dfrac{AC}{AB} \\cdot \\dfrac{AC}{AB}$.\n\nSuy ra $\\dfrac{MC}{MB} = \\dfrac{AC^2}{AB^2}$, do đó $\\dfrac{MB}{MC} = \\dfrac{AB^2}{AC^2}$.\n\n**Câu c) Tính $\\widehat{CHB}$:**\n\n△MAB vuông tại $A$ có $AM = AB = 2R$.\n\nSuy ra △MAB vuông cân tại $A$ $\\Rightarrow \\widehat{ABM} = 45°$.\n\nMà $\\widehat{MHC} = \\widehat{ABM}$ (cmt) $\\Rightarrow \\widehat{MHC} = 45°$.\n\nXét △OHA và △OAM:\n$\\begin{cases} \\widehat{O} \\text{ (góc chung)} \\\\ \\widehat{OHA} = \\widehat{OAM} = 90° \\end{cases}$\n\n$\\Rightarrow \\triangle OHA \\sim \\triangle OAM$ (g-g)\n\n$\\Rightarrow \\dfrac{OH}{OA} = \\dfrac{OA}{OM} \\Rightarrow OA^2 = OH \\cdot OM$.\n\nMà $OA = OB = R$ nên $OB^2 = OH \\cdot OM \\Rightarrow \\dfrac{OB}{OH} = \\dfrac{OM}{OB}$.\n\nXét △OHB và △OBM:\n$\\begin{cases} \\widehat{O} \\text{ (góc chung)} \\\\ \\dfrac{OB}{OH} = \\dfrac{OM}{OB} \\text{ (cmt)} \\end{cases}$\n\n$\\Rightarrow \\triangle OHB \\sim \\triangle OBM$ (c-g-c)\n\n$\\Rightarrow \\widehat{OHB} = \\widehat{OBM} = \\widehat{ABM} = 45°$.\n\n$\\widehat{CHB} = 180° - \\widehat{OHB} - \\widehat{MHC} = 180° - 45° - 45°$\n\nVậy $\\widehat{CHB} = \\boxed{90°}$.",
+      "co_hinh_ve": true,
+      "ghi_chu_hinh": "Đường tròn (O;R) đường kính AB. Tiếp tuyến tại A. M trên tiếp tuyến (AM=2R). MB cắt (O) tại C. AH ⊥ OM tại H.",
+      "cau_dan": {
+        "khoi_dong": [
+          "Em không thấy được AMCH có 2 góc vuông cùng nhìn AM.",
+          "Câu c em không tính ra $\\widehat{ABM}$.",
+          "Em không nhớ tính chất tam giác vuông cân."
+        ],
+        "dinh_huong": [
+          "Câu a em định AMCH đồng viên đường kính AM — đúng không?",
+          "Câu b em định △MAC ~ △MBA (g-g) — đúng chứ?",
+          "Câu c em định $AM = AB = 2R$ → vuông cân → 45° — đúng hướng không?"
+        ],
+        "kiem_tra": [
+          "Em ra AMCH nội tiếp — đúng không?",
+          "Em ra $MA^2 = MB \\cdot MC$ — đúng chưa?",
+          "Em ra $\\widehat{CHB} = 90°$ — đáp án có đúng không?"
+        ],
+        "go_bi": [
+          "Em không thấy được △MAB vuông cân.",
+          "Em không nhận ra cần dùng △OHB ~ △OBM.",
+          "Em không tính đúng $\\widehat{CHB} = 180° - 45° - 45°$."
+        ],
+        "loi_giai": [
+          "📎 Xem gợi ý cấp 1 (hướng làm).",
+          "📎 Xem gợi ý cấp 2 (các bước chính).",
+          "📎 Xem lời giải đầy đủ."
+        ]
+      },
+      "hinh_anh": "/images/de-43/bai7-duongtron.png"
+    }
+  ]
+}
