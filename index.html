@@ -1151,6 +1151,27 @@ function authRenderUserChip(session) {
   document.getElementById('user-avatar').textContent = (lastWord[0] || '?').toUpperCase();
 }
 
+// Ping server mỗi khi học sinh "vào trang" (đăng nhập mới hoặc mở lại app).
+// Tiết chế: chỉ ping 1 lần / 30 phút cho cùng 1 username để khỏi đếm trùng
+// khi học sinh F5 hoặc đổi tab liên tục.
+function trackLogin(session) {
+  if (!session || !session.username) return;
+  try {
+    const KEY = 'lastLoginPing_' + session.username;
+    const last = parseInt(localStorage.getItem(KEY) || '0', 10);
+    if (Date.now() - last < 30 * 60 * 1000) return;   // <30 phút thì bỏ qua
+    localStorage.setItem(KEY, String(Date.now()));
+    fetch('/api/track-login', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        username: session.username,
+        ten_lop:  session.ten_lop || ''
+      })
+    }).catch(() => {});  // im lặng nếu lỗi mạng — không làm phiền học sinh
+  } catch (e) {}
+}
+
 async function authHandleLogin() {
   authClearError();
   if (Date.now() < _authLockedUntil) {
@@ -1184,6 +1205,7 @@ async function authHandleLogin() {
     }
     const session = authSaveSession(result.username, result.ten_lop);
     authRenderUserChip(session);
+    trackLogin(session);
     document.getElementById('login-screen').classList.add('hidden');
   } catch (e) {
     authShowError('Lỗi kết nối. Vui lòng kiểm tra mạng và thử lại.');
@@ -1198,6 +1220,7 @@ function authInit() {
   const session = authGetSession();
   if (session) {
     authRenderUserChip(session);
+    trackLogin(session);
     document.getElementById('login-screen').classList.add('hidden');
     return;
   }
@@ -1649,6 +1672,7 @@ async function sendToAI(userMsg, imagePayload = null) {
         .filter(m => !m._typing)
         .map(m => ({ role: m.role, content: m.content }));
 
+      const _session = authGetSession() || {};
       const res = await fetch('/api/chat', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
@@ -1660,7 +1684,9 @@ async function sendToAI(userMsg, imagePayload = null) {
           image: imagePayload ? {
             mime_type: imagePayload.mime_type,
             data: imagePayload.base64
-          } : null
+          } : null,
+          username: _session.username || '',
+          ten_lop:  _session.ten_lop  || ''
         })
       });
       if (!res.ok) throw new Error(`HTTP ${res.status}`);
