@@ -11,6 +11,22 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 const anthropic = new Anthropic();
 
+// ─── THEO DÕI HỌC SINH: gửi event lên Apps Script Web App ──────────
+// Cấu hình bằng biến môi trường LOG_WEBHOOK_URL trên Railway.
+// Nếu chưa cấu hình → bỏ qua, không lỗi.
+const LOG_WEBHOOK_URL = process.env.LOG_WEBHOOK_URL || '';
+
+function logEvent(payload) {
+  if (!LOG_WEBHOOK_URL) return;
+  // fire-and-forget: KHÔNG await để tránh chậm phản hồi cho học sinh
+  fetch(LOG_WEBHOOK_URL, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(payload),
+    redirect: 'follow'
+  }).catch(err => console.warn('⚠️  Log event lỗi:', err.message));
+}
+
 app.use(cors());
 app.use(express.json({ limit: '12mb' }));
 app.use(express.static(__dirname));
@@ -189,7 +205,11 @@ app.get('/api/de', (req, res) => {
 
 app.post('/api/chat', async (req, res) => {
   try {
-    const { de_so, bai_so, history = [], user_message, image = null } = req.body;
+    const {
+      de_so, bai_so, history = [], user_message, image = null,
+      username = '', ten_lop = ''   // ← thông tin học sinh từ frontend
+    } = req.body;
+
     if (!user_message && !image) return res.status(400).json({ error: 'Thiếu user_message hoặc image' });
     if (image) {
       const allowed = ['image/jpeg', 'image/png', 'image/webp'];
@@ -212,46 +232,17 @@ app.post('/api/chat', async (req, res) => {
       role: m.role === 'user' ? 'user' : 'assistant',
       content: m.content
     }));
+
     if (image) {
       messages.push({
         role: 'user',
         content: [
-          {
-            type: 'image',
-            source: {
-              type: 'base64',
-              media_type: image.mime_type,
-              data: image.data
-            }
-          },
-          {
-            type: 'text',
-            text: user_message || 'Em gửi ảnh bài làm, thầy xem giúp em nhé.'
-          }
-        ]
-      });
-    } else {
-      if (image) {
-      messages.push({
-        role: 'user',
-        content: [
-          {
-            type: 'image',
-            source: {
-              type: 'base64',
-              media_type: image.mime_type,
-              data: image.data
-            }
-          },
-          {
-            type: 'text',
-            text: user_message || 'Em gửi ảnh bài làm, thầy xem giúp em nhé.'
-          }
+          { type: 'image', source: { type: 'base64', media_type: image.mime_type, data: image.data } },
+          { type: 'text',  text: user_message || 'Em gửi ảnh bài làm, thầy xem giúp em nhé.' }
         ]
       });
     } else {
       messages.push({ role: 'user', content: user_message });
-    }
     }
 
     const completion = await anthropic.messages.create({
@@ -268,11 +259,20 @@ app.post('/api/chat', async (req, res) => {
     const response = completion.content[0].text;
 
     logChat({
-      de_so, bai_so,
+      de_so, bai_so, username, ten_lop,
       user_message,
       ai_response: response,
       timestamp: new Date().toISOString(),
       tokens: completion.usage
+    });
+
+    // ─── Gửi event lên Google Sheets ─────────────────────────────
+    logEvent({
+      event:    'chat',
+      username: username,
+      ten_lop:  ten_lop,
+      de_so:    de_so,
+      bai_so:   bai_so
     });
 
     res.json({ response, usage: completion.usage });
@@ -280,6 +280,14 @@ app.post('/api/chat', async (req, res) => {
     console.error('❌ Lỗi chat:', e.message);
     res.status(500).json({ error: e.message });
   }
+});
+
+// ─── Endpoint riêng cho frontend ping khi học sinh đăng nhập ──────
+app.post('/api/track-login', (req, res) => {
+  const { username = '', ten_lop = '' } = req.body || {};
+  if (!username) return res.status(400).json({ error: 'Thiếu username' });
+  logEvent({ event: 'login', username, ten_lop });
+  res.json({ ok: true });
 });
 
 function logChat(log) {
