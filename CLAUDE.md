@@ -1,4 +1,196 @@
-# CLAUDE.md
+# Hệ thống Quản lý Trung tâm Hưng Phương
+
+> File này cho Claude Code biết bối cảnh đầy đủ về dự án. Đọc kỹ trước khi bắt đầu bất kỳ task nào.
+
+## 🎯 Mục tiêu dự án
+
+Xây dựng hệ thống quản lý trung tâm dạy thêm Hưng Phương (~150 học sinh) để **thay thế EasyEdu V2** (đang trả 8 triệu/năm). Lý do thay thế:
+- EasyEdu **không có API** → không tự động hóa được, dữ liệu bị nhốt
+- Chỉ **1/3 phụ huynh** cài app EasyEdu → thông báo điểm danh không đến được
+- Vendor lock-in, không mở rộng tính năng được
+
+## 🏗 Kiến trúc tổng thể
+
+```
+┌─────────────────────────────────────────────────────────┐
+│  GIAO DIỆN NGƯỜI DÙNG                                   │
+│  - App Giáo viên (PWA)                                  │
+│  - App Thủ quỹ (PWA)                                    │
+│  - App Quản lý (PWA)                                    │
+│  - App Phụ huynh (PWA)                                  │
+└──────────────┬──────────────────────────────────────────┘
+               │ HTTPS REST API
+               ▼
+┌─────────────────────────────────────────────────────────┐
+│  WordPress REST API (Hostinger)                         │
+│  Base: https://toanhinh.com/wp-json/hp-api/v1/          │
+│  Auth: X-API-Key header                                 │
+└──────────────┬──────────────────────────────────────────┘
+               │
+       ┌───────┴────────┐
+       ▼                ▼
+┌─────────────┐   ┌─────────────┐
+│   MySQL     │   │     n8n     │
+│ (Hostinger) │   │  Webhooks   │
+│             │   │   ↓         │
+│ hp_attendance   │  ZNS (Zalo) │
+│ hp_tuition  │   │  (100% PH)  │
+│ ...         │   └─────────────┘
+└─────────────┘
+```
+
+**Nguyên tắc cốt lõi:**
+- **MySQL Hostinger** = nguồn sự thật duy nhất, không lưu dữ liệu ở chỗ khác
+- **API-first**: xây API trước, app sau — tránh vendor lock-in tự gây ra
+- **ZNS thay vì Zalo OA**: vượt qua giới hạn 48h, 100% PH nhận được
+- **PWA thay vì App Store**: triển khai nhanh, phụ huynh không cần cài
+
+## 🔧 Hạ tầng đã có sẵn
+
+| Thành phần | Vai trò | Trạng thái |
+|---|---|---|
+| WordPress + Tutor LMS | CMS, học online, user management | ✅ đang chạy trên Hostinger |
+| MySQL Hostinger | Database chính | ✅ có sẵn, n8n đã connect |
+| Plugin `tutor-lms-staff-api.php` | API key + endpoints staff cũ | ✅ sẽ MỞ RỘNG (không viết lại) |
+| n8n | Tự động hóa workflow | ✅ đang chạy |
+| Railway | XeLaTeX, Puppeteer (compute riêng) | ✅ chỉ dùng cho compile, không lưu data |
+| Zalo OA | Đã có | ✅ |
+| ZNS | Cần đăng ký + duyệt template | 🔄 sẽ làm song song |
+| API key | `ThayHai_BaoMat_2026!@#` | ✅ dùng lại key cũ |
+
+## 👥 Vai trò người dùng
+
+| Vai trò | Người | Quyền |
+|---|---|---|
+| **Chủ trung tâm** | Thầy Hải | Toàn quyền: dashboard, tài chính, nhân sự |
+| **Quản lý** | Cô Mai | Lớp học, lịch dạy, ghi danh HS, điểm danh |
+| **Thủ quỹ** | Chị Lan | Thu chi, học phí, báo cáo tài chính |
+| **Giáo viên** | Thầy Nam, Cô Hoa, Thầy Long, Cô Vân | Điểm danh + giao BTVN cho lớp được phân |
+| **Phụ huynh** | (~150 phụ huynh) | Xem điểm danh, kết quả test, học phí của con |
+
+## 💰 Mô hình lương GV
+
+- **Lương cứng:** 8 buổi/tháng × đơn giá GV
+- **Thưởng**: tỷ lệ HS đi học, dạy phụ trội, đúng giờ...
+- Mỗi buổi dạy thực tế = +1 record vào bảng `hp_teacher_sessions`
+- Lương tháng = tổng buổi × đơn giá + thưởng - phạt (nếu có)
+
+## 🗄 Database Schema
+
+Xem chi tiết SQL trong `database/migrations/`. Các bảng chính:
+
+- `hp_attendance` — Điểm danh từng HS từng buổi
+- `hp_tuition` — Học phí tháng của HS
+- `hp_tuition_payments` — Lịch sử thanh toán
+- `hp_classes` — Thông tin lớp
+- `hp_class_sessions` — Buổi học (đã/sắp diễn ra)
+- `hp_class_teachers` — Quan hệ nhiều-nhiều: 1 lớp có thể có nhiều GV
+- `hp_homework` — Bài tập về nhà
+- `hp_teacher_sessions` — Buổi dạy thực tế của GV (để tính lương)
+- `hp_salary_bonus` — Thưởng/phạt GV
+- `hp_expenses` — Chi phí vận hành (điện, nước, mặt bằng, in ấn)
+- `hp_extra_fees` — Phụ thu (tài liệu, dụng cụ...)
+
+## 🛣 Lộ trình triển khai (5 giai đoạn, 8-10 tuần)
+
+### **GIAI ĐOẠN 1: Database Foundation** (1 ngày)
+- [ ] Chạy migration tạo 11 bảng MySQL
+- [ ] Insert data mẫu để test
+- [ ] Verify schema với `SHOW TABLES`
+
+### **GIAI ĐOẠN 2: WordPress Plugin API** (3-5 ngày)
+- [ ] Mở rộng plugin `tutor-lms-staff-api.php`
+- [ ] Endpoints điểm danh: POST/GET `/attendance`
+- [ ] Endpoints học phí: GET `/tuition`, POST `/tuition/payment`
+- [ ] Endpoints lớp: GET `/classes`, GET `/classes/{code}/students`
+- [ ] Endpoints lương GV: GET `/teacher/{id}/salary`
+- [ ] Test với Postman/curl
+
+### **GIAI ĐOẠN 3: App Giáo Viên (PWA)** (1 tuần)
+- [ ] 4 tab: Trang chủ · Lịch dạy · Nhiệm vụ · Lương
+- [ ] Điểm danh 1-click (Có/Vắng/Muộn)
+- [ ] Giao BTVN
+- [ ] Hiển thị lương real-time
+- [ ] Task tự động đánh dấu xong khi điểm danh
+
+### **GIAI ĐOẠN 4: App Thủ Quỹ + Quản Lý** (2 tuần)
+- [ ] App Thủ quỹ: thu học phí, sổ thu chi, báo cáo
+- [ ] App Quản lý: lớp học, lịch dạy, ghi danh HS
+- [ ] n8n workflow: trigger ZNS khi có HS vắng
+- [ ] n8n workflow: trigger ZNS nhắc học phí
+
+### **GIAI ĐOẠN 5: PWA Phụ Huynh + Bỏ EasyEdu** (2-3 tuần)
+- [ ] Cài Super PWA plugin
+- [ ] Trang phụ huynh xem thông tin con
+- [ ] Push notification
+- [ ] Migration dữ liệu từ EasyEdu
+- [ ] Hủy gói EasyEdu
+
+## ⚠️ Quy tắc quan trọng
+
+1. **KHÔNG kết nối thẳng app → MySQL.** Luôn qua REST API.
+2. **KHÔNG lưu data ở Google Sheets/Railway.** MySQL là duy nhất.
+3. **KHÔNG tạo bảng mới khi đã có bảng tương đương.** Mở rộng `wp_users`, `wp_usermeta` trước.
+4. **API key bắt buộc** cho mọi endpoint — header `X-API-Key`.
+5. **Test trên staging** trước khi deploy production (toanhinh.com).
+6. **Backup MySQL** trước mỗi migration.
+7. **Plugin PHP** ở folder `wp-plugin/` — upload lên `wp-content/plugins/` của Hostinger.
+
+## 🚀 Cách bắt đầu task mới với Claude Code
+
+Khi gửi task cho Claude Code, hãy reference:
+- File này (`CLAUDE.md`) cho bối cảnh chung
+- File trong `docs/` cho chi tiết từng phần
+- File migration trong `database/migrations/` đã đặt sẵn
+
+Ví dụ prompt:
+```
+Đọc CLAUDE.md, sau đó:
+1. Review database/migrations/001_initial_schema.sql
+2. Tạo plugin wp-plugin/hp-api.php với endpoint POST /attendance
+3. Test bằng curl với data mẫu
+```
+
+## 📂 Cấu trúc thư mục
+
+```
+hung-phuong-system/
+├── CLAUDE.md                    ← File này (đọc đầu tiên)
+├── README.md                    ← Hướng dẫn nhanh
+├── database/
+│   ├── migrations/              ← SQL tạo bảng theo thứ tự
+│   └── seed-data.sql            ← Data mẫu để test
+├── wp-plugin/
+│   ├── hp-api.php               ← Plugin chính (mở rộng staff-api)
+│   └── includes/                ← Các file con theo module
+├── apps/
+│   ├── teacher/                 ← App Giáo viên (PWA)
+│   ├── cashier/                 ← App Thủ quỹ
+│   ├── manager/                 ← App Quản lý
+│   └── parent-pwa/              ← PWA Phụ huynh
+├── n8n-workflows/               ← JSON workflow để import vào n8n
+└── docs/
+    ├── api-reference.md         ← Tài liệu API
+    ├── deployment.md            ← Cách deploy lên Hostinger
+    └── decisions.md             ← Lý do chọn từng giải pháp
+```
+
+## 🔐 Thông tin nhạy cảm
+
+KHÔNG commit vào git:
+- API key thực
+- MySQL password
+- Hostinger credentials
+- ZNS API token
+
+Dùng file `.env` (đã có trong `.gitignore`) cho các giá trị này.
+
+---
+
+**Liên hệ:** Thầy Hải (Chủ trung tâm)
+**Bắt đầu:** April 2026
+
+---
 
 ## 🌐 Hạ tầng dịch vụ thực tế (UPDATED)
 
